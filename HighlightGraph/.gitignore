@@ -1,0 +1,27 @@
+.DS_Store
+node_modules
+dist
+__pycache__
+package-lock.json
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+radiationvis_collect.log
+radiationvis_err.log
+radiationvis_info.log
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.pyc
