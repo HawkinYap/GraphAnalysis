@@ -1,6 +1,8 @@
 <template>
   <div class="body">
     <div class="content">
+      
+      <p id="second">{{second}} S</p>
       <div class="graph-container"></div>
       <div class="control-container">
         <div class="button-container">
@@ -28,6 +30,8 @@ export default {
       svg: null,
       svgWidth: null,
       svgHeight: null,
+      second: 1,
+      interval: null,
     }
   },
   mounted() {
@@ -40,9 +44,19 @@ export default {
   },
   methods: {
     initImages() {
-      for(let i=1; i<=14; i++) {
+      for(let i=1; i<=5; i++) {
         this.images.push("graph" + i);
       }
+    },
+    initInterval() {
+      this.second = 1;
+      this.interval = setInterval(() => {
+        if(this.second <= 0) {
+          this.next();
+          return;
+        }
+        this.second -= 1;
+      }, 1000)
     },
     getSize() {
       let parentNode = document.querySelector(".graph-container");
@@ -77,7 +91,7 @@ export default {
           translate(${(_this.width - svgWidth) / 2}, ${(_this.height - svgHeight) / 2})
           scale(${scaleNumber}, ${scaleNumber})
         `);
-        
+        _this.initInterval();
         _this.drawRectangle();
       });
     },
@@ -143,6 +157,7 @@ export default {
     },
     next() {
       console.log(this.current)
+      clearInterval(this.interval);
       if(this.current >= this.images.length-1) {
         alert("最后一张...");
         return;
@@ -185,6 +200,14 @@ export default {
 .content {
   width: 100%;
   height: 800px;
+}
+#second {
+  position: absolute;
+  left: 5%;
+  top: 10%;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
 }
 .graph-container {
   height: 80%;

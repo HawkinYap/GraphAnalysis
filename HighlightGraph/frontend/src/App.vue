@@ -30,9 +30,9 @@ export default {
 </script>
 
 <style>
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 html, body, #app {
   width: 100%;
   height: 100%;
