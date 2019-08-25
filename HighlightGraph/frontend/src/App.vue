@@ -33,11 +33,12 @@ export default {
 /* * {
   border: 1px solid red;
 } */
-html, body, #app {
+html, body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 .header {
   width: 100%;

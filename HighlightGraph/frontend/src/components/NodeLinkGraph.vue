@@ -95,6 +95,9 @@ export default {
           translate(${(_this.width - svgWidth) / 2}, ${(_this.height - svgHeight) / 2})
           scale(${scaleNumber}, ${scaleNumber})
         `);
+        _this.svg.style("position", "absolute")
+          .style("left", 0)
+          .style("top", 0);
         _this.initInterval();
         _this.drawRectangle();
       });
@@ -206,7 +209,6 @@ export default {
 }
 .content {
   width: 100%;
-  height: 800px;
 }
 .progress-container {
   text-align: center;
@@ -214,16 +216,17 @@ export default {
 #second {
   position: absolute;
   left: 5%;
-  top: 10%;
+  top: 12%;
   font-size: 30px;
   font-weight: bold;
   color: #ccc;
 }
 .graph-container {
   width: 70%;
-  height: 90%;
+  height: 720px;
   margin: 50px auto;
   border: 1px solid black;
+  position: relative;
 }
 .graph-container >>> .selected {
  fill: red;
@@ -237,6 +240,7 @@ export default {
   width: 100px;
   height: 50px;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 /* #redo {
   float: left;

@@ -188,17 +188,10 @@ export default {
 }
 .content {
   width: 100%;
-  height: 800px;
 }
-/* .graph-container {
-  position: relative;
-  height: 80%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-} */
 .graph-container {
   width: 70%;
-  height: 90%;
+  height: 720px;
   margin: 50px auto;
   border: 1px solid black;
   position: relative;
@@ -211,6 +204,7 @@ export default {
   width: 100px;
   height: 50px;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 #previous {
   float: left;
