@@ -60,15 +60,18 @@ export default {
         let scaleNumber = d3.min([(_this.width - margin.left - margin.right) / svgWidth, (_this.height - margin.top - margin.bottom) / svgHeight]);
         _this.svgWidth = svgWidth * scaleNumber;
         _this.svgHeight = svgHeight * scaleNumber;
-        _this.svg.attr("transform", `
-          translate(${(_this.width - svgWidth) / 2}, ${(_this.height - svgHeight) / 2})
-          scale(${scaleNumber}, ${scaleNumber})
-        `);
-        
-        // _this.svg.selectAll("ellipse").style("fill", "red")
-        _this.svg.style("position", "absolute")
-          .style("left", 0)
-          .style("top", 0);
+        // _this.svg.attr("transform", `
+        //   translate(${(_this.width - svgWidth) / 2}, ${(_this.height - svgHeight) / 2})
+        //   scale(${scaleNumber}, ${scaleNumber})
+        // `);
+        // _this.svg.style("position", "absolute")
+        //   .style("left", 0)
+        //   .style("top", 0);
+        _this.svg.attr("width", _this.svgWidth)
+        .attr("height", _this.svgHeight)
+        .style("position", "absolute")
+        .style("left", (_this.width - _this.svgWidth) / 2 + "px")
+        .style("top", (_this.height - _this.svgHeight) / 2 + "px");
         _this.createHeatmap();
       });
     },
