@@ -56,7 +56,8 @@ export default {
         _this.svg = d3.select(".graph-container svg");
         let svgWidth = _this.svg.attr("width");
         let svgHeight = _this.svg.attr("height");
-        let scaleNumber = d3.min([_this.width / svgWidth, _this.height / svgHeight]);
+        let margin = {left: 20, right: 20, top: 20, bottom: 20}
+        let scaleNumber = d3.min([(_this.width - margin.left - margin.right) / svgWidth, (_this.height - margin.top - margin.bottom) / svgHeight]);
         _this.svgWidth = svgWidth * scaleNumber;
         _this.svgHeight = svgHeight * scaleNumber;
         _this.svg.attr("transform", `
@@ -79,7 +80,7 @@ export default {
         .style("width", this.svgWidth + "px")
         .style("height", this.svgHeight + "px")
         .style("position", "absolute")
-        .style("top", 0)
+        .style("top", (this.height - this.svgHeight) / 2 + "px")
         .style("left", (this.width - this.svgWidth) / 2 + "px")
         .style("fill", 'red')
 
@@ -189,11 +190,18 @@ export default {
   width: 100%;
   height: 800px;
 }
-.graph-container {
+/* .graph-container {
   position: relative;
   height: 80%;
   margin-top: 50px;
   margin-bottom: 50px;
+} */
+.graph-container {
+  width: 70%;
+  height: 90%;
+  margin: 50px auto;
+  border: 1px solid black;
+  position: relative;
 }
 .button-container {
   width: 500px;

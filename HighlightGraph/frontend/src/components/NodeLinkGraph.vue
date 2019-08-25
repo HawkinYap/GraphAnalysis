@@ -1,7 +1,9 @@
 <template>
   <div class="body">
     <div class="content">
-      
+      <div class="progress-container">
+        <el-progress :percentage="percentage"></el-progress>
+      </div>
       <p id="second">{{second}} S</p>
       <div class="graph-container"></div>
       <div class="control-container">
@@ -30,8 +32,9 @@ export default {
       svg: null,
       svgWidth: null,
       svgHeight: null,
-      second: 1,
+      second: 10,
       interval: null,
+      percentage: 0,
     }
   },
   mounted() {
@@ -44,12 +47,12 @@ export default {
   },
   methods: {
     initImages() {
-      for(let i=1; i<=5; i++) {
+      for(let i=1; i<=14; i++) {
         this.images.push("graph" + i);
       }
     },
     initInterval() {
-      this.second = 1;
+      this.second = 10;
       this.interval = setInterval(() => {
         if(this.second <= 0) {
           this.next();
@@ -84,7 +87,8 @@ export default {
         _this.svg = d3.select(".graph-container svg");
         let svgWidth = _this.svg.attr("width");
         let svgHeight = _this.svg.attr("height");
-        let scaleNumber = d3.min([_this.width / svgWidth, _this.height / svgHeight]);
+        let margin = {left: 20, right: 20, top: 20, bottom: 20}
+        let scaleNumber = d3.min([(_this.width - margin.left - margin.right) / svgWidth, (_this.height - margin.top - margin.bottom) / svgHeight]);
         _this.svgWidth = svgWidth * scaleNumber;
         _this.svgHeight = svgHeight * scaleNumber;
         _this.svg.attr("transform", `
@@ -158,8 +162,11 @@ export default {
     next() {
       console.log(this.current)
       clearInterval(this.interval);
+      this.percentage += Math.round((100 / this.images.length));
+      if (this.percentage > 100) {
+        this.percentage = 100;
+      }
       if(this.current >= this.images.length-1) {
-        alert("最后一张...");
         return;
       }
       this.current += 1;
@@ -201,6 +208,9 @@ export default {
   width: 100%;
   height: 800px;
 }
+.progress-container {
+  text-align: center;
+}
 #second {
   position: absolute;
   left: 5%;
@@ -210,9 +220,10 @@ export default {
   color: #ccc;
 }
 .graph-container {
-  height: 80%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 70%;
+  height: 90%;
+  margin: 50px auto;
+  border: 1px solid black;
 }
 .graph-container >>> .selected {
  fill: red;
