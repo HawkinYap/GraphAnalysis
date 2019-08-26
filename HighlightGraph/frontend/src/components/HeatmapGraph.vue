@@ -39,9 +39,12 @@ export default {
   },
   methods: {
     initImages() {
-      for(let i=1; i<=14; i++) {
-        this.images.push("graph" + i);
-      }
+      this.images = [
+        'r-airline', 'r-cpanA', 'r-lesmiserable', 'r-us-air',
+        's-celegans', 's-codeminder1', 's-codeminder2', 's-codeminder3', 's-codeminder4', 's-codeminder5',
+        's-eurosis', 'si-simulation1', 'si-simulation2', 'si-simulation3', 'si-simulation4', 'si-simulation5',
+        's-jazz', 's-karate', 's-spdata', 's-us-air2'
+      ]
     },
     getSize() {
       let parentNode = document.querySelector(".graph-container");

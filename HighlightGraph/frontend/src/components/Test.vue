@@ -19,7 +19,7 @@
 import * as d3 from "d3"
 import axios from '../assets/js/http'
 export default {
-  name: 'NodeLinkGraph',
+  name: 'Test',
   props: {
   },
   data() {
@@ -127,33 +127,10 @@ export default {
           .style("fill-opacity", 0.3)
           .style("stroke", "#fff");
 
-          axios.post("/save/", {
-            name: _this.imageName,
-            x1: s[0][0],
-            y1: s[0][1],
-            x2: s[1][0],
-            y2: s[1][1]
-          }).then(response => {
-            let responseData = response.data;
-            if(responseData.state == 'fail') {
-              alert("error");
-            } else {
-              console.log(responseData)
-            }
-          })
-
-          // let transform = document.querySelector("svg g#Edges").parentNode.getAttribute("transform");
-          // console.log(transform)
-
           d3.selectAll("circle").nodes().forEach(d => {
             let circle = d3.select(d);
             let x = parseFloat(circle.attr("cx"));
             let y = parseFloat(circle.attr("cy"));
-
-            // translate(-14.5,160.5) scale(1,-1)
-            // translate(-19.5,253.045) scale(1,-1)
-            // x = x - 19.5;
-            // y = -(y - 253.045);
             
             if(x > s[0][0] && x < s[1][0] && y > s[0][1] && y < s[1][1]) {
               circle.classed("selected", true);
@@ -165,20 +142,13 @@ export default {
     next() {
       console.log(this.current)
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / 20));
+      this.percentage += Math.round((100 / 5));
       if (this.percentage > 100) {
         this.percentage = 100;
-      }
-      if(this.current >= this.images.length-1) {
+        this.$router.push({ name: 'home', params: { msg: 'test' }});
         return;
       }
       this.current += 1;
-      if(this.current % 20 == 0 && this.current != 0) {
-        setTimeout(() => {
-          this.$router.push('/home');
-        }, 1000)
-        return;
-      }
       d3.select(".graph-container").selectAll("svg").remove();
       this.loadSvg();
     },
@@ -190,12 +160,6 @@ export default {
     //   this.drawRectangle();
     // }
   },
-  // watch: {
-  //   imagePath(n, o) {
-  //     d3.select(".graph-container").selectAll("svg").remove();
-  //     this.loadSvg();
-  //   }
-  // },
   computed: {
     imagePath: function() {
       return "/static/images/" + this.images[this.current] + ".svg";
