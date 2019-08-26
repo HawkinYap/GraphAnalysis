@@ -9,7 +9,7 @@
       <div class="control-container">
         <div class="button-container">
           <!-- <input type="button" id="redo" class="button" value="Redo" @click="redo();"> -->
-          <input type="button" id="next" class="button" value="Next" @click="next();">
+          <input type="button" id="next" class="button" value="Submit" @click="next();">
         </div>
       </div>
     </div>
@@ -41,7 +41,6 @@ export default {
     this.$nextTick(() => {
       this.initImages();
       this.shuffle(this.images);
-      this.getSize();
       this.loadSvg();
     })
   },
@@ -82,6 +81,7 @@ export default {
     },
     loadSvg() {
       let _this = this;
+      this.getSize();
       d3.xml(_this.imagePath).then(function(xml) {
         document.querySelector(".graph-container").appendChild(xml.documentElement);
         _this.svg = d3.select(".graph-container svg");
@@ -163,7 +163,7 @@ export default {
     next() {
       console.log(this.current)
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / this.images.length));
+      this.percentage += Math.round((100 / 5));
       if (this.percentage > 100) {
         this.percentage = 100;
       }
@@ -171,6 +171,12 @@ export default {
         return;
       }
       this.current += 1;
+      if(this.current % 5 == 0 && this.current != 0) {
+        setTimeout(() => {
+          this.$router.push('/home');
+        }, 1000)
+        return;
+      }
       d3.select(".graph-container").selectAll("svg").remove();
       this.loadSvg();
     },
@@ -239,6 +245,52 @@ export default {
   height: 50px;
   font-size: 18px;
   margin-bottom: 20px;
+}
+.processing_container {
+  text-align: center;
+  margin-top: 15%;
+}
+#processing {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ccc;
+}
+.mutiple-progress-container {
+  text-align: center;
+  margin-top: 100px;
+}
+.mutiple-progress {
+  margin: 0 auto;
+  vertical-align: middle;
+  display: inline;
+}
+.progress {
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.circle-container {
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  position: relative;
+  vertical-align: middle;
+}
+.circle {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+.number {
+  font-size: 25px;
+  color: #fff;
+  line-height: 50px;
+  margin-top: -50px;
 }
 /* #redo {
   float: left;

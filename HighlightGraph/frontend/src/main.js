@@ -4,6 +4,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import VueRouter from 'vue-router'
 
 import App from './App.vue'
+import Home from './components/Home'
 import NodeLinkGraph from './components/NodeLinkGraph'
 import HeatmapGraph from './components/HeatmapGraph'
 
@@ -15,9 +16,10 @@ Vue.use(VueRouter)
 
 var router = new VueRouter({
   routes: [
-    { path: '/home', component: NodeLinkGraph },
+    { path: '/nodelink', component: NodeLinkGraph },
     { path: '/heatmap', component: HeatmapGraph },
-    { path:'/', redirect:'/home' }
+    { path: '/home', component: Home },
+    { path:'/', redirect:'/nodelink' }
   ]
 });
 
