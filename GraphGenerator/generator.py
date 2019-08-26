@@ -1,6 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
+import math
 
 def ER_Generator(nodes, probablity):
     # generate a graph which has n=20 nodes, probablity p = 0.2.
@@ -50,32 +51,54 @@ def Community_Connection(G1, G2, edges_num):
         G.add_edge(x, y)
     return(G)
 
+def Balloon_Like_Connection(G):
+    '''
+    :param G: graph
+    :return: graph + balloon_like subgraph
+    '''
+    print(len(G))
+    percentage_choice = [0.3, 0.2, 0.1]
+    percentage = random.choice(percentage_choice)
+    balloon_community = math.floor(len(G) * percentage)
+    nodes, neighbour, probability = balloon_community, 4, 0.3
+    G_balloon = WS_Generator(nodes, neighbour, probability)
+    seed_node = random.randint(0, len(G_balloon)-1)
+    G_balloon.add_edge(seed_node, len(G_balloon))
+    print(list(G_balloon.nodes))
+    pos = nx.spring_layout(G_balloon)
+    nx.draw(G_balloon, pos, with_labels=True, node_size=30)
+    plt.show()
 
 def Generate_Data():
     # nodes, probablity = 50, 0.2
     # ER_Generator(nodes, probablity)
 
-    nodes1, nodes2, neighbour, probability = 30, 30, 4, 0.3
-    G1 = WS_Generator(nodes1, neighbour, probability)
-    G2 = WS_Generator(nodes1, neighbour, probability)
+    # nodes1, nodes2, neighbour, probability = 30, 30, 4, 0.3
+    # G1 = WS_Generator(nodes1, neighbour, probability)
+    # G2 = WS_Generator(nodes1, neighbour, probability)
 
 
     # nodes1, nodes2, m, seed = 5, 5, 3, None
     # G1 = BA_Generator(nodes1, m, seed)
     # G2 = BA_Generator(nodes2, m, seed)
 
-
+    # get community connection
     # G = nx.disjoint_union(G1,G2)
     # print(list(G.nodes))
     # print(list(G.edges))
-    edges_num = 10
-    G = Community_Connection(G1, G2, edges_num)
+    # edges_num = 10
+    # G = Community_Connection(G1, G2, edges_num)
     # pos = nx.spring_layout(G)
     # nx.draw(G, pos, with_labels=True, node_size=30)
     # plt.show()
 
-    path = '../SimulationDataset/simulation1.gml'
-    Save_GML(G, path)
+    # get balloon_like connection
+    nodes, neighbour, probability = 200, 4, 0.3
+    G = WS_Generator(nodes, neighbour, probability)
+    Balloon_Like_Connection(G)
+
+    # path = '../SimulationDataset/simulation1.gml'
+    # Save_GML(G, path)
 
 
 def Save_GML(graph, path):
