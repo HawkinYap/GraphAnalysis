@@ -8,6 +8,7 @@
       <div class="graph-container"></div>
       <div class="control-container">
         <div class="button-container">
+          <input type="button" id="redo" class="button" value="Redo" @click="redo();">
           <input type="button" id="next" class="button" value="Submit" @click="next();">
         </div>
       </div>
@@ -34,6 +35,7 @@ export default {
       second: 10,
       interval: null,
       percentage: 0,
+      rectangleInfo: [],
     }
   },
   mounted() {
@@ -99,6 +101,9 @@ export default {
         .style("left", (_this.width - _this.svgWidth) / 2 + "px")
         .style("top", (_this.height - _this.svgHeight) / 2 + "px");
         _this.initInterval();
+        document.querySelector("#second").style.visibility="visible";
+        document.querySelector("#redo").removeAttribute("disabled");
+        document.querySelector("#next").removeAttribute("disabled");
         _this.drawRectangle();
       });
     },
@@ -127,19 +132,12 @@ export default {
           .style("fill-opacity", 0.3)
           .style("stroke", "#fff");
 
-          axios.post("/save/", {
+          _this.rectangleInfo.push({
             name: _this.imageName,
             x1: s[0][0],
             y1: s[0][1],
             x2: s[1][0],
             y2: s[1][1]
-          }).then(response => {
-            let responseData = response.data;
-            if(responseData.state == 'fail') {
-              alert("error");
-            } else {
-              console.log(responseData)
-            }
           })
 
           // let transform = document.querySelector("svg g#Edges").parentNode.getAttribute("transform");
@@ -164,31 +162,63 @@ export default {
     },
     next() {
       console.log(this.current)
+      this.rectangleInfo.forEach(d => {
+        axios.post("/save/", {
+          name: d.name,
+          x1: d.x1,
+          y1: d.y1,
+          x2: d.x2,
+          y2: d.y2
+        }).then(response => {
+          let responseData = response.data;
+          if(responseData.state == 'fail') {
+            alert("error");
+          } else {
+            console.log(responseData)
+          }
+        })
+      })
+      this.rectangleInfo = [];
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / 20));
+      this.percentage += Math.round((100 / this.images.length));
       if (this.percentage > 100) {
         this.percentage = 100;
       }
       if(this.current >= this.images.length-1) {
-        return;
-      }
-      this.current += 1;
-      if(this.current % 20 == 0 && this.current != 0) {
         setTimeout(() => {
-          this.$router.push('/home');
+          this.$router.push({ name: 'home', params: { msg: 'expertment' }});
         }, 1000)
         return;
+      } else {
+        this.current += 1;
+        d3.select(".graph-container").selectAll("svg").remove();
+        document.querySelector("#second").style.visibility = "hidden";
+        document.querySelector("#redo").disabled = "disabled"
+        document.querySelector("#next").disabled = "disabled"
+        setTimeout(() => {
+          this.loadSvg();
+        }, 2000)
       }
-      d3.select(".graph-container").selectAll("svg").remove();
-      this.loadSvg();
     },
-    // redo() {
-    //   let rects = d3.select(".graph-container .rectangles").selectAll("rect").nodes();
-    //   d3.select(rects[rects.length - 1]).remove();
-    //   d3.select(".graph-container .brush").remove();
-    //   d3.selectAll("circle").classed("selected", false)
-    //   this.drawRectangle();
-    // }
+    redo() {
+      let rects = d3.select(".graph-container .rectangles").selectAll("rect").nodes();
+      d3.select(rects[rects.length - 1]).remove();
+      d3.select(".graph-container .brush").remove();
+      // d3.selectAll("circle").classed("selected", false)
+      if(this.rectangleInfo.length > 0) {
+        let rectangle = this.rectangleInfo[this.rectangleInfo.length-1];
+        this.rectangleInfo.splice(this.rectangleInfo.length-1, 1);
+        d3.selectAll("circle").nodes().forEach(d => {
+          let circle = d3.select(d);
+          let x = parseFloat(circle.attr("cx"));
+          let y = parseFloat(circle.attr("cy"));
+          if(x > rectangle.x1 && x < rectangle.x2 && y > rectangle.y1 && y < rectangle.y2) {
+            circle.classed("selected", false);
+          }
+        })
+      }
+      this.drawRectangle();
+    }
   },
   // watch: {
   //   imagePath(n, o) {
@@ -294,10 +324,10 @@ export default {
   line-height: 50px;
   margin-top: -50px;
 }
-/* #redo {
+#redo {
   float: left;
 }
 #next {
   float: right;
-} */
+}
 </style>

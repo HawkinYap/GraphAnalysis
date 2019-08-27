@@ -19,22 +19,22 @@
             <el-progress :show-text="false" :stroke-width="20" :percentage="test_percentage" color="#ccc"></el-progress>
           </div>
           <div class="circle-container">
-            <div class="circle"></div>
-            <p class="number">3</p>
-            <div>
-                <select>
-                    <option>A</option>
-                    <option>B</option>
-                    <option>C</option>
+            <div class="circle" @click="toExperiment();"></div>
+            <p class="number" @click="toExperiment();">3</p>
+            <!-- <div>
+                <select @change="changeExperiment();">
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
                 </select>
-            </div>
+            </div> -->
           </div>
           <div class="progress">
             <el-progress :show-text="false" :stroke-width="20" :percentage="experiment_percentage" color="#ccc"></el-progress>
           </div>
           <div class="circle-container">
-            <div class="circle"></div>
-            <p class="number">E</p>
+            <div class="circle" @click="toHeatmap();"></div>
+            <p class="number" @click="toHeatmap();">E</p>
           </div>
         </div>
       </div>
@@ -66,7 +66,12 @@ export default {
 				case 'test':
 					this.intro_percentage = 100;
 					this.test_percentage = 100;
-					break;
+          break;
+        case 'expertment':
+          this.intro_percentage = 100;
+          this.test_percentage = 100;
+          this.experiment_percentage = 100;
+          break;
 				default:
 					break;
 			}
@@ -82,7 +87,17 @@ export default {
 				return;
 			}
 			this.$router.push('/test');
-		}
+		},
+		toExperiment() {
+			if(this.intro_percentage == 0 || this.test_percentage == 0) {
+				alert("请按序操作...")
+				return;
+			}
+			this.$router.push('/nodelink');
+    },
+    toHeatmap() {
+      this.$router.push('/heatmap');
+    }
   },
   computed: {
   }

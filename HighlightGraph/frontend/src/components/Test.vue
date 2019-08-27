@@ -8,6 +8,7 @@
       <div class="graph-container"></div>
       <div class="control-container">
         <div class="button-container">
+          <input type="button" id="redo" class="button" value="Redo" @click="redo();">
           <input type="button" id="next" class="button" value="Submit" @click="next();">
         </div>
       </div>
@@ -34,6 +35,8 @@ export default {
       second: 10,
       interval: null,
       percentage: 0,
+      rectangleInfo: [],
+      testNum: 5,
     }
   },
   mounted() {
@@ -99,6 +102,9 @@ export default {
         .style("left", (_this.width - _this.svgWidth) / 2 + "px")
         .style("top", (_this.height - _this.svgHeight) / 2 + "px");
         _this.initInterval();
+        document.querySelector("#second").style.visibility="visible";
+        document.querySelector("#redo").removeAttribute("disabled");
+        document.querySelector("#next").removeAttribute("disabled");
         _this.drawRectangle();
       });
     },
@@ -127,6 +133,14 @@ export default {
           .style("fill-opacity", 0.3)
           .style("stroke", "#fff");
 
+          _this.rectangleInfo.push({
+            name: _this.imageName,
+            x1: s[0][0],
+            y1: s[0][1],
+            x2: s[1][0],
+            y2: s[1][1]
+          })
+
           d3.selectAll("circle").nodes().forEach(d => {
             let circle = d3.select(d);
             let x = parseFloat(circle.attr("cx"));
@@ -141,24 +155,47 @@ export default {
     },
     next() {
       console.log(this.current)
+      this.rectangleInfo = [];
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / 5));
+      this.percentage += Math.round((100 / this.testNum));
       if (this.percentage > 100) {
         this.percentage = 100;
-        this.$router.push({ name: 'home', params: { msg: 'test' }});
-        return;
       }
-      this.current += 1;
-      d3.select(".graph-container").selectAll("svg").remove();
-      this.loadSvg();
+      if(this.current >= this.testNum-1) {
+        setTimeout(() => {
+          this.$router.push({ name: 'home', params: { msg: 'test' }});
+        }, 1000)
+        return;
+      } else {
+        this.current += 1;
+        d3.select(".graph-container").selectAll("svg").remove();
+        document.querySelector("#second").style.visibility = "hidden";
+        document.querySelector("#redo").disabled = "disabled"
+        document.querySelector("#next").disabled = "disabled"
+        setTimeout(() => {
+          this.loadSvg();
+        }, 2000)
+      }
     },
-    // redo() {
-    //   let rects = d3.select(".graph-container .rectangles").selectAll("rect").nodes();
-    //   d3.select(rects[rects.length - 1]).remove();
-    //   d3.select(".graph-container .brush").remove();
-    //   d3.selectAll("circle").classed("selected", false)
-    //   this.drawRectangle();
-    // }
+    redo() {
+      let rects = d3.select(".graph-container .rectangles").selectAll("rect").nodes();
+      d3.select(rects[rects.length - 1]).remove();
+      d3.select(".graph-container .brush").remove();
+      // d3.selectAll("circle").classed("selected", false)
+      if(this.rectangleInfo.length > 0) {
+        let rectangle = this.rectangleInfo[this.rectangleInfo.length-1];
+        this.rectangleInfo.splice(this.rectangleInfo.length-1, 1);
+        d3.selectAll("circle").nodes().forEach(d => {
+          let circle = d3.select(d);
+          let x = parseFloat(circle.attr("cx"));
+          let y = parseFloat(circle.attr("cy"));
+          if(x > rectangle.x1 && x < rectangle.x2 && y > rectangle.y1 && y < rectangle.y2) {
+            circle.classed("selected", false);
+          }
+        })
+      }
+      this.drawRectangle();
+    }
   },
   computed: {
     imagePath: function() {
@@ -258,10 +295,10 @@ export default {
   line-height: 50px;
   margin-top: -50px;
 }
-/* #redo {
+#redo {
   float: left;
 }
 #next {
   float: right;
-} */
+}
 </style>

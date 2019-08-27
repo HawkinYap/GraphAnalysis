@@ -1,6 +1,6 @@
 <template>
     <div>
-        <input type="button" name="" id="" @click="toHome();">
+        <input type="button" value="return" name="" id="" @click="toHome();">
     </div>
 </template>
 

@@ -23,7 +23,7 @@ var router = new VueRouter({
     { path: '/test', name: 'test', component: Test },
     { path: '/heatmap', name: 'heatmap', component: HeatmapGraph },
     { path: '/home', name: 'home', component: Home },
-    { path:'/', redirect:'/nodelink' }
+    { path:'/', redirect:'/home' }
   ]
 });
 
