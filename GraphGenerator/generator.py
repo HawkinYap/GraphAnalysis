@@ -51,6 +51,7 @@ def Community_Connection(G1, G2, edges_num):
         G.add_edge(x, y)
     return(G)
 
+# A community is generated and randomly connected to a node
 def Balloon_Like_Connection(G):
     '''
     :param G: graph
@@ -60,14 +61,21 @@ def Balloon_Like_Connection(G):
     percentage_choice = [0.3, 0.2, 0.1]
     percentage = random.choice(percentage_choice)
     balloon_community = math.floor(len(G) * percentage)
-    nodes, neighbour, probability = balloon_community, 4, 0.3
+    print(balloon_community)
+    nodes, neighbour, probability = balloon_community, 4, 1.0
     G_balloon = WS_Generator(nodes, neighbour, probability)
     seed_node = random.randint(0, len(G_balloon)-1)
     G_balloon.add_edge(seed_node, len(G_balloon))
-    print(list(G_balloon.nodes))
-    pos = nx.spring_layout(G_balloon)
-    nx.draw(G_balloon, pos, with_labels=True, node_size=30)
-    plt.show()
+    # print(list(G_balloon.nodes))
+    # G = nx.compose(G, G_balloon)
+    # balloon_edge = len(list(G_balloon.edges))
+    # edge_percentage = random.choice(percentage_choice)
+    # G = Community_Connection(G, G_balloon, math.floor(edge_percentage * balloon_edge))
+    # print(list(G.nodes))
+    # pos = nx.spring_layout(G)
+    # nx.draw(G, pos, with_labels=True, node_size=30)
+    # plt.show()
+    return(G_balloon)
 
 def Generate_Data():
     # nodes, probablity = 50, 0.2
@@ -95,10 +103,10 @@ def Generate_Data():
     # get balloon_like connection
     nodes, neighbour, probability = 200, 4, 0.3
     G = WS_Generator(nodes, neighbour, probability)
-    Balloon_Like_Connection(G)
+    G = Balloon_Like_Connection(G)
 
-    # path = '../SimulationDataset/simulation1.gml'
-    # Save_GML(G, path)
+    path = '../SimulationDataset/simulation1.gml'
+    Save_GML(G, path)
 
 
 def Save_GML(graph, path):
