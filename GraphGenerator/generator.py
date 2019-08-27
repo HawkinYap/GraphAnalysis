@@ -30,8 +30,6 @@ def BA_Generator(nodes, m, seed):
     nx.draw(BA, pos, with_labels=False, node_size=30)
     return(BA)
 
-
-
 # Merge two subgraphs and add edges between them
 def Community_Connection(G1, G2, edges_num):
     '''
@@ -40,17 +38,57 @@ def Community_Connection(G1, G2, edges_num):
     :param edges_num: the edge number between two subgraphs
     :return: the joined graph
     '''
+
+    small_graph = min(len(list(G1.nodes)), len(list(G2.nodes)))
+
     G = nx.disjoint_union(G1, G2)
     node1 = list(G1.nodes)
-    len(node1)
+    # len(node1)
     node2 = list(G2.nodes)
     node2 = [*map(lambda x: x + len(G1), node2)]
-    print(node1, node2)
-    G1_nodes = random.sample(node1, edges_num)
-    G2_nodes = random.sample(node2, edges_num)
+    # print(node1, node2)
+
+    if edges_num <= small_graph:
+        print("hi")
+        G1_nodes = random.sample(node1, edges_num)
+        G2_nodes = random.sample(node2, edges_num)
+
+    else:
+        print("no")
+        print(edges_num, small_graph)
+        multiple = edges_num // small_graph + 1
+        print(multiple)
+        G1_nodes = random.sample(node1, edges_num)
+        node2_plus = node2 * multiple
+        G2_nodes = random.sample(node2_plus, edges_num)
 
     for x, y in zip(G1_nodes, G2_nodes):
         G.add_edge(x, y)
+    return(G)
+
+
+# Embed a star-like structure subgraph in the graph
+def Star_Like_Connection(G):
+    '''
+    :param G: graph
+    :return: graph + star_like subgraph
+    '''
+
+    percentage_choice = [0.15, 0.1, 0.05]
+    percentage = random.choice(percentage_choice)
+    star_ego = math.floor(len(G) * percentage)
+    star_node = range(0, star_ego)
+
+    Star = nx.Graph()
+    Star.add_nodes_from(star_node)
+    node_center = [len(list(Star.nodes))] * len(list(Star.nodes))
+    star_edge = list(zip(node_center, star_node))
+    Star.add_edges_from(star_edge)
+
+    percentage_node_choice = [1.5, 2, 3]
+    star_node = len(list(Star.nodes))
+    edge_percentage = random.choice(percentage_node_choice)
+    G = Community_Connection(G, Star, math.floor(edge_percentage * star_node))
     return(G)
 
 # A ego net is generated and randomly connected to a node
@@ -142,25 +180,32 @@ def Generate_Data():
     # G2 = WS_Generator(nodes1, neighbour, probability)
 
 
-    # nodes1, nodes2, m, seed = 5, 5, 3, None
-    # G1 = BA_Generator(nodes1, m, seed)
-    # G2 = BA_Generator(nodes2, m, seed)
+    nodes1, nodes2, m, seed = 30, 50, 4, None
+    G1 = BA_Generator(nodes1, m, seed)
+    G2 = BA_Generator(nodes2, m, seed)
 
     # get community connection
-    # G = nx.disjoint_union(G1,G2)
-    # print(list(G.nodes))
-    # print(list(G.edges))
-    # edges_num = 10
-    # G = Community_Connection(G1, G2, edges_num)
-    # pos = nx.spring_layout(G)
-    # nx.draw(G, pos, with_labels=True, node_size=30)
-    # plt.show()
+    G = nx.disjoint_union(G1,G2)
+    print(list(G.nodes))
+    print(list(G.edges))
+    edges_num = 30
+    G = Community_Connection(G1, G2, edges_num)
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=30)
+    plt.show()
 
     # get balloon_like connection
-    nodes, neighbour, probability = 200, 4, 0.3
-    G = WS_Generator(nodes, neighbour, probability)
+    # nodes, neighbour, probability = 60, 4, 0.3
+    # G = WS_Generator(nodes, neighbour, probability)
     # G = Balloon_Like_Community_Connection(G)
-    G = Balloon_Like_Ego_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    # G = Balloon_Like_Ego_Connection(G)
+    # G = Star_Like_Connection(G)
+    # G = Star_Like_Connection(G)
+    # G = Star_Like_Connection(G)
 
     path = '../SimulationDataset/simulation1.gml'
     Save_GML(G, path)
