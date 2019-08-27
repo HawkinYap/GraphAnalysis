@@ -30,6 +30,8 @@ def BA_Generator(nodes, m, seed):
     nx.draw(BA, pos, with_labels=False, node_size=30)
     return(BA)
 
+
+
 # Merge two subgraphs and add edges between them
 def Community_Connection(G1, G2, edges_num):
     '''
@@ -51,31 +53,85 @@ def Community_Connection(G1, G2, edges_num):
         G.add_edge(x, y)
     return(G)
 
-# A community is generated and randomly connected to a node
-def Balloon_Like_Connection(G):
+# A ego net is generated and randomly connected to a node
+def Balloon_Like_Ego_Connection(G):
+
     '''
     :param G: graph
-    :return: graph + balloon_like subgraph
+    :return: graph + balloon_like ego subgraph
     '''
-    print(len(G))
+
+    percentage_choice = [0.15, 0.1, 0.05]
+    percentage = random.choice(percentage_choice)
+    balloon_ego = math.floor(len(G) * percentage)
+    G_balloon = nx.complete_graph(balloon_ego)
+    # print(list(G_balloon.nodes))
+    G_balloon.add_edge(len(G_balloon), len(G_balloon) - 1)
+    print(list(G_balloon.nodes))
+
+    percentage_node_choice = [0.6, 0.4, 0.2]
+    balloon_node = len(list(G_balloon.nodes))
+    edge_percentage = random.choice(percentage_node_choice)
+    G = Community_Connection(G, G_balloon, math.floor(edge_percentage * balloon_node))
+    print(list(G.nodes))
+
+    test_edge = G.edges([len(G) - 1])
+    print(test_edge)
+    print(list(G.edges))
+
+    clean_edges = []
+    for e in test_edge:
+        print(e)
+        print(e[0], e[1])
+        if abs(e[1] - e[0]) != 1:
+            clean_edges.append(e)
+    print(clean_edges)
+    G.remove_edges_from(clean_edges)
+    print(list(G.edges))
+
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=30)
+    plt.show()
+    return (G)
+
+
+# A community is generated and randomly connected to a node
+def Balloon_Like_Community_Connection(G):
+
+    '''
+    :param G: graph
+    :return: graph + balloon_like community subgraph
+    '''
+
     percentage_choice = [0.3, 0.2, 0.1]
     percentage = random.choice(percentage_choice)
     balloon_community = math.floor(len(G) * percentage)
     print(balloon_community)
     nodes, neighbour, probability = balloon_community, 4, 1.0
     G_balloon = WS_Generator(nodes, neighbour, probability)
-    seed_node = random.randint(0, len(G_balloon)-1)
-    G_balloon.add_edge(seed_node, len(G_balloon))
-    # print(list(G_balloon.nodes))
+    # seed_node = random.randint(0, len(G_balloon)-1)
+    # G_balloon.add_edge(seed_node, len(G_balloon))
+    G_balloon.add_edge(len(G_balloon), len(G_balloon) - 1)
+    print(list(G_balloon.nodes))
+
+    test_edge = G.edges([len(G) - 1])
+    clean_edges = []
+    for e in test_edge:
+        print(e)
+        print(e[0], e[1])
+        if abs(e[1] - e[0]) != 1:
+            clean_edges.append(e)
+    G.remove_edges_from(clean_edges)
+
     # G = nx.compose(G, G_balloon)
-    # balloon_edge = len(list(G_balloon.edges))
-    # edge_percentage = random.choice(percentage_choice)
-    # G = Community_Connection(G, G_balloon, math.floor(edge_percentage * balloon_edge))
-    # print(list(G.nodes))
-    # pos = nx.spring_layout(G)
-    # nx.draw(G, pos, with_labels=True, node_size=30)
-    # plt.show()
-    return(G_balloon)
+    balloon_edge = len(list(G_balloon.edges))
+    edge_percentage = random.choice(percentage_choice)
+    G = Community_Connection(G, G_balloon, math.floor(edge_percentage * balloon_edge))
+    print(list(G.nodes))
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=30)
+    plt.show()
+    return(G)
 
 def Generate_Data():
     # nodes, probablity = 50, 0.2
@@ -103,7 +159,8 @@ def Generate_Data():
     # get balloon_like connection
     nodes, neighbour, probability = 200, 4, 0.3
     G = WS_Generator(nodes, neighbour, probability)
-    G = Balloon_Like_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    G = Balloon_Like_Ego_Connection(G)
 
     path = '../SimulationDataset/simulation1.gml'
     Save_GML(G, path)
