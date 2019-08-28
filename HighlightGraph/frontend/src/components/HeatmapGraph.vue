@@ -155,6 +155,8 @@ export default {
         .style("left", (_this.width - _this.svgWidth) / 2 + "px")
         .style("top", (_this.height - _this.svgHeight) / 2 + "px");
         _this.createHeatmap();
+        document.querySelector("#previous").removeAttribute("disabled");
+        document.querySelector("#next").removeAttribute("disabled");
       });
     },
     createHeatmap() {
@@ -248,6 +250,8 @@ export default {
       this.current += 1;
       d3.select(".graph-container").selectAll("svg").remove();
       d3.select(".graph-container").selectAll("#heatmap").remove();
+      document.querySelector("#previous").disabled = "disabled"
+      document.querySelector("#next").disabled = "disabled"
       this.loadSvg();
     },
   },
