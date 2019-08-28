@@ -2,7 +2,7 @@
   <div class="body">
     <div class="content">
       <div class="progress-container">
-        <el-progress :percentage="percentage"></el-progress>
+        <el-progress :percentage="percent"></el-progress>
       </div>
       <p id="second">{{second}} S</p>
       <div class="graph-container"></div>
@@ -166,7 +166,7 @@ export default {
       console.log(this.current)
       this.rectangleInfo = [];
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / this.testNum));
+      this.percentage += (100 / this.testNum);
       if (this.percentage > 100) {
         this.percentage = 100;
       }
@@ -213,7 +213,14 @@ export default {
     imageName: function() {
       let arr = this.imagePath.split("/");
       return arr[arr.length-1];
-    }
+    },
+    percent: function() {
+      if(this.percentage >= 100) {
+        return 100;
+      } else {
+        return Math.floor(this.percentage);
+      }
+    },
   }
 }
 </script>

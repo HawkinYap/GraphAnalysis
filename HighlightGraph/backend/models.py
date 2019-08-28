@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Rectangle(models.Model):
+    time = models.CharField(max_length= 50)
     name = models.CharField(max_length= 50)
     x1 = models.FloatField()
     y1 = models.FloatField()
@@ -10,3 +11,8 @@ class Rectangle(models.Model):
 
     def __str__(self):
         return "{" + "name: {0}, x1: {1}, y1: {2}, x2: {3}, y2: {4}".format(self.name, self.x1, self.y1, self.x2, self.y2) + "}"
+
+class Duration(models.Model):
+    time = models.CharField(max_length= 50)
+    name = models.CharField(max_length= 50)
+    consumingtime = models.IntegerField()

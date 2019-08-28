@@ -2,7 +2,7 @@
   <div class="body">
     <div class="content">
       <div class="progress-container">
-        <el-progress :percentage="percentage"></el-progress>
+        <el-progress :percentage="percent"></el-progress>
       </div>
       <p id="second">{{second}} S</p>
       <div class="graph-container"></div>
@@ -170,9 +170,11 @@ export default {
       }
     },
     next() {
-      console.log(this.current)
+      let timeFormat = d3.timeFormat("%Y-%m-%d %H:%M:%S");
+      let now = timeFormat(new Date());
       this.rectangleInfo.forEach(d => {
-        axios.post("/save/", {
+        axios.post("/saveRect/", {
+          time: now,
           name: d.name,
           x1: d.x1,
           y1: d.y1,
@@ -183,13 +185,25 @@ export default {
           if(responseData.state == 'fail') {
             alert("error");
           } else {
-            console.log(responseData)
+             console.log("save rect: success")
           }
         })
       })
+      axios.post("/saveDuration/", {
+        time: now,
+        name: this.imageName,
+        consumingtime: this.consumingtime
+      }).then(response => {
+          let responseData = response.data;
+          if(responseData.state == 'fail') {
+            alert("error");
+          } else {
+            console.log("save duration: success")
+          }
+        })
       this.rectangleInfo = [];
       clearInterval(this.interval);
-      this.percentage += Math.round((100 / this.images.length));
+      this.percentage += (100 / this.images.length);
       if (this.percentage > 100) {
         this.percentage = 100;
       }
@@ -242,6 +256,16 @@ export default {
     imageName: function() {
       let arr = this.imagePath.split("/");
       return arr[arr.length-1];
+    },
+    percent: function() {
+      if(this.percentage >= 100) {
+        return 100;
+      } else {
+        return Math.floor(this.percentage);
+      }
+    },
+    consumingtime: function() {
+      return 10 - this.second;
     }
   }
 }

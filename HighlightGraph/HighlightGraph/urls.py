@@ -22,6 +22,7 @@ from backend import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name="index.html")),
-    path('save/', views.save),
-    path('read/', views.read),
+    path('saveRect/', views.saveRect),
+    path('saveDuration/', views.saveDuration),
+    path('readRect/', views.readRect),
 ]

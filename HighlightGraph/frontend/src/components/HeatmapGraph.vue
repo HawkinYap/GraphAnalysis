@@ -99,7 +99,7 @@ export default {
         .style("left", (this.width - this.svgWidth) / 2 + "px")
         .style("fill", 'red')
 
-      axios.post("/read/", {name: this.imageName})
+      axios.post("/readRect/", {name: this.imageName})
         .then(response => {
           let responseData = response.data;
           let map = new Map();
