@@ -32,7 +32,7 @@ export default {
       svg: null,
       svgWidth: null,
       svgHeight: null,
-      second: 10,
+      second: 30,
       interval: null,
       percentage: 0,
       rectangleInfo: [],
@@ -48,15 +48,86 @@ export default {
   },
   methods: {
     initImages() {
+      // this.images = [
+      //   'r-airline', 'r-cpanA', 'r-lesmiserable', 'r-us-air',
+      //   's-celegans', 's-codeminder1', 's-codeminder2', 's-codeminder3', 's-codeminder4', 's-codeminder5',
+      //   's-eurosis', 'si-simulation1', 'si-simulation2', 'si-simulation3', 'si-simulation4', 'si-simulation5',
+      //   's-jazz', 's-karate', 's-spdata', 's-us-air2', 'simulation6', 'simulation7', 'simulation8', 'simulation9',
+      //   'simulation10', 'simulation11', 'simulation12', 'simulation13', 'simulation14', 'simulation15', 'simulation16',
+      //   'simulation17', 'simulation18', 'simulation19', 'simulation20', 'simulation21', 'simulation22', 'simulation23',
+      //   'simulation24', 'simulation25', 'simulation26', 'simulation27', 'simulation28', 'simulation29', 'simulation30'
+      // ]
       this.images = [
-        'r-airline', 'r-cpanA', 'r-lesmiserable', 'r-us-air',
-        's-celegans', 's-codeminder1', 's-codeminder2', 's-codeminder3', 's-codeminder4', 's-codeminder5',
-        's-eurosis', 'si-simulation1', 'si-simulation2', 'si-simulation3', 'si-simulation4', 'si-simulation5',
-        's-jazz', 's-karate', 's-spdata', 's-us-air2', 'simulation6', 'simulation7', 'simulation8', 'simulation9',
-        'simulation10', 'simulation11', 'simulation12', 'simulation13', 'simulation14', 'simulation15', 'simulation16',
-        'simulation17', 'simulation18', 'simulation19', 'simulation20', 'simulation21', 'simulation22', 'simulation23',
-        'simulation24', 'simulation25', 'simulation26', 'simulation27', 'simulation28', 'simulation29', 'simulation30'
-      ]
+        'airline.svg',
+        'America_Collage_football.svg',
+        'celegans.svg',
+        'codeminder1.svg',
+        'codeminder2.svg',
+        'codeminder3.svg',
+        'codeminder4.svg',
+        'codeminder5.svg',
+        'cond_2003_1.svg',
+        'cond_2003_2.svg',
+        'cond_2003_3.svg',
+        'cond_2003_4.svg',
+        'cond_2003_5.svg',
+        'cond_2003_6.svg',
+        'cond_2005_1.svg',
+        'cond_2005_2.svg',
+        'cond_2005_3.svg',
+        'cond_2005_4.svg',
+        'cond_mat.svg',
+        'cond_mat2.svg',
+        'cond_mat3.svg',
+        'cond_mat4.svg',
+        'cond_mat5.svg',
+        'cond_mat6.svg',
+        'cond_mat7.svg',
+        'cpanA.svg',
+        'Dolphin_Social_Network.svg',
+        'eurosis.svg',
+        'GRCite.svg',
+        'jazz.svg',
+        'karate.svg',
+        'lesmiserable.svg',
+        'Neural_network.svg',
+        'pkrgraph.svg',
+        'polbook.svg',
+        'Political_blogs.svg',
+        'simulation1.svg',
+        'simulation10.svg',
+        'simulation11.svg',
+        'simulation12.svg',
+        'simulation13.svg',
+        'simulation14.svg',
+        'simulation15.svg',
+        'simulation16.svg',
+        'simulation17.svg',
+        'simulation18.svg',
+        'simulation19.svg',
+        'simulation2.svg',
+        'simulation20.svg',
+        'simulation21.svg',
+        'simulation22.svg',
+        'simulation23.svg',
+        'simulation24.svg',
+        'simulation25.svg',
+        'simulation26.svg',
+        'simulation27.svg',
+        'simulation28.svg',
+        'simulation29.svg',
+        'simulation3.svg',
+        'simulation30.svg',
+        'simulation4.svg',
+        'simulation5.svg',
+        'simulation6.svg',
+        'simulation7.svg',
+        'simulation8.svg',
+        'simulation9.svg',
+        'spdata.svg',
+        'us-air.svg',
+        'us-air2.svg']
+
     },
     setContainerSize() {
       let screenWidth = document.documentElement.clientWidth ||  document.body.clientWidth;
@@ -64,7 +135,7 @@ export default {
       document.querySelector(".graph-container").style.height = screenHeight * 0.68 + "px";
     },
     initInterval() {
-      this.second = 10;
+      this.second = 30;
       this.interval = setInterval(() => {
         if(this.second <= 0) {
           this.next();
@@ -265,7 +336,7 @@ export default {
       }
     },
     consumingtime: function() {
-      return 10 - this.second;
+      return 30 - this.second;
     }
   }
 }
