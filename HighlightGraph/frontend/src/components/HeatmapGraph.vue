@@ -33,6 +33,7 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      this.setContainerSize();
       this.initImages();
       this.loadSvg();
     })
@@ -43,13 +44,21 @@ export default {
         'r-airline', 'r-cpanA', 'r-lesmiserable', 'r-us-air',
         's-celegans', 's-codeminder1', 's-codeminder2', 's-codeminder3', 's-codeminder4', 's-codeminder5',
         's-eurosis', 'si-simulation1', 'si-simulation2', 'si-simulation3', 'si-simulation4', 'si-simulation5',
-        's-jazz', 's-karate', 's-spdata', 's-us-air2'
+        's-jazz', 's-karate', 's-spdata', 's-us-air2', 'simulation6', 'simulation7', 'simulation8', 'simulation9',
+        'simulation10', 'simulation11', 'simulation12', 'simulation13', 'simulation14', 'simulation15', 'simulation16',
+        'simulation17', 'simulation18', 'simulation19', 'simulation20', 'simulation21', 'simulation22', 'simulation23',
+        'simulation24', 'simulation25', 'simulation26', 'simulation27', 'simulation28', 'simulation29', 'simulation30'
       ]
     },
     getSize() {
       let parentNode = document.querySelector(".graph-container");
       this.width = parentNode.clientWidth;
       this.height = parentNode.clientHeight;
+    },
+    setContainerSize() {
+      let screenWidth = document.documentElement.clientWidth ||  document.body.clientWidth;
+      let screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      document.querySelector(".graph-container").style.height = screenHeight * 0.7 + "px";
     },
     loadSvg() {
       let _this = this;
@@ -198,7 +207,7 @@ export default {
 .graph-container {
   width: 70%;
   height: 720px;
-  margin: 50px auto;
+  margin: 3% auto;
   border: 1px solid black;
   position: relative;
 }

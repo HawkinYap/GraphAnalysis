@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <span>Graph Sampling</span>
+      <span><a href="/">Graph Sampling</a></span>
     </div>
     <router-view></router-view>
   </div>
@@ -42,15 +42,16 @@ html, body {
 }
 .header {
   width: 100%;
-  height: 60px;
+  height: 20%;
   background-color: #ccc;
 }
-.header span {
+.header a {
   font-size: 25px;
   font-weight: bold;
   line-height: 60px;
   color: white;
   margin-left: 1%;
+  text-decoration: none;
 }
 /* .graph_img {
   border: black solid 1px;

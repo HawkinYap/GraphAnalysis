@@ -40,6 +40,7 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      this.setContainerSize();
       this.initImages();
       this.shuffle(this.images);
       this.loadSvg();
@@ -51,8 +52,16 @@ export default {
         'r-airline', 'r-cpanA', 'r-lesmiserable', 'r-us-air',
         's-celegans', 's-codeminder1', 's-codeminder2', 's-codeminder3', 's-codeminder4', 's-codeminder5',
         's-eurosis', 'si-simulation1', 'si-simulation2', 'si-simulation3', 'si-simulation4', 'si-simulation5',
-        's-jazz', 's-karate', 's-spdata', 's-us-air2'
+        's-jazz', 's-karate', 's-spdata', 's-us-air2', 'simulation6', 'simulation7', 'simulation8', 'simulation9',
+        'simulation10', 'simulation11', 'simulation12', 'simulation13', 'simulation14', 'simulation15', 'simulation16',
+        'simulation17', 'simulation18', 'simulation19', 'simulation20', 'simulation21', 'simulation22', 'simulation23',
+        'simulation24', 'simulation25', 'simulation26', 'simulation27', 'simulation28', 'simulation29', 'simulation30'
       ]
+    },
+    setContainerSize() {
+      let screenWidth = document.documentElement.clientWidth ||  document.body.clientWidth;
+      let screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
+      document.querySelector(".graph-container").style.height = screenHeight * 0.68 + "px";
     },
     initInterval() {
       this.second = 10;
@@ -260,7 +269,7 @@ export default {
 .graph-container {
   width: 70%;
   height: 720px;
-  margin: 50px auto;
+  margin: 3% auto;
   border: 1px solid black;
   position: relative;
 }
@@ -277,52 +286,6 @@ export default {
   height: 50px;
   font-size: 18px;
   margin-bottom: 20px;
-}
-.processing_container {
-  text-align: center;
-  margin-top: 15%;
-}
-#processing {
-  font-size: 30px;
-  font-weight: bold;
-  color: #ccc;
-}
-.mutiple-progress-container {
-  text-align: center;
-  margin-top: 100px;
-}
-.mutiple-progress {
-  margin: 0 auto;
-  vertical-align: middle;
-  display: inline;
-}
-.progress {
-  text-align: center;
-  display: inline-block;
-  width: 20%;
-  margin-left: 15px;
-  vertical-align: middle;
-}
-.circle-container {
-  text-align: center;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  margin-left: 15px;
-  position: relative;
-  vertical-align: middle;
-}
-.circle {
-  width: 100%;
-  height: 100%;
-  background-color: #ccc;
-  border-radius: 50%;
-}
-.number {
-  font-size: 25px;
-  color: #fff;
-  line-height: 50px;
-  margin-top: -50px;
 }
 #redo {
   float: left;
