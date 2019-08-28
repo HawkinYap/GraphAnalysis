@@ -379,12 +379,29 @@ def Generate_Simulated_Data():
     path = '../SimulationDataset/simulation1.gml'
     Save_GML(G, path)
 
+def Generate_Simi_Simulated_Data():
+    G = nx.read_gml("../Datasets/football.gml")
+    G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
+
+    # Abnormal injection
+    G = Balloon_Like_Community_Connection(G)
+    G = Balloon_Like_Ego_Connection(G)
+    G = Star_Like_Connection(G)
+    G = Bridge_Like_Connection(G)
+    G = Special_People_on_Bridge()
+    G = Chain_Connection(G)
+    G = Noise_Connection(G)
+    G = High_Density_Connection(G)
+    G = Single_Friend_Connection(G)
+
+    path = '../SimulationDataset/simulation1.gml'
+    Save_GML(G, path)
 
 def Save_GML(graph, path):
     nx.write_gml(graph, path)
 
 if __name__ == '__main__':
-    Generate_Simulated_Data()
+    Generate_Simi_Simulated_Data()
 
 
 
