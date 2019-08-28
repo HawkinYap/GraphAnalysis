@@ -31,6 +31,7 @@ def BA_Generator(nodes, m, seed):
     return(BA)
 
 # Merge two subgraphs and add edges between them
+# Used for bridge-like graph
 def Community_Connection(G1, G2, edges_num):
     '''
     :param G1: graph 1
@@ -40,6 +41,7 @@ def Community_Connection(G1, G2, edges_num):
     '''
 
     small_graph = min(len(list(G1.nodes)), len(list(G2.nodes)))
+    big_graph = max(len(list(G1.nodes)), len(list(G2.nodes)))
 
     G = nx.disjoint_union(G1, G2)
     node1 = list(G1.nodes)
@@ -52,8 +54,9 @@ def Community_Connection(G1, G2, edges_num):
         print("hi")
         G1_nodes = random.sample(node1, edges_num)
         G2_nodes = random.sample(node2, edges_num)
+        print(G1_nodes, G2_nodes)
 
-    else:
+    elif edges_num > small_graph and edges_num <= big_graph:
         print("no")
         print(edges_num, small_graph)
         multiple = edges_num // small_graph + 1
@@ -62,8 +65,163 @@ def Community_Connection(G1, G2, edges_num):
         node2_plus = node2 * multiple
         G2_nodes = random.sample(node2_plus, edges_num)
 
+    else:
+        print("oh")
+        print(edges_num, small_graph, big_graph)
+        multiple1 = edges_num // big_graph + 1
+        multiple2 = edges_num // small_graph + 1
+        print(multiple1, multiple2)
+        node1_plus = node1 * multiple1
+        G1_nodes = random.sample(node1_plus, edges_num)
+        node2_plus = node2 * multiple2
+        G2_nodes = random.sample(node2_plus, edges_num)
+
     for x, y in zip(G1_nodes, G2_nodes):
         G.add_edge(x, y)
+    return(G)
+
+# Add Single neighbors to a node in the original graph
+def Single_Friend_Connection(G):
+    '''
+    :param G: graph
+    :return: graph + single neighbours
+    '''
+    friend_num = [3, 4, 5, 6]
+    node = random.randrange(len(G) - 1)
+    count = random.choice(friend_num)
+    single_friend = [i for i in range(len(G), len(G) + count + 1)]
+    node_list = [node] * count
+    for x, y in zip(node_list, single_friend):
+        G.add_edge(x, y)
+    return(G)
+
+# Add a high density area to the original graph
+def High_Density_Connection(G):
+    '''
+    :param G: graph
+    :return: graph with high density
+    '''
+    percentage_choice = [0.6, 0.5, 0.4, 0.3, 0.2, 0.1]
+    nodes, m, seed = 30, 4, None
+    G1 = BA_Generator(math.floor(len(G) * random.choice(percentage_choice)), m, seed)
+    G = nx.compose(G, G1)
+    return(G)
+
+# Add noise to the original graph
+def Noise_Connection(G):
+    '''
+    :param G: graph
+    :return: graph with noise
+    '''
+    noise = [5, 8, 10]
+    noise_num = random.choice(noise)
+    noise_list = [i for i in range(len(G), len(G) + noise_num + 1)]
+    G.add_nodes_from(noise_list)
+    return(G)
+
+# Add the chain structure to the original graph
+# 0 ~ 1 chains, each with 2 ~ 4 nodes
+def Chain_Connection(G):
+    '''
+    :param G: graph
+    :return: graph with 1-3 chain
+    '''
+    chain_num = [1, 2, 3]
+    chain_nodes = [3, 4, 5]
+    loops = random.choice(chain_num)
+    for loop in range(loops):
+        node = random.randrange(len(G) - 1)
+        nodes_num = random.choice(chain_nodes)
+        G.add_edge(node, len(G))
+        node1_list = [i for i in range(len(G) - 1, len(G) + nodes_num - 2)]
+        node2_list = [i for i in range(len(G), len(G) + nodes_num - 1)]
+        for x, y in zip(node1_list, node2_list):
+            G.add_edge(x, y)
+    return(G)
+
+# Connect two communities through one person and regard it as a basic graph
+def Special_People_on_Bridge():
+    '''
+    :return: special people bridge basic graph
+    '''
+    nodes, m, seed = 50, 4, None
+    G1 = BA_Generator(nodes, m, seed)
+
+    G2 = nx.Graph()
+    G2.add_node(0)
+    print(list(G1.nodes), list(G2.nodes))
+    percentage_choice = [0.4, 0.3, 0.2]
+    G = Community_Connection(G1, G2, math.floor(len(G1) * random.choice(percentage_choice)))
+
+    G2_index = len(G) - 1
+    nodes, m, seed = 70, 4, None
+    G3 = BA_Generator(nodes, m, seed)
+    node3 = list(G3.nodes)
+    node3 = [*map(lambda x: x + len(G) + 1, node3)]
+    percentage_choice = [0.4, 0.3, 0.2]
+    edges_num = math.floor(len(G3) * random.choice(percentage_choice))
+    G3_edge = list(G3.edges)
+    G3_edge_new = []
+    for edge in G3_edge:
+        edge = list(edge)
+        edge[0] = edge[0] + len(G) + 1
+        edge[1] = edge[1] + len(G) + 1
+        G3_edge_new.append([edge[0], edge[1]])
+    print(G3_edge_new)
+
+
+    G.add_edges_from(G3_edge_new)
+    node2 = [G2_index]
+
+    multiple = edges_num // len(node2) + 2
+    print(multiple)
+    G3_nodes = random.sample(node3, edges_num)
+    node2_plus = node2 * multiple
+    G2_nodes = random.sample(node2_plus, edges_num)
+
+    for x, y in zip(G3_nodes, G2_nodes):
+        G.add_edge(x, y)
+    return(G)
+
+# The two communities are connected by an edge and regard it as a basic graph
+def Sinple_Bridge_Like_Connection():
+    '''
+    :return: bridge_like basic graph
+    '''
+    nodes1, nodes2, m, seed = 50, 80, 4, None
+    G1 = BA_Generator(nodes1, m, seed)
+    G2 = BA_Generator(nodes2, m, seed)
+
+    edges_num = 1
+    G = Community_Connection(G1, G2, edges_num)
+    return(G)
+
+# The two communities are connected by an edge, then embed the original graph
+def Bridge_Like_Connection(G):
+    '''
+    :param G: graph
+    :return: graph + bridge_like subgraph
+    '''
+    percentage_choice = [0.4, 0.3, 0.2]
+    n1 = math.floor(len(G) * random.choice(percentage_choice))
+    n2 = math.floor(len(G) * random.choice(percentage_choice))
+    nodes1, nodes2, m, seed = n1, n2, 4, None
+    G1 = BA_Generator(nodes1, m, seed)
+    G2 = BA_Generator(nodes2, m, seed)
+
+    # get community connection
+    edges_num = 1
+    G_joint= Community_Connection(G1, G2, edges_num)
+
+    percentage_node_choice = [1.5, 2, 3]
+    bridge_node = len(list(G_joint.nodes))
+    edge_percentage = random.choice(percentage_node_choice)
+    # print(math.floor(bridge_node * edge_percentage))
+    G = Community_Connection(G, G_joint, math.floor(bridge_node * edge_percentage))
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True, node_size=30)
+    plt.show()
+
     return(G)
 
 
@@ -171,7 +329,7 @@ def Balloon_Like_Community_Connection(G):
     plt.show()
     return(G)
 
-def Generate_Data():
+def Generate_Simulated_Data():
     # nodes, probablity = 50, 0.2
     # ER_Generator(nodes, probablity)
 
@@ -180,23 +338,23 @@ def Generate_Data():
     # G2 = WS_Generator(nodes1, neighbour, probability)
 
 
-    nodes1, nodes2, m, seed = 30, 50, 4, None
-    G1 = BA_Generator(nodes1, m, seed)
-    G2 = BA_Generator(nodes2, m, seed)
-
-    # get community connection
-    G = nx.disjoint_union(G1,G2)
-    print(list(G.nodes))
-    print(list(G.edges))
-    edges_num = 30
-    G = Community_Connection(G1, G2, edges_num)
-    pos = nx.spring_layout(G)
-    nx.draw(G, pos, with_labels=True, node_size=30)
-    plt.show()
+    # nodes1, nodes2, m, seed = 30, 50, 4, None
+    # G1 = BA_Generator(nodes1, m, seed)
+    # G2 = BA_Generator(nodes2, m, seed)
+    #
+    # # get community connection
+    # G = nx.disjoint_union(G1,G2)
+    # print(list(G.nodes))
+    # print(list(G.edges))
+    # edges_num = 30
+    # G = Community_Connection(G1, G2, edges_num)
+    # pos = nx.spring_layout(G)
+    # nx.draw(G, pos, with_labels=True, node_size=30)
+    # plt.show()
 
     # get balloon_like connection
-    # nodes, neighbour, probability = 60, 4, 0.3
-    # G = WS_Generator(nodes, neighbour, probability)
+    nodes, neighbour, probability = 60, 4, 0.3
+    G = WS_Generator(nodes, neighbour, probability)
     # G = Balloon_Like_Community_Connection(G)
     # G = Balloon_Like_Community_Connection(G)
     # G = Balloon_Like_Community_Connection(G)
@@ -206,16 +364,44 @@ def Generate_Data():
     # G = Star_Like_Connection(G)
     # G = Star_Like_Connection(G)
     # G = Star_Like_Connection(G)
+    # G = Bridge_Like_Connection(G)
+
+    # G = Special_People_on_Bridge()
+
+    # G = Chain_Connection(G)
+
+    # G = Noise_Connection(G)
+
+    # G = High_Density_Connection(G)
+
+    G = Single_Friend_Connection(G)
 
     path = '../SimulationDataset/simulation1.gml'
     Save_GML(G, path)
 
+def Generate_Simi_Simulated_Data():
+    G = nx.read_gml("../Datasets/football.gml")
+    G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
+
+    # Abnormal injection
+    G = Balloon_Like_Community_Connection(G)
+    G = Balloon_Like_Ego_Connection(G)
+    G = Star_Like_Connection(G)
+    G = Bridge_Like_Connection(G)
+    G = Special_People_on_Bridge()
+    G = Chain_Connection(G)
+    G = Noise_Connection(G)
+    G = High_Density_Connection(G)
+    G = Single_Friend_Connection(G)
+
+    path = '../SimulationDataset/simulation1.gml'
+    Save_GML(G, path)
 
 def Save_GML(graph, path):
     nx.write_gml(graph, path)
 
 if __name__ == '__main__':
-    Generate_Data()
+    Generate_Simi_Simulated_Data()
 
 
 
