@@ -278,7 +278,7 @@ export default {
   },
   computed: {
     imagePath: function() {
-      return "/static/images/" + this.images[this.current] + ".svg";
+      return "/static/images/" + this.images[this.current];
     },
     imageName: function() {
       let arr = this.imagePath.split("/");

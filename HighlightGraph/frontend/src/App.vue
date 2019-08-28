@@ -19,11 +19,6 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      // dom虽然加载完成,但是图片资源的请求不一定已经返回
-      // setTimeout(() => {
-      //   this.svgSrc = "/static/images/graph2.svg";
-      // }, 5000)
-      
     })
   }
 }
