@@ -2,6 +2,8 @@ import os
 import csv
 import networkx as nx
 from networkx.algorithms import community
+import community
+import matplotlib.pyplot as plt
 
 # Extract the global heigh degree node
 def Extract_Global_High_Neighbor(G, heigh_neighbour):
@@ -118,8 +120,18 @@ def Extract_Star(G):
 # Extract the balloon_like community structure in the graph
 def Extract_Balloon_Community_with_Sinple_Method(G):
     G = nx.Graph(G)
-    klist = list(community.k_clique_communities(G, 3))
-    print(klist)
+    # klist = list(community.k_clique_communities(G, 3))
+    # print(klist)
+    part = community.best_partition(G)
+    print(part)
+    # 计算模块度
+    mod = community.modularity(part, G)
+    print(mod)
+
+    # 绘图
+    values = [part.get(node) for node in G.nodes()]
+    nx.draw_spring(G, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=False)
+    plt.show()
 
 # Extract the balloon_like ego structure in the graph
 def Extract_Balloon_Ego(G):
@@ -167,9 +179,9 @@ def Data_Preprocessing(path):
 def Data_Test():
 
     # Test file type
-    # path = "../Datasets/football.gml"
+    path = "../Datasets/football.gml"
     # path = "../Datasets/test_graph_data.edges"
-    path = "../Datasets/test_local_degree.csv"
+    # path = "../Datasets/test_local_degree.csv"
 
     # Test data preprocessing
     # path = "../SimulationDataset/simulation1.gml"
