@@ -232,7 +232,7 @@ def Star_Like_Connection(G):
     :return: graph + star_like subgraph
     '''
 
-    percentage_choice = [0.15, 0.1, 0.05]
+    percentage_choice = [0.2, 0.15, 0.1]
     percentage = random.choice(percentage_choice)
     star_ego = math.floor(len(G) * percentage)
     star_node = range(0, star_ego)
@@ -386,6 +386,7 @@ def Generate_Simi_Simulated_Data():
     # Abnormal injection
     G = Balloon_Like_Community_Connection(G)
     G = Balloon_Like_Ego_Connection(G)
+    G = Star_Like_Connection(G)
     G = Star_Like_Connection(G)
     G = Bridge_Like_Connection(G)
     G = Special_People_on_Bridge()
