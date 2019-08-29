@@ -116,7 +116,7 @@ def Extract_Star(G):
     # return(G)
 
 # Extract the balloon_like community structure in the graph
-def Extract_Balloon_Community(G):
+def Extract_Balloon_Community_with_Sinple_Method(G):
     G = nx.Graph(G)
     klist = list(community.k_clique_communities(G, 3))
     print(klist)
@@ -180,7 +180,7 @@ def Data_Test():
     # Extract_Global_High_Neighbor(G, heigh_neighbour)
     # Extract_Local_High_Neighbor(G)
     # Extract_Star(G)
-    Extract_Balloon_Community(G)
+    Extract_Balloon_Community_with_Sinple_Method(G)
 
 
     # Check edges' type
