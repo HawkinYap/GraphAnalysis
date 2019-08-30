@@ -3,6 +3,9 @@ import csv
 import networkx as nx
 from networkx.algorithms import community
 import matplotlib.pyplot as plt
+from fast_unfolding import *
+from collections import defaultdict
+import math
 
 # Extract the global heigh degree node
 def Extract_Global_High_Neighbor(G, heigh_neighbour):
@@ -16,7 +19,7 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
     for node in sort_node_degree:
-        G.node[node[0]]['global_high_neighbor'] = 1
+        G.node[node[0]]['global'] = 1
     # return(G)
 
 
@@ -72,7 +75,7 @@ def Extract_Local_High_Neighbor(G):
     # print(local_heigh_degree)
 
     for node in local_heigh_degree:
-        G.node[node]['local_high_neighbor'] = 1
+        G.node[node]['local'] = 1
     # return(G)
 
 
@@ -143,18 +146,19 @@ def Extract_Balloon_Community_with_Sinple_Method(G):
     for value in node.values():
         if len(value) == 1:
             balloon_node.append(value[0])
-
-    edges = []
+    direct = list()
     for n in balloon_node:
         edge = [n for n in G_copy.neighbors(n)][0]
         print(edge)
         neibour = G.edges([n, edge])
-        direct_edges = [i for i in neibour if n in i]
-        G.node[n]['balloon_community_1'] = 1
-    print(edges)
+        for i in neibour:
+            if n in i:
+                direct.append(i)
+        # direct = [i for i in neibour if n in i]
+        G.node[n]['balloon1'] = 1
 
-    for e in direct_edges:
-        G[e[0]][e[1]]['balloon_community_1'] = 1
+    for e in direct:
+        G[e[0]][e[1]]['balloon1'] = 1
 
 
 # Extract the balloon_like community structure in the graph
@@ -164,15 +168,219 @@ def Extract_Balloon_Community_with_Fast_Unfolding(G):
     :return: G with lable 1 (balloon_community_1)
     '''
     G_copy = nx.Graph(G)
-    for u, v, d in G.edges(data=True):
-        G[u][v]['balloon_community_1'] = 0
+    for u, v, d in G_copy.edges(data=True):
+        G_copy[u][v]['weight'] = 1.0
+
+    louvain = Louvain()
+    partition = louvain.getBestPartition(G_copy)
+
+    size = float(len(set(partition.values())))
+    p = defaultdict(list)
+    for node, com_id in partition.items():
+        p[com_id].append(node)
+
+    values = [partition.get(node) for node in G_copy.nodes()]
+    print(p)
+    nx.draw_spring(G_copy, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=True)
+    plt.show()
+
+    candidate_list = []
+    for key, value in p.items():
+        value_len = len(value)
+        count_value = 0
+        for v in value:
+            tmp = [n for n in G.neighbors(v)]
+            count_value += len(tmp)
+        if math.floor(value_len * 1.5) < count_value:
+            candidate_list.append(value)
+
+    node = {}
+    count = 0
+    balloon_node = []
+    for k in candidate_list:
+        count += 1
+        tmp = k
+        for i in G_copy.degree(k):
+            if i[1] == 1:
+                if count not in node.keys():
+                    node[count] = []
+                    node[count].append(i[0])
+                else:
+                    node[count].append(i[0])
+    print(node)
+    for value in node.values():
+        if len(value) == 1:
+            balloon_node.append(value[0])
+    print(balloon_node)
+
+    edges = []
+    direct = list()
+    for n in balloon_node:
+        edge = [n for n in G_copy.neighbors(n)][0]
+        print(edge)
+        neibour = G.edges([n, edge])
+        # direct_edges = [i for i in neibour if n in i]
+        for i in neibour:
+            if n in i:
+                direct.append(i)
+        G.node[n]['balloon2'] = 1
+
+    for e in direct:
+        G[e[0]][e[1]]['balloon2'] = 1
 
 
 
-# Extract the balloon_like ego structure in the graph
-def Extract_Balloon_Ego(G):
-    print('hi')
+# Extract the bridge_like structure in the graph
+def Extract_Bridge(G):
+    '''
+    :param G: original graph
+    :return: G with lable 1 (balloon_community_1)
+    '''
+    G_copy = nx.Graph(G)
+    for u, v, d in G_copy.edges(data=True):
+        G_copy[u][v]['weight'] = 1.0
 
+    louvain = Louvain()
+    partition = louvain.getBestPartition(G_copy)
+
+    size = float(len(set(partition.values())))
+    p = defaultdict(list)
+    for node, com_id in partition.items():
+        p[com_id].append(node)
+
+    values = [partition.get(node) for node in G_copy.nodes()]
+    nx.draw_spring(G_copy, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=True)
+    plt.show()
+
+    candidate_list = []
+    for key, value in p.items():
+        value_len = len(value)
+        count_value = 0
+        for v in value:
+            tmp = [n for n in G.neighbors(v)]
+            count_value += len(tmp)
+        if math.floor(value_len * 1.5) < count_value:
+            candidate_list.append(value)
+
+    neighbor_list = []
+    for candidate in candidate_list:
+        neighbor_set = []
+        for node in candidate:
+            in_nodes = list(G.successors(node))
+            out_nodes = list(G.predecessors(node))
+            node_neighbor = list(set(in_nodes).union(set(out_nodes)))
+            neighbor_set = neighbor_set + node_neighbor
+        neighbor_list.append(set(neighbor_set))
+    print(neighbor_list)
+
+    result_node = []
+    for i in range(len(neighbor_list)):
+        for j in range(i + 1, len(neighbor_list)):
+            a = neighbor_list[i]
+            b = neighbor_list[j]
+            print(a, b)
+            c = a & b
+            print(c)
+            if len(c) == 2:
+                result_node.append(list(c))
+    print(result_node)
+    if len(result_node) != 0:
+        for r in result_node:
+            a = [i for i in G.edges(r)]
+            direct_edges1 = [i for i in a if r[0] in i]
+            direct_edges2 = [i for i in direct_edges1 if r[1] in i]
+            node = direct_edges2[0]
+
+        for n in node:
+            G.node[n]['bridge'] = 1
+
+        for e in direct_edges2:
+            G[e[0]][e[1]]['bridge'] = 1
+
+
+def Extract_Special_Degree(G):
+    '''
+    :param G: original graph
+    :return: G with lable 1 (special_degree)
+    '''
+
+    node_sort = sorted(list(G.nodes()))
+    special_node = []
+    special_edge = []
+    for node in node_sort:
+        # find nodes's 1-step neighbor
+        out_nodes = list(G.successors(node))
+        in_nodes = list(G.predecessors(node))
+        node_neighbor = list(set(in_nodes).union(set(out_nodes)))
+        if len(node_neighbor) > 0.1 * len(G):
+            if len(out_nodes) == 0 or len(in_nodes) == 0:
+                continue
+            if len(out_nodes) / len(in_nodes) > 0.8:
+                for i in in_nodes:
+                    special_node.append(i)
+                    special_edge.append([i, node])
+            if len(in_nodes) / len(out_nodes) > 0.8:
+                for j in out_nodes:
+                    special_node.append(j)
+                    special_edge.append([node, j])
+        else:
+            continue
+    for n in special_node:
+        G.node[n]['degree'] = 1
+
+    for e in special_edge:
+        G[e[0]][e[1]]['degree'] = 1
+
+
+# Extract the special person node between the two communities
+def Extract_Person_Between_Two_Communitis(G):
+    '''
+    :param G: original graph
+    :return: G with lable 1 (special)
+    '''
+
+    G_copy = nx.Graph(G)
+    for u, v, d in G_copy.edges(data=True):
+        G_copy[u][v]['weight'] = 1.0
+
+    louvain = Louvain()
+    partition = louvain.getBestPartition(G_copy)
+
+    size = float(len(set(partition.values())))
+    p = defaultdict(list)
+    for node, com_id in partition.items():
+        p[com_id].append(node)
+    print(p)
+
+    values = [partition.get(node) for node in G_copy.nodes()]
+    nx.draw_spring(G_copy, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=True)
+    plt.show()
+
+    candidate_list = []
+    for key, value in p.items():
+        value_len = len(value)
+        count_value = 0
+        for v in value:
+            tmp = [n for n in G.neighbors(v)]
+            count_value += len(tmp)
+        if math.floor(value_len * 1.5) < count_value:
+            candidate_list.append(value)
+
+    klist = list(community.k_clique_communities(G_copy, 5))
+
+    special_result = []
+    for i in candidate_list:
+        special_list2 = []
+        for j in klist:
+            if j < set(i):
+                special_list2.append(j)
+                print(special_list2)
+        if len(special_list2) == 2:
+            a = special_list2[0] & special_list2[1]
+            special_result.append(list(set(a)))
+    for n in special_result:
+        print(n[0])
+        G.node[n[0]]['special'] = 1
 
 # Read different types of data and convert them to the networkx format
 # Renaming the graph nodes with numeric sequence
@@ -202,22 +410,29 @@ def Data_Preprocessing(path):
 
     # G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
     for n, data in G.nodes(data=True):
-        G.node[n]['global_high_neighbor'] = 0
-        G.node[n]['local_high_neighbor'] = 0
+        G.node[n]['global'] = 0
+        G.node[n]['local'] = 0
         G.node[n]['star'] = 0
-        G.node[n]['balloon_community_1'] = 0
-        G.node[n]['balloon_community_2'] = 0
-        G.node[n]['balloon_ego'] = 0
+        G.node[n]['balloon1'] = 0
+        G.node[n]['balloon2'] = 0
+        G.node[n]['bridge'] = 0
+        G.node[n]['degree'] = 0
+        G.node[n]['special'] = 0
 
     for u, v, d in G.edges(data=True):
-        G[u][v]['balloon_community_1'] = 0
-        G[u][v]['balloon_community_2'] = 0
-        G[u][v]['balloon_ego'] = 0
+        G[u][v]['balloon1'] = 0
+        G[u][v]['balloon2'] = 0
+        G[u][v]['bridge'] = 0
+        G[u][v]['degree'] = 0
 
     # for (u, v, d) in G.edges(data = 'type'):
     #     print(u, v, d)
 
     return(G)
+
+def Save_Graph(G):
+    path = '../SimulationDataset/simulation2.gml'
+    nx.write_gml(G, path)
 
 def Data_Test():
 
@@ -232,19 +447,24 @@ def Data_Test():
 
     heigh_neighbour = 0.1
     Extract_Global_High_Neighbor(G, heigh_neighbour)
-    # Extract_Local_High_Neighbor(G)
-    # Extract_Star(G)
+    Extract_Local_High_Neighbor(G)
+    Extract_Star(G)
     Extract_Balloon_Community_with_Sinple_Method(G)
+    Extract_Balloon_Community_with_Fast_Unfolding(G)
+    Extract_Bridge(G)
+    Extract_Special_Degree(G)
+    Extract_Person_Between_Two_Communitis(G)
 
+    Save_Graph(G)
 
-    # Check type
-    for n, data in G.nodes(data='balloon_community_1'):
-        print(n, data)
-
-    print('----')
-
-    for (u, v, d) in G.edges(data='balloon_community_1'):
-        print(u, v, d)
+    # # Check type
+    # for n, data in G.nodes(data='special_degree'):
+    #     print(n, data)
+    #
+    # print('----')
+    #
+    # for (u, v, d) in G.edges(data='special_degree'):
+    #     print(u, v, d)
 
 
 if __name__ == '__main__':
