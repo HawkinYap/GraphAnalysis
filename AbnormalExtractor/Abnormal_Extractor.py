@@ -2,7 +2,6 @@ import os
 import csv
 import networkx as nx
 from networkx.algorithms import community
-import community
 import matplotlib.pyplot as plt
 
 # Extract the global heigh degree node
@@ -17,7 +16,7 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
     for node in sort_node_degree:
-        G.node[node[0]]['type'] = 1
+        G.node[node[0]]['global_high_neighbor'] = 1
     # return(G)
 
 
@@ -25,7 +24,7 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
 def Extract_Local_High_Neighbor(G):
     '''
     :param G: original graph
-    :return: G with label 2 (Local_High_Neighbor) or label 3 (both)
+    :return: G with label 1 (Local_High_Neighbor)
     '''
 
     # find local degree
@@ -73,9 +72,7 @@ def Extract_Local_High_Neighbor(G):
     # print(local_heigh_degree)
 
     for node in local_heigh_degree:
-        if G.node[node]['type'] == 1:
-            G.node[node]['type'] = 3
-        G.node[node]['type'] = 2
+        G.node[node]['local_high_neighbor'] = 1
     # return(G)
 
 
@@ -83,7 +80,7 @@ def Extract_Local_High_Neighbor(G):
 def Extract_Star(G):
     '''
     :param G: original graph
-    :return: G with label 2 (Star)
+    :return: G with label 1 (Star)
     '''
 
     # find star
@@ -114,24 +111,63 @@ def Extract_Star(G):
             continue
     print(star)
     for n in star:
-        G.node[n]['type'] = 4
+        G.node[n]['star'] = 1
     # return(G)
 
 # Extract the balloon_like community structure in the graph
 def Extract_Balloon_Community_with_Sinple_Method(G):
-    G = nx.Graph(G)
-    # klist = list(community.k_clique_communities(G, 3))
-    # print(klist)
-    part = community.best_partition(G)
-    print(part)
-    # 计算模块度
-    mod = community.modularity(part, G)
-    print(mod)
+    '''
+    :param G: original graph
+    :return: G with lable 1 (balloon_community_1)
+    '''
+    G_copy = nx.Graph(G)
+    klist = list(community.k_clique_communities(G_copy, 5))
+    print(klist)
+    node = {}
+    count = 0
+    balloon_node = []
 
-    # 绘图
-    values = [part.get(node) for node in G.nodes()]
-    nx.draw_spring(G, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=False)
-    plt.show()
+    for k in klist:
+        count += 1
+        tmp = k
+        for i in G_copy.degree(k):
+            neibor_list = G_copy.neighbors(i[0])
+            result = set(neibor_list) ^ set(tmp)
+            for j in G_copy.degree(result):
+                if j[1] == 1:
+                    if count not in node.keys():
+                        node[count] = []
+                        node[count].append(j[0])
+                    else:
+                        node[count].append(j[0])
+    for value in node.values():
+        if len(value) == 1:
+            balloon_node.append(value[0])
+
+    edges = []
+    for n in balloon_node:
+        edge = [n for n in G_copy.neighbors(n)][0]
+        print(edge)
+        neibour = G.edges([n, edge])
+        direct_edges = [i for i in neibour if n in i]
+        G.node[n]['balloon_community_1'] = 1
+    print(edges)
+
+    for e in direct_edges:
+        G[e[0]][e[1]]['balloon_community_1'] = 1
+
+
+# Extract the balloon_like community structure in the graph
+def Extract_Balloon_Community_with_Fast_Unfolding(G):
+    '''
+    :param G: original graph
+    :return: G with lable 1 (balloon_community_1)
+    '''
+    G_copy = nx.Graph(G)
+    for u, v, d in G.edges(data=True):
+        G[u][v]['balloon_community_1'] = 0
+
+
 
 # Extract the balloon_like ego structure in the graph
 def Extract_Balloon_Ego(G):
@@ -143,7 +179,7 @@ def Extract_Balloon_Ego(G):
 # Add a 'type' attribute to the node / edge to indicate the exception
 def Data_Preprocessing(path):
     '''
-    :param path: graph data in .gml or .edges format
+    :param path: graph data in .gml , .csv or .edges format
     :return: networkx graph data format
     '''
 
@@ -166,10 +202,17 @@ def Data_Preprocessing(path):
 
     # G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
     for n, data in G.nodes(data=True):
-        G.node[n]['type'] = 0
+        G.node[n]['global_high_neighbor'] = 0
+        G.node[n]['local_high_neighbor'] = 0
+        G.node[n]['star'] = 0
+        G.node[n]['balloon_community_1'] = 0
+        G.node[n]['balloon_community_2'] = 0
+        G.node[n]['balloon_ego'] = 0
 
     for u, v, d in G.edges(data=True):
-        G[u][v]['type'] = 0
+        G[u][v]['balloon_community_1'] = 0
+        G[u][v]['balloon_community_2'] = 0
+        G[u][v]['balloon_ego'] = 0
 
     # for (u, v, d) in G.edges(data = 'type'):
     #     print(u, v, d)
@@ -179,25 +222,29 @@ def Data_Preprocessing(path):
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/football.gml"
+    # path = "../Datasets/football.gml"
     # path = "../Datasets/test_graph_data.edges"
-    # path = "../Datasets/test_local_degree.csv"
+    path = "../Datasets/test_local_degree.csv"
 
     # Test data preprocessing
     # path = "../SimulationDataset/simulation1.gml"
     G = Data_Preprocessing(path)
 
-    # Extract_High_Neighbor
-    # heigh_neighbour = 0.1
-    # Extract_Global_High_Neighbor(G, heigh_neighbour)
+    heigh_neighbour = 0.1
+    Extract_Global_High_Neighbor(G, heigh_neighbour)
     # Extract_Local_High_Neighbor(G)
     # Extract_Star(G)
     Extract_Balloon_Community_with_Sinple_Method(G)
 
 
-    # Check edges' type
-    # for n, data in G.nodes(data='type'):
-    #     print(n, data)
+    # Check type
+    for n, data in G.nodes(data='balloon_community_1'):
+        print(n, data)
+
+    print('----')
+
+    for (u, v, d) in G.edges(data='balloon_community_1'):
+        print(u, v, d)
 
 
 if __name__ == '__main__':
