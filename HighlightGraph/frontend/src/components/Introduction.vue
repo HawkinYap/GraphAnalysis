@@ -7,7 +7,7 @@
         <p>The experiment focuses on the domains that users may concern in graph structures for further explorations of graph visualizations, in which key informations of users’ interactive explorations of the graph data are recorded from the perspective of users’ visual perceptions. This helps figure out the domains that users concern in the visual presentations of the graph data and provides a basis for the subsequent work that the design and research of the graph visualizations.</p>
       </div>
       <div class="video-container">
-        <video src="http://www.w3school.com.cn/i/movie.ogg" controls></video>
+        <video src="/static/video/video.mp4" controls></video> <!-- http://www.w3school.com.cn/i/movie.ogg -->
       </div>
       <div class="button-container">
         <input type="button" value="I Know" name="" id="OK" @click="toHome();">
