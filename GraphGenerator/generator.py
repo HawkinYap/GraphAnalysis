@@ -88,6 +88,7 @@ def Single_Friend_Connection(G):
     '''
     friend_num = [3, 4, 5, 6]
     node = random.randrange(len(G) - 1)
+    G.node[node]['single'] = 1
     count = random.choice(friend_num)
     single_friend = [i for i in range(len(G), len(G) + count + 1)]
     node_list = [node] * count
@@ -149,6 +150,7 @@ def Special_People_on_Bridge(G):
 
     G2 = nx.Graph()
     G2.add_node(0)
+    G2.node[0]['special'] = 1
     print(list(G1.nodes), list(G2.nodes))
     percentage_choice = [0.03, 0.01, 0.005]
     G_joint = Community_Connection(G1, G2, math.floor(len(G1) * random.choice(percentage_choice)))
@@ -209,16 +211,22 @@ def Bridge_Like_Connection(G):
     :param G: graph
     :return: graph + bridge_like subgraph
     '''
-    percentage_choice = [0.05, 0.02, 0.005]
+    percentage_choice = [0.5, 0.3, 0.4]
     n1 = math.floor(len(G) * random.choice(percentage_choice))
     n2 = math.floor(len(G) * random.choice(percentage_choice))
     nodes1, nodes2, m, seed = n1, n2, 4, None
     G1 = BA_Generator(nodes1, m, seed)
     G2 = BA_Generator(nodes2, m, seed)
+    G_joint = nx.disjoint_union(G1, G2)
 
     # get community connection
-    edges_num = 1
-    G_joint= Community_Connection(G1, G2, edges_num)
+    # edges_num = 1
+    # G_joint= Community_Connection(G1, G2, edges_num)
+    G_joint.add_edge(0, len(G_joint) - 1)
+    G_joint.node[0]['bridge'] = 1
+    G_joint.node[len(G_joint) - 1]['bridge'] = 1
+    G_joint[0][len(G_joint) - 1]['bridge'] = 1
+
 
     percentage_node_choice = [1.5, 2, 3]
     bridge_node = len(list(G_joint.nodes))
@@ -247,8 +255,11 @@ def Star_Like_Connection(G):
     Star = nx.Graph()
     Star.add_nodes_from(star_node)
     node_center = [len(list(Star.nodes))] * len(list(Star.nodes))
+    print(node_center)
+
     star_edge = list(zip(node_center, star_node))
     Star.add_edges_from(star_edge)
+    Star.node[node_center[0]]['star'] = 1
 
     percentage_node_choice = [1.5, 2, 3]
     star_node = len(list(Star.nodes))
@@ -271,6 +282,10 @@ def Balloon_Like_Ego_Connection(G):
     # print(list(G_balloon.nodes))
     G_balloon.add_edge(len(G_balloon), len(G_balloon) - 1)
     print(list(G_balloon.nodes))
+    G_balloon.node[len(G_balloon) - 1]['balloon'] = 1
+    G_balloon.node[len(G_balloon) - 2]['balloon'] = 1
+    G_balloon[len(G_balloon) - 1][len(G_balloon) - 2]['balloon'] = 1
+
 
     percentage_node_choice = [0.6, 0.4, 0.2]
     balloon_node = len(list(G_balloon.nodes))
@@ -306,7 +321,7 @@ def Balloon_Like_Community_Connection(G):
     :return: graph + balloon_like community subgraph
     '''
 
-    percentage_choice = [0.05, 0.03, 0.01]
+    percentage_choice = [0.5, 0.3, 0.1]
     percentage = random.choice(percentage_choice)
     balloon_community = math.floor(len(G) * percentage)
     print(balloon_community)
@@ -315,7 +330,11 @@ def Balloon_Like_Community_Connection(G):
     # seed_node = random.randint(0, len(G_balloon)-1)
     # G_balloon.add_edge(seed_node, len(G_balloon))
     G_balloon.add_edge(len(G_balloon), len(G_balloon) - 1)
+
     print(list(G_balloon.nodes))
+    G_balloon.node[len(G_balloon) - 1]['balloon'] = 1
+    G_balloon.node[len(G_balloon) - 2]['balloon'] = 1
+    G_balloon[len(G_balloon) - 1][len(G_balloon) - 2]['balloon'] = 1
 
     test_edge = G.edges([len(G) - 1])
     clean_edges = []
@@ -360,14 +379,14 @@ def Generate_Simulated_Data():
     # plt.show()
 
     # get balloon_like connection
-    nodes, neighbour, probability = 8000, 4, 0.3
+    nodes, neighbour, probability = 50, 4, 0.3
     G = WS_Generator(nodes, neighbour, probability)
     G = Balloon_Like_Community_Connection(G)
     G = Balloon_Like_Community_Connection(G)
     G = Balloon_Like_Community_Connection(G)
-    # G = Balloon_Like_Community_Connection(G)
-    # G = Balloon_Like_Community_Connection(G)
-    # G = Balloon_Like_Ego_Connection(G)
+    G = Balloon_Like_Community_Connection(G)
+    G = Balloon_Like_Community_Connection(G)
+    G = Balloon_Like_Ego_Connection(G)
     G = Star_Like_Connection(G)
     G = Star_Like_Connection(G)
     G = Star_Like_Connection(G)
@@ -375,19 +394,27 @@ def Generate_Simulated_Data():
     G = Star_Like_Connection(G)
     G = Sinple_Bridge_Like_Connection(G)
     G = Bridge_Like_Connection(G)
-
     G = Special_People_on_Bridge(G)
     # G = Special_People_on_Bridge()
-
+    #
     # G = Chain_Connection(G)
-
+    #
     # G = Noise_Connection(G)
-
+    #
     # G = High_Density_Connection(G)
+    #
+    G = Single_Friend_Connection(G)
 
-    # G = Single_Friend_Connection(G)
-    print(len(G))
+    # Check type
+    # for n, data in G.nodes(data='special'):
+    #     print(n, data)
+    #
+    # print('----')
+    #
+    # for (u, v, d) in G.edges(data='bridge'):
+    #     print(u, v, d)
 
+    #
     path = '../SimulationDataset/simulation3.gml'
     Save_GML(G, path)
 
