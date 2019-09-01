@@ -53,25 +53,42 @@ def Extract_Local_High_Neighbor(G):
             node_neighbor_count = list(set(node_neighbor).union(set(node_neighbor_count)))
         node_2step_neighbor.append(node_neighbor_count)
 
+    print(node_neighbor_count)
+    print(sorted(d for n, d in G.degree(node_neighbor_count)))
 
     # count degree
     degree_threshold = 3
     local_heigh_degree = []
     node_index = list(G.nodes)
     for index, node2 in enumerate(node_2step_neighbor):
-        max_degree = node_degree_index[index]
-        big_degree = 0
-        for i in node2:
-            i_indegree = list(G.successors(i))
-            i_outdegree = list(G.predecessors(i))
-            i_degree = len(list(set(i_indegree).union(set(i_outdegree))))
-            max_degree = i_degree if i_degree > max_degree else max_degree
-            if i_degree > big_degree and i_degree < max_degree:
-                big_degree = i_degree
-        if max_degree == node_degree_index[index] and max_degree > degree_threshold and max_degree - big_degree > 20:
-            local_heigh_degree.append(node_index[index])
+        degree_index = sorted(n for n, d in G.degree(node2))
+        degree_sort = sorted(d for n, d in G.degree(node2))
+        if len(degree_sort) == 0:
+            continue
+        print(degree_index, degree_sort)
+        nsum = 0
+        for i in range(len(degree_sort)):
+            nsum += degree_sort[i]
+        ave = nsum / len(degree_sort)
+        flag = True
+        for j in degree_sort[:-1]:
+            if j > ave:
+                flag = False
+        if degree_sort[-1] > ave and flag:
+            local_heigh_degree.append(degree_index[-1])
+        # max_degree = node_degree_index[index]
+        # big_degree = 0
+        # for i in node2:
+        #     i_indegree = list(G.successors(i))
+        #     i_outdegree = list(G.predecessors(i))
+        #     i_degree = len(list(set(i_indegree).union(set(i_outdegree))))
+        #     max_degree = i_degree if i_degree > max_degree else max_degree
+        #     if i_degree > big_degree and i_degree < max_degree:
+        #         big_degree = i_degree
+        # if max_degree == node_degree_index[index] and max_degree > degree_threshold and max_degree - big_degree > iter_value:
+        #     local_heigh_degree.append(node_index[index])
 
-    local_heigh_degree = list(set(local_heigh_degree))
+    # local_heigh_degree = list(set(local_heigh_degree))
     # print(local_heigh_degree)
 
     for node in local_heigh_degree:
@@ -439,13 +456,14 @@ def Data_Test():
     # Test file type
     # path = "../Datasets/football.gml"
     # path = "../Datasets/test_graph_data.edges"
-    path = "../Datasets/test_local_degree.csv"
+    # path = "../Datasets/test_local_degree.csv"
+    # path = "../Datasets/relationship.csv"
 
     # Test data preprocessing
-    # path = "../SimulationDataset/simulation1.gml"
+    path = "../Datasets/test1.csv"
     G = Data_Preprocessing(path)
 
-    heigh_neighbour = 0.1
+    heigh_neighbour = 0.15
     Extract_Global_High_Neighbor(G, heigh_neighbour)
     Extract_Local_High_Neighbor(G)
     Extract_Star(G)
