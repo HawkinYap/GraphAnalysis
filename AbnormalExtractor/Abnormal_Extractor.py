@@ -474,14 +474,14 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    # path = "../Datasets/polblogs.gml"
+    path = "../Datasets/relationship.csv"
     # path = "../Datasets/test_graph_data.edges"
     # path = "../Datasets/test_local_degree.csv"
     # path = "../Datasets/test2.csv"
     # path = "../SimulationDataset/simulation3.gml"
 
     # Test data preprocessing
-    path = "../Datasets/polblogs_edge.csv"
+    # path = "../Datasets/polblogs_edge.csv"
     G = Data_Preprocessing(path)
 
     heigh_neighbour = 0.15
