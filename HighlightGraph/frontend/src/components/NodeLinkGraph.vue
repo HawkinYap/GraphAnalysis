@@ -199,8 +199,10 @@ export default {
         .attr("class", "rectangles");
 
       let _this = this;
+      
       function brushended() {
         var s = d3.event.selection;
+        let timeFormat = d3.timeFormat("%Y-%m-%d %H:%M:%S");
         console.log(s)
         if(s) {
           d3.select("g.rectangles").append("rect")
@@ -214,12 +216,12 @@ export default {
 
           _this.rectangleInfo.push({
             name: _this.imageName,
+            time: timeFormat(new Date()),
             x1: s[0][0],
             y1: s[0][1],
             x2: s[1][0],
             y2: s[1][1]
           })
-
           // let transform = document.querySelector("svg g#Edges").parentNode.getAttribute("transform");
           // console.log(transform)
 
@@ -242,26 +244,9 @@ export default {
     },
     next() {
       let timeFormat = d3.timeFormat("%Y-%m-%d %H:%M:%S");
-      let now = timeFormat(new Date());
-      this.rectangleInfo.forEach(d => {
-        axios.post("/saveRect/", {
-          time: now,
-          name: d.name,
-          x1: d.x1,
-          y1: d.y1,
-          x2: d.x2,
-          y2: d.y2
-        }).then(response => {
-          let responseData = response.data;
-          if(responseData.state == 'fail') {
-            alert("error");
-          } else {
-             console.log("save rect: success")
-          }
-        })
-      })
+      // 先保存duration
       axios.post("/saveDuration/", {
-        time: now,
+        time: timeFormat(new Date()),
         name: this.imageName,
         consumingtime: this.consumingtime
       }).then(response => {
@@ -269,10 +254,30 @@ export default {
           if(responseData.state == 'fail') {
             alert("error");
           } else {
-            console.log("save duration: success")
+            console.log(responseData.state)
+            // 再保存rectangle
+            console.log(this.rectangleInfo)
+            this.rectangleInfo.forEach(d => {
+                axios.post("/saveRect/", {
+                  time: d.time,
+                  name: d.name,
+                  x1: d.x1,
+                  y1: d.y1,
+                  x2: d.x2,
+                  y2: d.y2,
+                  did: responseData.state,
+                }).then(response => {
+                  let responseData = response.data;
+                  if(responseData.state == 'fail') {
+                    alert("error");
+                  } else {
+                     console.log("save rect: success")
+                  }
+                })
+              })
+            this.rectangleInfo = [];
           }
         })
-      this.rectangleInfo = [];
       clearInterval(this.interval);
       this.percentage += (100 / this.images.length);
       if (this.percentage > 100) {

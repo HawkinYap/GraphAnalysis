@@ -29,7 +29,8 @@ export default {
     this.$nextTick(() => {
       let screenWidth = document.documentElement.clientWidth ||  document.body.clientWidth;
       let screenHeight = document.documentElement.clientHeight || document.body.clientHeight;
-      document.querySelector(".video-container").style.height = screenHeight * 0.6 + "px";
+      console.log(screenWidth, screenHeight)
+      document.querySelector(".video-container").style.width = screenWidth * 0.6 + "px";
     })
   },
   methods: {
@@ -59,12 +60,12 @@ export default {
   font: normal 20px arial,sans-serif;
 }
 .video-container{
-  width: 90%;
   margin: 2% auto;
   text-align: center;
 }
 video {
- height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .button-container {
   text-align: center;

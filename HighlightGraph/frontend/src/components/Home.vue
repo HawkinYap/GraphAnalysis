@@ -39,6 +39,40 @@
         </div>
       </div>
     </div>
+    <el-dialog
+      title="Sign up"
+      :visible.sync="dialogVisible"
+      width="80%">
+      <el-form size="medium" label-position="left" :model="form" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+        <el-form-item label="Name" prop="name">
+          <el-input v-model="form.name"></el-input>
+        </el-form-item>
+        <el-form-item label="Sex" prop="sex">
+          <el-radio-group v-model="form.sex">
+            <el-radio label="Male"></el-radio>
+            <el-radio label="Female"></el-radio>
+          </el-radio-group>
+        </el-form-item>
+        <el-form-item label="Age" prop="age">
+          <el-input v-model.number="form.age"></el-input>
+        </el-form-item>
+        <el-form-item label="Education" prop="education">
+          <el-select v-model="form.education" placeholder="please select education">
+            <el-option label="undergraduate" value="undergraduate"></el-option>
+            <el-option label="master" value="master"></el-option>
+            <el-option label="doctor" value="doctor"></el-option>
+            <el-option label="others" value="others"></el-option>
+          </el-select>
+        </el-form-item>
+        <el-form-item label="Research" prop="research">
+          <el-input v-model="form.research"></el-input>
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" @click="submitForm('ruleForm')">Register</el-button>
+          <el-button @click="resetForm('ruleForm')">Reset</el-button>
+        </el-form-item>
+      </el-form>
+    </el-dialog>
   </div>
 </template>
 
@@ -54,10 +88,42 @@ export default {
 			intro_percentage: 0,
 			test_percentage: 0,
 			experiment_percentage: 0,
+      dialogVisible: false,
+      form: {
+        name: '',
+        education: '',
+        age: '',
+        sex: '',
+        research: ''
+      },
+      rules: {
+        name: [
+          { required: true, message: 'please input user name', trigger: 'blur' },
+          // { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }
+        ],
+        sex: [
+          { required: true, message: 'please select sex', trigger: 'change' }
+        ],
+        education: [
+          { required: true, message: 'please select education', trigger: 'change' }
+        ],
+        age: [
+          // { required: true, message: 'please input age', trigger: 'blur' },
+          // { type: 'number', message: 'age must be number', trigger: 'blur'}
+          { required: true, message: 'please input age'},
+          { type: 'number', message: 'age must be number'}
+        ],
+        research: [
+          { required: true, message: 'please input research derection', trigger: 'blur' }
+        ]
+      }
     }
   },
   mounted() {
     this.$nextTick(() => {
+      if(this.$store.state.username == null) {
+        this.dialogVisible = true;
+      }
 			let msg = this.$route.params.msg;
 			switch (msg) {
 				case 'intro':
@@ -97,6 +163,21 @@ export default {
     },
     toHeatmap() {
       this.$router.push('/heatmap');
+    },
+    submitForm(formName) {
+      this.$refs[formName].validate((valid) => {
+        if (valid) {
+          console.log(this.form)
+          this.$store.dispatch("register", this.form.name);
+          alert('submit!');
+        } else {
+          console.log('error submit!!');
+          return false;
+        }
+      });
+    },
+    resetForm(formName) {
+      this.$refs[formName].resetFields();
     }
   },
   computed: {
