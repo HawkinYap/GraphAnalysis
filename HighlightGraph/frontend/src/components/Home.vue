@@ -42,7 +42,7 @@
     <el-dialog
       title="Sign up"
       :visible.sync="dialogVisible"
-      width="80%"
+      width="60%"
       :show-close="false">
       <el-form size="medium" label-position="left" :model="form" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
         <el-form-item label="Name" prop="name">
