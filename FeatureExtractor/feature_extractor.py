@@ -18,7 +18,8 @@ def Get_In_Out_Degree(G):
 
         out_nodes = len(list(G_copy.successors(node)))
         in_nodes = len(list(G_copy.predecessors(node)))
-
+        if degree == 0:
+            continue
         G.node[node]['in'] = in_nodes / degree
         G.node[node]['out'] = out_nodes / degree
         G.node[node]['bi'] = bi_nodes / degree
@@ -181,26 +182,47 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    path = "../SimulationDataset/simulation2.gml"
-    # path = "../Datasets/train_test_1.csv"
-    is_Direct = False
-    # Test data preprocessing
-    # path = "../Datasets/test1.csv"
-    G1 = Data_Preprocessing(path, is_Direct)
+    # path = "../SimulationDataset/simulation2.gml"
+    # path = "../Datasets/eurosis.gml"
+    # is_Direct = False
+    # # Test data preprocessing
+    # # path = "../Datasets/test1.csv"
+    # G1 = Data_Preprocessing(path, is_Direct)
     G = nx.DiGraph()
-    G.add_edges_from(list(G1.edges()))
-    for i in G.nodes():
-        G.node[i]['anomalous'] = bool(G1.node[i]['anomalous'])
+    f = open('../Datasets/post/nodes.csv', 'r')
+    reader = csv.reader(f)
+    nodes = []
+    anomalous = []
+    for item in reader:
+        nodes.append(int(item[0]))
+        anomalous.append(int(item[1]))
+    f.close()
+    print(nodes, anomalous)
+    G.add_nodes_from(nodes)
+    for i in range(len(nodes)):
+        G.node[nodes[i]]['anomalous'] = anomalous[i]
+
+    edge = []
+    f = open('../Datasets/post/edges.csv', 'r')
+    reader = csv.reader(f)
+    edges = []
+    for item in reader:
+
+        edges.append([int(item[0]), int(item[1])])
+    f.close()
+    G.add_edges_from(edges)
+    print(list(G.nodes))
+    print(list(G.edges))
 
     Get_Node_Feature(G)
     Get_Node_Community(G)
     Get_Node_Density(G)
     Get_In_Out_Degree(G)
     # Get_Edge_Feature(G)
-    #
-    # # # Check type
-    for n, data in G.nodes(data=True):
-        print(n, data)
+
+    # # Check type
+    # for n, data in G.nodes(data=True):
+    #     print(n, data)
 
     # for (u, v, d) in G.edges(data=True):
     #     print(u, v, d)
