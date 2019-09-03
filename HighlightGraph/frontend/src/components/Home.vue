@@ -42,7 +42,8 @@
     <el-dialog
       title="Sign up"
       :visible.sync="dialogVisible"
-      width="80%">
+      width="80%"
+      :show-close="false">
       <el-form size="medium" label-position="left" :model="form" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
         <el-form-item label="Name" prop="name">
           <el-input v-model="form.name"></el-input>
@@ -121,30 +122,30 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
-      if(this.$store.state.username == null) {
-        this.dialogVisible = true;
-      }
-			let msg = this.$route.params.msg;
-			switch (msg) {
-				case 'intro':
-					this.intro_percentage = 100;
-					break;
-				case 'test':
-					this.intro_percentage = 100;
-					this.test_percentage = 100;
+      this.isLogged();
+      let msg = this.$route.params.msg;
+      switch (msg) {
+        case 'intro':
+          this.intro_percentage = 100;
+          break;
+        case 'test':
+          this.intro_percentage = 100;
+          this.test_percentage = 100;
           break;
         case 'expertment':
           this.intro_percentage = 100;
           this.test_percentage = 100;
           this.experiment_percentage = 100;
+          this.signout();
           break;
-				default:
-					break;
-			}
+        default:
+          break;
+      }
     })
   },
   methods: {
     toIntro() {
+      this.isLogged();
 			this.$router.push('/intro');
 		},
 		toTest() {
@@ -167,17 +168,43 @@ export default {
     submitForm(formName) {
       this.$refs[formName].validate((valid) => {
         if (valid) {
-          console.log(this.form)
-          this.$store.dispatch("register", this.form.name);
-          alert('submit!');
+          axios.post("/register/", this.form)
+            .then(response => {
+              if(response.data == 'OK') {
+                this.dialogVisible = false;
+                alert('success');
+              } else if(response.data == 'fail') {
+                alert('The user already exists');
+              } else {
+                alert('The user already sign in');
+              }
+            }) 
         } else {
-          console.log('error submit!!');
+          // alert('error');
           return false;
         }
       });
     },
     resetForm(formName) {
       this.$refs[formName].resetFields();
+    },
+    signout() {
+      axios.get('/signout/')
+        .then(response => {
+          if(response.data == 'OK') {
+            // alert("sign out")
+          }
+        })
+    },
+    isLogged() {
+      axios.get('/isLogged/')
+      .then(response => {
+        if(response.data == 'log_in') { // 已经登录
+          this.dialogVisible = false;
+        } else { // 未登录
+          this.dialogVisible = true;
+        }
+      })
     }
   },
   computed: {

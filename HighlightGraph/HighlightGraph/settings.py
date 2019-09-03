@@ -128,9 +128,11 @@ STATICFILES_DIRS = [
 ]
 
 # 跨域增加忽略
-CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = ()
+CORS_ORIGIN_WHITELIST = (
+    # 'http://127.0.0.1:8080',
+)
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
@@ -152,5 +154,3 @@ CORS_ALLOW_HEADERS = (
     'x-csrftoken',
     'x-requested-with',
 )
-#部署到云服务上必备
-ALLOWED_HOSTS = ['*']

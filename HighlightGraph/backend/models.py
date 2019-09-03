@@ -13,7 +13,7 @@ class Duration(models.Model):
     time = models.CharField(max_length=50)
     name = models.CharField(max_length=50)
     consumingtime = models.IntegerField()
-    # username = models.ForeignKey('Username', on_delete=models.CASCADE, default='')
+    username = models.ForeignKey('Username', on_delete=models.CASCADE, default='')
 
 class Rectangle(models.Model):
     rid = models.AutoField(primary_key=True)
@@ -23,7 +23,7 @@ class Rectangle(models.Model):
     y1 = models.FloatField()
     x2 = models.FloatField()
     y2 = models.FloatField()
-    # username = models.ForeignKey('Username', on_delete=models.CASCADE, default='')
+    username = models.ForeignKey('Username', on_delete=models.CASCADE, default='')
     duration = models.ForeignKey('Duration', on_delete=models.CASCADE, default='')
 
 #     def __str__(self):

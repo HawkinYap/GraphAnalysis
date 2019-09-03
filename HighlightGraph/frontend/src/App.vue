@@ -9,6 +9,7 @@
 
 <script>
 import * as d3 from "d3"
+import axios from './assets/js/http'
 export default {
   name: 'app',
   components: {
@@ -20,6 +21,12 @@ export default {
   mounted() {
     this.$nextTick(() => {
     })
+  },
+  beforeDestroy() {
+    axios.get('/signout/')
+      .then(response => {
+        
+      })
   }
 }
 </script>
