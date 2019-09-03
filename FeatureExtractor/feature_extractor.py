@@ -19,9 +19,9 @@ def Get_In_Out_Degree(G):
         out_nodes = len(list(G_copy.successors(node)))
         in_nodes = len(list(G_copy.predecessors(node)))
 
-        G.node[node]['in_d_d'] = in_nodes / degree
-        G.node[node]['out_d_d'] = out_nodes / degree
-        G.node[node]['bi_d_d'] = bi_nodes / degree
+        G.node[node]['in'] = in_nodes / degree
+        G.node[node]['out'] = out_nodes / degree
+        G.node[node]['bi'] = bi_nodes / degree
 
 def Get_Node_Density(G):
     # find local degree
@@ -109,31 +109,32 @@ def Get_Edge_Feature(G):
         G[edge[0]][edge[1]]['transitive'] = transitive
 
 def Get_Node_Feature(G):
-    node_index = list(G.nodes())
+    G_copy = nx.Graph(G)
+    node_index = list(G_copy.nodes())
     '''neighborhoods'''
-    a = [n for i, n in nx.degree(G)]
+    a = [n for i, n in nx.degree(G_copy)]
 
     '''clustering coefficient'''
-    b = nx.clustering(G)
+    b = nx.clustering(G_copy)
     b = list(b.values())
 
     '''degree_centrality'''
-    c = nx.degree_centrality(G)
+    c = nx.degree_centrality(G_copy)
     c = list(c.values())
 
     '''closeness centrality'''
-    d = nx.closeness_centrality(G)
+    d = nx.closeness_centrality(G_copy)
     d = list(d.values())
 
     '''Betweenness centrality measures'''
-    e = nx.betweenness_centrality(G)
+    e = nx.betweenness_centrality(G_copy)
     e = list(e.values())
 
 
     for i in range(len(node_index)):
         G.node[node_index[i]]['neighbor'] = a[i]
         G.node[node_index[i]]['clustering'] = b[i]
-        G.node[node_index[i]]['degree_c'] = c[i]
+        G.node[node_index[i]]['degree'] = c[i]
         G.node[node_index[i]]['closeness'] = d[i]
         G.node[node_index[i]]['betweenness'] = e[i]
 
@@ -155,37 +156,55 @@ def Data_Preprocessing(path, is_Direct):
         f = open(path, 'r')
         reader = csv.reader(f)
         edges = []
+        anomalous = []
         for item in reader:
             edges.append([int(item[0]), int(item[1])])
+            anomalous.append(bool(item[2]))
         f.close()
         if is_Direct:
             G = nx.DiGraph()
         else:
             G = nx.Graph()
         G.add_edges_from(edges)
+        node_index = list(G.nodes())
+        print(node_index)
+        print(len(node_index))
+        for i in range(len(node_index)):
+            G.node[node_index[i]]['anomalous'] = anomalous[i]
+
     return(G)
+
+def Save_Graph(G):
+    path = '../SimulationDataset/simulation4.gml'
+    nx.write_gml(G, path)
 
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/relationship.csv"
+    path = "../SimulationDataset/simulation2.gml"
+    # path = "../Datasets/train_test_1.csv"
     is_Direct = False
     # Test data preprocessing
     # path = "../Datasets/test1.csv"
-    G = Data_Preprocessing(path, is_Direct)
+    G1 = Data_Preprocessing(path, is_Direct)
+    G = nx.DiGraph()
+    G.add_edges_from(list(G1.edges()))
+    for i in G.nodes():
+        G.node[i]['anomalous'] = bool(G1.node[i]['anomalous'])
+
     Get_Node_Feature(G)
     Get_Node_Community(G)
     Get_Node_Density(G)
     Get_In_Out_Degree(G)
-    Get_Edge_Feature(G)
-
-    # # Check type
+    # Get_Edge_Feature(G)
+    #
+    # # # Check type
     for n, data in G.nodes(data=True):
         print(n, data)
 
     # for (u, v, d) in G.edges(data=True):
     #     print(u, v, d)
-
+    Save_Graph(G)
 
 if __name__ == '__main__':
     Data_Test()

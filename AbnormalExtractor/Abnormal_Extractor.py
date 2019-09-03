@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from fast_unfolding import *
 from collections import defaultdict
 import math
+import random
 
 # Extract the global heigh degree node
 def Extract_Global_High_Neighbor(G, heigh_neighbour):
@@ -306,13 +307,15 @@ def Extract_Bridge(G):
             a = [i for i in G.edges(r)]
             direct_edges1 = [i for i in a if r[0] in i]
             direct_edges2 = [i for i in direct_edges1 if r[1] in i]
-            node = direct_edges2[0]
+            print(direct_edges1, direct_edges2)
+            if len(direct_edges2) != 0:
+                node = direct_edges2[0]
 
-        for n in node:
-            G.node[n]['bridge'] = 1
+                for n in node:
+                    G.node[n]['bridge'] = 1
 
-        for e in direct_edges2:
-            G[e[0]][e[1]]['bridge'] = 1
+                for e in direct_edges2:
+                    G[e[0]][e[1]]['bridge'] = 1
 
 
 def Extract_Special_Degree(G):
@@ -383,7 +386,7 @@ def Extract_Person_Between_Two_Communitis(G):
         if math.floor(value_len * 1.5) < count_value:
             candidate_list.append(value)
 
-    klist = list(community.k_clique_communities(G_copy, 5))
+    klist = list(community.k_clique_communities(G_copy, 3))
 
     special_result = []
     for i in candidate_list:
@@ -447,6 +450,23 @@ def Data_Preprocessing(path):
 
     return(G)
 
+def Add_Anomalous_Labels(G):
+    have_attribution = []
+    for i, data in G.node(data=True):
+        check = list(data.values())
+        if max(check) != 0:
+            have_attribution.append(i)
+    # flag = 1
+    # while flag == 1:
+    #     node = random.randrange(len(G) - 1)
+    #     if node not in have_attribution:
+    #         flag = 0
+    for i in G.node():
+        if i not in have_attribution:
+            G.node[i]['anomalous'] = 0
+        else:
+            G.node[i]['anomalous'] = 1
+
 def Save_Graph(G):
     path = '../SimulationDataset/simulation2.gml'
     nx.write_gml(G, path)
@@ -454,30 +474,34 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    # path = "../Datasets/football.gml"
+    path = "../Datasets/relationship.csv"
     # path = "../Datasets/test_graph_data.edges"
     # path = "../Datasets/test_local_degree.csv"
-    # path = "../Datasets/relationship.csv"
+    # path = "../Datasets/test2.csv"
+    # path = "../SimulationDataset/simulation3.gml"
 
     # Test data preprocessing
-    path = "../Datasets/test1.csv"
+    # path = "../Datasets/polblogs_edge.csv"
     G = Data_Preprocessing(path)
 
     heigh_neighbour = 0.15
     Extract_Global_High_Neighbor(G, heigh_neighbour)
     Extract_Local_High_Neighbor(G)
     Extract_Star(G)
-    Extract_Balloon_Community_with_Sinple_Method(G)
+    # Extract_Balloon_Community_with_Sinple_Method(G)
     Extract_Balloon_Community_with_Fast_Unfolding(G)
     Extract_Bridge(G)
     Extract_Special_Degree(G)
-    Extract_Person_Between_Two_Communitis(G)
+    # Extract_Person_Between_Two_Communitis(G)
+    Add_Anomalous_Labels(G)
+
+    # # Check type
+    for n, data in G.nodes(data=True):
+        print(n, data)
 
     Save_Graph(G)
 
-    # # Check type
-    # for n, data in G.nodes(data='special_degree'):
-    #     print(n, data)
+
     #
     # print('----')
     #

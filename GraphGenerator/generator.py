@@ -382,7 +382,7 @@ def Generate_Simulated_Data():
     # plt.show()
 
     # get balloon_like connection
-    nodes, neighbour, probability = 2000, 4, 0.3
+    nodes, neighbour, probability = 4000, 4, 0.3
     G = WS_Generator(nodes, neighbour, probability)
     # G = Balloon_Like_Community_Connection(G)
     G = Balloon_Like_Community_Connection(G)
