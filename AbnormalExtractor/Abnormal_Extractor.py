@@ -20,6 +20,7 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
     for node in sort_node_degree:
+        print(node[0])
         G.node[node[0]]['global'] = 1
     # return(G)
 
@@ -47,54 +48,75 @@ def Extract_Local_High_Neighbor(G):
         for node1 in node_neighbor:
             node1_outdegree = list(G.successors(node1))
             node1_indegree = list(G.predecessors(node1))
-            node1_neighbor = list(set(node1_indegree).union(set(node1_outdegree)))
+            node1_neighbor = list(set(node1_indegree) | (set(node1_outdegree)))
 
-            node_neighbor = list(set(node_neighbor).union(set(node1_neighbor)))
+            node_neighbor = list(set(node_neighbor) | (set(node1_neighbor)))
             # print(node, node_neighbor)
-            node_neighbor_count = list(set(node_neighbor).union(set(node_neighbor_count)))
+            node_neighbor_count = list(set(node_neighbor) | (set(node_neighbor_count)))
+        # node_2step_neighbor[node] = node_neighbor_count
         node_2step_neighbor.append(node_neighbor_count)
 
-    print(node_neighbor_count)
-    print(sorted(d for n, d in G.degree(node_neighbor_count)))
+    print(node_2step_neighbor)
 
-    # count degree
     degree_threshold = 3
     local_heigh_degree = []
     node_index = list(G.nodes)
     for index, node2 in enumerate(node_2step_neighbor):
-        degree_index = sorted(n for n, d in G.degree(node2))
-        degree_sort = sorted(d for n, d in G.degree(node2))
-        if len(degree_sort) == 0:
-            continue
-        print(degree_index, degree_sort)
-        nsum = 0
-        for i in range(len(degree_sort)):
-            nsum += degree_sort[i]
-        ave = nsum / len(degree_sort)
-        flag = True
-        for j in degree_sort[:-1]:
-            if j > ave:
-                flag = False
-        if degree_sort[-1] > ave and flag:
-            local_heigh_degree.append(degree_index[-1])
-        # max_degree = node_degree_index[index]
-        # big_degree = 0
-        # for i in node2:
-        #     i_indegree = list(G.successors(i))
-        #     i_outdegree = list(G.predecessors(i))
-        #     i_degree = len(list(set(i_indegree).union(set(i_outdegree))))
-        #     max_degree = i_degree if i_degree > max_degree else max_degree
-        #     if i_degree > big_degree and i_degree < max_degree:
-        #         big_degree = i_degree
-        # if max_degree == node_degree_index[index] and max_degree > degree_threshold and max_degree - big_degree > iter_value:
-        #     local_heigh_degree.append(node_index[index])
+        max_degree = node_degree_index[index]
+        big_degree = 0
+        for i in node2:
+            i_indegree = list(G.successors(i))
+            i_outdegree = list(G.predecessors(i))
+            i_degree = len(list(set(i_indegree).union(set(i_outdegree))))
+            max_degree = i_degree if i_degree > max_degree else max_degree
+            if i_degree > big_degree and i_degree < max_degree:
+                big_degree = i_degree
+        if max_degree == node_degree_index[index] and max_degree > degree_threshold and max_degree - big_degree > 5:
+            local_heigh_degree.append(node_index[index])
 
-    # local_heigh_degree = list(set(local_heigh_degree))
-    # print(local_heigh_degree)
-
-    for node in local_heigh_degree:
-        G.node[node]['local'] = 1
-    # return(G)
+    local_heigh_degree = list(set(local_heigh_degree))
+    print(local_heigh_degree)
+    # print(sorted(d for n, d in G.degree(node_neighbor_count)))
+    #
+    # # count degree
+    # degree_threshold = 3
+    # local_heigh_degree = []
+    # node_index = list(G.nodes)
+    # for index, node2 in enumerate(node_2step_neighbor):
+    #     degree_index = sorted(n for n, d in G.degree(node2))
+    #     degree_sort = sorted(d for n, d in G.degree(node2))
+    #     if len(degree_sort) == 0:
+    #         continue
+    #     print(degree_index, degree_sort)
+    #     nsum = 0
+    #     for i in range(len(degree_sort)):
+    #         nsum += degree_sort[i]
+    #     ave = nsum / len(degree_sort)
+    #     flag = True
+    #     for j in degree_sort[:-1]:
+    #         if j > ave:
+    #             flag = False
+    #     if degree_sort[-1] > ave and flag:
+    #         local_heigh_degree.append(degree_index[-1])
+    #     # print(local_heigh_degree)
+    #     # max_degree = node_degree_index[index]
+    #     # big_degree = 0
+    #     # for i in node2:
+    #     #     i_indegree = list(G.successors(i))
+    #     #     i_outdegree = list(G.predecessors(i))
+    #     #     i_degree = len(list(set(i_indegree).union(set(i_outdegree))))
+    #     #     max_degree = i_degree if i_degree > max_degree else max_degree
+    #     #     if i_degree > big_degree and i_degree < max_degree:
+    #     #         big_degree = i_degree
+    #     # if max_degree == node_degree_index[index] and max_degree > degree_threshold and max_degree - big_degree > iter_value:
+    #     #     local_heigh_degree.append(node_index[index])
+    #
+    # # local_heigh_degree = list(set(local_heigh_degree))
+    # # print(local_heigh_degree)
+    #
+    # for node in local_heigh_degree:
+    #     G.node[node]['local'] = 1
+    # # return(G)
 
 
 # Extract the star structure in the graph
@@ -106,6 +128,7 @@ def Extract_Star(G):
 
     # find star
     star = []
+    star_num = {}
     star_threshold = 4
     flag = 0
     node_sort = sorted(list(G.nodes()))
@@ -128,9 +151,11 @@ def Extract_Star(G):
                     break
             if flag == 1:
                 star.append(node)
+                star_num[node] = len(node_neighbor)
         else:
             continue
     print(star)
+    print(star_num)
     for n in star:
         G.node[n]['star'] = 1
     # return(G)
@@ -164,6 +189,7 @@ def Extract_Balloon_Community_with_Sinple_Method(G):
     for value in node.values():
         if len(value) == 1:
             balloon_node.append(value[0])
+    print(balloon_node)
     direct = list()
     for n in balloon_node:
         edge = [n for n in G_copy.neighbors(n)][0]
@@ -267,7 +293,7 @@ def Extract_Bridge(G):
         p[com_id].append(node)
 
     values = [partition.get(node) for node in G_copy.nodes()]
-    nx.draw_spring(G_copy, cmap=plt.get_cmap('jet'), node_color=values, node_size=30, with_labels=True)
+    nx.draw_spring(G_copy, cmap=plt.get_cmap('jet'), node_color=values, edge_color='#cccccc', node_size=30, with_labels=True)
     plt.show()
 
     candidate_list = []
@@ -279,6 +305,7 @@ def Extract_Bridge(G):
             count_value += len(tmp)
         if math.floor(value_len * 1.5) < count_value:
             candidate_list.append(value)
+    print(candidate_list)
 
     neighbor_list = []
     for candidate in candidate_list:
@@ -289,27 +316,28 @@ def Extract_Bridge(G):
             node_neighbor = list(set(in_nodes).union(set(out_nodes)))
             neighbor_set = neighbor_set + node_neighbor
         neighbor_list.append(set(neighbor_set))
-    print(neighbor_list)
+    # print(neighbor_list)
 
     result_node = []
     for i in range(len(neighbor_list)):
         for j in range(i + 1, len(neighbor_list)):
             a = neighbor_list[i]
             b = neighbor_list[j]
-            print(a, b)
+            # print(a, b)
             c = a & b
-            print(c)
+            # print(c)
             if len(c) == 2:
                 result_node.append(list(c))
-    print(result_node)
+    # print(result_node)
     if len(result_node) != 0:
         for r in result_node:
             a = [i for i in G.edges(r)]
             direct_edges1 = [i for i in a if r[0] in i]
             direct_edges2 = [i for i in direct_edges1 if r[1] in i]
-            print(direct_edges1, direct_edges2)
+            # print(direct_edges1, direct_edges2)
             if len(direct_edges2) != 0:
                 node = direct_edges2[0]
+                print(node)
 
                 for n in node:
                     G.node[n]['bridge'] = 1
@@ -324,27 +352,34 @@ def Extract_Special_Degree(G):
     :return: G with lable 1 (special_degree)
     '''
 
-    node_sort = sorted(list(G.nodes()))
+    node_sort = list(G.nodes())
     special_node = []
     special_edge = []
+    percent = []
     for node in node_sort:
         # find nodes's 1-step neighbor
         out_nodes = list(G.successors(node))
         in_nodes = list(G.predecessors(node))
+
         node_neighbor = list(set(in_nodes).union(set(out_nodes)))
-        if len(node_neighbor) > 0.1 * len(G):
+        if len(node_neighbor) > 0.02 * len(G):
             if len(out_nodes) == 0 or len(in_nodes) == 0:
                 continue
-            if len(out_nodes) / len(in_nodes) > 0.8:
+            if len(out_nodes) / (len(in_nodes) + len(out_nodes)) > 0.8:
+                percent.append((len(out_nodes) / (len(in_nodes) + len(out_nodes))))
+                special_node.append(node)
                 for i in in_nodes:
-                    special_node.append(i)
                     special_edge.append([i, node])
-            if len(in_nodes) / len(out_nodes) > 0.8:
+            if len(in_nodes) / (len(out_nodes) + len(in_nodes)) > 0.8:
+                percent.append((len(in_nodes) / (len(out_nodes) + len(in_nodes))))
+                special_node.append(node)
                 for j in out_nodes:
-                    special_node.append(j)
                     special_edge.append([node, j])
         else:
             continue
+
+    print(special_node)
+    print(percent)
     for n in special_node:
         G.node[n]['degree'] = 1
 
@@ -474,32 +509,32 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/relationship.csv"
+    path = "../Datasets/Email-Enron.csv"
     # path = "../Datasets/test_graph_data.edges"
     # path = "../Datasets/test_local_degree.csv"
-    # path = "../Datasets/test2.csv"
+    # path = "../Datasets/football.gml"
     # path = "../SimulationDataset/simulation3.gml"
 
     # Test data preprocessing
     # path = "../Datasets/polblogs_edge.csv"
     G = Data_Preprocessing(path)
 
-    heigh_neighbour = 0.15
-    Extract_Global_High_Neighbor(G, heigh_neighbour)
-    Extract_Local_High_Neighbor(G)
+    heigh_neighbour = 0.02
+    # Extract_Global_High_Neighbor(G, heigh_neighbour)
+    # Extract_Local_High_Neighbor(G)
     Extract_Star(G)
     # Extract_Balloon_Community_with_Sinple_Method(G)
-    Extract_Balloon_Community_with_Fast_Unfolding(G)
-    Extract_Bridge(G)
-    Extract_Special_Degree(G)
+    # Extract_Balloon_Community_with_Fast_Unfolding(G)
+    # Extract_Bridge(G)
+    # Extract_Special_Degree(G)
     # Extract_Person_Between_Two_Communitis(G)
-    Add_Anomalous_Labels(G)
+    # Add_Anomalous_Labels(G)
 
     # # Check type
-    for n, data in G.nodes(data=True):
-        print(n, data)
-
-    Save_Graph(G)
+    # for n, data in G.nodes(data=True):
+    #     print(n, data)
+    #
+    # Save_Graph(G)
 
 
     #
