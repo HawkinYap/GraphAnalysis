@@ -509,7 +509,7 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/Email-Enron.csv"
+    path = "../Datasets/dolphin/dophin_edge.csv"
     # path = "../Datasets/test_graph_data.edges"
     # path = "../Datasets/test_local_degree.csv"
     # path = "../Datasets/football.gml"
@@ -519,20 +519,20 @@ def Data_Test():
     # path = "../Datasets/polblogs_edge.csv"
     G = Data_Preprocessing(path)
 
-    heigh_neighbour = 0.02
-    # Extract_Global_High_Neighbor(G, heigh_neighbour)
-    # Extract_Local_High_Neighbor(G)
+    heigh_neighbour = 0.05
+    Extract_Global_High_Neighbor(G, heigh_neighbour)
+    Extract_Local_High_Neighbor(G)
     Extract_Star(G)
-    # Extract_Balloon_Community_with_Sinple_Method(G)
-    # Extract_Balloon_Community_with_Fast_Unfolding(G)
-    # Extract_Bridge(G)
-    # Extract_Special_Degree(G)
-    # Extract_Person_Between_Two_Communitis(G)
-    # Add_Anomalous_Labels(G)
+    Extract_Balloon_Community_with_Sinple_Method(G)
+    Extract_Balloon_Community_with_Fast_Unfolding(G)
+    Extract_Bridge(G)
+    Extract_Special_Degree(G)
+    Extract_Person_Between_Two_Communitis(G)
+    Add_Anomalous_Labels(G)
 
     # # Check type
-    # for n, data in G.nodes(data=True):
-    #     print(n, data)
+    for n, data in G.nodes(data='anomalous'):
+        print(n, data)
     #
     # Save_Graph(G)
 

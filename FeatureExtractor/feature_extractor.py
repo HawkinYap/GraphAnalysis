@@ -133,7 +133,7 @@ def Get_Node_Feature(G):
 
 
     for i in range(len(node_index)):
-        G.node[node_index[i]]['neighbor'] = a[i]
+        G.node[node_index[i]]['neighbor'] = a[i] / len(G)
         G.node[node_index[i]]['clustering'] = b[i]
         G.node[node_index[i]]['degree'] = c[i]
         G.node[node_index[i]]['closeness'] = d[i]
@@ -188,31 +188,41 @@ def Data_Test():
     # # Test data preprocessing
     # # path = "../Datasets/test1.csv"
     # G1 = Data_Preprocessing(path, is_Direct)
-    G = nx.DiGraph()
-    f = open('../Datasets/post/nodes.csv', 'r')
-    reader = csv.reader(f)
-    nodes = []
-    anomalous = []
-    for item in reader:
-        nodes.append(int(item[0]))
-        anomalous.append(int(item[1]))
-    f.close()
-    print(nodes, anomalous)
-    G.add_nodes_from(nodes)
-    for i in range(len(nodes)):
-        G.node[nodes[i]]['anomalous'] = anomalous[i]
+    # G = nx.DiGraph()
+    #     # f = open('../Datasets/post/nodes.csv', 'r')
+    #     # reader = csv.reader(f)
+    #     # nodes = []
+    #     # anomalous = []
+    #     # for item in reader:
+    #     #     nodes.append(int(item[0]))
+    #     #     anomalous.append(int(item[1]))
+    #     # f.close()
+    #     # print(nodes, anomalous)
+    #     # G.add_nodes_from(nodes)
+    #     # for i in range(len(nodes)):
+    #     #     G.node[nodes[i]]['anomalous'] = anomalous[i]
+    #     #
+    #     # edge = []
+    #     # f = open('../Datasets/post/edges.csv', 'r')
+    #     # reader = csv.reader(f)
+    #     # edges = []
+    #     # for item in reader:
+    #     #
+    #     #     edges.append([int(item[0]), int(item[1])])
+    #     # f.close()
+    #     # G.add_edges_from(edges)
+    #     # print(list(G.nodes))
+    #     # print(list(G.edges))
 
-    edge = []
-    f = open('../Datasets/post/edges.csv', 'r')
+    G = nx.DiGraph()
+    f = open('../Datasets/highschool/highschool_edge.csv', 'r')
     reader = csv.reader(f)
     edges = []
     for item in reader:
-
         edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
-    print(list(G.nodes))
-    print(list(G.edges))
+
 
     Get_Node_Feature(G)
     Get_Node_Community(G)
