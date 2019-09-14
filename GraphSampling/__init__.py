@@ -7,3 +7,4 @@ from GraphSampling.Snowball import Snowball
 from GraphSampling.MHRW import MHRW
 from GraphSampling.TIES import TIES
 from GraphSampling.RJ import RJ
+from GraphSampling.REN import REN
