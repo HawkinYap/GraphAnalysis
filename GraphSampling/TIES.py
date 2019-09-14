@@ -7,7 +7,10 @@ class TIES():
     def __init__(self):
         self.G1 = nx.Graph()
 
-    def ties(self, G, size):
+    def ties(self, G, size, isDirect):
+        if isDirect:
+            self.G1.to_directed()
+
         V = G.nodes()
         # Calculate number of nodes in Graph G
         Vs = []
@@ -16,8 +19,6 @@ class TIES():
             # Loops run till sample size * length of V where V is number of nodes in graph as calculated above.
             edges_sample = random.sample(G.edges(), 1)
             # Randomly samples one edge from a graph at a time
-            print("here2")
-            print("edges sampled", edges_sample)
             for a1, a2 in edges_sample:
                 # Nodes corresponding to sample edge are retrieved and added in Graph G1
                 self.G1.add_edge(a1, a2)

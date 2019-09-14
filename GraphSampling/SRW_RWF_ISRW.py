@@ -9,7 +9,7 @@ class SRW_RWF_ISRW():
         self.T = 100 # number of iterations
         self.fly_back_prob = 0.15
 
-    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample):
+    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample, isDirect):
         # giving unique id to every node same as built-in function id
         for n, data in complete_graph.nodes(data=True):
             complete_graph.node[n]['id'] = n
@@ -18,7 +18,11 @@ class SRW_RWF_ISRW():
         nr_nodes = len(complete_graph.nodes())
         upper_bound_nr_nodes_to_sample = nodes_to_sample
         index_of_first_random_node = random.randint(0, nr_nodes-1)
-        sampled_graph = nx.Graph()
+
+        if not isDirect:
+            sampled_graph = nx.Graph()
+        else:
+            sampled_graph = nx.DiGraph()
 
         sampled_graph.add_node(complete_graph.node[index_of_first_random_node]['id'])
 

@@ -5,34 +5,48 @@ class MHRW():
     def __init__(self):
         self.G1 = nx.Graph()
 
-    def mhrw(self, complete_graph, nodes_to_sample):
+    def mhrw(self, G, size, isDirect):
+        if isDirect:
+            self.G1.to_directed()
+        dictt = {}
+        node_list = set()
+        list_node = list(G.nodes())
+        node = random.sample(list_node, 1)
+        node_list.add(node[0])
+        parent_node = node_list.pop()
+        dictt[parent_node] = parent_node
+        degree_p = G.degree(parent_node)
+        related_list = list(G.neighbors(parent_node))
+        node_list.update(related_list)
+        while (len(self.G1.nodes()) < size):
+            if (len(node_list) > 0):
+                child_node = node_list.pop()
+                p = round(random.uniform(0, 1), 4)
+                if (child_node not in dictt):
+                    related_listt = list(G.neighbors(child_node))
+                    degree_c = G.degree(child_node)
+                    dictt[child_node] = child_node
+                    if (p <= min(1, degree_p / degree_c) and child_node in list(G.neighbors(parent_node))):
+                        self.G1.add_edge(parent_node, child_node)
+                        parent_node = child_node
+                        degree_p = degree_c
+                        node_list.clear()
+                        node_list.update(related_listt)
+                    else:
+                        del dictt[child_node]
+            # node_list set becomes empty or size is not reached
+            # insert some random nodes into the set for next processing
+            else:
+                node_list.update(random.sample(set(G.nodes()) - set(self.G1.nodes()), 3))
+                parent_node = node_list.pop()
+                G.add_node(parent_node)
+                related_list = list(G.neighbors(parent_node))
+                node_list.clear()
+                node_list.update(related_list)
+        return self.G1
 
-        list_nodes = list(complete_graph.nodes())
-        nr_nodes = len(complete_graph.nodes())
-        upper_bound_nr_nodes_to_sample = nodes_to_sample
-        index_of_first_random_node = random.randint(0, nr_nodes-1)
-        sampled_graph = nx.Graph()
 
-        sampled_graph.add_node(list_nodes[index_of_first_random_node])
-
-        curr_node = index_of_first_random_node
-        curr_degree = complete_graph.degree(list_nodes[index_of_first_random_node])
-        while sampled_graph.number_of_nodes() != upper_bound_nr_nodes_to_sample:
-            edges = [n for n in complete_graph.neighbors(curr_node)]
-            index_of_edge = random.randint(0, len(edges) - 1)
-            chosen_node = edges[index_of_edge]
-            new_degree = complete_graph.degree(edges[index_of_edge])
-            sampled_graph.add_node(chosen_node)
-            sampled_graph.add_edge(curr_node, chosen_node)
-
-            p = random.random()
-            d = float(curr_degree)/float(new_degree)
-            if p <= min(1.0, d):
-                curr_node = chosen_node
-
-        return sampled_graph
-
-    def induced_mhrw(self, G, size):
-        sampled_graph = self.mhrw(G, size)
+    def induced_mhrw(self, G, size, isDirect):
+        sampled_graph = self.mhrw(G, size, isDirect)
         induced_graph = G.subgraph(sampled_graph.nodes())
         return induced_graph
