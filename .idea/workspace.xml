@@ -6,11 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/MHRW.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/MHRW.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GraphSampling/RJ.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/RJ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/SRW_RWF_ISRW.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/SRW_RWF_ISRW.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/TIES.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/TIES.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_sample2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RJ.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RJ.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GraphSampling/RJ.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="60" column="71" lean-forward="true" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+            <state relative-caret-position="702">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -109,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sample2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_sample2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_sample2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1628">
-              <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+            <state relative-caret-position="386">
+              <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -172,10 +168,10 @@
         <option value="$PROJECT_DIR$/GraphSampling/RandomNode.py" />
         <option value="$PROJECT_DIR$/GraphSampling/ForestFire.py" />
         <option value="$PROJECT_DIR$/GraphSampling/SRW_RWF_ISRW.py" />
-        <option value="$PROJECT_DIR$/GraphSampling/RJ.py" />
         <option value="$PROJECT_DIR$/GraphSampling/MHRW.py" />
         <option value="$PROJECT_DIR$/GraphSampling/TIES.py" />
         <option value="$PROJECT_DIR$/test_sample2.py" />
+        <option value="$PROJECT_DIR$/GraphSampling/RJ.py" />
       </list>
     </option>
   </component>
@@ -371,7 +367,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32942098" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21361503" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.271518" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122367896" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -645,16 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="84" column="62" lean-forward="true" selection-start-line="83" selection-end-line="84" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GraphSampling/SRW_RWF_ISRW.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -669,16 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1234">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/RJ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="60" column="71" lean-forward="true" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -722,10 +698,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_sample2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1628">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="386">
+          <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="84" column="62" lean-forward="true" selection-start-line="83" selection-end-line="84" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphSampling/RJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -61,11 +61,16 @@ class RJ():
             other_node = random.sample(list(complete_graph.nodes()), 1)
             sampled_graph.add_node(chosen_node)
             sampled_graph.add_edge(curr_node, chosen_node)
-            choice = np.random.choice(['other', 'neigh'], 1, p=[pf, 1 - pf])
-            if choice == 'neigh':
+            p = random.random()
+            if p != 0.15:
                 curr_node = chosen_node
             else:
-                curr_node =other_node[0]
+                curr_node = other_node[0]
+            # choice = np.random.choice(['other', 'neigh'], 1, p=[pf, 1 - pf])
+            # if choice == 'neigh':
+            #     curr_node = chosen_node
+            # else:
+            #     curr_node =other_node[0]
             iteration = iteration + 1
 
             if iteration % self.T == 0:

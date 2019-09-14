@@ -38,12 +38,12 @@ def graphSampling(G, isDirect):
     # RE_sample = RE_object.randomedge(G, sample_rate)  # graph, number of nodes to sample
     # return(RE_sample)
 
-    REN_object = GraphSampling.REN()
-    REN_sample = REN_object.ren(G, sample_rate, isDirect)  # graph, number of nodes to sample
-    return(REN_sample)
+    # REN_object = GraphSampling.REN()
+    # REN_sample = REN_object.ren(G, sample_rate, isDirect)  # graph, number of nodes to sample
+    # return(REN_sample)
 
     # SB_object = GraphSampling.Snowball()
-    # SB_sample = SB_object.snowball(G, sample_rate, 6)  # graph, number of nodes to sample
+    # SB_sample = SB_object.snowball(G, sample_rate, 4)  # graph, number of nodes to sample
     # return(SB_sample) # When graph is a directed graph, we take neighbor as the output degree of the node
 
     # FF_object = GraphSampling.ForestFire()
@@ -74,9 +74,9 @@ def graphSampling(G, isDirect):
     # TIES_sample = TIES_object.ties(G, sample_rate, isDirect)  # graph, number of n
     # return(TIES_sample)
 
-    # RJ_object = GraphSampling.RJ()
-    # RJ_sample = RJ_object.rj(G, sample_rate, isDirect)  # graph, number of n
-    # return(RJ_sample)
+    RJ_object = GraphSampling.RJ()
+    RJ_sample = RJ_object.rj(G, sample_rate, isDirect)  # graph, number of n
+    return(RJ_sample)
 
 
 def drawGraph(G, sample):
@@ -88,7 +88,7 @@ def drawGraph(G, sample):
 
     plt.subplot(222)
     plt.title('sampling graph')
-    nx.draw(sample, spring_pos, with_labels=True)
+    nx.draw(sample, spring_pos, node_color='b', with_labels=True)
 
     plt.subplot(223)
     plt.title('add graph')
