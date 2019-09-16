@@ -32,7 +32,7 @@ export default {
       svg: null,
       svgWidth: null,
       svgHeight: null,
-      second: 30,
+      second: 40,
       interval: null,
       percentage: 0,
       rectangleInfo: [],
@@ -135,7 +135,7 @@ export default {
       document.querySelector(".graph-container").style.height = screenHeight * 0.68 + "px";
     },
     initInterval() {
-      this.second = 30;
+      this.second = 40;
       this.interval = setInterval(() => {
         if(this.second <= 0) {
           this.next();
@@ -341,7 +341,7 @@ export default {
       }
     },
     consumingtime: function() {
-      return 30 - this.second;
+      return 40 - this.second;
     }
   }
 }
