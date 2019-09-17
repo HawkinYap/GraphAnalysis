@@ -14,6 +14,7 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     for node in sort_node_degree:
         print(node[0])
         G.node[node[0]]['global'] = 1
+
     # return(G)
 
 # Extract the star structure in the graph
@@ -55,28 +56,48 @@ def Extract_Star(G, threshold):
 
 
 # load graph to networkx
-def loadData(path, isDirect):
+def loadData(path1, path2, isDirect):
 
-    f = open(path, "r")
+    # add nodes
+    f = open(path1, "r")
     reader1 = csv.reader(f)
-    edges = []
-
+    nodes = []
+    type1 = []
     for item in reader1:
-        edges.append([int(item[0]), int(item[1])])
+        nodes.append(int(item[0]))
+        type1.append(int(item[1]))
     f.close()
     if isDirect:
         G = nx.DiGraph()
     else:
         G = nx.Graph()
-    G.add_edges_from(edges)
+    G.add_nodes_from(nodes)
 
-    # nodes
+    # add node attribution
+    k = 0
     for n, data in G.nodes(data=True):
         G.node[n]['global'] = 0
+        G.node[n]['star'] = 0
+        G.node[n]['type1'] = type1[k]
+        k += 1
 
-    # edges
+    # add edges
+    f = open(path2, "r")
+    reader1 = csv.reader(f)
+    edges = []
+    type2 = []
+    for item in reader1:
+        edges.append([int(item[0]), int(item[1])])
+        type2.append(int(item[2]))
+    f.close()
+    G.add_edges_from(edges)
+
+    # add edge attribution
+    i = 0
     for u, v, d in G.edges(data=True):
         G[u][v]['bridge'] = 0
+        G[u][v]['type'] = type2[i]
+        i += 1
 
     return(G)
 
@@ -94,20 +115,26 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/relationship.csv"
+    path1 = "origin_Data/RS/RJ_RS_node.csv"
+    path2 = "origin_Data/RS/RJ_RS_edge.csv"
     isDirect = False
 
-    G = loadData(path, isDirect)
+    G = loadData(path1, path2, isDirect)
     find_Bridge(G)
 
-    heigh_neighbour = 0.01
+    heigh_neighbour = 0.05
     Extract_Global_High_Neighbor(G, heigh_neighbour)
 
     threshold = 5
     Extract_Star(G, threshold)
 
-    for (u, v, d) in G.edges(data='bridge'):
-        print(u, v, d)
+    # print('---------test---------')
+    # for n, data in G.nodes(data='type1'):
+    #     print(n, data)
+
+    # for (u, v, d) in G.edges(data='bridge'):
+    #     print(u, v, d)
+    # print('---------test---------')
 
     Save_Graph(G)
 
