@@ -112,6 +112,16 @@ def Save_Graph(G):
     nx.write_gml(G, path)
 
 
+def test_Sampling(G):
+    G1 = nx.Graph()
+    for n, data in G.nodes(data=True):
+        if data['type1'] == 2:
+            G1.add_node(n)
+
+    for n, data in G1.nodes(data='global'):
+        print(n, data)
+
+
 def Data_Test():
 
     # Test file type
@@ -136,7 +146,9 @@ def Data_Test():
     #     print(u, v, d)
     # print('---------test---------')
 
-    Save_Graph(G)
+    test_Sampling(G)
+
+    # Save_Graph(G)
 
 
 if __name__ == '__main__':
