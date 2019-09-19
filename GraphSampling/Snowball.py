@@ -48,7 +48,7 @@ class Snowball():
             q.enqueue(id)
             m = m - 1
         x = q.printQueue()
-        while len(self.G1.nodes()) <= size:
+        while len(self.G1.nodes()) < size:
             if q.size() > 0:
                 id = q.dequeue()
                 self.G1.add_node(id)

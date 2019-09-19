@@ -1,7 +1,7 @@
 import csv
 import networkx as nx
 
-def Extract_Global_High_Neighbor(G, heigh_neighbour):
+def Extract_Global_High_Neighbor(G, heigh_neighbour, s=0):
     '''
     :param G: original graph
     :param heigh_neighbour: the first x heigh degree nodes
@@ -11,17 +11,23 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     node_degree = [[n, d] for n, d in G.degree()]
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
+    new_node = 0
     for node in sort_node_degree:
         if G.node[node[0]]['global'] == 0:
             G.node[node[0]]['global'] = 1
+            new_node += 1
         else:
             G.node[node[0]]['global'] = 2
 
 
+    print("heigh_hubs : %d" % len(sort_node_degree))
+    if s == 1:
+        print("heigh_hubs new : %d" % new_node)
+
     # return(G)
 
 # Extract the star structure in the graph
-def Extract_Star(G, threshold):
+def Extract_Star(G, threshold, s=0):
     '''
     :param G: original graph
     :return: G with label 1 (Star)
@@ -51,13 +57,19 @@ def Extract_Star(G, threshold):
                 star_num[node] = len(node_neighbor)
         else:
             continue
-    print(star)
-    print(star_num)
+
+    new_node = 0
     for n in star:
         if G.node[n]['star'] == 0:
             G.node[n]['star'] = 1
+            new_node += 1
         else:
             G.node[n]['star'] = 2
+
+
+    print("heigh_star : %d" % len(star))
+    if s == 1:
+        print("heigh_star new : %d" % new_node)
     # return(G)
 
 
@@ -85,7 +97,7 @@ def loadData(path1, path2, isDirect):
         G.node[n]['global'] = 0
         G.node[n]['star'] = 0
         G.node[n]['isolates'] = 0
-        G.node[n]['artipoint'] = 0
+        G.node[n]['arti'] = 0
         G.node[n]['type1'] = type1[k]
         k += 1
 
@@ -109,17 +121,26 @@ def loadData(path1, path2, isDirect):
 
     return(G)
 
-def find_Bridge(G):
+def find_Bridge(G, s=0):
     bridges = nx.bridges(G)
+    new_edge = 0
+
+    count = 0
     for i in bridges:
+        count += 1
         if G[i[0]][i[1]]['bridge'] == 0:
             G[i[0]][i[1]]['bridge'] = 1
         else:
+            new_edge += 1
             G[i[0]][i[1]]['bridge'] = 2
+
+    print("bridge(edge) : %d" % count)
+    if s == 1:
+        print("bridge new (edge) : %d" % new_edge)
 
 
 def Save_Graph(G):
-    path = 'res_Data/relationship_orig.gml'
+    path = 'res_Data/eurosis_orig.gml'
     nx.write_gml(G, path)
 
 
@@ -137,76 +158,178 @@ def test_Sampling(G):
             for i, j in d.items():
                 G1[u][v][i] = j
 
-    find_Bridge(G1)
+    degree_total = 0
+    for x in G1.nodes():
+        degree_total = degree_total + G1.degree(x)
+
+    threshold = degree_total / len(G1)
+
+    print('nodes number : %d' % G1.number_of_nodes())
+    print('edges number : %d' % G1.number_of_edges())
+    print("average degree: %s" % threshold)
+    print("average clustering: %d" % nx.average_clustering(G1))
+    print("density: %s" % nx.density(G1))
+    print('---------------------')
+
+    find_Bridge(G1, s=1)
 
     heigh_neighbour = 0.05
-    Extract_Global_High_Neighbor(G1, heigh_neighbour)
+    Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
 
-    threshold = 5
-    Extract_Star(G1, threshold)
 
-    Articulation_Points(G1)
+    Extract_Star(G1, threshold, s=1)
 
-    Isolates(G1)
+    Articulation_Points(G1, s=1)
 
-    for n, data in G.nodes(data=True):
-        print(n, data)
+    Isolates(G1, s=1)
+    add_Anomalous_types(G1, s=1, _G=G)
 
-    for (u, v, d) in G.edges(data=True):
-        print(u, v, d)
+    # for n, data in G1.nodes(data=True):
+    #     print(n, data)
+
+    # for (u, v, d) in G1.edges(data=True):
+    #     print(u, v, d)
 
     # save graph
-    path = 'res_Data/relationship_sample.gml'
+    path = 'res_Data/eurosis_sample.gml'
     nx.write_gml(G1, path)
 
 
-def Articulation_Points(G):
+def Articulation_Points(G, s=0):
     l = list(nx.articulation_points(G))
+    new_node = 0
     for node in l:
-        if G.node[node]['artipoint'] == 0:
-            G.node[node]['artipoint'] = 1
+        if G.node[node]['arti'] == 0:
+            G.node[node]['arti'] = 1
+            new_node += 1
         else:
-            G.node[node]['artipoint'] = 2
+            G.node[node]['arti'] = 2
 
-def Isolates(G):
-    l = nx.isolates(G)
+    print("articulation (nodes) : %d" % len(l))
+    if s == 1:
+        print("articulation new (nodes) : %d" % new_node)
+
+def Isolates(G, s=0):
+    l = list(nx.isolates(G))
+    new_node = 0
     for node in l:
         if G.node[node]['isolates'] == 0:
             G.node[node]['isolates'] = 1
+            new_node += 1
         else:
             G.node[node]['isolates'] = 2
+
+    print("isolates: %d" % len(l))
+    if s == 1:
+        print("isolates new : %d" % new_node)
+
+def add_Anomalous_types(G, s=0, _G=None):
+
+    # nodes
+    for n, data in G.nodes(data=True):
+        a = list(data.values())
+        count = 0
+        if s == 0:
+            for i in range(len(a) - 1):
+                if a[i] != 0:
+                    count += 1
+            if count > 0:
+                G.node[n]['anomalous'] = 1
+            else:
+                G.node[n]['anomalous'] = 0
+        else:
+            for i in range(len(a) - 2):
+                if a[i] != 0:
+                    count += 1
+            if count > 0:
+                if G.node[n]['anomalous'] == 0:
+                    G.node[n]['anomalous2'] = 2  # new anomalous
+                    _G.node[n]['anomalous2'] = 2  # new anomalous
+                else:
+                    G.node[n]['anomalous2'] = 1
+                    _G.node[n]['anomalous2'] = 1
+            else:
+                if G.node[n]['anomalous'] == 1:
+                    G.node[n]['anomalous2'] = 3  # new disappear
+                    _G.node[n]['anomalous2'] = 3  # new disappear
+                else:
+                    G.node[n]['anomalous2'] = 0
+                    _G.node[n]['anomalous2'] = 0
+
+    # edges
+    for (u, v, d) in G.edges(data=True):
+        b = list(d.values())
+        count = 0
+        if s == 1:
+            for i in range(len(b) - 2):
+                if b[i] != 0:
+                    count += 1
+            if count > 0:
+                if G[u][v]['anomalous'] == 0:
+                    G[u][v]['anomalous2'] = 2  # new anomalous
+                    _G[u][v]['anomalous2'] = 2  # new anomalous
+                else:
+                    G[u][v]['anomalous2'] = 1
+                    _G[u][v]['anomalous2'] = 1
+            else:
+                if G[u][v]['anomalous'] == 1:
+                    G[u][v]['anomalous2'] = 3  # new disappear
+                    _G[u][v]['anomalous2'] = 3  # new disappear
+                else:
+                    G[u][v]['anomalous2'] = 0
+                    _G[u][v]['anomalous2'] = 0
+        else:
+            for i in range(len(b) - 1):
+                if b[i] != 0:
+                    count += 1
+            if count > 0:
+                G[u][v]['anomalous'] = 1
+            else:
+                G[u][v]['anomalous'] = 0
+
+
 
 def Data_Test():
 
     # Test file type
-    path1 = "origin_Data/RS/RJ_RS_node.csv"
-    path2 = "origin_Data/RS/RJ_RS_edge.csv"
+    path1 = "../KeepAnomalous/ExperimentData/RJ_EUROSIS_node.csv"
+    path2 = "../KeepAnomalous/ExperimentData/RJ_EUROSIS_edge.csv"
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
+
+    degree_total = 0
+    for x in G.nodes():
+        degree_total = degree_total + G.degree(x)
+    threshold = degree_total / len(G)
+
+    print('---------original---------')
+    print('nodes number : %d' % G.number_of_nodes())
+    print('edges number : %d' % G.number_of_edges())
+    print("average degree: %s" % threshold)
+    print("average clustering: %d" % nx.average_clustering(G))
+    print("density: %s" % nx.density(G))
+    print('---------------------')
     find_Bridge(G)
 
     heigh_neighbour = 0.05
     Extract_Global_High_Neighbor(G, heigh_neighbour)
 
-    threshold = 5
+
+
     Extract_Star(G, threshold)
 
     Articulation_Points(G)
 
     Isolates(G)
 
-    # print('---------test---------')
-    # for n, data in G.nodes(data='type1'):
-    #     print(n, data)
+    add_Anomalous_types(G)
 
-    # for (u, v, d) in G.edges(data='bridge'):
-    #     print(u, v, d)
-    # print('---------test---------')
 
+    print('---------sampling---------')
     test_Sampling(G)
 
-    # Save_Graph(G)
+    Save_Graph(G)
 
 
 if __name__ == '__main__':

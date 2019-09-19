@@ -12,7 +12,7 @@ class REN():
         self.G1.add_node(select_nodes[0])
         list_g1_node = list(self.G1.nodes())
         if not isDirect:
-            while len(self.G1) <= size:
+            while len(self.G1) < size:
                 last_node = list_g1_node[-1]
                 tmp = list(G.neighbors(last_node))
                 choose = random.sample(tmp, 1)
@@ -21,7 +21,7 @@ class REN():
             return self.G1
         else:
             self.G1.to_directed()
-            while len(self.G1) <= size:
+            while len(self.G1) < size:
                 last_node = list_g1_node[-1]
                 out_tmp = list(G.successors(last_node))
                 in_tmp = list(G.predecessors(last_node))

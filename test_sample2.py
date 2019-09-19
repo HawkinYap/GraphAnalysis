@@ -5,29 +5,46 @@ import csv
 import pandas as pd
 import collections
 
+
 # load graph to networkx
-def loadData(path, isDirect):
+def loadData(path1, path2, isDirect):
 
-    f = open(path, "r")
+    # add nodes
+    f = open(path1, "r")
     reader1 = csv.reader(f)
-    edges = []
-
+    nodes = []
     for item in reader1:
-        edges.append([int(item[0]), int(item[1])])
+        nodes.append(int(item[0]))
     f.close()
     if isDirect:
         G = nx.DiGraph()
     else:
         G = nx.Graph()
+    G.add_nodes_from(nodes)
+
+    # add edges
+    f = open(path2, "r")
+    reader1 = csv.reader(f)
+    edges = []
+    for item in reader1:
+        edges.append([int(item[0]), int(item[1])])
+    f.close()
     G.add_edges_from(edges)
-    return(G)
+
+    # add edge attribution
+    i = 0
+    for u, v, d in G.edges(data=True):
+        G[u][v]['bridge'] = 0
+        i += 1
+    return (G)
+
 
 # graph sampling
 def graphSampling(G, isDirect):
 
     # set sampling rate
     total = len(G.nodes())
-    rate = 0.5
+    rate = 0.4
     sample_rate = int(total * rate)
 
     # RN_object = GraphSampling.RandomNode()
@@ -101,6 +118,7 @@ def drawGraph(G, sample):
     nx.draw(G, spring_pos, node_color=colors, with_labels=True)
     plt.show()
 
+
 def getInfo(G, sample):
     # degree distribution
     plt.subplot(221)
@@ -140,6 +158,7 @@ def getInfo(G, sample):
     ax.set_xticklabels(deg)
     plt.show()
 
+
 def saveGraph(G, sample):
 
     # convert to node list
@@ -159,25 +178,51 @@ def saveGraph(G, sample):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = 'SamplingDatasets/RN_RS_node.csv'
-    orig_edgefile_path = 'SamplingDatasets/RN_RS_edge.csv'
+    classfile_path = 'KeepAnomalous/ExperimentData/RJ_EUROSIS_node.csv'
+    orig_edgefile_path = 'KeepAnomalous/ExperimentData/RJ_EUROSIS_edge.csv'
+
+    # title = ['ID', 'Class']
+    test = pd.DataFrame(data=class_nodes)
+    test.to_csv(classfile_path, index=None, header=False)
+
+    # title = ['Source', 'Target', 'Type']
+    test = pd.DataFrame(data=orig_edges)
+    test.to_csv(orig_edgefile_path, index=None, header=False)
+
+
+def saveSampling(sample):
+
+    sampling_node = []
+    for node in sample.nodes():
+        sampling_node.append(node)
+
+    sampling_edge = []
+    for edge in sample.edges():
+        sampling_edge.append([edge[0], edge[1]])
+
+    classfile_path = 'KeepAnomalous/ExperimentData/REN_EUROSIS_node.csv'
+    orig_edgefile_path = 'KeepAnomalous/ExperimentData/REN_EUROSIS_edge.csv'
 
     title = ['ID', 'Class']
-    test = pd.DataFrame(columns=title, data=class_nodes)
+    test = pd.DataFrame(columns=title, data=sampling_node)
     test.to_csv(classfile_path, index=None)
 
     title = ['Source', 'Target', 'Type']
-    test = pd.DataFrame(columns=title, data=orig_edges)
+    test = pd.DataFrame(columns=title, data=sampling_edge)
     test.to_csv(orig_edgefile_path, index=None)
 
+
 def dataTest():
-    path = "Datasets/relationship.csv"
+    path1 = "GraphSampling/Data/eurosis_node.csv"
+    path2 = "GraphSampling/Data/eurosis_edge.csv"
     isDirect = False
-    G = loadData(path, isDirect)
+    G = loadData(path1, path2, isDirect)
     sample = graphSampling(G, isDirect)
     drawGraph(G, sample)
-    getInfo(G, sample)
-    # saveGraph(G, sample)
+    print(len(G), len(sample))
+    # getInfo(G, sample)
+    saveGraph(G, sample)
+    # saveSampling(sample)
 
 
 

@@ -39,7 +39,7 @@ G5 = nx.node_boundary(G, [1, 2, 3, 4, 5, 6, 7, 8, 9])
 
 # 寻找G中的bridge结构
 G6 = nx.bridges(G)
-# print([i for i in G6])
+print([i for i in G6])
 
 # 节点的中心性（Centrality）
 # 节点的度中心性，度越高，值越大
@@ -54,6 +54,10 @@ G8 = nx.eigenvector_centrality(G)
 G9 = nx.katz_centrality(G)
 # print(G9)
 
+# 寻找孤立节点
+G10 = nx.isolates(G)
+print(G10)
+
 # hubs
-h, a = nx.hits(G)
-print(h, a)
+# h, a = nx.hits(G)
+# print(h, a)

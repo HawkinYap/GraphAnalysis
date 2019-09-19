@@ -248,9 +248,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 23
@@ -314,8 +313,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 29
@@ -378,9 +378,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 35
@@ -433,9 +432,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 40
@@ -501,7 +499,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 46
@@ -532,9 +530,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 49
@@ -565,8 +562,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 52
@@ -610,7 +608,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 56
@@ -665,7 +663,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 61
@@ -687,7 +685,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 63
@@ -729,9 +727,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 67
@@ -786,7 +783,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 72
@@ -819,7 +816,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 75
@@ -850,9 +847,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 78
@@ -895,7 +891,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 82
@@ -926,9 +922,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 85
@@ -948,9 +943,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 87
@@ -970,8 +964,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 89
@@ -982,7 +977,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 90
@@ -993,7 +988,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 91
@@ -1013,8 +1008,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 93
@@ -1025,7 +1021,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 94
@@ -1045,9 +1041,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 96
@@ -1058,7 +1053,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 97
@@ -1067,9 +1062,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 98
@@ -1089,9 +1083,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 100
@@ -1122,8 +1115,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 103
@@ -1132,9 +1126,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 104
@@ -1165,8 +1158,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 107
@@ -1177,7 +1171,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 108
@@ -1188,7 +1182,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 109
@@ -1221,7 +1215,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 112
@@ -1241,9 +1235,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 114
@@ -1252,9 +1245,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 115
@@ -1263,9 +1255,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 116
@@ -1298,7 +1289,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 119
@@ -1307,9 +1298,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 120
@@ -1384,9 +1374,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 127
@@ -1395,9 +1384,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 128
@@ -1406,9 +1394,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 129
@@ -1428,9 +1415,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 131
@@ -1441,7 +1427,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 132
@@ -1450,8 +1436,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 133
@@ -1482,9 +1469,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 136
@@ -1517,7 +1503,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 139
@@ -1560,7 +1546,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 143
@@ -1571,7 +1557,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 144
@@ -1580,9 +1566,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 145
@@ -1591,9 +1576,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 146
@@ -1602,8 +1586,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 147
@@ -1634,9 +1619,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 150
@@ -1669,7 +1653,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 153
@@ -1678,8 +1662,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 154
@@ -1690,7 +1675,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 155
@@ -1699,9 +1684,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 156
@@ -1712,7 +1696,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 157
@@ -1723,7 +1707,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 158
@@ -1734,7 +1718,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 159
@@ -1743,9 +1727,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 160
@@ -1754,8 +1737,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 161
@@ -1777,7 +1761,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 163
@@ -1799,7 +1783,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 165
@@ -1808,8 +1792,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 166
@@ -1818,8 +1803,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 167
@@ -1839,8 +1825,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 169
@@ -1862,7 +1849,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 171
@@ -1914,9 +1901,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 176
@@ -1947,8 +1933,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 179
@@ -1959,7 +1946,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 180
@@ -1990,12 +1977,43 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 183
     label "985"
+    global 0
+    star 0
+    isolates 0
+    arti 1
+    type1 1
+    anomalous 1
+  ]
+  node [
+    id 184
+    label "1044"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
+    id 185
+    label "1046"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
+    id 186
+    label "1102"
     global 0
     star 0
     isolates 0
@@ -2005,47 +2023,14 @@ graph [
     anomalous2 1
   ]
   node [
-    id 184
-    label "1044"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 2
-    anomalous 0
-    anomalous2 0
-  ]
-  node [
-    id 185
-    label "1046"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 2
-    anomalous 0
-    anomalous2 0
-  ]
-  node [
-    id 186
-    label "1102"
-    global 0
-    star 0
-    isolates 0
-    arti 1
-    type1 1
-    anomalous 1
-  ]
-  node [
     id 187
     label "1364"
     global 0
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 188
@@ -2054,9 +2039,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 189
@@ -2065,8 +2049,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 190
@@ -2109,7 +2094,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 194
@@ -2118,9 +2103,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 195
@@ -2131,7 +2115,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 196
@@ -2151,9 +2135,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 198
@@ -2175,7 +2158,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 200
@@ -2197,7 +2180,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 202
@@ -2208,7 +2191,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 203
@@ -2217,8 +2200,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 204
@@ -2238,8 +2222,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 206
@@ -2248,9 +2233,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 207
@@ -2281,23 +2265,12 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 210
     label "1346"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
-    id 211
-    label "1480"
     global 0
     star 0
     isolates 0
@@ -2307,8 +2280,8 @@ graph [
     anomalous2 0
   ]
   node [
-    id 212
-    label "1560"
+    id 211
+    label "1480"
     global 0
     star 0
     isolates 0
@@ -2317,14 +2290,26 @@ graph [
     anomalous 0
   ]
   node [
+    id 212
+    label "1560"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 2
+    anomalous 0
+    anomalous2 0
+  ]
+  node [
     id 213
     label "1579"
     global 0
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 214
@@ -2356,7 +2341,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 217
@@ -2410,7 +2395,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 222
@@ -2419,9 +2404,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 223
@@ -2454,7 +2438,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 226
@@ -2463,8 +2447,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 227
@@ -2473,8 +2458,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 228
@@ -2494,9 +2480,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 230
@@ -2505,9 +2490,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 231
@@ -2516,9 +2500,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 232
@@ -2529,7 +2512,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 233
@@ -2538,9 +2521,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 234
@@ -2549,9 +2531,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 235
@@ -2571,9 +2552,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 237
@@ -2604,9 +2584,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 240
@@ -2637,8 +2616,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 243
@@ -2647,9 +2627,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 244
@@ -2660,7 +2639,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 245
@@ -2682,7 +2661,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 247
@@ -2701,9 +2680,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 249
@@ -2712,8 +2690,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 250
@@ -2722,9 +2701,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 251
@@ -2744,9 +2722,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 253
@@ -2765,9 +2742,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 255
@@ -2809,9 +2785,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 259
@@ -2820,9 +2795,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 260
@@ -2831,9 +2805,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 261
@@ -2874,8 +2847,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 265
@@ -2906,8 +2880,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 268
@@ -2918,7 +2893,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 269
@@ -2938,9 +2913,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 271
@@ -2949,9 +2923,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 272
@@ -2960,9 +2933,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 273
@@ -2971,8 +2943,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 274
@@ -2981,8 +2954,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 275
@@ -3034,9 +3008,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 280
@@ -3067,9 +3040,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 283
@@ -3078,9 +3050,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 284
@@ -3112,7 +3083,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 287
@@ -3145,21 +3116,11 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 290
     label "686"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
-    id 291
-    label "850"
     global 0
     star 0
     isolates 0
@@ -3169,14 +3130,25 @@ graph [
     anomalous2 0
   ]
   node [
-    id 292
-    label "944"
+    id 291
+    label "850"
     global 0
     star 0
     isolates 0
     arti 0
     type1 1
     anomalous 0
+  ]
+  node [
+    id 292
+    label "944"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 2
+    anomalous 0
+    anomalous2 0
   ]
   node [
     id 293
@@ -3187,7 +3159,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 294
@@ -3206,8 +3178,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 296
@@ -3227,9 +3200,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 298
@@ -3271,8 +3243,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 302
@@ -3281,9 +3254,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 303
@@ -3292,8 +3264,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 304
@@ -3304,7 +3277,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 305
@@ -3326,7 +3299,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 307
@@ -3335,9 +3308,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 308
@@ -3368,9 +3340,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 311
@@ -3379,9 +3350,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 312
@@ -3411,9 +3381,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 315
@@ -3433,8 +3402,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 317
@@ -3474,9 +3444,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 321
@@ -3496,9 +3465,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 323
@@ -3507,8 +3475,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 324
@@ -3528,9 +3497,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 326
@@ -3560,9 +3528,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 329
@@ -3592,8 +3559,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 332
@@ -3602,9 +3570,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 333
@@ -3634,9 +3601,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 336
@@ -3658,7 +3624,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 338
@@ -3667,8 +3633,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 339
@@ -3689,7 +3656,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 341
@@ -3698,9 +3665,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 342
@@ -3709,8 +3675,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 343
@@ -3732,7 +3699,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 345
@@ -3752,8 +3719,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 347
@@ -3762,8 +3730,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 348
@@ -3772,8 +3741,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 349
@@ -3782,8 +3752,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 350
@@ -3792,9 +3763,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 351
@@ -3803,9 +3773,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 352
@@ -3814,9 +3783,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 353
@@ -3825,9 +3793,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 354
@@ -3836,9 +3803,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 355
@@ -3849,7 +3815,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 356
@@ -3858,8 +3824,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 357
@@ -3868,8 +3835,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 358
@@ -3910,8 +3878,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 362
@@ -3920,8 +3889,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 363
@@ -3951,8 +3921,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 366
@@ -3993,8 +3964,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 370
@@ -4003,8 +3975,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 371
@@ -4015,7 +3988,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 372
@@ -4024,9 +3997,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 373
@@ -4055,9 +4027,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 376
@@ -4077,8 +4048,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 378
@@ -4098,9 +4070,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 380
@@ -4109,8 +4080,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 381
@@ -4119,9 +4091,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 382
@@ -4130,8 +4101,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 383
@@ -4140,9 +4112,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 384
@@ -4151,9 +4122,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 385
@@ -4175,7 +4145,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 387
@@ -4195,8 +4165,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 389
@@ -4205,9 +4176,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 390
@@ -4216,9 +4186,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 391
@@ -4227,9 +4196,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 392
@@ -4238,9 +4206,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 393
@@ -4251,21 +4218,11 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 394
     label "1246"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
-    id 395
-    label "1260"
     global 0
     star 0
     isolates 0
@@ -4275,14 +4232,25 @@ graph [
     anomalous2 0
   ]
   node [
+    id 395
+    label "1260"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
     id 396
     label "1321"
     global 0
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 397
@@ -4291,8 +4259,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 398
@@ -4311,9 +4280,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 400
@@ -4333,8 +4301,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 402
@@ -4354,8 +4323,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 404
@@ -4364,8 +4334,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 405
@@ -4374,9 +4345,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 406
@@ -4385,9 +4355,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 407
@@ -4396,8 +4365,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 408
@@ -4417,8 +4387,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 410
@@ -4427,9 +4398,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 411
@@ -4438,9 +4408,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 412
@@ -4491,8 +4460,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 417
@@ -4501,8 +4471,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 418
@@ -4511,9 +4482,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 419
@@ -4522,9 +4492,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 420
@@ -4554,8 +4523,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 423
@@ -4575,8 +4545,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 425
@@ -4587,7 +4558,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 426
@@ -4606,8 +4577,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 428
@@ -4637,9 +4609,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 431
@@ -4648,9 +4619,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 432
@@ -4659,8 +4629,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 433
@@ -4669,9 +4640,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 434
@@ -4701,8 +4671,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 437
@@ -4795,8 +4766,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 446
@@ -4815,8 +4787,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 448
@@ -4825,9 +4798,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 449
@@ -4836,9 +4808,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 450
@@ -4877,9 +4848,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 454
@@ -4888,9 +4858,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 455
@@ -4920,8 +4889,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 458
@@ -4940,9 +4910,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 460
@@ -4971,8 +4940,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 463
@@ -4991,8 +4961,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 465
@@ -5012,9 +4983,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 467
@@ -5045,9 +5015,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 470
@@ -5108,9 +5077,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 476
@@ -5150,9 +5118,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 480
@@ -5161,9 +5128,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 481
@@ -5172,9 +5138,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 482
@@ -5183,9 +5148,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 483
@@ -5194,9 +5158,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 484
@@ -5207,7 +5170,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 485
@@ -5216,8 +5179,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 486
@@ -5236,8 +5200,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 488
@@ -5246,8 +5211,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 489
@@ -5256,8 +5222,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 490
@@ -5277,9 +5244,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 492
@@ -5329,8 +5295,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 497
@@ -5350,8 +5317,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 499
@@ -5362,21 +5330,11 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 500
     label "439"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
-    id 501
-    label "466"
     global 0
     star 0
     isolates 0
@@ -5386,14 +5344,25 @@ graph [
     anomalous2 0
   ]
   node [
+    id 501
+    label "466"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
     id 502
     label "585"
     global 0
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 503
@@ -5402,8 +5371,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 504
@@ -5442,9 +5412,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 508
@@ -5453,8 +5422,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 509
@@ -5463,9 +5433,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 510
@@ -5495,8 +5464,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 513
@@ -5526,8 +5496,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 516
@@ -5547,8 +5518,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 518
@@ -5557,8 +5529,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 519
@@ -5567,8 +5540,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 520
@@ -5577,9 +5551,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 521
@@ -5638,8 +5611,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 527
@@ -5648,8 +5622,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 528
@@ -5720,8 +5695,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 535
@@ -5730,9 +5706,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 536
@@ -5741,9 +5716,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 537
@@ -5752,9 +5726,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 538
@@ -5784,8 +5757,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 541
@@ -5794,8 +5768,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 542
@@ -5826,7 +5801,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   node [
     id 545
@@ -5835,9 +5810,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 546
@@ -5846,9 +5820,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 547
@@ -5867,8 +5840,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 549
@@ -5877,9 +5851,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 550
@@ -5908,9 +5881,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 553
@@ -5950,9 +5922,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 557
@@ -5972,9 +5943,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 559
@@ -6013,9 +5983,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 563
@@ -6024,8 +5993,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 564
@@ -6057,7 +6027,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 567
@@ -6066,9 +6036,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 568
@@ -6108,9 +6077,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 572
@@ -6119,8 +6087,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 573
@@ -6139,9 +6108,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 575
@@ -6150,9 +6118,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 576
@@ -6191,9 +6158,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 580
@@ -6212,9 +6178,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 582
@@ -6223,8 +6188,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 583
@@ -6233,8 +6199,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 584
@@ -6243,8 +6210,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 585
@@ -6284,9 +6252,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 589
@@ -6295,9 +6262,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 590
@@ -6308,7 +6274,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 591
@@ -6327,8 +6293,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 593
@@ -6347,8 +6314,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 595
@@ -6357,8 +6325,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 596
@@ -6377,8 +6346,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 598
@@ -6418,12 +6388,23 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 602
     label "777"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
+    id 603
+    label "829"
     global 0
     star 0
     isolates 0
@@ -6433,24 +6414,15 @@ graph [
     anomalous2 0
   ]
   node [
-    id 603
-    label "829"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
     id 604
     label "834"
     global 0
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 605
@@ -6480,9 +6452,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 608
@@ -6491,8 +6462,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 609
@@ -6501,9 +6473,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 610
@@ -6512,8 +6483,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 611
@@ -6522,9 +6494,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 612
@@ -6533,9 +6504,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 613
@@ -6544,9 +6514,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 614
@@ -6565,8 +6534,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 616
@@ -6585,9 +6555,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 618
@@ -6616,9 +6585,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 621
@@ -6627,9 +6595,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 622
@@ -6690,8 +6657,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 628
@@ -6700,9 +6668,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 629
@@ -6711,8 +6678,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 630
@@ -6751,9 +6719,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 634
@@ -6762,8 +6729,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 635
@@ -6772,8 +6740,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 636
@@ -6834,8 +6803,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 642
@@ -6844,8 +6814,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 643
@@ -6864,9 +6835,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 645
@@ -6885,8 +6855,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 647
@@ -6895,9 +6866,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 648
@@ -6916,9 +6886,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 650
@@ -7028,9 +6997,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 661
@@ -7049,8 +7017,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 663
@@ -7059,9 +7028,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 664
@@ -7070,9 +7038,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 665
@@ -7081,8 +7048,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 666
@@ -7091,8 +7059,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 667
@@ -7101,9 +7070,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 668
@@ -7112,9 +7080,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 669
@@ -7134,9 +7101,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 671
@@ -7145,8 +7111,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 672
@@ -7165,9 +7132,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 674
@@ -7176,8 +7142,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 675
@@ -7206,9 +7173,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 678
@@ -7331,8 +7297,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 690
@@ -7341,9 +7308,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 691
@@ -7372,9 +7338,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 694
@@ -7383,8 +7348,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 695
@@ -7423,9 +7389,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 699
@@ -7455,9 +7420,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 702
@@ -7466,9 +7430,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 703
@@ -7477,8 +7440,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 704
@@ -7497,9 +7461,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 706
@@ -7518,8 +7481,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 708
@@ -7528,8 +7492,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 709
@@ -7538,8 +7503,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 710
@@ -7548,8 +7514,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 711
@@ -7558,8 +7525,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 712
@@ -7568,9 +7536,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 713
@@ -7629,8 +7596,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 719
@@ -7639,8 +7607,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 720
@@ -7649,9 +7618,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 721
@@ -7671,8 +7639,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 723
@@ -7692,9 +7661,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 725
@@ -7725,8 +7693,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 728
@@ -7806,8 +7775,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 736
@@ -7846,8 +7816,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 740
@@ -7866,9 +7837,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 742
@@ -7897,9 +7867,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 745
@@ -7908,9 +7877,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 746
@@ -7970,9 +7938,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 752
@@ -8002,8 +7969,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 755
@@ -8022,8 +7990,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 757
@@ -8032,8 +8001,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 758
@@ -8054,7 +8024,7 @@ graph [
     arti 0
     type1 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   node [
     id 760
@@ -8063,8 +8033,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 761
@@ -8163,8 +8134,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 771
@@ -8173,9 +8145,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 772
@@ -8224,9 +8195,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 777
@@ -8255,9 +8225,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 780
@@ -8266,8 +8235,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 781
@@ -8276,9 +8246,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 782
@@ -8307,8 +8276,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 785
@@ -8317,9 +8287,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 786
@@ -8328,9 +8297,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 787
@@ -8349,9 +8317,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 789
@@ -8360,8 +8327,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 790
@@ -8400,8 +8368,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 794
@@ -8410,9 +8379,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 795
@@ -8431,8 +8399,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 797
@@ -8441,8 +8410,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 798
@@ -8461,8 +8431,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 800
@@ -8482,8 +8453,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 802
@@ -8492,9 +8464,8 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 803
@@ -8513,9 +8484,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 805
@@ -8584,9 +8554,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 812
@@ -8615,9 +8584,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 815
@@ -8666,8 +8634,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 820
@@ -8696,9 +8665,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 823
@@ -8737,8 +8705,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 827
@@ -8747,9 +8716,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 828
@@ -8768,9 +8736,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 830
@@ -8789,8 +8756,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 832
@@ -8809,9 +8777,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 834
@@ -8830,9 +8797,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 836
@@ -8841,8 +8807,9 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 1
+    type1 2
     anomalous 1
+    anomalous2 1
   ]
   node [
     id 837
@@ -8851,9 +8818,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 838
@@ -8862,8 +8828,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 839
@@ -8892,8 +8859,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 842
@@ -8922,8 +8890,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 845
@@ -8932,8 +8901,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 846
@@ -8942,8 +8912,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 847
@@ -8982,9 +8953,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 851
@@ -9003,9 +8973,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 2
   ]
   node [
     id 853
@@ -9024,9 +8993,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 855
@@ -9055,8 +9023,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 858
@@ -9065,8 +9034,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 859
@@ -9075,8 +9045,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 860
@@ -9136,8 +9107,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 866
@@ -9166,8 +9138,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 869
@@ -9186,8 +9159,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 871
@@ -9206,9 +9180,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 873
@@ -9217,9 +9190,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 874
@@ -9228,8 +9200,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 875
@@ -9268,8 +9241,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 879
@@ -9278,9 +9252,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 880
@@ -9329,8 +9302,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 885
@@ -9349,8 +9323,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 887
@@ -9379,8 +9354,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 890
@@ -9399,9 +9375,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 892
@@ -9450,9 +9425,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 897
@@ -9522,9 +9496,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 904
@@ -9543,9 +9516,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 906
@@ -9554,8 +9526,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 907
@@ -9604,8 +9577,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 912
@@ -9634,13 +9608,22 @@ graph [
     star 0
     isolates 0
     arti 1
-    type1 2
+    type1 1
     anomalous 1
-    anomalous2 1
   ]
   node [
     id 915
     label "1036"
+    global 0
+    star 0
+    isolates 0
+    arti 0
+    type1 1
+    anomalous 0
+  ]
+  node [
+    id 916
+    label "1059"
     global 0
     star 0
     isolates 0
@@ -9650,24 +9633,15 @@ graph [
     anomalous2 0
   ]
   node [
-    id 916
-    label "1059"
-    global 0
-    star 0
-    isolates 0
-    arti 0
-    type1 1
-    anomalous 0
-  ]
-  node [
     id 917
     label "1070"
     global 0
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 918
@@ -9716,9 +9690,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 923
@@ -9747,8 +9720,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 926
@@ -9757,8 +9731,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 927
@@ -9797,9 +9772,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 931
@@ -9808,9 +9782,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 932
@@ -9859,8 +9832,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 937
@@ -9879,8 +9853,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 939
@@ -9929,9 +9904,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 944
@@ -10030,8 +10004,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 954
@@ -10060,8 +10035,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 957
@@ -10080,8 +10056,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 2
   ]
   node [
     id 959
@@ -10160,9 +10137,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 967
@@ -10231,8 +10207,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 974
@@ -10241,9 +10218,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 975
@@ -10292,8 +10268,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 980
@@ -10302,9 +10279,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 981
@@ -10363,8 +10339,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 987
@@ -10443,8 +10420,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 995
@@ -10483,9 +10461,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 999
@@ -10614,8 +10591,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1012
@@ -10624,8 +10602,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1013
@@ -10674,8 +10653,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1018
@@ -10684,9 +10664,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1019
@@ -10715,8 +10694,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1022
@@ -10745,8 +10725,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1025
@@ -10775,8 +10756,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1028
@@ -10835,8 +10817,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1034
@@ -10845,8 +10828,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1035
@@ -10865,8 +10849,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1037
@@ -10895,8 +10880,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1040
@@ -10995,8 +10981,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1050
@@ -11005,9 +10992,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1051
@@ -11036,8 +11022,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1054
@@ -11077,8 +11064,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1058
@@ -11107,8 +11095,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1061
@@ -11117,8 +11106,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1062
@@ -11297,9 +11287,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1080
@@ -11328,8 +11317,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1083
@@ -11348,8 +11338,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1085
@@ -11378,8 +11369,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1088
@@ -11408,8 +11400,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1091
@@ -11418,8 +11411,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1092
@@ -11448,8 +11442,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1095
@@ -11468,8 +11463,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1097
@@ -11548,8 +11544,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1105
@@ -11558,8 +11555,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1106
@@ -11578,9 +11576,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1108
@@ -11689,8 +11686,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1119
@@ -11709,8 +11707,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1121
@@ -11759,8 +11758,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1126
@@ -11909,9 +11909,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1141
@@ -11931,9 +11930,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1143
@@ -11972,9 +11970,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1147
@@ -12033,8 +12030,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1153
@@ -12163,9 +12161,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1166
@@ -12324,9 +12321,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1182
@@ -12345,8 +12341,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1184
@@ -12385,8 +12382,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1188
@@ -12395,8 +12393,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1189
@@ -12425,8 +12424,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1192
@@ -12535,8 +12535,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1203
@@ -12595,8 +12596,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1209
@@ -12605,8 +12607,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1210
@@ -12685,8 +12688,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1218
@@ -12795,8 +12799,9 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 1
+    type1 2
     anomalous 0
+    anomalous2 0
   ]
   node [
     id 1229
@@ -12895,9 +12900,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1239
@@ -13126,9 +13130,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1262
@@ -13227,9 +13230,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1272
@@ -13238,9 +13240,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1273
@@ -13269,9 +13270,8 @@ graph [
     star 0
     isolates 0
     arti 0
-    type1 2
+    type1 1
     anomalous 0
-    anomalous2 0
   ]
   node [
     id 1276
@@ -13367,17 +13367,15 @@ graph [
     source 0
     target 52
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 93
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13474,40 +13472,37 @@ graph [
     source 0
     target 74
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 454
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 69
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 209
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 256
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 0
@@ -13527,8 +13522,9 @@ graph [
     source 0
     target 4
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 0
@@ -13584,9 +13580,8 @@ graph [
     source 0
     target 14
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13606,17 +13601,15 @@ graph [
     source 0
     target 157
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 35
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13629,9 +13622,8 @@ graph [
     source 0
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13693,9 +13685,8 @@ graph [
     source 0
     target 133
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13729,23 +13720,24 @@ graph [
     source 0
     target 214
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 0
+    target 275
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 0
-    target 275
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 0
     target 108
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 0
@@ -13765,8 +13757,9 @@ graph [
     source 0
     target 16
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 0
@@ -13849,41 +13842,36 @@ graph [
     source 0
     target 850
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 0
     target 175
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 50
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 389
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
     target 429
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13910,9 +13898,8 @@ graph [
     source 0
     target 779
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13946,9 +13933,8 @@ graph [
     source 0
     target 131
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -13975,9 +13961,8 @@ graph [
     source 0
     target 322
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 0
@@ -14012,8 +13997,9 @@ graph [
     source 0
     target 280
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 0
@@ -14033,9 +14019,8 @@ graph [
     source 1
     target 336
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14055,16 +14040,16 @@ graph [
     source 1
     target 52
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
     target 93
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14091,8 +14076,9 @@ graph [
     source 1
     target 227
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14126,16 +14112,16 @@ graph [
     source 1
     target 251
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
     target 546
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14148,9 +14134,8 @@ graph [
     source 1
     target 206
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14177,8 +14162,9 @@ graph [
     source 1
     target 108
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14205,9 +14191,8 @@ graph [
     source 1
     target 497
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14241,9 +14226,8 @@ graph [
     source 1
     target 230
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14270,9 +14254,8 @@ graph [
     source 1
     target 7
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14321,15 +14304,17 @@ graph [
     source 1
     target 117
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
     target 179
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14356,9 +14341,8 @@ graph [
     source 1
     target 50
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14406,8 +14390,9 @@ graph [
     source 1
     target 425
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14434,9 +14419,8 @@ graph [
     source 1
     target 520
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14456,8 +14440,9 @@ graph [
     source 1
     target 468
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14505,8 +14490,9 @@ graph [
     source 1
     target 244
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14519,32 +14505,30 @@ graph [
     source 1
     target 280
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
     target 309
-    bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 1
-    target 16
     bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 1
-    target 62
+    target 16
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 1
+    target 62
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 1
@@ -14557,9 +14541,8 @@ graph [
     source 1
     target 473
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14572,16 +14555,16 @@ graph [
     source 1
     target 58
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
     target 118
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 1
@@ -14650,9 +14633,8 @@ graph [
     source 1
     target 509
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14665,9 +14647,8 @@ graph [
     source 1
     target 277
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14694,9 +14675,8 @@ graph [
     source 1
     target 99
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14723,9 +14703,8 @@ graph [
     source 1
     target 214
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 1
@@ -14738,8 +14717,9 @@ graph [
     source 2
     target 227
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -14752,17 +14732,15 @@ graph [
     source 2
     target 10
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
     target 117
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -14775,8 +14753,9 @@ graph [
     source 2
     target 12
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -14789,9 +14768,8 @@ graph [
     source 2
     target 147
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -14811,24 +14789,23 @@ graph [
     source 2
     target 157
     bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 2
-    target 380
-    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 2
-    target 974
+    target 380
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 2
+    target 974
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 2
@@ -14841,9 +14818,8 @@ graph [
     source 2
     target 564
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -14870,9 +14846,8 @@ graph [
     source 2
     target 546
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -14885,8 +14860,9 @@ graph [
     source 2
     target 689
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -14914,9 +14890,8 @@ graph [
     source 2
     target 454
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -14936,8 +14911,9 @@ graph [
     source 2
     target 256
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -14951,8 +14927,9 @@ graph [
     source 2
     target 74
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -14979,16 +14956,16 @@ graph [
     source 2
     target 193
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
     target 870
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15001,9 +14978,8 @@ graph [
     source 2
     target 47
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15016,15 +14992,17 @@ graph [
     source 2
     target 16
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
     target 634
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15044,15 +15022,17 @@ graph [
     source 2
     target 179
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
     target 96
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15093,16 +15073,16 @@ graph [
     source 2
     target 68
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15136,8 +15116,9 @@ graph [
     source 2
     target 214
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15171,9 +15152,8 @@ graph [
     source 2
     target 776
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15186,8 +15166,9 @@ graph [
     source 2
     target 557
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15228,17 +15209,15 @@ graph [
     source 2
     target 280
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
     target 229
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15265,16 +15244,16 @@ graph [
     source 2
     target 785
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
     target 590
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15302,9 +15281,8 @@ graph [
     source 2
     target 14
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15338,9 +15316,8 @@ graph [
     source 2
     target 58
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15395,9 +15372,8 @@ graph [
     source 2
     target 56
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 2
@@ -15424,8 +15400,9 @@ graph [
     source 2
     target 569
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 2
@@ -15459,16 +15436,16 @@ graph [
     source 3
     target 582
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
     target 854
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15509,17 +15486,15 @@ graph [
     source 3
     target 980
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
     target 82
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15553,9 +15528,8 @@ graph [
     source 3
     target 22
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15568,8 +15542,9 @@ graph [
     source 3
     target 308
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
@@ -15596,9 +15571,8 @@ graph [
     source 3
     target 46
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15639,9 +15613,8 @@ graph [
     source 3
     target 402
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15675,16 +15648,16 @@ graph [
     source 3
     target 7
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
     target 107
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
@@ -15739,15 +15712,17 @@ graph [
     source 3
     target 1104
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 3
     target 846
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
@@ -15788,17 +15763,15 @@ graph [
     source 3
     target 589
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
     target 900
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15811,16 +15784,16 @@ graph [
     source 3
     target 1140
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 3
     target 979
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 3
@@ -15848,24 +15821,23 @@ graph [
     source 3
     target 174
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
     target 649
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15885,9 +15857,8 @@ graph [
     source 3
     target 296
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 3
@@ -15928,8 +15899,9 @@ graph [
     source 3
     target 87
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 3
@@ -15942,8 +15914,9 @@ graph [
     source 4
     target 93
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 4
@@ -15977,9 +15950,8 @@ graph [
     source 4
     target 71
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
@@ -15992,30 +15964,32 @@ graph [
     source 4
     target 53
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 4
+    target 94
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 4
-    target 94
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 4
     target 586
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 4
     target 544
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 4
@@ -16085,16 +16059,16 @@ graph [
     source 4
     target 556
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
     target 164
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 4
@@ -16107,8 +16081,9 @@ graph [
     source 4
     target 117
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 4
@@ -16177,24 +16152,23 @@ graph [
     source 4
     target 74
     bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 4
-    target 124
-    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 4
-    target 75
+    target 124
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 4
+    target 75
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 4
@@ -16207,17 +16181,15 @@ graph [
     source 4
     target 104
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
     target 260
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
@@ -16230,9 +16202,8 @@ graph [
     source 4
     target 159
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
@@ -16312,16 +16283,16 @@ graph [
     source 4
     target 379
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 4
@@ -16349,9 +16320,8 @@ graph [
     source 4
     target 429
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
@@ -16392,25 +16362,22 @@ graph [
     source 4
     target 786
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
     target 209
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
     target 617
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 4
@@ -16458,8 +16425,9 @@ graph [
     source 5
     target 484
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16521,32 +16489,30 @@ graph [
     source 5
     target 32
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
     target 110
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
     target 9
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16566,8 +16532,9 @@ graph [
     source 5
     target 76
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16664,24 +16631,23 @@ graph [
     source 5
     target 21
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
     target 283
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
     target 310
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
@@ -16715,9 +16681,8 @@ graph [
     source 5
     target 723
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 5
@@ -16828,8 +16793,9 @@ graph [
     source 5
     target 508
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16849,8 +16815,9 @@ graph [
     source 5
     target 662
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16863,8 +16830,9 @@ graph [
     source 5
     target 82
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 5
@@ -16877,8 +16845,9 @@ graph [
     source 6
     target 225
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -16905,8 +16874,9 @@ graph [
     source 6
     target 760
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -16926,22 +16896,25 @@ graph [
     source 6
     target 78
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
     target 541
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
     target 43
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -16954,8 +16927,9 @@ graph [
     source 6
     target 487
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -16975,22 +16949,25 @@ graph [
     source 6
     target 445
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
     target 548
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
     target 122
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17038,8 +17015,9 @@ graph [
     source 6
     target 64
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17080,9 +17058,8 @@ graph [
     source 6
     target 414
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 6
@@ -17123,15 +17100,17 @@ graph [
     source 6
     target 269
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
     target 224
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17165,8 +17144,9 @@ graph [
     source 6
     target 196
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17193,8 +17173,9 @@ graph [
     source 6
     target 711
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17214,8 +17195,9 @@ graph [
     source 6
     target 303
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17228,8 +17210,9 @@ graph [
     source 6
     target 292
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17298,9 +17281,8 @@ graph [
     source 6
     target 221
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 6
@@ -17327,8 +17309,9 @@ graph [
     source 6
     target 210
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17355,8 +17338,9 @@ graph [
     source 6
     target 91
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17369,8 +17353,9 @@ graph [
     source 6
     target 938
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 6
@@ -17418,17 +17403,15 @@ graph [
     source 7
     target 129
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 116
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17441,33 +17424,29 @@ graph [
     source 7
     target 341
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 206
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 59
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 386
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17585,9 +17564,8 @@ graph [
     source 7
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17607,8 +17585,9 @@ graph [
     source 7
     target 142
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
@@ -17663,9 +17642,8 @@ graph [
     source 7
     target 724
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17685,17 +17663,15 @@ graph [
     source 7
     target 22
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 664
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17708,9 +17684,8 @@ graph [
     source 7
     target 25
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17737,30 +17712,32 @@ graph [
     source 7
     target 732
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
     target 8
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
     target 64
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
     target 104
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17773,25 +17750,22 @@ graph [
     source 7
     target 260
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 930
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
     target 23
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17804,8 +17778,9 @@ graph [
     source 7
     target 51
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
@@ -17846,16 +17821,16 @@ graph [
     source 7
     target 19
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
     target 47
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17875,8 +17850,9 @@ graph [
     source 7
     target 838
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 7
@@ -17903,9 +17879,8 @@ graph [
     source 7
     target 751
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 7
@@ -17925,16 +17900,16 @@ graph [
     source 7
     target 754
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
     target 71
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -17975,24 +17950,23 @@ graph [
     source 8
     target 101
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 140
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 31
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18012,9 +17986,8 @@ graph [
     source 8
     target 32
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -18027,15 +18000,17 @@ graph [
     source 8
     target 515
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
     target 182
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18055,8 +18030,9 @@ graph [
     source 8
     target 45
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18069,8 +18045,9 @@ graph [
     source 8
     target 61
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18084,17 +18061,15 @@ graph [
     source 8
     target 21
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 9
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -18114,8 +18089,9 @@ graph [
     source 8
     target 82
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18128,17 +18104,15 @@ graph [
     source 8
     target 23
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -18165,8 +18139,9 @@ graph [
     source 8
     target 435
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18207,31 +18182,31 @@ graph [
     source 8
     target 33
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 130
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 8
+    target 19
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 8
-    target 19
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 8
     target 76
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18258,8 +18233,9 @@ graph [
     source 8
     target 67
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18293,9 +18269,8 @@ graph [
     source 8
     target 135
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -18315,9 +18290,8 @@ graph [
     source 8
     target 481
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
@@ -18344,16 +18318,16 @@ graph [
     source 8
     target 311
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 8
     target 92
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 8
@@ -18429,9 +18403,8 @@ graph [
     source 9
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
@@ -18472,17 +18445,15 @@ graph [
     source 9
     target 304
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
     target 81
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
@@ -18523,17 +18494,15 @@ graph [
     source 9
     target 310
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
     target 262
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
@@ -18595,9 +18564,8 @@ graph [
     source 9
     target 86
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
@@ -18652,9 +18620,8 @@ graph [
     source 9
     target 24
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
@@ -18674,17 +18641,15 @@ graph [
     source 9
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 9
     target 1261
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 9
@@ -18873,24 +18838,23 @@ graph [
     source 10
     target 96
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 10
     target 179
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 74
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -18903,8 +18867,9 @@ graph [
     source 10
     target 388
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 10
@@ -18924,17 +18889,15 @@ graph [
     source 10
     target 131
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 454
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -18968,16 +18931,16 @@ graph [
     source 10
     target 141
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 221
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 10
@@ -19004,25 +18967,22 @@ graph [
     source 10
     target 16
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 335
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 206
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -19035,17 +18995,15 @@ graph [
     source 10
     target 50
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 35
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -19065,9 +19023,8 @@ graph [
     source 10
     target 117
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -19087,8 +19044,9 @@ graph [
     source 10
     target 199
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 10
@@ -19101,17 +19059,15 @@ graph [
     source 10
     target 22
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 569
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -19124,24 +19080,23 @@ graph [
     source 10
     target 369
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 10
     target 244
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
     target 42
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 10
@@ -19168,17 +19123,15 @@ graph [
     source 11
     target 13
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
     target 39
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19191,8 +19144,9 @@ graph [
     source 11
     target 121
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 11
@@ -19219,23 +19173,24 @@ graph [
     source 11
     target 101
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 11
     target 140
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 11
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19249,9 +19204,8 @@ graph [
     source 11
     target 800
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19278,8 +19232,9 @@ graph [
     source 11
     target 31
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 11
@@ -19299,9 +19254,8 @@ graph [
     source 11
     target 125
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19321,9 +19275,8 @@ graph [
     source 11
     target 23
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19343,9 +19296,8 @@ graph [
     source 11
     target 86
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19365,16 +19317,16 @@ graph [
     source 11
     target 92
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 11
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19471,9 +19423,8 @@ graph [
     source 11
     target 201
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 11
@@ -19521,9 +19472,8 @@ graph [
     source 12
     target 93
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19543,16 +19493,16 @@ graph [
     source 12
     target 634
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 12
     target 354
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19573,9 +19523,8 @@ graph [
     source 12
     target 53
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19595,9 +19544,8 @@ graph [
     source 12
     target 776
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19639,15 +19587,17 @@ graph [
     source 12
     target 199
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 12
     target 671
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 12
@@ -19660,9 +19610,8 @@ graph [
     source 12
     target 35
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19675,17 +19624,15 @@ graph [
     source 12
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19698,8 +19645,9 @@ graph [
     source 12
     target 709
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 12
@@ -19747,23 +19695,24 @@ graph [
     source 12
     target 16
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 12
+    target 157
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 12
-    target 157
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 12
     target 56
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 12
@@ -19797,9 +19746,8 @@ graph [
     source 12
     target 159
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19834,17 +19782,15 @@ graph [
     source 12
     target 459
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 12
     target 455
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
@@ -19864,17 +19810,15 @@ graph [
     source 12
     target 19
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 12
     target 781
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 12
@@ -20006,8 +19950,9 @@ graph [
     source 13
     target 1202
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 13
@@ -20041,16 +19986,16 @@ graph [
     source 13
     target 1238
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 13
     target 100
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 13
@@ -20070,8 +20015,9 @@ graph [
     source 13
     target 367
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 13
@@ -20084,9 +20030,8 @@ graph [
     source 13
     target 172
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20120,17 +20065,15 @@ graph [
     source 13
     target 188
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
     target 352
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20150,9 +20093,8 @@ graph [
     source 13
     target 430
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20179,8 +20121,9 @@ graph [
     source 13
     target 529
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 13
@@ -20193,9 +20136,8 @@ graph [
     source 13
     target 104
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20222,16 +20164,16 @@ graph [
     source 13
     target 150
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 13
     target 669
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20280,9 +20222,8 @@ graph [
     source 13
     target 658
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 13
@@ -20351,8 +20292,9 @@ graph [
     source 13
     target 377
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 13
@@ -20407,8 +20349,9 @@ graph [
     source 14
     target 93
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 14
@@ -20428,8 +20371,9 @@ graph [
     source 14
     target 439
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 14
@@ -20491,9 +20435,8 @@ graph [
     source 14
     target 230
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20562,17 +20505,15 @@ graph [
     source 14
     target 69
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
     target 390
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20599,8 +20540,9 @@ graph [
     source 14
     target 124
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 14
@@ -20634,9 +20576,8 @@ graph [
     source 14
     target 47
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20664,9 +20605,8 @@ graph [
     source 14
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20679,9 +20619,8 @@ graph [
     source 14
     target 379
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20701,8 +20640,9 @@ graph [
     source 14
     target 280
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 14
@@ -20715,17 +20655,15 @@ graph [
     source 14
     target 56
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
     target 509
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20738,9 +20676,8 @@ graph [
     source 14
     target 237
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
@@ -20774,17 +20711,15 @@ graph [
     source 14
     target 42
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 14
     target 214
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
@@ -20797,9 +20732,8 @@ graph [
     source 15
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
@@ -20819,9 +20753,8 @@ graph [
     source 15
     target 26
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
@@ -20869,9 +20802,8 @@ graph [
     source 15
     target 800
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
@@ -20919,9 +20851,8 @@ graph [
     source 15
     target 81
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
@@ -20984,16 +20915,16 @@ graph [
     source 15
     target 283
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 15
     target 106
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 15
@@ -21013,8 +20944,9 @@ graph [
     source 15
     target 67
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 15
@@ -21027,8 +20959,9 @@ graph [
     source 15
     target 666
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 15
@@ -21055,8 +20988,9 @@ graph [
     source 15
     target 467
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 15
@@ -21126,9 +21060,8 @@ graph [
     source 16
     target 52
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21162,8 +21095,9 @@ graph [
     source 16
     target 227
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
@@ -21197,16 +21131,16 @@ graph [
     source 16
     target 216
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
     target 157
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21219,9 +21153,8 @@ graph [
     source 16
     target 785
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21248,9 +21181,8 @@ graph [
     source 16
     target 179
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21284,16 +21216,16 @@ graph [
     source 16
     target 260
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
     target 369
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
@@ -21327,9 +21259,8 @@ graph [
     source 16
     target 497
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21349,9 +21280,8 @@ graph [
     source 16
     target 564
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21371,8 +21301,9 @@ graph [
     source 16
     target 25
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
@@ -21385,16 +21316,16 @@ graph [
     source 16
     target 380
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
     target 244
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21414,9 +21345,8 @@ graph [
     source 16
     target 241
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 16
@@ -21436,8 +21366,9 @@ graph [
     source 16
     target 33
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 16
@@ -21464,8 +21395,9 @@ graph [
     source 17
     target 444
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21493,15 +21425,17 @@ graph [
     source 17
     target 44
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
     target 177
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21542,9 +21476,8 @@ graph [
     source 17
     target 191
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 17
@@ -21578,26 +21511,13 @@ graph [
     source 17
     target 55
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
     target 134
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 17
-    target 27
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 17
-    target 628
     bridge 0
     type 2
     anomalous 0
@@ -21605,10 +21525,26 @@ graph [
   ]
   edge [
     source 17
-    target 365
+    target 27
+    bridge 0
+    type 2
+    anomalous 0
+    anomalous2 0
+  ]
+  edge [
+    source 17
+    target 628
     bridge 0
     type 1
     anomalous 0
+  ]
+  edge [
+    source 17
+    target 365
+    bridge 0
+    type 2
+    anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21621,23 +21557,24 @@ graph [
     source 17
     target 178
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
     target 719
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
     target 154
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 17
@@ -21678,8 +21615,9 @@ graph [
     source 17
     target 176
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21693,8 +21631,9 @@ graph [
     source 17
     target 169
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21714,8 +21653,9 @@ graph [
     source 17
     target 516
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21735,8 +21675,9 @@ graph [
     source 17
     target 674
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
@@ -21791,16 +21732,16 @@ graph [
     source 17
     target 123
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 17
     target 914
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 17
@@ -21848,9 +21789,8 @@ graph [
     source 17
     target 219
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 17
@@ -21863,17 +21803,15 @@ graph [
     source 17
     target 18
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
     target 162
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -21936,9 +21874,8 @@ graph [
     source 18
     target 169
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -21958,16 +21895,16 @@ graph [
     source 18
     target 407
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 18
     target 431
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -21994,8 +21931,9 @@ graph [
     source 18
     target 784
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 18
@@ -22008,9 +21946,8 @@ graph [
     source 18
     target 176
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -22030,9 +21967,8 @@ graph [
     source 18
     target 745
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -22109,17 +22045,15 @@ graph [
     source 18
     target 71
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
     target 116
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -22175,8 +22109,9 @@ graph [
     source 18
     target 516
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 18
@@ -22190,8 +22125,9 @@ graph [
     source 18
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 18
@@ -22248,16 +22184,16 @@ graph [
     source 18
     target 625
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 18
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 18
@@ -22284,9 +22220,8 @@ graph [
     source 18
     target 725
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 18
@@ -22299,8 +22234,9 @@ graph [
     source 18
     target 160
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 19
@@ -22327,9 +22263,8 @@ graph [
     source 19
     target 633
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22447,9 +22382,8 @@ graph [
     source 19
     target 392
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22462,9 +22396,8 @@ graph [
     source 19
     target 617
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22498,9 +22431,8 @@ graph [
     source 19
     target 588
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22520,9 +22452,8 @@ graph [
     source 19
     target 25
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22542,9 +22473,8 @@ graph [
     source 19
     target 291
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22579,9 +22509,8 @@ graph [
     source 19
     target 69
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 19
@@ -22664,16 +22593,16 @@ graph [
     source 20
     target 37
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
     target 72
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22686,9 +22615,8 @@ graph [
     source 20
     target 130
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22715,8 +22643,9 @@ graph [
     source 20
     target 420
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
@@ -22743,9 +22672,8 @@ graph [
     source 20
     target 238
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22786,15 +22714,17 @@ graph [
     source 20
     target 240
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
     target 759
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
@@ -22814,9 +22744,8 @@ graph [
     source 20
     target 667
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22858,16 +22787,16 @@ graph [
     source 20
     target 331
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
     target 136
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22915,9 +22844,8 @@ graph [
     source 20
     target 66
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -22930,16 +22858,16 @@ graph [
     source 20
     target 166
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 20
     target 145
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 20
@@ -23003,24 +22931,23 @@ graph [
     source 21
     target 539
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 21
     target 39
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23033,9 +22960,8 @@ graph [
     source 21
     target 26
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23062,9 +22988,8 @@ graph [
     source 21
     target 31
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23085,9 +23010,8 @@ graph [
     source 21
     target 32
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23142,8 +23066,9 @@ graph [
     source 21
     target 92
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 21
@@ -23177,33 +23102,29 @@ graph [
     source 21
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 81
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 76
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 333
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23223,9 +23144,8 @@ graph [
     source 21
     target 119
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23245,16 +23165,16 @@ graph [
     source 21
     target 77
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 67
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 21
@@ -23268,17 +23188,15 @@ graph [
     source 21
     target 136
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
     target 172
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 21
@@ -23319,9 +23237,8 @@ graph [
     source 22
     target 384
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23362,9 +23279,8 @@ graph [
     source 22
     target 60
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23398,9 +23314,8 @@ graph [
     source 22
     target 566
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23420,17 +23335,15 @@ graph [
     source 22
     target 915
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
     target 185
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23464,9 +23377,8 @@ graph [
     source 22
     target 34
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23493,25 +23405,22 @@ graph [
     source 22
     target 66
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
     target 328
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
     target 343
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23524,9 +23433,8 @@ graph [
     source 22
     target 391
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23553,9 +23461,8 @@ graph [
     source 22
     target 97
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 22
@@ -23617,8 +23524,9 @@ graph [
     source 23
     target 26
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 23
@@ -23631,9 +23539,8 @@ graph [
     source 23
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23653,9 +23560,8 @@ graph [
     source 23
     target 76
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23682,9 +23588,8 @@ graph [
     source 23
     target 113
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23704,17 +23609,15 @@ graph [
     source 23
     target 77
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
     target 125
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23748,32 +23651,30 @@ graph [
     source 23
     target 80
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 23
+    target 31
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 23
-    target 31
+    target 507
     bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 23
-    target 507
-    bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 23
     target 254
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23807,9 +23708,8 @@ graph [
     source 23
     target 39
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23822,17 +23722,15 @@ graph [
     source 23
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
     target 283
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23852,9 +23750,8 @@ graph [
     source 23
     target 135
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 23
@@ -23895,9 +23792,8 @@ graph [
     source 24
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 24
@@ -23952,8 +23848,9 @@ graph [
     source 24
     target 153
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -23973,8 +23870,9 @@ graph [
     source 24
     target 106
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -23994,8 +23892,9 @@ graph [
     source 24
     target 31
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -24022,8 +23921,9 @@ graph [
     source 24
     target 223
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -24043,8 +23943,9 @@ graph [
     source 24
     target 393
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -24085,8 +23986,9 @@ graph [
     source 24
     target 1125
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 24
@@ -24099,8 +24001,9 @@ graph [
     source 24
     target 36
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -24141,8 +24044,9 @@ graph [
     source 24
     target 72
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 24
@@ -24162,9 +24066,8 @@ graph [
     source 24
     target 135
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 24
@@ -24198,8 +24101,9 @@ graph [
     source 25
     target 402
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 25
@@ -24254,9 +24158,8 @@ graph [
     source 25
     target 35
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
@@ -24298,9 +24201,8 @@ graph [
     source 25
     target 905
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
@@ -24321,8 +24223,9 @@ graph [
     source 25
     target 1027
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 25
@@ -24335,9 +24238,8 @@ graph [
     source 25
     target 183
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
@@ -24350,16 +24252,16 @@ graph [
     source 25
     target 184
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
     target 608
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 25
@@ -24372,9 +24274,8 @@ graph [
     source 25
     target 1079
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 25
@@ -24408,17 +24309,15 @@ graph [
     source 25
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
     target 70
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 25
@@ -24501,8 +24400,9 @@ graph [
     source 25
     target 107
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 25
@@ -24522,8 +24422,9 @@ graph [
     source 25
     target 845
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 26
@@ -24537,8 +24438,9 @@ graph [
     source 26
     target 81
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 26
@@ -24551,16 +24453,16 @@ graph [
     source 26
     target 67
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
     target 1017
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 26
@@ -24601,25 +24503,22 @@ graph [
     source 26
     target 77
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
     target 140
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
     target 814
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 26
@@ -24639,9 +24538,8 @@ graph [
     source 26
     target 248
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
@@ -24668,23 +24566,24 @@ graph [
     source 26
     target 143
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 26
     target 666
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 26
     target 90
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
@@ -24732,8 +24631,9 @@ graph [
     source 26
     target 723
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 26
@@ -24774,9 +24674,8 @@ graph [
     source 26
     target 262
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 26
@@ -24817,9 +24716,8 @@ graph [
     source 27
     target 83
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 27
@@ -24846,9 +24744,8 @@ graph [
     source 27
     target 207
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 27
@@ -24910,9 +24807,8 @@ graph [
     source 27
     target 562
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 27
@@ -24925,8 +24821,9 @@ graph [
     source 27
     target 721
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
@@ -24939,9 +24836,8 @@ graph [
     source 27
     target 411
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 27
@@ -25017,8 +24913,9 @@ graph [
     source 27
     target 63
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
@@ -25038,8 +24935,9 @@ graph [
     source 27
     target 599
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
@@ -25052,15 +24950,17 @@ graph [
     source 27
     target 123
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
     target 416
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
@@ -25073,29 +24973,33 @@ graph [
     source 27
     target 360
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
     target 255
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
     target 40
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
     target 1061
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 27
@@ -25171,8 +25075,9 @@ graph [
     source 28
     target 57
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 28
@@ -25318,8 +25223,9 @@ graph [
     source 28
     target 355
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 28
@@ -25402,8 +25308,9 @@ graph [
     source 28
     target 477
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 28
@@ -25444,8 +25351,9 @@ graph [
     source 28
     target 264
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 29
@@ -25703,16 +25611,16 @@ graph [
     source 30
     target 298
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
     target 266
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 30
@@ -25725,8 +25633,9 @@ graph [
     source 30
     target 165
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25739,15 +25648,17 @@ graph [
     source 30
     target 55
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
     target 111
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25760,16 +25671,16 @@ graph [
     source 30
     target 44
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 30
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25818,8 +25729,9 @@ graph [
     source 30
     target 134
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25839,9 +25751,8 @@ graph [
     source 30
     target 245
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 30
@@ -25868,8 +25779,9 @@ graph [
     source 30
     target 725
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25903,16 +25815,16 @@ graph [
     source 30
     target 431
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 30
     target 444
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25946,8 +25858,9 @@ graph [
     source 30
     target 361
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -25974,9 +25887,8 @@ graph [
     source 30
     target 282
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 30
@@ -25989,8 +25901,9 @@ graph [
     source 30
     target 286
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 30
@@ -26031,9 +25944,8 @@ graph [
     source 31
     target 71
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26046,9 +25958,8 @@ graph [
     source 31
     target 228
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26061,8 +25972,9 @@ graph [
     source 31
     target 286
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 31
@@ -26097,9 +26009,8 @@ graph [
     source 31
     target 80
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26112,8 +26023,9 @@ graph [
     source 31
     target 92
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 31
@@ -26126,9 +26038,8 @@ graph [
     source 31
     target 389
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26148,16 +26059,16 @@ graph [
     source 31
     target 217
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 31
     target 110
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26170,17 +26081,15 @@ graph [
     source 31
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
     target 302
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26193,9 +26102,8 @@ graph [
     source 31
     target 304
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26215,9 +26123,8 @@ graph [
     source 31
     target 81
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
@@ -26245,24 +26152,23 @@ graph [
     source 31
     target 330
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
     target 481
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 31
     target 1084
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 31
@@ -26275,33 +26181,29 @@ graph [
     source 31
     target 248
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
     target 353
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
     target 539
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
     target 39
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
@@ -26328,9 +26230,8 @@ graph [
     source 32
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
@@ -26350,9 +26251,8 @@ graph [
     source 32
     target 310
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
@@ -26386,8 +26286,9 @@ graph [
     source 32
     target 98
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 32
@@ -26400,17 +26301,15 @@ graph [
     source 32
     target 158
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
     target 77
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
@@ -26423,8 +26322,9 @@ graph [
     source 32
     target 182
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 32
@@ -26452,9 +26352,8 @@ graph [
     source 32
     target 187
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 32
@@ -26481,16 +26380,16 @@ graph [
     source 32
     target 401
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
     target 270
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26503,9 +26402,8 @@ graph [
     source 33
     target 95
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26554,9 +26452,8 @@ graph [
     source 33
     target 184
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26583,16 +26480,16 @@ graph [
     source 33
     target 112
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
     target 1049
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
@@ -26619,17 +26516,15 @@ graph [
     source 33
     target 620
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
     target 574
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26649,9 +26544,8 @@ graph [
     source 33
     target 62
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26678,23 +26572,24 @@ graph [
     source 33
     target 36
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
     target 264
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
     target 194
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26707,8 +26602,9 @@ graph [
     source 33
     target 953
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
@@ -26728,8 +26624,9 @@ graph [
     source 33
     target 563
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 33
@@ -26750,9 +26647,8 @@ graph [
     source 33
     target 306
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 33
@@ -26786,24 +26682,23 @@ graph [
     source 33
     target 756
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 34
     target 536
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
     target 231
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26837,9 +26732,8 @@ graph [
     source 34
     target 66
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26852,9 +26746,8 @@ graph [
     source 34
     target 297
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26874,9 +26767,8 @@ graph [
     source 34
     target 607
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26889,9 +26781,8 @@ graph [
     source 34
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26925,9 +26816,8 @@ graph [
     source 34
     target 480
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 34
@@ -26947,9 +26837,8 @@ graph [
     source 34
     target 97
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
@@ -27012,8 +26901,9 @@ graph [
     source 35
     target 642
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 35
@@ -27026,9 +26916,8 @@ graph [
     source 35
     target 549
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
@@ -27041,33 +26930,29 @@ graph [
     source 35
     target 490
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
     target 216
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
     target 779
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
     target 702
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
@@ -27108,8 +26993,9 @@ graph [
     source 35
     target 796
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 35
@@ -27122,8 +27008,9 @@ graph [
     source 35
     target 346
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 35
@@ -27164,8 +27051,9 @@ graph [
     source 35
     target 242
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 35
@@ -27234,9 +27122,8 @@ graph [
     source 35
     target 36
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 35
@@ -27270,9 +27157,8 @@ graph [
     source 36
     target 353
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 36
@@ -27285,8 +27171,9 @@ graph [
     source 36
     target 207
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27313,8 +27200,9 @@ graph [
     source 36
     target 477
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27328,8 +27216,9 @@ graph [
     source 36
     target 100
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27349,8 +27238,9 @@ graph [
     source 36
     target 249
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27398,17 +27288,15 @@ graph [
     source 36
     target 376
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 36
     target 172
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 36
@@ -27442,8 +27330,9 @@ graph [
     source 36
     target 401
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27492,31 +27381,31 @@ graph [
     source 36
     target 669
     bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 36
-    target 115
-    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 36
+    target 115
+    bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 36
     target 771
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 36
     target 355
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 36
@@ -27578,8 +27467,9 @@ graph [
     source 37
     target 689
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 37
@@ -27636,8 +27526,9 @@ graph [
     source 37
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 37
@@ -27657,8 +27548,9 @@ graph [
     source 37
     target 277
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 37
@@ -27678,9 +27570,8 @@ graph [
     source 37
     target 233
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 37
@@ -27714,8 +27605,9 @@ graph [
     source 37
     target 557
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 37
@@ -27750,8 +27642,9 @@ graph [
     source 37
     target 569
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 38
@@ -27764,9 +27657,8 @@ graph [
     source 38
     target 854
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -27808,9 +27700,8 @@ graph [
     source 38
     target 492
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -27837,9 +27728,8 @@ graph [
     source 38
     target 65
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -27859,24 +27749,23 @@ graph [
     source 38
     target 72
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
     target 732
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 38
     target 683
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 38
@@ -27889,9 +27778,8 @@ graph [
     source 38
     target 589
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -27946,9 +27834,8 @@ graph [
     source 38
     target 306
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -27961,16 +27848,16 @@ graph [
     source 38
     target 307
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
     target 296
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 38
@@ -27990,8 +27877,9 @@ graph [
     source 38
     target 57
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 38
@@ -28004,9 +27892,8 @@ graph [
     source 38
     target 351
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 38
@@ -28054,9 +27941,8 @@ graph [
     source 39
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 39
@@ -28083,9 +27969,8 @@ graph [
     source 39
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 39
@@ -28112,9 +27997,8 @@ graph [
     source 39
     target 125
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 39
@@ -28127,9 +28011,8 @@ graph [
     source 39
     target 140
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 39
@@ -28170,8 +28053,9 @@ graph [
     source 40
     target 298
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28205,9 +28089,8 @@ graph [
     source 40
     target 71
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 40
@@ -28220,8 +28103,9 @@ graph [
     source 40
     target 356
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28248,8 +28132,9 @@ graph [
     source 40
     target 49
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28306,8 +28191,9 @@ graph [
     source 40
     target 457
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28341,8 +28227,9 @@ graph [
     source 40
     target 361
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28362,8 +28249,9 @@ graph [
     source 40
     target 169
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28383,9 +28271,8 @@ graph [
     source 40
     target 154
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 40
@@ -28405,8 +28292,9 @@ graph [
     source 40
     target 55
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 40
@@ -28454,16 +28342,16 @@ graph [
     source 41
     target 53
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 41
     target 251
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 41
@@ -28490,9 +28378,8 @@ graph [
     source 41
     target 216
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 41
@@ -28519,9 +28406,8 @@ graph [
     source 41
     target 117
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 41
@@ -28555,16 +28441,16 @@ graph [
     source 41
     target 395
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 41
     target 369
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 41
@@ -28577,8 +28463,9 @@ graph [
     source 41
     target 273
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 41
@@ -28598,8 +28485,9 @@ graph [
     source 41
     target 221
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 41
@@ -28626,8 +28514,9 @@ graph [
     source 42
     target 386
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
@@ -28647,24 +28536,23 @@ graph [
     source 42
     target 998
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 42
     target 60
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 42
     target 96
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
@@ -28677,9 +28565,8 @@ graph [
     source 42
     target 566
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 42
@@ -28720,9 +28607,8 @@ graph [
     source 42
     target 57
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 42
@@ -28735,16 +28621,16 @@ graph [
     source 42
     target 958
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 42
     target 98
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 42
@@ -28757,22 +28643,25 @@ graph [
     source 42
     target 376
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
     target 435
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
     target 47
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
@@ -28785,15 +28674,17 @@ graph [
     source 42
     target 404
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
     target 213
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 42
@@ -28813,16 +28704,16 @@ graph [
     source 42
     target 480
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 43
     target 78
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -28849,15 +28740,17 @@ graph [
     source 43
     target 382
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
     target 102
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -28877,8 +28770,9 @@ graph [
     source 43
     target 241
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -28926,9 +28820,8 @@ graph [
     source 43
     target 499
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 43
@@ -28941,8 +28834,9 @@ graph [
     source 43
     target 610
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -29004,16 +28898,16 @@ graph [
     source 43
     target 94
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 43
     target 246
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -29026,8 +28920,9 @@ graph [
     source 43
     target 548
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -29061,8 +28956,9 @@ graph [
     source 43
     target 64
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 43
@@ -29119,21 +29015,23 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   edge [
     source 44
     target 356
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 207
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
@@ -29146,8 +29044,9 @@ graph [
     source 44
     target 281
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
@@ -29167,30 +29066,32 @@ graph [
     source 44
     target 400
     bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 44
-    target 628
-    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 44
+    target 628
+    bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 44
     target 1096
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 44
     target 165
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
@@ -29217,15 +29118,17 @@ graph [
     source 44
     target 154
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 176
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
@@ -29245,8 +29148,9 @@ graph [
     source 44
     target 55
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
@@ -29275,43 +29179,49 @@ graph [
     source 44
     target 323
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 219
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 111
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 168
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 261
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 44
     target 245
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 45
@@ -29331,9 +29241,8 @@ graph [
     source 45
     target 84
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 45
@@ -29416,9 +29325,8 @@ graph [
     source 45
     target 61
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 45
@@ -29495,8 +29403,9 @@ graph [
     source 46
     target 386
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 46
@@ -29509,9 +29418,8 @@ graph [
     source 46
     target 65
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 46
@@ -29524,8 +29432,9 @@ graph [
     source 46
     target 112
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 46
@@ -29601,9 +29510,8 @@ graph [
     source 46
     target 120
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 46
@@ -29616,9 +29524,8 @@ graph [
     source 46
     target 307
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 46
@@ -29645,9 +29552,8 @@ graph [
     source 46
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 46
@@ -29674,8 +29580,9 @@ graph [
     source 46
     target 718
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 46
@@ -29695,8 +29602,9 @@ graph [
     source 46
     target 138
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 46
@@ -29767,9 +29675,8 @@ graph [
     source 47
     target 159
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
@@ -29782,25 +29689,22 @@ graph [
     source 47
     target 673
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
     target 309
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
     target 482
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 47
@@ -29820,9 +29724,8 @@ graph [
     source 47
     target 141
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
@@ -29842,16 +29745,16 @@ graph [
     source 47
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 47
     target 588
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
@@ -29871,9 +29774,8 @@ graph [
     source 47
     target 148
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 47
@@ -29942,25 +29844,22 @@ graph [
     source 48
     target 75
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
     target 62
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
     target 171
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -29973,9 +29872,8 @@ graph [
     source 48
     target 308
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30009,9 +29907,8 @@ graph [
     source 48
     target 579
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30024,9 +29921,8 @@ graph [
     source 48
     target 411
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30067,9 +29963,8 @@ graph [
     source 48
     target 408
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30082,9 +29977,8 @@ graph [
     source 48
     target 589
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30104,9 +29998,8 @@ graph [
     source 48
     target 449
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 48
@@ -30154,8 +30047,9 @@ graph [
     source 49
     target 266
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
@@ -30238,8 +30132,9 @@ graph [
     source 49
     target 1061
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
@@ -30252,9 +30147,8 @@ graph [
     source 49
     target 123
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 49
@@ -30281,9 +30175,8 @@ graph [
     source 49
     target 109
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 49
@@ -30296,8 +30189,9 @@ graph [
     source 49
     target 503
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
@@ -30317,8 +30211,9 @@ graph [
     source 49
     target 457
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
@@ -30331,15 +30226,17 @@ graph [
     source 49
     target 255
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
     target 111
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 49
@@ -30352,9 +30249,8 @@ graph [
     source 49
     target 431
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 49
@@ -30423,8 +30319,9 @@ graph [
     source 50
     target 85
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 50
@@ -30472,9 +30369,8 @@ graph [
     source 50
     target 412
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 50
@@ -30515,8 +30411,9 @@ graph [
     source 50
     target 224
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 50
@@ -30529,9 +30426,8 @@ graph [
     source 50
     target 133
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 50
@@ -30544,8 +30440,9 @@ graph [
     source 50
     target 590
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 50
@@ -30572,17 +30469,15 @@ graph [
     source 50
     target 148
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 50
     target 131
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 50
@@ -30623,9 +30518,8 @@ graph [
     source 50
     target 167
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 51
@@ -30848,8 +30742,9 @@ graph [
     source 51
     target 289
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 51
@@ -30918,23 +30813,24 @@ graph [
     source 52
     target 336
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 52
+    target 226
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 52
-    target 226
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 52
     target 221
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 52
@@ -30996,17 +30892,15 @@ graph [
     source 52
     target 644
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 52
     target 468
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 52
@@ -31040,8 +30934,9 @@ graph [
     source 52
     target 268
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 52
@@ -31054,17 +30949,15 @@ graph [
     source 52
     target 94
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 52
     target 193
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 52
@@ -31084,16 +30977,16 @@ graph [
     source 52
     target 85
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 52
     target 131
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 52
@@ -31163,16 +31056,16 @@ graph [
     source 53
     target 221
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 53
     target 133
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 53
@@ -31214,9 +31107,8 @@ graph [
     source 53
     target 271
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 53
@@ -31264,9 +31156,8 @@ graph [
     source 53
     target 74
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 53
@@ -31293,9 +31184,8 @@ graph [
     source 53
     target 108
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31308,8 +31198,9 @@ graph [
     source 54
     target 336
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31329,9 +31220,8 @@ graph [
     source 54
     target 78
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31351,9 +31241,8 @@ graph [
     source 54
     target 405
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31373,8 +31262,9 @@ graph [
     source 54
     target 196
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31415,8 +31305,9 @@ graph [
     source 54
     target 300
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31429,8 +31320,9 @@ graph [
     source 54
     target 605
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31443,8 +31335,9 @@ graph [
     source 54
     target 517
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31457,9 +31350,8 @@ graph [
     source 54
     target 238
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31472,9 +31364,8 @@ graph [
     source 54
     target 392
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31494,9 +31385,8 @@ graph [
     source 54
     target 611
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31525,7 +31415,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   edge [
     source 54
@@ -31545,9 +31435,8 @@ graph [
     source 54
     target 371
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 54
@@ -31574,8 +31463,9 @@ graph [
     source 54
     target 938
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 54
@@ -31623,8 +31513,9 @@ graph [
     source 55
     target 134
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 55
@@ -31651,9 +31542,8 @@ graph [
     source 55
     target 745
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 55
@@ -31674,25 +31564,22 @@ graph [
     source 55
     target 660
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 55
     target 705
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 55
     target 465
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 55
@@ -31719,8 +31606,9 @@ graph [
     source 55
     target 665
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 55
@@ -31740,8 +31628,9 @@ graph [
     source 55
     target 911
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 55
@@ -31755,17 +31644,15 @@ graph [
     source 55
     target 511
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 55
     target 400
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 56
@@ -31813,8 +31700,9 @@ graph [
     source 56
     target 108
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 56
@@ -31862,9 +31750,8 @@ graph [
     source 56
     target 673
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 56
@@ -31912,9 +31799,8 @@ graph [
     source 56
     target 291
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 56
@@ -32013,15 +31899,17 @@ graph [
     source 57
     target 201
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 57
     target 67
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 57
@@ -32034,9 +31922,8 @@ graph [
     source 57
     target 351
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 57
@@ -32078,9 +31965,8 @@ graph [
     source 57
     target 62
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 57
@@ -32094,9 +31980,8 @@ graph [
     source 57
     target 75
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 57
@@ -32116,8 +32001,9 @@ graph [
     source 57
     target 748
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 57
@@ -32130,8 +32016,9 @@ graph [
     source 57
     target 107
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 57
@@ -32215,9 +32102,8 @@ graph [
     source 58
     target 157
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 58
@@ -32237,15 +32123,17 @@ graph [
     source 58
     target 164
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 58
     target 101
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 58
@@ -32258,9 +32146,8 @@ graph [
     source 58
     target 117
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 58
@@ -32273,17 +32160,15 @@ graph [
     source 58
     target 69
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 58
     target 199
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 58
@@ -32340,9 +32225,8 @@ graph [
     source 58
     target 280
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 58
@@ -32369,9 +32253,8 @@ graph [
     source 59
     target 852
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 59
@@ -32449,31 +32332,31 @@ graph [
     source 59
     target 793
     bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 59
-    target 110
-    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 59
+    target 110
+    bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 59
     target 896
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 59
     target 519
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 59
@@ -32521,25 +32404,22 @@ graph [
     source 59
     target 366
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 59
     target 83
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 59
     target 265
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 59
@@ -32566,17 +32446,15 @@ graph [
     source 59
     target 879
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 59
     target 299
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 59
@@ -32624,16 +32502,16 @@ graph [
     source 60
     target 667
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 60
     target 285
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 60
@@ -32646,9 +32524,8 @@ graph [
     source 60
     target 364
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 60
@@ -32675,9 +32552,8 @@ graph [
     source 60
     target 97
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 60
@@ -32698,8 +32574,9 @@ graph [
     source 60
     target 158
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 60
@@ -32740,9 +32617,8 @@ graph [
     source 60
     target 187
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 60
@@ -32755,9 +32631,8 @@ graph [
     source 60
     target 240
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 60
@@ -32805,8 +32680,9 @@ graph [
     source 61
     target 143
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 61
@@ -32819,8 +32695,9 @@ graph [
     source 61
     target 90
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 61
@@ -32840,9 +32717,8 @@ graph [
     source 61
     target 239
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 61
@@ -32862,9 +32738,8 @@ graph [
     source 61
     target 467
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 61
@@ -32884,8 +32759,9 @@ graph [
     source 61
     target 1084
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 61
@@ -32919,9 +32795,8 @@ graph [
     source 61
     target 243
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 61
@@ -32941,9 +32816,8 @@ graph [
     source 61
     target 104
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 61
@@ -32956,9 +32830,8 @@ graph [
     source 61
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 61
@@ -32999,33 +32872,29 @@ graph [
     source 62
     target 410
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 65
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 112
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
@@ -33053,25 +32922,22 @@ graph [
     source 62
     target 351
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 75
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 171
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
@@ -33105,9 +32971,8 @@ graph [
     source 62
     target 99
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
@@ -33120,9 +32985,8 @@ graph [
     source 62
     target 137
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
@@ -33142,17 +33006,15 @@ graph [
     source 62
     target 435
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
     target 748
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 62
@@ -33165,8 +33027,9 @@ graph [
     source 63
     target 298
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 63
@@ -33179,16 +33042,16 @@ graph [
     source 63
     target 204
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 63
     target 71
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 63
@@ -33208,16 +33071,16 @@ graph [
     source 63
     target 407
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 63
     target 207
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 63
@@ -33293,23 +33156,24 @@ graph [
     source 63
     target 323
     bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 63
-    target 255
-    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 63
-    target 219
+    target 255
     bridge 0
     type 1
     anomalous 0
+  ]
+  edge [
+    source 63
+    target 219
+    bridge 0
+    type 2
+    anomalous 0
+    anomalous2 0
   ]
   edge [
     source 63
@@ -33329,8 +33193,9 @@ graph [
     source 63
     target 134
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 63
@@ -33406,9 +33271,8 @@ graph [
     source 64
     target 163
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 64
@@ -33456,8 +33320,9 @@ graph [
     source 64
     target 289
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 64
@@ -33478,8 +33343,9 @@ graph [
     source 64
     target 512
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 64
@@ -33542,9 +33408,8 @@ graph [
     source 64
     target 385
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 64
@@ -33592,15 +33457,17 @@ graph [
     source 64
     target 210
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 64
     target 371
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 64
@@ -33641,9 +33508,8 @@ graph [
     source 65
     target 406
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
@@ -33663,17 +33529,15 @@ graph [
     source 65
     target 579
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
     target 351
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
@@ -33700,9 +33564,8 @@ graph [
     source 65
     target 402
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
@@ -33722,15 +33585,17 @@ graph [
     source 65
     target 171
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 65
     target 378
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 65
@@ -33743,16 +33608,16 @@ graph [
     source 65
     target 70
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
     target 470
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 65
@@ -33779,24 +33644,23 @@ graph [
     source 65
     target 520
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
     target 95
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 65
     target 641
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 65
@@ -33809,8 +33673,9 @@ graph [
     source 65
     target 683
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 65
@@ -33830,16 +33695,16 @@ graph [
     source 65
     target 296
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 66
     target 158
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 66
@@ -33866,9 +33731,8 @@ graph [
     source 66
     target 97
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 66
@@ -33881,9 +33745,8 @@ graph [
     source 66
     target 185
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 66
@@ -33959,9 +33822,8 @@ graph [
     source 66
     target 136
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 66
@@ -33988,9 +33850,8 @@ graph [
     source 66
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 66
@@ -34017,9 +33878,8 @@ graph [
     source 66
     target 285
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 67
@@ -34032,9 +33892,8 @@ graph [
     source 67
     target 150
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 67
@@ -34098,9 +33957,8 @@ graph [
     source 67
     target 90
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 67
@@ -34127,9 +33985,8 @@ graph [
     source 67
     target 350
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 67
@@ -34163,9 +34020,8 @@ graph [
     source 67
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 67
@@ -34206,8 +34062,9 @@ graph [
     source 68
     target 96
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 68
@@ -34262,8 +34119,9 @@ graph [
     source 68
     target 336
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 68
@@ -34290,8 +34148,9 @@ graph [
     source 68
     target 497
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 68
@@ -34304,8 +34163,9 @@ graph [
     source 68
     target 91
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 68
@@ -34339,24 +34199,23 @@ graph [
     source 68
     target 553
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 68
     target 564
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 68
     target 316
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 68
@@ -34390,8 +34249,9 @@ graph [
     source 69
     target 193
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 69
@@ -34425,9 +34285,8 @@ graph [
     source 69
     target 133
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 69
@@ -34454,8 +34313,9 @@ graph [
     source 69
     target 199
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 69
@@ -34559,8 +34419,9 @@ graph [
     source 70
     target 171
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 70
@@ -34651,8 +34512,9 @@ graph [
     source 70
     target 203
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 71
@@ -34679,8 +34541,9 @@ graph [
     source 71
     target 154
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 71
@@ -34707,9 +34570,8 @@ graph [
     source 71
     target 255
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 71
@@ -34736,9 +34598,8 @@ graph [
     source 71
     target 599
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 71
@@ -34758,9 +34619,8 @@ graph [
     source 71
     target 507
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 71
@@ -34836,16 +34696,16 @@ graph [
     source 72
     target 357
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 72
     target 384
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 72
@@ -34865,8 +34725,9 @@ graph [
     source 72
     target 217
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 72
@@ -34887,15 +34748,17 @@ graph [
     source 72
     target 293
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 72
     target 608
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 72
@@ -34908,8 +34771,9 @@ graph [
     source 72
     target 732
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 72
@@ -34922,17 +34786,15 @@ graph [
     source 72
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 72
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 72
@@ -34973,16 +34835,16 @@ graph [
     source 73
     target 225
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 73
     target 205
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 73
@@ -35016,16 +34878,16 @@ graph [
     source 73
     target 878
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 73
     target 611
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 73
@@ -35045,9 +34907,8 @@ graph [
     source 73
     target 105
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 73
@@ -35075,9 +34936,8 @@ graph [
     source 73
     target 698
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 73
@@ -35126,8 +34986,9 @@ graph [
     source 73
     target 102
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 73
@@ -35147,8 +35008,9 @@ graph [
     source 73
     target 371
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 73
@@ -35175,16 +35037,16 @@ graph [
     source 74
     target 93
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 74
     target 314
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 74
@@ -35197,15 +35059,17 @@ graph [
     source 74
     target 340
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 74
     target 164
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 74
@@ -35218,9 +35082,8 @@ graph [
     source 74
     target 256
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 74
@@ -35233,9 +35096,8 @@ graph [
     source 74
     target 271
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 74
@@ -35276,9 +35138,8 @@ graph [
     source 74
     target 613
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 74
@@ -35298,24 +35159,23 @@ graph [
     source 75
     target 95
     bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 75
-    target 88
-    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 75
-    target 410
+    target 88
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 75
+    target 410
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 75
@@ -35335,17 +35195,15 @@ graph [
     source 75
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 75
     target 99
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 75
@@ -35365,8 +35223,9 @@ graph [
     source 75
     target 846
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 75
@@ -35456,9 +35315,8 @@ graph [
     source 76
     target 544
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 76
@@ -35492,8 +35350,9 @@ graph [
     source 76
     target 508
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 76
@@ -35506,9 +35365,8 @@ graph [
     source 76
     target 80
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 76
@@ -35521,8 +35379,9 @@ graph [
     source 76
     target 518
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 76
@@ -35549,8 +35408,9 @@ graph [
     source 76
     target 210
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 76
@@ -35612,9 +35472,8 @@ graph [
     source 77
     target 207
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 77
@@ -35627,9 +35486,8 @@ graph [
     source 77
     target 254
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 77
@@ -35642,9 +35500,8 @@ graph [
     source 77
     target 239
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 77
@@ -35706,9 +35563,8 @@ graph [
     source 77
     target 86
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 77
@@ -35735,22 +35591,25 @@ graph [
     source 78
     target 534
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
     target 858
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
     target 267
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
@@ -35765,7 +35624,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   edge [
     source 78
@@ -35785,8 +35644,9 @@ graph [
     source 78
     target 146
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
@@ -35820,8 +35680,9 @@ graph [
     source 78
     target 224
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
@@ -35841,8 +35702,9 @@ graph [
     source 78
     target 278
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
@@ -35862,16 +35724,16 @@ graph [
     source 78
     target 423
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 78
     target 610
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
@@ -35891,16 +35753,16 @@ graph [
     source 78
     target 349
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 78
     target 379
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 79
@@ -36165,25 +36027,22 @@ graph [
     source 80
     target 101
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 80
     target 103
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 80
     target 86
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 80
@@ -36231,8 +36090,9 @@ graph [
     source 80
     target 393
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 80
@@ -36245,8 +36105,9 @@ graph [
     source 80
     target 662
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 80
@@ -36266,16 +36127,16 @@ graph [
     source 80
     target 677
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 81
     target 129
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 81
@@ -36288,9 +36149,8 @@ graph [
     source 81
     target 239
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 81
@@ -36317,9 +36177,8 @@ graph [
     source 81
     target 125
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 81
@@ -36339,8 +36198,9 @@ graph [
     source 81
     target 330
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 81
@@ -36409,9 +36269,8 @@ graph [
     source 82
     target 129
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 82
@@ -36438,8 +36297,9 @@ graph [
     source 82
     target 357
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 82
@@ -36459,9 +36319,8 @@ graph [
     source 82
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 82
@@ -36481,8 +36340,9 @@ graph [
     source 82
     target 797
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 82
@@ -36502,8 +36362,9 @@ graph [
     source 82
     target 293
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 82
@@ -36551,9 +36412,8 @@ graph [
     source 83
     target 169
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 83
@@ -36580,8 +36440,9 @@ graph [
     source 83
     target 503
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 83
@@ -36594,9 +36455,8 @@ graph [
     source 83
     target 151
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 83
@@ -36679,8 +36539,9 @@ graph [
     source 83
     target 152
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 83
@@ -36826,9 +36687,8 @@ graph [
     source 85
     target 175
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 85
@@ -36848,8 +36708,9 @@ graph [
     source 85
     target 349
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 85
@@ -36961,16 +36822,16 @@ graph [
     source 85
     target 278
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 85
     target 701
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 85
@@ -36997,9 +36858,8 @@ graph [
     source 86
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 86
@@ -37012,17 +36872,15 @@ graph [
     source 86
     target 602
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 86
     target 330
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 86
@@ -37035,25 +36893,22 @@ graph [
     source 86
     target 127
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
     target 539
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
     target 302
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
@@ -37080,17 +36935,15 @@ graph [
     source 87
     target 127
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
     target 99
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
@@ -37138,8 +36991,9 @@ graph [
     source 87
     target 376
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 87
@@ -37173,9 +37027,8 @@ graph [
     source 87
     target 355
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
@@ -37188,9 +37041,8 @@ graph [
     source 87
     target 549
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 87
@@ -37203,9 +37055,8 @@ graph [
     source 87
     target 170
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 88
@@ -37225,8 +37076,9 @@ graph [
     source 88
     target 408
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 88
@@ -37239,8 +37091,9 @@ graph [
     source 88
     target 402
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 88
@@ -37288,8 +37141,9 @@ graph [
     source 88
     target 174
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 88
@@ -37309,15 +37163,17 @@ graph [
     source 88
     target 138
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 88
     target 203
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
@@ -37344,45 +37200,47 @@ graph [
     source 89
     target 635
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
     target 541
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
     target 861
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 89
     target 163
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
     target 122
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
     target 196
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 89
@@ -37402,9 +37260,8 @@ graph [
     source 89
     target 712
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 89
@@ -37425,9 +37282,8 @@ graph [
     source 89
     target 423
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 89
@@ -37440,9 +37296,8 @@ graph [
     source 89
     target 224
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 89
@@ -37469,9 +37324,8 @@ graph [
     source 89
     target 105
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 89
@@ -37491,8 +37345,9 @@ graph [
     source 89
     target 347
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 89
@@ -37505,8 +37360,9 @@ graph [
     source 89
     target 246
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 90
@@ -37519,8 +37375,9 @@ graph [
     source 90
     target 228
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 90
@@ -37533,17 +37390,15 @@ graph [
     source 90
     target 143
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 90
     target 262
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 90
@@ -37556,16 +37411,16 @@ graph [
     source 90
     target 136
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 90
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 90
@@ -37585,15 +37440,17 @@ graph [
     source 90
     target 393
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 90
     target 223
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 91
@@ -37606,9 +37463,8 @@ graph [
     source 91
     target 499
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 91
@@ -37642,9 +37498,8 @@ graph [
     source 91
     target 385
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 91
@@ -37692,8 +37547,9 @@ graph [
     source 91
     target 409
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 91
@@ -37727,16 +37583,16 @@ graph [
     source 91
     target 122
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 91
     target 891
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 91
@@ -37749,9 +37605,8 @@ graph [
     source 91
     target 246
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 91
@@ -37778,8 +37633,9 @@ graph [
     source 92
     target 330
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 92
@@ -37799,8 +37655,9 @@ graph [
     source 92
     target 723
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 92
@@ -37841,9 +37698,8 @@ graph [
     source 93
     target 553
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 93
@@ -37865,7 +37721,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   edge [
     source 93
@@ -37892,9 +37748,8 @@ graph [
     source 93
     target 507
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 93
@@ -37907,9 +37762,8 @@ graph [
     source 93
     target 237
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 93
@@ -37929,9 +37783,8 @@ graph [
     source 93
     target 468
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 94
@@ -37965,9 +37818,8 @@ graph [
     source 94
     target 700
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 94
@@ -38001,9 +37853,8 @@ graph [
     source 94
     target 891
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 94
@@ -38016,8 +37867,9 @@ graph [
     source 94
     target 118
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 94
@@ -38135,25 +37987,22 @@ graph [
     source 95
     target 137
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 95
     target 99
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 95
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 95
@@ -38166,9 +38015,8 @@ graph [
     source 95
     target 112
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 95
@@ -38209,16 +38057,16 @@ graph [
     source 96
     target 216
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 96
     target 157
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 96
@@ -38231,9 +38079,8 @@ graph [
     source 96
     target 196
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 96
@@ -38281,9 +38128,8 @@ graph [
     source 96
     target 335
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38310,17 +38156,15 @@ graph [
     source 97
     target 667
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
     target 285
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38368,9 +38212,8 @@ graph [
     source 97
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38390,17 +38233,15 @@ graph [
     source 97
     target 297
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
     target 144
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38413,25 +38254,22 @@ graph [
     source 97
     target 320
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
     target 612
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
     target 915
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38444,9 +38282,8 @@ graph [
     source 97
     target 161
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 97
@@ -38466,8 +38303,9 @@ graph [
     source 98
     target 485
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 98
@@ -38487,8 +38325,9 @@ graph [
     source 98
     target 407
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 98
@@ -38508,9 +38347,8 @@ graph [
     source 98
     target 344
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 98
@@ -38579,8 +38417,9 @@ graph [
     source 98
     target 160
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 98
@@ -38593,9 +38432,8 @@ graph [
     source 99
     target 484
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 99
@@ -38643,9 +38481,8 @@ graph [
     source 99
     target 192
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 99
@@ -38693,8 +38530,9 @@ graph [
     source 100
     target 489
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 100
@@ -38721,15 +38559,17 @@ graph [
     source 100
     target 515
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 100
     target 470
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 100
@@ -38757,8 +38597,9 @@ graph [
     source 100
     target 172
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 100
@@ -38771,9 +38612,8 @@ graph [
     source 100
     target 352
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 100
@@ -38821,9 +38661,8 @@ graph [
     source 100
     target 872
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 100
@@ -38836,23 +38675,24 @@ graph [
     source 100
     target 126
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 100
+    target 249
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 100
-    target 249
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 100
     target 629
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 101
@@ -38865,9 +38705,8 @@ graph [
     source 101
     target 121
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 101
@@ -38915,9 +38754,8 @@ graph [
     source 101
     target 602
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 101
@@ -38993,8 +38831,9 @@ graph [
     source 102
     target 348
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 102
@@ -39014,8 +38853,9 @@ graph [
     source 102
     target 826
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 102
@@ -39042,15 +38882,17 @@ graph [
     source 102
     target 292
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 102
     target 865
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 102
@@ -39070,8 +38912,9 @@ graph [
     source 102
     target 370
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 102
@@ -39084,8 +38927,9 @@ graph [
     source 102
     target 464
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 102
@@ -39112,9 +38956,8 @@ graph [
     source 103
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 103
@@ -39134,9 +38977,8 @@ graph [
     source 103
     target 311
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 103
@@ -39191,15 +39033,17 @@ graph [
     source 104
     target 164
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 104
     target 512
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 104
@@ -39282,17 +39126,15 @@ graph [
     source 104
     target 333
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 104
     target 477
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 104
@@ -39312,9 +39154,8 @@ graph [
     source 105
     target 225
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 105
@@ -39335,9 +39176,8 @@ graph [
     source 105
     target 405
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 105
@@ -39358,8 +39198,9 @@ graph [
     source 105
     target 196
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 105
@@ -39393,9 +39234,8 @@ graph [
     source 105
     target 221
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 105
@@ -39408,23 +39248,24 @@ graph [
     source 105
     target 122
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 105
     target 370
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 105
     target 537
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 105
@@ -39444,9 +39285,8 @@ graph [
     source 105
     target 318
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 105
@@ -39459,8 +39299,9 @@ graph [
     source 105
     target 348
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 106
@@ -39557,9 +39398,8 @@ graph [
     source 107
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 107
@@ -39572,16 +39412,16 @@ graph [
     source 107
     target 296
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 107
     target 138
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 107
@@ -39601,8 +39441,9 @@ graph [
     source 107
     target 641
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 107
@@ -39622,9 +39463,8 @@ graph [
     source 107
     target 306
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 107
@@ -39637,8 +39477,9 @@ graph [
     source 107
     target 386
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 107
@@ -39679,8 +39520,9 @@ graph [
     source 108
     target 147
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 108
@@ -39700,9 +39542,8 @@ graph [
     source 108
     target 197
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 108
@@ -39750,9 +39591,8 @@ graph [
     source 108
     target 117
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 108
@@ -39779,23 +39619,24 @@ graph [
     source 108
     target 214
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 109
+    target 204
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 109
-    target 204
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 109
     target 266
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 109
@@ -39815,23 +39656,24 @@ graph [
     source 109
     target 646
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 109
     target 165
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 109
     target 154
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 109
@@ -39865,9 +39707,8 @@ graph [
     source 109
     target 286
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 109
@@ -39894,8 +39735,9 @@ graph [
     source 109
     target 219
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 109
@@ -39929,9 +39771,8 @@ graph [
     source 109
     target 943
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 110
@@ -40000,8 +39841,9 @@ graph [
     source 110
     target 462
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 110
@@ -40028,8 +39870,9 @@ graph [
     source 110
     target 152
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 110
@@ -40063,29 +39906,33 @@ graph [
     source 111
     target 207
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 176
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 208
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 323
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
@@ -40098,29 +39945,33 @@ graph [
     source 111
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 511
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 365
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 1090
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 111
@@ -40133,8 +39984,9 @@ graph [
     source 111
     target 326
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
@@ -40154,22 +40006,25 @@ graph [
     source 111
     target 261
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 674
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 111
@@ -40197,16 +40052,16 @@ graph [
     source 112
     target 448
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 112
     target 120
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 112
@@ -40248,9 +40103,8 @@ graph [
     source 112
     target 520
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 112
@@ -40270,9 +40124,8 @@ graph [
     source 112
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 112
@@ -40299,9 +40152,8 @@ graph [
     source 113
     target 228
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 113
@@ -40328,9 +40180,8 @@ graph [
     source 113
     target 211
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 114
@@ -40483,17 +40334,15 @@ graph [
     source 114
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 114
     target 194
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 114
@@ -40590,9 +40439,8 @@ graph [
     source 115
     target 529
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 115
@@ -40668,15 +40516,17 @@ graph [
     source 116
     target 204
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
     target 485
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
@@ -40689,8 +40539,9 @@ graph [
     source 116
     target 422
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 116
@@ -40703,15 +40554,17 @@ graph [
     source 116
     target 321
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
     target 132
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
@@ -40738,8 +40591,9 @@ graph [
     source 116
     target 694
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
@@ -40759,15 +40613,17 @@ graph [
     source 116
     target 219
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
     target 212
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 116
@@ -40780,23 +40636,24 @@ graph [
     source 117
     target 583
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 117
     target 216
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 117
     target 340
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 117
@@ -40830,8 +40687,9 @@ graph [
     source 117
     target 251
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 117
@@ -40865,15 +40723,17 @@ graph [
     source 117
     target 382
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 117
     target 956
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 117
@@ -40886,9 +40746,8 @@ graph [
     source 117
     target 395
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 118
@@ -40915,8 +40774,9 @@ graph [
     source 118
     target 590
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 118
@@ -41055,9 +40915,8 @@ graph [
     source 119
     target 430
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 119
@@ -41112,9 +40971,8 @@ graph [
     source 120
     target 138
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 120
@@ -41127,9 +40985,8 @@ graph [
     source 120
     target 589
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 120
@@ -41150,32 +41007,30 @@ graph [
     source 120
     target 470
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 120
+    target 203
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
-    source 120
-    target 203
+    source 121
+    target 254
     bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 121
-    target 254
-    bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 121
     target 283
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 121
@@ -41188,9 +41043,8 @@ graph [
     source 121
     target 135
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 121
@@ -41211,9 +41065,8 @@ graph [
     source 121
     target 602
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 121
@@ -41240,8 +41093,9 @@ graph [
     source 122
     target 205
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 122
@@ -41261,8 +41115,9 @@ graph [
     source 122
     target 1120
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 122
@@ -41310,16 +41165,16 @@ graph [
     source 122
     target 409
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 122
     target 156
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 122
@@ -41339,9 +41194,8 @@ graph [
     source 122
     target 202
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 123
@@ -41375,39 +41229,38 @@ graph [
     source 123
     target 725
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 123
     target 1060
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 123
     target 169
     bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 123
-    target 191
-    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 123
-    target 286
+    target 191
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 123
+    target 286
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 123
@@ -41455,9 +41308,8 @@ graph [
     source 123
     target 255
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 123
@@ -41471,9 +41323,8 @@ graph [
     source 124
     target 206
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 124
@@ -41556,8 +41407,9 @@ graph [
     source 124
     target 468
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 124
@@ -41577,8 +41429,9 @@ graph [
     source 125
     target 140
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 125
@@ -41598,8 +41451,9 @@ graph [
     source 125
     target 143
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 125
@@ -41612,9 +41466,8 @@ graph [
     source 125
     target 811
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 125
@@ -41732,9 +41585,8 @@ graph [
     source 126
     target 477
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 126
@@ -41810,9 +41662,8 @@ graph [
     source 127
     target 307
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 127
@@ -41853,9 +41704,8 @@ graph [
     source 127
     target 135
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 127
@@ -41868,9 +41718,8 @@ graph [
     source 127
     target 469
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 127
@@ -41946,9 +41795,8 @@ graph [
     source 128
     target 239
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 128
@@ -41982,9 +41830,8 @@ graph [
     source 128
     target 566
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 128
@@ -42011,8 +41858,9 @@ graph [
     source 129
     target 424
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 129
@@ -42172,9 +42020,8 @@ graph [
     source 130
     target 155
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 130
@@ -42208,9 +42055,8 @@ graph [
     source 130
     target 183
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 130
@@ -42223,17 +42069,15 @@ graph [
     source 130
     target 187
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 130
     target 332
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 131
@@ -42281,8 +42125,9 @@ graph [
     source 131
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 131
@@ -42295,16 +42140,16 @@ graph [
     source 131
     target 133
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 131
     target 147
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 131
@@ -42317,8 +42162,9 @@ graph [
     source 131
     target 870
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 131
@@ -42345,8 +42191,9 @@ graph [
     source 132
     target 158
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 132
@@ -42429,9 +42276,8 @@ graph [
     source 133
     target 149
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 133
@@ -42465,16 +42311,16 @@ graph [
     source 133
     target 780
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 133
     target 175
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 133
@@ -42522,9 +42368,8 @@ graph [
     source 133
     target 167
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 133
@@ -42544,8 +42389,9 @@ graph [
     source 133
     target 349
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 134
@@ -42579,39 +42425,38 @@ graph [
     source 134
     target 219
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 134
     target 282
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 134
     target 176
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 134
+    target 165
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 134
-    target 165
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 134
     target 154
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 134
@@ -42624,16 +42469,16 @@ graph [
     source 134
     target 719
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 134
     target 324
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 134
@@ -42660,9 +42505,8 @@ graph [
     source 135
     target 150
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 135
@@ -42675,17 +42519,15 @@ graph [
     source 135
     target 194
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 135
     target 201
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 135
@@ -42712,9 +42554,8 @@ graph [
     source 136
     target 187
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 136
@@ -42727,9 +42568,8 @@ graph [
     source 136
     target 332
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 136
@@ -42749,9 +42589,8 @@ graph [
     source 136
     target 185
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 136
@@ -42764,8 +42603,9 @@ graph [
     source 136
     target 759
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 136
@@ -42792,9 +42632,8 @@ graph [
     source 136
     target 144
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 137
@@ -42807,9 +42646,8 @@ graph [
     source 137
     target 184
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 137
@@ -42823,8 +42661,9 @@ graph [
     source 137
     target 355
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 137
@@ -42886,17 +42725,15 @@ graph [
     source 138
     target 448
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 138
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 138
@@ -42924,16 +42761,16 @@ graph [
     source 138
     target 449
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 138
     target 710
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 139
@@ -43121,8 +42958,9 @@ graph [
     source 140
     target 178
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 140
@@ -43149,23 +42987,24 @@ graph [
     source 141
     target 229
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 141
+    target 216
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 141
-    target 216
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 141
     target 157
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 141
@@ -43178,9 +43017,8 @@ graph [
     source 141
     target 257
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 141
@@ -43207,9 +43045,8 @@ graph [
     source 141
     target 335
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 141
@@ -43271,8 +43108,9 @@ graph [
     source 142
     target 191
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 142
@@ -43292,16 +43130,16 @@ graph [
     source 142
     target 694
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 142
     target 532
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 142
@@ -43335,8 +43173,9 @@ graph [
     source 143
     target 367
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 143
@@ -43356,8 +43195,9 @@ graph [
     source 143
     target 262
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 143
@@ -43370,9 +43210,8 @@ graph [
     source 143
     target 467
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 143
@@ -43385,8 +43224,9 @@ graph [
     source 143
     target 304
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 143
@@ -43428,33 +43268,29 @@ graph [
     source 143
     target 223
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
     target 536
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
     target 501
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
     target 359
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
@@ -43474,9 +43310,8 @@ graph [
     source 144
     target 240
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
@@ -43503,9 +43338,8 @@ graph [
     source 144
     target 822
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
@@ -43539,17 +43373,15 @@ graph [
     source 144
     target 372
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
     target 788
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
@@ -43562,9 +43394,8 @@ graph [
     source 144
     target 185
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 144
@@ -43640,9 +43471,8 @@ graph [
     source 145
     target 390
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 145
@@ -43662,8 +43492,9 @@ graph [
     source 146
     target 267
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
@@ -43683,8 +43514,9 @@ graph [
     source 146
     target 347
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
@@ -43704,15 +43536,17 @@ graph [
     source 146
     target 735
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 146
     target 295
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
@@ -43739,8 +43573,9 @@ graph [
     source 146
     target 414
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
@@ -43760,15 +43595,17 @@ graph [
     source 146
     target 156
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
     target 224
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 146
@@ -43781,15 +43618,17 @@ graph [
     source 146
     target 681
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 147
     target 237
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 147
@@ -43823,9 +43662,8 @@ graph [
     source 147
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 147
@@ -43902,9 +43740,8 @@ graph [
     source 148
     target 623
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 148
@@ -43924,9 +43761,8 @@ graph [
     source 148
     target 272
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 148
@@ -44002,17 +43838,15 @@ graph [
     source 149
     target 552
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 149
     target 230
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 149
@@ -44025,9 +43859,8 @@ graph [
     source 149
     target 621
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 149
@@ -44047,9 +43880,8 @@ graph [
     source 149
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 149
@@ -44062,9 +43894,8 @@ graph [
     source 149
     target 175
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 149
@@ -44105,8 +43936,9 @@ graph [
     source 150
     target 304
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 150
@@ -44182,15 +44014,17 @@ graph [
     source 151
     target 512
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 151
     target 303
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 151
@@ -44217,24 +44051,23 @@ graph [
     source 151
     target 202
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 152
     target 637
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 152
     target 488
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 152
@@ -44261,9 +44094,8 @@ graph [
     source 152
     target 466
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 152
@@ -44290,8 +44122,9 @@ graph [
     source 152
     target 156
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 152
@@ -44304,8 +44137,9 @@ graph [
     source 152
     target 289
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 152
@@ -44339,8 +44173,9 @@ graph [
     source 153
     target 304
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 153
@@ -44367,25 +44202,22 @@ graph [
     source 154
     target 298
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 154
     target 313
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 154
     target 204
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 154
@@ -44412,16 +44244,16 @@ graph [
     source 154
     target 720
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 154
     target 219
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 154
@@ -44455,25 +44287,22 @@ graph [
     source 154
     target 400
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 155
     target 187
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 155
     target 222
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 155
@@ -44486,17 +44315,15 @@ graph [
     source 155
     target 1272
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 155
     target 343
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 155
@@ -44516,17 +44343,15 @@ graph [
     source 155
     target 387
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 155
     target 1271
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 155
@@ -44546,8 +44371,9 @@ graph [
     source 156
     target 487
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 156
@@ -44560,8 +44386,9 @@ graph [
     source 156
     target 1087
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 156
@@ -44588,16 +44415,16 @@ graph [
     source 156
     target 196
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 156
     target 292
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 156
@@ -44610,22 +44437,25 @@ graph [
     source 156
     target 246
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 156
     target 202
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 156
     target 836
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 157
@@ -44638,15 +44468,17 @@ graph [
     source 157
     target 316
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 157
     target 193
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 157
@@ -44659,8 +44491,9 @@ graph [
     source 157
     target 179
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 157
@@ -44673,30 +44506,32 @@ graph [
     source 158
     target 342
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 158
     target 217
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 158
     target 164
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 158
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 158
@@ -44716,16 +44551,16 @@ graph [
     source 158
     target 608
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 158
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 158
@@ -44738,17 +44573,15 @@ graph [
     source 159
     target 586
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 159
     target 271
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 159
@@ -44845,8 +44678,9 @@ graph [
     source 160
     target 694
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 160
@@ -44901,8 +44735,9 @@ graph [
     source 160
     target 503
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 160
@@ -44929,16 +44764,16 @@ graph [
     source 161
     target 501
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 161
     target 359
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 161
@@ -44979,8 +44814,9 @@ graph [
     source 161
     target 759
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 161
@@ -45014,8 +44850,9 @@ graph [
     source 161
     target 240
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 161
@@ -45049,8 +44886,9 @@ graph [
     source 161
     target 285
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 162
@@ -45077,16 +44915,16 @@ graph [
     source 162
     target 1034
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 162
     target 1050
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 162
@@ -45114,8 +44952,9 @@ graph [
     source 162
     target 281
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 162
@@ -45149,16 +44988,16 @@ graph [
     source 162
     target 259
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 163
     target 382
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 163
@@ -45171,8 +45010,9 @@ graph [
     source 163
     target 610
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 163
@@ -45199,9 +45039,8 @@ graph [
     source 163
     target 224
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 163
@@ -45256,15 +45095,17 @@ graph [
     source 164
     target 831
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 164
     target 382
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 164
@@ -45284,9 +45125,8 @@ graph [
     source 164
     target 300
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 164
@@ -45306,22 +45146,25 @@ graph [
     source 165
     target 298
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 165
     target 266
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 165
     target 356
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 165
@@ -45362,8 +45205,9 @@ graph [
     source 165
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 165
@@ -45425,8 +45269,9 @@ graph [
     source 166
     target 240
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 166
@@ -45439,8 +45284,9 @@ graph [
     source 166
     target 364
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 166
@@ -45488,8 +45334,9 @@ graph [
     source 166
     target 331
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 166
@@ -45538,8 +45385,9 @@ graph [
     source 167
     target 224
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 167
@@ -45643,8 +45491,9 @@ graph [
     source 168
     target 281
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 168
@@ -45664,8 +45513,9 @@ graph [
     source 168
     target 752
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 168
@@ -45678,22 +45528,25 @@ graph [
     source 168
     target 326
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 168
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 168
     target 722
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 168
@@ -45706,15 +45559,17 @@ graph [
     source 168
     target 511
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 168
     target 220
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 169
@@ -45741,22 +45596,25 @@ graph [
     source 169
     target 1060
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 169
     target 599
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 169
     target 503
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 169
@@ -45776,9 +45634,8 @@ graph [
     source 169
     target 286
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 169
@@ -45805,17 +45662,15 @@ graph [
     source 170
     target 690
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 170
     target 693
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 170
@@ -45828,9 +45683,8 @@ graph [
     source 170
     target 181
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 170
@@ -45843,23 +45697,24 @@ graph [
     source 170
     target 669
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 170
     target 615
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 170
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 170
@@ -45907,16 +45762,16 @@ graph [
     source 170
     target 188
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 171
     target 582
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 171
@@ -45943,15 +45798,17 @@ graph [
     source 171
     target 174
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 171
     target 232
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 171
@@ -45959,7 +45816,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
   ]
   edge [
     source 171
@@ -45987,9 +45844,8 @@ graph [
     source 171
     target 1275
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 171
@@ -46030,16 +45886,16 @@ graph [
     source 172
     target 475
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 172
     target 404
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 172
@@ -46052,9 +45908,8 @@ graph [
     source 172
     target 693
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 172
@@ -46137,8 +45992,9 @@ graph [
     source 174
     target 265
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 174
@@ -46172,23 +46028,24 @@ graph [
     source 174
     target 703
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 174
     target 658
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 174
     target 492
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 174
@@ -46201,16 +46058,16 @@ graph [
     source 174
     target 217
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 174
     target 683
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 174
@@ -46238,9 +46095,8 @@ graph [
     source 175
     target 701
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 175
@@ -46267,9 +46123,8 @@ graph [
     source 175
     target 278
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 175
@@ -46331,8 +46186,9 @@ graph [
     source 176
     target 784
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 176
@@ -46380,9 +46236,8 @@ graph [
     source 177
     target 281
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 177
@@ -46395,16 +46250,16 @@ graph [
     source 177
     target 752
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 177
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 177
@@ -46438,15 +46293,17 @@ graph [
     source 177
     target 511
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 177
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 177
@@ -46466,15 +46323,17 @@ graph [
     source 178
     target 337
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 178
     target 207
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 178
@@ -46557,8 +46416,9 @@ graph [
     source 178
     target 323
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 178
@@ -46585,8 +46445,9 @@ graph [
     source 179
     target 227
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 179
@@ -46594,7 +46455,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   edge [
     source 179
@@ -46649,16 +46510,16 @@ graph [
     source 180
     target 540
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 180
     target 250
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 180
@@ -46678,9 +46539,8 @@ graph [
     source 180
     target 197
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 180
@@ -46693,9 +46553,8 @@ graph [
     source 180
     target 268
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 180
@@ -46729,9 +46588,8 @@ graph [
     source 181
     target 802
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 181
@@ -46765,8 +46623,9 @@ graph [
     source 181
     target 603
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 181
@@ -46800,8 +46659,9 @@ graph [
     source 181
     target 615
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 181
@@ -46835,9 +46695,8 @@ graph [
     source 183
     target 381
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 183
@@ -46906,9 +46765,8 @@ graph [
     source 183
     target 372
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 183
@@ -46942,9 +46800,8 @@ graph [
     source 183
     target 905
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 184
@@ -46985,9 +46842,8 @@ graph [
     source 184
     target 378
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 184
@@ -47084,15 +46940,17 @@ graph [
     source 186
     target 447
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
     target 595
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
@@ -47119,8 +46977,9 @@ graph [
     source 186
     target 844
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
@@ -47133,8 +46992,9 @@ graph [
     source 186
     target 213
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
@@ -47154,15 +47014,17 @@ graph [
     source 186
     target 1091
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
     target 1021
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
@@ -47182,36 +47044,41 @@ graph [
     source 186
     target 986
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
     target 1082
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 186
     target 936
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
     target 432
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 186
     target 838
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 187
@@ -47252,9 +47119,8 @@ graph [
     source 187
     target 328
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 187
@@ -47267,9 +47133,8 @@ graph [
     source 188
     target 544
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 188
@@ -47282,9 +47147,8 @@ graph [
     source 188
     target 575
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 188
@@ -47353,8 +47217,9 @@ graph [
     source 189
     target 1039
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 189
@@ -47402,8 +47267,9 @@ graph [
     source 189
     target 264
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 189
@@ -47458,8 +47324,9 @@ graph [
     source 189
     target 727
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 189
@@ -47577,9 +47444,8 @@ graph [
     source 191
     target 298
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 191
@@ -47627,8 +47493,9 @@ graph [
     source 191
     target 219
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 191
@@ -47656,17 +47523,15 @@ graph [
     source 192
     target 574
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 192
     target 232
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 192
@@ -47693,30 +47558,32 @@ graph [
     source 192
     target 265
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 192
     target 1094
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 192
     target 408
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 192
     target 702
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 192
@@ -47729,8 +47596,9 @@ graph [
     source 192
     target 608
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 192
@@ -47744,16 +47612,16 @@ graph [
     source 192
     target 307
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 192
     target 296
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 193
@@ -47766,15 +47634,17 @@ graph [
     source 193
     target 388
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 193
     target 251
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 193
@@ -47794,8 +47664,9 @@ graph [
     source 193
     target 340
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 193
@@ -47808,24 +47679,23 @@ graph [
     source 193
     target 497
     bridge 0
-    type 2
-    anomalous 0
-    anomalous2 0
-  ]
-  edge [
-    source 193
-    target 592
-    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 193
-    target 974
+    target 592
     bridge 0
     type 2
     anomalous 0
-    anomalous2 0
+    anomalous2 2
+  ]
+  edge [
+    source 193
+    target 974
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 193
@@ -47838,9 +47708,8 @@ graph [
     source 194
     target 536
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 194
@@ -47853,17 +47722,15 @@ graph [
     source 194
     target 231
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 194
     target 386
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 194
@@ -47911,9 +47778,8 @@ graph [
     source 194
     target 309
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 195
@@ -47961,8 +47827,9 @@ graph [
     source 195
     target 594
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 195
@@ -47982,9 +47849,8 @@ graph [
     source 195
     target 636
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 195
@@ -48004,8 +47870,9 @@ graph [
     source 195
     target 348
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 196
@@ -48061,9 +47928,8 @@ graph [
     source 196
     target 636
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 196
@@ -48076,9 +47942,8 @@ graph [
     source 196
     target 289
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 196
@@ -48133,17 +47998,15 @@ graph [
     source 198
     target 230
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 198
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 198
@@ -48184,9 +48047,8 @@ graph [
     source 198
     target 250
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 198
@@ -48199,8 +48061,9 @@ graph [
     source 198
     target 251
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 198
@@ -48220,8 +48083,9 @@ graph [
     source 199
     target 586
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 199
@@ -48248,16 +48112,16 @@ graph [
     source 199
     target 379
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 200
     target 760
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 200
@@ -48284,9 +48148,8 @@ graph [
     source 200
     target 712
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 200
@@ -48299,16 +48162,16 @@ graph [
     source 200
     target 663
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 200
     target 445
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 200
@@ -48356,17 +48219,15 @@ graph [
     source 201
     target 248
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 201
     target 575
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 201
@@ -48379,9 +48240,8 @@ graph [
     source 201
     target 279
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 202
@@ -48408,8 +48268,9 @@ graph [
     source 202
     target 512
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 202
@@ -48457,8 +48318,9 @@ graph [
     source 202
     target 793
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 202
@@ -48471,8 +48333,9 @@ graph [
     source 202
     target 299
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 202
@@ -48520,8 +48383,9 @@ graph [
     source 203
     target 378
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 203
@@ -48576,16 +48440,16 @@ graph [
     source 204
     target 660
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 204
     target 286
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 204
@@ -48598,9 +48462,8 @@ graph [
     source 204
     target 811
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 204
@@ -48676,15 +48539,17 @@ graph [
     source 205
     target 269
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 205
     target 409
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 205
@@ -48711,8 +48576,9 @@ graph [
     source 205
     target 1118
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 205
@@ -48739,9 +48605,8 @@ graph [
     source 207
     target 208
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 207
@@ -48761,8 +48626,9 @@ graph [
     source 207
     target 261
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 208
@@ -48782,8 +48648,9 @@ graph [
     source 208
     target 365
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 208
@@ -48796,16 +48663,16 @@ graph [
     source 208
     target 511
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 208
     target 752
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 208
@@ -48825,8 +48692,9 @@ graph [
     source 208
     target 625
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 208
@@ -48881,9 +48749,8 @@ graph [
     source 209
     target 322
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 209
@@ -48896,9 +48763,8 @@ graph [
     source 209
     target 271
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 209
@@ -48911,8 +48777,9 @@ graph [
     source 210
     target 403
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 210
@@ -48932,8 +48799,9 @@ graph [
     source 210
     target 499
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 210
@@ -48946,8 +48814,9 @@ graph [
     source 210
     target 267
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 210
@@ -48960,8 +48829,9 @@ graph [
     source 210
     target 278
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 210
@@ -48981,8 +48851,9 @@ graph [
     source 210
     target 1087
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 210
@@ -49016,9 +48887,8 @@ graph [
     source 211
     target 481
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 212
@@ -49080,8 +48950,9 @@ graph [
     source 212
     target 532
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 212
@@ -49101,78 +48972,89 @@ graph [
     source 213
     target 447
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 502
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 1183
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 213
     target 799
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 604
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 608
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 1228
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 213
     target 1057
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 213
     target 432
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 926
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 973
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
@@ -49185,29 +49067,33 @@ graph [
     source 213
     target 917
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 925
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 1036
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 213
     target 1024
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 214
@@ -49263,9 +49149,8 @@ graph [
     source 214
     target 236
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 214
@@ -49327,24 +49212,23 @@ graph [
     source 217
     target 265
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 217
     target 545
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 217
     target 492
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 217
@@ -49364,8 +49248,9 @@ graph [
     source 217
     target 232
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 217
@@ -49490,16 +49375,16 @@ graph [
     source 219
     target 298
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 219
     target 282
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 219
@@ -49519,8 +49404,9 @@ graph [
     source 219
     target 725
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 219
@@ -49540,9 +49426,8 @@ graph [
     source 219
     target 827
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 219
@@ -49555,8 +49440,9 @@ graph [
     source 220
     target 1053
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 220
@@ -49576,15 +49462,17 @@ graph [
     source 220
     target 511
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 220
     target 365
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 220
@@ -49620,15 +49508,17 @@ graph [
     source 220
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 220
     target 326
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 220
@@ -49641,8 +49531,9 @@ graph [
     source 220
     target 819
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 220
@@ -49732,9 +49623,8 @@ graph [
     source 222
     target 664
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 222
@@ -49747,9 +49637,8 @@ graph [
     source 222
     target 1018
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 222
@@ -49776,9 +49665,8 @@ graph [
     source 223
     target 228
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 223
@@ -49798,8 +49686,9 @@ graph [
     source 224
     target 534
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 224
@@ -49833,17 +49722,15 @@ graph [
     source 224
     target 241
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 224
     target 681
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 225
@@ -49863,25 +49750,22 @@ graph [
     source 225
     target 252
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 225
     target 269
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 225
     target 537
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 225
@@ -49894,29 +49778,33 @@ graph [
     source 225
     target 499
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 225
     target 385
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 225
     target 318
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 225
     target 289
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 226
@@ -49978,8 +49866,9 @@ graph [
     source 226
     target 369
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 227
@@ -49999,8 +49888,9 @@ graph [
     source 228
     target 467
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 228
@@ -50069,9 +49959,8 @@ graph [
     source 231
     target 328
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 231
@@ -50091,9 +49980,8 @@ graph [
     source 231
     target 320
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 232
@@ -50106,25 +49994,22 @@ graph [
     source 232
     target 574
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 232
     target 408
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 232
     target 804
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 233
@@ -50144,17 +50029,15 @@ graph [
     source 233
     target 564
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 233
     target 300
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 233
@@ -50188,9 +50071,8 @@ graph [
     source 233
     target 246
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 234
@@ -50238,9 +50120,8 @@ graph [
     source 234
     target 609
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 234
@@ -50295,9 +50176,8 @@ graph [
     source 234
     target 297
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 234
@@ -50310,32 +50190,30 @@ graph [
     source 235
     target 663
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 235
     target 670
-    bridge 0
-    type 2
-    anomalous 0
-    anomalous2 2
-  ]
-  edge [
-    source 235
-    target 424
     bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 235
-    target 605
+    target 424
     bridge 0
     type 2
     anomalous 0
     anomalous2 0
+  ]
+  edge [
+    source 235
+    target 605
+    bridge 0
+    type 1
+    anomalous 0
   ]
   edge [
     source 235
@@ -50348,15 +50226,17 @@ graph [
     source 235
     target 300
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 235
     target 1209
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 236
@@ -50468,24 +50348,23 @@ graph [
     source 238
     target 391
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 238
     target 328
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 238
     target 566
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 238
@@ -50519,8 +50398,9 @@ graph [
     source 240
     target 359
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 240
@@ -50554,9 +50434,8 @@ graph [
     source 240
     target 364
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 240
@@ -50569,9 +50448,8 @@ graph [
     source 240
     target 285
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 241
@@ -50584,9 +50462,8 @@ graph [
     source 241
     target 252
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 241
@@ -50613,9 +50490,8 @@ graph [
     source 241
     target 700
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 241
@@ -50706,8 +50582,9 @@ graph [
     source 242
     target 394
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 242
@@ -50748,9 +50625,8 @@ graph [
     source 243
     target 304
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 243
@@ -50784,39 +50660,38 @@ graph [
     source 244
     target 644
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 244
     target 412
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 244
     target 833
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 245
     target 338
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 245
     target 356
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 245
@@ -50865,8 +50740,9 @@ graph [
     source 246
     target 906
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 247
@@ -50956,9 +50832,8 @@ graph [
     source 248
     target 360
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 248
@@ -50971,9 +50846,8 @@ graph [
     source 248
     target 741
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 248
@@ -51119,9 +50993,8 @@ graph [
     source 252
     target 581
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 252
@@ -51148,9 +51021,8 @@ graph [
     source 252
     target 679
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 252
@@ -51170,17 +51042,15 @@ graph [
     source 252
     target 414
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 252
     target 278
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 253
@@ -51228,9 +51098,8 @@ graph [
     source 254
     target 602
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 254
@@ -51243,9 +51112,8 @@ graph [
     source 254
     target 311
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 254
@@ -51265,9 +51133,8 @@ graph [
     source 255
     target 321
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 255
@@ -51280,9 +51147,8 @@ graph [
     source 255
     target 345
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 255
@@ -51302,9 +51168,8 @@ graph [
     source 256
     target 454
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 256
@@ -51331,9 +51196,8 @@ graph [
     source 257
     target 633
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 257
@@ -51368,9 +51232,8 @@ graph [
     source 258
     target 647
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 258
@@ -51467,9 +51330,8 @@ graph [
     source 258
     target 690
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 259
@@ -51482,9 +51344,8 @@ graph [
     source 259
     target 562
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 259
@@ -51497,17 +51358,15 @@ graph [
     source 259
     target 513
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 259
     target 344
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 259
@@ -51520,9 +51379,8 @@ graph [
     source 260
     target 299
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 260
@@ -51549,9 +51407,8 @@ graph [
     source 261
     target 431
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 261
@@ -51571,8 +51428,9 @@ graph [
     source 261
     target 819
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 261
@@ -51599,16 +51457,16 @@ graph [
     source 262
     target 355
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 262
     target 429
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 262
@@ -51705,15 +51563,17 @@ graph [
     source 264
     target 396
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 264
     target 397
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 264
@@ -51747,8 +51607,9 @@ graph [
     source 265
     target 683
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 265
@@ -51790,16 +51651,16 @@ graph [
     source 265
     target 563
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 266
     target 313
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 266
@@ -51826,8 +51687,9 @@ graph [
     source 266
     target 315
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 266
@@ -51861,15 +51723,17 @@ graph [
     source 267
     target 277
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 267
     target 318
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 267
@@ -51910,8 +51774,9 @@ graph [
     source 268
     target 275
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 268
@@ -51931,34 +51796,43 @@ graph [
     source 268
     target 340
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 268
     target 553
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 268
     target 453
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 269
     target 487
     bridge 0
+    type 2
+    anomalous 0
+    anomalous2 0
+  ]
+  edge [
+    source 269
+    target 698
+    bridge 0
     type 1
     anomalous 0
   ]
   edge [
     source 269
-    target 698
+    target 289
     bridge 0
     type 2
     anomalous 0
@@ -51966,17 +51840,11 @@ graph [
   ]
   edge [
     source 269
-    target 289
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 269
     target 789
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 269
@@ -51989,8 +51857,9 @@ graph [
     source 269
     target 906
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 269
@@ -52025,9 +51894,8 @@ graph [
     source 269
     target 611
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 269
@@ -52082,9 +51950,8 @@ graph [
     source 270
     target 384
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 270
@@ -52125,9 +51992,8 @@ graph [
     source 272
     target 623
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 272
@@ -52175,8 +52041,9 @@ graph [
     source 273
     target 412
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 273
@@ -52203,8 +52070,9 @@ graph [
     source 274
     target 623
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 274
@@ -52238,15 +52106,17 @@ graph [
     source 274
     target 534
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 274
     target 423
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 275
@@ -52259,9 +52129,8 @@ graph [
     source 275
     target 556
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 275
@@ -52346,15 +52215,17 @@ graph [
     source 277
     target 278
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 277
     target 610
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 277
@@ -52367,16 +52238,16 @@ graph [
     source 277
     target 930
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 278
     target 423
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 278
@@ -52396,8 +52267,9 @@ graph [
     source 278
     target 382
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 278
@@ -52417,9 +52289,8 @@ graph [
     source 279
     target 375
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 279
@@ -52467,9 +52338,8 @@ graph [
     source 280
     target 453
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 280
@@ -52510,8 +52380,9 @@ graph [
     source 281
     target 625
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 281
@@ -52524,8 +52395,9 @@ graph [
     source 281
     target 324
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 282
@@ -52566,16 +52438,16 @@ graph [
     source 285
     target 359
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 285
     target 320
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 285
@@ -52602,8 +52474,9 @@ graph [
     source 286
     target 407
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 286
@@ -52630,9 +52503,8 @@ graph [
     source 287
     target 337
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 287
@@ -52667,9 +52539,8 @@ graph [
     source 287
     target 532
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 287
@@ -52696,8 +52567,9 @@ graph [
     source 288
     target 709
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 288
@@ -52717,9 +52589,8 @@ graph [
     source 288
     target 291
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 288
@@ -52767,8 +52638,9 @@ graph [
     source 289
     target 348
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 289
@@ -52781,8 +52653,9 @@ graph [
     source 290
     target 357
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 290
@@ -52837,8 +52710,9 @@ graph [
     source 290
     target 601
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 290
@@ -52886,9 +52760,8 @@ graph [
     source 291
     target 617
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 292
@@ -52929,15 +52802,17 @@ graph [
     source 292
     target 348
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 292
     target 711
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 292
@@ -52957,8 +52832,9 @@ graph [
     source 292
     target 878
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 292
@@ -52999,8 +52875,9 @@ graph [
     source 293
     target 435
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 293
@@ -53035,9 +52912,8 @@ graph [
     source 293
     target 333
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 293
@@ -53169,8 +53045,9 @@ graph [
     source 295
     target 377
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 295
@@ -53211,16 +53088,16 @@ graph [
     source 296
     target 658
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 296
     target 980
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 296
@@ -53234,9 +53111,8 @@ graph [
     source 297
     target 536
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 297
@@ -53256,25 +53132,22 @@ graph [
     source 297
     target 332
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 297
     target 744
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 297
     target 372
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 298
@@ -53287,8 +53160,9 @@ graph [
     source 299
     target 462
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 299
@@ -53308,8 +53182,9 @@ graph [
     source 300
     target 548
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 300
@@ -53350,15 +53225,17 @@ graph [
     source 301
     target 884
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 301
     target 427
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 301
@@ -53484,16 +53361,16 @@ graph [
     source 305
     target 387
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 305
     target 332
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 306
@@ -53513,24 +53390,23 @@ graph [
     source 306
     target 953
     bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 306
-    target 470
-    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 306
+    target 470
+    bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 306
     target 829
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 307
@@ -53600,8 +53476,9 @@ graph [
     source 309
     target 557
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 309
@@ -53622,24 +53499,23 @@ graph [
     source 309
     target 801
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 310
     target 399
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 310
     target 741
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 311
@@ -53659,9 +53535,8 @@ graph [
     source 311
     target 350
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 312
@@ -53696,8 +53571,9 @@ graph [
     source 313
     target 532
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 314
@@ -53710,9 +53586,8 @@ graph [
     source 314
     target 439
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 314
@@ -53732,9 +53607,8 @@ graph [
     source 314
     target 354
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 314
@@ -53756,7 +53630,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   edge [
     source 315
@@ -53804,8 +53678,9 @@ graph [
     source 316
     target 627
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 316
@@ -53818,8 +53693,9 @@ graph [
     source 316
     target 586
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 317
@@ -53902,17 +53778,15 @@ graph [
     source 320
     target 788
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 320
     target 609
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 320
@@ -53925,9 +53799,8 @@ graph [
     source 320
     target 325
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 320
@@ -53940,9 +53813,8 @@ graph [
     source 320
     target 612
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 320
@@ -54011,9 +53883,8 @@ graph [
     source 325
     target 607
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 325
@@ -54047,16 +53918,16 @@ graph [
     source 326
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 326
     target 827
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 327
@@ -54090,17 +53961,15 @@ graph [
     source 328
     target 822
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 328
     target 668
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 328
@@ -54198,17 +54067,15 @@ graph [
     source 330
     target 367
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 330
     target 430
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 330
@@ -54263,8 +54130,9 @@ graph [
     source 333
     target 519
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 334
@@ -54326,9 +54194,8 @@ graph [
     source 337
     target 442
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 337
@@ -54355,8 +54222,9 @@ graph [
     source 338
     target 911
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 338
@@ -54425,24 +54293,23 @@ graph [
     source 340
     target 874
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 340
     target 429
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 341
     target 545
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 341
@@ -54462,9 +54329,8 @@ graph [
     source 341
     target 491
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 341
@@ -54526,8 +54392,9 @@ graph [
     source 342
     target 754
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 342
@@ -54554,9 +54421,8 @@ graph [
     source 343
     target 381
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 343
@@ -54611,31 +54477,31 @@ graph [
     source 344
     target 360
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 344
     target 724
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 344
     target 479
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 345
     target 694
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 345
@@ -54662,8 +54528,9 @@ graph [
     source 346
     target 707
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 346
@@ -54718,15 +54585,17 @@ graph [
     source 347
     target 858
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 347
     target 770
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 347
@@ -54746,8 +54615,9 @@ graph [
     source 348
     target 409
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 349
@@ -54809,25 +54679,22 @@ graph [
     source 353
     target 430
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 353
     target 788
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 354
     target 535
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 354
@@ -54847,17 +54714,15 @@ graph [
     source 354
     target 439
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 354
     target 786
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 355
@@ -54870,8 +54735,9 @@ graph [
     source 355
     target 526
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 355
@@ -54905,8 +54771,9 @@ graph [
     source 357
     target 362
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 357
@@ -54919,8 +54786,9 @@ graph [
     source 357
     target 603
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 357
@@ -54961,16 +54829,16 @@ graph [
     source 359
     target 667
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 359
     target 364
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 360
@@ -54983,8 +54851,9 @@ graph [
     source 360
     target 518
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 360
@@ -54997,9 +54866,8 @@ graph [
     source 360
     target 433
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 360
@@ -55019,8 +54887,9 @@ graph [
     source 362
     target 739
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 363
@@ -55089,9 +54958,8 @@ graph [
     source 367
     target 558
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 367
@@ -55153,15 +55021,17 @@ graph [
     source 369
     target 425
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 370
     target 414
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 370
@@ -55174,15 +55044,17 @@ graph [
     source 371
     target 636
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 371
     target 861
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 371
@@ -55202,17 +55074,15 @@ graph [
     source 372
     target 536
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 372
     target 501
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 373
@@ -55260,9 +55130,8 @@ graph [
     source 375
     target 558
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 375
@@ -55352,9 +55221,8 @@ graph [
     source 381
     target 966
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 381
@@ -55374,24 +55242,23 @@ graph [
     source 381
     target 835
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 381
     target 387
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 382
     target 868
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 382
@@ -55432,9 +55299,8 @@ graph [
     source 383
     target 647
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 383
@@ -55475,9 +55341,8 @@ graph [
     source 383
     target 490
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 383
@@ -55511,9 +55376,8 @@ graph [
     source 384
     target 386
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 384
@@ -55554,8 +55418,9 @@ graph [
     source 387
     target 417
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 388
@@ -55589,8 +55454,9 @@ graph [
     source 394
     target 707
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 394
@@ -55638,8 +55504,9 @@ graph [
     source 396
     target 436
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 396
@@ -55722,8 +55589,9 @@ graph [
     source 403
     target 635
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 404
@@ -55757,17 +55625,15 @@ graph [
     source 406
     target 408
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 406
     target 589
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 406
@@ -55780,9 +55646,8 @@ graph [
     source 406
     target 794
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 407
@@ -55802,9 +55667,8 @@ graph [
     source 408
     target 702
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 410
@@ -55852,17 +55716,15 @@ graph [
     source 412
     target 644
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 412
     target 414
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 413
@@ -55973,8 +55835,9 @@ graph [
     source 416
     target 465
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 417
@@ -55994,24 +55857,23 @@ graph [
     source 417
     target 420
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 418
     target 873
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 418
     target 669
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 418
@@ -56045,9 +55907,8 @@ graph [
     source 419
     target 544
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 419
@@ -56060,9 +55921,8 @@ graph [
     source 419
     target 469
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 419
@@ -56075,9 +55935,8 @@ graph [
     source 420
     target 443
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 420
@@ -56097,9 +55956,8 @@ graph [
     source 420
     target 835
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 422
@@ -56175,15 +56033,17 @@ graph [
     source 427
     target 594
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 427
     target 889
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 428
@@ -56217,17 +56077,15 @@ graph [
     source 431
     target 567
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 431
     target 599
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 432
@@ -56247,8 +56105,9 @@ graph [
     source 432
     target 917
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 432
@@ -56261,22 +56120,25 @@ graph [
     source 432
     target 925
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 432
     target 1036
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 432
     target 1011
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 432
@@ -56339,9 +56201,8 @@ graph [
     source 435
     target 1165
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 435
@@ -56375,8 +56236,9 @@ graph [
     source 436
     target 994
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 436
@@ -56431,8 +56293,9 @@ graph [
     source 439
     target 540
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 439
@@ -56473,16 +56336,16 @@ graph [
     source 443
     target 998
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 443
     target 1105
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 443
@@ -56495,32 +56358,30 @@ graph [
     source 443
     target 822
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 443
     target 1142
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 443
     target 903
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 443
     target 958
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 443
@@ -56533,8 +56394,9 @@ graph [
     source 444
     target 527
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 446
@@ -56610,8 +56472,9 @@ graph [
     source 447
     target 973
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 447
@@ -56624,29 +56487,33 @@ graph [
     source 447
     target 1024
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 447
     target 838
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 447
     target 1011
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 447
     target 1187
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 448
@@ -56701,15 +56568,17 @@ graph [
     source 455
     target 584
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 455
     target 801
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 456
@@ -56869,8 +56738,9 @@ graph [
     source 464
     target 1033
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 464
@@ -56911,9 +56781,8 @@ graph [
     source 466
     target 751
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 467
@@ -56989,9 +56858,8 @@ graph [
     source 473
     target 613
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 474
@@ -57011,9 +56879,8 @@ graph [
     source 475
     target 544
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 475
@@ -57061,17 +56928,15 @@ graph [
     source 479
     target 721
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 481
     target 677
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 482
@@ -57084,17 +56949,15 @@ graph [
     source 483
     target 1107
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 483
     target 501
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 483
@@ -57114,9 +56977,8 @@ graph [
     source 483
     target 567
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 484
@@ -57124,7 +56986,7 @@ graph [
     bridge 0
     type 2
     anomalous 0
-    anomalous2 2
+    anomalous2 0
   ]
   edge [
     source 484
@@ -57193,15 +57055,17 @@ graph [
     source 487
     target 1217
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 487
     target 496
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 488
@@ -57214,22 +57078,25 @@ graph [
     source 488
     target 498
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 490
     target 994
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 490
     target 727
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 490
@@ -57263,9 +57130,8 @@ graph [
     source 491
     target 1146
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 491
@@ -57369,8 +57235,9 @@ graph [
     source 496
     target 836
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 497
@@ -57383,8 +57250,9 @@ graph [
     source 498
     target 637
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 498
@@ -57404,8 +57272,9 @@ graph [
     source 499
     target 857
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 500
@@ -57425,8 +57294,9 @@ graph [
     source 500
     target 709
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 500
@@ -57446,29 +57316,33 @@ graph [
     source 502
     target 757
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 502
     target 926
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 502
     target 1208
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 502
     target 629
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 502
@@ -57551,8 +57425,9 @@ graph [
     source 512
     target 601
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 513
@@ -57566,9 +57441,8 @@ graph [
     source 513
     target 1050
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 514
@@ -57602,8 +57476,9 @@ graph [
     source 516
     target 674
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 517
@@ -57623,8 +57498,9 @@ graph [
     source 517
     target 938
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 517
@@ -57791,8 +57667,9 @@ graph [
     source 541
     target 635
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 541
@@ -57819,9 +57696,8 @@ graph [
     source 544
     target 873
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 545
@@ -57855,9 +57731,8 @@ graph [
     source 549
     target 1181
     bridge 1
-    type 2
+    type 1
     anomalous 1
-    anomalous2 1
   ]
   edge [
     source 550
@@ -57891,23 +57766,24 @@ graph [
     source 552
     target 621
     bridge 0
+    type 1
+    anomalous 0
+  ]
+  edge [
+    source 553
+    target 583
+    bridge 0
     type 2
     anomalous 0
     anomalous2 0
   ]
   edge [
     source 553
-    target 583
-    bridge 0
-    type 1
-    anomalous 0
-  ]
-  edge [
-    source 553
     target 956
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 554
@@ -57948,9 +57824,8 @@ graph [
     source 556
     target 785
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 557
@@ -58034,8 +57909,9 @@ graph [
     source 564
     target 1033
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 565
@@ -58055,8 +57931,9 @@ graph [
     source 566
     target 859
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 567
@@ -58090,17 +57967,15 @@ graph [
     source 571
     target 649
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 571
     target 620
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 571
@@ -58120,8 +57995,9 @@ graph [
     source 572
     target 646
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 573
@@ -58218,8 +58094,9 @@ graph [
     source 582
     target 658
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 584
@@ -58232,8 +58109,9 @@ graph [
     source 584
     target 627
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 587
@@ -58288,15 +58166,17 @@ graph [
     source 595
     target 1091
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 595
     target 1021
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 595
@@ -58309,8 +58189,9 @@ graph [
     source 595
     target 604
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 595
@@ -58358,8 +58239,9 @@ graph [
     source 597
     target 906
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 597
@@ -58393,9 +58275,8 @@ graph [
     source 602
     target 700
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 603
@@ -58415,37 +58296,40 @@ graph [
     source 604
     target 1188
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 604
     target 986
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 604
     target 844
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 605
     target 789
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 607
     target 744
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 612
@@ -58598,15 +58482,17 @@ graph [
     source 642
     target 844
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 642
     target 780
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 642
@@ -58633,8 +58519,9 @@ graph [
     source 646
     target 665
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 647
@@ -58703,9 +58590,8 @@ graph [
     source 670
     target 922
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 670
@@ -58746,8 +58632,9 @@ graph [
     source 679
     target 868
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 679
@@ -58879,16 +58766,16 @@ graph [
     source 705
     target 914
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 708
     target 757
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 708
@@ -58901,15 +58788,17 @@ graph [
     source 708
     target 1191
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 708
     target 841
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 710
@@ -58922,8 +58811,9 @@ graph [
     source 710
     target 1049
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 713
@@ -58978,22 +58868,25 @@ graph [
     source 718
     target 1012
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 718
     target 886
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 718
     target 841
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 720
@@ -59006,9 +58899,8 @@ graph [
     source 720
     target 931
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 729
@@ -59091,8 +58983,9 @@ graph [
     source 739
     target 845
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 742
@@ -59161,8 +59054,9 @@ graph [
     source 780
     target 916
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 2
   ]
   edge [
     source 782
@@ -59210,8 +59104,9 @@ graph [
     source 797
     target 1094
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 799
@@ -59224,16 +59119,16 @@ graph [
     source 799
     target 925
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 802
     target 873
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 802
@@ -59344,9 +59239,8 @@ graph [
     source 837
     target 852
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 2
   ]
   edge [
     source 841
@@ -59359,8 +59253,9 @@ graph [
     source 844
     target 936
     bridge 0
-    type 1
+    type 2
     anomalous 0
+    anomalous2 0
   ]
   edge [
     source 849
@@ -59513,9 +59408,8 @@ graph [
     source 931
     target 943
     bridge 0
-    type 2
+    type 1
     anomalous 0
-    anomalous2 0
   ]
   edge [
     source 935
@@ -59612,8 +59506,9 @@ graph [
     source 1055
     target 1152
     bridge 1
-    type 1
+    type 2
     anomalous 1
+    anomalous2 1
   ]
   edge [
     source 1062
