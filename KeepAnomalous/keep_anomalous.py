@@ -12,8 +12,11 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour):
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
     for node in sort_node_degree:
-        print(node[0])
-        G.node[node[0]]['global'] = 1
+        if G.node[node[0]]['global'] == 0:
+            G.node[node[0]]['global'] = 1
+        else:
+            G.node[node[0]]['global'] = 2
+
 
     # return(G)
 
@@ -51,7 +54,10 @@ def Extract_Star(G, threshold):
     print(star)
     print(star_num)
     for n in star:
-        G.node[n]['star'] = 1
+        if G.node[n]['star'] == 0:
+            G.node[n]['star'] = 1
+        else:
+            G.node[n]['star'] = 2
     # return(G)
 
 
@@ -78,6 +84,8 @@ def loadData(path1, path2, isDirect):
     for n, data in G.nodes(data=True):
         G.node[n]['global'] = 0
         G.node[n]['star'] = 0
+        G.node[n]['isolates'] = 0
+        G.node[n]['artipoint'] = 0
         G.node[n]['type1'] = type1[k]
         k += 1
 
@@ -104,7 +112,10 @@ def loadData(path1, path2, isDirect):
 def find_Bridge(G):
     bridges = nx.bridges(G)
     for i in bridges:
-        G[i[0]][i[1]]['bridge'] = 1
+        if G[i[0]][i[1]]['bridge'] == 0:
+            G[i[0]][i[1]]['bridge'] = 1
+        else:
+            G[i[0]][i[1]]['bridge'] = 2
 
 
 def Save_Graph(G):
@@ -117,10 +128,53 @@ def test_Sampling(G):
     for n, data in G.nodes(data=True):
         if data['type1'] == 2:
             G1.add_node(n)
+            for i, j in data.items():
+                G1.node[n][i] = j
 
-    for n, data in G1.nodes(data='global'):
+    for (u, v, d) in G.edges(data=True):
+        if d['type'] == 2:
+            G1.add_edge(u, v)
+            for i, j in d.items():
+                G1[u][v][i] = j
+
+    find_Bridge(G1)
+
+    heigh_neighbour = 0.05
+    Extract_Global_High_Neighbor(G1, heigh_neighbour)
+
+    threshold = 5
+    Extract_Star(G1, threshold)
+
+    Articulation_Points(G1)
+
+    Isolates(G1)
+
+    for n, data in G.nodes(data=True):
         print(n, data)
 
+    for (u, v, d) in G.edges(data=True):
+        print(u, v, d)
+
+    # save graph
+    path = 'res_Data/relationship_sample.gml'
+    nx.write_gml(G1, path)
+
+
+def Articulation_Points(G):
+    l = list(nx.articulation_points(G))
+    for node in l:
+        if G.node[node]['artipoint'] == 0:
+            G.node[node]['artipoint'] = 1
+        else:
+            G.node[node]['artipoint'] = 2
+
+def Isolates(G):
+    l = nx.isolates(G)
+    for node in l:
+        if G.node[node]['isolates'] == 0:
+            G.node[node]['isolates'] = 1
+        else:
+            G.node[node]['isolates'] = 2
 
 def Data_Test():
 
@@ -137,6 +191,10 @@ def Data_Test():
 
     threshold = 5
     Extract_Star(G, threshold)
+
+    Articulation_Points(G)
+
+    Isolates(G)
 
     # print('---------test---------')
     # for n, data in G.nodes(data='type1'):
