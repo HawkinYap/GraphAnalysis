@@ -9,7 +9,7 @@ class SRW_RWF_ISRW():
         self.T = 100 # number of iterations
         self.fly_back_prob = 0.15
 
-    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample, isDirect):
+    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample, isDirect, seed):
         # giving unique id to every node same as built-in function id
         for n, data in complete_graph.nodes(data=True):
             complete_graph.node[n]['id'] = n
@@ -17,7 +17,8 @@ class SRW_RWF_ISRW():
 
         nr_nodes = len(complete_graph.nodes())
         upper_bound_nr_nodes_to_sample = nodes_to_sample
-        index_of_first_random_node = random.randint(0, nr_nodes-1)
+        # index_of_first_random_node = random.randint(0, nr_nodes-1)
+        index_of_first_random_node = seed
 
         if not isDirect:
             sampled_graph = nx.Graph()
@@ -44,7 +45,7 @@ class SRW_RWF_ISRW():
                 edges_before_t_iter = sampled_graph.number_of_edges()
         return sampled_graph
 
-    def random_walk_sampling_with_fly_back(self, complete_graph, nodes_to_sample, fly_back_prob):
+    def random_walk_sampling_with_fly_back(self, complete_graph, nodes_to_sample, fly_back_prob, seed):
         # giving unique id to every node same as built-in function id
         for n, data in complete_graph.nodes(data=True):
             complete_graph.node[n]['id'] = n
@@ -52,7 +53,7 @@ class SRW_RWF_ISRW():
         nr_nodes = len(complete_graph.nodes())
         upper_bound_nr_nodes_to_sample = nodes_to_sample
 
-        index_of_first_random_node = random.randint(0, nr_nodes-1)
+        index_of_first_random_node = seed
         sampled_graph = nx.Graph()
 
         sampled_graph.add_node(complete_graph.node[index_of_first_random_node]['id'])
@@ -76,17 +77,16 @@ class SRW_RWF_ISRW():
                     curr_node = random.randint(0, nr_nodes-1)
                     print("Choosing another random node to continue random walk ")
                 edges_before_t_iter = sampled_graph.number_of_edges()
-
         return sampled_graph
 
-    def random_walk_induced_graph_sampling(self, complete_graph, nodes_to_sample):
+    def random_walk_induced_graph_sampling(self, complete_graph, nodes_to_sample, seed):
         # giving unique id to every node same as built-in function id
         for n, data in complete_graph.nodes(data=True):
             complete_graph.node[n]['id'] = n
 
         nr_nodes = len(complete_graph.nodes())
         upper_bound_nr_nodes_to_sample = nodes_to_sample
-        index_of_first_random_node = random.randint(0, nr_nodes - 1)
+        index_of_first_random_node = seed
 
         Sampled_nodes = set([complete_graph.node[index_of_first_random_node]['id']])
 
@@ -107,6 +107,5 @@ class SRW_RWF_ISRW():
                 nodes_before_t_iter = len(Sampled_nodes)
 
         sampled_graph = complete_graph.subgraph(Sampled_nodes)
-
         return sampled_graph
 

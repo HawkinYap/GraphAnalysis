@@ -38,15 +38,16 @@ class Snowball():
     def __init__(self):
         self.G1 = nx.Graph()
 
-    def snowball(self, G, size, k):
+    def snowball(self, G, size, k, seed):
         q = Queue()
         list_nodes = list(G.nodes())
-        m = k
+        m = k - 1
         dictt = set()
         while (m):
             id = random.sample(list_nodes, 1)[0]
             q.enqueue(id)
             m = m - 1
+        q.enqueue(seed)
         x = q.printQueue()
         while len(self.G1.nodes()) < size:
             if q.size() > 0:

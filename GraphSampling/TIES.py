@@ -14,10 +14,11 @@ class TIES():
         V = G.nodes()
         # Calculate number of nodes in Graph G
         Vs = []
-
         while (len(Vs)) < size:
             # Loops run till sample size * length of V where V is number of nodes in graph as calculated above.
+
             edges_sample = random.sample(G.edges(), 1)
+            print(edges_sample)
             # Randomly samples one edge from a graph at a time
             for a1, a2 in edges_sample:
                 # Nodes corresponding to sample edge are retrieved and added in Graph G1

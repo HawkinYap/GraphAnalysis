@@ -9,10 +9,10 @@ class ForestFire():
     def __init__(self):
         self.G1 = nx.Graph()
 
-    def forestfire(self, G, size):
+    def forestfire(self, G, size, seed):
         list_nodes = list(G.nodes())
         dictt = set()
-        random_node = random.sample(set(list_nodes), 1)[0]
+        random_node = seed
         q = set() # q = set contains the distinct values
         q.add(random_node)
         while(len(self.G1.nodes())<size):

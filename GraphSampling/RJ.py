@@ -7,7 +7,7 @@ class RJ():
         self.growth_size = 2
         self.T = 100  # number of iterations
 
-    def rj(self, complete_graph, nodes_to_sample, isDirect):
+    def rj(self, complete_graph, nodes_to_sample, isDirect, seed):
 
         # list_nodes = list(complete_graph.nodes())
         # nr_nodes = len(complete_graph.nodes())
@@ -42,7 +42,7 @@ class RJ():
         nr_nodes = len(complete_graph.nodes())
         upper_bound_nr_nodes_to_sample = nodes_to_sample
 
-        index_of_first_random_node = random.randint(0, nr_nodes - 1)
+        index_of_first_random_node = seed
 
         if not isDirect:
             sampled_graph = nx.Graph()
@@ -78,5 +78,4 @@ class RJ():
                     curr_node = random.randint(0, nr_nodes - 1)
                     print("Choosing another random node to continue random walk ")
                 edges_before_t_iter = sampled_graph.number_of_edges()
-
         return sampled_graph

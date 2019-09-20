@@ -5,14 +5,14 @@ class MHRW():
     def __init__(self):
         self.G1 = nx.Graph()
 
-    def mhrw(self, G, size, isDirect):
+    def mhrw(self, G, size, isDirect, seed):
         if isDirect:
             self.G1.to_directed()
         dictt = {}
         node_list = set()
         list_node = list(G.nodes())
-        node = random.sample(list_node, 1)
-        node_list.add(node[0])
+        node = seed
+        node_list.add(node)
         parent_node = node_list.pop()
         dictt[parent_node] = parent_node
         degree_p = G.degree(parent_node)
@@ -46,7 +46,7 @@ class MHRW():
         return self.G1
 
 
-    def induced_mhrw(self, G, size, isDirect):
-        sampled_graph = self.mhrw(G, size, isDirect)
+    def induced_mhrw(self, G, size, isDirect, seed):
+        sampled_graph = self.mhrw(G, size, isDirect, seed)
         induced_graph = G.subgraph(sampled_graph.nodes())
         return induced_graph

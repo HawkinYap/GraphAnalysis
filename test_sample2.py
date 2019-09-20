@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import csv
 import pandas as pd
 import collections
+import random
 
 
 # load graph to networkx
@@ -40,7 +41,7 @@ def loadData(path1, path2, isDirect):
 
 
 # graph sampling
-def graphSampling(G, isDirect):
+def graphSampling(G, isDirect, seed):
 
     # set sampling rate
     total = len(G.nodes())
@@ -48,43 +49,39 @@ def graphSampling(G, isDirect):
     sample_rate = int(total * rate)
 
     # RN_object = GraphSampling.RandomNode()
-    # RN_sample = RN_object.randomnode(G, sample_rate)  # graph, number of nodes to sample
+    # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(RN_sample)
 
-    # RE_object = GraphSampling.RandomEdge()
-    # RE_sample = RE_object.randomedge(G, sample_rate)  # graph, number of nodes to sample
-    # return(RE_sample)
-
     # REN_object = GraphSampling.REN()
-    # REN_sample = REN_object.ren(G, sample_rate, isDirect)  # graph, number of nodes to sample
+    # REN_sample = REN_object.ren(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
     # return(REN_sample)
 
     # SB_object = GraphSampling.Snowball()
-    # SB_sample = SB_object.snowball(G, sample_rate, 4)  # graph, number of nodes to sample
+    # SB_sample = SB_object.snowball(G, sample_rate, 4, seed)  # graph, number of nodes to sample
     # return(SB_sample) # When graph is a directed graph, we take neighbor as the output degree of the node
 
     # FF_object = GraphSampling.ForestFire()
-    # FF_sample = FF_object.forestfire(G, sample_rate)  # graph, number of nodes to sample
+    # FF_sample = FF_object.forestfire(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(FF_sample)
 
     # RW_object = GraphSampling.SRW_RWF_ISRW()
-    # RW_sample = RW_object.random_walk_sampling_simple(G, sample_rate, isDirect)  # graph, number of nodes to sample
+    # RW_sample = RW_object.random_walk_sampling_simple(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
     # return(RW_sample)
 
     # RWF_object = GraphSampling.SRW_RWF_ISRW()
-    # RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15)  # graph, number of nodes to sample
+    # RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15, seed)  # graph, number of nodes to sample
     # return(RWF_sample)
 
     # ISRW_object = GraphSampling.SRW_RWF_ISRW()
-    # ISRW_sample = ISRW_object.random_walk_induced_graph_sampling(G, sample_rate)  # graph, number of nodes to sample
+    # ISRW_sample = ISRW_object.random_walk_induced_graph_sampling(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(ISRW_sample)
 
     # MHRW_object = GraphSampling.MHRW()
-    # MHRW_sample = MHRW_object.mhrw(G, sample_rate, isDirect)  # graph, number of n
+    # MHRW_sample = MHRW_object.mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(MHRW_sample)
 
     # ISMHRW_object = GraphSampling.MHRW()
-    # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect)  # graph, number of n
+    # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(ISMHRW_sample)
 
     # TIES_object = GraphSampling.TIES()
@@ -92,7 +89,7 @@ def graphSampling(G, isDirect):
     # return(TIES_sample)
 
     RJ_object = GraphSampling.RJ()
-    RJ_sample = RJ_object.rj(G, sample_rate, isDirect)  # graph, number of n
+    RJ_sample = RJ_object.rj(G, sample_rate, isDirect, seed)  # graph, number of n
     return(RJ_sample)
 
 
@@ -217,11 +214,17 @@ def dataTest():
     path2 = "GraphSampling/Data/eurosis_edge.csv"
     isDirect = False
     G = loadData(path1, path2, isDirect)
-    sample = graphSampling(G, isDirect)
-    drawGraph(G, sample)
-    print(len(G), len(sample))
-    # getInfo(G, sample)
-    saveGraph(G, sample)
+
+    random_seed = []
+    seed_choice = list(G.nodes())
+    random_seed.append(random.sample(seed_choice, 1))
+    random_seed = random_seed[0]
+
+    sample = graphSampling(G, isDirect, random_seed[0])
+    # drawGraph(G, sample)
+    # print(len(G), len(sample))
+    # # getInfo(G, sample)
+    # saveGraph(G, sample)
     # saveSampling(sample)
 
 

@@ -5,11 +5,11 @@ from random import choice
 class REN():
     def __init__(self):
         self.G1 = nx.Graph()
-    def ren(self, G, size, isDirect):
+    def ren(self, G, size, isDirect, seed):
 
         list_nodes = list(G.nodes())
-        select_nodes = random.sample(list_nodes, 1)
-        self.G1.add_node(select_nodes[0])
+        select_nodes = seed
+        self.G1.add_node(select_nodes)
         list_g1_node = list(self.G1.nodes())
         if not isDirect:
             while len(self.G1) < size:
@@ -34,5 +34,4 @@ class REN():
                     choose = random.sample(in_tmp, 1)
                     self.G1.add_edge(choose[0], last_node)
                     list_g1_node.append(choose[0])
-
             return self.G1
