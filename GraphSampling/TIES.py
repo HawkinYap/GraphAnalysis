@@ -18,7 +18,6 @@ class TIES():
             # Loops run till sample size * length of V where V is number of nodes in graph as calculated above.
 
             edges_sample = random.sample(G.edges(), 1)
-            print(edges_sample)
             # Randomly samples one edge from a graph at a time
             for a1, a2 in edges_sample:
                 # Nodes corresponding to sample edge are retrieved and added in Graph G1
@@ -36,5 +35,4 @@ class TIES():
             #Check for every node's neighbour in sample set of nodes
                 self.G1.add_edge(x, y)
                 #Add edge between the sampled nodes
-        print(self.G1.number_of_nodes())
         return self.G1

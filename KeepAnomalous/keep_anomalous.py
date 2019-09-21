@@ -139,8 +139,8 @@ def find_Bridge(G, s=0):
         print("bridge new (edge) : %d" % new_edge)
 
 
-def Save_Graph(G):
-    path = 'res_Data/eurosis_orig.gml'
+def Save_Graph(G, sample_type, filename, iter):
+    path = 'res_Data_test/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
     nx.write_gml(G, path)
 
 
@@ -167,7 +167,7 @@ def test_Sampling(G):
     print('nodes number : %d' % G1.number_of_nodes())
     print('edges number : %d' % G1.number_of_edges())
     print("average degree: %s" % threshold)
-    print("average clustering: %d" % nx.average_clustering(G1))
+    print("average clustering: %s" % nx.average_clustering(G1))
     print("density: %s" % nx.density(G1))
     print('---------------------')
 
@@ -288,15 +288,29 @@ def add_Anomalous_types(G, s=0, _G=None):
                 G[u][v]['anomalous'] = 0
 
 
+def get_Info(G):
+    degree_total = 0
+    for x in G.nodes():
+        degree_total = degree_total + G.degree(x)
+    threshold = degree_total / len(G)
 
-def Data_Test():
+    print('---------original---------')
+    print('nodes number : %d' % G.number_of_nodes())
+    print('edges number : %d' % G.number_of_edges())
+    print("average degree: %s" % threshold)
+    print("average clustering: %s" % nx.average_clustering(G))
+    print("density: %s" % nx.density(G))
+
+
+def Data_Test(sample_type, filename, iter):
 
     # Test file type
-    path1 = "../KeepAnomalous/ExperimentData/RJ_EUROSIS_node.csv"
-    path2 = "../KeepAnomalous/ExperimentData/RJ_EUROSIS_edge.csv"
+    path1 = "../KeepAnomalous/ExperimentData_test/{}_{}{}_node.csv".format(sample_type, filename, iter)
+    path2 = "../KeepAnomalous/ExperimentData_test/{}_{}{}_edge.csv".format(sample_type, filename, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
+    # get_Info(G)
 
     degree_total = 0
     for x in G.nodes():
@@ -307,7 +321,7 @@ def Data_Test():
     print('nodes number : %d' % G.number_of_nodes())
     print('edges number : %d' % G.number_of_edges())
     print("average degree: %s" % threshold)
-    print("average clustering: %d" % nx.average_clustering(G))
+    print("average clustering: %s" % nx.average_clustering(G))
     print("density: %s" % nx.density(G))
     print('---------------------')
     find_Bridge(G)
@@ -329,8 +343,12 @@ def Data_Test():
     print('---------sampling---------')
     test_Sampling(G)
 
-    Save_Graph(G)
+    Save_Graph(G, sample_type, filename, iter)
 
 
 if __name__ == '__main__':
-    Data_Test()
+    sample_type = 'RJ'
+    filename = 'class'
+    iter = 3
+    for i in range(iter):
+        Data_Test(sample_type, filename, i+1)

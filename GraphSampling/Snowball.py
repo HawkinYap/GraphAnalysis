@@ -61,7 +61,7 @@ class Snowball():
                             q.enqueue(x)
                             self.G1.add_edge(id, x)
                     elif len(list_neighbors) > k and (self.G1.number_of_nodes() + k > size):
-                        tmpk = size - (self.G1.number_of_nodes() + k)
+                        tmpk = size - self.G1.number_of_nodes()
                         for x in list_neighbors[:tmpk]:
                             q.enqueue(x)
                             self.G1.add_edge(id, x)
@@ -70,14 +70,16 @@ class Snowball():
                             q.enqueue(x)
                             self.G1.add_edge(id, x)
                     elif (len(list_neighbors) <= k and len(list_neighbors) > 0) and (self.G1.number_of_nodes() + k > size):
-                        tmpk = size - (self.G1.number_of_nodes() + k)
+                        tmpk = abs(size - self.G1.number_of_nodes())
                         for x in list_neighbors[:tmpk]:
                             q.enqueue(x)
                             self.G1.add_edge(id, x)
-                elif id not in dictt and self.G1.number_of_nodes() >= size:
-                    break
-                else:
+                    else:
+                        continue
+                elif id in dictt:
                     continue
+                else:
+                    break
             else:
                 initial_nodes = random.sample(list(G.nodes()) and list(dictt), k)
                 no_of_nodes = len(initial_nodes)

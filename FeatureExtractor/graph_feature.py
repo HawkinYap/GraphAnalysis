@@ -3,7 +3,7 @@ import csv
 
 
 path1 = "../Datasets/class_1881/class_node.csv"
-path2 = "../Datasets/class_1881/edges_output.csv"
+path2 = "../Datasets/class_1881/class_edge.csv"
 
 isDirect = False
 # add nodes

@@ -509,7 +509,7 @@ def Save_Graph(G):
 def Data_Test():
 
     # Test file type
-    path = "../Datasets/Email-Enron.csv"
+    path = "../Datasets/relationship.csv"
     # path = "../Datasets/test_graph_data.edges"
     # path = "../Datasets/test_local_degree.csv"
     # path = "../Datasets/football.gml"
