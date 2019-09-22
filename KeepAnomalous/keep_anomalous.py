@@ -23,7 +23,9 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour, s=0):
     print("heigh_hubs : %d" % len(sort_node_degree))
     if s == 1:
         print("heigh_hubs new : %d" % new_node)
-
+        return(len(sort_node_degree), new_node)
+    else:
+        return (len(sort_node_degree))
     # return(G)
 
 # Extract the star structure in the graph
@@ -70,6 +72,9 @@ def Extract_Star(G, threshold, s=0):
     print("heigh_star : %d" % len(star))
     if s == 1:
         print("heigh_star new : %d" % new_node)
+        return(len(star), new_node)
+    else:
+        return(len(star))
     # return(G)
 
 
@@ -123,7 +128,7 @@ def loadData(path1, path2, isDirect):
 
 def find_Bridge(G, s=0):
     bridges = nx.bridges(G)
-    new_edge = 0
+    old_edge = 0
 
     count = 0
     for i in bridges:
@@ -131,12 +136,15 @@ def find_Bridge(G, s=0):
         if G[i[0]][i[1]]['bridge'] == 0:
             G[i[0]][i[1]]['bridge'] = 1
         else:
-            new_edge += 1
+            old_edge += 1
             G[i[0]][i[1]]['bridge'] = 2
 
     print("bridge(edge) : %d" % count)
     if s == 1:
-        print("bridge new (edge) : %d" % new_edge)
+        print("bridge new (edge) : %d" % (count - old_edge))
+        return(count, old_edge)
+    else:
+        return(count)
 
 
 def Save_Graph(G, sample_type, filename, iter):
@@ -144,7 +152,7 @@ def Save_Graph(G, sample_type, filename, iter):
     nx.write_gml(G, path)
 
 
-def test_Sampling(G):
+def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
     G1 = nx.Graph()
     for n, data in G.nodes(data=True):
         if data['type1'] == 2:
@@ -157,7 +165,6 @@ def test_Sampling(G):
             G1.add_edge(u, v)
             for i, j in d.items():
                 G1[u][v][i] = j
-
     degree_total = 0
     for x in G1.nodes():
         degree_total = degree_total + G1.degree(x)
@@ -171,17 +178,86 @@ def test_Sampling(G):
     print("density: %s" % nx.density(G1))
     print('---------------------')
 
-    find_Bridge(G1, s=1)
+    sample_anomalous_node = {}
+    sample_anomalous_node_old = {}
+
+    sample_anomalous_edge = {}
+    sample_anomalous_edge_old = {}
+
+
+    tmp, t = find_Bridge(G1, s=1)
+    sample_anomalous_edge['bridge'] = tmp
+    sample_anomalous_edge_old['bridge'] = t
 
     heigh_neighbour = 0.05
-    Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
+    tmp, t = Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
+    sample_anomalous_node['hub'] = tmp
+    sample_anomalous_node_old['hub'] = t
 
 
-    Extract_Star(G1, threshold, s=1)
+    tmp, t = Extract_Star(G1, threshold, s=1)
+    sample_anomalous_node['star'] = tmp
+    sample_anomalous_node_old['star'] = t
 
-    Articulation_Points(G1, s=1)
 
-    Isolates(G1, s=1)
+    tmp, t = Articulation_Points(G1, s=1)
+    sample_anomalous_node['arti'] = tmp
+    sample_anomalous_node_old['arti'] = t
+
+    tmp, t = Isolates(G1, s=1)
+    sample_anomalous_node['iso'] = tmp
+    sample_anomalous_node_old['iso'] = t
+
+    print(sample_anomalous_node_old)
+
+    sum_node = 0
+    for i in sample_anomalous_node:
+        sum_node = sum_node + sample_anomalous_node[i]
+
+    sum_node_new = 0
+    for i in sample_anomalous_node_old:
+        sum_node_new = sum_node_new + sample_anomalous_node_old[i]
+
+    sum_edge = 0
+    for i in sample_anomalous_edge:
+        sum_edge = sum_edge + sample_anomalous_edge[i]
+
+    sum_edge_old = 0
+    for i in sample_anomalous_edge_old:
+        sum_edge_old = sum_edge_old + sample_anomalous_edge_old[i]
+
+    sum_node_orig = 0
+    for i in orig_anomalous_node:
+        sum_node_orig = sum_node_orig + orig_anomalous_node[i]
+
+    sum_edge_orig = 0
+    for i in orig_anomalous_edge:
+        sum_edge_orig = sum_edge_orig + orig_anomalous_edge[i]
+
+    print('--------anomalous--------')
+    print('orig:------------')
+    print("anomalous node sum : %d" % sum_node_orig)
+    print("anomalous node rate: %f" % (sum_node_orig / len(list(G.nodes()))))
+    print('-----------------')
+    print("anomalous edge sum : %d" % sum_edge_orig)
+    print("anomalous edge rate: %f" % (sum_edge_orig / len(list(G.edges()))))
+
+    print('sample:----------')
+    print("sample anomalous node sum (orig) : %d" % (sum_node - sum_node_new))
+    print("sample anomalous node rate (orig): %f" % ((sum_node - sum_node_new) / len(list(G1.nodes()))))
+    print("sample anomalous node sum (new) : %d" % sum_node_new)
+    print("sample anomalous node rate (new): %f" % (sum_node_new / len(list(G1.nodes()))))
+    print("sample anomalous node sum (total) : %d" % sum_node)
+    print("sample anomalous node rate (total): %f" % (sum_node / len(list(G1.nodes()))))
+    print("-----------------")
+    print("sample anomalous edge sum (orig) : %d" % sum_edge_old)
+    print("sample anomalous edge rate (orig): %f" % (sum_edge_old / len(list(G1.edges()))))
+    print("sample anomalous edge sum (new) : %d" % (sum_edge - sum_edge_old))
+    print("sample anomalous edge rate (new): %f" % ((sum_edge - sum_edge_old) / len(list(G1.edges()))))
+    print("sample anomalous edge sum (total) : %d" % sum_edge)
+    print("sample anomalous edge rate (total): %f" % (sum_edge / len(list(G1.edges()))))
+
+
     add_Anomalous_types(G1, s=1, _G=G)
 
     # for n, data in G1.nodes(data=True):
@@ -191,8 +267,8 @@ def test_Sampling(G):
     #     print(u, v, d)
 
     # save graph
-    path = 'res_Data/eurosis_sample.gml'
-    nx.write_gml(G1, path)
+    # path = 'res_Data/eurosis_sample.gml'
+    # nx.write_gml(G1, path)
 
 
 def Articulation_Points(G, s=0):
@@ -208,6 +284,10 @@ def Articulation_Points(G, s=0):
     print("articulation (nodes) : %d" % len(l))
     if s == 1:
         print("articulation new (nodes) : %d" % new_node)
+        return(len(l), new_node)
+    else:
+        return(len(l))
+
 
 def Isolates(G, s=0):
     l = list(nx.isolates(G))
@@ -222,6 +302,9 @@ def Isolates(G, s=0):
     print("isolates: %d" % len(l))
     if s == 1:
         print("isolates new : %d" % new_node)
+        return(len(l), new_node)
+    else:
+        return(len(l))
 
 def add_Anomalous_types(G, s=0, _G=None):
 
@@ -324,30 +407,53 @@ def Data_Test(sample_type, filename, iter):
     print("average clustering: %s" % nx.average_clustering(G))
     print("density: %s" % nx.density(G))
     print('---------------------')
-    find_Bridge(G)
+
+    orig_anomalous_node = {}
+    orig_anomalous_edge = {}
+
+    tmp = find_Bridge(G)
+    orig_anomalous_edge['bridge'] = tmp
 
     heigh_neighbour = 0.05
-    Extract_Global_High_Neighbor(G, heigh_neighbour)
+    tmp = Extract_Global_High_Neighbor(G, heigh_neighbour)
+    orig_anomalous_node['hub'] = tmp
 
 
 
-    Extract_Star(G, threshold)
+    tmp = Extract_Star(G, threshold)
+    orig_anomalous_node['star'] = tmp
 
-    Articulation_Points(G)
+    tmp = Articulation_Points(G)
+    orig_anomalous_node['arti'] = tmp
 
-    Isolates(G)
+    tmp = Isolates(G)
+    orig_anomalous_node['iso'] = tmp
+
+
+    # sum_node = 0
+    # for i in orig_anomalous_node:
+    #     sum_node = sum_node + orig_anomalous_node[i]
+    #
+    # sum_edge = 0
+    # for i in orig_anomalous_edge:
+    #     sum_edge = sum_edge + orig_anomalous_edge[i]
+    #
+    # print("anomalous node sum : %d" % sum_node)
+    # print("anomalous edge sum : %d" % sum_edge)
+    # print("anomalous node rate: %f" % (sum_node / len(list(G.nodes()))))
+    # print("anomalous edge rate: %f" % (sum_edge / len(list(G.edges()))))
 
     add_Anomalous_types(G)
 
 
     print('---------sampling---------')
-    test_Sampling(G)
+    test_Sampling(G, orig_anomalous_edge, orig_anomalous_node)
 
-    Save_Graph(G, sample_type, filename, iter)
+    # Save_Graph(G, sample_type, filename, iter)
 
 
 if __name__ == '__main__':
-    sample_type = 'RJ'
+    sample_type = 'RN'
     filename = 'class'
     iter = 3
     for i in range(iter):
