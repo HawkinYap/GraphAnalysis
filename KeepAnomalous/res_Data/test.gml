@@ -101,7 +101,7 @@ graph [
   node [
     id 9
     label "22"
-    global 1
+    global 0
     star 1
     isolates 0
     arti 1
@@ -192,10 +192,10 @@ graph [
     global 0
     star 0
     isolates 0
-    arti 1
+    arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 18
