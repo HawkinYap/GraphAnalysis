@@ -139,7 +139,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 13
@@ -278,7 +278,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 26
@@ -385,7 +385,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 36
@@ -459,7 +459,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 43
@@ -523,7 +523,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 49
@@ -566,7 +566,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 53
@@ -577,7 +577,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 54
@@ -588,7 +588,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 55
@@ -610,7 +610,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 57
@@ -621,7 +621,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 58
@@ -642,7 +642,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 60
@@ -761,7 +761,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 71
@@ -825,7 +825,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 77
@@ -836,7 +836,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 78
@@ -888,7 +888,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 83
@@ -920,7 +920,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 86
@@ -942,7 +942,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 88
@@ -1004,7 +1004,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 94
@@ -1076,7 +1076,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 101
@@ -1128,7 +1128,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 106
@@ -1274,7 +1274,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 120
@@ -1378,7 +1378,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 130
@@ -1389,7 +1389,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 131
@@ -1422,7 +1422,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 134
@@ -1556,7 +1556,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 147
@@ -1834,7 +1834,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 174
@@ -1907,7 +1907,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 181
@@ -1928,7 +1928,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 183
@@ -2072,7 +2072,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 197
@@ -2187,7 +2187,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 208
@@ -2593,7 +2593,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 247
@@ -2707,7 +2707,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 258
@@ -4014,7 +4014,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 385
@@ -4056,7 +4056,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 389
@@ -4097,7 +4097,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 393
@@ -4509,7 +4509,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 433
@@ -5187,7 +5187,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 499
@@ -5250,7 +5250,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 505
@@ -5314,7 +5314,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 511
@@ -5325,7 +5325,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 512
@@ -5522,7 +5522,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 531
@@ -5695,7 +5695,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 548
@@ -5892,7 +5892,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 567
@@ -5903,7 +5903,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 568
@@ -6093,7 +6093,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 586
@@ -6857,7 +6857,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 661
@@ -7763,7 +7763,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 750
@@ -8295,7 +8295,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 802
@@ -8676,7 +8676,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 839
@@ -8778,7 +8778,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 849
@@ -8910,7 +8910,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 862
@@ -8973,7 +8973,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 868
@@ -9767,7 +9767,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 946
@@ -11036,7 +11036,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1070
@@ -11294,7 +11294,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1095
@@ -12215,7 +12215,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1185
@@ -16409,7 +16409,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1596
@@ -17009,7 +17009,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1654
@@ -17042,7 +17042,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1657
@@ -17207,7 +17207,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1673
@@ -17240,7 +17240,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1676
@@ -17272,7 +17272,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1679
@@ -17346,7 +17346,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1686
@@ -17479,7 +17479,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1699
@@ -17573,7 +17573,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1708
@@ -18559,7 +18559,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1804
@@ -18682,7 +18682,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1816
@@ -18930,7 +18930,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1840
@@ -19270,7 +19270,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1873
@@ -19362,7 +19362,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1882
@@ -19881,7 +19881,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1933
@@ -19984,7 +19984,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1943
@@ -20016,7 +20016,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1946
@@ -20243,7 +20243,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1968
@@ -20452,7 +20452,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 1988
@@ -21342,7 +21342,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2075
@@ -22018,7 +22018,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2141
@@ -24275,7 +24275,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2363
@@ -24297,7 +24297,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2365
@@ -25149,7 +25149,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2449
@@ -25180,7 +25180,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2452
@@ -25331,7 +25331,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2467
@@ -28297,7 +28297,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2759
@@ -28835,7 +28835,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2812
@@ -29488,7 +29488,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2876
@@ -29715,7 +29715,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2898
@@ -29961,7 +29961,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2922
@@ -30033,7 +30033,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 2929
@@ -31391,7 +31391,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3062
@@ -31554,7 +31554,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3078
@@ -31813,7 +31813,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3103
@@ -31968,7 +31968,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3118
@@ -32094,7 +32094,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3130
@@ -33835,7 +33835,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3300
@@ -34848,7 +34848,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3400
@@ -35399,7 +35399,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3454
@@ -35964,7 +35964,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3509
@@ -36817,7 +36817,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3593
@@ -36890,7 +36890,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3600
@@ -37978,7 +37978,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3707
@@ -39143,7 +39143,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3822
@@ -39195,7 +39195,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3827
@@ -40358,7 +40358,7 @@ graph [
     arti 0
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3942
@@ -40823,7 +40823,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 3988
@@ -41951,7 +41951,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 4099
@@ -44369,7 +44369,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 4336
@@ -44583,7 +44583,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 4357
@@ -47270,7 +47270,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 4621
@@ -51183,7 +51183,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5008
@@ -51519,7 +51519,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5041
@@ -51943,7 +51943,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5083
@@ -52623,7 +52623,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5150
@@ -54339,7 +54339,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5318
@@ -54602,7 +54602,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5344
@@ -54698,7 +54698,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5353
@@ -55780,7 +55780,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5460
@@ -58920,7 +58920,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5771
@@ -59950,7 +59950,7 @@ graph [
     arti 1
     type1 2
     anomalous 1
-    anomalous2 1
+    anomalous2 3
   ]
   node [
     id 5873

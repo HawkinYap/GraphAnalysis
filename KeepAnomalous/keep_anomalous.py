@@ -450,8 +450,8 @@ def get_Info(G):
 def Data_Test(sample_type, filename, iter):
 
     # Test file type
-    path1 = "../KeepAnomalous/ExperimentData_test/{}_{}{}_node.csv".format(sample_type, filename, iter)
-    path2 = "../KeepAnomalous/ExperimentData_test/{}_{}{}_edge.csv".format(sample_type, filename, iter)
+    path1 = "../KeepAnomalous/ExperimentData_test/facebook1684/{}_{}{}_node.csv".format(sample_type, filename, iter)
+    path2 = "../KeepAnomalous/ExperimentData_test/facebook1684/{}_{}{}_edge.csv".format(sample_type, filename, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
@@ -515,8 +515,8 @@ def Data_Test(sample_type, filename, iter):
 
 
 if __name__ == '__main__':
-    sample_type = 'RN'
-    filename = 'class'
-    iter = 1
+    sample_type = 'RJ'
+    filename = 'facebook1684'
+    iter = 3
     for i in range(iter):
         Data_Test(sample_type, filename, i+1)
