@@ -168,7 +168,7 @@ def find_Bridge(G, s=0):
 
 
 def Save_Graph(G, sample_type, filename, iter):
-    path = 'res_Data_test/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
+    path = 'res_Data_test2/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
     nx.write_gml(G, path)
 
 
@@ -263,7 +263,6 @@ def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
             per[keys[i]] = (s_all[i] - s_new[i]) / ori[i]
         else:
             per[keys[i]] = -1
-
     keys_edge = list(orig_anomalous_edge.keys())
     ori_e = list(orig_anomalous_edge.values())
     s_old_e = list(sample_anomalous_edge_old.values())
@@ -275,37 +274,100 @@ def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
         else:
             per_e[keys_edge[i]] = -1
 
+
+    per_new = {}
+    per_new_old = {}
+    new_keys = list(sample_anomalous_node_old.keys())
+    for i in range(len(s_new)):
+        per_new[new_keys[i]] = s_new[i] / len(G)
+        if (s_all[i] - s_new[i]) != 0:
+            per_new_old[new_keys[i]] = s_new[i] / (s_all[i] - s_new[i])
+        else:
+            per_new_old[new_keys[i]] = -1
+
+
+    per_new_e = {}
+    per_new_old_e = {}
+    for i in range(len(ori_e)):
+        per_new_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / len(list(G.edges()))
+        if s_old_e[i] != 0:
+            per_new_old_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / s_old_e[i]
+        else:
+            per_new_old_e[keys_edge[i]] = -1
+
     print('--------keep--------')
     for u, v in per.items():
-        a = 'the {} is hold: {}'.format(u, v)
-        print(a)
+        if v != -1:
+            a = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
+            print(a)
+        else:
+            a = '(sensitive) the {} is hold: {}'.format(u, '-')
+            print(a)
     print('-----------------')
     for u, v in per_e.items():
-        b = 'the {} is hold: {}'.format(u, v)
-        print(b)
+        if v != -1:
+            b = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
+            print(b)
+        else:
+            b = '(sensitive) the {} is hold: {}'.format(u, '-')
+            print(b)
 
-    print('--------anomalous--------')
-    print('orig:------------')
-    print("anomalous node sum : %d" % sum_node_orig)
-    print("anomalous node rate: %f" % (sum_node_orig / len(list(G.nodes()))))
+    print('--------new--------')
+    for u, v in per_new.items():
+        if v != -1:
+            a = 'the new {} is born: {:.2%}'.format(u, v)
+            print(a)
+        else:
+            a = 'the new {} is born: {}'.format(u, '-')
+            print(a)
+    print('--------------------')
+    for u, v in per_new_old.items():
+        if v != -1:
+            a = 'the {} new / old rate is : {:.2%}'.format(u, v)
+            print(a)
+        else:
+            a = 'the {} new / old rate is :{}'.format(u, '-')
+            print(a)
     print('-----------------')
-    print("anomalous edge sum : %d" % sum_edge_orig)
-    print("anomalous edge rate: %f" % (sum_edge_orig / len(list(G.edges()))))
+    for u, v in per_new_e.items():
+        if v != -1:
+            b = 'the new {} is born: {:.2%}'.format(u, v)
+            print(b)
+        else:
+            b = 'the new {} is born: {}'.format(u, '-')
+            print(b)
+    print('--------------------')
+    for u, v in per_new_old_e.items():
+        if v != -1:
+            b = 'the {} new / old rate is: {:.2%}'.format(u, v)
+            print(b)
+        else:
+            b = 'the {} new / old rate is: {}'.format(u, '-')
+            print(b)
 
-    print('sample:----------')
-    print("sample anomalous node sum (orig) : %d" % (sum_node - sum_node_new))
-    print("sample anomalous node rate (orig): %f" % ((sum_node - sum_node_new) / len(list(G1.nodes()))))
-    print("sample anomalous node sum (new) : %d" % sum_node_new)
-    print("sample anomalous node rate (new): %f" % (sum_node_new / len(list(G1.nodes()))))
-    print("sample anomalous node sum (total) : %d" % sum_node)
-    print("sample anomalous node rate (total): %f" % (sum_node / len(list(G1.nodes()))))
-    print("-----------------")
-    print("sample anomalous edge sum (orig) : %d" % sum_edge_old)
-    print("sample anomalous edge rate (orig): %f" % (sum_edge_old / len(list(G1.edges()))))
-    print("sample anomalous edge sum (new) : %d" % (sum_edge - sum_edge_old))
-    print("sample anomalous edge rate (new): %f" % ((sum_edge - sum_edge_old) / len(list(G1.edges()))))
-    print("sample anomalous edge sum (total) : %d" % sum_edge)
-    print("sample anomalous edge rate (total): %f" % (sum_edge / len(list(G1.edges()))))
+
+    # print('--------anomalous--------')
+    # print('orig:------------')
+    # print("anomalous node sum : %d" % sum_node_orig)
+    # print("anomalous node rate: %f" % (sum_node_orig / len(list(G.nodes()))))
+    # print('-----------------')
+    # print("anomalous edge sum : %d" % sum_edge_orig)
+    # print("anomalous edge rate: %f" % (sum_edge_orig / len(list(G.edges()))))
+    #
+    # print('sample:----------')
+    # print("sample anomalous node sum (orig) : %d" % (sum_node - sum_node_new))
+    # print("sample anomalous node rate (orig): %f" % ((sum_node - sum_node_new) / len(list(G1.nodes()))))
+    # print("sample anomalous node sum (new) : %d" % sum_node_new)
+    # print("sample anomalous node rate (new): %f" % (sum_node_new / len(list(G1.nodes()))))
+    # print("sample anomalous node sum (total) : %d" % sum_node)
+    # print("sample anomalous node rate (total): %f" % (sum_node / len(list(G1.nodes()))))
+    # print("-----------------")
+    # print("sample anomalous edge sum (orig) : %d" % sum_edge_old)
+    # print("sample anomalous edge rate (orig): %f" % (sum_edge_old / len(list(G1.edges()))))
+    # print("sample anomalous edge sum (new) : %d" % (sum_edge - sum_edge_old))
+    # print("sample anomalous edge rate (new): %f" % ((sum_edge - sum_edge_old) / len(list(G1.edges()))))
+    # print("sample anomalous edge sum (total) : %d" % sum_edge)
+    # print("sample anomalous edge rate (total): %f" % (sum_edge / len(list(G1.edges()))))
 
 
     add_Anomalous_types(G1, s=1, _G=G)
@@ -447,11 +509,11 @@ def get_Info(G):
     # print("density: %s" % nx.density(G))
 
 
-def Data_Test(sample_type, filename, iter):
+def Data_Test(sample_type, filename, iter, rate):
 
     # Test file type
-    path1 = "../KeepAnomalous/ExperimentData_test/facebook1684/{}_{}{}_node.csv".format(sample_type, filename, iter)
-    path2 = "../KeepAnomalous/ExperimentData_test/facebook1684/{}_{}{}_edge.csv".format(sample_type, filename, iter)
+    path1 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_node.csv".format(sample_type, filename, iter)
+    path2 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_edge.csv".format(sample_type, filename, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
@@ -463,6 +525,8 @@ def Data_Test(sample_type, filename, iter):
     threshold = degree_total / len(G)
 
     print('---------original---------')
+    print('sampling rate : {:.2%} '.format(rate))
+    print('--------------------------')
     print('nodes number : %d' % G.number_of_nodes())
     print('edges number : %d' % G.number_of_edges())
     print("average degree: %s" % threshold)
@@ -515,8 +579,9 @@ def Data_Test(sample_type, filename, iter):
 
 
 if __name__ == '__main__':
-    sample_type = 'RJ'
-    filename = 'facebook1684'
+    sample_type = 'TIES'
+    filename = 'polblogs'
     iter = 3
+    rate = 0.4
     for i in range(iter):
-        Data_Test(sample_type, filename, i+1)
+        Data_Test(sample_type, filename, i+1, rate)
