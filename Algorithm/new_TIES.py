@@ -58,31 +58,31 @@ def new_TIES(G, G_score, s_rate):
     index = 0
     pf = 0.96
     pff = 0.06
-    print(G_anomaly_score)
+    # print(G_anomaly_score)
     while len(G1) < G1_rate:
         if G_anomaly_node[index] not in list(G1.nodes()):
             p1 = random.random()
-            if p1 < pff:
-                G1.add_node(G_anomaly_node[index])
-                nei1 = list(G1.neighbors(G_anomaly_node[index]))
-                for i in nei1:
-                    pp = random.random()
-                    if pp < pf:
-                        G1.add_node(i)
+            # if p1 < pff:
+            G1.add_node(G_anomaly_node[index])
+                # nei1 = list(G1.neighbors(G_anomaly_node[index]))
+                # for i in nei1:
+                #     pp = random.random()
+                #     if pp < pf:
+                #         G1.add_node(i)
             p2 = random.random()
-            if p2 < pff:
-                G1.add_node(G_anomaly_node[index + 1])
-                nei2 = list(G1.neighbors(G_anomaly_node[index + 1]))
-                for i in nei2:
-                    pp = random.random()
-                    if pp < pf:
-                        G1.add_node(i)
+            # if p2 < pff:
+            G1.add_node(G_anomaly_node[index + 1])
+                # nei2 = list(G1.neighbors(G_anomaly_node[index + 1]))
+                # for i in nei2:
+                #     pp = random.random()
+                #     if pp < pf:
+                #         G1.add_node(i)
 
             # print(G.node[G_anomaly_node[index]])
             # print(G.node[G_anomaly_node[index + 1]])
             try:
                 path = nx.dijkstra_path(G, source=G_anomaly_node[index], target=G_anomaly_node[index + 1])
-                print(len(path))
+                # print(len(path))
                 cur = G_anomaly_node[index]
                 cur_degree = G.degree(G_anomaly_node[index])
                 if len(path) > 2:
@@ -382,7 +382,8 @@ def dataTest():
 
     print(hubs, stars, artis, isos)
 
-
+    # for n, data in G.nodes(data=True):
+    #     print(n, data)
 
     saveGraph(G, G1, fn, i + 1, sample_type)
 
