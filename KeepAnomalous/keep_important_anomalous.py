@@ -50,8 +50,6 @@ def Extract_Star(G, threshold, s=0):
     :param G: original graph
     :return: G with label 1 (Star)
     '''
-    if s == 1:
-        print('hi')
 
     # find star
     star = []
@@ -77,6 +75,7 @@ def Extract_Star(G, threshold, s=0):
                 star_num[node] = len(node_neighbor)
         else:
             continue
+    print(star_num)
     s = sorted(star_num.items(), key=lambda tup: tup[1], reverse=True)
     star_rank = []
     for i in s:
@@ -253,11 +252,11 @@ def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
     Isolates(G1, s=1)
 
     core = {}
-    for n, data in G1.nodes(data='coreranks'):
+    for n, data in G1.nodes(data='artiranks'):
         if data is not None:
             core[n] = []
             core[n].append(data)
-    for n, data in G1.nodes(data='corerank'):
+    for n, data in G1.nodes(data='artirank'):
         if n in core:
             core[n].append(data)
     aa = sorted(core.items(), key=lambda x: x[1][0])
@@ -434,7 +433,6 @@ def Articulation_Points(G, s=0):
 
     new_node = 0
     index = 0
-    print(arti)
     for node in arti:
         index += 1
         if s == 0:
@@ -639,7 +637,7 @@ def Data_Test(sample_type, filename, iter, rate):
 
 
 if __name__ == '__main__':
-    sample_type = 'ISMHRW'
+    sample_type = 'FF'
     filename = 'pgp'
     iter = 1
     rate = 0.2
