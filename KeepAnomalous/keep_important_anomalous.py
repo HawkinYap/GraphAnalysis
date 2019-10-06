@@ -11,12 +11,18 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour, s=0):
     node_degree = [[n, d] for n, d in G.degree()]
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
 
-    hubs = []
+    hubs = []  # ranked
     for i in sort_node_degree:
         hubs.append(i[0])
 
     new_node = 0
+    index = 0
     for node in hubs:
+        index += 1
+        if s == 0:
+            G.node[node]['corerank'] = index
+        if s == 1:
+            G.node[node]['coreranks'] = index
         if G.node[node]['global'] == 0:
             G.node[node]['global'] = 1
             new_node += 1
@@ -28,12 +34,14 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour, s=0):
             if data == 1 and n not in hubs:
                 G.node[n]['global'] = 0
 
-    print("heigh_hubs : %d" % len(sort_node_degree))
-    if s == 1:
-        print("heigh_hubs new : %d" % new_node)
-        return(len(sort_node_degree), new_node)
-    else:
-        return (len(sort_node_degree))
+
+
+    # print("heigh_hubs : %d" % len(sort_node_degree))
+    # if s == 1:
+    #     print("heigh_hubs new : %d" % new_node)
+    #     return(len(sort_node_degree), new_node)
+    # else:
+    #     return (len(sort_node_degree))
     # return(G)
 
 # Extract the star structure in the graph
@@ -42,6 +50,8 @@ def Extract_Star(G, threshold, s=0):
     :param G: original graph
     :return: G with label 1 (Star)
     '''
+    if s == 1:
+        print('hi')
 
     # find star
     star = []
@@ -67,9 +77,19 @@ def Extract_Star(G, threshold, s=0):
                 star_num[node] = len(node_neighbor)
         else:
             continue
-
+    s = sorted(star_num.items(), key=lambda tup: tup[1], reverse=True)
+    star_rank = []
+    for i in s:
+        star_rank.append(i[0])
     new_node = 0
-    for n in star:
+
+    index = 0
+    for n in star_rank:
+        index += 1
+        if s == 0:
+            G.node[node]['starrank'] = index
+        if s == 1:
+            G.node[node]['starranks'] = index
         if G.node[n]['star'] == 0:
             G.node[n]['star'] = 1
             new_node += 1
@@ -81,13 +101,12 @@ def Extract_Star(G, threshold, s=0):
             if data == 1 and n not in star:
                 G.node[n]['star'] = 0
 
-
-    print("heigh_star : %d" % len(star))
-    if s == 1:
-        print("heigh_star new : %d" % new_node)
-        return(len(star), new_node)
-    else:
-        return(len(star))
+    # print("heigh_star : %d" % len(star))
+    # if s == 1:
+    #     print("heigh_star new : %d" % new_node)
+    #     return(len(star), new_node)
+    # else:
+    #     return(len(star))
     # return(G)
 
 
@@ -159,16 +178,16 @@ def find_Bridge(G, s=0):
                 G[u][v]['bridge'] = 0
 
 
-    print("bridge(edge) : %d" % count)
-    if s == 1:
-        print("bridge new (edge) : %d" % (count - old_edge))
-        return(count, old_edge)
-    else:
-        return(count)
+    # print("bridge(edge) : %d" % count)
+    # if s == 1:
+    #     print("bridge new (edge) : %d" % (count - old_edge))
+    #     return(count, old_edge)
+    # else:
+    #     return(count)
 
 
 def Save_Graph(G, sample_type, filename, iter):
-    path = 'res_Data_test2/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
+    path = 'res_Data_test/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
     nx.write_gml(G, path)
 
 
@@ -191,159 +210,174 @@ def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
 
     threshold = degree_total / len(G1)
 
-    print('nodes number : %d' % G1.number_of_nodes())
-    print('edges number : %d' % G1.number_of_edges())
-    print("average degree: %s" % threshold)
-    print("average clustering: %s" % nx.average_clustering(G1))
-    print("density: %s" % nx.density(G1))
-    print('---------------------')
+    # print('nodes number : %d' % G1.number_of_nodes())
+    # print('edges number : %d' % G1.number_of_edges())
+    # print("average degree: %s" % threshold)
+    # print("average clustering: %s" % nx.average_clustering(G1))
+    # print("density: %s" % nx.density(G1))
+    # print('---------------------')
 
-    sample_anomalous_node = {}
-    sample_anomalous_node_old = {}
+    # sample_anomalous_node = {}
+    # sample_anomalous_node_old = {}
+    #
+    # sample_anomalous_edge = {}
+    # sample_anomalous_edge_old = {}
 
-    sample_anomalous_edge = {}
-    sample_anomalous_edge_old = {}
 
-
-    tmp, t = find_Bridge(G1, s=1)
-    sample_anomalous_edge['bridge'] = tmp
-    sample_anomalous_edge_old['bridge'] = t
+    # tmp, t = find_Bridge(G1, s=1)
+    # sample_anomalous_edge['bridge'] = tmp
+    # sample_anomalous_edge_old['bridge'] = t
+    find_Bridge(G1, s=1)
 
     heigh_neighbour = 0.05
-    tmp, t = Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
-    sample_anomalous_node['hub'] = tmp
-    sample_anomalous_node_old['hub'] = t
+    # tmp, t = Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
+    # sample_anomalous_node['hub'] = tmp
+    # sample_anomalous_node_old['hub'] = t
+    Extract_Global_High_Neighbor(G1, heigh_neighbour, s=1)
 
 
-    tmp, t = Extract_Star(G1, threshold, s=1)
-    sample_anomalous_node['star'] = tmp
-    sample_anomalous_node_old['star'] = t
+    # tmp, t = Extract_Star(G1, threshold, s=1)
+    Extract_Star(G1, threshold, s=1)
+    # sample_anomalous_node['star'] = tmp
+    # sample_anomalous_node_old['star'] = t
 
 
-    tmp, t = Articulation_Points(G1, s=1)
-    sample_anomalous_node['arti'] = tmp
-    sample_anomalous_node_old['arti'] = t
+    # tmp, t = Articulation_Points(G1, s=1)
+    # sample_anomalous_node['arti'] = tmp
+    # sample_anomalous_node_old['arti'] = t
+    Articulation_Points(G1, s=1)
 
-    tmp, t = Isolates(G1, s=1)
-    sample_anomalous_node['iso'] = tmp
-    sample_anomalous_node_old['iso'] = t
+    # tmp, t = Isolates(G1, s=1)
+    # sample_anomalous_node['iso'] = tmp
+    # sample_anomalous_node_old['iso'] = t
+    Isolates(G1, s=1)
 
-    sum_node = 0
-    for i in sample_anomalous_node:
-        sum_node = sum_node + sample_anomalous_node[i]
-
-    sum_node_new = 0
-    for i in sample_anomalous_node_old:
-        sum_node_new = sum_node_new + sample_anomalous_node_old[i]
-
-    sum_edge = 0
-    for i in sample_anomalous_edge:
-        sum_edge = sum_edge + sample_anomalous_edge[i]
-
-    sum_edge_old = 0
-    for i in sample_anomalous_edge_old:
-        sum_edge_old = sum_edge_old + sample_anomalous_edge_old[i]
-
-    sum_node_orig = 0
-    for i in orig_anomalous_node:
-        sum_node_orig = sum_node_orig + orig_anomalous_node[i]
-
-    sum_edge_orig = 0
-    for i in orig_anomalous_edge:
-        sum_edge_orig = sum_edge_orig + orig_anomalous_edge[i]
-
-    keys = list(orig_anomalous_node.keys())
-    ori = list(orig_anomalous_node.values())
-    s_all = list(sample_anomalous_node.values())
-    s_new = list(sample_anomalous_node_old.values())
-
-    per = {}
-    for i in range(len(ori)):
-        if ori[i] != 0:
-            per[keys[i]] = (s_all[i] - s_new[i]) / ori[i]
-        else:
-            per[keys[i]] = -1
-    keys_edge = list(orig_anomalous_edge.keys())
-    ori_e = list(orig_anomalous_edge.values())
-    s_old_e = list(sample_anomalous_edge_old.values())
-
-    per_e = {}
-    for i in range(len(ori_e)):
-        if ori_e[i] != 0:
-            per_e[keys_edge[i]] = s_old_e[i] / ori_e[i]
-        else:
-            per_e[keys_edge[i]] = -1
-
-
-    per_new = {}
-    per_new_old = {}
-    new_keys = list(sample_anomalous_node_old.keys())
-    for i in range(len(s_new)):
-        per_new[new_keys[i]] = s_new[i] / len(G)
-        if (s_all[i] - s_new[i]) != 0:
-            per_new_old[new_keys[i]] = s_new[i] / (s_all[i] - s_new[i])
-        else:
-            per_new_old[new_keys[i]] = -1
-
-
-    per_new_e = {}
-    per_new_old_e = {}
-    for i in range(len(ori_e)):
-        per_new_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / len(list(G.edges()))
-        if s_old_e[i] != 0:
-            per_new_old_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / s_old_e[i]
-        else:
-            per_new_old_e[keys_edge[i]] = -1
-
-    print('--------keep--------')
-    for u, v in per.items():
-        if v != -1:
-            a = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
-            print(a)
-        else:
-            a = '(sensitive) the {} is hold: {}'.format(u, '-')
-            print(a)
-    print('-----------------')
-    for u, v in per_e.items():
-        if v != -1:
-            b = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
-            print(b)
-        else:
-            b = '(sensitive) the {} is hold: {}'.format(u, '-')
-            print(b)
-
-    print('--------new--------')
-    for u, v in per_new.items():
-        if v != -1:
-            a = 'the new {} is born: {:.2%}'.format(u, v)
-            print(a)
-        else:
-            a = 'the new {} is born: {}'.format(u, '-')
-            print(a)
-    print('--------------------')
-    for u, v in per_new_old.items():
-        if v != -1:
-            a = 'the {} new / old rate is : {:.2%}'.format(u, v)
-            print(a)
-        else:
-            a = 'the {} new / old rate is :{}'.format(u, '-')
-            print(a)
-    print('-----------------')
-    for u, v in per_new_e.items():
-        if v != -1:
-            b = 'the new {} is born: {:.2%}'.format(u, v)
-            print(b)
-        else:
-            b = 'the new {} is born: {}'.format(u, '-')
-            print(b)
-    print('--------------------')
-    for u, v in per_new_old_e.items():
-        if v != -1:
-            b = 'the {} new / old rate is: {:.2%}'.format(u, v)
-            print(b)
-        else:
-            b = 'the {} new / old rate is: {}'.format(u, '-')
-            print(b)
+    core = {}
+    for n, data in G1.nodes(data='coreranks'):
+        if data is not None:
+            core[n] = []
+            core[n].append(data)
+    for n, data in G1.nodes(data='corerank'):
+        if n in core:
+            core[n].append(data)
+    aa = sorted(core.items(), key=lambda x: x[1][0])
+    print(aa)
+    # sum_node = 0
+    # for i in sample_anomalous_node:
+    #     sum_node = sum_node + sample_anomalous_node[i]
+    #
+    # sum_node_new = 0
+    # for i in sample_anomalous_node_old:
+    #     sum_node_new = sum_node_new + sample_anomalous_node_old[i]
+    #
+    # sum_edge = 0
+    # for i in sample_anomalous_edge:
+    #     sum_edge = sum_edge + sample_anomalous_edge[i]
+    #
+    # sum_edge_old = 0
+    # for i in sample_anomalous_edge_old:
+    #     sum_edge_old = sum_edge_old + sample_anomalous_edge_old[i]
+    #
+    # sum_node_orig = 0
+    # for i in orig_anomalous_node:
+    #     sum_node_orig = sum_node_orig + orig_anomalous_node[i]
+    #
+    # sum_edge_orig = 0
+    # for i in orig_anomalous_edge:
+    #     sum_edge_orig = sum_edge_orig + orig_anomalous_edge[i]
+    #
+    # keys = list(orig_anomalous_node.keys())
+    # ori = list(orig_anomalous_node.values())
+    # s_all = list(sample_anomalous_node.values())
+    # s_new = list(sample_anomalous_node_old.values())
+    #
+    # per = {}
+    # for i in range(len(ori)):
+    #     if ori[i] != 0:
+    #         per[keys[i]] = (s_all[i] - s_new[i]) / ori[i]
+    #     else:
+    #         per[keys[i]] = -1
+    # keys_edge = list(orig_anomalous_edge.keys())
+    # ori_e = list(orig_anomalous_edge.values())
+    # s_old_e = list(sample_anomalous_edge_old.values())
+    #
+    # per_e = {}
+    # for i in range(len(ori_e)):
+    #     if ori_e[i] != 0:
+    #         per_e[keys_edge[i]] = s_old_e[i] / ori_e[i]
+    #     else:
+    #         per_e[keys_edge[i]] = -1
+    #
+    #
+    # per_new = {}
+    # per_new_old = {}
+    # new_keys = list(sample_anomalous_node_old.keys())
+    # for i in range(len(s_new)):
+    #     per_new[new_keys[i]] = s_new[i] / len(G)
+    #     if (s_all[i] - s_new[i]) != 0:
+    #         per_new_old[new_keys[i]] = s_new[i] / (s_all[i] - s_new[i])
+    #     else:
+    #         per_new_old[new_keys[i]] = -1
+    #
+    #
+    # per_new_e = {}
+    # per_new_old_e = {}
+    # for i in range(len(ori_e)):
+    #     per_new_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / len(list(G.edges()))
+    #     if s_old_e[i] != 0:
+    #         per_new_old_e[keys_edge[i]] = (ori_e[i] - s_old_e[i]) / s_old_e[i]
+    #     else:
+    #         per_new_old_e[keys_edge[i]] = -1
+    #
+    # print('--------keep--------')
+    # for u, v in per.items():
+    #     if v != -1:
+    #         a = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
+    #         print(a)
+    #     else:
+    #         a = '(sensitive) the {} is hold: {}'.format(u, '-')
+    #         print(a)
+    # print('-----------------')
+    # for u, v in per_e.items():
+    #     if v != -1:
+    #         b = '(sensitive) the {} is hold: {:.2%}'.format(u, v)
+    #         print(b)
+    #     else:
+    #         b = '(sensitive) the {} is hold: {}'.format(u, '-')
+    #         print(b)
+    #
+    # print('--------new--------')
+    # for u, v in per_new.items():
+    #     if v != -1:
+    #         a = 'the new {} is born: {:.2%}'.format(u, v)
+    #         print(a)
+    #     else:
+    #         a = 'the new {} is born: {}'.format(u, '-')
+    #         print(a)
+    # print('--------------------')
+    # for u, v in per_new_old.items():
+    #     if v != -1:
+    #         a = 'the {} new / old rate is : {:.2%}'.format(u, v)
+    #         print(a)
+    #     else:
+    #         a = 'the {} new / old rate is :{}'.format(u, '-')
+    #         print(a)
+    # print('-----------------')
+    # for u, v in per_new_e.items():
+    #     if v != -1:
+    #         b = 'the new {} is born: {:.2%}'.format(u, v)
+    #         print(b)
+    #     else:
+    #         b = 'the new {} is born: {}'.format(u, '-')
+    #         print(b)
+    # print('--------------------')
+    # for u, v in per_new_old_e.items():
+    #     if v != -1:
+    #         b = 'the {} new / old rate is: {:.2%}'.format(u, v)
+    #         print(b)
+    #     else:
+    #         b = 'the {} new / old rate is: {}'.format(u, '-')
+    #         print(b)
 
 
     # print('--------anomalous--------')
@@ -386,8 +420,27 @@ def test_Sampling(G, orig_anomalous_edge, orig_anomalous_node):
 
 def Articulation_Points(G, s=0):
     l = list(nx.articulation_points(G))
-    new_node = 0
+
+    arti_num = {}
     for node in l:
+        # find nodes's neighbor
+        node_neighbor = list(G.neighbors(node))
+        arti_num[node] = len(node_neighbor)
+    arti_num = sorted(arti_num.items(), key=lambda x: x[1], reverse=True)
+
+    arti = []
+    for u, v in arti_num:
+        arti.append(u)
+
+    new_node = 0
+    index = 0
+    print(arti)
+    for node in arti:
+        index += 1
+        if s == 0:
+            G.node[node]['artirank'] = index
+        if s == 1:
+            G.node[node]['artiranks'] = index
         if G.node[node]['arti'] == 0:
             G.node[node]['arti'] = 1
             new_node += 1
@@ -517,6 +570,11 @@ def Data_Test(sample_type, filename, iter, rate):
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
+    # for n, data in G.nodes(data=True):
+    #     print(n, data)
+    #
+    # for (u, v, d) in G.edges(data=True):
+    #     print(u, v, d)
     # get_Info(G)
 
     degree_total = 0
@@ -537,37 +595,39 @@ def Data_Test(sample_type, filename, iter, rate):
     orig_anomalous_node = {}
     orig_anomalous_edge = {}
 
-    tmp = find_Bridge(G)
-    orig_anomalous_edge['bridge'] = tmp
-
+    # tmp = find_Bridge(G)
+    # orig_anomalous_edge['bridge'] = tmp
+    #
     heigh_neighbour = 0.05
-    tmp = Extract_Global_High_Neighbor(G, heigh_neighbour)
-    orig_anomalous_node['hub'] = tmp
+    # tmp = Extract_Global_High_Neighbor(G, heigh_neighbour)
+    # orig_anomalous_node['hub'] = tmp
+    Extract_Global_High_Neighbor(G, heigh_neighbour)
+
+    # tmp = Extract_Star(G, threshold)
+    # orig_anomalous_node['star'] = tmp
+    Extract_Star(G, threshold)
+
+    # tmp = Articulation_Points(G)
+    # orig_anomalous_node['arti'] = tmp
+    Articulation_Points(G)
+
+    # tmp = Isolates(G)
+    # orig_anomalous_node['iso'] = tmp
+    Isolates(G)
 
 
-
-    tmp = Extract_Star(G, threshold)
-    orig_anomalous_node['star'] = tmp
-
-    tmp = Articulation_Points(G)
-    orig_anomalous_node['arti'] = tmp
-
-    tmp = Isolates(G)
-    orig_anomalous_node['iso'] = tmp
-
-
-    sum_node = 0
-    for i in orig_anomalous_node:
-        sum_node = sum_node + orig_anomalous_node[i]
-
-    sum_edge = 0
-    for i in orig_anomalous_edge:
-        sum_edge = sum_edge + orig_anomalous_edge[i]
-
-    print("anomalous node sum : %d" % sum_node)
-    print("anomalous edge sum : %d" % sum_edge)
-    print("anomalous node rate: %f" % (sum_node / len(list(G.nodes()))))
-    print("anomalous edge rate: %f" % (sum_edge / len(list(G.edges()))))
+    # sum_node = 0
+    # for i in orig_anomalous_node:
+    #     sum_node = sum_node + orig_anomalous_node[i]
+    #
+    # sum_edge = 0
+    # for i in orig_anomalous_edge:
+    #     sum_edge = sum_edge + orig_anomalous_edge[i]
+    #
+    # print("anomalous node sum : %d" % sum_node)
+    # print("anomalous edge sum : %d" % sum_edge)
+    # print("anomalous node rate: %f" % (sum_node / len(list(G.nodes()))))
+    # print("anomalous edge rate: %f" % (sum_edge / len(list(G.edges()))))
 
     add_Anomalous_types(G)
 
@@ -579,9 +639,9 @@ def Data_Test(sample_type, filename, iter, rate):
 
 
 if __name__ == '__main__':
-    sample_type = 'TIES'
-    filename = 'polblogs'
+    sample_type = 'ISMHRW'
+    filename = 'pgp'
     iter = 1
-    rate = 0.4
+    rate = 0.2
     for i in range(iter):
         Data_Test(sample_type, filename, i+1, rate)
