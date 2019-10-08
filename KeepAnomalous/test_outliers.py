@@ -3,8 +3,8 @@ import csv
 import os
 
 
-path1 = "../Datasets/class_1881/class_node.csv"
-path2 = "../Datasets/class_1881/class_edge.csv"
+path1 = "../Datasets/outliers/toy1_node.csv"
+path2 = "../Datasets/outliers/toy1_edge.csv"
 
 file = os.path.splitext(path1)
 filename, type = file
