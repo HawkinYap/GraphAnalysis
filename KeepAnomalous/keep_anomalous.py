@@ -515,6 +515,7 @@ def Data_Test(sample_type, filename, iter, rate):
     path1 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_node.csv".format(sample_type, filename, iter)
     path2 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_edge.csv".format(sample_type, filename, iter)
     isDirect = False
+    print('hi')
 
     G = loadData(path1, path2, isDirect)
     # get_Info(G)
@@ -579,9 +580,9 @@ def Data_Test(sample_type, filename, iter, rate):
 
 
 if __name__ == '__main__':
-    sample_type = 'TIES'
-    filename = 'polblogs'
-    iter = 3
-    rate = 0.4
+    sample_type = 'NTIES'
+    filename = 'pgp2'
+    iter = 1
+    rate = 0.1
     for i in range(iter):
         Data_Test(sample_type, filename, i+1, rate)
