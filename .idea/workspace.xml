@@ -6,10 +6,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/new_TIES2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/check_outlier/class.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/check_outlier/toy1.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/check_outlier/toy2.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/FF_pgp1_orig.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/ISMHRW_pgp1_orig.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/RW_pgp1_orig.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/TIES_pgp1_orig.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test2/TIES_as1_orig.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KeepAnomalous/test_outliers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Datasets/class_1881/edges_output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/class_1881/class_edge.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KeepAnomalous/res_Data/test.gml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data/test.gml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_sample2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/FF_as1_orig.gml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/FF_as1_orig.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/ISMHRW_as1_orig.gml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/ISMHRW_as1_orig.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/RW_as1_orig.gml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/RW_as1_orig.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/TIES_as1_orig.gml" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/res_Data_test/TIES_as1_orig.gml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,18 +37,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Abnormal_Extractor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AbnormalExtractor/Abnormal_Extractor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12582">
-              <caret line="474" column="32" selection-start-line="466" selection-start-column="4" selection-end-line="474" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="feature_extractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FeatureExtractor/feature_extractor.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,8 +61,19 @@
       <file leaf-file-name="keep_anomalous.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15471">
-              <caret line="574" selection-start-line="574" selection-end-line="574" />
+            <state relative-caret-position="696">
+              <caret line="587" column="12" lean-forward="true" selection-start-line="587" selection-start-column="12" selection-end-line="587" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="keep_important_anomalous.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -77,13 +90,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1647">
+            <state relative-caret-position="140">
               <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.gml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KeepAnomalous/res_Data/test.gml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="test_outliers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KeepAnomalous/test_outliers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Datasets/eurosis/edge.csv" />
         <option value="$PROJECT_DIR$/Data_Change_Format/ChangeFormat.py" />
         <option value="$PROJECT_DIR$/Datasets/email-Eu-core.csv" />
         <option value="$PROJECT_DIR$/FeatureExtractor/feature_extractor.py" />
@@ -178,8 +206,9 @@
         <option value="$PROJECT_DIR$/GraphSampling/TIES.py" />
         <option value="$PROJECT_DIR$/test_sample2.py" />
         <option value="$PROJECT_DIR$/GraphSampling/TestData/pgp_node.csv" />
-        <option value="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" />
         <option value="$PROJECT_DIR$/Algorithm/new_TIES.py" />
+        <option value="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" />
+        <option value="$PROJECT_DIR$/KeepAnomalous/res_Data/test.gml" />
       </list>
     </option>
   </component>
@@ -197,9 +226,9 @@
       <path value="$PROJECT_DIR$/HighlightGraph/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
     <option name="width" value="1938" />
     <option name="height" value="1176" />
   </component>
@@ -208,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,10 +244,22 @@
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="KeepAnomalous" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="KeepAnomalous" type="462c0819:PsiDirectoryNode" />
+              <item name="res_Data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +380,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1415" extended-state="7" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -348,11 +389,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32942098" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.16744915" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16209774" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28951487" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08065157" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.009535161" />
+      <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.004370282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -368,26 +409,26 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1954708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
+      <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32942098" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1954708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3028169" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="5" side_tool="true" weight="0.015891936" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32942098" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,15 +443,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/ExperimentData/MHRW_EUROSIS_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/ExperimentData/TIES_EUROSIS_node.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/ExperimentData/TIES_EUROSIS_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/KeepAnomalous/ExperimentData/RJ_EUROSIS_node.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -632,25 +664,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15471">
-          <caret line="574" selection-start-line="574" selection-end-line="574" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
+        <state relative-caret-position="140">
           <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="587" column="12" lean-forward="true" selection-start-line="587" selection-start-column="12" selection-end-line="587" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeepAnomalous/test_outliers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KeepAnomalous/res_Data/test.gml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
