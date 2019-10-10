@@ -512,8 +512,8 @@ def get_Info(G):
 def Data_Test(sample_type, filename, iter, rate):
 
     # Test file type
-    path1 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_node.csv".format(sample_type, filename, iter)
-    path2 = "../KeepAnomalous/ExperimentData_test2/{}_{}{}_edge.csv".format(sample_type, filename, iter)
+    path1 = "../KeepAnomalous/ExperimentData_test3/{}_{}{}_node.csv".format(sample_type, filename, iter)
+    path2 = "../KeepAnomalous/ExperimentData_test3/{}_{}{}_edge.csv".format(sample_type, filename, iter)
     isDirect = False
     print('hi')
 
@@ -583,6 +583,6 @@ if __name__ == '__main__':
     sample_type = 'NTIES'
     filename = 'pgp2'
     iter = 1
-    rate = 0.1
+    rate = 0.15
     for i in range(iter):
         Data_Test(sample_type, filename, i+1, rate)
