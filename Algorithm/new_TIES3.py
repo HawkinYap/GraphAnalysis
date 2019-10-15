@@ -7,36 +7,6 @@ import numpy as np
 import math
 
 
-def getScoreRerank(G, weights, rate):
-    w = weights.values()
-    total_weight = 0
-    for i in w:
-        total_weight += i
-
-    sort_weights = sorted(weights.items(), key=lambda tup: tup[1], reverse=True)
-
-    outer_weight = []
-    for u,v in sort_weights:
-        outer_weight.append(v / total_weight)
-
-    alpha = 0.5
-
-    neighborScore(G)
-
-    anomaly_score = {}
-    for n, data in G.nodes(data=True):
-        inner_score = list(data.values())
-        total = 0
-        for i in range(len(inner_score) - 1):
-            if inner_score[i] != -1:
-                total += (alpha * outer_weight[i]) + ((1 - alpha) * inner_score[i])
-        G.node[n]['score'] += total
-        anomaly_score[n] = total
-
-
-    anomaly_score = sorted(anomaly_score.items(), key=lambda tup: tup[1], reverse=True)
-    return(anomaly_score)
-
 def mixList(list1, list2):
     min_l = min(len(list1), len(list2))
     noded = [0] * (len(list1) + len(list2))
@@ -84,16 +54,15 @@ def secondCheckSampling(G, G1, anomaly_cut, rate):
     another = {}
     for node in list(G.nodes()):
         if node not in list(G1.nodes()):
-            G.node[node]['type'] = 2
+            G.node[node]['type'] = 1
             another[node] = G.degree(node)
         else:
-            G.node[node]['type'] = 1
+            G.node[node]['type'] = 2
     sort_another = sorted(another.items(), key=lambda tup: tup[1], reverse=True)
     choose = []
     pf = 0.8
     for i in sort_another:
         choose.append(i[0])
-    print(choose)
     for i in choose[:remain]:
         G1.add_node(i)
         G.node[i]['type'] = 2
@@ -104,9 +73,14 @@ def secondCheckSampling(G, G1, anomaly_cut, rate):
     #             G1.add_node(i)
     #             G.node[i]['type'] = 2
     #             remain -= 1
-    print(len(G1))
-
     induced_graph = G.subgraph(G1.nodes())
+    orig_edges = []
+    for edge in G.edges():
+        if edge in induced_graph.edges():
+            G[edge[0]][edge[1]]['type'] = 2
+        else:
+            G[edge[0]][edge[1]]['type'] = 1
+
     return(induced_graph)
 
 def new_TIES(G, anomaly_cut, structure, rate):
@@ -114,7 +88,7 @@ def new_TIES(G, anomaly_cut, structure, rate):
     # init sample graph G1
     G1 = nx.Graph()
     # step1: deal with isolates with rate
-    for i in (anomaly_cut['isolates'][:math.floor(len(anomaly_cut['isolates']) * rate)]):
+    for i in anomaly_cut['isolates']:
         G1.add_node(i)
 
     # step2: add anomaly and the neighbors
@@ -135,6 +109,7 @@ def new_TIES(G, anomaly_cut, structure, rate):
     elif math.floor(len(G)) * rate < len(G1):
         print('warning: You need to increase the sampling rate')
     else:
+        print('oh')
         induced_graph = secondCheckSampling(G, G1, anomaly_cut, rate)
         return (induced_graph, 'NTIES3')
 
@@ -270,7 +245,7 @@ def Extract_Star(G, threshold, anomaly_total):
 
     for u, v in star_num:
         star.append(u)
-
+    print(star)
     anomaly_total['star'] = []
     if star:
         for node in star:
@@ -291,16 +266,32 @@ def Articulation_Points_and_Bridge(G, anomaly_total):
 
     inner_tuple = []
     merge = []
+    print('***')
+    print(inner)
+    # for i in range(len(inner) - 1):
+    #     for j in range(i + 1, len(inner)):
+    #         if inner[i][0] in inner[j] or inner[i][1] in inner[j]:
+    #             tmp = tuple(set(inner[i]+inner[j]))
+    #             merge.append(inner[i])
+    #             merge.append(inner[j])
+    #             inner_tuple.append(tmp)
+    copyinner = inner.copy()
     for i in range(len(inner) - 1):
         for j in range(i + 1, len(inner)):
-            if inner[i][0] in inner[j] or inner[i][1] in inner[j]:
-                tmp = tuple(set(inner[i]+inner[j]))
+            if inner[i][0] in copyinner[j] or inner[i][1] in copyinner[j]:
+                tmp = tuple(set(inner[i]+copyinner[j]))
+                copyinner[j] = tmp
                 merge.append(inner[i])
                 merge.append(inner[j])
                 inner_tuple.append(tmp)
 
     inner = inner_tuple + list(set(inner) - set(merge))
-    anomaly_total['innerarti'] = inner
+    sort_inner = sorted(inner, key=lambda d: len(d), reverse=True)
+    # sort_inner = {}
+    # for i in inner:
+
+
+    anomaly_total['innerarti'] = sort_inner
     anomaly_total['outerarti'] = outer
 
 
@@ -433,8 +424,8 @@ def Save_Graph_test(G, sample_type, filename, iter):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/Data/toy2_node.csv"
-    path2 = "../GraphSampling/Data/toy2_edge.csv"
+    path1 = "../GraphSampling/TestData/facebook1684_node.csv"
+    path2 = "../GraphSampling/TestData/facebook1684_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -454,7 +445,7 @@ def dataTest():
         G.node[n]['score'] = 0
 
     # threshold = starThreshold_1(G)
-    threshold = starThreshold_2(G, s=2)
+    threshold = starThreshold_2(G, s=1)
 
     heigh_neighbour = 0.05
     anomaly_total = {}
@@ -463,12 +454,19 @@ def dataTest():
     Articulation_Points_and_Bridge(G, anomaly_total)
     Isolates(G, anomaly_total)
 
-    rate = 0.8
+    rate = 0.3
     anomaly_cut = getRateAnomaly(anomaly_total, rate)
     structure_info = {}
     structure = keetAnomalyStructure(G, anomaly_cut, rate, structure_info)
     G1, stype = new_TIES(G, anomaly_cut, structure, rate)
-    Save_Graph_test(G1, stype, fn, 1)
+
+    count1 = []
+    for n, data in G.nodes(data=True):
+        if data['type'] == 2:
+            count1.append(n)
+    print(count1)
+
+    Save_Graph_test(G, stype, fn, 1)
 
     # i = 0
     #
