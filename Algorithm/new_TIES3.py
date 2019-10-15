@@ -37,12 +37,77 @@ def getScoreRerank(G, weights, rate):
     anomaly_score = sorted(anomaly_score.items(), key=lambda tup: tup[1], reverse=True)
     return(anomaly_score)
 
+def mixList(list1, list2):
+    min_l = min(len(list1), len(list2))
+    noded = [0] * (len(list1) + len(list2))
 
-def secondCheckSampling(G, G1, structure, rate):
-    # check the rate number between G and G1
+    if len(list2):
+        k1 = 0
+        k2 = 0
+        index = 0
+        for i in range(len(noded)):
+            if i % 2 == 0:
+                noded[i] = list1[k1]
+                k1 += 1
+            if i % 2 == 1:
+                noded[i] = list2[k2]
+                k2 += 1
+            if k1 == len(list1):
+                noded[i + 1:] = list2[k2:]
+                break
+            if k2 == len(list2):
+                noded[i + 1:] = list1[k1:]
+                break
+    return(noded)
 
 
+def secondCheckSampling(G, G1, anomaly_cut, rate):
+    print(anomaly_cut)
+    G_rate = math.floor(len(G) * rate)
+    remain = G_rate - len(G1)
 
+    # A list of insert
+    node_rank = anomaly_cut['global']
+    tmp = anomaly_cut['star']
+    mixnode1 = mixList(node_rank, tmp)
+
+    # deal with innerarti and outerarti
+    arti = []
+    for i in anomaly_cut['innerarti']:
+        arti.append(i[0])
+    for i in anomaly_cut['outerarti']:
+        arti.append(i[-1])
+
+    # mix cores & stars + artis
+    mixnode2 = mixList(mixnode1, arti)
+
+    another = {}
+    for node in list(G.nodes()):
+        if node not in list(G1.nodes()):
+            G.node[node]['type'] = 2
+            another[node] = G.degree(node)
+        else:
+            G.node[node]['type'] = 1
+    sort_another = sorted(another.items(), key=lambda tup: tup[1], reverse=True)
+    choose = []
+    pf = 0.8
+    for i in sort_another:
+        choose.append(i[0])
+    print(choose)
+    for i in choose[:remain]:
+        G1.add_node(i)
+        G.node[i]['type'] = 2
+    # while remain:
+    #     for i in choose:
+    #         p = round(random.uniform(0, 1), 4)
+    #         if p < pf:
+    #             G1.add_node(i)
+    #             G.node[i]['type'] = 2
+    #             remain -= 1
+    print(len(G1))
+
+    induced_graph = G.subgraph(G1.nodes())
+    return(induced_graph)
 
 def new_TIES(G, anomaly_cut, structure, rate):
     print(len(G) * rate)
@@ -61,14 +126,17 @@ def new_TIES(G, anomaly_cut, structure, rate):
             else:
                 G1.add_nodes_from(i)
                 G1.add_nodes_from(j)
-    induced_graph = G.subgraph(G1.nodes())
+    # induced_graph = G.subgraph(G1.nodes())
 
     if math.floor(len(G)) * rate == len(G1):
+        print('hi')
+        induced_graph = G.subgraph(G1.nodes())
         return (induced_graph, 'NTIES3')
     elif math.floor(len(G)) * rate < len(G1):
         print('warning: You need to increase the sampling rate')
     else:
-        secondCheckSampling(G, induced_graph, structure, rate)
+        induced_graph = secondCheckSampling(G, G1, anomaly_cut, rate)
+        return (induced_graph, 'NTIES3')
 
 
 def neighborScore(G):
@@ -395,7 +463,7 @@ def dataTest():
     Articulation_Points_and_Bridge(G, anomaly_total)
     Isolates(G, anomaly_total)
 
-    rate = 0.6
+    rate = 0.8
     anomaly_cut = getRateAnomaly(anomaly_total, rate)
     structure_info = {}
     structure = keetAnomalyStructure(G, anomaly_cut, rate, structure_info)
