@@ -38,73 +38,38 @@ def getScoreRerank(G, weights, rate):
     return(anomaly_score)
 
 
-def new_TIES(G, G_score, s_rate):
-
-    G_anomaly_s = {k: v for k, v in G_score}
-    # G_anomaly_score = sorted(G_anomaly_s.items(), key=lambda tup: tup[1], reverse=True)
-
-    nomal = {}
-    score = list(G_anomaly_s.values())
-    node = list(G_anomaly_s.keys())
-
-    G_anomaly_score = mappingRange_01(score, s=1)
-    print(G_anomaly_score)
-    for i in range(len(score)):
-        nomal[node[i]] = G_anomaly_score[i]
+def secondCheckSampling(G, G1, structure, rate):
+    # check the rate number between G and G1
 
 
-    # max_node = max(score)
-    # min_node = min(score)
-    # for i in range(len(score)):
-    #     nomal[node[i]] = (score[i] - min_node) / (max_node - min_node)
-    G_anomaly_score = sorted(nomal.items(), key=lambda tup: tup[1], reverse=True)
 
-    G_anomaly_node = []
-    for i in G_anomaly_score:
-        G_anomaly_node.append(i[0])
-    G1_rate = len(G) * s_rate
+
+def new_TIES(G, anomaly_cut, structure, rate):
+    print(len(G) * rate)
+    # init sample graph G1
     G1 = nx.Graph()
-    index = 0
-    pf = 0.96
-    pff = 0.06
-    while len(G1) < G1_rate:
-        if G_anomaly_node[index] not in list(G1.nodes()):
-            p1 = random.random()
-            # if p1 < pff:
-            G1.add_node(G_anomaly_node[index])
-            p2 = random.random()
-            # if p2 < pff:
-            G1.add_node(G_anomaly_node[index + 1])
-            try:
-                path = nx.dijkstra_path(G, source=G_anomaly_node[index], target=G_anomaly_node[index + 1])
-                # print(len(path))
-                cur = G_anomaly_node[index]
-                cur_degree = G.degree(G_anomaly_node[index])
-                if len(path) > 2:
-                    for i in path[1:-2]:
-                        p_degree = G.degree(i)
-                        p = round(random.uniform(0, 1), 4)
-                        if p <= min(1, p_degree / cur_degree):
-                            G1.add_node(i)
-                            nei1 = list(G1.neighbors(G_anomaly_node[index]))
-                            for j in nei1:
-                                pp = random.random()
-                                if pp < pf:
-                                    G1.add_node(j)
-                                    G_anomaly_node.pop(G_anomaly_node.index(j))
-                            # print(G.node[i])
-                            if i in G_anomaly_node:
-                                G_anomaly_node.pop(G_anomaly_node.index(i))
-                            cur = i
-                            cur_degree = G.degree(i)
-            except:
-                pass
-            index += 2
-        else:
-            index += 1
-    # print(index)
+    # step1: deal with isolates with rate
+    for i in (anomaly_cut['isolates'][:math.floor(len(anomaly_cut['isolates']) * rate)]):
+        G1.add_node(i)
+
+    # step2: add anomaly and the neighbors
+    for u, v in structure.items():
+        for i, j in v.items():
+            if isinstance(i, int):
+                G1.add_node(i)
+                G1.add_nodes_from(j)
+            else:
+                G1.add_nodes_from(i)
+                G1.add_nodes_from(j)
     induced_graph = G.subgraph(G1.nodes())
-    return(induced_graph, 'NTIES')
+
+    if math.floor(len(G)) * rate == len(G1):
+        return (induced_graph, 'NTIES3')
+    elif math.floor(len(G)) * rate < len(G1):
+        print('warning: You need to increase the sampling rate')
+    else:
+        secondCheckSampling(G, induced_graph, structure, rate)
+
 
 def neighborScore(G):
     neighborscore = 0.0025
@@ -378,16 +343,24 @@ def keetAnomalyStructure(G, anomaly_cut, rate, structure_info):
                 node_neighbor = list(G.neighbors(node))
                 tmp = G.degree(node_neighbor)
                 nn = sorted(tmp, key=lambda x: x[1], reverse=True)
-                keep_anomaly = nn[:math.ceil(len(nn) * rate)]
-                print(keep_anomaly)
+                keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
+                structure_info[u][node] = keep_anomaly
+        if u == 'innerarti' or u == 'outerarti':
+            for node_group in v:
+                nn_union = set()
+                for node in node_group:
+                    node_neighbor = list(G.neighbors(node))
+                    tmp = G.degree(node_neighbor)
+                    nn = sorted(tmp, key=lambda x: x[1], reverse=True)
+                    keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
+                    nn_union = nn_union | set(keep_anomaly)
+                structure_info[u][node_group] = nn_union
+    return(structure_info)
 
 
-
-
-
-
-
-
+def Save_Graph_test(G, sample_type, filename, iter):
+    path = '../KeepAnomalous/new_test1/{}_{}{}_orig.gml'.format(sample_type, filename, iter)
+    nx.write_gml(G, path)
 
 
 # data processing
@@ -422,11 +395,13 @@ def dataTest():
     Articulation_Points_and_Bridge(G, anomaly_total)
     Isolates(G, anomaly_total)
 
-    rate = 0.8
+    rate = 0.6
     anomaly_cut = getRateAnomaly(anomaly_total, rate)
     structure_info = {}
-    keetAnomalyStructure(G, anomaly_cut, rate, structure_info)
-    # G1, sample_type = new_TIES(G, anomaly_cut, rate)
+    structure = keetAnomalyStructure(G, anomaly_cut, rate, structure_info)
+    G1, stype = new_TIES(G, anomaly_cut, structure, rate)
+    Save_Graph_test(G1, stype, fn, 1)
+
     # i = 0
     #
     # hubs1 = 0
