@@ -7,8 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/pgp_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/pgp_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/Data/toy2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/Data/toy2_node.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,7 +56,8 @@
       <file leaf-file-name="keep_important_anomalous.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="406">
+              <caret line="187" selection-start-line="187" selection-end-line="189" selection-end-column="25" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -78,8 +77,8 @@
       <file leaf-file-name="new_TIES2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11610">
-              <caret line="436" column="36" selection-start-line="436" selection-start-column="36" selection-end-line="436" selection-end-column="36" />
+            <state relative-caret-position="202">
+              <caret line="426" column="20" selection-start-line="426" selection-start-column="20" selection-end-line="426" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -90,8 +89,11 @@
       <file leaf-file-name="new_TIES3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="384" lean-forward="true" selection-start-line="384" selection-end-line="384" />
+            <state relative-caret-position="158">
+              <caret line="456" column="14" selection-start-line="456" selection-start-column="14" selection-end-line="456" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,7 +101,7 @@
       <file leaf-file-name="test_sample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_sample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
+            <state relative-caret-position="805">
               <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -218,7 +220,7 @@
       <path value="$PROJECT_DIR$/HighlightGraph/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1938" />
@@ -229,17 +231,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -267,13 +265,12 @@
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="KeepAnomalous" type="462c0819:PsiDirectoryNode" />
-              <item name="res_Data" type="462c0819:PsiDirectoryNode" />
+              <item name="new_test1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +392,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -403,11 +399,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32942098" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40375587" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17441398" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.67840374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17560588" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info active="true" anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.001986492" />
+      <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.0015891935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -423,26 +419,26 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
-      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1954708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32942098" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1954708" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3888889" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3028169" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32942098" />
       <window_info anchor="right" id="SciView" order="5" side_tool="true" weight="0.015891936" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32942098" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -654,39 +650,10 @@
     <entry file="file://$PROJECT_DIR$/Datasets/pgp_edge.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14040">
           <caret line="521" selection-start-line="521" selection-end-line="521" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11610">
-          <caret line="436" column="36" selection-start-line="436" selection-start-column="36" selection-end-line="436" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -714,10 +681,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="187" selection-start-line="187" selection-end-line="189" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="426" column="20" selection-start-line="426" selection-start-column="20" selection-end-line="426" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="384" lean-forward="true" selection-start-line="384" selection-end-line="384" />
+        <state relative-caret-position="158">
+          <caret line="456" column="14" selection-start-line="456" selection-start-column="14" selection-end-line="456" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
