@@ -4,6 +4,25 @@ from fast_unfolding import *
 import math
 import matplotlib.pyplot as plt
 
+
+def Extract_Global_High_Neighbor(G, heigh_neighbour):
+    '''
+    :param G: original graph
+    :param heigh_neighbour: the first x heigh degree nodes
+    :return: G with label 1 (Global_High_Neighbor)
+    '''
+    nodes_num = round(heigh_neighbour * len(G))
+    node_degree = [[n, d] for n, d in G.degree()]
+
+    sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
+    # sorted
+    hubs = []
+
+    for i in sort_node_degree:
+        hubs.append(i[0])
+
+    print(hubs)
+
 def Extract_Star(G):
     '''
     :param G: original graph
@@ -14,15 +33,12 @@ def Extract_Star(G):
     star_threshold = 3
     flag = 0
     for node in G.nodes():
-        print(node)
         # find nodes's neighbor
         node_neighbor = list(G.neighbors(node))
-        print(node_neighbor)
         if len(node_neighbor) > star_threshold:
             for node1 in node_neighbor:
                 flag = 1
                 node1_neighbor = list(G.neighbors(node1))
-                print(node1_neighbor)
                 list1 = list(set(node_neighbor) & set(node1_neighbor))
 
                 if len(list1) != 0:
@@ -67,12 +83,27 @@ def Get_Node_Community(G):
     plt.show()
 
 def Get_Info(G):
-    a = nx.degree_centrality(G)
-    print(a)
+    print('中心性度量')
+    print('----度中心性----')
+    f1 = nx.degree_centrality(G)
+    print(f1)
+    print('----特征向量中心性----')
+    f2 = nx.eigenvector_centrality(G)
+    print(f2)
+    print('----KATZ中心性----')
+    f3 = nx.katz_centrality(G)
+    print(f3)
+    print('----CLOSENESS中心性----')
+    f4 = nx.closeness_centrality(G)
+    print(f4)
+    print('----中介中心性----')
+    f5 = nx.betweenness_centrality(G)
+    print(f5)
+
 
 if __name__ == '__main__':
-    path1 = "Data/toy5_node.csv"
-    path2 = "Data/toy5_edge.csv"
+    path1 = "Data/toy6_node.csv"
+    path2 = "Data/toy6_edge.csv"
 
     isDirect = False
     # add nodes
@@ -96,8 +127,9 @@ if __name__ == '__main__':
         edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
+    Extract_Global_High_Neighbor(G, 0.05)
     Extract_Star(G)
-    Get_Info(G)
+    # Get_Info(G)
 
     # Get_Node_Community(G)
 
