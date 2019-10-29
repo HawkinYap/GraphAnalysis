@@ -4,8 +4,8 @@ import csv
 import os
 # G = nx.complete_graph
 
-path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
-path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
+path1 = "../GraphSampling/TestData/Facebook/facebook3980_node.csv"
+path2 = "../GraphSampling/TestData/Facebook/facebook3980_edge.csv"
 
 file = os.path.splitext(path1)
 filename, type = file
