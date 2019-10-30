@@ -424,8 +424,8 @@ def Save_Graph_test(G, sample_type, filename, iter):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/TestData/facebook1684_node.csv"
-    path2 = "../GraphSampling/TestData/facebook1684_edge.csv"
+    path1 = "../GraphSampling/TestData/oregon_node.csv"
+    path2 = "../GraphSampling/TestData/oregon_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
