@@ -5,7 +5,7 @@ import os
 import numpy as np
 import math
 
-def Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total):
+def Extract_Global_High_Neighbor(G, G0, heigh_neighbour, anomaly_total):
     '''
     :param G: original graph
     :param heigh_neighbour: the first x heigh degree nodes
@@ -23,14 +23,14 @@ def Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total):
 
     anomaly_total['global'] = []
     for node in hubs:
-        G.node[node]['global'] = 1
+        G0.node[node]['global'] = 1
         anomaly_total['global'].append(node)
     # for n, data in G.nodes(data='global'):
     #     print(n, data)
 
 
 # Extract the star structure in the graph
-def Extract_Star(G, threshold, anomaly_total):
+def Extract_Star(G, G0, threshold, anomaly_total):
     '''
     :param G: original graph
     :return: G with label 1 (Star)
@@ -67,7 +67,7 @@ def Extract_Star(G, threshold, anomaly_total):
     anomaly_total['star'] = []
     if star:
         for node in star:
-            G.node[node]['star'] = 1
+            G0.node[node]['star'] = 1
             anomaly_total['star'].append(node)
 
 
@@ -88,7 +88,7 @@ def bridgeMerge(inner):
     return(sort_inner)
 
 
-def Articulation_Points_and_Bridge(G, anomaly_total):
+def Articulation_Points_and_Bridge(G, G0, anomaly_total):
     l = list(nx.articulation_points(G))
     b = list(nx.bridges(G))
     both = list(filter(lambda d: d[0] in l and d[1] in l, b))
@@ -144,13 +144,13 @@ def Articulation_Points_and_Bridge(G, anomaly_total):
 
     if arti:
         for node in arti:
-            G.node[node]['arti'] = 1
+            G0.node[node]['arti'] = 1
     if b:
         for edge in b:
-            G[edge[0]][edge[1]]['bridge'] = 1
+            G0[edge[0]][edge[1]]['bridge'] = 1
 
 
-def MetisRank(G, anomaly_total, k=0.05):
+def MetisRank(G, G0, anomaly_total, k=0.08):
     a = nxmetis.node_nested_dissection(G)
     a = a[::-1]
     rank = 0
@@ -159,10 +159,11 @@ def MetisRank(G, anomaly_total, k=0.05):
     #     G.node[i]['topo'] = rank
     anomaly_total['topo'] = a[:math.floor(len(G) * k)]
     for i, j in enumerate(a[:math.floor(len(G) * k)]):
-        G.node[j]['topok'] = i
+        G0.node[j]['topok'] = i
 
-def AnomalousLable(G, Go=0):
+def AnomalousLable(G):
     for n, d in G.nodes(data=True):
+        print(n, d)
         keys = list(d.keys())
         for i, key in enumerate(keys):
             if d[key] != 0:
@@ -176,38 +177,23 @@ def AnomalousLable(G, Go=0):
 
 def isPartition(G, fn, s=1):
     # set hubs and star threshold
-    if s == 1:
-        threshold = starThreshold_2(G, s=1)
-        heigh_neighbour = 0.05
+    threshold = starThreshold_2(G, s=1)
+    heigh_neighbour = 0.05
+    partitions = nxmetis.partition(G, 3)
+    for partition in partitions[1]:
+        G_t = nx.Graph()
+        G_t.add_nodes_from(partition)
+        G_p = G.subgraph(G_t.nodes())
+
         anomaly_total = {}
-        Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total)
-        Extract_Star(G, threshold, anomaly_total)
-        Articulation_Points_and_Bridge(G, anomaly_total)
-        MetisRank(G, anomaly_total)
+        Extract_Global_High_Neighbor(G_p, G, heigh_neighbour, anomaly_total)
+        Extract_Star(G_p, G, threshold, anomaly_total)
+        Articulation_Points_and_Bridge(G_p, G, anomaly_total)
+        MetisRank(G_p, G, anomaly_total)
         print(anomaly_total)
         AnomalousLable(G)
-        for n, data in G.nodes(data=True):
-            print(n, data)
-        iter = 1
-        Save_Graph_test(G, fn, iter)
-    if s == 2:
-        threshold = starThreshold_2(G, s=1)
-        heigh_neighbour = 0.05
-        partitions = nxmetis.partition(G, 2)
-        for partition in partitions[1]:
-            G_t = nx.Graph()
-            G_t.add_nodes_from(partition)
-            G_p = G.subgraph(G_t.nodes())
-
-            anomaly_total = {}
-            Extract_Global_High_Neighbor(G_p, heigh_neighbour, anomaly_total)
-            Extract_Star(G_p, threshold, anomaly_total, G)
-            Articulation_Points_and_Bridge(G_p, anomaly_total, G)
-            MetisRank(G_p, anomaly_total, G)
-            print(anomaly_total)
-            AnomalousLable(G_p, G)
-        iter = 11
-        Save_Graph_test(G, fn, iter)
+    iter = 11
+    Save_Graph_test(G, fn, iter)
 
 
 
@@ -233,7 +219,7 @@ def starThreshold_2(G, s=1):
 
 
 def Save_Graph_test(G, filename, iter):
-    path = 'anomalous_output_data/{}{}_orig.gml'.format(filename, iter)
+    path = 'anomalous_output_data/global{}{}_orig.gml'.format(filename, iter)
     nx.write_gml(G, path)
 
 
@@ -266,10 +252,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "Data/facebook1912_node.csv"
-    # path2 = "Data/facebook1912_edge.csv"
-    path1 = "../GraphSampling/TestData/Facebook/facebook0_node.csv"
-    path2 = "../GraphSampling/TestData/Facebook/facebook0_edge.csv"
+    path1 = "Data/facebook107_node.csv"
+    path2 = "Data/facebook107_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -286,11 +270,6 @@ def dataTest():
         G.node[n]['arti'] = 0
         G.node[n]['topok'] = 0
 
-    isPartition(G, fn, s=1)
-
-
-
-
-
+    isPartition(G, fn)
 if __name__ == '__main__':
     dataTest()

@@ -5,8 +5,8 @@ import os
 import pandas as pd
 # G = nx.complete_graph
 
-path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
-path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
+path1 = "../GraphSampling/TestData/Facebook/facebook0_node.csv"
+path2 = "../GraphSampling/TestData/Facebook/facebook0_edge.csv"
 
 file = os.path.splitext(path1)
 filename, type = file
@@ -35,7 +35,7 @@ for item in reader1:
     edges.append([int(item[0]), int(item[1])])
 f.close()
 G.add_edges_from(edges)
-iter = 2
+iter = 4
 a = nxmetis.partition(G, 2)
 # for i in a[1]:
 #     print(len(i))
@@ -58,22 +58,22 @@ orig_edges = []
 for edge in induced_graph2.edges():
     orig_edges.append([edge[0], edge[1]])
 
-# test csv
-classfile_path = "anomalous_input_data/{}{}partition_node.csv".format(fn, iter)
-orig_edgefile_path = "anomalous_input_data/{}{}partition_edge.csv".format(fn, iter)
-
-# title = ['ID', 'Class']
-test = pd.DataFrame(data=class_nodes)
-test.to_csv(classfile_path, index=None, header=False)
-
-# title = ['Source', 'Target', 'Type']
-test = pd.DataFrame(data=orig_edges)
-test.to_csv(orig_edgefile_path, index=None, header=False)
+# # test csv
+# classfile_path = "anomalous_input_data/{}{}partition_node.csv".format(fn, iter)
+# orig_edgefile_path = "anomalous_input_data/{}{}partition_edge.csv".format(fn, iter)
+#
+# # title = ['ID', 'Class']
+# test = pd.DataFrame(data=class_nodes)
+# test.to_csv(classfile_path, index=None, header=False)
+#
+# # title = ['Source', 'Target', 'Type']
+# test = pd.DataFrame(data=orig_edges)
+# test.to_csv(orig_edgefile_path, index=None, header=False)
 
 
 # path = 'testMetis/metis_partition_part1_{}_{}.gml'.format(fn, iter)
 # nx.write_gml(induced_graph1, path)
 # path = 'testMetis/metis_partition_part2_{}_{}.gml'.format(fn, iter)
 # nx.write_gml(induced_graph2, path)
-# path = 'testMetis/metis_partition_{}_{}.gml'.format(fn, iter)
-# nx.write_gml(G, path)
+path = 'testMetis/metis_partition_{}_{}.gml'.format(fn, iter)
+nx.write_gml(G, path)

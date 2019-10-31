@@ -5,7 +5,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 190
+    topok 0
+    labels 1
   ]
   node [
     id 1
@@ -13,7 +14,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 250
+    topok 0
   ]
   node [
     id 2
@@ -21,7 +22,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 394
+    topok 14
+    labels 4
   ]
   node [
     id 3
@@ -29,7 +31,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 22
+    topok 0
   ]
   node [
     id 4
@@ -37,7 +39,8 @@ graph [
     global 0
     star 0
     arti 1
-    topo 310
+    topok 0
+    labels 3
   ]
   node [
     id 5
@@ -45,7 +48,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 126
+    topok 0
   ]
   node [
     id 6
@@ -53,7 +56,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 112
+    topok 0
   ]
   node [
     id 7
@@ -61,7 +64,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 387
+    topok 0
   ]
   node [
     id 8
@@ -69,7 +72,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 228
+    topok 0
   ]
   node [
     id 9
@@ -77,7 +80,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 127
+    topok 0
   ]
   node [
     id 10
@@ -85,7 +88,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 37
+    topok 0
   ]
   node [
     id 11
@@ -93,7 +96,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 62
+    topok 0
   ]
   node [
     id 12
@@ -101,7 +104,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 346
+    topok 0
   ]
   node [
     id 13
@@ -109,7 +112,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 203
+    topok 0
   ]
   node [
     id 14
@@ -117,7 +120,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 218
+    topok 0
   ]
   node [
     id 15
@@ -125,7 +128,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 258
+    topok 0
   ]
   node [
     id 16
@@ -133,7 +136,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 125
+    topok 0
   ]
   node [
     id 17
@@ -141,7 +144,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 401
+    topok 7
+    labels 4
   ]
   node [
     id 18
@@ -149,7 +153,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 83
+    topok 0
   ]
   node [
     id 19
@@ -157,7 +161,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 116
+    topok 0
   ]
   node [
     id 20
@@ -165,7 +169,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 202
+    topok 0
   ]
   node [
     id 21
@@ -173,7 +177,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 325
+    topok 0
   ]
   node [
     id 22
@@ -181,7 +185,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 97
+    topok 0
   ]
   node [
     id 23
@@ -189,7 +193,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 247
+    topok 0
   ]
   node [
     id 24
@@ -197,7 +201,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 73
+    topok 0
   ]
   node [
     id 25
@@ -205,7 +209,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 303
+    topok 0
   ]
   node [
     id 26
@@ -213,7 +217,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 285
+    topok 0
+    labels 1
   ]
   node [
     id 27
@@ -221,7 +226,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 331
+    topok 0
   ]
   node [
     id 28
@@ -229,7 +234,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 131
+    topok 0
+    labels 1
   ]
   node [
     id 29
@@ -237,7 +243,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 313
+    topok 0
   ]
   node [
     id 30
@@ -245,7 +251,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 53
+    topok 0
   ]
   node [
     id 31
@@ -253,7 +259,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 55
+    topok 0
   ]
   node [
     id 32
@@ -261,7 +267,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 399
+    topok 9
+    labels 4
   ]
   node [
     id 33
@@ -269,7 +276,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 244
+    topok 0
   ]
   node [
     id 34
@@ -277,7 +284,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 237
+    topok 0
   ]
   node [
     id 35
@@ -285,7 +292,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 392
+    topok 16
+    labels 4
   ]
   node [
     id 36
@@ -293,7 +301,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 98
+    topok 0
   ]
   node [
     id 37
@@ -301,7 +309,8 @@ graph [
     global 0
     star 0
     arti 1
-    topo 352
+    topok 0
+    labels 3
   ]
   node [
     id 38
@@ -309,7 +318,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 289
+    topok 0
   ]
   node [
     id 39
@@ -317,7 +326,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 318
+    topok 0
   ]
   node [
     id 40
@@ -325,7 +334,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 175
+    topok 0
+    labels 1
   ]
   node [
     id 41
@@ -333,7 +343,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 23
+    topok 0
   ]
   node [
     id 42
@@ -341,7 +351,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 26
+    topok 0
   ]
   node [
     id 43
@@ -349,7 +359,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 163
+    topok 0
   ]
   node [
     id 44
@@ -357,7 +367,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 254
+    topok 0
   ]
   node [
     id 45
@@ -365,7 +375,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 201
+    topok 0
   ]
   node [
     id 46
@@ -373,7 +383,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 132
+    topok 0
   ]
   node [
     id 47
@@ -381,7 +391,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 351
+    topok 0
   ]
   node [
     id 48
@@ -389,7 +399,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 402
+    topok 6
+    labels 4
   ]
   node [
     id 49
@@ -397,7 +408,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 103
+    topok 0
   ]
   node [
     id 50
@@ -405,7 +416,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 380
+    topok 0
   ]
   node [
     id 51
@@ -413,7 +424,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 94
+    topok 0
   ]
   node [
     id 52
@@ -421,7 +432,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 373
+    topok 0
   ]
   node [
     id 53
@@ -429,7 +440,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 243
+    topok 0
   ]
   node [
     id 54
@@ -437,7 +448,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 185
+    topok 0
+    labels 1
   ]
   node [
     id 55
@@ -445,7 +457,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 230
+    topok 0
   ]
   node [
     id 56
@@ -453,7 +465,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 268
+    topok 0
   ]
   node [
     id 57
@@ -461,7 +473,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 301
+    topok 0
   ]
   node [
     id 58
@@ -469,7 +481,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 397
+    topok 11
+    labels 4
   ]
   node [
     id 59
@@ -477,7 +490,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 309
+    topok 0
   ]
   node [
     id 60
@@ -485,7 +498,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 277
+    topok 0
   ]
   node [
     id 61
@@ -493,7 +506,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 372
+    topok 0
   ]
   node [
     id 62
@@ -501,7 +514,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 72
+    topok 0
   ]
   node [
     id 63
@@ -509,7 +522,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 71
+    topok 0
   ]
   node [
     id 64
@@ -517,7 +530,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 257
+    topok 0
+    labels 1
   ]
   node [
     id 65
@@ -525,7 +539,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 329
+    topok 0
   ]
   node [
     id 66
@@ -533,7 +547,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 133
+    topok 0
   ]
   node [
     id 67
@@ -541,7 +555,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 110
+    topok 0
   ]
   node [
     id 68
@@ -549,7 +563,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 19
+    topok 0
   ]
   node [
     id 69
@@ -557,7 +571,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 52
+    topok 0
   ]
   node [
     id 70
@@ -565,7 +579,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 391
+    topok 17
+    labels 4
   ]
   node [
     id 71
@@ -573,7 +588,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 88
+    topok 0
   ]
   node [
     id 72
@@ -581,7 +596,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 200
+    topok 0
   ]
   node [
     id 73
@@ -589,7 +604,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 199
+    topok 0
   ]
   node [
     id 74
@@ -597,7 +612,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 396
+    topok 12
+    labels 4
   ]
   node [
     id 75
@@ -605,7 +621,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 245
+    topok 0
   ]
   node [
     id 76
@@ -613,7 +629,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 31
+    topok 0
   ]
   node [
     id 77
@@ -621,7 +637,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 260
+    topok 0
   ]
   node [
     id 78
@@ -629,7 +645,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 263
+    topok 0
   ]
   node [
     id 79
@@ -637,7 +653,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 121
+    topok 0
   ]
   node [
     id 80
@@ -645,7 +661,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 18
+    topok 0
   ]
   node [
     id 81
@@ -653,7 +669,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 159
+    topok 0
   ]
   node [
     id 82
@@ -661,7 +677,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 231
+    topok 0
   ]
   node [
     id 83
@@ -669,7 +685,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 272
+    topok 0
   ]
   node [
     id 84
@@ -677,7 +693,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 25
+    topok 0
   ]
   node [
     id 85
@@ -685,7 +701,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 356
+    topok 0
   ]
   node [
     id 86
@@ -693,7 +709,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 188
+    topok 0
   ]
   node [
     id 87
@@ -701,7 +717,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 156
+    topok 0
   ]
   node [
     id 88
@@ -709,7 +725,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 119
+    topok 0
   ]
   node [
     id 89
@@ -717,7 +733,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 323
+    topok 0
   ]
   node [
     id 90
@@ -725,7 +741,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 40
+    topok 0
   ]
   node [
     id 91
@@ -733,7 +749,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 335
+    topok 0
   ]
   node [
     id 92
@@ -741,7 +757,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 282
+    topok 0
   ]
   node [
     id 93
@@ -749,7 +765,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 68
+    topok 0
   ]
   node [
     id 94
@@ -757,7 +773,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 198
+    topok 0
   ]
   node [
     id 95
@@ -765,7 +781,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 80
+    topok 0
   ]
   node [
     id 96
@@ -773,7 +789,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 166
+    topok 0
   ]
   node [
     id 97
@@ -781,7 +797,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 157
+    topok 0
   ]
   node [
     id 98
@@ -789,7 +805,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 13
+    topok 0
   ]
   node [
     id 99
@@ -797,7 +813,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 350
+    topok 0
   ]
   node [
     id 100
@@ -805,7 +821,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 56
+    topok 0
   ]
   node [
     id 101
@@ -813,7 +829,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 242
+    topok 0
   ]
   node [
     id 102
@@ -821,7 +837,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 197
+    topok 0
   ]
   node [
     id 103
@@ -829,7 +845,8 @@ graph [
     global 1
     star 0
     arti 1
-    topo 374
+    topok 0
+    labels 3
   ]
   node [
     id 104
@@ -837,7 +854,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 48
+    topok 0
   ]
   node [
     id 105
@@ -845,7 +862,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 296
+    topok 0
   ]
   node [
     id 106
@@ -853,7 +870,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 320
+    topok 0
   ]
   node [
     id 107
@@ -861,7 +878,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 222
+    topok 0
   ]
   node [
     id 108
@@ -869,7 +886,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 297
+    topok 0
   ]
   node [
     id 109
@@ -877,7 +894,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 134
+    topok 0
   ]
   node [
     id 110
@@ -885,7 +902,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 79
+    topok 0
   ]
   node [
     id 111
@@ -893,7 +910,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 196
+    topok 0
   ]
   node [
     id 112
@@ -901,7 +918,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 104
+    topok 0
   ]
   node [
     id 113
@@ -909,7 +926,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 195
+    topok 0
   ]
   node [
     id 114
@@ -917,7 +934,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 75
+    topok 0
   ]
   node [
     id 115
@@ -925,7 +942,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 253
+    topok 0
   ]
   node [
     id 116
@@ -933,7 +950,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 135
+    topok 0
   ]
   node [
     id 117
@@ -941,7 +958,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 21
+    topok 0
   ]
   node [
     id 118
@@ -949,7 +966,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 51
+    topok 0
   ]
   node [
     id 119
@@ -957,7 +974,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 214
+    topok 0
   ]
   node [
     id 120
@@ -965,7 +982,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 366
+    topok 0
   ]
   node [
     id 121
@@ -973,7 +990,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 368
+    topok 0
   ]
   node [
     id 122
@@ -981,7 +998,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 60
+    topok 0
   ]
   node [
     id 123
@@ -989,7 +1006,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 45
+    topok 0
   ]
   node [
     id 124
@@ -997,7 +1014,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 322
+    topok 0
   ]
   node [
     id 125
@@ -1005,7 +1022,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 33
+    topok 0
   ]
   node [
     id 126
@@ -1013,7 +1030,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 43
+    topok 0
   ]
   node [
     id 127
@@ -1021,7 +1038,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 152
+    topok 0
   ]
   node [
     id 128
@@ -1029,7 +1046,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 136
+    topok 0
   ]
   node [
     id 129
@@ -1037,7 +1054,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 299
+    topok 0
   ]
   node [
     id 130
@@ -1045,7 +1062,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 113
+    topok 0
   ]
   node [
     id 131
@@ -1053,7 +1070,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 194
+    topok 0
   ]
   node [
     id 132
@@ -1061,7 +1078,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 311
+    topok 0
   ]
   node [
     id 133
@@ -1069,7 +1086,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 378
+    topok 0
+    labels 1
   ]
   node [
     id 134
@@ -1077,7 +1095,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 317
+    topok 0
   ]
   node [
     id 135
@@ -1085,7 +1103,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 248
+    topok 0
   ]
   node [
     id 136
@@ -1093,7 +1111,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 241
+    topok 0
   ]
   node [
     id 137
@@ -1101,7 +1119,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 339
+    topok 0
   ]
   node [
     id 138
@@ -1109,7 +1127,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 102
+    topok 0
   ]
   node [
     id 139
@@ -1117,7 +1135,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 167
+    topok 0
   ]
   node [
     id 140
@@ -1125,7 +1143,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 101
+    topok 0
   ]
   node [
     id 141
@@ -1133,7 +1151,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 404
+    topok 4
+    labels 4
   ]
   node [
     id 142
@@ -1141,7 +1160,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 12
+    topok 0
   ]
   node [
     id 143
@@ -1149,7 +1168,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 93
+    topok 0
   ]
   node [
     id 144
@@ -1157,7 +1176,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 332
+    topok 0
   ]
   node [
     id 145
@@ -1165,7 +1184,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 213
+    topok 0
   ]
   node [
     id 146
@@ -1173,7 +1192,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 117
+    topok 0
   ]
   node [
     id 147
@@ -1181,7 +1200,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 137
+    topok 0
   ]
   node [
     id 148
@@ -1189,7 +1208,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 87
+    topok 0
   ]
   node [
     id 149
@@ -1197,7 +1216,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 306
+    topok 0
   ]
   node [
     id 150
@@ -1205,7 +1224,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 74
+    topok 0
   ]
   node [
     id 151
@@ -1213,7 +1232,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 225
+    topok 0
   ]
   node [
     id 152
@@ -1221,7 +1240,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 355
+    topok 0
   ]
   node [
     id 153
@@ -1229,7 +1248,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 385
+    topok 0
   ]
   node [
     id 154
@@ -1237,7 +1256,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 11
+    topok 0
   ]
   node [
     id 155
@@ -1245,7 +1264,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 262
+    topok 0
   ]
   node [
     id 156
@@ -1253,7 +1272,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 290
+    topok 0
   ]
   node [
     id 157
@@ -1261,7 +1280,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 369
+    topok 0
   ]
   node [
     id 158
@@ -1269,7 +1288,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 67
+    topok 0
   ]
   node [
     id 159
@@ -1277,7 +1296,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 265
+    topok 0
   ]
   node [
     id 160
@@ -1285,7 +1304,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 354
+    topok 0
   ]
   node [
     id 161
@@ -1293,7 +1312,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 353
+    topok 0
   ]
   node [
     id 162
@@ -1301,7 +1320,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 298
+    topok 0
   ]
   node [
     id 163
@@ -1309,7 +1328,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 274
+    topok 0
   ]
   node [
     id 164
@@ -1317,7 +1336,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 106
+    topok 0
   ]
   node [
     id 165
@@ -1325,7 +1344,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 82
+    topok 0
   ]
   node [
     id 166
@@ -1333,7 +1352,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 302
+    topok 0
   ]
   node [
     id 167
@@ -1341,7 +1360,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 46
+    topok 0
   ]
   node [
     id 168
@@ -1349,7 +1368,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 337
+    topok 0
   ]
   node [
     id 169
@@ -1357,7 +1376,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 165
+    topok 0
+    labels 1
   ]
   node [
     id 170
@@ -1365,7 +1385,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 174
+    topok 0
   ]
   node [
     id 171
@@ -1373,7 +1393,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 96
+    topok 0
   ]
   node [
     id 172
@@ -1381,7 +1401,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 61
+    topok 0
   ]
   node [
     id 173
@@ -1389,7 +1409,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 84
+    topok 0
   ]
   node [
     id 174
@@ -1397,7 +1417,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 65
+    topok 0
   ]
   node [
     id 175
@@ -1405,7 +1425,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 210
+    topok 0
   ]
   node [
     id 176
@@ -1413,7 +1433,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 276
+    topok 0
   ]
   node [
     id 177
@@ -1421,7 +1441,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 28
+    topok 0
   ]
   node [
     id 178
@@ -1429,7 +1449,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 138
+    topok 0
+    labels 1
   ]
   node [
     id 179
@@ -1437,7 +1458,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 63
+    topok 0
   ]
   node [
     id 180
@@ -1445,7 +1466,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 160
+    topok 0
   ]
   node [
     id 181
@@ -1453,7 +1474,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 307
+    topok 0
   ]
   node [
     id 182
@@ -1461,7 +1482,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 78
+    topok 0
   ]
   node [
     id 183
@@ -1469,7 +1490,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 221
+    topok 0
   ]
   node [
     id 184
@@ -1477,7 +1498,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 208
+    topok 0
   ]
   node [
     id 185
@@ -1485,7 +1506,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 122
+    topok 0
   ]
   node [
     id 186
@@ -1493,7 +1514,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 279
+    topok 0
   ]
   node [
     id 187
@@ -1501,7 +1522,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 328
+    topok 0
   ]
   node [
     id 188
@@ -1509,7 +1530,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 186
+    topok 0
   ]
   node [
     id 189
@@ -1517,7 +1538,8 @@ graph [
     global 0
     star 0
     arti 1
-    topo 232
+    topok 0
+    labels 3
   ]
   node [
     id 190
@@ -1525,7 +1547,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 153
+    topok 0
   ]
   node [
     id 191
@@ -1533,7 +1555,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 139
+    topok 0
+    labels 1
   ]
   node [
     id 192
@@ -1541,7 +1564,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 236
+    topok 0
   ]
   node [
     id 193
@@ -1549,7 +1572,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 47
+    topok 0
   ]
   node [
     id 194
@@ -1557,7 +1580,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 287
+    topok 0
   ]
   node [
     id 195
@@ -1565,7 +1588,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 158
+    topok 0
   ]
   node [
     id 196
@@ -1573,7 +1596,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 77
+    topok 0
   ]
   node [
     id 197
@@ -1581,7 +1604,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 81
+    topok 0
   ]
   node [
     id 198
@@ -1589,7 +1612,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 155
+    topok 0
   ]
   node [
     id 199
@@ -1597,7 +1620,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 20
+    topok 0
   ]
   node [
     id 200
@@ -1605,7 +1628,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 270
+    topok 0
   ]
   node [
     id 201
@@ -1613,7 +1636,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 180
+    topok 0
+    labels 1
   ]
   node [
     id 202
@@ -1621,7 +1645,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 173
+    topok 0
   ]
   node [
     id 203
@@ -1629,7 +1653,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 233
+    topok 0
   ]
   node [
     id 204
@@ -1637,7 +1661,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 178
+    topok 0
   ]
   node [
     id 205
@@ -1645,7 +1669,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 375
+    topok 0
   ]
   node [
     id 206
@@ -1653,7 +1677,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 58
+    topok 0
   ]
   node [
     id 207
@@ -1661,7 +1685,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 246
+    topok 0
   ]
   node [
     id 208
@@ -1669,7 +1693,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 345
+    topok 0
   ]
   node [
     id 209
@@ -1677,7 +1701,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 92
+    topok 0
   ]
   node [
     id 210
@@ -1685,7 +1709,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 363
+    topok 0
   ]
   node [
     id 211
@@ -1693,7 +1717,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 340
+    topok 0
   ]
   node [
     id 212
@@ -1701,7 +1725,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 177
+    topok 0
+    labels 1
   ]
   node [
     id 213
@@ -1709,7 +1734,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 281
+    topok 0
   ]
   node [
     id 214
@@ -1717,7 +1742,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 120
+    topok 0
   ]
   node [
     id 215
@@ -1725,7 +1750,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 193
+    topok 0
   ]
   node [
     id 216
@@ -1733,7 +1758,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 319
+    topok 0
   ]
   node [
     id 217
@@ -1741,7 +1766,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 192
+    topok 0
   ]
   node [
     id 218
@@ -1749,7 +1774,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 183
+    topok 0
   ]
   node [
     id 219
@@ -1757,7 +1782,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 95
+    topok 0
   ]
   node [
     id 220
@@ -1765,7 +1790,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 10
+    topok 0
   ]
   node [
     id 221
@@ -1773,7 +1798,8 @@ graph [
     global 0
     star 0
     arti 1
-    topo 361
+    topok 0
+    labels 3
   ]
   node [
     id 222
@@ -1781,7 +1807,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 209
+    topok 0
   ]
   node [
     id 223
@@ -1789,7 +1815,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 365
+    topok 0
   ]
   node [
     id 224
@@ -1797,7 +1823,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 271
+    topok 0
   ]
   node [
     id 225
@@ -1805,7 +1831,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 140
+    topok 0
   ]
   node [
     id 226
@@ -1813,7 +1839,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 169
+    topok 0
   ]
   node [
     id 227
@@ -1821,7 +1847,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 390
+    topok 18
+    labels 4
   ]
   node [
     id 228
@@ -1829,7 +1856,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 305
+    topok 0
   ]
   node [
     id 229
@@ -1837,7 +1864,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 9
+    topok 0
   ]
   node [
     id 230
@@ -1845,7 +1872,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 334
+    topok 0
   ]
   node [
     id 231
@@ -1853,7 +1880,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 333
+    topok 0
+    labels 1
   ]
   node [
     id 232
@@ -1861,7 +1889,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 29
+    topok 0
   ]
   node [
     id 233
@@ -1869,7 +1897,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 85
+    topok 0
   ]
   node [
     id 234
@@ -1877,7 +1905,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 128
+    topok 0
   ]
   node [
     id 235
@@ -1885,7 +1913,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 261
+    topok 0
   ]
   node [
     id 236
@@ -1893,7 +1921,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 24
+    topok 0
   ]
   node [
     id 237
@@ -1901,7 +1929,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 255
+    topok 0
   ]
   node [
     id 238
@@ -1909,7 +1937,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 114
+    topok 0
   ]
   node [
     id 239
@@ -1917,7 +1945,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 100
+    topok 0
   ]
   node [
     id 240
@@ -1925,7 +1953,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 326
+    topok 0
   ]
   node [
     id 241
@@ -1933,7 +1961,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 141
+    topok 0
   ]
   node [
     id 242
@@ -1941,7 +1969,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 57
+    topok 0
   ]
   node [
     id 243
@@ -1949,7 +1977,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 229
+    topok 0
   ]
   node [
     id 244
@@ -1957,7 +1985,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 377
+    topok 0
   ]
   node [
     id 245
@@ -1965,7 +1993,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 273
+    topok 0
   ]
   node [
     id 246
@@ -1973,7 +2001,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 184
+    topok 0
   ]
   node [
     id 247
@@ -1981,7 +2009,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 142
+    topok 0
   ]
   node [
     id 248
@@ -1989,7 +2017,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 251
+    topok 0
   ]
   node [
     id 249
@@ -1997,7 +2025,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 292
+    topok 0
   ]
   node [
     id 250
@@ -2005,7 +2033,8 @@ graph [
     global 0
     star 0
     arti 1
-    topo 41
+    topok 0
+    labels 3
   ]
   node [
     id 251
@@ -2013,7 +2042,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 161
+    topok 0
   ]
   node [
     id 252
@@ -2021,7 +2050,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 407
+    topok 1
+    labels 4
   ]
   node [
     id 253
@@ -2029,7 +2059,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 288
+    topok 0
   ]
   node [
     id 254
@@ -2037,7 +2067,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 76
+    topok 0
   ]
   node [
     id 255
@@ -2045,7 +2075,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 69
+    topok 0
   ]
   node [
     id 256
@@ -2053,7 +2083,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 44
+    topok 0
   ]
   node [
     id 257
@@ -2061,7 +2091,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 50
+    topok 0
   ]
   node [
     id 258
@@ -2069,7 +2099,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 324
+    topok 0
   ]
   node [
     id 259
@@ -2077,7 +2107,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 304
+    topok 0
   ]
   node [
     id 260
@@ -2085,7 +2115,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 123
+    topok 0
   ]
   node [
     id 261
@@ -2093,7 +2123,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 286
+    topok 0
   ]
   node [
     id 262
@@ -2101,7 +2131,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 118
+    topok 0
   ]
   node [
     id 263
@@ -2109,7 +2139,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 109
+    topok 0
   ]
   node [
     id 264
@@ -2117,7 +2147,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 280
+    topok 0
   ]
   node [
     id 265
@@ -2125,7 +2155,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 206
+    topok 0
   ]
   node [
     id 266
@@ -2133,7 +2163,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 64
+    topok 0
   ]
   node [
     id 267
@@ -2141,7 +2171,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 403
+    topok 5
+    labels 4
   ]
   node [
     id 268
@@ -2149,7 +2180,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 348
+    topok 0
   ]
   node [
     id 269
@@ -2157,7 +2188,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 66
+    topok 0
   ]
   node [
     id 270
@@ -2165,7 +2196,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 327
+    topok 0
   ]
   node [
     id 271
@@ -2173,7 +2204,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 49
+    topok 0
   ]
   node [
     id 272
@@ -2181,7 +2212,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 17
+    topok 0
   ]
   node [
     id 273
@@ -2189,7 +2220,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 384
+    topok 0
   ]
   node [
     id 274
@@ -2197,7 +2228,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 386
+    topok 0
   ]
   node [
     id 275
@@ -2205,7 +2236,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 278
+    topok 0
   ]
   node [
     id 276
@@ -2213,7 +2244,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 168
+    topok 0
   ]
   node [
     id 277
@@ -2221,7 +2252,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 275
+    topok 0
   ]
   node [
     id 278
@@ -2229,7 +2260,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 398
+    topok 10
+    labels 4
   ]
   node [
     id 279
@@ -2237,7 +2269,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 70
+    topok 0
   ]
   node [
     id 280
@@ -2245,7 +2277,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 371
+    topok 0
   ]
   node [
     id 281
@@ -2253,7 +2285,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 176
+    topok 0
   ]
   node [
     id 282
@@ -2261,7 +2293,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 316
+    topok 0
   ]
   node [
     id 283
@@ -2269,7 +2301,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 234
+    topok 0
   ]
   node [
     id 284
@@ -2277,7 +2309,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 16
+    topok 0
   ]
   node [
     id 285
@@ -2285,7 +2317,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 220
+    topok 0
   ]
   node [
     id 286
@@ -2293,7 +2325,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 217
+    topok 0
   ]
   node [
     id 287
@@ -2301,7 +2333,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 170
+    topok 0
   ]
   node [
     id 288
@@ -2309,7 +2341,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 266
+    topok 0
   ]
   node [
     id 289
@@ -2317,7 +2349,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 294
+    topok 0
   ]
   node [
     id 290
@@ -2325,7 +2357,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 171
+    topok 0
   ]
   node [
     id 291
@@ -2333,7 +2365,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 360
+    topok 0
   ]
   node [
     id 292
@@ -2341,7 +2373,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 8
+    topok 0
   ]
   node [
     id 293
@@ -2349,7 +2381,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 314
+    topok 0
   ]
   node [
     id 294
@@ -2357,7 +2389,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 293
+    topok 0
   ]
   node [
     id 295
@@ -2365,7 +2397,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 143
+    topok 0
   ]
   node [
     id 296
@@ -2373,7 +2405,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 15
+    topok 0
   ]
   node [
     id 297
@@ -2381,7 +2413,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 182
+    topok 0
   ]
   node [
     id 298
@@ -2389,7 +2421,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 154
+    topok 0
   ]
   node [
     id 299
@@ -2397,7 +2429,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 107
+    topok 0
   ]
   node [
     id 300
@@ -2405,7 +2437,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 42
+    topok 0
   ]
   node [
     id 301
@@ -2413,7 +2445,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 189
+    topok 0
   ]
   node [
     id 302
@@ -2421,7 +2453,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 382
+    topok 0
   ]
   node [
     id 303
@@ -2429,7 +2461,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 7
+    topok 0
   ]
   node [
     id 304
@@ -2437,7 +2469,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 400
+    topok 8
+    labels 4
   ]
   node [
     id 305
@@ -2445,7 +2478,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 283
+    topok 0
   ]
   node [
     id 306
@@ -2453,7 +2486,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 308
+    topok 0
   ]
   node [
     id 307
@@ -2461,7 +2494,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 267
+    topok 0
   ]
   node [
     id 308
@@ -2469,7 +2502,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 358
+    topok 0
   ]
   node [
     id 309
@@ -2477,7 +2510,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 357
+    topok 0
   ]
   node [
     id 310
@@ -2485,7 +2518,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 256
+    topok 0
   ]
   node [
     id 311
@@ -2493,7 +2526,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 395
+    topok 13
+    labels 4
   ]
   node [
     id 312
@@ -2501,7 +2535,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 90
+    topok 0
   ]
   node [
     id 313
@@ -2509,7 +2543,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 6
+    topok 0
   ]
   node [
     id 314
@@ -2517,7 +2551,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 227
+    topok 0
   ]
   node [
     id 315
@@ -2525,7 +2559,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 129
+    topok 0
   ]
   node [
     id 316
@@ -2533,7 +2567,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 124
+    topok 0
   ]
   node [
     id 317
@@ -2541,7 +2575,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 379
+    topok 0
   ]
   node [
     id 318
@@ -2549,7 +2583,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 269
+    topok 0
+    labels 1
   ]
   node [
     id 319
@@ -2557,7 +2592,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 238
+    topok 0
   ]
   node [
     id 320
@@ -2565,7 +2600,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 349
+    topok 0
   ]
   node [
     id 321
@@ -2573,7 +2608,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 115
+    topok 0
   ]
   node [
     id 322
@@ -2581,7 +2616,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 144
+    topok 0
   ]
   node [
     id 323
@@ -2589,7 +2624,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 344
+    topok 0
   ]
   node [
     id 324
@@ -2597,7 +2632,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 321
+    topok 0
   ]
   node [
     id 325
@@ -2605,7 +2640,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 191
+    topok 0
   ]
   node [
     id 326
@@ -2613,7 +2648,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 91
+    topok 0
   ]
   node [
     id 327
@@ -2621,7 +2656,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 264
+    topok 0
   ]
   node [
     id 328
@@ -2629,7 +2664,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 27
+    topok 0
   ]
   node [
     id 329
@@ -2637,7 +2672,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 338
+    topok 0
   ]
   node [
     id 330
@@ -2645,7 +2680,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 108
+    topok 0
   ]
   node [
     id 331
@@ -2653,7 +2688,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 240
+    topok 0
   ]
   node [
     id 332
@@ -2661,7 +2696,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 164
+    topok 0
+    labels 1
   ]
   node [
     id 333
@@ -2669,7 +2705,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 364
+    topok 0
   ]
   node [
     id 334
@@ -2677,7 +2713,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 5
+    topok 0
   ]
   node [
     id 335
@@ -2685,7 +2721,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 341
+    topok 0
   ]
   node [
     id 336
@@ -2693,7 +2729,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 405
+    topok 3
+    labels 4
   ]
   node [
     id 337
@@ -2701,7 +2738,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 295
+    topok 0
   ]
   node [
     id 338
@@ -2709,7 +2746,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 376
+    topok 0
   ]
   node [
     id 339
@@ -2717,7 +2754,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 389
+    topok 19
+    labels 4
   ]
   node [
     id 340
@@ -2725,7 +2763,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 342
+    topok 0
   ]
   node [
     id 341
@@ -2733,7 +2771,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 145
+    topok 0
   ]
   node [
     id 342
@@ -2741,7 +2779,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 216
+    topok 0
   ]
   node [
     id 343
@@ -2749,7 +2787,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 343
+    topok 0
   ]
   node [
     id 344
@@ -2757,7 +2795,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 359
+    topok 0
   ]
   node [
     id 345
@@ -2765,7 +2803,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 35
+    topok 0
   ]
   node [
     id 346
@@ -2773,7 +2811,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 205
+    topok 0
   ]
   node [
     id 347
@@ -2781,7 +2819,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 249
+    topok 0
   ]
   node [
     id 348
@@ -2789,7 +2827,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 4
+    topok 0
   ]
   node [
     id 349
@@ -2797,7 +2835,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 146
+    topok 0
   ]
   node [
     id 350
@@ -2805,7 +2843,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 179
+    topok 0
   ]
   node [
     id 351
@@ -2813,7 +2851,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 219
+    topok 0
   ]
   node [
     id 352
@@ -2821,7 +2859,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 291
+    topok 0
   ]
   node [
     id 353
@@ -2829,7 +2867,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 14
+    topok 0
   ]
   node [
     id 354
@@ -2837,7 +2875,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 151
+    topok 0
   ]
   node [
     id 355
@@ -2845,7 +2883,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 187
+    topok 0
   ]
   node [
     id 356
@@ -2853,7 +2891,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 59
+    topok 0
   ]
   node [
     id 357
@@ -2861,7 +2899,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 300
+    topok 0
   ]
   node [
     id 358
@@ -2869,7 +2907,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 172
+    topok 0
   ]
   node [
     id 359
@@ -2877,7 +2915,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 235
+    topok 0
   ]
   node [
     id 360
@@ -2885,7 +2923,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 89
+    topok 0
   ]
   node [
     id 361
@@ -2893,7 +2931,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 30
+    topok 0
   ]
   node [
     id 362
@@ -2901,7 +2939,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 215
+    topok 0
   ]
   node [
     id 363
@@ -2909,7 +2947,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 406
+    topok 2
+    labels 4
   ]
   node [
     id 364
@@ -2917,7 +2956,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 408
+    topok 0
   ]
   node [
     id 365
@@ -2925,7 +2964,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 315
+    topok 0
   ]
   node [
     id 366
@@ -2933,7 +2972,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 86
+    topok 0
   ]
   node [
     id 367
@@ -2941,7 +2980,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 383
+    topok 0
   ]
   node [
     id 368
@@ -2949,7 +2988,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 3
+    topok 0
   ]
   node [
     id 369
@@ -2957,7 +2996,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 223
+    topok 0
   ]
   node [
     id 370
@@ -2965,7 +3004,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 252
+    topok 0
   ]
   node [
     id 371
@@ -2973,7 +3012,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 207
+    topok 0
   ]
   node [
     id 372
@@ -2981,7 +3020,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 34
+    topok 0
   ]
   node [
     id 373
@@ -2989,7 +3028,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 147
+    topok 0
   ]
   node [
     id 374
@@ -2997,7 +3036,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 148
+    topok 0
   ]
   node [
     id 375
@@ -3005,7 +3044,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 212
+    topok 0
   ]
   node [
     id 376
@@ -3013,7 +3052,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 388
+    topok 0
   ]
   node [
     id 377
@@ -3021,7 +3060,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 105
+    topok 0
   ]
   node [
     id 378
@@ -3029,7 +3068,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 54
+    topok 0
   ]
   node [
     id 379
@@ -3037,7 +3076,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 347
+    topok 0
   ]
   node [
     id 380
@@ -3045,7 +3084,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 130
+    topok 0
   ]
   node [
     id 381
@@ -3053,7 +3092,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 99
+    topok 0
   ]
   node [
     id 382
@@ -3061,7 +3100,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 370
+    topok 0
   ]
   node [
     id 383
@@ -3069,7 +3108,8 @@ graph [
     global 0
     star 0
     arti 0
-    topo 393
+    topok 15
+    labels 4
   ]
   node [
     id 384
@@ -3077,7 +3117,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 149
+    topok 0
   ]
   node [
     id 385
@@ -3085,7 +3125,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 367
+    topok 0
+    labels 1
   ]
   node [
     id 386
@@ -3093,7 +3134,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 32
+    topok 0
   ]
   node [
     id 387
@@ -3101,7 +3142,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 39
+    topok 0
   ]
   node [
     id 388
@@ -3109,7 +3150,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 312
+    topok 0
   ]
   node [
     id 389
@@ -3117,7 +3158,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 362
+    topok 0
   ]
   node [
     id 390
@@ -3125,7 +3166,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 2
+    topok 0
   ]
   node [
     id 391
@@ -3133,7 +3174,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 381
+    topok 0
   ]
   node [
     id 392
@@ -3141,7 +3182,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 224
+    topok 0
   ]
   node [
     id 393
@@ -3149,7 +3190,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 330
+    topok 0
   ]
   node [
     id 394
@@ -3157,7 +3198,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 239
+    topok 0
   ]
   node [
     id 395
@@ -3165,7 +3206,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 259
+    topok 0
   ]
   node [
     id 396
@@ -3173,7 +3214,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 111
+    topok 0
   ]
   node [
     id 397
@@ -3181,7 +3222,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 181
+    topok 0
   ]
   node [
     id 398
@@ -3189,7 +3230,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 226
+    topok 0
   ]
   node [
     id 399
@@ -3197,7 +3238,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 284
+    topok 0
   ]
   node [
     id 400
@@ -3205,7 +3246,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 150
+    topok 0
   ]
   node [
     id 401
@@ -3213,7 +3254,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 38
+    topok 0
   ]
   node [
     id 402
@@ -3221,7 +3262,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 36
+    topok 0
   ]
   node [
     id 403
@@ -3229,7 +3270,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 1
+    topok 0
   ]
   node [
     id 404
@@ -3237,7 +3278,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 336
+    topok 0
   ]
   node [
     id 405
@@ -3245,7 +3286,8 @@ graph [
     global 1
     star 0
     arti 0
-    topo 162
+    topok 0
+    labels 1
   ]
   node [
     id 406
@@ -3253,7 +3295,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 211
+    topok 0
   ]
   node [
     id 407
@@ -3261,7 +3303,7 @@ graph [
     global 0
     star 0
     arti 0
-    topo 204
+    topok 0
   ]
   edge [
     source 0

@@ -4,8 +4,8 @@ import csv
 import os
 # G = nx.complete_graph
 
-path1 = "../GraphSampling/TestData/Facebook/facebook1684_partition1_node.csv"
-path2 = "../GraphSampling/TestData/Facebook/facebook1684_partition1_edge.csv"
+path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
+path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
 
 file = os.path.splitext(path1)
 filename, type = file
@@ -41,5 +41,5 @@ for i in a:
     rank += 1
     G.node[i]['rank'] = rank
 
-path = 'testMetis/metis_rank_{}_partition1.gml'.format(fn)
+path = 'testMetis/metis_rank_{}.gml'.format(fn)
 nx.write_gml(G, path)
