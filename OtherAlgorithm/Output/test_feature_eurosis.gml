@@ -2,137 +2,107 @@ graph [
   node [
     id 0
     label "344"
-    core 0
-    core1 0
-    global 0
-    cs 79.34907377078845
-    rank 3
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 1
     label "1602"
-    core 0
-    core1 0
-    global 0
-    cs 87.94327000525043
-    rank 1
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 2
     label "1351"
-    core 0
-    core1 0
-    global 0
-    cs 87.50196977922137
-    rank 2
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 3
     label "333"
-    core 0
-    core1 0
-    global 0
-    cs 60.72704386719565
-    rank 8
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 4
     label "1704"
-    core 0
-    core1 0
-    global 0
-    cs 64.11612982176071
-    rank 7
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 5
     label "242"
-    core 0
-    core1 0
-    global 0
-    cs 45.28917163897008
-    rank 19
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 6
     label "460"
-    core 0
-    core1 0
-    global 0
-    cs 66.64577920653753
-    rank 6
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 7
     label "639"
-    core 0
-    core1 0
-    global 0
-    cs 73.80631871775081
-    rank 4
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 8
     label "1244"
-    core 0
-    core1 0
-    global 0
-    cs 51.105351008028904
-    rank 12
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 9
     label "1645"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 46.12406043740464
-    rank 17
   ]
   node [
     id 10
     label "743"
-    core 0
-    core1 0
-    global 0
-    cs 49.11229810293692
-    rank 14
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 11
     label "936"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 43.73467641499657
-    rank 21
   ]
   node [
     id 12
     label "981"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 50.468560067151586
-    rank 13
   ]
   node [
     id 13
     label "151"
-    core 0
-    core1 0
-    global 0
-    cs 67.37272763106563
-    rank 5
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 14
     label "1570"
-    core 0
-    core1 0
-    global 0
-    cs 53.40042740485712
-    rank 11
+    core 2
+    core1 1
+    global 1
   ]
   node [
     id 15
@@ -140,17 +110,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 36.94206104410474
-    rank 33
   ]
   node [
     id 16
     label "1580"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 43.51024850684466
-    rank 22
   ]
   node [
     id 17
@@ -158,53 +124,41 @@ graph [
     core 0
     core1 0
     global 0
-    cs 48.16618577905298
-    rank 16
   ]
   node [
     id 18
     label "1021"
-    core 0
+    core 3
     core1 0
-    global 0
-    cs 53.48618041783846
-    rank 10
+    global 1
   ]
   node [
     id 19
     label "1588"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 48.92759368330481
-    rank 15
   ]
   node [
     id 20
     label "1191"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 41.48874710722991
-    rank 23
   ]
   node [
     id 21
     label "1650"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 34.192483216867586
-    rank 36
   ]
   node [
     id 22
     label "1104"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 39.885578346644465
-    rank 27
   ]
   node [
     id 23
@@ -212,26 +166,20 @@ graph [
     core 0
     core1 0
     global 0
-    cs 32.06210951222851
-    rank 42
   ]
   node [
     id 24
     label "1653"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 39.95892577236207
-    rank 25
   ]
   node [
     id 25
     label "1158"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 54.85123163544525
-    rank 9
   ]
   node [
     id 26
@@ -239,35 +187,27 @@ graph [
     core 0
     core1 0
     global 0
-    cs 31.262205343498515
-    rank 46
   ]
   node [
     id 27
     label "816"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 40.950044748935596
-    rank 24
   ]
   node [
     id 28
     label "1605"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 44.09585359272866
-    rank 20
   ]
   node [
     id 29
     label "1386"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 37.25636231178984
-    rank 32
   ]
   node [
     id 30
@@ -275,35 +215,27 @@ graph [
     core 0
     core1 0
     global 0
-    cs 39.7822329190545
-    rank 28
   ]
   node [
     id 31
     label "715"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 32.68434181170221
-    rank 39
   ]
   node [
     id 32
     label "930"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 28.802000611629747
-    rank 55
   ]
   node [
     id 33
     label "1614"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 39.943789098435246
-    rank 26
   ]
   node [
     id 34
@@ -311,35 +243,27 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.405509924334535
-    rank 115
   ]
   node [
     id 35
     label "481"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 46.10530675793153
-    rank 18
   ]
   node [
     id 36
     label "1652"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 37.82249614586598
-    rank 31
   ]
   node [
     id 37
     label "156"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 29.67673805959268
-    rank 51
   ]
   node [
     id 38
@@ -347,17 +271,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 33.7794278887637
-    rank 37
   ]
   node [
     id 39
     label "206"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 23.514115373612874
-    rank 90
   ]
   node [
     id 40
@@ -365,8 +285,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 32.0519778850347
-    rank 43
   ]
   node [
     id 41
@@ -374,17 +292,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 26.78154744072123
-    rank 67
   ]
   node [
     id 42
     label "1612"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 34.59535278763562
-    rank 35
   ]
   node [
     id 43
@@ -392,8 +306,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 32.682050375912304
-    rank 40
   ]
   node [
     id 44
@@ -401,8 +313,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 26.4783705532587
-    rank 68
   ]
   node [
     id 45
@@ -410,8 +320,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 23.008439598899074
-    rank 91
   ]
   node [
     id 46
@@ -419,8 +327,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.096794636572483
-    rank 87
   ]
   node [
     id 47
@@ -428,17 +334,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 31.190713475677285
-    rank 47
   ]
   node [
     id 48
     label "347"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 28.14226609325651
-    rank 57
   ]
   node [
     id 49
@@ -446,8 +348,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 32.29104484541711
-    rank 41
   ]
   node [
     id 50
@@ -455,17 +355,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 28.92235241867993
-    rank 54
   ]
   node [
     id 51
     label "1546"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 39.257707335744286
-    rank 29
   ]
   node [
     id 52
@@ -473,8 +369,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 30.655226180212743
-    rank 48
   ]
   node [
     id 53
@@ -482,17 +376,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.264875960415203
-    rank 85
   ]
   node [
     id 54
     label "1089"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 38.38691495833815
-    rank 30
   ]
   node [
     id 55
@@ -500,8 +390,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.205779723706627
-    rank 86
   ]
   node [
     id 56
@@ -509,8 +397,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 27.040416874155078
-    rank 63
   ]
   node [
     id 57
@@ -518,53 +404,41 @@ graph [
     core 0
     core1 0
     global 0
-    cs 23.55057928161483
-    rank 89
   ]
   node [
     id 58
     label "1603"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 34.75469069804631
-    rank 34
   ]
   node [
     id 59
     label "451"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 28.08318442812418
-    rank 58
   ]
   node [
     id 60
     label "668"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 25.80996618082567
-    rank 72
   ]
   node [
     id 61
     label "1212"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 28.998492729277928
-    rank 53
   ]
   node [
     id 62
     label "1581"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 22.059993339608614
-    rank 102
   ]
   node [
     id 63
@@ -572,8 +446,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 29.054176695459137
-    rank 52
   ]
   node [
     id 64
@@ -581,8 +453,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 30.42828678594308
-    rank 50
   ]
   node [
     id 65
@@ -590,8 +460,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 27.393872699008835
-    rank 61
   ]
   node [
     id 66
@@ -599,8 +467,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.85179741197383
-    rank 77
   ]
   node [
     id 67
@@ -608,17 +474,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 25.958000694212
-    rank 71
   ]
   node [
     id 68
     label "872"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 30.53866520356116
-    rank 49
   ]
   node [
     id 69
@@ -626,8 +488,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.11272492560462
-    rank 101
   ]
   node [
     id 70
@@ -635,8 +495,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.25800559741104
-    rank 108
   ]
   node [
     id 71
@@ -644,17 +502,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 27.71803561319083
-    rank 59
   ]
   node [
     id 72
     label "490"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 31.26669210470322
-    rank 45
   ]
   node [
     id 73
@@ -662,26 +516,20 @@ graph [
     core 0
     core1 0
     global 0
-    cs 25.653798757267605
-    rank 73
   ]
   node [
     id 74
     label "1065"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 26.232179029197805
-    rank 69
   ]
   node [
     id 75
     label "1169"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 27.034679469948564
-    rank 64
   ]
   node [
     id 76
@@ -689,8 +537,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.483353850999354
-    rank 97
   ]
   node [
     id 77
@@ -698,8 +544,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.497440629846427
-    rank 96
   ]
   node [
     id 78
@@ -707,17 +551,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.470762067450362
-    rank 81
   ]
   node [
     id 79
     label "672"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 31.573073818356868
-    rank 44
   ]
   node [
     id 80
@@ -725,8 +565,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.81136078083343
-    rank 120
   ]
   node [
     id 81
@@ -734,17 +572,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.27816304944346
-    rank 107
   ]
   node [
     id 82
     label "1202"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 33.21378636219985
-    rank 38
   ]
   node [
     id 83
@@ -752,8 +586,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 23.732077139312057
-    rank 88
   ]
   node [
     id 84
@@ -761,8 +593,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.896127831142145
-    rank 92
   ]
   node [
     id 85
@@ -770,8 +600,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.48946021198994
-    rank 80
   ]
   node [
     id 86
@@ -779,8 +607,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.949554747479695
-    rank 170
   ]
   node [
     id 87
@@ -788,8 +614,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 25.283688234072844
-    rank 76
   ]
   node [
     id 88
@@ -797,17 +621,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.052592134102275
-    rank 209
   ]
   node [
     id 89
     label "747"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 27.381007292362835
-    rank 62
   ]
   node [
     id 90
@@ -815,8 +635,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.280781319829774
-    rank 130
   ]
   node [
     id 91
@@ -824,8 +642,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 25.501183666767623
-    rank 75
   ]
   node [
     id 92
@@ -833,8 +649,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.598957657184826
-    rank 126
   ]
   node [
     id 93
@@ -842,8 +656,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 26.875208846446295
-    rank 65
   ]
   node [
     id 94
@@ -851,26 +663,20 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.74460238733849
-    rank 94
   ]
   node [
     id 95
     label "313"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 17.922826628522166
-    rank 155
   ]
   node [
     id 96
     label "741"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 24.274227297143618
-    rank 84
   ]
   node [
     id 97
@@ -878,35 +684,27 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.00618390712818
-    rank 103
   ]
   node [
     id 98
     label "1542"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 28.291788545477228
-    rank 56
   ]
   node [
     id 99
     label "1617"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 26.07807718427883
-    rank 70
   ]
   node [
     id 100
     label "1626"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 24.594335791666477
-    rank 79
   ]
   node [
     id 101
@@ -914,8 +712,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.85923468274819
-    rank 172
   ]
   node [
     id 102
@@ -923,8 +719,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.41408686044193
-    rank 82
   ]
   node [
     id 103
@@ -932,17 +726,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.03241735284646
-    rank 153
   ]
   node [
     id 104
     label "1271"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 27.4856937808444
-    rank 60
   ]
   node [
     id 105
@@ -950,8 +740,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.290912591953123
-    rank 98
   ]
   node [
     id 106
@@ -959,8 +747,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.289381860622566
-    rank 146
   ]
   node [
     id 107
@@ -968,8 +754,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.88254435469001
-    rank 93
   ]
   node [
     id 108
@@ -977,8 +761,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.053789540097267
-    rank 118
   ]
   node [
     id 109
@@ -986,8 +768,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.253437123742145
-    rank 109
   ]
   node [
     id 110
@@ -995,8 +775,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.295213008968716
-    rank 106
   ]
   node [
     id 111
@@ -1004,8 +782,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.80301079893822
-    rank 174
   ]
   node [
     id 112
@@ -1013,8 +789,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.1404068097833
-    rank 184
   ]
   node [
     id 113
@@ -1022,8 +796,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.666154565939815
-    rank 194
   ]
   node [
     id 114
@@ -1031,8 +803,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 26.796739467056177
-    rank 66
   ]
   node [
     id 115
@@ -1040,17 +810,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 22.239714068571903
-    rank 99
   ]
   node [
     id 116
     label "243"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 22.215318117055936
-    rank 100
   ]
   node [
     id 117
@@ -1058,8 +824,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.46288188047069
-    rank 104
   ]
   node [
     id 118
@@ -1067,8 +831,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.7937059766665
-    rank 158
   ]
   node [
     id 119
@@ -1076,8 +838,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.78397151340066
-    rank 112
   ]
   node [
     id 120
@@ -1085,8 +845,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.313344005776763
-    rank 179
   ]
   node [
     id 121
@@ -1094,8 +852,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.93338603911202
-    rank 171
   ]
   node [
     id 122
@@ -1103,8 +859,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.74687249183899
-    rank 113
   ]
   node [
     id 123
@@ -1112,8 +866,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.824189275240336
-    rank 119
   ]
   node [
     id 124
@@ -1121,8 +873,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.026790327622926
-    rank 110
   ]
   node [
     id 125
@@ -1130,26 +880,20 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.039797391581857
-    rank 152
   ]
   node [
     id 126
     label "1250"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 25.536095700591652
-    rank 74
   ]
   node [
     id 127
     label "1609"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 22.605519227257968
-    rank 95
   ]
   node [
     id 128
@@ -1157,17 +901,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.553470342100695
-    rank 128
   ]
   node [
     id 129
     label "209"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 24.768017062414174
-    rank 78
   ]
   node [
     id 130
@@ -1175,8 +915,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.2502664364674
-    rank 131
   ]
   node [
     id 131
@@ -1184,8 +922,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.240171155689296
-    rank 132
   ]
   node [
     id 132
@@ -1193,8 +929,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.661564382821936
-    rank 141
   ]
   node [
     id 133
@@ -1202,8 +936,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 24.278944311483116
-    rank 83
   ]
   node [
     id 134
@@ -1211,8 +943,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.081340477244133
-    rank 149
   ]
   node [
     id 135
@@ -1220,17 +950,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.706593167804588
-    rank 159
   ]
   node [
     id 136
     label "1569"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 20.919665049599338
-    rank 111
   ]
   node [
     id 137
@@ -1238,8 +964,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.391960397699656
-    rank 225
   ]
   node [
     id 138
@@ -1247,8 +971,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.374843035584886
-    rank 226
   ]
   node [
     id 139
@@ -1256,8 +978,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.2243384339366
-    rank 116
   ]
   node [
     id 140
@@ -1265,8 +985,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.18525959276644
-    rank 204
   ]
   node [
     id 141
@@ -1274,8 +992,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.544049013967687
-    rank 142
   ]
   node [
     id 142
@@ -1283,8 +999,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.99289876388526
-    rank 136
   ]
   node [
     id 143
@@ -1292,8 +1006,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.002690906410297
-    rank 168
   ]
   node [
     id 144
@@ -1301,8 +1013,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.502928203059945
-    rank 129
   ]
   node [
     id 145
@@ -1310,8 +1020,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.622301766844082
-    rank 114
   ]
   node [
     id 146
@@ -1319,8 +1027,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.364559713513625
-    rank 145
   ]
   node [
     id 147
@@ -1328,8 +1034,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.672172785653743
-    rank 140
   ]
   node [
     id 148
@@ -1337,8 +1041,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.471142766241734
-    rank 143
   ]
   node [
     id 149
@@ -1346,17 +1048,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.417531700542458
-    rank 163
   ]
   node [
     id 150
     label "310"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 13.694357106978911
-    rank 241
   ]
   node [
     id 151
@@ -1364,8 +1062,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.797691812612552
-    rank 192
   ]
   node [
     id 152
@@ -1373,8 +1069,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.88627523627524
-    rank 137
   ]
   node [
     id 153
@@ -1382,8 +1076,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.477933558164388
-    rank 222
   ]
   node [
     id 154
@@ -1391,17 +1083,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.014092402222214
-    rank 167
   ]
   node [
     id 155
     label "1622"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 19.602554545317293
-    rank 124
   ]
   node [
     id 156
@@ -1409,8 +1097,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.571198102892698
-    rank 127
   ]
   node [
     id 157
@@ -1418,17 +1104,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.560958360129126
-    rank 220
   ]
   node [
     id 158
     label "537"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 19.63707717595402
-    rank 123
   ]
   node [
     id 159
@@ -1436,8 +1118,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.328107216165638
-    rank 199
   ]
   node [
     id 160
@@ -1445,8 +1125,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.227961380506695
-    rank 133
   ]
   node [
     id 161
@@ -1454,8 +1132,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.235270896223074
-    rank 147
   ]
   node [
     id 162
@@ -1463,8 +1139,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.146722428030568
-    rank 183
   ]
   node [
     id 163
@@ -1472,8 +1146,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.554487367034326
-    rank 177
   ]
   node [
     id 164
@@ -1481,8 +1153,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 21.3613293821978
-    rank 105
   ]
   node [
     id 165
@@ -1490,8 +1160,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.337961043805098
-    rank 228
   ]
   node [
     id 166
@@ -1499,8 +1167,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.502626984984545
-    rank 178
   ]
   node [
     id 167
@@ -1508,17 +1174,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.16895532716911
-    rank 148
   ]
   node [
     id 168
     label "1186"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 14.985566052865387
-    rank 210
   ]
   node [
     id 169
@@ -1526,8 +1188,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.183330273928405
-    rank 180
   ]
   node [
     id 170
@@ -1535,8 +1195,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.707766724624438
-    rank 122
   ]
   node [
     id 171
@@ -1544,17 +1202,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.41498978420331
-    rank 144
   ]
   node [
     id 172
     label "1655"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 19.752964910279616
-    rank 121
   ]
   node [
     id 173
@@ -1562,8 +1216,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.170392012622465
-    rank 165
   ]
   node [
     id 174
@@ -1571,8 +1223,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.136747911199244
-    rank 185
   ]
   node [
     id 175
@@ -1580,8 +1230,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.311154707808672
-    rank 200
   ]
   node [
     id 176
@@ -1589,8 +1237,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.991701903172585
-    rank 232
   ]
   node [
     id 177
@@ -1598,8 +1244,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.348921890645912
-    rank 227
   ]
   node [
     id 178
@@ -1607,8 +1251,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.020391884366774
-    rank 135
   ]
   node [
     id 179
@@ -1616,8 +1258,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.177776109205162
-    rank 181
   ]
   node [
     id 180
@@ -1625,8 +1265,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.187182170875381
-    rank 230
   ]
   node [
     id 181
@@ -1634,8 +1272,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 19.60007299953571
-    rank 125
   ]
   node [
     id 182
@@ -1643,8 +1279,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.571140931707786
-    rank 313
   ]
   node [
     id 183
@@ -1652,8 +1286,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.454462149442723
-    rank 162
   ]
   node [
     id 184
@@ -1661,8 +1293,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.726644672272608
-    rank 193
   ]
   node [
     id 185
@@ -1670,8 +1300,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.059556781344632
-    rank 151
   ]
   node [
     id 186
@@ -1679,8 +1307,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.021772735082696
-    rank 166
   ]
   node [
     id 187
@@ -1688,17 +1314,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.443376660247054
-    rank 223
   ]
   node [
     id 188
     label "1749"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 19.07739016609591
-    rank 134
   ]
   node [
     id 189
@@ -1706,8 +1328,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.680669218176835
-    rank 160
   ]
   node [
     id 190
@@ -1715,8 +1335,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.714803212404846
-    rank 139
   ]
   node [
     id 191
@@ -1724,8 +1342,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.939242937744188
-    rank 233
   ]
   node [
     id 192
@@ -1733,8 +1349,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.620410645340126
-    rank 161
   ]
   node [
     id 193
@@ -1742,8 +1356,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.560357657350767
-    rank 176
   ]
   node [
     id 194
@@ -1751,8 +1363,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 18.81801598643719
-    rank 138
   ]
   node [
     id 195
@@ -1760,8 +1370,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.157033850122293
-    rank 276
   ]
   node [
     id 196
@@ -1769,8 +1377,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.79780405713065
-    rank 157
   ]
   node [
     id 197
@@ -1778,8 +1384,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.193008396961787
-    rank 203
   ]
   node [
     id 198
@@ -1787,8 +1391,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.17122276469297
-    rank 182
   ]
   node [
     id 199
@@ -1796,8 +1398,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.81934411134166
-    rank 173
   ]
   node [
     id 200
@@ -1805,17 +1405,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.826364571385517
-    rank 190
   ]
   node [
     id 201
     label "1245"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 18.078632989971606
-    rank 150
   ]
   node [
     id 202
@@ -1823,8 +1419,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 20.153874095226918
-    rank 117
   ]
   node [
     id 203
@@ -1832,8 +1426,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.127800583443515
-    rank 254
   ]
   node [
     id 204
@@ -1841,8 +1433,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.246437723286572
-    rank 164
   ]
   node [
     id 205
@@ -1850,8 +1440,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 17.981834460258337
-    rank 154
   ]
   node [
     id 206
@@ -1859,17 +1447,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.819404767899336
-    rank 214
   ]
   node [
     id 207
     label "510"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 15.80554114507066
-    rank 191
   ]
   node [
     id 208
@@ -1877,8 +1461,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.357227238848754
-    rank 269
   ]
   node [
     id 209
@@ -1886,8 +1468,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.082922522146637
-    rank 255
   ]
   node [
     id 210
@@ -1895,8 +1475,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.390345717767683
-    rank 197
   ]
   node [
     id 211
@@ -1904,8 +1482,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.203851094865065
-    rank 251
   ]
   node [
     id 212
@@ -1913,8 +1489,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.336752144947788
-    rank 198
   ]
   node [
     id 213
@@ -1922,8 +1496,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.05326560404009
-    rank 186
   ]
   node [
     id 214
@@ -1931,8 +1503,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.897922248874146
-    rank 212
   ]
   node [
     id 215
@@ -1940,8 +1510,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.709336491487285
-    rank 240
   ]
   node [
     id 216
@@ -1949,17 +1517,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.541053918674155
-    rank 262
   ]
   node [
     id 217
     label "657"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 17.91877638565242
-    rank 156
   ]
   node [
     id 218
@@ -1967,8 +1531,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.88131669202292
-    rank 189
   ]
   node [
     id 219
@@ -1976,8 +1538,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.251267978590562
-    rank 201
   ]
   node [
     id 220
@@ -1985,8 +1545,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 16.574200850766825
-    rank 175
   ]
   node [
     id 221
@@ -1994,8 +1552,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.508197234666275
-    rank 244
   ]
   node [
     id 222
@@ -2003,8 +1559,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.917365258353696
-    rank 234
   ]
   node [
     id 223
@@ -2012,8 +1566,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.32153068931568
-    rank 229
   ]
   node [
     id 224
@@ -2021,8 +1573,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.168846799434718
-    rank 205
   ]
   node [
     id 225
@@ -2030,8 +1580,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.958974266488474
-    rank 188
   ]
   node [
     id 226
@@ -2039,8 +1587,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.877909102577496
-    rank 237
   ]
   node [
     id 227
@@ -2048,8 +1594,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.491395194891355
-    rank 292
   ]
   node [
     id 228
@@ -2057,8 +1601,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.392848921067614
-    rank 247
   ]
   node [
     id 229
@@ -2066,8 +1608,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.142467202776194
-    rank 323
   ]
   node [
     id 230
@@ -2075,8 +1615,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.198457697176892
-    rank 297
   ]
   node [
     id 231
@@ -2084,8 +1622,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.697092341149176
-    rank 286
   ]
   node [
     id 232
@@ -2093,8 +1629,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.105205337241914
-    rank 207
   ]
   node [
     id 233
@@ -2102,8 +1636,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.778846253793002
-    rank 215
   ]
   node [
     id 234
@@ -2111,8 +1643,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.607266374597316
-    rank 195
   ]
   node [
     id 235
@@ -2120,8 +1650,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.291482477933975
-    rank 405
   ]
   node [
     id 236
@@ -2129,8 +1657,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.77230105062938
-    rank 216
   ]
   node [
     id 237
@@ -2138,8 +1664,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.961113787652383
-    rank 187
   ]
   node [
     id 238
@@ -2147,8 +1671,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.957342290066777
-    rank 211
   ]
   node [
     id 239
@@ -2156,8 +1678,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.524717144784823
-    rank 243
   ]
   node [
     id 240
@@ -2165,8 +1685,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.014507621918858
-    rank 259
   ]
   node [
     id 241
@@ -2174,8 +1692,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.155641873897423
-    rank 206
   ]
   node [
     id 242
@@ -2183,17 +1699,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.986461865447934
-    rank 336
   ]
   node [
     id 243
     label "1330"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 16.964527584064985
-    rank 169
   ]
   node [
     id 244
@@ -2201,8 +1713,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.716542076848414
-    rank 284
   ]
   node [
     id 245
@@ -2210,8 +1720,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.30965039925183
-    rank 319
   ]
   node [
     id 246
@@ -2219,8 +1727,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.321258255953943
-    rank 271
   ]
   node [
     id 247
@@ -2228,8 +1734,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.393554981157973
-    rank 268
   ]
   node [
     id 248
@@ -2237,8 +1741,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.758314299736842
-    rank 217
   ]
   node [
     id 249
@@ -2246,8 +1748,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.751485613312713
-    rank 218
   ]
   node [
     id 250
@@ -2255,8 +1755,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.45755495279034
-    rank 265
   ]
   node [
     id 251
@@ -2264,8 +1762,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.090907718588118
-    rank 208
   ]
   node [
     id 252
@@ -2273,8 +1769,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.310738059879494
-    rank 250
   ]
   node [
     id 253
@@ -2282,8 +1776,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.539493950515773
-    rank 350
   ]
   node [
     id 254
@@ -2291,8 +1783,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.040191092615377
-    rank 329
   ]
   node [
     id 255
@@ -2300,8 +1790,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.048854066756627
-    rank 258
   ]
   node [
     id 256
@@ -2309,8 +1797,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.639273506233803
-    rank 346
   ]
   node [
     id 257
@@ -2318,8 +1804,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.158648483912456
-    rank 231
   ]
   node [
     id 258
@@ -2327,8 +1811,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.472367482502376
-    rank 196
   ]
   node [
     id 259
@@ -2336,8 +1818,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.605934758796234
-    rank 287
   ]
   node [
     id 260
@@ -2345,8 +1825,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.547327007952324
-    rank 221
   ]
   node [
     id 261
@@ -2354,8 +1832,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.51798099940723
-    rank 263
   ]
   node [
     id 262
@@ -2363,8 +1839,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.99891076911009
-    rank 303
   ]
   node [
     id 263
@@ -2372,8 +1846,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.841018120166726
-    rank 378
   ]
   node [
     id 264
@@ -2381,8 +1853,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.912458644615032
-    rank 235
   ]
   node [
     id 265
@@ -2390,8 +1860,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.577778104633564
-    rank 261
   ]
   node [
     id 266
@@ -2399,8 +1867,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.677911402704373
-    rank 345
   ]
   node [
     id 267
@@ -2408,8 +1874,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.506453333294964
-    rank 264
   ]
   node [
     id 268
@@ -2417,8 +1881,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.342384134442893
-    rank 270
   ]
   node [
     id 269
@@ -2426,8 +1888,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 15.21296104925674
-    rank 202
   ]
   node [
     id 270
@@ -2435,8 +1895,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.88193454842649
-    rank 236
   ]
   node [
     id 271
@@ -2444,8 +1902,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.699168226589101
-    rank 309
   ]
   node [
     id 272
@@ -2453,8 +1909,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.341255170272666
-    rank 317
   ]
   node [
     id 273
@@ -2462,8 +1916,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.788591758627142
-    rank 239
   ]
   node [
     id 274
@@ -2471,8 +1923,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.715238193782067
-    rank 219
   ]
   node [
     id 275
@@ -2480,8 +1930,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.23876456135429
-    rank 273
   ]
   node [
     id 276
@@ -2489,8 +1937,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.134721551721519
-    rank 252
   ]
   node [
     id 277
@@ -2498,8 +1944,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.384926588148232
-    rank 248
   ]
   node [
     id 278
@@ -2507,8 +1951,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.429806951578813
-    rank 246
   ]
   node [
     id 279
@@ -2516,8 +1958,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.804668073682606
-    rank 238
   ]
   node [
     id 280
@@ -2525,8 +1965,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.706870563680608
-    rank 285
   ]
   node [
     id 281
@@ -2534,8 +1972,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.056017634741359
-    rank 277
   ]
   node [
     id 282
@@ -2543,8 +1979,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.782479073731942
-    rank 282
   ]
   node [
     id 283
@@ -2552,8 +1986,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.07154420889651
-    rank 327
   ]
   node [
     id 284
@@ -2561,8 +1993,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.013692948651025
-    rank 278
   ]
   node [
     id 285
@@ -2570,8 +2000,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.265761218896749
-    rank 321
   ]
   node [
     id 286
@@ -2579,8 +2007,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.358659836636782
-    rank 249
   ]
   node [
     id 287
@@ -2588,8 +2014,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.865954727653419
-    rank 376
   ]
   node [
     id 288
@@ -2597,8 +2021,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.13033475710121
-    rank 298
   ]
   node [
     id 289
@@ -2606,8 +2028,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.075390442845661
-    rank 256
   ]
   node [
     id 290
@@ -2615,8 +2035,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.981368255621287
-    rank 337
   ]
   node [
     id 291
@@ -2624,8 +2042,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 14.434334007589767
-    rank 224
   ]
   node [
     id 292
@@ -2633,17 +2049,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.574761109902314
-    rank 242
   ]
   node [
     id 293
     label "1020"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 14.894697052045288
-    rank 213
   ]
   node [
     id 294
@@ -2651,8 +2063,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.984018738237276
-    rank 279
   ]
   node [
     id 295
@@ -2660,8 +2070,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.065511072340064
-    rank 328
   ]
   node [
     id 296
@@ -2669,8 +2077,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.050015836438273
-    rank 257
   ]
   node [
     id 297
@@ -2678,8 +2084,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.101376168186512
-    rank 326
   ]
   node [
     id 298
@@ -2687,8 +2091,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.78772750123065
-    rank 341
   ]
   node [
     id 299
@@ -2696,8 +2098,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.825607169425334
-    rank 306
   ]
   node [
     id 300
@@ -2705,8 +2105,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.259924525026651
-    rank 272
   ]
   node [
     id 301
@@ -2714,8 +2112,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.918879327735402
-    rank 280
   ]
   node [
     id 302
@@ -2723,8 +2119,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 13.133949350302881
-    rank 253
   ]
   node [
     id 303
@@ -2732,8 +2126,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.766178775319638
-    rank 307
   ]
   node [
     id 304
@@ -2741,8 +2133,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.364841694399317
-    rank 293
   ]
   node [
     id 305
@@ -2750,8 +2140,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.770374949544374
-    rank 283
   ]
   node [
     id 306
@@ -2759,17 +2147,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.227097591606404
-    rank 274
   ]
   node [
     id 307
     label "1331"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 13.47004467222585
-    rank 245
   ]
   node [
     id 308
@@ -2777,8 +2161,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.594330466489518
-    rank 312
   ]
   node [
     id 309
@@ -2786,8 +2168,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.507321109359784
-    rank 290
   ]
   node [
     id 310
@@ -2795,8 +2175,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.372623423158352
-    rank 355
   ]
   node [
     id 311
@@ -2804,8 +2182,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.168575614357644
-    rank 365
   ]
   node [
     id 312
@@ -2813,8 +2189,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.715639779154785
-    rank 386
   ]
   node [
     id 313
@@ -2822,8 +2196,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.82448009506833
-    rank 480
   ]
   node [
     id 314
@@ -2831,8 +2203,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.024475524475525
-    rank 666
   ]
   node [
     id 315
@@ -2840,8 +2210,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.157187908730496
-    rank 453
   ]
   node [
     id 316
@@ -2849,8 +2217,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.992481648703894
-    rank 304
   ]
   node [
     id 317
@@ -2858,8 +2224,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.004499651352027
-    rank 370
   ]
   node [
     id 318
@@ -2867,8 +2231,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.791230734923039
-    rank 281
   ]
   node [
     id 319
@@ -2876,8 +2238,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.028859058808886
-    rank 332
   ]
   node [
     id 320
@@ -2885,8 +2245,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.31643212165277
-    rank 295
   ]
   node [
     id 321
@@ -2894,8 +2252,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.120366205802313
-    rank 324
   ]
   node [
     id 322
@@ -2903,8 +2259,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.03789198038954
-    rank 330
   ]
   node [
     id 323
@@ -2912,8 +2266,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.234143568159753
-    rank 322
   ]
   node [
     id 324
@@ -2921,8 +2273,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.737614214365783
-    rank 308
   ]
   node [
     id 325
@@ -2930,8 +2280,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.40887743693229
-    rank 267
   ]
   node [
     id 326
@@ -2939,8 +2287,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.36199346630381
-    rank 400
   ]
   node [
     id 327
@@ -2948,8 +2294,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.339489792911143
-    rank 356
   ]
   node [
     id 328
@@ -2957,8 +2301,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.673295408295408
-    rank 311
   ]
   node [
     id 329
@@ -2966,8 +2308,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.991676162590824
-    rank 260
   ]
   node [
     id 330
@@ -2975,8 +2315,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.941121895281771
-    rank 305
   ]
   node [
     id 331
@@ -2984,8 +2322,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.100130685207958
-    rank 301
   ]
   node [
     id 332
@@ -2993,17 +2329,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.243236271515705
-    rank 360
   ]
   node [
     id 333
     label "1571"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 12.425190113200493
-    rank 266
   ]
   node [
     id 334
@@ -3011,8 +2343,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 12.214123556929328
-    rank 275
   ]
   node [
     id 335
@@ -3020,8 +2350,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.496298299526822
-    rank 314
   ]
   node [
     id 336
@@ -3029,8 +2357,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.551347695192899
-    rank 348
   ]
   node [
     id 337
@@ -3038,8 +2364,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.247566649037238
-    rank 517
   ]
   node [
     id 338
@@ -3047,8 +2371,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.678399278631037
-    rank 388
   ]
   node [
     id 339
@@ -3056,8 +2378,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.656643356643357
-    rank 607
   ]
   node [
     id 340
@@ -3065,8 +2385,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.033250599629465
-    rank 331
   ]
   node [
     id 341
@@ -3074,17 +2392,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.839829778065072
-    rank 379
   ]
   node [
     id 342
     label "522"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 11.124482148379268
-    rank 299
   ]
   node [
     id 343
@@ -3092,8 +2406,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.317762894465316
-    rank 294
   ]
   node [
     id 344
@@ -3101,8 +2413,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.458676204501801
-    rank 351
   ]
   node [
     id 345
@@ -3110,8 +2420,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.048174085688656
-    rank 302
   ]
   node [
     id 346
@@ -3119,8 +2427,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.072680953897756
-    rank 461
   ]
   node [
     id 347
@@ -3128,8 +2434,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.60357835348761
-    rank 389
   ]
   node [
     id 348
@@ -3137,8 +2441,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.432746914307714
-    rank 352
   ]
   node [
     id 349
@@ -3146,8 +2448,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.10332694045569
-    rank 325
   ]
   node [
     id 350
@@ -3155,8 +2455,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.01819300375989
-    rank 334
   ]
   node [
     id 351
@@ -3164,8 +2462,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.271964392236036
-    rank 359
   ]
   node [
     id 352
@@ -3173,8 +2469,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.499075369470106
-    rank 291
   ]
   node [
     id 353
@@ -3182,8 +2476,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.696598236435962
-    rank 310
   ]
   node [
     id 354
@@ -3191,8 +2483,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.4861823361823365
-    rank 563
   ]
   node [
     id 355
@@ -3200,8 +2490,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.11662104643047
-    rank 300
   ]
   node [
     id 356
@@ -3209,17 +2497,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.209586934456986
-    rank 363
   ]
   node [
     id 357
     label "373"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 11.566731017297956
-    rank 288
   ]
   node [
     id 358
@@ -3227,8 +2511,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.417194563049359
-    rank 395
   ]
   node [
     id 359
@@ -3236,8 +2518,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.491533793004382
-    rank 437
   ]
   node [
     id 360
@@ -3245,8 +2525,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.518864748088353
-    rank 289
   ]
   node [
     id 361
@@ -3254,8 +2532,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.94526239749162
-    rank 373
   ]
   node [
     id 362
@@ -3263,8 +2539,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.853898637501077
-    rank 377
   ]
   node [
     id 363
@@ -3272,8 +2546,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.206742894786373
-    rank 364
   ]
   node [
     id 364
@@ -3281,8 +2553,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.587556621128956
-    rank 390
   ]
   node [
     id 365
@@ -3290,8 +2560,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.541062044806374
-    rank 391
   ]
   node [
     id 366
@@ -3299,8 +2567,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.710493822608713
-    rank 344
   ]
   node [
     id 367
@@ -3308,8 +2574,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.38159780247042
-    rank 316
   ]
   node [
     id 368
@@ -3317,8 +2581,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.399962553387947
-    rank 397
   ]
   node [
     id 369
@@ -3326,8 +2588,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.230634833003254
-    rank 362
   ]
   node [
     id 370
@@ -3335,8 +2595,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.35003543761256
-    rank 403
   ]
   node [
     id 371
@@ -3344,8 +2602,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.00663683988433
-    rank 414
   ]
   node [
     id 372
@@ -3353,8 +2609,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.759205069124423
-    rank 384
   ]
   node [
     id 373
@@ -3362,8 +2616,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.487113188595874
-    rank 315
   ]
   node [
     id 374
@@ -3371,8 +2623,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.08968883081688
-    rank 460
   ]
   node [
     id 375
@@ -3380,8 +2630,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.752130452139859
-    rank 342
   ]
   node [
     id 376
@@ -3389,8 +2637,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 11.22655655102634
-    rank 296
   ]
   node [
     id 377
@@ -3398,8 +2644,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.01396885288706
-    rank 335
   ]
   node [
     id 378
@@ -3407,8 +2651,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.499761244371786
-    rank 392
   ]
   node [
     id 379
@@ -3416,8 +2658,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.61350887500773
-    rank 501
   ]
   node [
     id 380
@@ -3425,8 +2665,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.438649463127509
-    rank 440
   ]
   node [
     id 381
@@ -3434,8 +2672,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.523065170123994
-    rank 436
   ]
   node [
     id 382
@@ -3443,8 +2679,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.421829121941077
-    rank 354
   ]
   node [
     id 383
@@ -3452,8 +2686,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.019968593498007
-    rank 333
   ]
   node [
     id 384
@@ -3461,8 +2693,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.912472030893083
-    rank 338
   ]
   node [
     id 385
@@ -3470,8 +2700,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.808535448899226
-    rank 340
   ]
   node [
     id 386
@@ -3479,8 +2707,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.754695486050739
-    rank 385
   ]
   node [
     id 387
@@ -3488,8 +2714,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 10.28877397755174
-    rank 320
   ]
   node [
     id 388
@@ -3497,8 +2721,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.752429886927365
-    rank 424
   ]
   node [
     id 389
@@ -3506,8 +2728,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.990819770298653
-    rank 372
   ]
   node [
     id 390
@@ -3515,8 +2735,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.950378932734411
-    rank 418
   ]
   node [
     id 391
@@ -3524,8 +2742,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.482091503267974
-    rank 393
   ]
   node [
     id 392
@@ -3533,8 +2749,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.240847784835857
-    rank 361
   ]
   node [
     id 393
@@ -3542,8 +2756,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.91436431741155
-    rank 375
   ]
   node [
     id 394
@@ -3551,8 +2763,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.653784450843274
-    rank 828
   ]
   node [
     id 395
@@ -3560,8 +2770,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.922606690657574
-    rank 374
   ]
   node [
     id 396
@@ -3569,8 +2777,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.092745452053206
-    rank 367
   ]
   node [
     id 397
@@ -3578,8 +2784,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.904058222479275
-    rank 683
   ]
   node [
     id 398
@@ -3587,8 +2791,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.333631640690463
-    rank 574
   ]
   node [
     id 399
@@ -3596,8 +2798,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.067122832835596
-    rank 368
   ]
   node [
     id 400
@@ -3605,8 +2805,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.269536113816612
-    rank 447
   ]
   node [
     id 401
@@ -3614,8 +2812,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.542218610628293
-    rank 349
   ]
   node [
     id 402
@@ -3623,8 +2819,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.381604335505696
-    rank 399
   ]
   node [
     id 403
@@ -3632,8 +2826,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.94768622723404
-    rank 472
   ]
   node [
     id 404
@@ -3641,8 +2833,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.165296428962948
-    rank 366
   ]
   node [
     id 405
@@ -3650,8 +2840,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.979693782230445
-    rank 417
   ]
   node [
     id 406
@@ -3659,8 +2847,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.196119700365971
-    rank 411
   ]
   node [
     id 407
@@ -3668,8 +2854,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.4286323292894
-    rank 353
   ]
   node [
     id 408
@@ -3677,8 +2861,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.338831854204097
-    rank 357
   ]
   node [
     id 409
@@ -3686,8 +2868,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.886000389811643
-    rank 420
   ]
   node [
     id 410
@@ -3695,17 +2875,13 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.040873436122595
-    rank 413
   ]
   node [
     id 411
     label "589"
-    core 0
-    core1 0
+    core 1
+    core1 1
     global 0
-    cs 10.318147493037264
-    rank 318
   ]
   node [
     id 412
@@ -3713,8 +2889,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.929871152239573
-    rank 540
   ]
   node [
     id 413
@@ -3722,8 +2896,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.996983490365842
-    rank 371
   ]
   node [
     id 414
@@ -3731,8 +2903,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.308723129489692
-    rank 358
   ]
   node [
     id 415
@@ -3740,8 +2910,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.3358799397121315
-    rank 443
   ]
   node [
     id 416
@@ -3749,8 +2917,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.559530261969287
-    rank 504
   ]
   node [
     id 417
@@ -3758,8 +2924,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.768003378280035
-    rank 486
   ]
   node [
     id 418
@@ -3767,8 +2931,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.413735958221219
-    rank 396
   ]
   node [
     id 419
@@ -3776,8 +2938,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.467174528761749
-    rank 394
   ]
   node [
     id 420
@@ -3785,8 +2945,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.735679049954856
-    rank 425
   ]
   node [
     id 421
@@ -3794,8 +2952,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.453246144302718
-    rank 439
   ]
   node [
     id 422
@@ -3803,8 +2959,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.663819835254126
-    rank 430
   ]
   node [
     id 423
@@ -3812,8 +2966,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.739022209674384
-    rank 489
   ]
   node [
     id 424
@@ -3821,8 +2973,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.490077852856422
-    rank 438
   ]
   node [
     id 425
@@ -3830,8 +2980,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.701332754079609
-    rank 491
   ]
   node [
     id 426
@@ -3839,8 +2987,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.0989119703825585
-    rank 457
   ]
   node [
     id 427
@@ -3848,8 +2994,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.867250169185653
-    rank 477
   ]
   node [
     id 428
@@ -3857,8 +3001,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.22652967444297
-    rank 409
   ]
   node [
     id 429
@@ -3866,8 +3008,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.600862534911434
-    rank 347
   ]
   node [
     id 430
@@ -3875,8 +3015,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.28556619795537
-    rank 407
   ]
   node [
     id 431
@@ -3884,8 +3022,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.030323238180285
-    rank 369
   ]
   node [
     id 432
@@ -3893,8 +3029,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.811325341325341
-    rank 381
   ]
   node [
     id 433
@@ -3902,8 +3036,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.766824585584214
-    rank 383
   ]
   node [
     id 434
@@ -3911,8 +3043,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.715047998203739
-    rank 343
   ]
   node [
     id 435
@@ -3920,8 +3050,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 9.88628868881198
-    rank 339
   ]
   node [
     id 436
@@ -3929,8 +3057,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.216096135047747
-    rank 410
   ]
   node [
     id 437
@@ -3938,8 +3064,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.806569600111253
-    rank 481
   ]
   node [
     id 438
@@ -3947,8 +3071,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1233058608058606
-    rank 776
   ]
   node [
     id 439
@@ -3956,8 +3078,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.711510628674808
-    rank 697
   ]
   node [
     id 440
@@ -3965,8 +3085,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.657697449609215
-    rank 552
   ]
   node [
     id 441
@@ -3974,8 +3092,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.7536656891495603
-    rank 693
   ]
   node [
     id 442
@@ -3983,8 +3099,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.418981018981019
-    rank 872
   ]
   node [
     id 443
@@ -3992,8 +3106,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.2494375994376
-    rank 408
   ]
   node [
     id 444
@@ -4001,8 +3113,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.090091575091575
-    rank 525
   ]
   node [
     id 445
@@ -4010,8 +3120,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.686352542313699
-    rank 494
   ]
   node [
     id 446
@@ -4019,8 +3127,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.999478538702676
-    rank 415
   ]
   node [
     id 447
@@ -4028,8 +3134,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.855458571219441
-    rank 479
   ]
   node [
     id 448
@@ -4037,8 +3141,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.973364511127956
-    rank 470
   ]
   node [
     id 449
@@ -4046,8 +3148,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.171734264454028
-    rank 451
   ]
   node [
     id 450
@@ -4055,8 +3155,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.482717037864096
-    rank 509
   ]
   node [
     id 451
@@ -4064,8 +3162,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.748384437386996
-    rank 547
   ]
   node [
     id 452
@@ -4073,8 +3169,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.29727018336421
-    rank 404
   ]
   node [
     id 453
@@ -4082,8 +3176,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.8571526201692015
-    rank 421
   ]
   node [
     id 454
@@ -4091,8 +3183,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.001918945846591
-    rank 466
   ]
   node [
     id 455
@@ -4100,8 +3190,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.5041780905930295
-    rank 507
   ]
   node [
     id 456
@@ -4109,8 +3197,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3121212121212116
-    rank 753
   ]
   node [
     id 457
@@ -4118,8 +3204,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.353986338278254
-    rank 402
   ]
   node [
     id 458
@@ -4127,8 +3211,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9084518422753716
-    rank 682
   ]
   node [
     id 459
@@ -4136,8 +3218,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.523374140479404
-    rank 506
   ]
   node [
     id 460
@@ -4145,8 +3225,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.986609371749531
-    rank 468
   ]
   node [
     id 461
@@ -4154,8 +3232,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.295176069136171
-    rank 444
   ]
   node [
     id 462
@@ -4163,8 +3239,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.358540835252505
-    rank 401
   ]
   node [
     id 463
@@ -4172,8 +3246,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.042884122685498
-    rank 462
   ]
   node [
     id 464
@@ -4181,8 +3253,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.935560835560835
-    rank 474
   ]
   node [
     id 465
@@ -4190,8 +3260,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.970770523121529
-    rank 471
   ]
   node [
     id 466
@@ -4199,8 +3267,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.635897435897436
-    rank 496
   ]
   node [
     id 467
@@ -4208,8 +3274,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.941453749477035
-    rank 419
   ]
   node [
     id 468
@@ -4217,8 +3281,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.157296850194955
-    rank 412
   ]
   node [
     id 469
@@ -4226,8 +3288,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.287627135750201
-    rank 406
   ]
   node [
     id 470
@@ -4235,8 +3295,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.705478374380814
-    rank 428
   ]
   node [
     id 471
@@ -4244,8 +3302,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.170013139034879
-    rank 452
   ]
   node [
     id 472
@@ -4253,8 +3309,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.38193996316422
-    rank 398
   ]
   node [
     id 473
@@ -4262,8 +3316,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.78639515817238
-    rank 423
   ]
   node [
     id 474
@@ -4271,8 +3323,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.80454781296586
-    rank 382
   ]
   node [
     id 475
@@ -4280,8 +3330,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.711452462169273
-    rank 387
   ]
   node [
     id 476
@@ -4289,8 +3337,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6537844508432746
-    rank 827
   ]
   node [
     id 477
@@ -4298,8 +3344,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.117860561654007
-    rank 456
   ]
   node [
     id 478
@@ -4307,8 +3351,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.685040250447228
-    rank 429
   ]
   node [
     id 479
@@ -4316,8 +3358,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.43377382851067
-    rank 511
   ]
   node [
     id 480
@@ -4325,8 +3365,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.780959742209742
-    rank 484
   ]
   node [
     id 481
@@ -4334,8 +3372,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.582365861089266
-    rank 434
   ]
   node [
     id 482
@@ -4343,8 +3379,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 8.815828120177354
-    rank 380
   ]
   node [
     id 483
@@ -4352,8 +3386,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.990174177674177
-    rank 467
   ]
   node [
     id 484
@@ -4361,8 +3393,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.049140049140049
-    rank 528
   ]
   node [
     id 485
@@ -4370,8 +3400,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.620092529303055
-    rank 432
   ]
   node [
     id 486
@@ -4379,8 +3407,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.48370326391426
-    rank 564
   ]
   node [
     id 487
@@ -4388,8 +3414,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.406038139893639
-    rank 514
   ]
   node [
     id 488
@@ -4397,8 +3421,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.408282844584999
-    rank 571
   ]
   node [
     id 489
@@ -4406,8 +3428,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.990037495184554
-    rank 531
   ]
   node [
     id 490
@@ -4415,8 +3435,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.382209108071177
-    rank 442
   ]
   node [
     id 491
@@ -4424,8 +3442,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.571717171717172
-    rank 556
   ]
   node [
     id 492
@@ -4433,8 +3449,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.583493318430809
-    rank 555
   ]
   node [
     id 493
@@ -4442,8 +3456,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.130134680134679
-    rank 524
   ]
   node [
     id 494
@@ -4451,8 +3463,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.270065351315351
-    rank 446
   ]
   node [
     id 495
@@ -4460,8 +3470,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.9376149708466786
-    rank 473
   ]
   node [
     id 496
@@ -4469,8 +3477,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.018333268333269
-    rank 463
   ]
   node [
     id 497
@@ -4478,8 +3484,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.631786594109802
-    rank 497
   ]
   node [
     id 498
@@ -4487,8 +3491,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.7436868686868685
-    rank 696
   ]
   node [
     id 499
@@ -4496,8 +3498,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.617197434256258
-    rank 500
   ]
   node [
     id 500
@@ -4505,8 +3505,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.284288260758848
-    rank 639
   ]
   node [
     id 501
@@ -4514,8 +3512,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.1875957625582805
-    rank 520
   ]
   node [
     id 502
@@ -4523,8 +3519,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.415277777777777
-    rank 513
   ]
   node [
     id 503
@@ -4532,8 +3526,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.778166441401735
-    rank 485
   ]
   node [
     id 504
@@ -4541,8 +3533,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.895833333333334
-    rank 684
   ]
   node [
     id 505
@@ -4550,8 +3540,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.195311648686935
-    rank 582
   ]
   node [
     id 506
@@ -4559,8 +3547,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.7967153642895
-    rank 482
   ]
   node [
     id 507
@@ -4568,8 +3554,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.5994323927530765
-    rank 433
   ]
   node [
     id 508
@@ -4577,8 +3561,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.800752859769252
-    rank 545
   ]
   node [
     id 509
@@ -4586,8 +3568,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.9865057977330105
-    rank 416
   ]
   node [
     id 510
@@ -4595,8 +3575,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.566991382030227
-    rank 503
   ]
   node [
     id 511
@@ -4604,8 +3582,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.417571043490161
-    rank 512
   ]
   node [
     id 512
@@ -4613,8 +3589,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.712286968556825
-    rank 426
   ]
   node [
     id 513
@@ -4622,8 +3596,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.090561967907505
-    rank 459
   ]
   node [
     id 514
@@ -4631,8 +3603,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.447642268965798
-    rank 570
   ]
   node [
     id 515
@@ -4640,8 +3610,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.696456693741437
-    rank 492
   ]
   node [
     id 516
@@ -4649,8 +3617,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.535610761750918
-    rank 435
   ]
   node [
     id 517
@@ -4658,8 +3624,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.250027027521444
-    rank 448
   ]
   node [
     id 518
@@ -4667,8 +3631,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.854566922803572
-    rank 422
   ]
   node [
     id 519
@@ -4676,8 +3638,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.8769023783915815
-    rank 598
   ]
   node [
     id 520
@@ -4685,8 +3645,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.395077560008581
-    rank 441
   ]
   node [
     id 521
@@ -4694,8 +3652,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.132552179389142
-    rank 454
   ]
   node [
     id 522
@@ -4703,8 +3659,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.790957016365365
-    rank 483
   ]
   node [
     id 523
@@ -4712,8 +3666,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.872224158486713
-    rank 476
   ]
   node [
     id 524
@@ -4721,8 +3673,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.981349990994449
-    rank 469
   ]
   node [
     id 525
@@ -4730,8 +3680,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.739182231838647
-    rank 488
   ]
   node [
     id 526
@@ -4739,8 +3687,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.132070840423244
-    rank 455
   ]
   node [
     id 527
@@ -4748,8 +3694,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.26139910813824
-    rank 578
   ]
   node [
     id 528
@@ -4757,8 +3701,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.706835927230664
-    rank 427
   ]
   node [
     id 529
@@ -4766,8 +3708,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.856502549415956
-    rank 478
   ]
   node [
     id 530
@@ -4775,8 +3715,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.628841370081531
-    rank 431
   ]
   node [
     id 531
@@ -4784,8 +3722,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.007107101352521
-    rank 465
   ]
   node [
     id 532
@@ -4793,8 +3729,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.191003532111603
-    rank 450
   ]
   node [
     id 533
@@ -4802,8 +3736,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2047686306160883
-    rank 765
   ]
   node [
     id 534
@@ -4811,8 +3743,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.633242354585318
-    rank 554
   ]
   node [
     id 535
@@ -4820,8 +3750,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.515151515151515
-    rank 853
   ]
   node [
     id 536
@@ -4829,8 +3757,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.556906177804398
-    rank 505
   ]
   node [
     id 537
@@ -4838,8 +3764,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.640966005453992
-    rank 553
   ]
   node [
     id 538
@@ -4847,8 +3771,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.174629456045063
-    rank 521
   ]
   node [
     id 539
@@ -4856,8 +3778,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.247732358644404
-    rank 449
   ]
   node [
     id 540
@@ -4865,8 +3785,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.0090909090909093
-    rank 782
   ]
   node [
     id 541
@@ -4874,8 +3792,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.5430580671087
-    rank 614
   ]
   node [
     id 542
@@ -4883,8 +3799,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.1348571923444295
-    rank 523
   ]
   node [
     id 543
@@ -4892,8 +3806,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.8402736118770395
-    rank 600
   ]
   node [
     id 544
@@ -4901,8 +3813,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.016156728076233
-    rank 464
   ]
   node [
     id 545
@@ -4910,8 +3820,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.189332565832969
-    rank 519
   ]
   node [
     id 546
@@ -4919,8 +3827,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.978256868906433
-    rank 535
   ]
   node [
     id 547
@@ -4928,8 +3834,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.724236236400415
-    rank 603
   ]
   node [
     id 548
@@ -4937,8 +3841,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.987025596580702
-    rank 532
   ]
   node [
     id 549
@@ -4946,8 +3848,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.752038771156418
-    rank 487
   ]
   node [
     id 550
@@ -4955,8 +3855,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.621957671957672
-    rank 499
   ]
   node [
     id 551
@@ -4964,8 +3862,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.901902631682043
-    rank 597
   ]
   node [
     id 552
@@ -4973,8 +3869,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.288892688858489
-    rank 638
   ]
   node [
     id 553
@@ -4982,8 +3876,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.6271829317787665
-    rank 498
   ]
   node [
     id 554
@@ -4991,8 +3883,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.149159451659452
-    rank 522
   ]
   node [
     id 555
@@ -5000,8 +3890,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.639756435624507
-    rank 495
   ]
   node [
     id 556
@@ -5009,8 +3897,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.847077922077923
-    rank 543
   ]
   node [
     id 557
@@ -5018,8 +3904,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.278831319382091
-    rank 445
   ]
   node [
     id 558
@@ -5027,8 +3911,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.000816993464053
-    rank 593
   ]
   node [
     id 559
@@ -5036,8 +3918,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.494304347216968
-    rank 508
   ]
   node [
     id 560
@@ -5045,8 +3925,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.686759791635954
-    rank 493
   ]
   node [
     id 561
@@ -5054,8 +3932,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.2908931055243755
-    rank 577
   ]
   node [
     id 562
@@ -5063,8 +3939,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.403241235888295
-    rank 572
   ]
   node [
     id 563
@@ -5072,8 +3946,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.476731898430011
-    rank 510
   ]
   node [
     id 564
@@ -5081,8 +3953,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.728260430396085
-    rank 490
   ]
   node [
     id 565
@@ -5090,8 +3960,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.397516704310183
-    rank 573
   ]
   node [
     id 566
@@ -5099,8 +3967,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.051828806874922
-    rank 527
   ]
   node [
     id 567
@@ -5108,8 +3974,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.483390792214323
-    rank 618
   ]
   node [
     id 568
@@ -5117,8 +3981,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.697123464770524
-    rank 551
   ]
   node [
     id 569
@@ -5126,8 +3988,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.9785034638692
-    rank 534
   ]
   node [
     id 570
@@ -5135,8 +3995,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.923636664138909
-    rank 475
   ]
   node [
     id 571
@@ -5144,8 +4002,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.7925324675324674
-    rank 804
   ]
   node [
     id 572
@@ -5153,8 +4009,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.601020537698169
-    rank 502
   ]
   node [
     id 573
@@ -5162,8 +4016,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.762659846547315
-    rank 546
   ]
   node [
     id 574
@@ -5171,8 +4023,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.704300050328662
-    rank 550
   ]
   node [
     id 575
@@ -5180,8 +4030,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.816369047619048
-    rank 601
   ]
   node [
     id 576
@@ -5189,8 +4037,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.4698232323232325
-    rank 567
   ]
   node [
     id 577
@@ -5198,8 +4044,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 7.091304950981513
-    rank 458
   ]
   node [
     id 578
@@ -5207,8 +4051,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.501409294219273
-    rank 562
   ]
   node [
     id 579
@@ -5216,8 +4058,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.617873910127431
-    rank 703
   ]
   node [
     id 580
@@ -5225,8 +4065,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.869293211507966
-    rank 686
   ]
   node [
     id 581
@@ -5234,8 +4072,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.0663116123642435
-    rank 588
   ]
   node [
     id 582
@@ -5243,8 +4079,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.520518370518372
-    rank 561
   ]
   node [
     id 583
@@ -5252,8 +4086,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.096587301587301
-    rank 587
   ]
   node [
     id 584
@@ -5261,8 +4093,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.049220142602496
-    rank 664
   ]
   node [
     id 585
@@ -5270,8 +4100,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.558971665589312
-    rank 558
   ]
   node [
     id 586
@@ -5279,8 +4107,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.65422256621947
-    rank 608
   ]
   node [
     id 587
@@ -5288,8 +4114,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.468539553752535
-    rank 568
   ]
   node [
     id 588
@@ -5297,8 +4121,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.216014122158396
-    rank 518
   ]
   node [
     id 589
@@ -5306,8 +4128,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.546428571428571
-    rank 560
   ]
   node [
     id 590
@@ -5315,8 +4135,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.965623216691432
-    rank 538
   ]
   node [
     id 591
@@ -5324,8 +4142,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.552062739997522
-    rank 559
   ]
   node [
     id 592
@@ -5333,8 +4149,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.119598218403076
-    rank 585
   ]
   node [
     id 593
@@ -5342,8 +4156,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.629803675856308
-    rank 610
   ]
   node [
     id 594
@@ -5351,8 +4163,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.928929098521129
-    rank 681
   ]
   node [
     id 595
@@ -5360,8 +4170,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.936688311688312
-    rank 679
   ]
   node [
     id 596
@@ -5369,8 +4177,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5619047619047617
-    rank 712
   ]
   node [
     id 597
@@ -5378,8 +4184,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.9704114814383304
-    rank 536
   ]
   node [
     id 598
@@ -5387,8 +4191,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.272276469894008
-    rank 516
   ]
   node [
     id 599
@@ -5396,8 +4198,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.000498575498575
-    rank 530
   ]
   node [
     id 600
@@ -5405,8 +4205,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.0681818181818175
-    rank 661
   ]
   node [
     id 601
@@ -5414,8 +4212,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.817308747184908
-    rank 544
   ]
   node [
     id 602
@@ -5423,8 +4219,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.680609755168579
-    rank 605
   ]
   node [
     id 603
@@ -5432,8 +4226,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.008954762276264
-    rank 529
   ]
   node [
     id 604
@@ -5441,8 +4233,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.281926406926408
-    rank 642
   ]
   node [
     id 605
@@ -5450,8 +4240,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.132507209102954
-    rank 657
   ]
   node [
     id 606
@@ -5459,8 +4247,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.060753190164955
-    rank 526
   ]
   node [
     id 607
@@ -5468,8 +4254,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.059062935115566
-    rank 663
   ]
   node [
     id 608
@@ -5477,8 +4261,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.465955687830688
-    rank 569
   ]
   node [
     id 609
@@ -5486,8 +4268,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.705799188771325
-    rank 549
   ]
   node [
     id 610
@@ -5495,8 +4275,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.390038240303351
-    rank 629
   ]
   node [
     id 611
@@ -5504,8 +4282,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.949279024061442
-    rank 539
   ]
   node [
     id 612
@@ -5513,8 +4289,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.917445712182554
-    rank 541
   ]
   node [
     id 613
@@ -5522,8 +4296,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.803491382527765
-    rank 602
   ]
   node [
     id 614
@@ -5531,8 +4303,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.440963203463203
-    rank 732
   ]
   node [
     id 615
@@ -5540,8 +4310,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.968109668109668
-    rank 537
   ]
   node [
     id 616
@@ -5549,8 +4317,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.283643681569579
-    rank 640
   ]
   node [
     id 617
@@ -5558,8 +4324,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.713596491228071
-    rank 604
   ]
   node [
     id 618
@@ -5567,8 +4331,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.471018925396984
-    rank 566
   ]
   node [
     id 619
@@ -5576,8 +4338,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.477167277167277
-    rank 565
   ]
   node [
     id 620
@@ -5585,8 +4345,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.803021978021978
-    rank 798
   ]
   node [
     id 621
@@ -5594,8 +4352,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9452676563202873
-    rank 677
   ]
   node [
     id 622
@@ -5603,8 +4359,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.718313290720682
-    rank 548
   ]
   node [
     id 623
@@ -5612,8 +4366,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.560777755918421
-    rank 557
   ]
   node [
     id 624
@@ -5621,8 +4373,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.8978396603396614
-    rank 542
   ]
   node [
     id 625
@@ -5630,8 +4380,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.314165849289306
-    rank 576
   ]
   node [
     id 626
@@ -5639,8 +4387,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.2323975199836035
-    rank 581
   ]
   node [
     id 627
@@ -5648,8 +4394,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.022423470329751
-    rank 669
   ]
   node [
     id 628
@@ -5657,8 +4401,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.986488054038702
-    rank 533
   ]
   node [
     id 629
@@ -5666,8 +4408,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 6.3006550467076785
-    rank 515
   ]
   node [
     id 630
@@ -5675,8 +4415,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.50921052631579
-    rank 616
   ]
   node [
     id 631
@@ -5684,8 +4422,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.935082960565972
-    rank 680
   ]
   node [
     id 632
@@ -5693,8 +4429,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.557879841789416
-    rank 714
   ]
   node [
     id 633
@@ -5702,8 +4436,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5579343839825555
-    rank 713
   ]
   node [
     id 634
@@ -5711,8 +4443,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.17199793390684
-    rank 651
   ]
   node [
     id 635
@@ -5720,8 +4450,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.857142857142857
-    rank 688
   ]
   node [
     id 636
@@ -5729,8 +4457,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.643890977443609
-    rank 609
   ]
   node [
     id 637
@@ -5738,8 +4464,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1482788671023965
-    rank 770
   ]
   node [
     id 638
@@ -5747,8 +4471,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.747521367521368
-    rank 694
   ]
   node [
     id 639
@@ -5756,8 +4478,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.056975772765246
-    rank 589
   ]
   node [
     id 640
@@ -5765,8 +4485,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.8037348272642397
-    rank 691
   ]
   node [
     id 641
@@ -5774,8 +4492,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.918244739756368
-    rank 596
   ]
   node [
     id 642
@@ -5783,8 +4499,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9907407407407405
-    rank 671
   ]
   node [
     id 643
@@ -5792,8 +4506,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.313320992732757
-    rank 636
   ]
   node [
     id 644
@@ -5801,8 +4513,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.798611111111111
-    rank 803
   ]
   node [
     id 645
@@ -5810,8 +4520,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.567948717948718
-    rank 710
   ]
   node [
     id 646
@@ -5819,8 +4527,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.632613636363636
-    rank 701
   ]
   node [
     id 647
@@ -5828,8 +4534,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.275040780475563
-    rank 643
   ]
   node [
     id 648
@@ -5837,8 +4541,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.2588202370219355
-    rank 579
   ]
   node [
     id 649
@@ -5846,8 +4548,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.533333333333333
-    rank 849
   ]
   node [
     id 650
@@ -5855,8 +4555,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.020320197044335
-    rank 591
   ]
   node [
     id 651
@@ -5864,8 +4562,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.1935426292813425
-    rank 583
   ]
   node [
     id 652
@@ -5873,8 +4569,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.25458144006531
-    rank 580
   ]
   node [
     id 653
@@ -5882,8 +4576,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.394457394457394
-    rank 626
   ]
   node [
     id 654
@@ -5891,8 +4583,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.672123528645267
-    rank 606
   ]
   node [
     id 655
@@ -5900,8 +4590,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.791666666666667
-    rank 805
   ]
   node [
     id 656
@@ -5909,8 +4597,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.570545609548168
-    rank 612
   ]
   node [
     id 657
@@ -5918,8 +4604,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.707359307359307
-    rank 821
   ]
   node [
     id 658
@@ -5927,8 +4611,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.218657543829169
-    rank 648
   ]
   node [
     id 659
@@ -5936,8 +4618,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.327445887445887
-    rank 575
   ]
   node [
     id 660
@@ -5945,8 +4625,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.994029304029304
-    rank 595
   ]
   node [
     id 661
@@ -5954,8 +4632,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.505357142857143
-    rank 856
   ]
   node [
     id 662
@@ -5963,8 +4639,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.851779788838613
-    rank 599
   ]
   node [
     id 663
@@ -5972,8 +4646,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.264142829360221
-    rank 644
   ]
   node [
     id 664
@@ -5981,8 +4653,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.3390073834411815
-    rank 633
   ]
   node [
     id 665
@@ -5990,8 +4660,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.939769585253456
-    rank 678
   ]
   node [
     id 666
@@ -5999,8 +4667,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.476493532856555
-    rank 619
   ]
   node [
     id 667
@@ -6008,8 +4674,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.207535528987142
-    rank 650
   ]
   node [
     id 668
@@ -6017,8 +4681,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.025438596491228
-    rank 590
   ]
   node [
     id 669
@@ -6026,8 +4688,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.097210715920865
-    rank 586
   ]
   node [
     id 670
@@ -6035,8 +4695,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.838368153585545
-    rank 690
   ]
   node [
     id 671
@@ -6044,8 +4702,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.402397232397233
-    rank 624
   ]
   node [
     id 672
@@ -6053,8 +4709,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3202614379084965
-    rank 883
   ]
   node [
     id 673
@@ -6062,8 +4716,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5759144237405107
-    rank 707
   ]
   node [
     id 674
@@ -6071,8 +4723,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.1812911782322235
-    rank 584
   ]
   node [
     id 675
@@ -6080,8 +4730,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1473429951690823
-    rank 771
   ]
   node [
     id 676
@@ -6089,8 +4737,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6214285714285714
-    rank 835
   ]
   node [
     id 677
@@ -6098,8 +4744,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 5.019564393821609
-    rank 592
   ]
   node [
     id 678
@@ -6107,8 +4751,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.565588803088803
-    rank 613
   ]
   node [
     id 679
@@ -6116,8 +4758,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.34874686716792
-    rank 631
   ]
   node [
     id 680
@@ -6125,8 +4765,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.997365491651205
-    rank 594
   ]
   node [
     id 681
@@ -6134,8 +4772,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2173015873015873
-    rank 763
   ]
   node [
     id 682
@@ -6143,8 +4779,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.304174842791734
-    rank 637
   ]
   node [
     id 683
@@ -6152,8 +4786,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.338033489520903
-    rank 634
   ]
   node [
     id 684
@@ -6161,8 +4793,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2735042735042734
-    rank 757
   ]
   node [
     id 685
@@ -6170,8 +4800,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.393392857142857
-    rank 738
   ]
   node [
     id 686
@@ -6179,8 +4807,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.183682983682984
-    rank 768
   ]
   node [
     id 687
@@ -6188,8 +4814,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.658702938334053
-    rank 699
   ]
   node [
     id 688
@@ -6197,8 +4821,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9532828282828287
-    rank 786
   ]
   node [
     id 689
@@ -6206,8 +4828,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.372598312462825
-    rank 742
   ]
   node [
     id 690
@@ -6215,8 +4835,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.239692491416629
-    rank 645
   ]
   node [
     id 691
@@ -6224,8 +4842,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.147812180831049
-    rank 654
   ]
   node [
     id 692
@@ -6233,8 +4849,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.8388062547673534
-    rank 689
   ]
   node [
     id 693
@@ -6242,8 +4856,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9546946763927897
-    rank 673
   ]
   node [
     id 694
@@ -6251,8 +4863,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.171828980634399
-    rank 652
   ]
   node [
     id 695
@@ -6260,8 +4870,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.4936402351036495
-    rank 617
   ]
   node [
     id 696
@@ -6269,8 +4877,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9693912199854475
-    rank 785
   ]
   node [
     id 697
@@ -6278,8 +4884,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.14535156124643
-    rank 655
   ]
   node [
     id 698
@@ -6287,8 +4891,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.45188527641339
-    rank 730
   ]
   node [
     id 699
@@ -6296,8 +4898,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.8948412698412698
-    rank 685
   ]
   node [
     id 700
@@ -6305,8 +4905,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.002129590839268
-    rank 670
   ]
   node [
     id 701
@@ -6314,8 +4912,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.46184012066365
-    rank 620
   ]
   node [
     id 702
@@ -6323,8 +4919,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.346099937798051
-    rank 632
   ]
   node [
     id 703
@@ -6332,8 +4926,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4130434782608696
-    rank 1025
   ]
   node [
     id 704
@@ -6341,8 +4933,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.6017378351539224
-    rank 705
   ]
   node [
     id 705
@@ -6350,8 +4940,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.061080586080586
-    rank 662
   ]
   node [
     id 706
@@ -6359,8 +4947,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.395261437908497
-    rank 625
   ]
   node [
     id 707
@@ -6368,8 +4954,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6666666666666667
-    rank 986
   ]
   node [
     id 708
@@ -6377,8 +4961,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.7555555555555555
-    rank 692
   ]
   node [
     id 709
@@ -6386,8 +4968,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.141162227602906
-    rank 900
   ]
   node [
     id 710
@@ -6395,8 +4975,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.023809523809524
-    rank 667
   ]
   node [
     id 711
@@ -6404,8 +4982,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.283619919363626
-    rank 641
   ]
   node [
     id 712
@@ -6413,8 +4989,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.585636322758384
-    rank 611
   ]
   node [
     id 713
@@ -6422,8 +4996,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.408698456126637
-    rank 623
   ]
   node [
     id 714
@@ -6431,8 +5003,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.778467908902692
-    rank 806
   ]
   node [
     id 715
@@ -6440,8 +5010,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.043397598273759
-    rank 665
   ]
   node [
     id 716
@@ -6449,8 +5017,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.239035087719298
-    rank 646
   ]
   node [
     id 717
@@ -6458,8 +5024,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.168498168498169
-    rank 769
   ]
   node [
     id 718
@@ -6467,8 +5031,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.113283004258614
-    rank 658
   ]
   node [
     id 719
@@ -6476,8 +5038,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.213603882456342
-    rank 649
   ]
   node [
     id 720
@@ -6485,8 +5045,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1274725274725275
-    rank 775
   ]
   node [
     id 721
@@ -6494,8 +5052,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.6253746253746253
-    rank 702
   ]
   node [
     id 722
@@ -6503,8 +5059,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9525074110671943
-    rank 674
   ]
   node [
     id 723
@@ -6512,8 +5066,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.428148977645058
-    rank 621
   ]
   node [
     id 724
@@ -6521,8 +5073,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4537211115524364
-    rank 729
   ]
   node [
     id 725
@@ -6530,8 +5080,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.408937728937729
-    rank 622
   ]
   node [
     id 726
@@ -6539,8 +5087,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.323893557422969
-    rank 635
   ]
   node [
     id 727
@@ -6548,8 +5094,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5727185857620642
-    rank 708
   ]
   node [
     id 728
@@ -6557,8 +5101,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.023451426024955
-    rank 668
   ]
   node [
     id 729
@@ -6566,8 +5108,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5357142857142856
-    rank 717
   ]
   node [
     id 730
@@ -6575,8 +5115,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.623212956068503
-    rank 834
   ]
   node [
     id 731
@@ -6584,8 +5122,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.529622256540903
-    rank 615
   ]
   node [
     id 732
@@ -6593,8 +5129,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3848238482384825
-    rank 740
   ]
   node [
     id 733
@@ -6602,8 +5136,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.8669683257918552
-    rank 792
   ]
   node [
     id 734
@@ -6611,8 +5143,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2666666666666666
-    rank 758
   ]
   node [
     id 735
@@ -6620,8 +5150,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.109962406015038
-    rank 659
   ]
   node [
     id 736
@@ -6629,8 +5157,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.3935828178612555
-    rank 627
   ]
   node [
     id 737
@@ -6638,8 +5164,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9728778467908903
-    rank 784
   ]
   node [
     id 738
@@ -6647,8 +5171,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.28961038961039
-    rank 755
   ]
   node [
     id 739
@@ -6656,8 +5178,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2183150183150184
-    rank 762
   ]
   node [
     id 740
@@ -6665,8 +5185,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9483794714057874
-    rank 676
   ]
   node [
     id 741
@@ -6674,8 +5192,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.229004036306267
-    rank 647
   ]
   node [
     id 742
@@ -6683,8 +5199,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6038961038961035
-    rank 836
   ]
   node [
     id 743
@@ -6692,8 +5206,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.603531342226672
-    rank 704
   ]
   node [
     id 744
@@ -6701,8 +5213,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2417328042328046
-    rank 760
   ]
   node [
     id 745
@@ -6710,8 +5220,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1338490289309964
-    rank 773
   ]
   node [
     id 746
@@ -6719,8 +5227,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.144019607843138
-    rank 656
   ]
   node [
     id 747
@@ -6728,8 +5234,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.8669319186560562
-    rank 687
   ]
   node [
     id 748
@@ -6737,8 +5241,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.375518925518925
-    rank 630
   ]
   node [
     id 749
@@ -6746,8 +5248,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.8359189829778066
-    rank 794
   ]
   node [
     id 750
@@ -6755,8 +5255,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9695652173913043
-    rank 672
   ]
   node [
     id 751
@@ -6764,8 +5262,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.16424772338085
-    rank 653
   ]
   node [
     id 752
@@ -6773,8 +5269,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.9525074110671943
-    rank 675
   ]
   node [
     id 753
@@ -6782,8 +5276,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.106011482607228
-    rank 660
   ]
   node [
     id 754
@@ -6791,8 +5283,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.0543941153697247
-    rank 780
   ]
   node [
     id 755
@@ -6800,8 +5290,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4883437407077014
-    rank 724
   ]
   node [
     id 756
@@ -6809,8 +5297,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 4.391409365212741
-    rank 628
   ]
   node [
     id 757
@@ -6818,8 +5304,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.095959595959596
-    rank 777
   ]
   node [
     id 758
@@ -6827,8 +5311,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4802360047369123
-    rank 725
   ]
   node [
     id 759
@@ -6836,8 +5318,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.437756143638497
-    rank 733
   ]
   node [
     id 760
@@ -6845,8 +5325,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5324675324675328
-    rank 850
   ]
   node [
     id 761
@@ -6854,8 +5332,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6534883720930234
-    rank 829
   ]
   node [
     id 762
@@ -6863,8 +5339,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.237142857142857
-    rank 892
   ]
   node [
     id 763
@@ -6872,8 +5346,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.419100943848984
-    rank 735
   ]
   node [
     id 764
@@ -6881,8 +5353,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.449906191369606
-    rank 869
   ]
   node [
     id 765
@@ -6890,8 +5360,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.542254901960784
-    rank 847
   ]
   node [
     id 766
@@ -6899,8 +5367,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.714841628959276
-    rank 818
   ]
   node [
     id 767
@@ -6908,8 +5374,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4475108225108224
-    rank 731
   ]
   node [
     id 768
@@ -6917,8 +5381,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.15
-    rank 898
   ]
   node [
     id 769
@@ -6926,8 +5388,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.528934166519979
-    rank 718
   ]
   node [
     id 770
@@ -6935,8 +5395,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5422138836772983
-    rank 848
   ]
   node [
     id 771
@@ -6944,8 +5402,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5007298136645963
-    rank 721
   ]
   node [
     id 772
@@ -6953,8 +5409,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5777777777777775
-    rank 842
   ]
   node [
     id 773
@@ -6962,8 +5416,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.8664835164835165
-    rank 793
   ]
   node [
     id 774
@@ -6971,8 +5423,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3615737203972493
-    rank 744
   ]
   node [
     id 775
@@ -6980,8 +5430,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4194714131607338
-    rank 734
   ]
   node [
     id 776
@@ -6989,8 +5437,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.774952370610939
-    rank 807
   ]
   node [
     id 777
@@ -6998,8 +5444,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.420593635250918
-    rank 871
   ]
   node [
     id 778
@@ -7007,8 +5451,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.6632611048371917
-    rank 698
   ]
   node [
     id 779
@@ -7016,8 +5458,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.744476148228436
-    rank 695
   ]
   node [
     id 780
@@ -7025,8 +5465,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.354166666666667
-    rank 878
   ]
   node [
     id 781
@@ -7034,8 +5472,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.33375350140056
-    rank 748
   ]
   node [
     id 782
@@ -7043,8 +5479,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.2515151515151515
-    rank 891
   ]
   node [
     id 783
@@ -7052,8 +5486,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9945652173913047
-    rank 783
   ]
   node [
     id 784
@@ -7061,8 +5493,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5012138188608777
-    rank 858
   ]
   node [
     id 785
@@ -7070,8 +5500,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.499105719060559
-    rank 722
   ]
   node [
     id 786
@@ -7079,8 +5507,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3311688311688314
-    rank 749
   ]
   node [
     id 787
@@ -7088,8 +5514,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3348613846386908
-    rank 747
   ]
   node [
     id 788
@@ -7097,8 +5521,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.201659451659452
-    rank 767
   ]
   node [
     id 789
@@ -7106,8 +5528,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9214285714285713
-    rank 917
   ]
   node [
     id 790
@@ -7115,8 +5535,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.7696969696969695
-    rank 808
   ]
   node [
     id 791
@@ -7124,8 +5542,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.7222222222222228
-    rank 816
   ]
   node [
     id 792
@@ -7133,8 +5549,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.407375415282392
-    rank 736
   ]
   node [
     id 793
@@ -7142,8 +5556,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.317894251717781
-    rank 751
   ]
   node [
     id 794
@@ -7151,8 +5563,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4790767847416157
-    rank 726
   ]
   node [
     id 795
@@ -7160,8 +5570,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3481267507002803
-    rank 746
   ]
   node [
     id 796
@@ -7169,8 +5577,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4011770898563354
-    rank 737
   ]
   node [
     id 797
@@ -7178,8 +5584,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.38693234476367
-    rank 739
   ]
   node [
     id 798
@@ -7187,8 +5591,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9257215007215005
-    rank 791
   ]
   node [
     id 799
@@ -7196,8 +5598,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9714285714285715
-    rank 912
   ]
   node [
     id 800
@@ -7205,8 +5605,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5649013654044617
-    rank 711
   ]
   node [
     id 801
@@ -7214,8 +5612,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.835768398268398
-    rank 795
   ]
   node [
     id 802
@@ -7223,8 +5619,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.08974358974359
-    rank 905
   ]
   node [
     id 803
@@ -7232,8 +5626,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.7183673469387757
-    rank 817
   ]
   node [
     id 804
@@ -7241,8 +5633,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5086580086580086
-    rank 719
   ]
   node [
     id 805
@@ -7250,8 +5640,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.47006982947769
-    rank 727
   ]
   node [
     id 806
@@ -7259,8 +5647,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.467651576759736
-    rank 728
   ]
   node [
     id 807
@@ -7268,8 +5654,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5559687680740315
-    rank 715
   ]
   node [
     id 808
@@ -7277,8 +5661,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1336538461538463
-    rank 774
   ]
   node [
     id 809
@@ -7286,8 +5668,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.6383699633699633
-    rank 700
   ]
   node [
     id 810
@@ -7295,8 +5675,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2042735042735044
-    rank 766
   ]
   node [
     id 811
@@ -7304,8 +5682,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.67549114331723
-    rank 824
   ]
   node [
     id 812
@@ -7313,8 +5689,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.802032749858837
-    rank 799
   ]
   node [
     id 813
@@ -7322,8 +5696,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.0842911179517065
-    rank 779
   ]
   node [
     id 814
@@ -7331,8 +5703,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.4942828603325697
-    rank 723
   ]
   node [
     id 815
@@ -7340,8 +5710,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.17
-    rank 897
   ]
   node [
     id 816
@@ -7349,8 +5717,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5839285714285714
-    rank 1000
   ]
   node [
     id 817
@@ -7358,8 +5724,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9370348609479047
-    rank 790
   ]
   node [
     id 818
@@ -7367,8 +5731,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.570484677923702
-    rank 709
   ]
   node [
     id 819
@@ -7376,8 +5738,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.357570267896355
-    rank 745
   ]
   node [
     id 820
@@ -7385,8 +5745,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3004658385093166
-    rank 754
   ]
   node [
     id 821
@@ -7394,8 +5752,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.8130952380952383
-    rank 797
   ]
   node [
     id 822
@@ -7403,8 +5759,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3189829778065074
-    rank 750
   ]
   node [
     id 823
@@ -7412,8 +5766,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5043956043956044
-    rank 720
   ]
   node [
     id 824
@@ -7421,8 +5773,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.0205811138014527
-    rank 781
   ]
   node [
     id 825
@@ -7430,8 +5780,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.588907469342252
-    rank 840
   ]
   node [
     id 826
@@ -7439,8 +5787,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.538467741935484
-    rank 716
   ]
   node [
     id 827
@@ -7448,8 +5794,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.5905017921146953
-    rank 706
   ]
   node [
     id 828
@@ -7457,8 +5801,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.549302549302549
-    rank 845
   ]
   node [
     id 829
@@ -7466,8 +5808,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2811355311355315
-    rank 756
   ]
   node [
     id 830
@@ -7475,8 +5815,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.367524663388927
-    rank 743
   ]
   node [
     id 831
@@ -7484,8 +5822,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.235495223730518
-    rank 761
   ]
   node [
     id 832
@@ -7493,8 +5829,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3130434782608695
-    rank 884
   ]
   node [
     id 833
@@ -7502,8 +5836,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.416666666666667
-    rank 873
   ]
   node [
     id 834
@@ -7511,8 +5843,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.247863247863248
-    rank 759
   ]
   node [
     id 835
@@ -7520,8 +5850,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.192727272727273
-    rank 894
   ]
   node [
     id 836
@@ -7529,8 +5857,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.948901098901099
-    rank 787
   ]
   node [
     id 837
@@ -7538,8 +5864,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.2095238095238097
-    rank 764
   ]
   node [
     id 838
@@ -7547,8 +5871,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.3834206390780515
-    rank 741
   ]
   node [
     id 839
@@ -7556,8 +5878,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.1343101343101347
-    rank 772
   ]
   node [
     id 840
@@ -7565,8 +5885,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.380952380952381
-    rank 1028
   ]
   node [
     id 841
@@ -7574,8 +5892,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.088023088023088
-    rank 778
   ]
   node [
     id 842
@@ -7583,8 +5899,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.946218133718134
-    rank 788
   ]
   node [
     id 843
@@ -7592,8 +5906,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.9444444444444446
-    rank 789
   ]
   node [
     id 844
@@ -7601,8 +5913,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.762626262626263
-    rank 811
   ]
   node [
     id 845
@@ -7610,8 +5920,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 3.314829159911127
-    rank 752
   ]
   node [
     id 846
@@ -7619,8 +5927,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.693814997263273
-    rank 823
   ]
   node [
     id 847
@@ -7628,8 +5934,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.799284928492849
-    rank 802
   ]
   node [
     id 848
@@ -7637,8 +5941,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6596153846153845
-    rank 825
   ]
   node [
     id 849
@@ -7646,8 +5948,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1794871794871795
-    rank 1042
   ]
   node [
     id 850
@@ -7655,8 +5955,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.734177576224295
-    rank 815
   ]
   node [
     id 851
@@ -7664,8 +5962,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.799738228092259
-    rank 800
   ]
   node [
     id 852
@@ -7673,8 +5969,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.607843137254902
-    rank 994
   ]
   node [
     id 853
@@ -7682,8 +5976,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.832171893147503
-    rank 796
   ]
   node [
     id 854
@@ -7691,8 +5983,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8839721254355402
-    rank 927
   ]
   node [
     id 855
@@ -7700,8 +5990,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4982578397212545
-    rank 1016
   ]
   node [
     id 856
@@ -7709,8 +5997,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9666666666666668
-    rank 914
   ]
   node [
     id 857
@@ -7718,8 +6004,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.2765151515151514
-    rank 889
   ]
   node [
     id 858
@@ -7727,8 +6011,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.4876413908671973
-    rank 861
   ]
   node [
     id 859
@@ -7736,8 +6018,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.491666666666667
-    rank 860
   ]
   node [
     id 860
@@ -7745,8 +6025,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1
-    rank 1046
   ]
   node [
     id 861
@@ -7754,8 +6032,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.479946524064171
-    rank 863
   ]
   node [
     id 862
@@ -7763,8 +6039,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.475
-    rank 1018
   ]
   node [
     id 863
@@ -7772,8 +6046,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5441634389002807
-    rank 846
   ]
   node [
     id 864
@@ -7781,8 +6053,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.2888888888888888
-    rank 888
   ]
   node [
     id 865
@@ -7790,8 +6060,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.459616783895222
-    rank 866
   ]
   node [
     id 866
@@ -7799,8 +6067,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8522727272727273
-    rank 936
   ]
   node [
     id 867
@@ -7808,8 +6074,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.25
-    rank 1278
   ]
   node [
     id 868
@@ -7817,8 +6081,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.031135531135531
-    rank 906
   ]
   node [
     id 869
@@ -7826,8 +6088,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.293939393939394
-    rank 887
   ]
   node [
     id 870
@@ -7835,8 +6095,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.7635391330696346
-    rank 810
   ]
   node [
     id 871
@@ -7844,8 +6102,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6458333333333335
-    rank 990
   ]
   node [
     id 872
@@ -7853,8 +6109,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3819444444444446
-    rank 876
   ]
   node [
     id 873
@@ -7862,8 +6116,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.331002331002331
-    rank 882
   ]
   node [
     id 874
@@ -7871,8 +6123,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7032967032967035
-    rank 980
   ]
   node [
     id 875
@@ -7880,8 +6130,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.1444444444444444
-    rank 899
   ]
   node [
     id 876
@@ -7889,8 +6137,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3333333333333335
-    rank 881
   ]
   node [
     id 877
@@ -7898,8 +6144,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3695652173913047
-    rank 877
   ]
   node [
     id 878
@@ -7907,8 +6151,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5958931419457736
-    rank 837
   ]
   node [
     id 879
@@ -7916,8 +6158,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.714841628959276
-    rank 819
   ]
   node [
     id 880
@@ -7925,8 +6165,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7840909090909092
-    rank 953
   ]
   node [
     id 881
@@ -7934,8 +6172,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.025
-    rank 907
   ]
   node [
     id 882
@@ -7943,8 +6179,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9833333333333334
-    rank 909
   ]
   node [
     id 883
@@ -7952,8 +6186,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.765934065934066
-    rank 809
   ]
   node [
     id 884
@@ -7961,8 +6193,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.696551724137931
-    rank 983
   ]
   node [
     id 885
@@ -7970,8 +6200,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.25
-    rank 1279
   ]
   node [
     id 886
@@ -7979,8 +6207,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5115384615384615
-    rank 854
   ]
   node [
     id 887
@@ -7988,8 +6214,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.1047619047619044
-    rank 902
   ]
   node [
     id 888
@@ -7997,8 +6221,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.50298273155416
-    rank 857
   ]
   node [
     id 889
@@ -8006,8 +6228,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5272727272727273
-    rank 851
   ]
   node [
     id 890
@@ -8015,8 +6235,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.1850678733031677
-    rank 895
   ]
   node [
     id 891
@@ -8024,8 +6242,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.756339485941004
-    rank 813
   ]
   node [
     id 892
@@ -8033,8 +6249,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8571428571428572
-    rank 934
   ]
   node [
     id 893
@@ -8042,8 +6256,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7166666666666668
-    rank 975
   ]
   node [
     id 894
@@ -8051,8 +6263,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.976363636363636
-    rank 911
   ]
   node [
     id 895
@@ -8060,8 +6270,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9230769230769231
-    rank 1132
   ]
   node [
     id 896
@@ -8069,8 +6277,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.714841628959276
-    rank 820
   ]
   node [
     id 897
@@ -8078,8 +6284,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5499999999999998
-    rank 1006
   ]
   node [
     id 898
@@ -8087,8 +6291,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.3949579831932772
-    rank 1027
   ]
   node [
     id 899
@@ -8096,8 +6298,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6967271118973906
-    rank 822
   ]
   node [
     id 900
@@ -8105,8 +6305,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8949079089924161
-    rank 924
   ]
   node [
     id 901
@@ -8114,8 +6312,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2777777777777777
-    rank 1032
   ]
   node [
     id 902
@@ -8123,8 +6319,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5
-    rank 1014
   ]
   node [
     id 903
@@ -8132,8 +6326,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.461764705882353
-    rank 865
   ]
   node [
     id 904
@@ -8141,8 +6333,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6309941520467834
-    rank 831
   ]
   node [
     id 905
@@ -8150,8 +6340,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5594202898550726
-    rank 843
   ]
   node [
     id 906
@@ -8159,8 +6347,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5936507936507938
-    rank 838
   ]
   node [
     id 907
@@ -8168,8 +6354,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.402467685076381
-    rank 874
   ]
   node [
     id 908
@@ -8177,8 +6361,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6238095238095238
-    rank 992
   ]
   node [
     id 909
@@ -8186,8 +6368,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7702970297029703
-    rank 962
   ]
   node [
     id 910
@@ -8195,8 +6375,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1185
   ]
   node [
     id 911
@@ -8204,8 +6382,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.589542036910458
-    rank 839
   ]
   node [
     id 912
@@ -8213,8 +6389,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5357142857142856
-    rank 1010
   ]
   node [
     id 913
@@ -8222,8 +6396,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.3523809523809525
-    rank 1029
   ]
   node [
     id 914
@@ -8231,8 +6403,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.217741935483871
-    rank 893
   ]
   node [
     id 915
@@ -8240,8 +6410,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6294871794871795
-    rank 832
   ]
   node [
     id 916
@@ -8249,8 +6417,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.980952380952381
-    rank 910
   ]
   node [
     id 917
@@ -8258,8 +6424,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.2965034965034965
-    rank 886
   ]
   node [
     id 918
@@ -8267,8 +6431,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.525744843391902
-    rank 852
   ]
   node [
     id 919
@@ -8276,8 +6438,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5
-    rank 859
   ]
   node [
     id 920
@@ -8285,8 +6445,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.45
-    rank 868
   ]
   node [
     id 921
@@ -8294,8 +6452,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.646153846153846
-    rank 989
   ]
   node [
     id 922
@@ -8303,8 +6459,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.652467685076381
-    rank 830
   ]
   node [
     id 923
@@ -8312,8 +6466,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5837719298245614
-    rank 841
   ]
   node [
     id 924
@@ -8321,8 +6473,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6232258064516127
-    rank 833
   ]
   node [
     id 925
@@ -8330,8 +6480,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9692307692307691
-    rank 913
   ]
   node [
     id 926
@@ -8339,8 +6487,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.307142857142857
-    rank 885
   ]
   node [
     id 927
@@ -8348,8 +6494,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.5513136288998357
-    rank 844
   ]
   node [
     id 928
@@ -8357,8 +6501,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9214285714285713
-    rank 918
   ]
   node [
     id 929
@@ -8366,8 +6508,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.728021978021978
-    rank 972
   ]
   node [
     id 930
@@ -8375,8 +6515,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.747145444523191
-    rank 814
   ]
   node [
     id 931
@@ -8384,8 +6522,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.0952380952380953
-    rank 904
   ]
   node [
     id 932
@@ -8393,8 +6529,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.178571428571429
-    rank 896
   ]
   node [
     id 933
@@ -8402,8 +6536,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.442753623188406
-    rank 870
   ]
   node [
     id 934
@@ -8411,8 +6543,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8759259259259258
-    rank 929
   ]
   node [
     id 935
@@ -8420,8 +6550,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.1
-    rank 903
   ]
   node [
     id 936
@@ -8429,8 +6557,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9345238095238095
-    rank 915
   ]
   node [
     id 937
@@ -8438,8 +6564,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.482684730766572
-    rank 862
   ]
   node [
     id 938
@@ -8447,8 +6571,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.4564593301435407
-    rank 867
   ]
   node [
     id 939
@@ -8456,8 +6578,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3442307692307693
-    rank 880
   ]
   node [
     id 940
@@ -8465,8 +6585,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.402467685076381
-    rank 875
   ]
   node [
     id 941
@@ -8474,8 +6592,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.3522727272727273
-    rank 1030
   ]
   node [
     id 942
@@ -8483,8 +6599,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6118881118881119
-    rank 993
   ]
   node [
     id 943
@@ -8492,8 +6606,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.507843137254902
-    rank 855
   ]
   node [
     id 944
@@ -8501,8 +6613,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.107843137254902
-    rank 901
   ]
   node [
     id 945
@@ -8510,8 +6620,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.762215909090909
-    rank 812
   ]
   node [
     id 946
@@ -8519,8 +6627,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.6567307692307693
-    rank 826
   ]
   node [
     id 947
@@ -8528,8 +6634,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.799665831244779
-    rank 801
   ]
   node [
     id 948
@@ -8537,8 +6641,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.275910364145658
-    rank 890
   ]
   node [
     id 949
@@ -8546,8 +6648,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.3538699690402476
-    rank 879
   ]
   node [
     id 950
@@ -8555,8 +6655,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.0136363636363637
-    rank 908
   ]
   node [
     id 951
@@ -8564,8 +6662,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 2.478870056497175
-    rank 864
   ]
   node [
     id 952
@@ -8573,8 +6669,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9333333333333333
-    rank 1124
   ]
   node [
     id 953
@@ -8582,8 +6676,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7512755102040818
-    rank 967
   ]
   node [
     id 954
@@ -8591,8 +6683,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1266
   ]
   node [
     id 955
@@ -8600,8 +6690,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8605263157894738
-    rank 933
   ]
   node [
     id 956
@@ -8609,8 +6697,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5595238095238098
-    rank 1005
   ]
   node [
     id 957
@@ -8618,8 +6704,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.896520963425513
-    rank 923
   ]
   node [
     id 958
@@ -8627,8 +6711,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7833333333333332
-    rank 954
   ]
   node [
     id 959
@@ -8636,8 +6718,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1515151515151514
-    rank 1044
   ]
   node [
     id 960
@@ -8645,8 +6725,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6
-    rank 996
   ]
   node [
     id 961
@@ -8654,8 +6732,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.523809523809524
-    rank 1012
   ]
   node [
     id 962
@@ -8663,8 +6739,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9714285714285714
-    rank 1062
   ]
   node [
     id 963
@@ -8672,8 +6746,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9285714285714286
-    rank 1128
   ]
   node [
     id 964
@@ -8681,8 +6753,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.76890756302521
-    rank 964
   ]
   node [
     id 965
@@ -8690,8 +6760,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8366666666666667
-    rank 940
   ]
   node [
     id 966
@@ -8699,8 +6767,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1191
   ]
   node [
     id 967
@@ -8708,8 +6774,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.0476190476190477
-    rank 1050
   ]
   node [
     id 968
@@ -8717,8 +6781,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8161764705882353
-    rank 949
   ]
   node [
     id 969
@@ -8726,8 +6788,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1333333333333333
-    rank 1045
   ]
   node [
     id 970
@@ -8735,8 +6795,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.776551724137931
-    rank 961
   ]
   node [
     id 971
@@ -8744,8 +6802,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.95
-    rank 1100
   ]
   node [
     id 972
@@ -8753,8 +6809,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.75625
-    rank 965
   ]
   node [
     id 973
@@ -8762,8 +6816,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5499999999999998
-    rank 1007
   ]
   node [
     id 974
@@ -8771,8 +6823,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8274398868458275
-    rank 943
   ]
   node [
     id 975
@@ -8780,8 +6830,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4166666666666667
-    rank 1024
   ]
   node [
     id 976
@@ -8789,8 +6837,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1135
   ]
   node [
     id 977
@@ -8798,8 +6844,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8571428571428572
-    rank 1176
   ]
   node [
     id 978
@@ -8807,8 +6851,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8471177944862154
-    rank 938
   ]
   node [
     id 979
@@ -8816,8 +6858,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8207792207792208
-    rank 947
   ]
   node [
     id 980
@@ -8825,8 +6865,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.780672268907563
-    rank 958
   ]
   node [
     id 981
@@ -8834,8 +6872,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1
-    rank 1047
   ]
   node [
     id 982
@@ -8843,8 +6879,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.744990892531876
-    rank 969
   ]
   node [
     id 983
@@ -8852,8 +6886,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.0833333333333335
-    rank 1049
   ]
   node [
     id 984
@@ -8861,8 +6893,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.709090909090909
-    rank 977
   ]
   node [
     id 985
@@ -8870,8 +6900,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8114035087719298
-    rank 950
   ]
   node [
     id 986
@@ -8879,8 +6907,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4285714285714286
-    rank 1021
   ]
   node [
     id 987
@@ -8888,8 +6914,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8794452347083925
-    rank 928
   ]
   node [
     id 988
@@ -8897,8 +6921,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.95
-    rank 1101
   ]
   node [
     id 989
@@ -8906,8 +6928,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.869281045751634
-    rank 931
   ]
   node [
     id 990
@@ -8915,8 +6935,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7953964194373402
-    rank 951
   ]
   node [
     id 991
@@ -8924,8 +6942,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7797101449275363
-    rank 959
   ]
   node [
     id 992
@@ -8933,8 +6949,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5357142857142856
-    rank 1011
   ]
   node [
     id 993
@@ -8942,8 +6956,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8305555555555557
-    rank 941
   ]
   node [
     id 994
@@ -8951,8 +6963,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6643356643356642
-    rank 987
   ]
   node [
     id 995
@@ -8960,8 +6970,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9230769230769231
-    rank 1133
   ]
   node [
     id 996
@@ -8969,8 +6977,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.577777777777778
-    rank 1002
   ]
   node [
     id 997
@@ -8978,8 +6984,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8214285714285714
-    rank 946
   ]
   node [
     id 998
@@ -8987,8 +6991,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7833333333333332
-    rank 955
   ]
   node [
     id 999
@@ -8996,8 +6998,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1857142857142857
-    rank 1041
   ]
   node [
     id 1000
@@ -9005,8 +7005,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9310344827586207
-    rank 1127
   ]
   node [
     id 1001
@@ -9014,8 +7012,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1222
   ]
   node [
     id 1002
@@ -9023,8 +7019,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6071428571428572
-    rank 995
   ]
   node [
     id 1003
@@ -9032,8 +7026,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.84375
-    rank 939
   ]
   node [
     id 1004
@@ -9041,8 +7033,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7000000000000002
-    rank 981
   ]
   node [
     id 1005
@@ -9050,8 +7040,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6944444444444444
-    rank 984
   ]
   node [
     id 1006
@@ -9059,8 +7047,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9230769230769231
-    rank 1134
   ]
   node [
     id 1007
@@ -9068,8 +7054,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9033927544565843
-    rank 919
   ]
   node [
     id 1008
@@ -9077,8 +7061,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1253
   ]
   node [
     id 1009
@@ -9086,8 +7068,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5444444444444443
-    rank 1009
   ]
   node [
     id 1010
@@ -9095,8 +7075,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7125
-    rank 976
   ]
   node [
     id 1011
@@ -9104,8 +7082,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6643356643356642
-    rank 988
   ]
   node [
     id 1012
@@ -9113,8 +7089,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2142857142857144
-    rank 1038
   ]
   node [
     id 1013
@@ -9122,8 +7096,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7055555555555557
-    rank 979
   ]
   node [
     id 1014
@@ -9131,8 +7103,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1267
   ]
   node [
     id 1015
@@ -9140,8 +7110,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1666666666666667
-    rank 1043
   ]
   node [
     id 1016
@@ -9149,8 +7117,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1229
   ]
   node [
     id 1017
@@ -9158,8 +7124,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9024676850763806
-    rank 921
   ]
   node [
     id 1018
@@ -9167,8 +7131,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7483552631578947
-    rank 968
   ]
   node [
     id 1019
@@ -9176,8 +7138,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6977777777777778
-    rank 982
   ]
   node [
     id 1020
@@ -9185,8 +7145,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.0
-    rank 1051
   ]
   node [
     id 1021
@@ -9194,8 +7152,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4285714285714286
-    rank 1022
   ]
   node [
     id 1022
@@ -9203,8 +7159,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1208
   ]
   node [
     id 1023
@@ -9212,8 +7166,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6274509803921569
-    rank 991
   ]
   node [
     id 1024
@@ -9221,8 +7173,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5499999999999998
-    rank 1008
   ]
   node [
     id 1025
@@ -9230,8 +7180,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8949079089924161
-    rank 925
   ]
   node [
     id 1026
@@ -9239,8 +7187,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1082
   ]
   node [
     id 1027
@@ -9248,8 +7194,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9026969857218403
-    rank 920
   ]
   node [
     id 1028
@@ -9257,8 +7201,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7514619883040936
-    rank 966
   ]
   node [
     id 1029
@@ -9266,8 +7208,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1268
   ]
   node [
     id 1030
@@ -9275,8 +7215,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.768918918918919
-    rank 963
   ]
   node [
     id 1031
@@ -9284,8 +7222,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4848484848484849
-    rank 1017
   ]
   node [
     id 1032
@@ -9293,8 +7229,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.794486215538847
-    rank 952
   ]
   node [
     id 1033
@@ -9302,8 +7236,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6
-    rank 997
   ]
   node [
     id 1034
@@ -9311,8 +7243,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8698752228163993
-    rank 930
   ]
   node [
     id 1035
@@ -9320,8 +7250,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7175324675324677
-    rank 974
   ]
   node [
     id 1036
@@ -9329,8 +7257,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6
-    rank 998
   ]
   node [
     id 1037
@@ -9338,8 +7264,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5892857142857144
-    rank 999
   ]
   node [
     id 1038
@@ -9347,8 +7271,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4642857142857144
-    rank 1019
   ]
   node [
     id 1039
@@ -9356,8 +7278,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5130434782608697
-    rank 1013
   ]
   node [
     id 1040
@@ -9365,8 +7285,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5
-    rank 1015
   ]
   node [
     id 1041
@@ -9374,8 +7292,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2
-    rank 1039
   ]
   node [
     id 1042
@@ -9383,8 +7299,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7818181818181817
-    rank 956
   ]
   node [
     id 1043
@@ -9392,8 +7306,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2777777777777777
-    rank 1033
   ]
   node [
     id 1044
@@ -9401,8 +7313,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1254
   ]
   node [
     id 1045
@@ -9410,8 +7320,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1244
   ]
   node [
     id 1046
@@ -9419,8 +7327,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2571428571428571
-    rank 1035
   ]
   node [
     id 1047
@@ -9428,8 +7334,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.3142857142857143
-    rank 1031
   ]
   node [
     id 1048
@@ -9437,8 +7341,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9047619047619048
-    rank 1155
   ]
   node [
     id 1049
@@ -9446,8 +7348,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.6742857142857144
-    rank 985
   ]
   node [
     id 1050
@@ -9455,8 +7355,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.709090909090909
-    rank 978
   ]
   node [
     id 1051
@@ -9464,8 +7362,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5637755102040818
-    rank 1004
   ]
   node [
     id 1052
@@ -9473,8 +7369,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8269230769230769
-    rank 944
   ]
   node [
     id 1053
@@ -9482,8 +7376,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9047619047619048
-    rank 1156
   ]
   node [
     id 1054
@@ -9491,8 +7383,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1230
   ]
   node [
     id 1055
@@ -9500,8 +7390,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.215686274509804
-    rank 1037
   ]
   node [
     id 1056
@@ -9509,8 +7397,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8528571428571428
-    rank 935
   ]
   node [
     id 1057
@@ -9518,8 +7404,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1
-    rank 1048
   ]
   node [
     id 1058
@@ -9527,8 +7411,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4090909090909092
-    rank 1026
   ]
   node [
     id 1059
@@ -9536,8 +7418,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.577777777777778
-    rank 1003
   ]
   node [
     id 1060
@@ -9545,8 +7425,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7417582417582418
-    rank 970
   ]
   node [
     id 1061
@@ -9554,8 +7432,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8637755102040816
-    rank 932
   ]
   node [
     id 1062
@@ -9563,8 +7439,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.1904761904761907
-    rank 1040
   ]
   node [
     id 1063
@@ -9572,8 +7446,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1083
   ]
   node [
     id 1064
@@ -9581,8 +7453,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1084
   ]
   node [
     id 1065
@@ -9590,8 +7460,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1085
   ]
   node [
     id 1066
@@ -9599,8 +7467,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1086
   ]
   node [
     id 1067
@@ -9608,8 +7474,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1087
   ]
   node [
     id 1068
@@ -9617,8 +7481,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1088
   ]
   node [
     id 1069
@@ -9626,8 +7488,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1089
   ]
   node [
     id 1070
@@ -9635,8 +7495,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1090
   ]
   node [
     id 1071
@@ -9644,8 +7502,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1091
   ]
   node [
     id 1072
@@ -9653,8 +7509,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1092
   ]
   node [
     id 1073
@@ -9662,8 +7516,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1093
   ]
   node [
     id 1074
@@ -9671,8 +7523,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1094
   ]
   node [
     id 1075
@@ -9680,8 +7530,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1095
   ]
   node [
     id 1076
@@ -9689,8 +7537,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1096
   ]
   node [
     id 1077
@@ -9698,8 +7544,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4444444444444446
-    rank 1020
   ]
   node [
     id 1078
@@ -9707,8 +7551,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.978494623655914
-    rank 1056
   ]
   node [
     id 1079
@@ -9716,8 +7558,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8931390406800244
-    rank 926
   ]
   node [
     id 1080
@@ -9725,8 +7565,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8207792207792208
-    rank 948
   ]
   node [
     id 1081
@@ -9734,8 +7572,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9
-    rank 922
   ]
   node [
     id 1082
@@ -9743,8 +7579,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2571428571428571
-    rank 1036
   ]
   node [
     id 1083
@@ -9752,8 +7586,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7818181818181817
-    rank 957
   ]
   node [
     id 1084
@@ -9761,8 +7593,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8484848484848486
-    rank 937
   ]
   node [
     id 1085
@@ -9770,8 +7600,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.9226779820839226
-    rank 916
   ]
   node [
     id 1086
@@ -9779,8 +7607,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.2714285714285714
-    rank 1034
   ]
   node [
     id 1087
@@ -9788,8 +7614,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8247619047619048
-    rank 945
   ]
   node [
     id 1088
@@ -9797,8 +7621,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7789661319073082
-    rank 960
   ]
   node [
     id 1089
@@ -9806,8 +7628,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9411764705882353
-    rank 1116
   ]
   node [
     id 1090
@@ -9815,8 +7635,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.7221052631578946
-    rank 973
   ]
   node [
     id 1091
@@ -9824,8 +7642,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.4285714285714286
-    rank 1023
   ]
   node [
     id 1092
@@ -9833,8 +7649,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.8295652173913042
-    rank 942
   ]
   node [
     id 1093
@@ -9842,8 +7656,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.737142857142857
-    rank 971
   ]
   node [
     id 1094
@@ -9851,8 +7663,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 1.5797101449275364
-    rank 1001
   ]
   node [
     id 1095
@@ -9860,8 +7670,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9733333333333334
-    rank 1059
   ]
   node [
     id 1096
@@ -9869,8 +7677,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9459459459459459
-    rank 1105
   ]
   node [
     id 1097
@@ -9878,8 +7684,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1066
   ]
   node [
     id 1098
@@ -9887,8 +7691,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1269
   ]
   node [
     id 1099
@@ -9896,8 +7698,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9753086419753086
-    rank 1057
   ]
   node [
     id 1100
@@ -9905,8 +7705,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1097
   ]
   node [
     id 1101
@@ -9914,8 +7712,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1280
   ]
   node [
     id 1102
@@ -9923,8 +7719,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8947368421052632
-    rank 1164
   ]
   node [
     id 1103
@@ -9932,8 +7726,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9545454545454546
-    rank 1077
   ]
   node [
     id 1104
@@ -9941,8 +7733,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9714285714285714
-    rank 1063
   ]
   node [
     id 1105
@@ -9950,8 +7740,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1192
   ]
   node [
     id 1106
@@ -9959,8 +7747,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1141
   ]
   node [
     id 1107
@@ -9968,8 +7754,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1200
   ]
   node [
     id 1108
@@ -9977,8 +7761,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9047619047619048
-    rank 1157
   ]
   node [
     id 1109
@@ -9986,8 +7768,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8823529411764706
-    rank 1169
   ]
   node [
     id 1110
@@ -9995,8 +7775,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9090909090909091
-    rank 1152
   ]
   node [
     id 1111
@@ -10004,8 +7782,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.75
-    rank 1218
   ]
   node [
     id 1112
@@ -10013,8 +7789,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1255
   ]
   node [
     id 1113
@@ -10022,8 +7796,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9090909090909091
-    rank 1153
   ]
   node [
     id 1114
@@ -10031,8 +7803,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9047619047619048
-    rank 1158
   ]
   node [
     id 1115
@@ -10040,8 +7810,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9130434782608696
-    rank 1147
   ]
   node [
     id 1116
@@ -10049,8 +7817,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9130434782608696
-    rank 1148
   ]
   node [
     id 1117
@@ -10058,8 +7824,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1231
   ]
   node [
     id 1118
@@ -10067,8 +7831,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9130434782608696
-    rank 1149
   ]
   node [
     id 1119
@@ -10076,8 +7838,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1186
   ]
   node [
     id 1120
@@ -10085,8 +7845,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9259259259259259
-    rank 1129
   ]
   node [
     id 1121
@@ -10094,8 +7852,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1270
   ]
   node [
     id 1122
@@ -10103,8 +7859,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1209
   ]
   node [
     id 1123
@@ -10112,8 +7866,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1193
   ]
   node [
     id 1124
@@ -10121,8 +7873,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1106
   ]
   node [
     id 1125
@@ -10130,8 +7880,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9615384615384616
-    rank 1075
   ]
   node [
     id 1126
@@ -10139,8 +7887,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1107
   ]
   node [
     id 1127
@@ -10148,8 +7894,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9393939393939394
-    rank 1117
   ]
   node [
     id 1128
@@ -10157,8 +7901,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.95
-    rank 1102
   ]
   node [
     id 1129
@@ -10166,8 +7908,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1245
   ]
   node [
     id 1130
@@ -10175,8 +7915,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8571428571428572
-    rank 1177
   ]
   node [
     id 1131
@@ -10184,8 +7922,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1256
   ]
   node [
     id 1132
@@ -10193,8 +7929,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1257
   ]
   node [
     id 1133
@@ -10202,8 +7936,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9545454545454546
-    rank 1078
   ]
   node [
     id 1134
@@ -10211,8 +7943,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9333333333333333
-    rank 1125
   ]
   node [
     id 1135
@@ -10220,8 +7950,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1232
   ]
   node [
     id 1136
@@ -10229,8 +7957,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1136
   ]
   node [
     id 1137
@@ -10238,8 +7964,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1210
   ]
   node [
     id 1138
@@ -10247,8 +7971,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9130434782608696
-    rank 1150
   ]
   node [
     id 1139
@@ -10256,8 +7978,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1201
   ]
   node [
     id 1140
@@ -10265,8 +7985,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9714285714285714
-    rank 1064
   ]
   node [
     id 1141
@@ -10274,8 +7992,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9714285714285714
-    rank 1065
   ]
   node [
     id 1142
@@ -10283,8 +7999,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1194
   ]
   node [
     id 1143
@@ -10292,8 +8006,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1233
   ]
   node [
     id 1144
@@ -10301,8 +8013,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1108
   ]
   node [
     id 1145
@@ -10310,8 +8020,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1067
   ]
   node [
     id 1146
@@ -10319,8 +8027,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1211
   ]
   node [
     id 1147
@@ -10328,8 +8034,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1223
   ]
   node [
     id 1148
@@ -10337,8 +8041,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9393939393939394
-    rank 1118
   ]
   node [
     id 1149
@@ -10346,8 +8048,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9801980198019802
-    rank 1052
   ]
   node [
     id 1150
@@ -10355,8 +8055,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1109
   ]
   node [
     id 1151
@@ -10364,8 +8062,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1202
   ]
   node [
     id 1152
@@ -10373,8 +8069,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1271
   ]
   node [
     id 1153
@@ -10382,8 +8076,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1195
   ]
   node [
     id 1154
@@ -10391,8 +8083,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1196
   ]
   node [
     id 1155
@@ -10400,8 +8090,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8666666666666667
-    rank 1173
   ]
   node [
     id 1156
@@ -10409,8 +8097,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9545454545454546
-    rank 1079
   ]
   node [
     id 1157
@@ -10418,8 +8104,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9333333333333333
-    rank 1126
   ]
   node [
     id 1158
@@ -10427,8 +8111,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1272
   ]
   node [
     id 1159
@@ -10436,8 +8118,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1110
   ]
   node [
     id 1160
@@ -10445,8 +8125,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1224
   ]
   node [
     id 1161
@@ -10454,8 +8132,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1187
   ]
   node [
     id 1162
@@ -10463,8 +8139,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1234
   ]
   node [
     id 1163
@@ -10472,8 +8146,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9666666666666667
-    rank 1072
   ]
   node [
     id 1164
@@ -10481,8 +8153,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1258
   ]
   node [
     id 1165
@@ -10490,8 +8160,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1188
   ]
   node [
     id 1166
@@ -10499,8 +8167,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1225
   ]
   node [
     id 1167
@@ -10508,8 +8174,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9090909090909091
-    rank 1154
   ]
   node [
     id 1168
@@ -10517,8 +8181,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1235
   ]
   node [
     id 1169
@@ -10526,8 +8188,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8888888888888888
-    rank 1166
   ]
   node [
     id 1170
@@ -10535,8 +8195,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1226
   ]
   node [
     id 1171
@@ -10544,8 +8202,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1259
   ]
   node [
     id 1172
@@ -10553,8 +8209,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1068
   ]
   node [
     id 1173
@@ -10562,8 +8216,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1137
   ]
   node [
     id 1174
@@ -10571,8 +8223,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9393939393939394
-    rank 1119
   ]
   node [
     id 1175
@@ -10580,8 +8230,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9753086419753086
-    rank 1058
   ]
   node [
     id 1176
@@ -10589,8 +8237,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1212
   ]
   node [
     id 1177
@@ -10598,8 +8244,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8461538461538461
-    rank 1180
   ]
   node [
     id 1178
@@ -10607,8 +8251,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1236
   ]
   node [
     id 1179
@@ -10616,8 +8258,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1281
   ]
   node [
     id 1180
@@ -10625,8 +8265,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.95
-    rank 1103
   ]
   node [
     id 1181
@@ -10634,8 +8272,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1213
   ]
   node [
     id 1182
@@ -10643,8 +8279,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8947368421052632
-    rank 1165
   ]
   node [
     id 1183
@@ -10652,8 +8286,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9
-    rank 1160
   ]
   node [
     id 1184
@@ -10661,8 +8293,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1111
   ]
   node [
     id 1185
@@ -10670,8 +8300,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1273
   ]
   node [
     id 1186
@@ -10679,8 +8307,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1274
   ]
   node [
     id 1187
@@ -10688,8 +8314,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1203
   ]
   node [
     id 1188
@@ -10697,8 +8321,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1227
   ]
   node [
     id 1189
@@ -10706,8 +8328,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.935483870967742
-    rank 1123
   ]
   node [
     id 1190
@@ -10715,8 +8335,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1237
   ]
   node [
     id 1191
@@ -10724,8 +8342,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1238
   ]
   node [
     id 1192
@@ -10733,8 +8349,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1112
   ]
   node [
     id 1193
@@ -10742,8 +8356,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1246
   ]
   node [
     id 1194
@@ -10751,8 +8363,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8571428571428572
-    rank 1178
   ]
   node [
     id 1195
@@ -10760,8 +8370,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1069
   ]
   node [
     id 1196
@@ -10769,8 +8377,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1138
   ]
   node [
     id 1197
@@ -10778,8 +8384,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.75
-    rank 1219
   ]
   node [
     id 1198
@@ -10787,8 +8391,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1214
   ]
   node [
     id 1199
@@ -10796,8 +8398,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9130434782608696
-    rank 1151
   ]
   node [
     id 1200
@@ -10805,8 +8405,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7142857142857143
-    rank 1228
   ]
   node [
     id 1201
@@ -10814,8 +8412,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8888888888888888
-    rank 1167
   ]
   node [
     id 1202
@@ -10823,8 +8419,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9733333333333334
-    rank 1060
   ]
   node [
     id 1203
@@ -10832,8 +8426,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8461538461538461
-    rank 1181
   ]
   node [
     id 1204
@@ -10841,8 +8433,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1282
   ]
   node [
     id 1205
@@ -10850,8 +8440,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1098
   ]
   node [
     id 1206
@@ -10859,8 +8447,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1142
   ]
   node [
     id 1207
@@ -10868,8 +8454,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1113
   ]
   node [
     id 1208
@@ -10877,8 +8461,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1215
   ]
   node [
     id 1209
@@ -10886,8 +8468,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1197
   ]
   node [
     id 1210
@@ -10895,8 +8475,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8461538461538461
-    rank 1182
   ]
   node [
     id 1211
@@ -10904,8 +8482,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1204
   ]
   node [
     id 1212
@@ -10913,8 +8489,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1070
   ]
   node [
     id 1213
@@ -10922,8 +8496,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1260
   ]
   node [
     id 1214
@@ -10931,8 +8503,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1216
   ]
   node [
     id 1215
@@ -10940,8 +8510,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1283
   ]
   node [
     id 1216
@@ -10949,8 +8517,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1114
   ]
   node [
     id 1217
@@ -10958,8 +8524,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.7777777777777778
-    rank 1217
   ]
   node [
     id 1218
@@ -10967,8 +8531,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1247
   ]
   node [
     id 1219
@@ -10976,8 +8538,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9512195121951219
-    rank 1099
   ]
   node [
     id 1220
@@ -10985,8 +8545,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1248
   ]
   node [
     id 1221
@@ -10994,8 +8552,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1275
   ]
   node [
     id 1222
@@ -11003,8 +8559,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1198
   ]
   node [
     id 1223
@@ -11012,8 +8566,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1143
   ]
   node [
     id 1224
@@ -11021,8 +8573,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9
-    rank 1161
   ]
   node [
     id 1225
@@ -11030,8 +8580,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1261
   ]
   node [
     id 1226
@@ -11039,8 +8587,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9801980198019802
-    rank 1053
   ]
   node [
     id 1227
@@ -11048,8 +8594,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1239
   ]
   node [
     id 1228
@@ -11057,8 +8601,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9
-    rank 1162
   ]
   node [
     id 1229
@@ -11066,8 +8608,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9259259259259259
-    rank 1130
   ]
   node [
     id 1230
@@ -11075,8 +8615,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8666666666666667
-    rank 1174
   ]
   node [
     id 1231
@@ -11084,8 +8622,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1240
   ]
   node [
     id 1232
@@ -11093,8 +8629,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9375
-    rank 1120
   ]
   node [
     id 1233
@@ -11102,8 +8636,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9
-    rank 1163
   ]
   node [
     id 1234
@@ -11111,8 +8643,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1189
   ]
   node [
     id 1235
@@ -11120,8 +8650,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.875
-    rank 1170
   ]
   node [
     id 1236
@@ -11129,8 +8657,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.75
-    rank 1220
   ]
   node [
     id 1237
@@ -11138,8 +8664,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1262
   ]
   node [
     id 1238
@@ -11147,8 +8671,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9733333333333334
-    rank 1061
   ]
   node [
     id 1239
@@ -11156,8 +8678,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1249
   ]
   node [
     id 1240
@@ -11165,8 +8685,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9545454545454546
-    rank 1080
   ]
   node [
     id 1241
@@ -11174,8 +8692,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1263
   ]
   node [
     id 1242
@@ -11183,8 +8699,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9523809523809523
-    rank 1081
   ]
   node [
     id 1243
@@ -11192,8 +8706,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1264
   ]
   node [
     id 1244
@@ -11201,8 +8713,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8181818181818181
-    rank 1199
   ]
   node [
     id 1245
@@ -11210,8 +8720,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8461538461538461
-    rank 1183
   ]
   node [
     id 1246
@@ -11219,8 +8727,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1205
   ]
   node [
     id 1247
@@ -11228,8 +8734,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9801980198019802
-    rank 1054
   ]
   node [
     id 1248
@@ -11237,8 +8741,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.75
-    rank 1221
   ]
   node [
     id 1249
@@ -11246,8 +8748,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1250
   ]
   node [
     id 1250
@@ -11255,8 +8755,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9801980198019802
-    rank 1055
   ]
   node [
     id 1251
@@ -11264,8 +8762,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1276
   ]
   node [
     id 1252
@@ -11273,8 +8769,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9666666666666667
-    rank 1073
   ]
   node [
     id 1253
@@ -11282,8 +8776,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9047619047619048
-    rank 1159
   ]
   node [
     id 1254
@@ -11291,8 +8783,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1284
   ]
   node [
     id 1255
@@ -11300,8 +8790,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.875
-    rank 1171
   ]
   node [
     id 1256
@@ -11309,8 +8797,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9375
-    rank 1121
   ]
   node [
     id 1257
@@ -11318,8 +8804,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.33333333333333337
-    rank 1277
   ]
   node [
     id 1258
@@ -11327,8 +8811,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1144
   ]
   node [
     id 1259
@@ -11336,8 +8818,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1241
   ]
   node [
     id 1260
@@ -11345,8 +8825,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1139
   ]
   node [
     id 1261
@@ -11354,8 +8832,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9661016949152542
-    rank 1074
   ]
   node [
     id 1262
@@ -11363,8 +8839,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.875
-    rank 1172
   ]
   node [
     id 1263
@@ -11372,8 +8846,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.95
-    rank 1104
   ]
   node [
     id 1264
@@ -11381,8 +8853,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8888888888888888
-    rank 1168
   ]
   node [
     id 1265
@@ -11390,8 +8860,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1206
   ]
   node [
     id 1266
@@ -11399,8 +8867,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9682539682539683
-    rank 1071
   ]
   node [
     id 1267
@@ -11408,8 +8874,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8461538461538461
-    rank 1184
   ]
   node [
     id 1268
@@ -11417,8 +8881,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8571428571428572
-    rank 1179
   ]
   node [
     id 1269
@@ -11426,8 +8888,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.96
-    rank 1076
   ]
   node [
     id 1270
@@ -11435,8 +8895,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8666666666666667
-    rank 1175
   ]
   node [
     id 1271
@@ -11444,8 +8902,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1145
   ]
   node [
     id 1272
@@ -11453,8 +8909,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9166666666666666
-    rank 1146
   ]
   node [
     id 1273
@@ -11462,8 +8916,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9375
-    rank 1122
   ]
   node [
     id 1274
@@ -11471,8 +8923,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.0
-    rank 1285
   ]
   node [
     id 1275
@@ -11480,8 +8930,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.92
-    rank 1140
   ]
   node [
     id 1276
@@ -11489,8 +8937,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8333333333333334
-    rank 1190
   ]
   node [
     id 1277
@@ -11498,8 +8944,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.5
-    rank 1265
   ]
   node [
     id 1278
@@ -11507,8 +8951,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1251
   ]
   node [
     id 1279
@@ -11516,8 +8958,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6
-    rank 1252
   ]
   node [
     id 1280
@@ -11525,8 +8965,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.8
-    rank 1207
   ]
   node [
     id 1281
@@ -11534,8 +8972,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9259259259259259
-    rank 1131
   ]
   node [
     id 1282
@@ -11543,8 +8979,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1242
   ]
   node [
     id 1283
@@ -11552,8 +8986,6 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.9428571428571428
-    rank 1115
   ]
   node [
     id 1284
@@ -11561,32317 +8993,32315 @@ graph [
     core 0
     core1 0
     global 0
-    cs 0.6666666666666667
-    rank 1243
   ]
   edge [
     source 0
     target 52
-    similar 0.25471698113207547
+    delta 0.4426824391541682
   ]
   edge [
     source 0
     target 93
-    similar 0.2828282828282828
+    delta 0.4979400958207051
   ]
   edge [
     source 0
     target 147
-    similar 0.20202020202020202
+    delta 0.406725917391042
   ]
   edge [
     source 0
     target 37
-    similar 0.19090909090909092
+    delta 0.3532531328825567
   ]
   edge [
     source 0
     target 227
-    similar 0.1595744680851064
+    delta 0.38885688552390946
   ]
   edge [
     source 0
     target 316
-    similar 0.058823529411764705
+    delta 0.16064386578049977
   ]
   edge [
     source 0
     target 250
-    similar 0.15789473684210525
+    delta 0.37724659112089265
   ]
   edge [
     source 0
     target 53
-    similar 0.2857142857142857
+    delta 0.5054283370022902
   ]
   edge [
     source 0
     target 340
-    similar 0.09278350515463918
+    delta 0.25883878884437284
   ]
   edge [
     source 0
     target 545
-    similar 0.052083333333333336
+    delta 0.18330889377669163
   ]
   edge [
     source 0
     target 2
-    similar 0.4264705882352941
+    delta 0.5984471904106683
   ]
   edge [
     source 0
     target 1078
-    similar 0.021505376344086023
+    delta 0.1466471150213533
   ]
   edge [
     source 0
     target 851
-    similar 0.043010752688172046
+    delta 0.20739033894608505
   ]
   edge [
     source 0
     target 221
-    similar 0.14432989690721648
+    delta 0.342176601716491
   ]
   edge [
     source 0
     target 271
-    similar 0.14736842105263157
+    delta 0.36293309315564887
   ]
   edge [
     source 0
     target 74
-    similar 0.23529411764705882
+    delta 0.43322428885910585
   ]
   edge [
     source 0
     target 454
-    similar 0.11827956989247312
+    delta 0.3439179697143973
   ]
   edge [
     source 0
     target 69
-    similar 0.22772277227722773
+    delta 0.4283566513342385
   ]
   edge [
     source 0
     target 209
-    similar 0.17894736842105263
+    delta 0.40441815785933555
   ]
   edge [
     source 0
     target 256
-    similar 0.1368421052631579
+    delta 0.3480617091910828
   ]
   edge [
     source 0
     target 124
-    similar 0.19
+    delta 0.3863896215214899
   ]
   edge [
     source 0
     target 206
-    similar 0.17894736842105263
+    delta 0.40441815785933555
   ]
   edge [
     source 0
     target 4
-    similar 0.3333333333333333
+    delta 0.5028948456749698
   ]
   edge [
     source 0
     target 233
-    similar 0.09900990099009901
+    delta 0.24441185836892215
   ]
   edge [
     source 0
     target 616
-    similar 0.05319148936170213
+    delta 0.21166687833365086
   ]
   edge [
     source 0
     target 557
-    similar 0.04081632653061224
+    delta 0.1382602259640567
   ]
   edge [
     source 0
     target 473
-    similar 0.10638297872340426
+    delta 0.3126526997403612
   ]
   edge [
     source 0
     target 10
-    similar 0.3050847457627119
+    delta 0.47796501468388486
   ]
   edge [
     source 0
     target 506
-    similar 0.05154639175257732
+    delta 0.17282528245507087
   ]
   edge [
     source 0
     target 284
-    similar 0.14736842105263157
+    delta 0.36293309315564887
   ]
   edge [
     source 0
     target 14
-    similar 0.248
+    delta 0.4049952641959706
   ]
   edge [
     source 0
     target 1
-    similar 0.2953020134228188
+    delta 0.45625874568138713
   ]
   edge [
     source 0
     target 145
-    similar 0.22448979591836735
+    delta 0.4390351827321164
   ]
   edge [
     source 0
     target 157
-    similar 0.13
+    delta 0.3014302822441094
   ]
   edge [
     source 0
     target 35
-    similar 0.06716417910447761
+    delta 0.13198240351921794
   ]
   edge [
     source 0
     target 7
-    similar 0.14473684210526316
+    delta 0.253477080934104
   ]
   edge [
     source 0
     target 103
-    similar 0.043859649122807015
+    delta 0.1016814793477605
   ]
   edge [
     source 0
     target 15
-    similar 0.050724637681159424
+    delta 0.10065952899503389
   ]
   edge [
     source 0
     target 6
-    similar 0.03680981595092025
+    delta 0.07136791021047098
   ]
   edge [
     source 0
     target 151
-    similar 0.03636363636363636
+    delta 0.09051256444028408
   ]
   edge [
     source 0
     target 82
-    similar 0.04838709677419355
+    delta 0.10228428509895356
   ]
   edge [
     source 0
     target 25
-    similar 0.10071942446043165
+    delta 0.18741784341058307
   ]
   edge [
     source 0
     target 509
-    similar 0.08421052631578947
+    delta 0.26233033431358116
   ]
   edge [
     source 0
     target 588
-    similar 0.08602150537634409
+    delta 0.2932942300427066
   ]
   edge [
     source 0
     target 334
-    similar 0.11224489795918367
+    delta 0.28516171605086693
   ]
   edge [
     source 0
     target 133
-    similar 0.20588235294117646
+    delta 0.3975732839729454
   ]
   edge [
     source 0
     target 237
-    similar 0.17525773195876287
+    delta 0.38467839887120736
   ]
   edge [
     source 0
     target 561
-    similar 0.07526881720430108
+    delta 0.2743516305843672
   ]
   edge [
     source 0
     target 56
-    similar 0.18691588785046728
+    delta 0.35567149701478934
   ]
   edge [
     source 0
     target 173
-    similar 0.1836734693877551
+    delta 0.3891948750579695
   ]
   edge [
     source 0
     target 214
-    similar 0.15306122448979592
+    delta 0.34780417182012624
   ]
   edge [
     source 0
     target 275
-    similar 0.06862745098039216
+    delta 0.18146654657782443
   ]
   edge [
     source 0
     target 108
-    similar 0.21428571428571427
+    delta 0.4270622132605941
   ]
   edge [
     source 0
     target 613
-    similar 0.07526881720430108
+    delta 0.2743516305843672
   ]
   edge [
     source 0
     target 164
-    similar 0.09259259259259259
+    delta 0.20739033894608505
   ]
   edge [
     source 0
     target 16
-    similar 0.19834710743801653
+    delta 0.3451183851258305
   ]
   edge [
     source 0
     target 58
-    similar 0.18421052631578946
+    delta 0.3360107525161235
   ]
   edge [
     source 0
     target 41
-    similar 0.1834862385321101
+    delta 0.34565056491014173
   ]
   edge [
     source 0
     target 197
-    similar 0.2
+    delta 0.4299346810913494
   ]
   edge [
     source 0
     target 12
-    similar 0.17829457364341086
+    delta 0.31049910731634967
   ]
   edge [
     source 0
     target 19
-    similar 0.2689075630252101
+    delta 0.4357069698652675
   ]
   edge [
     source 0
     target 369
-    similar 0.11578947368421053
+    delta 0.31635851969867795
   ]
   edge [
     source 0
     target 260
-    similar 0.11
+    delta 0.26885304420581435
   ]
   edge [
     source 0
     target 257
-    similar 0.11
+    delta 0.26885304420581435
   ]
   edge [
     source 0
     target 118
-    similar 0.15841584158415842
+    delta 0.33866700533384136
   ]
   edge [
     source 0
     target 149
-    similar 0.10476190476190476
+    delta 0.23784131253542581
   ]
   edge [
     source 0
     target 77
-    similar 0.041666666666666664
+    delta 0.09165444688834581
   ]
   edge [
     source 0
     target 850
-    similar 0.043010752688172046
+    delta 0.20739033894608505
   ]
   edge [
     source 0
     target 175
-    similar 0.11650485436893204
+    delta 0.26529461297122914
   ]
   edge [
     source 0
     target 50
-    similar 0.14912280701754385
+    delta 0.2859668218573078
   ]
   edge [
     source 0
     target 389
-    similar 0.11702127659574468
+    delta 0.3292763870490873
   ]
   edge [
     source 0
     target 429
-    similar 0.06060606060606061
+    delta 0.17960530202677488
   ]
   edge [
     source 0
     target 870
-    similar 0.043010752688172046
+    delta 0.20739033894608505
   ]
   edge [
     source 0
     target 215
-    similar 0.15625
+    delta 0.3666177875533832
   ]
   edge [
     source 0
     target 196
-    similar 0.03571428571428571
+    delta 0.08648775001288211
   ]
   edge [
     source 0
     target 779
-    similar 0.0425531914893617
+    delta 0.18549555830406733
   ]
   edge [
     source 0
     target 72
-    similar 0.07563025210084033
+    delta 0.15774914461488565
   ]
   edge [
     source 0
     target 342
-    similar 0.049019607843137254
+    delta 0.13856849886842332
   ]
   edge [
     source 0
     target 85
-    similar 0.13636363636363635
+    delta 0.2749633406650374
   ]
   edge [
     source 0
     target 358
-    similar 0.050505050505050504
+    delta 0.1563263498701806
   ]
   edge [
     source 0
     target 131
-    similar 0.26595744680851063
+    delta 0.5084073967388025
   ]
   edge [
     source 0
     target 388
-    similar 0.08421052631578947
+    delta 0.26233033431358116
   ]
   edge [
     source 0
     target 117
-    similar 0.1308411214953271
+    delta 0.2743516305843672
   ]
   edge [
     source 0
     target 68
-    similar 0.22429906542056074
+    delta 0.40371786615149335
   ]
   edge [
     source 0
     target 322
-    similar 0.11458333333333333
+    delta 0.3048506975105313
   ]
   edge [
     source 0
     target 11
-    similar 0.06382978723404255
+    delta 0.12361284651454937
   ]
   edge [
     source 0
     target 198
-    similar 0.18556701030927836
+    delta 0.3979419194568437
   ]
   edge [
     source 0
     target 390
-    similar 0.09473684210526316
+    delta 0.2813874297663251
   ]
   edge [
     source 0
     target 468
-    similar 0.10638297872340426
+    delta 0.3126526997403612
   ]
   edge [
     source 0
     target 280
-    similar 0.125
+    delta 0.32128773156099955
   ]
   edge [
     source 0
     target 47
-    similar 0.1891891891891892
+    delta 0.3486948369707025
   ]
   edge [
     source 0
     target 578
-    similar 0.07446808510638298
+    delta 0.2566324512873683
   ]
   edge [
     source 1
     target 336
-    similar 0.10784313725490197
+    delta 0.305085107923876
   ]
   edge [
     source 1
     target 226
-    similar 0.14423076923076922
+    delta 0.34412360080584264
   ]
   edge [
     source 1
     target 380
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 1
     target 52
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 1
     target 93
-    similar 0.18584070796460178
+    delta 0.3601470287992686
   ]
   edge [
     source 1
     target 353
-    similar 0.056074766355140186
+    delta 0.16641005886756874
   ]
   edge [
     source 1
     target 13
-    similar 0.06060606060606061
+    delta 0.11547005383792516
   ]
   edge [
     source 1
     target 37
-    similar 0.23214285714285715
+    delta 0.42177569493998257
   ]
   edge [
     source 1
     target 227
-    similar 0.10476190476190476
+    delta 0.275
   ]
   edge [
     source 1
     target 149
-    similar 0.14953271028037382
+    delta 0.3336230624913196
   ]
   edge [
     source 1
     target 250
-    similar 0.10377358490566038
+    delta 0.2667891875399663
   ]
   edge [
     source 1
     target 53
-    similar 0.1875
+    delta 0.3655630775069655
   ]
   edge [
     source 1
     target 94
-    similar 0.10256410256410256
+    delta 0.22283440581246225
   ]
   edge [
     source 1
     target 251
-    similar 0.12149532710280374
+    delta 0.2906888370749727
   ]
   edge [
     source 1
     target 546
-    similar 0.06930693069306931
+    delta 0.24748737341529162
   ]
   edge [
     source 1
     target 48
-    similar 0.06060606060606061
+    delta 0.12649110640673517
   ]
   edge [
     source 1
     target 206
-    similar 0.14423076923076922
+    delta 0.34412360080584264
   ]
   edge [
     source 1
     target 215
-    similar 0.11320754716981132
+    delta 0.282842712474619
   ]
   edge [
     source 1
     target 639
-    similar 0.01904761904761905
+    delta 0.07559289460184544
   ]
   edge [
     source 1
     target 173
-    similar 0.11818181818181818
+    delta 0.2710687382741972
   ]
   edge [
     source 1
     target 108
-    similar 0.125
+    delta 0.27456258919345766
   ]
   edge [
     source 1
     target 590
-    similar 0.06930693069306931
+    delta 0.24748737341529162
   ]
   edge [
     source 1
     target 156
-    similar 0.03333333333333333
+    delta 0.08164965809277261
   ]
   edge [
     source 1
     target 271
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 1
     target 497
-    similar 0.0784313725490196
+    delta 0.25298221281347033
   ]
   edge [
     source 1
     target 229
-    similar 0.10576923076923077
+    delta 0.28401877872187725
   ]
   edge [
     source 1
     target 216
-    similar 0.16831683168316833
+    delta 0.4006938426723769
   ]
   edge [
     source 1
     target 35
-    similar 0.08695652173913043
+    delta 0.1697056274847714
   ]
   edge [
     source 1
     target 157
-    similar 0.1650485436893204
+    delta 0.38013155617496425
   ]
   edge [
     source 1
     target 230
-    similar 0.10576923076923077
+    delta 0.28401877872187725
   ]
   edge [
     source 1
     target 175
-    similar 0.14018691588785046
+    delta 0.31980107453341566
   ]
   edge [
     source 1
     target 85
-    similar 0.1282051282051282
+    delta 0.2651650429449553
   ]
   edge [
     source 1
     target 130
-    similar 0.041666666666666664
+    delta 0.1
   ]
   edge [
     source 1
     target 7
-    similar 0.06470588235294118
+    delta 0.12222222222222222
   ]
   edge [
     source 1
     target 73
-    similar 0.031007751937984496
+    delta 0.06963106238227913
   ]
   edge [
     source 1
     target 60
-    similar 0.031007751937984496
+    delta 0.06963106238227913
   ]
   edge [
     source 1
     target 510
-    similar 0.02830188679245283
+    delta 0.1
   ]
   edge [
     source 1
     target 141
-    similar 0.16981132075471697
+    delta 0.3674234614174767
   ]
   edge [
     source 1
     target 96
-    similar 0.17117117117117117
+    delta 0.34689095308660517
   ]
   edge [
     source 1
     target 10
-    similar 0.3879310344827586
+    delta 0.5761659596980319
   ]
   edge [
     source 1
     target 117
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 1
     target 179
-    similar 0.18446601941747573
+    delta 0.40508136107565984
   ]
   edge [
     source 1
     target 274
-    similar 0.0625
+    delta 0.16059101370939322
   ]
   edge [
     source 1
     target 233
-    similar 0.07272727272727272
+    delta 0.18856180831641267
   ]
   edge [
     source 1
     target 346
-    similar 0.027522935779816515
+    delta 0.08660254037844385
   ]
   edge [
     source 1
     target 50
-    similar 0.1794871794871795
+    delta 0.3406649843746013
   ]
   edge [
     source 1
     target 68
-    similar 0.2
+    delta 0.37310926860075383
   ]
   edge [
     source 1
     target 322
-    similar 0.11764705882352941
+    delta 0.32071349029490925
   ]
   edge [
     source 1
     target 11
-    similar 0.06802721088435375
+    delta 0.13245323570650439
   ]
   edge [
     source 1
     target 69
-    similar 0.19090909090909092
+    delta 0.3771711342562273
   ]
   edge [
     source 1
     target 517
-    similar 0.018518518518518517
+    delta 0.06324555320336758
   ]
   edge [
     source 1
     target 199
-    similar 0.0990990990990991
+    delta 0.2345207879911715
   ]
   edge [
     source 1
     target 425
-    similar 0.06862745098039216
+    delta 0.23333333333333334
   ]
   edge [
     source 1
     target 392
-    similar 0.08737864077669903
+    delta 0.25980762113533157
   ]
   edge [
     source 1
     target 74
-    similar 0.16666666666666666
+    delta 0.33074754631582587
   ]
   edge [
     source 1
     target 167
-    similar 0.11711711711711711
+    delta 0.26536138880151094
   ]
   edge [
     source 1
     target 520
-    similar 0.028037383177570093
+    delta 0.09486832980505139
   ]
   edge [
     source 1
     target 569
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 1
     target 75
-    similar 0.07936507936507936
+    delta 0.16666666666666666
   ]
   edge [
     source 1
     target 468
-    similar 0.08823529411764706
+    delta 0.27136021011998723
   ]
   edge [
     source 1
     target 221
-    similar 0.1346153846153846
+    delta 0.3299831645537222
   ]
   edge [
     source 1
     target 395
-    similar 0.09803921568627451
+    delta 0.28867513459481287
   ]
   edge [
     source 1
     target 428
-    similar 0.04716981132075472
+    delta 0.1507556722888818
   ]
   edge [
     source 1
     target 105
-    similar 0.04032258064516129
+    delta 0.09284766908852593
   ]
   edge [
     source 1
     target 369
-    similar 0.13
+    delta 0.36055512754639896
   ]
   edge [
     source 1
     target 2
-    similar 0.3137254901960784
+    delta 0.4776178513007948
   ]
   edge [
     source 1
     target 244
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 1
     target 159
-    similar 0.07079646017699115
+    delta 0.17457431218879388
   ]
   edge [
     source 1
     target 280
-    similar 0.08490566037735849
+    delta 0.23237900077244503
   ]
   edge [
     source 1
     target 309
-    similar 0.04504504504504504
+    delta 0.125
   ]
   edge [
     source 1
     target 16
-    similar 0.29914529914529914
+    delta 0.4853626716970755
   ]
   edge [
     source 1
     target 62
-    similar 0.072
+    delta 0.15434872662825797
   ]
   edge [
     source 1
     target 4
-    similar 0.2773722627737226
+    delta 0.4387862045841156
   ]
   edge [
     source 1
     target 473
-    similar 0.08823529411764706
+    delta 0.27136021011998723
   ]
   edge [
     source 1
     target 41
-    similar 0.32038834951456313
+    delta 0.55
   ]
   edge [
     source 1
     target 58
-    similar 0.3148148148148148
+    delta 0.5246313898711126
   ]
   edge [
     source 1
     target 118
-    similar 0.13761467889908258
+    delta 0.3061862178478973
   ]
   edge [
     source 1
     target 145
-    similar 0.14414414414414414
+    delta 0.3079201435678004
   ]
   edge [
     source 1
     target 775
-    similar 0.019417475728155338
+    delta 0.08944271909999159
   ]
   edge [
     source 1
     target 133
-    similar 0.1504424778761062
+    delta 0.31037611591959413
   ]
   edge [
     source 1
     target 278
-    similar 0.06363636363636363
+    delta 0.16977493752543307
   ]
   edge [
     source 1
     target 606
-    similar 0.058823529411764705
+    delta 0.21213203435596426
   ]
   edge [
     source 1
     target 36
-    similar 0.06569343065693431
+    delta 0.1326977605394074
   ]
   edge [
     source 1
     target 98
-    similar 0.0390625
+    delta 0.08703882797784893
   ]
   edge [
     source 1
     target 33
-    similar 0.07194244604316546
+    delta 0.14285714285714285
   ]
   edge [
     source 1
     target 518
-    similar 0.018518518518518517
+    delta 0.06324555320336758
   ]
   edge [
     source 1
     target 509
-    similar 0.047619047619047616
+    delta 0.15811388300841897
   ]
   edge [
     source 1
     target 474
-    similar 0.037383177570093455
+    delta 0.12060453783110543
   ]
   edge [
     source 1
     target 277
-    similar 0.04504504504504504
+    delta 0.125
   ]
   edge [
     source 1
     target 45
-    similar 0.031007751937984496
+    delta 0.06963106238227913
   ]
   edge [
     source 1
     target 301
-    similar 0.036036036036036036
+    delta 0.10327955589886445
   ]
   edge [
     source 1
     target 12
-    similar 0.1276595744680851
+    delta 0.23434003976548295
   ]
   edge [
     source 1
     target 99
-    similar 0.064
+    delta 0.13926212476455826
   ]
   edge [
     source 1
     target 87
-    similar 0.047619047619047616
+    delta 0.10606601717798213
   ]
   edge [
     source 1
     target 107
-    similar 0.04032258064516129
+    delta 0.09284766908852593
   ]
   edge [
     source 1
     target 9
-    similar 0.052980132450331126
+    delta 0.1041511287846591
   ]
   edge [
     source 1
     target 214
-    similar 0.09090909090909091
+    delta 0.22360679774997896
   ]
   edge [
     source 1
     target 335
-    similar 0.0970873786407767
+    delta 0.2773500981126146
   ]
   edge [
     source 2
     target 227
-    similar 0.15841584158415842
+    delta 0.39801487608399566
   ]
   edge [
     source 2
     target 206
-    similar 0.12149532710280374
+    delta 0.29676034338668433
   ]
   edge [
     source 2
     target 10
-    similar 0.35
+    delta 0.5350861204570667
   ]
   edge [
     source 2
     target 117
-    similar 0.2169811320754717
+    delta 0.43250201330564586
   ]
   edge [
     source 2
     target 69
-    similar 0.2571428571428571
+    delta 0.4825276787039541
   ]
   edge [
     source 2
     target 12
-    similar 0.18518518518518517
+    delta 0.32385702044714343
   ]
   edge [
     source 2
     target 251
-    similar 0.18627450980392157
+    delta 0.42274445151548556
   ]
   edge [
     source 2
     target 147
-    similar 0.20952380952380953
+    delta 0.42931426573803055
   ]
   edge [
     source 2
     target 37
-    similar 0.2636363636363636
+    delta 0.4681074065140934
   ]
   edge [
     source 2
     target 23
-    similar 0.020689655172413793
+    delta 0.043542327387020685
   ]
   edge [
     source 2
     target 157
-    similar 0.16346153846153846
+    delta 0.3782450355664871
   ]
   edge [
     source 2
     target 380
-    similar 0.09900990099009901
+    delta 0.3146583877637763
   ]
   edge [
     source 2
     target 974
-    similar 0.0297029702970297
+    delta 0.1723454968864278
   ]
   edge [
     source 2
     target 7
-    similar 0.12345679012345678
+    delta 0.2211193756022198
   ]
   edge [
     source 2
     target 564
-    similar 0.06796116504854369
+    delta 0.2321753443823308
   ]
   edge [
     source 2
     target 1250
-    similar 0.019801980198019802
+    delta 0.14071950894605836
   ]
   edge [
     source 2
     target 453
-    similar 0.0673076923076923
+    delta 0.2202608714346434
   ]
   edge [
     source 2
     target 773
-    similar 0.019230769230769232
+    delta 0.08899883189799696
   ]
   edge [
     source 2
     target 546
-    similar 0.05825242718446602
+    delta 0.21107926341908756
   ]
   edge [
     source 2
     target 369
-    similar 0.09615384615384616
+    delta 0.27597366233044085
   ]
   edge [
     source 2
     target 689
-    similar 0.0594059405940594
+    delta 0.24373333911071626
   ]
   edge [
     source 2
     target 41
-    similar 0.23423423423423423
+    delta 0.4311827824243286
   ]
   edge [
     source 2
     target 1247
-    similar 0.019801980198019802
+    delta 0.14071950894605836
   ]
   edge [
     source 2
     target 473
-    similar 0.07692307692307693
+    delta 0.24001200090007502
   ]
   edge [
     source 2
     target 454
-    similar 0.09803921568627451
+    delta 0.30001500112509377
   ]
   edge [
     source 2
     target 209
-    similar 0.14285714285714285
+    delta 0.3424157808307896
   ]
   edge [
     source 2
     target 53
-    similar 0.21818181818181817
+    delta 0.415712979985197
   ]
   edge [
     source 2
     target 256
-    similar 0.11538461538461539
+    delta 0.3083009973232248
   ]
   edge [
     source 2
     target 124
-    similar 0.15454545454545454
+    delta 0.33174284170665996
   ]
   edge [
     source 2
     target 74
-    similar 0.2072072072072072
+    delta 0.3983916058191471
   ]
   edge [
     source 2
     target 271
-    similar 0.13592233009708737
+    delta 0.34826301657349623
   ]
   edge [
     source 2
     target 588
-    similar 0.06862745098039216
+    delta 0.24625914065560214
   ]
   edge [
     source 2
     target 340
-    similar 0.09615384615384616
+    delta 0.27597366233044085
   ]
   edge [
     source 2
     target 193
-    similar 0.14018691588785046
+    delta 0.3257023745309605
   ]
   edge [
     source 2
     target 870
-    similar 0.039603960396039604
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 4
-    similar 0.2846715328467153
+    delta 0.44809829190471234
   ]
   edge [
     source 2
     target 47
-    similar 0.19658119658119658
+    delta 0.3664669769421718
   ]
   edge [
     source 2
     target 1085
-    similar 0.0297029702970297
+    delta 0.1723454968864278
   ]
   edge [
     source 2
     target 16
-    similar 0.2857142857142857
+    delta 0.4691552259617494
   ]
   edge [
     source 2
     target 634
-    similar 0.0594059405940594
+    delta 0.24373333911071626
   ]
   edge [
     source 2
     target 553
-    similar 0.057692307692307696
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 199
-    similar 0.14953271028037382
+    delta 0.3394282268051895
   ]
   edge [
     source 2
     target 179
-    similar 0.14953271028037382
+    delta 0.3394282268051895
   ]
   edge [
     source 2
     target 96
-    similar 0.16964285714285715
+    delta 0.34516939926856083
   ]
   edge [
     source 2
     target 141
-    similar 0.14678899082568808
+    delta 0.324977785480955
   ]
   edge [
     source 2
     target 72
-    similar 0.05426356589147287
+    delta 0.11773438808867127
   ]
   edge [
     source 2
     target 93
-    similar 0.2857142857142857
+    delta 0.5119424108555717
   ]
   edge [
     source 2
     target 509
-    similar 0.0673076923076923
+    delta 0.2202608714346434
   ]
   edge [
     source 2
     target 284
-    similar 0.11428571428571428
+    delta 0.29851115706299675
   ]
   edge [
     source 2
     target 68
-    similar 0.25225225225225223
+    delta 0.4519657718067109
   ]
   edge [
     source 2
     target 237
-    similar 0.1619047619047619
+    delta 0.36912935780175526
   ]
   edge [
     source 2
     target 851
-    similar 0.039603960396039604
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 497
-    similar 0.09900990099009901
+    delta 0.3146583877637763
   ]
   edge [
     source 2
     target 1226
-    similar 0.019801980198019802
+    delta 0.14071950894605836
   ]
   edge [
     source 2
     target 273
-    similar 0.03508771929824561
+    delta 0.09653278674479052
   ]
   edge [
     source 2
     target 214
-    similar 0.16346153846153846
+    delta 0.3782450355664871
   ]
   edge [
     source 2
     target 275
-    similar 0.07339449541284404
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 236
-    similar 0.12149532710280374
+    delta 0.29676034338668433
   ]
   edge [
     source 2
     target 52
-    similar 0.21551724137931033
+    delta 0.3933229847047204
   ]
   edge [
     source 2
     target 989
-    similar 0.0196078431372549
+    delta 0.1148969979242852
   ]
   edge [
     source 2
     target 776
-    similar 0.039603960396039604
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 1149
-    similar 0.019801980198019802
+    delta 0.14071950894605836
   ]
   edge [
     source 2
     target 557
-    similar 0.03773584905660377
+    delta 0.1326716253613319
   ]
   edge [
     source 2
     target 847
-    similar 0.039603960396039604
+    delta 0.19900743804199783
   ]
   edge [
     source 2
     target 250
-    similar 0.102803738317757
+    delta 0.2654651635481739
   ]
   edge [
     source 2
     target 215
-    similar 0.13333333333333333
+    delta 0.3283455208741362
   ]
   edge [
     source 2
     target 145
-    similar 0.23076923076923078
+    delta 0.4595879916971409
   ]
   edge [
     source 2
     target 131
-    similar 0.15454545454545454
+    delta 0.33174284170665996
   ]
   edge [
     source 2
     target 280
-    similar 0.1262135922330097
+    delta 0.3339927471001602
   ]
   edge [
     source 2
     target 229
-    similar 0.1485148514851485
+    delta 0.385376246654031
   ]
   edge [
     source 2
     target 559
-    similar 0.06796116504854369
+    delta 0.2321753443823308
   ]
   edge [
     source 2
     target 909
-    similar 0.0297029702970297
+    delta 0.1723454968864278
   ]
   edge [
     source 2
     target 421
-    similar 0.07766990291262135
+    delta 0.25172671021102105
   ]
   edge [
     source 2
     target 785
-    similar 0.0392156862745098
+    delta 0.1779976637959939
   ]
   edge [
     source 2
     target 590
-    similar 0.05825242718446602
+    delta 0.21107926341908756
   ]
   edge [
     source 2
     target 468
-    similar 0.10891089108910891
+    delta 0.3300165012376032
   ]
   edge [
     source 2
     target 561
-    similar 0.04854368932038835
+    delta 0.18804435361115038
   ]
   edge [
     source 2
     target 19
-    similar 0.272
+    delta 0.4442262656313988
   ]
   edge [
     source 2
     target 14
-    similar 0.25190839694656486
+    delta 0.4136975779445308
   ]
   edge [
     source 2
     target 25
-    similar 0.08783783783783784
+    delta 0.1669963735500801
   ]
   edge [
     source 2
     target 233
-    similar 0.09174311926605505
+    delta 0.2345325149100973
   ]
   edge [
     source 2
     target 322
-    similar 0.08490566037735849
+    delta 0.23934138768411384
   ]
   edge [
     source 2
     target 244
-    similar 0.05405405405405406
+    delta 0.14925557853149837
   ]
   edge [
     source 2
     target 58
-    similar 0.211864406779661
+    delta 0.3838439294656714
   ]
   edge [
     source 2
     target 108
-    similar 0.18691588785046728
+    delta 0.3902856961254823
   ]
   edge [
     source 2
     target 765
-    similar 0.029411764705882353
+    delta 0.14925557853149837
   ]
   edge [
     source 2
     target 216
-    similar 0.14423076923076922
+    delta 0.35179877236514595
   ]
   edge [
     source 2
     target 312
-    similar 0.0970873786407767
+    delta 0.287242494810713
   ]
   edge [
     source 2
     target 701
-    similar 0.028846153846153848
+    delta 0.12186666955535813
   ]
   edge [
     source 2
     target 257
-    similar 0.12264150943396226
+    delta 0.30489226938312647
   ]
   edge [
     source 2
     target 334
-    similar 0.09345794392523364
+    delta 0.2487592975524973
   ]
   edge [
     source 2
     target 56
-    similar 0.17391304347826086
+    delta 0.3412949405703812
   ]
   edge [
     source 2
     target 197
-    similar 0.1619047619047619
+    delta 0.36912935780175526
   ]
   edge [
     source 2
     target 291
-    similar 0.11214953271028037
+    delta 0.2814390178921168
   ]
   edge [
     source 2
     target 592
-    similar 0.07920792079207921
+    delta 0.2814390178921167
   ]
   edge [
     source 2
     target 569
-    similar 0.07920792079207921
+    delta 0.2814390178921167
   ]
   edge [
     source 2
     target 336
-    similar 0.11764705882352941
+    delta 0.331168394796529
   ]
   edge [
     source 2
     target 119
-    similar 0.040983606557377046
+    delta 0.09757142403137058
   ]
   edge [
     source 3
     target 265
-    similar 0.08860759493670886
+    delta 0.2091650066335189
   ]
   edge [
     source 3
     target 962
-    similar 0.02857142857142857
+    delta 0.1690308509457033
   ]
   edge [
     source 3
     target 582
-    similar 0.08333333333333333
+    delta 0.253546276418555
   ]
   edge [
     source 3
     target 854
-    similar 0.04285714285714286
+    delta 0.20701966780270628
   ]
   edge [
     source 3
     target 13
-    similar 0.07407407407407407
+    delta 0.13801311186847084
   ]
   edge [
     source 3
     target 192
-    similar 0.21052631578947367
+    delta 0.40771775315010045
   ]
   edge [
     source 3
     target 270
-    similar 0.17333333333333334
+    delta 0.3662335103823572
   ]
   edge [
     source 3
     target 95
-    similar 0.1927710843373494
+    delta 0.35511740929478025
   ]
   edge [
     source 3
     target 88
-    similar 0.29333333333333333
+    delta 0.5060480768510598
   ]
   edge [
     source 3
     target 980
-    similar 0.04285714285714286
+    delta 0.20701966780270628
   ]
   edge [
     source 3
     target 82
-    similar 0.07
+    delta 0.13754606108107537
   ]
   edge [
     source 3
     target 38
-    similar 0.27586206896551724
+    delta 0.4479920357679344
   ]
   edge [
     source 3
     target 184
-    similar 0.22666666666666666
+    delta 0.4332001127219817
   ]
   edge [
     source 3
     target 563
-    similar 0.12857142857142856
+    delta 0.3585685828003181
   ]
   edge [
     source 3
     target 767
-    similar 0.041666666666666664
+    delta 0.16035674514745463
   ]
   edge [
     source 3
     target 22
-    similar 0.05357142857142857
+    delta 0.10350983390135314
   ]
   edge [
     source 3
     target 158
-    similar 0.08139534883720931
+    delta 0.1744556751977294
   ]
   edge [
     source 3
     target 308
-    similar 0.1917808219178082
+    delta 0.4058397249567139
   ]
   edge [
     source 3
     target 48
-    similar 0.23595505617977527
+    delta 0.3968626966596886
   ]
   edge [
     source 3
     target 748
-    similar 0.05555555555555555
+    delta 0.19518001458970666
   ]
   edge [
     source 3
     target 137
-    similar 0.20512820512820512
+    delta 0.3903600291794133
   ]
   edge [
     source 3
     target 46
-    similar 0.27380952380952384
+    delta 0.45193705783781907
   ]
   edge [
     source 3
     target 307
-    similar 0.12987012987012986
+    delta 0.28988551782622424
   ]
   edge [
     source 3
     target 99
-    similar 0.21176470588235294
+    delta 0.37451267035941554
   ]
   edge [
     source 3
     target 57
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 3
     target 70
-    similar 0.20930232558139536
+    delta 0.3689640277608545
   ]
   edge [
     source 3
     target 75
-    similar 0.24705882352941178
+    delta 0.4183300132670378
   ]
   edge [
     source 3
     target 402
-    similar 0.10810810810810811
+    delta 0.2760262237369417
   ]
   edge [
     source 3
     target 62
-    similar 0.23809523809523808
+    delta 0.4099600308453939
   ]
   edge [
     source 3
     target 120
-    similar 0.23076923076923078
+    delta 0.42192650784464586
   ]
   edge [
     source 3
     target 33
-    similar 0.27956989247311825
+    delta 0.44394205489563193
   ]
   edge [
     source 3
     target 804
-    similar 0.07142857142857142
+    delta 0.2672612419124244
   ]
   edge [
     source 3
     target 7
-    similar 0.06338028169014084
+    delta 0.11952286093343938
   ]
   edge [
     source 3
     target 107
-    similar 0.2375
+    delta 0.42170192353755154
   ]
   edge [
     source 3
     target 658
-    similar 0.08571428571428572
+    delta 0.29277002188455997
   ]
   edge [
     source 3
     target 1080
-    similar 0.04285714285714286
+    delta 0.20701966780270628
   ]
   edge [
     source 3
     target 1025
-    similar 0.028169014084507043
+    delta 0.13801311186847084
   ]
   edge [
     source 3
     target 410
-    similar 0.125
+    delta 0.32433748657040123
   ]
   edge [
     source 3
     target 743
-    similar 0.056338028169014086
+    delta 0.21380899352993948
   ]
   edge [
     source 3
     target 471
-    similar 0.1111111111111111
+    delta 0.30237157840738177
   ]
   edge [
     source 3
     target 829
-    similar 0.07142857142857142
+    delta 0.2672612419124244
   ]
   edge [
     source 3
     target 1104
-    similar 0.02857142857142857
+    delta 0.1690308509457033
   ]
   edge [
     source 3
     target 846
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 3
     target 574
-    similar 0.11428571428571428
+    delta 0.3380617018914066
   ]
   edge [
     source 3
     target 908
-    similar 0.04285714285714286
+    delta 0.20701966780270628
   ]
   edge [
     source 3
     target 899
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 3
     target 918
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 3
     target 525
-    similar 0.12857142857142856
+    delta 0.3585685828003181
   ]
   edge [
     source 3
     target 589
-    similar 0.11428571428571428
+    delta 0.3380617018914066
   ]
   edge [
     source 3
     target 900
-    similar 0.028169014084507043
+    delta 0.13801311186847084
   ]
   edge [
     source 3
     target 406
-    similar 0.08
+    delta 0.21622499104693416
   ]
   edge [
     source 3
     target 1140
-    similar 0.02857142857142857
+    delta 0.1690308509457033
   ]
   edge [
     source 3
     target 979
-    similar 0.04285714285714286
+    delta 0.20701966780270628
   ]
   edge [
     source 3
     target 1141
-    similar 0.02857142857142857
+    delta 0.1690308509457033
   ]
   edge [
     source 3
     target 384
-    similar 0.05128205128205128
+    delta 0.13801311186847084
   ]
   edge [
     source 3
     target 550
-    similar 0.05333333333333334
+    delta 0.15936381457791915
   ]
   edge [
     source 3
     target 174
-    similar 0.19736842105263158
+    delta 0.3912303982179758
   ]
   edge [
     source 3
     target 649
-    similar 0.08571428571428572
+    delta 0.29277002188455997
   ]
   edge [
     source 3
     target 232
-    similar 0.20270270270270271
+    delta 0.4113063728303113
   ]
   edge [
     source 3
     target 74
-    similar 0.05102040816326531
+    delta 0.10403129732205987
   ]
   edge [
     source 3
     target 306
-    similar 0.14666666666666667
+    delta 0.3286878675669582
   ]
   edge [
     source 3
     target 296
-    similar 0.16
+    delta 0.34786262139146906
   ]
   edge [
     source 3
     target 29
-    similar 0.04716981132075472
+    delta 0.09333167411831968
   ]
   edge [
     source 3
     target 571
-    similar 0.08571428571428572
+    delta 0.29277002188455997
   ]
   edge [
     source 3
     target 620
-    similar 0.08571428571428572
+    delta 0.29277002188455997
   ]
   edge [
     source 3
     target 138
-    similar 0.23076923076923078
+    delta 0.42192650784464586
   ]
   edge [
     source 3
     target 100
-    similar 0.05263157894736842
+    delta 0.10910894511799618
   ]
   edge [
     source 3
     target 87
-    similar 0.0625
+    delta 0.1267731382092775
   ]
   edge [
     source 3
     target 579
-    similar 0.08450704225352113
+    delta 0.2710523708715754
   ]
   edge [
     source 4
     target 93
-    similar 0.2247191011235955
+    delta 0.3960590171906697
   ]
   edge [
     source 4
     target 353
-    similar 0.047619047619047616
+    delta 0.12810252304406972
   ]
   edge [
     source 4
     target 147
-    similar 0.2625
+    delta 0.47555635434073024
   ]
   edge [
     source 4
     target 633
-    similar 0.05263157894736842
+    delta 0.2065591117977289
   ]
   edge [
     source 4
     target 765
-    similar 0.05333333333333334
+    delta 0.23094010767585027
   ]
   edge [
     source 4
     target 71
-    similar 0.018691588785046728
+    delta 0.03960590171906697
   ]
   edge [
     source 4
     target 227
-    similar 0.16666666666666666
+    delta 0.3752776749732567
   ]
   edge [
     source 4
     target 53
-    similar 0.2413793103448276
+    delta 0.42211588240886905
   ]
   edge [
     source 4
     target 94
-    similar 0.061224489795918366
+    delta 0.1286535041805354
   ]
   edge [
     source 4
     target 586
-    similar 0.07894736842105263
+    delta 0.26186146828319085
   ]
   edge [
     source 4
     target 544
-    similar 0.037037037037037035
+    delta 0.11547005383792515
   ]
   edge [
     source 4
     target 48
-    similar 0.045454545454545456
+    delta 0.09128709291752768
   ]
   edge [
     source 4
     target 774
-    similar 0.03896103896103896
+    delta 0.15491933384829668
   ]
   edge [
     source 4
     target 215
-    similar 0.13414634146341464
+    delta 0.2993820796734995
   ]
   edge [
     source 4
     target 173
-    similar 0.15294117647058825
+    delta 0.3130032180229999
   ]
   edge [
     source 4
     target 590
-    similar 0.09210526315789473
+    delta 0.2857738033247041
   ]
   edge [
     source 4
     target 156
-    similar 0.03125
+    delta 0.07071067811865475
   ]
   edge [
     source 4
     target 271
-    similar 0.18181818181818182
+    delta 0.404145188432738
   ]
   edge [
     source 4
     target 85
-    similar 0.11458333333333333
+    delta 0.22453655975512465
   ]
   edge [
     source 4
     target 131
-    similar 0.20238095238095238
+    delta 0.3849741916091626
   ]
   edge [
     source 4
     target 556
-    similar 0.07792207792207792
+    delta 0.24494897427831783
   ]
   edge [
     source 4
     target 164
-    similar 0.0989010989010989
+    delta 0.20784609690826528
   ]
   edge [
     source 4
     target 10
-    similar 0.22522522522522523
+    delta 0.36961063547728645
   ]
   edge [
     source 4
     target 117
-    similar 0.08421052631578947
+    delta 0.17457431218879388
   ]
   edge [
     source 4
     target 455
-    similar 0.0759493670886076
+    delta 0.21908902300206642
   ]
   edge [
     source 4
     target 118
-    similar 0.1511627906976744
+    delta 0.30641293851417056
   ]
   edge [
     source 4
     target 180
-    similar 0.13414634146341464
+    delta 0.2993820796734995
   ]
   edge [
     source 4
     target 50
-    similar 0.13
+    delta 0.24351231101124043
   ]
   edge [
     source 4
     target 69
-    similar 0.23255813953488372
+    delta 0.4147806778921701
   ]
   edge [
     source 4
     target 390
-    similar 0.11688311688311688
+    delta 0.3133397807202561
   ]
   edge [
     source 4
     target 199
-    similar 0.18292682926829268
+    delta 0.3692744729379982
   ]
   edge [
     source 4
     target 12
-    similar 0.24074074074074073
+    delta 0.390855934561471
   ]
   edge [
     source 4
     target 392
-    similar 0.10126582278481013
+    delta 0.26666666666666666
   ]
   edge [
     source 4
     target 74
-    similar 0.17391304347826086
+    delta 0.32161210088294784
   ]
   edge [
     source 4
     target 124
-    similar 0.16091954022988506
+    delta 0.31703756956048684
   ]
   edge [
     source 4
     target 75
-    similar 0.04716981132075472
+    delta 0.09622504486493763
   ]
   edge [
     source 4
     target 279
-    similar 0.03333333333333333
+    delta 0.0816496580927726
   ]
   edge [
     source 4
     target 104
-    similar 0.07
+    delta 0.14288690166235204
   ]
   edge [
     source 4
     target 260
-    similar 0.09411764705882353
+    delta 0.21773242158072692
   ]
   edge [
     source 4
     target 671
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 4
     target 159
-    similar 0.14285714285714285
+    delta 0.30237157840738177
   ]
   edge [
     source 4
     target 280
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 4
     target 309
-    similar 0.0963855421686747
+    delta 0.23094010767585027
   ]
   edge [
     source 4
     target 14
-    similar 0.3269230769230769
+    delta 0.49462721786824937
   ]
   edge [
     source 4
     target 62
-    similar 0.04807692307692308
+    delta 0.09901475429766743
   ]
   edge [
     source 4
     target 19
-    similar 0.33
+    delta 0.5003447087620763
   ]
   edge [
     source 4
     target 47
-    similar 0.3103448275862069
+    delta 0.49923017660270624
   ]
   edge [
     source 4
     target 214
-    similar 0.13095238095238096
+    delta 0.28401877872187725
   ]
   edge [
     source 4
     target 56
-    similar 0.2111111111111111
+    delta 0.37625606633113623
   ]
   edge [
     source 4
     target 312
-    similar 0.12987012987012986
+    delta 0.3333333333333333
   ]
   edge [
     source 4
     target 284
-    similar 0.1518987341772152
+    delta 0.3464101615137754
   ]
   edge [
     source 4
     target 379
-    similar 0.10526315789473684
+    delta 0.3079201435678004
   ]
   edge [
     source 4
     target 237
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 4
     target 257
-    similar 0.13414634146341464
+    delta 0.2993820796734995
   ]
   edge [
     source 4
     target 145
-    similar 0.21428571428571427
+    delta 0.4
   ]
   edge [
     source 4
     target 291
-    similar 0.13414634146341464
+    delta 0.2993820796734995
   ]
   edge [
     source 4
     target 429
-    similar 0.06097560975609756
+    delta 0.16666666666666666
   ]
   edge [
     source 4
     target 7
-    similar 0.13043478260869565
+    delta 0.2309401076758503
   ]
   edge [
     source 4
     target 133
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 4
     target 216
-    similar 0.09411764705882353
+    delta 0.21773242158072692
   ]
   edge [
     source 4
     target 755
-    similar 0.06666666666666667
+    delta 0.25819888974716115
   ]
   edge [
     source 4
     target 334
-    similar 0.1375
+    delta 0.31754264805429416
   ]
   edge [
     source 4
     target 786
-    similar 0.03896103896103896
+    delta 0.15491933384829668
   ]
   edge [
     source 4
     target 209
-    similar 0.175
+    delta 0.3708690599782123
   ]
   edge [
     source 4
     target 617
-    similar 0.07894736842105263
+    delta 0.26186146828319085
   ]
   edge [
     source 4
     target 362
-    similar 0.03614457831325301
+    delta 0.1044465935734187
   ]
   edge [
     source 4
     target 564
-    similar 0.05
+    delta 0.1539600717839002
   ]
   edge [
     source 4
     target 335
-    similar 0.047619047619047616
+    delta 0.12810252304406972
   ]
   edge [
     source 4
     target 198
-    similar 0.15476190476190477
+    delta 0.3200378765462651
   ]
   edge [
     source 4
     target 250
-    similar 0.12195121951219512
+    delta 0.280056016805602
   ]
   edge [
     source 4
     target 468
-    similar 0.10256410256410256
+    delta 0.27852424952911653
   ]
   edge [
     source 5
     target 484
-    similar 0.030303030303030304
+    delta 0.09128709291752768
   ]
   edge [
     source 5
     target 632
-    similar 0.08333333333333333
+    delta 0.28867513459481287
   ]
   edge [
     source 5
     target 71
-    similar 0.08045977011494253
+    delta 0.15498260496951669
   ]
   edge [
     source 5
     target 39
-    similar 0.37681159420289856
+    delta 0.5673665146135801
   ]
   edge [
     source 5
     target 23
-    similar 0.6984126984126984
+    delta 0.8285679348701804
   ]
   edge [
     source 5
     target 15
-    similar 0.5135135135135135
+    delta 0.6803091303374612
   ]
   edge [
     source 5
     target 106
-    similar 0.3230769230769231
+    delta 0.531688167718925
   ]
   edge [
     source 5
     target 7
-    similar 0.11023622047244094
+    delta 0.20082135869223644
   ]
   edge [
     source 5
     target 25
-    similar 0.043478260869565216
+    delta 0.08333333333333333
   ]
   edge [
     source 5
     target 32
-    similar 0.3561643835616438
+    delta 0.53748384988657
   ]
   edge [
     source 5
     target 110
-    similar 0.11688311688311688
+    delta 0.227866357593825
   ]
   edge [
     source 5
     target 103
-    similar 0.30303030303030304
+    delta 0.5063696835418333
   ]
   edge [
     source 5
     target 9
-    similar 0.38372093023255816
+    delta 0.5546414324985718
   ]
   edge [
     source 5
     target 26
-    similar 0.3815789473684211
+    delta 0.5581052602166382
   ]
   edge [
     source 5
     target 11
-    similar 0.4268292682926829
+    delta 0.5984873720496733
   ]
   edge [
     source 5
     target 76
-    similar 0.3
+    delta 0.4869258405481767
   ]
   edge [
     source 5
     target 531
-    similar 0.14754098360655737
+    delta 0.3674234614174767
   ]
   edge [
     source 5
     target 211
-    similar 0.25396825396825395
+    delta 0.47387910220727386
   ]
   edge [
     source 5
     target 77
-    similar 0.3939393939393939
+    delta 0.59336610396393
   ]
   edge [
     source 5
     target 125
-    similar 0.25
+    delta 0.4389381125701739
   ]
   edge [
     source 5
     target 393
-    similar 0.1774193548387097
+    delta 0.3938631807216881
   ]
   edge [
     source 5
     target 45
-    similar 0.36764705882352944
+    delta 0.5618332187193684
   ]
   edge [
     source 5
     target 463
-    similar 0.14754098360655737
+    delta 0.3674234614174767
   ]
   edge [
     source 5
     target 182
-    similar 0.22580645161290322
+    delta 0.45184805705753195
   ]
   edge [
     source 5
     target 80
-    similar 0.31343283582089554
+    delta 0.51234753829798
   ]
   edge [
     source 5
     target 31
-    similar 0.35064935064935066
+    delta 0.525486787309028
   ]
   edge [
     source 5
     target 507
-    similar 0.12903225806451613
+    delta 0.32659863237109044
   ]
   edge [
     source 5
     target 101
-    similar 0.2923076923076923
+    delta 0.5006939628599933
   ]
   edge [
     source 5
     target 24
-    similar 0.45454545454545453
+    delta 0.6266005147845037
   ]
   edge [
     source 5
     target 21
-    similar 0.4794520547945205
+    delta 0.6521864934374386
   ]
   edge [
     source 5
     target 283
-    similar 0.22580645161290322
+    delta 0.45184805705753195
   ]
   edge [
     source 5
     target 310
-    similar 0.22950819672131148
+    delta 0.4666666666666667
   ]
   edge [
     source 5
     target 153
-    similar 0.28125
+    delta 0.4954336943068623
   ]
   edge [
     source 5
     target 8
-    similar 0.38202247191011235
+    delta 0.5530100413375021
   ]
   edge [
     source 5
     target 814
-    similar 0.06557377049180328
+    delta 0.23094010767585027
   ]
   edge [
     source 5
     target 135
-    similar 0.23529411764705882
+    delta 0.4216370213557839
   ]
   edge [
     source 5
     target 723
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 5
     target 86
-    similar 0.2878787878787879
+    delta 0.49057789051960615
   ]
   edge [
     source 5
     target 319
-    similar 0.13846153846153847
+    delta 0.3105295017040594
   ]
   edge [
     source 5
     target 254
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 5
     target 121
-    similar 0.3492063492063492
+    delta 0.5680375574437545
   ]
   edge [
     source 5
     target 333
-    similar 0.041666666666666664
+    delta 0.1
   ]
   edge [
     source 5
     target 67
-    similar 0.2702702702702703
+    delta 0.4428074427700477
   ]
   edge [
     source 5
     target 92
-    similar 0.375
+    delta 0.5855400437691199
   ]
   edge [
     source 5
     target 113
-    similar 0.3333333333333333
+    delta 0.5533985905294664
   ]
   edge [
     source 5
     target 399
-    similar 0.1774193548387097
+    delta 0.3938631807216881
   ]
   edge [
     source 5
     target 72
-    similar 0.10465116279069768
+    delta 0.19639610121239312
   ]
   edge [
     source 5
     target 223
-    similar 0.23076923076923078
+    delta 0.4330127018922193
   ]
   edge [
     source 5
     target 947
-    similar 0.06666666666666667
+    delta 0.2581988897471611
   ]
   edge [
     source 5
     target 116
-    similar 0.04819277108433735
+    delta 0.09938079899999065
   ]
   edge [
     source 5
     target 84
-    similar 0.28169014084507044
+    delta 0.4637388957601683
   ]
   edge [
     source 5
     target 158
-    similar 0.0641025641025641
+    delta 0.13459547551454137
   ]
   edge [
     source 5
     target 508
-    similar 0.11475409836065574
+    delta 0.3195048252113469
   ]
   edge [
     source 5
     target 185
-    similar 0.0375
+    delta 0.08075728530872482
   ]
   edge [
     source 5
     target 362
-    similar 0.12698412698412698
+    delta 0.3113995776646092
   ]
   edge [
     source 5
     target 662
-    similar 0.11666666666666667
+    delta 0.34156502553198664
   ]
   edge [
     source 5
     target 20
-    similar 0.0784313725490196
+    delta 0.1460593486680443
   ]
   edge [
     source 5
     target 82
-    similar 0.0898876404494382
+    delta 0.16979054399120355
   ]
   edge [
     source 5
     target 350
-    similar 0.15625
+    delta 0.3450327796711771
   ]
   edge [
     source 6
     target 225
-    similar 0.1566265060240964
+    delta 0.3334429644276751
   ]
   edge [
     source 6
     target 955
-    similar 0.039473684210526314
+    delta 0.19867985355975656
   ]
   edge [
     source 6
     target 631
-    similar 0.0379746835443038
+    delta 0.1404878717372541
   ]
   edge [
     source 6
     target 537
-    similar 0.10526315789473684
+    delta 0.3244428422615251
   ]
   edge [
     source 6
     target 760
-    similar 0.03896103896103896
+    delta 0.1720618004029213
   ]
   edge [
     source 6
     target 403
-    similar 0.07407407407407407
+    delta 0.2075143391598224
   ]
   edge [
     source 6
     target 205
-    similar 0.1511627906976744
+    delta 0.3109371676027109
   ]
   edge [
     source 6
     target 78
-    similar 0.1276595744680851
+    delta 0.2513123449750173
   ]
   edge [
     source 6
     target 541
-    similar 0.06329113924050633
+    delta 0.20277677641345318
   ]
   edge [
     source 6
     target 43
-    similar 0.24731182795698925
+    delta 0.41714884381325673
   ]
   edge [
     source 6
     target 163
-    similar 0.11627906976744186
+    delta 0.25649458802128855
   ]
   edge [
     source 6
     target 487
-    similar 0.0625
+    delta 0.19117977822546814
   ]
   edge [
     source 6
     target 488
-    similar 0.06329113924050633
+    delta 0.20277677641345318
   ]
   edge [
     source 6
     target 405
-    similar 0.11392405063291139
+    delta 0.29801978033963483
   ]
   edge [
     source 6
     target 445
-    similar 0.08974358974358974
+    delta 0.2676516895156554
   ]
   edge [
     source 6
     target 548
-    similar 0.07692307692307693
+    delta 0.24333213169614382
   ]
   edge [
     source 6
     target 122
-    similar 0.2716049382716049
+    delta 0.4856618642571827
   ]
   edge [
     source 6
     target 495
-    similar 0.036585365853658534
+    delta 0.11470786693528089
   ]
   edge [
     source 6
     target 156
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 6
     target 385
-    similar 0.1125
+    delta 0.2863281433391
   ]
   edge [
     source 6
     target 59
-    similar 0.07920792079207921
+    delta 0.15974461276617433
   ]
   edge [
     source 6
     target 778
-    similar 0.05194805194805195
+    delta 0.20519567041703082
   ]
   edge [
     source 6
     target 195
-    similar 0.14814814814814814
+    delta 0.33384893044479436
   ]
   edge [
     source 6
     target 64
-    similar 0.2696629213483146
+    delta 0.4525885718428285
   ]
   edge [
     source 6
     target 73
-    similar 0.2247191011235955
+    delta 0.39936153191543583
   ]
   edge [
     source 6
     target 277
-    similar 0.06976744186046512
+    delta 0.1720618004029213
   ]
   edge [
     source 6
     target 409
-    similar 0.14473684210526316
+    delta 0.380442955126341
   ]
   edge [
     source 6
     target 318
-    similar 0.15
+    delta 0.3441236008058426
   ]
   edge [
     source 6
     target 146
-    similar 0.1511627906976744
+    delta 0.3109371676027109
   ]
   edge [
     source 6
     target 414
-    similar 0.08641975308641975
+    delta 0.23179316248638265
   ]
   edge [
     source 6
     target 246
-    similar 0.13580246913580246
+    delta 0.3154466340720224
   ]
   edge [
     source 6
     target 451
-    similar 0.07692307692307693
+    delta 0.24333213169614382
   ]
   edge [
     source 6
     target 89
-    similar 0.2247191011235955
+    delta 0.39936153191543583
   ]
   edge [
     source 6
     target 105
-    similar 0.26506024096385544
+    delta 0.46861575512653547
   ]
   edge [
     source 6
     target 273
-    similar 0.056818181818181816
+    delta 0.1391037210186643
   ]
   edge [
     source 6
     target 269
-    similar 0.1728395061728395
+    delta 0.3684210526315789
   ]
   edge [
     source 6
     target 224
-    similar 0.10344827586206896
+    delta 0.2308451292191597
   ]
   edge [
     source 6
     target 25
-    similar 0.022556390977443608
+    delta 0.04442616583193192
   ]
   edge [
     source 6
     target 54
-    similar 0.25
+    delta 0.4150286783196448
   ]
   edge [
     source 6
     target 299
-    similar 0.1375
+    delta 0.32579188276750076
   ]
   edge [
     source 6
     target 151
-    similar 0.2125
+    delta 0.42553224817349505
   ]
   edge [
     source 6
     target 196
-    similar 0.1927710843373494
+    delta 0.3826918985879519
   ]
   edge [
     source 6
     target 987
-    similar 0.039473684210526314
+    delta 0.19867985355975656
   ]
   edge [
     source 6
     target 651
-    similar 0.0641025641025641
+    delta 0.21677749238102997
   ]
   edge [
     source 6
     target 597
-    similar 0.07692307692307693
+    delta 0.24333213169614382
   ]
   edge [
     source 6
     target 711
-    similar 0.07894736842105263
+    delta 0.2809757434745082
   ]
   edge [
     source 6
     target 301
-    similar 0.04597701149425287
+    delta 0.11846977555181847
   ]
   edge [
     source 6
     target 512
-    similar 0.06172839506172839
+    delta 0.18136906252750293
   ]
   edge [
     source 6
     target 303
-    similar 0.08433734939759036
+    delta 0.21459876881973805
   ]
   edge [
     source 6
     target 605
-    similar 0.05128205128205128
+    delta 0.1873171623163388
   ]
   edge [
     source 6
     target 292
-    similar 0.11904761904761904
+    delta 0.2703690352179376
   ]
   edge [
     source 6
     target 462
-    similar 0.06097560975609756
+    delta 0.17292861596651865
   ]
   edge [
     source 6
     target 517
-    similar 0.08860759493670886
+    delta 0.2539166875385041
   ]
   edge [
     source 6
     target 807
-    similar 0.06578947368421052
+    delta 0.25649458802128855
   ]
   edge [
     source 6
     target 427
-    similar 0.10256410256410256
+    delta 0.29019050004400465
   ]
   edge [
     source 6
     target 200
-    similar 0.11627906976744186
+    delta 0.25649458802128855
   ]
   edge [
     source 6
     target 730
-    similar 0.02531645569620253
+    delta 0.10259783520851541
   ]
   edge [
     source 6
     target 611
-    similar 0.09090909090909091
+    delta 0.2838874869788345
   ]
   edge [
     source 6
     target 363
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 6
     target 366
-    similar 0.125
+    delta 0.3065696697424829
   ]
   edge [
     source 6
     target 221
-    similar 0.056179775280898875
+    delta 0.1351845176089688
   ]
   edge [
     source 6
     target 152
-    similar 0.0989010989010989
+    delta 0.21073180760588114
   ]
   edge [
     source 6
     target 428
-    similar 0.023529411764705882
+    delta 0.06917144638660747
   ]
   edge [
     source 6
     target 295
-    similar 0.10975609756097561
+    delta 0.2665569949915915
   ]
   edge [
     source 6
     target 210
-    similar 0.17073170731707318
+    delta 0.35909242322980395
   ]
   edge [
     source 6
     target 370
-    similar 0.10126582278481013
+    delta 0.27668578554642986
   ]
   edge [
     source 6
     target 347
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 6
     target 348
-    similar 0.14102564102564102
+    delta 0.34995661963667773
   ]
   edge [
     source 6
     target 91
-    similar 0.27058823529411763
+    delta 0.46638658575094233
   ]
   edge [
     source 6
     target 740
-    similar 0.07894736842105263
+    delta 0.2809757434745082
   ]
   edge [
     source 6
     target 938
-    similar 0.05263157894736842
+    delta 0.22941573387056174
   ]
   edge [
     source 6
     target 202
-    similar 0.12359550561797752
+    delta 0.25756109818496586
   ]
   edge [
     source 6
     target 51
-    similar 0.10091743119266056
+    delta 0.1902214775631705
   ]
   edge [
     source 6
     target 437
-    similar 0.08974358974358974
+    delta 0.2676516895156554
   ]
   edge [
     source 7
     target 1099
-    similar 0.024691358024691357
+    delta 0.15713484026367722
   ]
   edge [
     source 7
     target 93
-    similar 0.12745098039215685
+    delta 0.24772017853917944
   ]
   edge [
     source 7
     target 147
-    similar 0.10309278350515463
+    delta 0.2179068168202045
   ]
   edge [
     source 7
     target 129
-    similar 0.047619047619047616
+    delta 0.10316407676502881
   ]
   edge [
     source 7
     target 116
-    similar 0.08
+    delta 0.17106674642655578
   ]
   edge [
     source 7
     target 545
-    similar 0.07228915662650602
+    delta 0.23570226039551584
   ]
   edge [
     source 7
     target 341
-    similar 0.03333333333333333
+    delta 0.09622504486493763
   ]
   edge [
     source 7
     target 206
-    similar 0.07526881720430108
+    delta 0.17843445967710359
   ]
   edge [
     source 7
     target 59
-    similar 0.03636363636363636
+    delta 0.07736784709142126
   ]
   edge [
     source 7
     target 386
-    similar 0.06976744186046512
+    delta 0.2010075630518424
   ]
   edge [
     source 7
     target 72
-    similar 0.1836734693877551
+    delta 0.3380617018914066
   ]
   edge [
     source 7
     target 342
-    similar 0.09195402298850575
+    delta 0.23756554836659946
   ]
   edge [
     source 7
     target 158
-    similar 0.18181818181818182
+    delta 0.37069229165702183
   ]
   edge [
     source 7
     target 377
-    similar 0.056179775280898875
+    delta 0.15408338784034142
   ]
   edge [
     source 7
     target 126
-    similar 0.08823529411764706
+    delta 0.18257418583505536
   ]
   edge [
     source 7
     target 66
-    similar 0.10784313725490197
+    delta 0.2160604053625562
   ]
   edge [
     source 7
     target 435
-    similar 0.056818181818181816
+    delta 0.16037507477489604
   ]
   edge [
     source 7
     target 1175
-    similar 0.024691358024691357
+    delta 0.15713484026367722
   ]
   edge [
     source 7
     target 598
-    similar 0.07228915662650602
+    delta 0.23570226039551584
   ]
   edge [
     source 7
     target 132
-    similar 0.10526315789473684
+    delta 0.22680460581325723
   ]
   edge [
     source 7
     target 288
-    similar 0.043478260869565216
+    delta 0.1147550621098494
   ]
   edge [
     source 7
     target 217
-    similar 0.0851063829787234
+    delta 0.19397145798754878
   ]
   edge [
     source 7
     target 164
-    similar 0.11578947368421053
+    delta 0.24444444444444444
   ]
   edge [
     source 7
     target 232
-    similar 0.07526881720430108
+    delta 0.17843445967710359
   ]
   edge [
     source 7
     target 102
-    similar 0.027777777777777776
+    delta 0.06085806194501846
   ]
   edge [
     source 7
     target 321
-    similar 0.06818181818181818
+    delta 0.1849000654084097
   ]
   edge [
     source 7
     target 103
-    similar 0.08080808080808081
+    delta 0.1743254534561636
   ]
   edge [
     source 7
     target 10
-    similar 0.10077519379844961
+    delta 0.18494215990307195
   ]
   edge [
     source 7
     target 797
-    similar 0.03614457831325301
+    delta 0.14907119849998599
   ]
   edge [
     source 7
     target 142
-    similar 0.04950495049504951
+    delta 0.1111111111111111
   ]
   edge [
     source 7
     target 303
-    similar 0.03260869565217391
+    delta 0.0890870806374748
   ]
   edge [
     source 7
     target 656
-    similar 0.023529411764705882
+    delta 0.09072184232530289
   ]
   edge [
     source 7
     target 181
-    similar 0.08247422680412371
+    delta 0.18144368465060579
   ]
   edge [
     source 7
     target 235
-    similar 0.033707865168539325
+    delta 0.1005037815259212
   ]
   edge [
     source 7
     target 421
-    similar 0.05813953488372093
+    delta 0.17568209223157663
   ]
   edge [
     source 7
     target 255
-    similar 0.06451612903225806
+    delta 0.15713484026367722
   ]
   edge [
     source 7
     target 12
-    similar 0.09375
+    delta 0.1735852146410985
   ]
   edge [
     source 7
     target 724
-    similar 0.03614457831325301
+    delta 0.14907119849998599
   ]
   edge [
     source 7
     target 362
-    similar 0.05747126436781609
+    delta 0.167506302543202
   ]
   edge [
     source 7
     target 65
-    similar 0.034782608695652174
+    delta 0.07209840939145001
   ]
   edge [
     source 7
     target 22
-    similar 0.11206896551724138
+    delta 0.20848759720736484
   ]
   edge [
     source 7
     target 664
-    similar 0.06097560975609756
+    delta 0.22680460581325723
   ]
   edge [
     source 7
     target 34
-    similar 0.049019607843137254
+    delta 0.10895340841010225
   ]
   edge [
     source 7
     target 25
-    similar 0.1652892561983471
+    delta 0.2868876552746235
   ]
   edge [
     source 7
     target 124
-    similar 0.08080808080808081
+    delta 0.1743254534561636
   ]
   edge [
     source 7
     target 20
-    similar 0.10084033613445378
+    delta 0.18856180831641267
   ]
   edge [
     source 7
     target 38
-    similar 0.10909090909090909
+    delta 0.20823168251814142
   ]
   edge [
     source 7
     target 732
-    similar 0.04878048780487805
+    delta 0.1987615979999813
   ]
   edge [
     source 7
     target 8
-    similar 0.09090909090909091
+    delta 0.1679842102263232
   ]
   edge [
     source 7
     target 64
-    similar 0.04424778761061947
+    delta 0.09133277072519849
   ]
   edge [
     source 7
     target 104
-    similar 0.10784313725490197
+    delta 0.2160604053625562
   ]
   edge [
     source 7
     target 306
-    similar 0.05434782608695652
+    delta 0.1388888888888889
   ]
   edge [
     source 7
     target 260
-    similar 0.06451612903225806
+    delta 0.15713484026367722
   ]
   edge [
     source 7
     target 930
-    similar 0.024096385542168676
+    delta 0.1111111111111111
   ]
   edge [
     source 7
     target 23
-    similar 0.09401709401709402
+    delta 0.17827943405298224
   ]
   edge [
     source 7
     target 433
-    similar 0.06976744186046512
+    delta 0.2010075630518424
   ]
   edge [
     source 7
     target 51
-    similar 0.05042016806722689
+    delta 0.1005037815259212
   ]
   edge [
     source 7
     target 113
-    similar 0.06060606060606061
+    delta 0.13608276348795434
   ]
   edge [
     source 7
     target 528
-    similar 0.03409090909090909
+    delta 0.10540925533894598
   ]
   edge [
     source 7
     target 67
-    similar 0.07476635514018691
+    delta 0.15244318679334118
   ]
   edge [
     source 7
     target 14
-    similar 0.16129032258064516
+    delta 0.2799736837105387
   ]
   edge [
     source 7
     target 482
-    similar 0.06976744186046512
+    delta 0.2010075630518424
   ]
   edge [
     source 7
     target 19
-    similar 0.13934426229508196
+    delta 0.2480232620683648
   ]
   edge [
     source 7
     target 47
-    similar 0.14285714285714285
+    delta 0.2668802563418119
   ]
   edge [
     source 7
     target 119
-    similar 0.08080808080808081
+    delta 0.1743254534561636
   ]
   edge [
     source 7
     target 42
-    similar 0.12149532710280374
+    delta 0.23129622216290363
   ]
   edge [
     source 7
     target 838
-    similar 0.03614457831325301
+    delta 0.14907119849998599
   ]
   edge [
     source 7
     target 114
-    similar 0.0660377358490566
+    delta 0.13749298523071757
   ]
   edge [
     source 7
     target 87
-    similar 0.0761904761904762
+    delta 0.15713484026367722
   ]
   edge [
     source 7
     target 107
-    similar 0.0891089108910891
+    delta 0.18569533817705186
   ]
   edge [
     source 7
     target 751
-    similar 0.023529411764705882
+    delta 0.09072184232530289
   ]
   edge [
     source 7
     target 24
-    similar 0.064
+    delta 0.12326671027227314
   ]
   edge [
     source 7
     target 284
-    similar 0.10227272727272728
+    delta 0.25
   ]
   edge [
     source 7
     target 754
-    similar 0.04878048780487805
+    delta 0.1987615979999813
   ]
   edge [
     source 8
     target 71
-    similar 0.07777777777777778
+    delta 0.15124753549550504
   ]
   edge [
     source 8
     target 39
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 8
     target 150
-    similar 0.0821917808219178
+    delta 0.1889822365046136
   ]
   edge [
     source 8
     target 121
-    similar 0.2571428571428571
+    delta 0.4535573676110727
   ]
   edge [
     source 8
     target 84
-    similar 0.25333333333333335
+    delta 0.4299346810913494
   ]
   edge [
     source 8
     target 26
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 8
     target 101
-    similar 0.1917808219178082
+    delta 0.3600411499115478
   ]
   edge [
     source 8
     target 140
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 8
     target 31
-    similar 0.3048780487804878
+    delta 0.47483573524849143
   ]
   edge [
     source 8
     target 1195
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 8
     target 302
-    similar 0.06666666666666667
+    delta 0.1527830828380352
   ]
   edge [
     source 8
     target 32
-    similar 0.34210526315789475
+    delta 0.5245305283129621
   ]
   edge [
     source 8
     target 11
-    similar 0.3953488372093023
+    delta 0.5673763308979934
   ]
   edge [
     source 8
     target 515
-    similar 0.07462686567164178
+    delta 0.20998026278290402
   ]
   edge [
     source 8
     target 182
-    similar 0.2153846153846154
+    delta 0.44095855184409843
   ]
   edge [
     source 8
     target 80
-    similar 0.22972972972972974
+    delta 0.40476190476190477
   ]
   edge [
     source 8
     target 18
-    similar 0.04132231404958678
+    delta 0.07936507936507936
   ]
   edge [
     source 8
     target 45
-    similar 0.3150684931506849
+    delta 0.5044296328024895
   ]
   edge [
     source 8
     target 125
-    similar 0.2222222222222222
+    delta 0.4031621045431757
   ]
   edge [
     source 8
     target 61
-    similar 0.16470588235294117
+    delta 0.2939723678960656
   ]
   edge [
     source 8
     target 24
-    similar 0.35294117647058826
+    delta 0.5241424183609591
   ]
   edge [
     source 8
     target 21
-    similar 0.44155844155844154
+    delta 0.6182840223353118
   ]
   edge [
     source 8
     target 9
-    similar 0.35555555555555557
+    delta 0.524872353392131
   ]
   edge [
     source 8
     target 86
-    similar 0.2753623188405797
+    delta 0.4787549991450212
   ]
   edge [
     source 8
     target 15
-    similar 0.3372093023255814
+    delta 0.5066710044155939
   ]
   edge [
     source 8
     target 82
-    similar 0.0989010989010989
+    delta 0.18641092980036003
   ]
   edge [
     source 8
     target 106
-    similar 0.2535211267605634
+    delta 0.44474958999666075
   ]
   edge [
     source 8
     target 23
-    similar 0.3924050632911392
+    delta 0.5696951079673036
   ]
   edge [
     source 8
     target 155
-    similar 0.07407407407407407
+    delta 0.1543033499620919
   ]
   edge [
     source 8
     target 104
-    similar 0.11764705882352941
+    delta 0.22271770159368698
   ]
   edge [
     source 8
     target 136
-    similar 0.07228915662650602
+    delta 0.14824986333222023
   ]
   edge [
     source 8
     target 530
-    similar 0.028169014084507043
+    delta 0.07968190728895957
   ]
   edge [
     source 8
     target 435
-    similar 0.056338028169014086
+    delta 0.14547859349066158
   ]
   edge [
     source 8
     target 98
-    similar 0.11627906976744186
+    delta 0.21931723165325634
   ]
   edge [
     source 8
     target 945
-    similar 0.046875
+    delta 0.1889822365046136
   ]
   edge [
     source 8
     target 28
-    similar 0.09523809523809523
+    delta 0.17471413945365305
   ]
   edge [
     source 8
     target 14
-    similar 0.06779661016949153
+    delta 0.12698412698412698
   ]
   edge [
     source 8
     target 172
-    similar 0.06097560975609756
+    delta 0.12858612496840993
   ]
   edge [
     source 8
     target 33
-    similar 0.05660377358490566
+    delta 0.10798984943120778
   ]
   edge [
     source 8
     target 130
-    similar 0.11392405063291139
+    delta 0.22677868380553634
   ]
   edge [
     source 8
     target 19
-    similar 0.06140350877192982
+    delta 0.1158013889632752
   ]
   edge [
     source 8
     target 76
-    similar 0.22077922077922077
+    delta 0.38467839887120736
   ]
   edge [
     source 8
     target 947
-    similar 0.06349206349206349
+    delta 0.2519763153394848
   ]
   edge [
     source 8
     target 77
-    similar 0.26666666666666666
+    delta 0.44543540318737396
   ]
   edge [
     source 8
     target 211
-    similar 0.22388059701492538
+    delta 0.43355498476206
   ]
   edge [
     source 8
     target 67
-    similar 0.24358974358974358
+    delta 0.4105290249163708
   ]
   edge [
     source 8
     target 153
-    similar 0.25
+    delta 0.45663301294771547
   ]
   edge [
     source 8
     target 1266
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 8
     target 103
-    similar 0.2898550724637681
+    delta 0.49416621110740083
   ]
   edge [
     source 8
     target 411
-    similar 0.041666666666666664
+    delta 0.10910894511799618
   ]
   edge [
     source 8
     target 135
-    similar 0.24285714285714285
+    delta 0.43719282489259376
   ]
   edge [
     source 8
     target 946
-    similar 0.03076923076923077
+    delta 0.1259881576697424
   ]
   edge [
     source 8
     target 622
-    similar 0.04411764705882353
+    delta 0.1336306209562122
   ]
   edge [
     source 8
     target 481
-    similar 0.10606060606060606
+    delta 0.27888667551135854
   ]
   edge [
     source 8
     target 187
-    similar 0.07792207792207792
+    delta 0.1690308509457033
   ]
   edge [
     source 8
     target 310
-    similar 0.18181818181818182
+    delta 0.39036002917941326
   ]
   edge [
     source 8
     target 373
-    similar 0.02666666666666667
+    delta 0.06734350297014739
   ]
   edge [
     source 8
     target 311
-    similar 0.11764705882352941
+    delta 0.2795426231258449
   ]
   edge [
     source 8
     target 92
-    similar 0.28169014084507044
+    delta 0.47619047619047616
   ]
   edge [
     source 8
     target 42
-    similar 0.13333333333333333
+    delta 0.24209101306752098
   ]
   edge [
     source 9
     target 957
-    similar 0.05084745762711865
+    delta 0.22549380840084865
   ]
   edge [
     source 9
     target 128
-    similar 0.1506849315068493
+    delta 0.28641560415781253
   ]
   edge [
     source 9
     target 39
-    similar 0.40298507462686567
+    delta 0.5941604449831431
   ]
   edge [
     source 9
     target 228
-    similar 0.21875
+    delta 0.4181433837626492
   ]
   edge [
     source 9
     target 121
-    similar 0.23529411764705882
+    delta 0.4166045151386364
   ]
   edge [
     source 9
     target 84
-    similar 0.2328767123287671
+    delta 0.3975045175132123
   ]
   edge [
     source 9
     target 26
-    similar 0.38666666666666666
+    delta 0.5628150927482626
   ]
   edge [
     source 9
     target 140
-    similar 0.19402985074626866
+    delta 0.36932414332263847
   ]
   edge [
     source 9
     target 508
-    similar 0.09836065573770492
+    delta 0.276172385369497
   ]
   edge [
     source 9
     target 103
-    similar 0.2878787878787879
+    delta 0.485110775128757
   ]
   edge [
     source 9
     target 32
-    similar 0.38028169014084506
+    delta 0.5628665689538623
   ]
   edge [
     source 9
     target 11
-    similar 0.43209876543209874
+    delta 0.6035379879380662
   ]
   edge [
     source 9
     target 515
-    similar 0.07936507936507936
+    delta 0.2169815183013731
   ]
   edge [
     source 9
     target 182
-    similar 0.22950819672131148
+    delta 0.45566118843288356
   ]
   edge [
     source 9
     target 80
-    similar 0.3181818181818182
+    delta 0.516671222870379
   ]
   edge [
     source 9
     target 304
-    similar 0.15625
+    delta 0.33614632272640715
   ]
   edge [
     source 9
     target 81
-    similar 0.2898550724637681
+    delta 0.4753826885415284
   ]
   edge [
     source 9
     target 90
-    similar 0.2318840579710145
+    delta 0.4085143369505322
   ]
   edge [
     source 9
     target 23
-    similar 0.39473684210526316
+    delta 0.5697001318001407
   ]
   edge [
     source 9
     target 153
-    similar 0.3064516129032258
+    delta 0.5273710125707005
   ]
   edge [
     source 9
     target 211
-    similar 0.21875
+    delta 0.4181433837626492
   ]
   edge [
     source 9
     target 350
-    similar 0.1774193548387097
+    delta 0.38273895035157157
   ]
   edge [
     source 9
     target 310
-    similar 0.23333333333333334
+    delta 0.47060485181697004
   ]
   edge [
     source 9
     target 262
-    similar 0.12121212121212122
+    delta 0.2689170581811257
   ]
   edge [
     source 9
     target 283
-    similar 0.25
+    delta 0.4882084161780895
   ]
   edge [
     source 9
     target 15
-    similar 0.37037037037037035
+    delta 0.5416186085055892
   ]
   edge [
     source 9
     target 311
-    similar 0.14285714285714285
+    delta 0.3249711651033535
   ]
   edge [
     source 9
     target 92
-    similar 0.27941176470588236
+    delta 0.46746443973986673
   ]
   edge [
     source 9
     target 98
-    similar 0.08235294117647059
+    delta 0.1586408631847678
   ]
   edge [
     source 9
     target 106
-    similar 0.3076923076923077
+    delta 0.5106429211881652
   ]
   edge [
     source 9
     target 113
-    similar 0.296875
+    delta 0.5049193032800972
   ]
   edge [
     source 9
     target 67
-    similar 0.2916666666666667
+    delta 0.4688714947235618
   ]
   edge [
     source 9
     target 86
-    similar 0.2727272727272727
+    delta 0.4686800795309659
   ]
   edge [
     source 9
     target 127
-    similar 0.1038961038961039
+    delta 0.2042571684752661
   ]
   edge [
     source 9
     target 114
-    similar 0.08333333333333333
+    delta 0.16110055813220658
   ]
   edge [
     source 9
     target 31
-    similar 0.2875
+    delta 0.45141448638784426
   ]
   edge [
     source 9
     target 76
-    similar 0.25
+    delta 0.4208871361904601
   ]
   edge [
     source 9
     target 21
-    similar 0.44594594594594594
+    delta 0.6201079731023338
   ]
   edge [
     source 9
     target 25
-    similar 0.07207207207207207
+    delta 0.13445852909056286
   ]
   edge [
     source 9
     target 223
-    similar 0.2153846153846154
+    delta 0.4075557568177074
   ]
   edge [
     source 9
     target 24
-    similar 0.3875
+    delta 0.5596725621224421
   ]
   edge [
     source 9
     target 618
-    similar 0.08064516129032258
+    delta 0.23014365447458085
   ]
   edge [
     source 9
     target 531
-    similar 0.13114754098360656
+    delta 0.3293547878370473
   ]
   edge [
     source 9
     target 399
-    similar 0.18032786885245902
+    delta 0.3971869795707654
   ]
   edge [
     source 9
     target 1261
-    similar 0.03389830508474576
+    delta 0.1841149235796647
   ]
   edge [
     source 9
     target 130
-    similar 0.07692307692307693
+    delta 0.15622669317698865
   ]
   edge [
     source 9
     target 352
-    similar 0.07246376811594203
+    delta 0.16807316136320358
   ]
   edge [
     source 9
     target 376
-    similar 0.057971014492753624
+    delta 0.1391778001278442
   ]
   edge [
     source 9
     target 36
-    similar 0.09375
+    delta 0.17275776934219594
   ]
   edge [
     source 9
     target 28
-    similar 0.07766990291262135
+    delta 0.14443162893482378
   ]
   edge [
     source 9
     target 119
-    similar 0.08974358974358974
+    delta 0.17872502241585783
   ]
   edge [
     source 9
     target 243
-    similar 0.0958904109589041
+    delta 0.19886684640449762
   ]
   edge [
     source 9
     target 10
-    similar 0.034482758620689655
+    delta 0.06667592785538491
   ]
   edge [
     source 9
     target 58
-    similar 0.030612244897959183
+    delta 0.06026575527677309
   ]
   edge [
     source 9
     target 14
-    similar 0.06086956521739131
+    delta 0.11481582730452866
   ]
   edge [
     source 10
     target 380
-    similar 0.14516129032258066
+    delta 0.3643993485805122
   ]
   edge [
     source 10
     target 52
-    similar 0.32894736842105265
+    delta 0.5061102063618226
   ]
   edge [
     source 10
     target 93
-    similar 0.1875
+    delta 0.3293721563182941
   ]
   edge [
     source 10
     target 13
-    similar 0.046153846153846156
+    delta 0.08870655251454874
   ]
   edge [
     source 10
     target 37
-    similar 0.2692307692307692
+    delta 0.4361768170171271
   ]
   edge [
     source 10
     target 227
-    similar 0.203125
+    delta 0.41611985978191196
   ]
   edge [
     source 10
     target 53
-    similar 0.2702702702702703
+    delta 0.44576719869199316
   ]
   edge [
     source 10
     target 583
-    similar 0.07936507936507936
+    delta 0.24196695924791364
   ]
   edge [
     source 10
     target 251
-    similar 0.24615384615384617
+    delta 0.4580786674510946
   ]
   edge [
     source 10
     target 193
-    similar 0.17142857142857143
+    delta 0.33527925373626755
   ]
   edge [
     source 10
     target 215
-    similar 0.12857142857142856
+    delta 0.2716072381275556
   ]
   edge [
     source 10
     target 271
-    similar 0.24193548387096775
+    delta 0.4801382997483599
   ]
   edge [
     source 10
     target 229
-    similar 0.15151515151515152
+    delta 0.3305898024536431
   ]
   edge [
     source 10
     target 216
-    similar 0.25396825396825395
+    delta 0.4828573122267655
   ]
   edge [
     source 10
     target 157
-    similar 0.24615384615384617
+    delta 0.4580786674510946
   ]
   edge [
     source 10
     target 230
-    similar 0.1875
+    delta 0.39670776294437177
   ]
   edge [
     source 10
     target 96
-    similar 0.28169014084507044
+    delta 0.4675245822121844
   ]
   edge [
     source 10
     target 179
-    similar 0.31746031746031744
+    delta 0.5459510904326141
   ]
   edge [
     source 10
     target 74
-    similar 0.23684210526315788
+    delta 0.40119047882279385
   ]
   edge [
     source 10
     target 377
-    similar 0.05714285714285714
+    delta 0.142044164845687
   ]
   edge [
     source 10
     target 388
-    similar 0.109375
+    delta 0.28342171556262064
   ]
   edge [
     source 10
     target 69
-    similar 0.373134328358209
+    delta 0.5749025622728424
   ]
   edge [
     source 10
     target 47
-    similar 0.17647058823529413
+    delta 0.3075346380392736
   ]
   edge [
     source 10
     target 131
-    similar 0.11538461538461539
+    delta 0.22599088242832144
   ]
   edge [
     source 10
     target 454
-    similar 0.16129032258064516
+    delta 0.38604571824109146
   ]
   edge [
     source 10
     target 256
-    similar 0.1875
+    delta 0.39670776294437177
   ]
   edge [
     source 10
     target 209
-    similar 0.19402985074626866
+    delta 0.3818577720399303
   ]
   edge [
     source 10
     target 149
-    similar 0.16666666666666666
+    delta 0.32037041996284604
   ]
   edge [
     source 10
     target 41
-    similar 0.4057971014492754
+    delta 0.5975054396868479
   ]
   edge [
     source 10
     target 141
-    similar 0.25
+    delta 0.4443021174659192
   ]
   edge [
     source 10
     target 221
-    similar 0.1791044776119403
+    delta 0.3621429841700741
   ]
   edge [
     source 10
     target 453
-    similar 0.05970149253731343
+    delta 0.1619552660357832
   ]
   edge [
     source 10
     target 263
-    similar 0.02857142857142857
+    delta 0.07720914364821829
   ]
   edge [
     source 10
     target 14
-    similar 0.21568627450980393
+    delta 0.35488487356360665
   ]
   edge [
     source 10
     target 16
-    similar 0.34523809523809523
+    delta 0.5149100975656153
   ]
   edge [
     source 10
     target 335
-    similar 0.13846153846153847
+    delta 0.3195993709027957
   ]
   edge [
     source 10
     target 206
-    similar 0.14285714285714285
+    delta 0.29373674772302333
   ]
   edge [
     source 10
     target 198
-    similar 0.18571428571428572
+    delta 0.3548682087811992
   ]
   edge [
     source 10
     target 50
-    similar 0.13793103448275862
+    delta 0.24924389543835837
   ]
   edge [
     source 10
     target 35
-    similar 0.07766990291262135
+    delta 0.14485719366802965
   ]
   edge [
     source 10
     target 561
-    similar 0.0967741935483871
+    delta 0.29036035109749636
   ]
   edge [
     source 10
     target 226
-    similar 0.15942028985507245
+    delta 0.3231104224953257
   ]
   edge [
     source 10
     target 117
-    similar 0.2361111111111111
+    delta 0.4113438307214532
   ]
   edge [
     source 10
     target 274
-    similar 0.05263157894736842
+    delta 0.11749469908920933
   ]
   edge [
     source 10
     target 68
-    similar 0.2222222222222222
+    delta 0.3738658431575375
   ]
   edge [
     source 10
     target 199
-    similar 0.136986301369863
+    delta 0.27297554521630707
   ]
   edge [
     source 10
     target 392
-    similar 0.12307692307692308
+    delta 0.29568850838182914
   ]
   edge [
     source 10
     target 22
-    similar 0.0380952380952381
+    delta 0.07392212709545729
   ]
   edge [
     source 10
     target 569
-    similar 0.11290322580645161
+    delta 0.31687511114881484
   ]
   edge [
     source 10
     target 395
-    similar 0.12307692307692308
+    delta 0.29568850838182914
   ]
   edge [
     source 10
     target 369
-    similar 0.13846153846153847
+    delta 0.3195993709027957
   ]
   edge [
     source 10
     target 244
-    similar 0.11594202898550725
+    delta 0.25607375986579195
   ]
   edge [
     source 10
     target 42
-    similar 0.08695652173913043
+    delta 0.16401847362094593
   ]
   edge [
     source 10
     target 214
-    similar 0.14084507042253522
+    delta 0.28629916715693415
   ]
   edge [
     source 11
     target 957
-    similar 0.05263157894736842
+    delta 0.22941573387056177
   ]
   edge [
     source 11
     target 353
-    similar 0.07692307692307693
+    delta 0.18367958959266126
   ]
   edge [
     source 11
     target 13
-    similar 0.07317073170731707
+    delta 0.13764944032233706
   ]
   edge [
     source 11
     target 39
-    similar 0.4153846153846154
+    delta 0.6044944448335208
   ]
   edge [
     source 11
     target 228
-    similar 0.1875
+    delta 0.3646422752776584
   ]
   edge [
     source 11
     target 121
-    similar 0.3225806451612903
+    delta 0.5298129428260175
   ]
   edge [
     source 11
     target 84
-    similar 0.23943661971830985
+    delta 0.40441815785933555
   ]
   edge [
     source 11
     target 108
-    similar 0.05063291139240506
+    delta 0.10390486669322622
   ]
   edge [
     source 11
     target 26
-    similar 0.3972602739726027
+    delta 0.5726039151671226
   ]
   edge [
     source 11
     target 101
-    similar 0.19117647058823528
+    delta 0.35147974578331886
   ]
   edge [
     source 11
     target 140
-    similar 0.23809523809523808
+    delta 0.43355498476206
   ]
   edge [
     source 11
     target 103
-    similar 0.31746031746031744
+    delta 0.5195243334661311
   ]
   edge [
     source 11
     target 513
-    similar 0.047619047619047616
+    delta 0.13245323570650439
   ]
   edge [
     source 11
     target 800
-    similar 0.08771929824561403
+    delta 0.29617443887954614
   ]
   edge [
     source 11
     target 461
-    similar 0.08064516129032258
+    delta 0.20942695414584775
   ]
   edge [
     source 11
     target 32
-    similar 0.43283582089552236
+    delta 0.6150752708765851
   ]
   edge [
     source 11
     target 741
-    similar 0.08620689655172414
+    delta 0.2703690352179376
   ]
   edge [
     source 11
     target 31
-    similar 0.27848101265822783
+    delta 0.4392976851069794
   ]
   edge [
     source 11
     target 67
-    similar 0.3188405797101449
+    delta 0.4997419354666801
   ]
   edge [
     source 11
     target 77
-    similar 0.2898550724637681
+    delta 0.468292905790847
   ]
   edge [
     source 11
     target 125
-    similar 0.26153846153846155
+    delta 0.4503410014021149
   ]
   edge [
     source 11
     target 311
-    similar 0.14754098360655737
+    delta 0.33062326126679026
   ]
   edge [
     source 11
     target 15
-    similar 0.4155844155844156
+    delta 0.587774686696516
   ]
   edge [
     source 11
     target 23
-    similar 0.4246575342465753
+    delta 0.5989289931061345
   ]
   edge [
     source 11
     target 82
-    similar 0.09302325581395349
+    delta 0.17420142252373688
   ]
   edge [
     source 11
     target 21
-    similar 0.4383561643835616
+    delta 0.611775290321498
   ]
   edge [
     source 11
     target 86
-    similar 0.3442622950819672
+    delta 0.5563035899673184
   ]
   edge [
     source 11
     target 947
-    similar 0.07017543859649122
+    delta 0.26490647141300877
   ]
   edge [
     source 11
     target 24
-    similar 0.3625
+    delta 0.5326708098187176
   ]
   edge [
     source 11
     target 92
-    similar 0.3492063492063492
+    delta 0.5506887917539348
   ]
   edge [
     source 11
     target 399
-    similar 0.1864406779661017
+    delta 0.4040950971038548
   ]
   edge [
     source 11
     target 45
-    similar 0.3235294117647059
+    delta 0.5072572735017881
   ]
   edge [
     source 11
     target 678
-    similar 0.05
+    delta 0.16222142113076254
   ]
   edge [
     source 11
     target 14
-    similar 0.05263157894736842
+    delta 0.10012523486435178
   ]
   edge [
     source 11
     target 80
-    similar 0.25
+    delta 0.42553224817349505
   ]
   edge [
     source 11
     target 113
-    similar 0.265625
+    delta 0.45962735987049386
   ]
   edge [
     source 11
     target 283
-    similar 0.2807017543859649
+    delta 0.5298129428260175
   ]
   edge [
     source 11
     target 153
-    similar 0.31666666666666665
+    delta 0.5365433699886598
   ]
   edge [
     source 11
     target 135
-    similar 0.2857142857142857
+    delta 0.48666426339228763
   ]
   edge [
     source 11
     target 723
-    similar 0.10526315789473684
+    delta 0.3244428422615251
   ]
   edge [
     source 11
     target 106
-    similar 0.31746031746031744
+    delta 0.5195243334661311
   ]
   edge [
     source 11
     target 182
-    similar 0.25862068965517243
+    delta 0.4966996338993914
   ]
   edge [
     source 11
     target 81
-    similar 0.2608695652173913
+    delta 0.435285750066007
   ]
   edge [
     source 11
     target 75
-    similar 0.0449438202247191
+    delta 0.08830215713766959
   ]
   edge [
     source 11
     target 201
-    similar 0.0821917808219178
+    delta 0.1694347484174715
   ]
   edge [
     source 11
     target 824
-    similar 0.05084745762711865
+    delta 0.1777046633277277
   ]
   edge [
     source 11
     target 350
-    similar 0.18333333333333332
+    delta 0.3893957789726338
   ]
   edge [
     source 11
     target 310
-    similar 0.2631578947368421
+    delta 0.5129891760425771
   ]
   edge [
     source 11
     target 98
-    similar 0.0975609756097561
+    delta 0.18445719036428657
   ]
   edge [
     source 11
     target 577
-    similar 0.03125
+    delta 0.08830215713766959
   ]
   edge [
     source 11
     target 188
-    similar 0.08108108108108109
+    delta 0.16571045299983225
   ]
   edge [
     source 12
     target 93
-    similar 0.2236842105263158
+    delta 0.3795626385857405
   ]
   edge [
     source 12
     target 440
-    similar 0.0625
+    delta 0.17358521464109847
   ]
   edge [
     source 12
     target 441
-    similar 0.06451612903225806
+    delta 0.19682713252204917
   ]
   edge [
     source 12
     target 634
-    similar 0.1016949152542373
+    delta 0.31889640207164033
   ]
   edge [
     source 12
     target 354
-    similar 0.06153846153846154
+    delta 0.16467739391852365
   ]
   edge [
     source 12
     target 148
-    similar 0.1527777777777778
+    delta 0.29232170189900364
   ]
   edge [
     source 12
     target 149
-    similar 0.1388888888888889
+    delta 0.27146264489895156
   ]
   edge [
     source 12
     target 53
-    similar 0.15
+    delta 0.27195576545960193
   ]
   edge [
     source 12
     target 95
-    similar 0.03529411764705882
+    delta 0.07252642155445856
   ]
   edge [
     source 12
     target 173
-    similar 0.1388888888888889
+    delta 0.27146264489895156
   ]
   edge [
     source 12
     target 776
-    similar 0.06779661016949153
+    delta 0.26037782196164777
   ]
   edge [
     source 12
     target 500
-    similar 0.11666666666666667
+    delta 0.32220111626441317
   ]
   edge [
     source 12
     target 288
-    similar 0.21311475409836064
+    delta 0.4369902195443293
   ]
   edge [
     source 12
     target 504
-    similar 0.11666666666666667
+    delta 0.32220111626441317
   ]
   edge [
     source 12
     target 559
-    similar 0.13333333333333333
+    delta 0.34717042928219694
   ]
   edge [
     source 12
     target 390
-    similar 0.14754098360655737
+    delta 0.3532809023904868
   ]
   edge [
     source 12
     target 199
-    similar 0.19117647058823528
+    delta 0.3608327980746898
   ]
   edge [
     source 12
     target 671
-    similar 0.08333333333333333
+    delta 0.26574700172636695
   ]
   edge [
     source 12
     target 495
-    similar 0.0625
+    delta 0.17358521464109847
   ]
   edge [
     source 12
     target 35
-    similar 0.10101010101010101
+    delta 0.18411492357966466
   ]
   edge [
     source 12
     target 319
-    similar 0.07352941176470588
+    delta 0.17397225015980525
   ]
   edge [
     source 12
     target 121
-    similar 0.05
+    delta 0.1041511287846591
   ]
   edge [
     source 12
     target 236
-    similar 0.18181818181818182
+    delta 0.35840861465369933
   ]
   edge [
     source 12
     target 533
-    similar 0.11864406779661017
+    delta 0.34444748191358604
   ]
   edge [
     source 12
     target 709
-    similar 0.1016949152542373
+    delta 0.31889640207164033
   ]
   edge [
     source 12
     target 133
-    similar 0.12658227848101267
+    delta 0.2376913442707642
   ]
   edge [
     source 12
     target 291
-    similar 0.16666666666666666
+    delta 0.33754402656271854
   ]
   edge [
     source 12
     target 14
-    similar 0.3118279569892473
+    delta 0.47566557026161876
   ]
   edge [
     source 12
     target 237
-    similar 0.15942028985507245
+    delta 0.3125050443499248
   ]
   edge [
     source 12
     target 617
-    similar 0.1
+    delta 0.29524069878307374
   ]
   edge [
     source 12
     target 312
-    similar 0.12698412698412698
+    delta 0.30065841120113157
   ]
   edge [
     source 12
     target 16
-    similar 0.1326530612244898
+    delta 0.23470139701908863
   ]
   edge [
     source 12
     target 157
-    similar 0.11267605633802817
+    delta 0.2328890038958328
   ]
   edge [
     source 12
     target 56
-    similar 0.273972602739726
+    delta 0.4465442806891065
   ]
   edge [
     source 12
     target 145
-    similar 0.16216216216216217
+    delta 0.30065841120113157
   ]
   edge [
     source 12
     target 588
-    similar 0.13559322033898305
+    delta 0.3682298471593294
   ]
   edge [
     source 12
     target 951
-    similar 0.06779661016949153
+    delta 0.26037782196164777
   ]
   edge [
     source 12
     target 584
-    similar 0.11666666666666667
+    delta 0.32220111626441317
   ]
   edge [
     source 12
     target 159
-    similar 0.23076923076923078
+    delta 0.42614324229535205
   ]
   edge [
     source 12
     target 309
-    similar 0.13636363636363635
+    delta 0.29292504970685374
   ]
   edge [
     source 12
     target 627
-    similar 0.11864406779661017
+    delta 0.34444748191358604
   ]
   edge [
     source 12
     target 847
-    similar 0.05
+    delta 0.19528336647123581
   ]
   edge [
     source 12
     target 316
-    similar 0.12121212121212122
+    delta 0.2689170581811257
   ]
   edge [
     source 12
     target 459
-    similar 0.046153846153846156
+    delta 0.13018891098082386
   ]
   edge [
     source 12
     target 455
-    similar 0.15
+    delta 0.37052413631667824
   ]
   edge [
     source 12
     target 379
-    similar 0.13333333333333333
+    delta 0.34717042928219694
   ]
   edge [
     source 12
     target 47
-    similar 0.2894736842105263
+    delta 0.45863201914759155
   ]
   edge [
     source 12
     target 19
-    similar 0.25806451612903225
+    delta 0.4102713959708147
   ]
   edge [
     source 12
     target 781
-    similar 0.06666666666666667
+    delta 0.2328890038958328
   ]
   edge [
     source 12
     target 92
-    similar 0.04819277108433735
+    delta 0.09841356626102458
   ]
   edge [
     source 12
     target 127
-    similar 0.04938271604938271
+    delta 0.10212858423763305
   ]
   edge [
     source 12
     target 42
-    similar 0.07692307692307693
+    delta 0.14592836972877912
   ]
   edge [
     source 12
     target 21
-    similar 0.049019607843137254
+    delta 0.09395575350035361
   ]
   edge [
     source 13
     target 87
-    similar 0.20224719101123595
+    delta 0.3674234614174767
   ]
   edge [
     source 13
     target 756
-    similar 0.06578947368421052
+    delta 0.23570226039551584
   ]
   edge [
     source 13
     target 615
-    similar 0.07792207792207792
+    delta 0.24494897427831783
   ]
   edge [
     source 13
     target 526
-    similar 0.11842105263157894
+    delta 0.3286335345030997
   ]
   edge [
     source 13
     target 1095
-    similar 0.02666666666666667
+    delta 0.16329931618554522
   ]
   edge [
     source 13
     target 170
-    similar 0.17647058823529413
+    delta 0.34641016151377546
   ]
   edge [
     source 13
     target 530
-    similar 0.08974358974358974
+    delta 0.2556038601690775
   ]
   edge [
     source 13
     target 404
-    similar 0.0875
+    delta 0.23333333333333334
   ]
   edge [
     source 13
     target 1028
-    similar 0.02631578947368421
+    delta 0.13333333333333333
   ]
   edge [
     source 13
     target 418
-    similar 0.08860759493670886
+    delta 0.24370871833797697
   ]
   edge [
     source 13
     target 181
-    similar 0.1511627906976744
+    delta 0.30641293851417056
   ]
   edge [
     source 13
     target 603
-    similar 0.0375
+    delta 0.12247448713915891
   ]
   edge [
     source 13
     target 302
-    similar 0.15
+    delta 0.33606722016672236
   ]
   edge [
     source 13
     target 697
-    similar 0.038461538461538464
+    delta 0.1414213562373095
   ]
   edge [
     source 13
     target 1202
-    similar 0.02666666666666667
+    delta 0.16329931618554522
   ]
   edge [
     source 13
     target 1092
-    similar 0.04
+    delta 0.2
   ]
   edge [
     source 13
     target 36
-    similar 0.31521739130434784
+    delta 0.4937287878400742
   ]
   edge [
     source 13
     target 570
-    similar 0.06329113924050633
+    delta 0.19245008972987526
   ]
   edge [
     source 13
     target 249
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 13
     target 1238
-    similar 0.02666666666666667
+    delta 0.16329931618554522
   ]
   edge [
     source 13
     target 100
-    similar 0.19318181818181818
+    delta 0.35839146815241635
   ]
   edge [
     source 13
     target 1056
-    similar 0.04
+    delta 0.2
   ]
   edge [
     source 13
     target 478
-    similar 0.0625
+    delta 0.18257418583505536
   ]
   edge [
     source 13
     target 367
-    similar 0.08641975308641975
+    delta 0.224179415327122
   ]
   edge [
     source 13
     target 375
-    similar 0.11392405063291139
+    delta 0.2882306768491569
   ]
   edge [
     source 13
     target 172
-    similar 0.1
+    delta 0.21213203435596426
   ]
   edge [
     source 13
     target 368
-    similar 0.06097560975609756
+    delta 0.16666666666666666
   ]
   edge [
     source 13
     target 276
-    similar 0.13580246913580246
+    delta 0.3080616184861622
   ]
   edge [
     source 13
     target 28
-    similar 0.3229166666666667
+    delta 0.4963972767957701
   ]
   edge [
     source 13
     target 201
-    similar 0.12790697674418605
+    delta 0.270801280154532
   ]
   edge [
     source 13
     target 188
-    similar 0.10112359550561797
+    delta 0.21669453555438456
   ]
   edge [
     source 13
     target 352
-    similar 0.1111111111111111
+    delta 0.2683281572999748
   ]
   edge [
     source 13
     target 317
-    similar 0.11392405063291139
+    delta 0.2882306768491569
   ]
   edge [
     source 13
     target 489
-    similar 0.0641025641025641
+    delta 0.2041241452319315
   ]
   edge [
     source 13
     target 430
-    similar 0.10256410256410256
+    delta 0.27852424952911653
   ]
   edge [
     source 13
     target 115
-    similar 0.2716049382716049
+    delta 0.4800793585191832
   ]
   edge [
     source 13
     target 551
-    similar 0.06493506493506493
+    delta 0.21821789023599236
   ]
   edge [
     source 13
     target 119
-    similar 0.16091954022988506
+    delta 0.31703756956048684
   ]
   edge [
     source 13
     target 529
-    similar 0.09090909090909091
+    delta 0.26943012562182533
   ]
   edge [
     source 13
     target 528
-    similar 0.08974358974358974
+    delta 0.2556038601690775
   ]
   edge [
     source 13
     target 104
-    similar 0.12631578947368421
+    delta 0.24494897427831783
   ]
   edge [
     source 13
     target 279
-    similar 0.17721518987341772
+    delta 0.38103173776627214
   ]
   edge [
     source 13
     target 643
-    similar 0.038461538461538464
+    delta 0.1414213562373095
   ]
   edge [
     source 13
     target 624
-    similar 0.07792207792207792
+    delta 0.24494897427831783
   ]
   edge [
     source 13
     target 150
-    similar 0.07058823529411765
+    delta 0.1732050807568877
   ]
   edge [
     source 13
     target 669
-    similar 0.09333333333333334
+    delta 0.30550504633038933
   ]
   edge [
     source 13
     target 401
-    similar 0.14285714285714285
+    delta 0.3522819383711917
   ]
   edge [
     source 13
     target 678
-    similar 0.05194805194805195
+    delta 0.18856180831641267
   ]
   edge [
     source 13
     target 519
-    similar 0.0379746835443038
+    delta 0.13093073414159542
   ]
   edge [
     source 13
     target 333
-    similar 0.07142857142857142
+    delta 0.17888543819998318
   ]
   edge [
     source 13
     target 321
-    similar 0.03529411764705882
+    delta 0.09607689228305229
   ]
   edge [
     source 13
     target 743
-    similar 0.03896103896103896
+    delta 0.15491933384829668
   ]
   edge [
     source 13
     target 658
-    similar 0.038461538461538464
+    delta 0.1414213562373095
   ]
   edge [
     source 13
     target 563
-    similar 0.037037037037037035
+    delta 0.11547005383792515
   ]
   edge [
     source 13
     target 82
-    similar 0.06666666666666667
+    delta 0.13288211940534986
   ]
   edge [
     source 13
     target 630
-    similar 0.025
+    delta 0.08728715609439694
   ]
   edge [
     source 13
     target 29
-    similar 0.03571428571428571
+    delta 0.07213357077339458
   ]
   edge [
     source 13
     target 41
-    similar 0.04716981132075472
+    delta 0.09622504486493763
   ]
   edge [
     source 13
     target 280
-    similar 0.034482758620689655
+    delta 0.08944271909999159
   ]
   edge [
     source 13
     target 67
-    similar 0.09
+    delta 0.17822655773580137
   ]
   edge [
     source 13
     target 86
-    similar 0.030927835051546393
+    delta 0.06928203230275509
   ]
   edge [
     source 13
     target 190
-    similar 0.18072289156626506
+    delta 0.36115755925730764
   ]
   edge [
     source 13
     target 377
-    similar 0.03529411764705882
+    delta 0.09607689228305229
   ]
   edge [
     source 13
     target 136
-    similar 0.041237113402061855
+    delta 0.09058216273156766
   ]
   edge [
     source 13
     target 97
-    similar 0.06060606060606061
+    delta 0.1264911064067352
   ]
   edge [
     source 13
     target 243
-    similar 0.043478260869565216
+    delta 0.10079052613579392
   ]
   edge [
     source 13
     target 305
-    similar 0.034482758620689655
+    delta 0.08944271909999159
   ]
   edge [
     source 13
     target 155
-    similar 0.05319148936170213
+    delta 0.11785113019775792
   ]
   edge [
     source 13
     target 130
-    similar 0.08695652173913043
+    delta 0.18475208614068026
   ]
   edge [
     source 13
     target 74
-    similar 0.058823529411764705
+    delta 0.12060453783110545
   ]
   edge [
     source 14
     target 93
-    similar 0.19753086419753085
+    delta 0.34570865256115435
   ]
   edge [
     source 14
     target 353
-    similar 0.07042253521126761
+    delta 0.17471413945365305
   ]
   edge [
     source 14
     target 147
-    similar 0.2714285714285714
+    delta 0.4694579005520308
   ]
   edge [
     source 14
     target 439
-    similar 0.05970149253731343
+    delta 0.1781741612749496
   ]
   edge [
     source 14
     target 440
-    similar 0.058823529411764705
+    delta 0.1679842102263232
   ]
   edge [
     source 14
     target 441
-    similar 0.06060606060606061
+    delta 0.19047619047619047
   ]
   edge [
     source 14
     target 403
-    similar 0.04225352112676056
+    delta 0.11396057645963795
   ]
   edge [
     source 14
     target 148
-    similar 0.11538461538461539
+    delta 0.23145502494313785
   ]
   edge [
     source 14
     target 227
-    similar 0.14492753623188406
+    delta 0.314970394174356
   ]
   edge [
     source 14
     target 149
-    similar 0.13157894736842105
+    delta 0.2627034687463669
   ]
   edge [
     source 14
     target 53
-    similar 0.2
+    delta 0.35090757064521017
   ]
   edge [
     source 14
     target 271
-    similar 0.14492753623188406
+    delta 0.314970394174356
   ]
   edge [
     source 14
     target 230
-    similar 0.09859154929577464
+    delta 0.2277100170213244
   ]
   edge [
     source 14
     target 131
-    similar 0.17105263157894737
+    delta 0.32120803721981056
   ]
   edge [
     source 14
     target 556
-    similar 0.07575757575757576
+    delta 0.22271770159368698
   ]
   edge [
     source 14
     target 288
-    similar 0.09859154929577464
+    delta 0.2277100170213244
   ]
   edge [
     source 14
     target 559
-    similar 0.09090909090909091
+    delta 0.25197631533948484
   ]
   edge [
     source 14
     target 388
-    similar 0.057971014492753624
+    delta 0.15936381457791915
   ]
   edge [
     source 14
     target 96
-    similar 0.13414634146341464
+    delta 0.2530240384255299
   ]
   edge [
     source 14
     target 455
-    similar 0.07352941176470588
+    delta 0.19920476822239894
   ]
   edge [
     source 14
     target 180
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 14
     target 421
-    similar 0.12307692307692308
+    delta 0.3187276291558383
   ]
   edge [
     source 14
     target 69
-    similar 0.175
+    delta 0.3167939755409943
   ]
   edge [
     source 14
     target 390
-    similar 0.1746031746031746
+    delta 0.4178554470186725
   ]
   edge [
     source 14
     target 199
-    similar 0.2318840579710145
+    delta 0.4297722474802028
   ]
   edge [
     source 14
     target 724
-    similar 0.07936507936507936
+    delta 0.2817180849095055
   ]
   edge [
     source 14
     target 392
-    similar 0.10294117647058823
+    delta 0.2545875386086578
   ]
   edge [
     source 14
     target 124
-    similar 0.14102564102564102
+    delta 0.2717914161090704
   ]
   edge [
     source 14
     target 104
-    similar 0.05555555555555555
+    delta 0.11135885079684349
   ]
   edge [
     source 14
     target 295
-    similar 0.04
+    delta 0.09759000729485331
   ]
   edge [
     source 14
     target 159
-    similar 0.1506849315068493
+    delta 0.30242156957551825
   ]
   edge [
     source 14
     target 673
-    similar 0.07936507936507936
+    delta 0.2817180849095055
   ]
   edge [
     source 14
     target 47
-    similar 0.36
+    delta 0.5447047794019222
   ]
   edge [
     source 14
     target 344
-    similar 0.0410958904109589
+    delta 0.10482848367219183
   ]
   edge [
     source 14
     target 1085
-    similar 0.047619047619047616
+    delta 0.21821789023599236
   ]
   edge [
     source 14
     target 312
-    similar 0.171875
+    delta 0.40006613209931935
   ]
   edge [
     source 14
     target 236
-    similar 0.20588235294117646
+    delta 0.404651319111256
   ]
   edge [
     source 14
     target 671
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 14
     target 379
-    similar 0.125
+    delta 0.3359684204526464
   ]
   edge [
     source 14
     target 197
-    similar 0.18309859154929578
+    delta 0.35740730949833976
   ]
   edge [
     source 14
     target 578
-    similar 0.12698412698412698
+    delta 0.3563483225498992
   ]
   edge [
     source 14
     target 280
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 14
     target 145
-    similar 0.21621621621621623
+    delta 0.38794291597509756
   ]
   edge [
     source 14
     target 56
-    similar 0.22784810126582278
+    delta 0.38892223413129867
   ]
   edge [
     source 14
     target 509
-    similar 0.08955223880597014
+    delta 0.23904572186687875
   ]
   edge [
     source 14
     target 25
-    similar 0.11818181818181818
+    delta 0.21144501580551553
   ]
   edge [
     source 14
     target 237
-    similar 0.21739130434782608
+    delta 0.41239304942116123
   ]
   edge [
     source 14
     target 72
-    similar 0.053763440860215055
+    delta 0.10647942749999
   ]
   edge [
     source 14
     target 1145
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 14
     target 19
-    similar 0.375
+    delta 0.5459208336840117
   ]
   edge [
     source 14
     target 127
-    similar 0.05952380952380952
+    delta 0.12354155277685021
   ]
   edge [
     source 14
     target 42
-    similar 0.0967741935483871
+    delta 0.18156825980064073
   ]
   edge [
     source 14
     target 214
-    similar 0.1527777777777778
+    delta 0.3098898934004561
   ]
   edge [
     source 15
     target 39
-    similar 0.4032258064516129
+    delta 0.5860090386731193
   ]
   edge [
     source 15
     target 121
-    similar 0.3050847457627119
+    delta 0.49923017660270624
   ]
   edge [
     source 15
     target 84
-    similar 0.296875
+    delta 0.473228707317382
   ]
   edge [
     source 15
     target 72
-    similar 0.0875
+    delta 0.1640825308284734
   ]
   edge [
     source 15
     target 26
-    similar 0.5396825396825397
+    delta 0.7028634960055147
   ]
   edge [
     source 15
     target 49
-    similar 0.022222222222222223
+    delta 0.043852900965351466
   ]
   edge [
     source 15
     target 505
-    similar 0.03508771929824561
+    delta 0.10482848367219183
   ]
   edge [
     source 15
     target 507
-    similar 0.14814814814814814
+    delta 0.3508232077228117
   ]
   edge [
     source 15
     target 31
-    similar 0.45454545454545453
+    delta 0.6271815075053181
   ]
   edge [
     source 15
     target 103
-    similar 0.3448275862068966
+    delta 0.5439282932204212
   ]
   edge [
     source 15
     target 254
-    similar 0.17543859649122806
+    delta 0.35805743701971643
   ]
   edge [
     source 15
     target 800
-    similar 0.09615384615384616
+    delta 0.31008683647302115
   ]
   edge [
     source 15
     target 32
-    similar 0.3382352941176471
+    delta 0.5107329304369767
   ]
   edge [
     source 15
     target 463
-    similar 0.16981132075471697
+    delta 0.39467610868816316
   ]
   edge [
     source 15
     target 239
-    similar 0.25
+    delta 0.4576043153224294
   ]
   edge [
     source 15
     target 135
-    similar 0.288135593220339
+    delta 0.48121773951145314
   ]
   edge [
     source 15
     target 45
-    similar 0.4406779661016949
+    delta 0.6276459144608478
   ]
   edge [
     source 15
     target 362
-    similar 0.10526315789473684
+    delta 0.2508726030021272
   ]
   edge [
     source 15
     target 81
-    similar 0.43859649122807015
+    delta 0.6329621044272917
   ]
   edge [
     source 15
     target 125
-    similar 0.3050847457627119
+    delta 0.49923017660270624
   ]
   edge [
     source 15
     target 82
-    similar 0.08536585365853659
+    delta 0.1595862634056436
   ]
   edge [
     source 15
     target 330
-    similar 0.15789473684210525
+    delta 0.3335621924974955
   ]
   edge [
     source 15
     target 23
-    similar 0.546875
+    delta 0.7079742198048931
   ]
   edge [
     source 15
     target 143
-    similar 0.22580645161290322
+    delta 0.3962969619506085
   ]
   edge [
     source 15
     target 153
-    similar 0.34545454545454546
+    delta 0.5617467761896284
   ]
   edge [
     source 15
     target 310
-    similar 0.24074074074074073
+    delta 0.4654746681256314
   ]
   edge [
     source 15
     target 262
-    similar 0.13559322033898305
+    delta 0.2864459496157732
   ]
   edge [
     source 15
     target 283
-    similar 0.2830188679245283
+    delta 0.5200314339611524
   ]
   edge [
     source 15
     target 106
-    similar 0.2786885245901639
+    delta 0.462339049237358
   ]
   edge [
     source 15
     target 113
-    similar 0.3333333333333333
+    delta 0.537831591218683
   ]
   edge [
     source 15
     target 76
-    similar 0.36065573770491804
+    delta 0.5479490295253897
   ]
   edge [
     source 15
     target 67
-    similar 0.34375
+    delta 0.5232166435699435
   ]
   edge [
     source 15
     target 319
-    similar 0.13793103448275862
+    delta 0.29649972666444047
   ]
   edge [
     source 15
     target 666
-    similar 0.09433962264150944
+    delta 0.2830692585361489
   ]
   edge [
     source 15
     target 61
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 15
     target 90
-    similar 0.25806451612903225
+    delta 0.43514263457633695
   ]
   edge [
     source 15
     target 228
-    similar 0.26785714285714285
+    delta 0.4772135722318333
   ]
   edge [
     source 15
     target 467
-    similar 0.16666666666666666
+    delta 0.3763089045031908
   ]
   edge [
     source 15
     target 531
-    similar 0.19230769230769232
+    delta 0.43852900965351466
   ]
   edge [
     source 15
     target 211
-    similar 0.22413793103448276
+    delta 0.4135850959342555
   ]
   edge [
     source 15
     target 77
-    similar 0.423728813559322
+    delta 0.6128629223068252
   ]
   edge [
     source 15
     target 393
-    similar 0.2037037037037037
+    delta 0.4230769230769231
   ]
   edge [
     source 15
     target 21
-    similar 0.42857142857142855
+    delta 0.6004805767690767
   ]
   edge [
     source 15
     target 86
-    similar 0.3275862068965517
+    delta 0.5269651864139677
   ]
   edge [
     source 15
     target 92
-    similar 0.3559322033898305
+    delta 0.5503495392790071
   ]
   edge [
     source 15
     target 24
-    similar 0.4857142857142857
+    delta 0.6538461538461539
   ]
   edge [
     source 16
     target 226
-    similar 0.2033898305084746
+    delta 0.38177085778546666
   ]
   edge [
     source 16
     target 52
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 16
     target 93
-    similar 0.1780821917808219
+    delta 0.30917347120042116
   ]
   edge [
     source 16
     target 37
-    similar 0.25
+    delta 0.4049291435992628
   ]
   edge [
     source 16
     target 267
-    similar 0.030303030303030304
+    delta 0.06933752452815364
   ]
   edge [
     source 16
     target 39
-    similar 0.04819277108433735
+    delta 0.09376144618769908
   ]
   edge [
     source 16
     target 227
-    similar 0.1724137931034483
+    delta 0.34668762264076824
   ]
   edge [
     source 16
     target 149
-    similar 0.171875
+    delta 0.3180732125814321
   ]
   edge [
     source 16
     target 206
-    similar 0.109375
+    delta 0.22269966704152222
   ]
   edge [
     source 16
     target 590
-    similar 0.09090909090909091
+    delta 0.24514516892273006
   ]
   edge [
     source 16
     target 229
-    similar 0.17543859649122806
+    delta 0.35805743701971643
   ]
   edge [
     source 16
     target 216
-    similar 0.22807017543859648
+    delta 0.4249182927993987
   ]
   edge [
     source 16
     target 157
-    similar 0.2413793103448276
+    delta 0.43412157106222965
   ]
   edge [
     source 16
     target 230
-    similar 0.17543859649122806
+    delta 0.35805743701971643
   ]
   edge [
     source 16
     target 785
-    similar 0.07547169811320754
+    delta 0.24806946917841693
   ]
   edge [
     source 16
     target 288
-    similar 0.046875
+    delta 0.10741723110591493
   ]
   edge [
     source 16
     target 561
-    similar 0.09259259259259259
+    delta 0.2620712091804796
   ]
   edge [
     source 16
     target 96
-    similar 0.24242424242424243
+    delta 0.40509574683346666
   ]
   edge [
     source 16
     target 179
-    similar 0.27586206896551724
+    delta 0.47304991679126607
   ]
   edge [
     source 16
     target 569
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 16
     target 221
-    similar 0.1864406779661017
+    delta 0.3595462477533374
   ]
   edge [
     source 16
     target 395
-    similar 0.12280701754385964
+    delta 0.2802242691589025
   ]
   edge [
     source 16
     target 428
-    similar 0.06779661016949153
+    delta 0.16724840200141816
   ]
   edge [
     source 16
     target 260
-    similar 0.07692307692307693
+    delta 0.16343011261515336
   ]
   edge [
     source 16
     target 369
-    similar 0.16071428571428573
+    delta 0.34615384615384615
   ]
   edge [
     source 16
     target 92
-    similar 0.06666666666666667
+    delta 0.1310356045902398
   ]
   edge [
     source 16
     target 280
-    similar 0.11666666666666667
+    delta 0.25064020591380154
   ]
   edge [
     source 16
     target 58
-    similar 0.2876712328767123
+    delta 0.4493585171364585
   ]
   edge [
     source 16
     target 592
-    similar 0.09090909090909091
+    delta 0.24514516892273006
   ]
   edge [
     source 16
     target 497
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 16
     target 19
-    similar 0.14583333333333334
+    delta 0.2549249642552304
   ]
   edge [
     source 16
     target 335
-    similar 0.14035087719298245
+    delta 0.3076923076923077
   ]
   edge [
     source 16
     target 564
-    similar 0.07017543859649122
+    delta 0.1849000654084097
   ]
   edge [
     source 16
     target 69
-    similar 0.18571428571428572
+    delta 0.32378806290136664
   ]
   edge [
     source 16
     target 588
-    similar 0.1111111111111111
+    delta 0.29417420270727607
   ]
   edge [
     source 16
     target 25
-    similar 0.08737864077669903
+    delta 0.1611258466588724
   ]
   edge [
     source 16
     target 41
-    similar 0.31343283582089554
+    delta 0.4853626716970754
   ]
   edge [
     source 16
     target 380
-    similar 0.16981132075471697
+    delta 0.39467610868816316
   ]
   edge [
     source 16
     target 244
-    similar 0.11475409836065574
+    delta 0.24268133584853777
   ]
   edge [
     source 16
     target 251
-    similar 0.18032786885245902
+    delta 0.3410955201203233
   ]
   edge [
     source 16
     target 726
-    similar 0.03571428571428571
+    delta 0.11322770341445956
   ]
   edge [
     source 16
     target 241
-    similar 0.02857142857142857
+    delta 0.062017367294604234
   ]
   edge [
     source 16
     target 163
-    similar 0.043478260869565216
+    delta 0.09302605094190634
   ]
   edge [
     source 16
     target 127
-    similar 0.05405405405405406
+    delta 0.10878565864408424
   ]
   edge [
     source 16
     target 33
-    similar 0.041237113402061855
+    delta 0.07924288517503274
   ]
   edge [
     source 16
     target 24
-    similar 0.050505050505050504
+    delta 0.09615384615384616
   ]
   edge [
     source 17
     target 298
-    similar 0.1746031746031746
+    delta 0.37953605763829484
   ]
   edge [
     source 17
     target 338
-    similar 0.1774193548387097
+    delta 0.3938631807216881
   ]
   edge [
     source 17
     target 444
-    similar 0.09523809523809523
+    delta 0.25819888974716115
   ]
   edge [
     source 17
     target 356
-    similar 0.21311475409836064
+    delta 0.4485426135725303
   ]
   edge [
     source 17
     target 30
-    similar 0.4864864864864865
+    delta 0.6572670690061994
   ]
   edge [
     source 17
     target 207
-    similar 0.19402985074626866
+    delta 0.3752776749732567
   ]
   edge [
     source 17
     target 44
-    similar 0.44776119402985076
+    delta 0.6367145399670133
   ]
   edge [
     source 17
     target 177
-    similar 0.1232876712328767
+    delta 0.24771684715343115
   ]
   edge [
     source 17
     target 142
-    similar 0.1643835616438356
+    delta 0.30983866769659335
   ]
   edge [
     source 17
     target 245
-    similar 0.26229508196721313
+    delta 0.5009794328681196
   ]
   edge [
     source 17
     target 165
-    similar 0.22727272727272727
+    delta 0.4225771273642583
   ]
   edge [
     source 17
     target 40
-    similar 0.2987012987012987
+    delta 0.46948553403344245
   ]
   edge [
     source 17
     target 63
-    similar 0.3561643835616438
+    delta 0.53748384988657
   ]
   edge [
     source 17
     target 191
-    similar 0.22727272727272727
+    delta 0.4225771273642583
   ]
   edge [
     source 17
     target 109
-    similar 0.2361111111111111
+    delta 0.4075438062625765
   ]
   edge [
     source 17
     target 162
-    similar 0.208955223880597
+    delta 0.3944053188733077
   ]
   edge [
     source 17
     target 83
-    similar 0.2328767123287671
+    delta 0.4006938426723769
   ]
   edge [
     source 17
     target 98
-    similar 0.12048192771084337
+    delta 0.22473328748774737
   ]
   edge [
     source 17
     target 55
-    similar 0.3939393939393939
+    delta 0.59336610396393
   ]
   edge [
     source 17
     target 134
-    similar 0.3492063492063492
+    delta 0.5680375574437545
   ]
   edge [
     source 17
     target 27
-    similar 0.2247191011235955
+    delta 0.36885555678165877
   ]
   edge [
     source 17
     target 628
-    similar 0.11475409836065574
+    delta 0.3195048252113469
   ]
   edge [
     source 17
     target 365
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 17
     target 452
-    similar 0.14516129032258066
+    delta 0.35032452487268534
   ]
   edge [
     source 17
     target 178
-    similar 0.16901408450704225
+    delta 0.3230291412348993
   ]
   edge [
     source 17
     target 719
-    similar 0.08196721311475409
+    delta 0.26352313834736496
   ]
   edge [
     source 17
     target 154
-    similar 0.23529411764705882
+    delta 0.4216370213557839
   ]
   edge [
     source 17
     target 1252
-    similar 0.03333333333333333
+    delta 0.18257418583505536
   ]
   edge [
     source 17
     target 282
-    similar 0.16923076923076924
+    delta 0.3550234734023465
   ]
   edge [
     source 17
     target 286
-    similar 0.1323529411764706
+    delta 0.28180093098831727
   ]
   edge [
     source 17
     target 324
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 17
     target 745
-    similar 0.06557377049180328
+    delta 0.23094010767585027
   ]
   edge [
     source 17
     target 176
-    similar 0.23076923076923078
+    delta 0.4330127018922193
   ]
   edge [
     source 17
     target 281
-    similar 0.16417910447761194
+    delta 0.3347193406976015
   ]
   edge [
     source 17
     target 169
-    similar 0.19117647058823528
+    delta 0.3662335103823572
   ]
   edge [
     source 17
     target 622
-    similar 0.0967741935483871
+    delta 0.27386127875258304
   ]
   edge [
     source 17
     target 422
-    similar 0.12698412698412698
+    delta 0.3113995776646092
   ]
   edge [
     source 17
     target 516
-    similar 0.12903225806451613
+    delta 0.32659863237109044
   ]
   edge [
     source 17
     target 665
-    similar 0.06451612903225806
+    delta 0.21081851067789195
   ]
   edge [
     source 17
     target 160
-    similar 0.1643835616438356
+    delta 0.30983866769659335
   ]
   edge [
     source 17
     target 674
-    similar 0.08064516129032258
+    delta 0.2439750182371333
   ]
   edge [
     source 17
     target 116
-    similar 0.14473684210526316
+    delta 0.27329719724997426
   ]
   edge [
     source 17
     target 111
-    similar 0.25
+    delta 0.4389381125701739
   ]
   edge [
     source 17
     target 400
-    similar 0.18333333333333332
+    delta 0.42817441928883765
   ]
   edge [
     source 17
     target 49
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 17
     target 648
-    similar 0.09836065573770492
+    delta 0.29277002188455997
   ]
   edge [
     source 17
     target 827
-    similar 0.04838709677419355
+    delta 0.1732050807568877
   ]
   edge [
     source 17
     target 431
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 17
     target 123
-    similar 0.2647058823529412
+    delta 0.45573271518765
   ]
   edge [
     source 17
     target 914
-    similar 0.03225806451612903
+    delta 0.12909944487358055
   ]
   edge [
     source 17
     target 809
-    similar 0.08333333333333333
+    delta 0.28867513459481287
   ]
   edge [
     source 17
     target 725
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 17
     target 465
-    similar 0.16666666666666666
+    delta 0.408248290463863
   ]
   edge [
     source 17
     target 1163
-    similar 0.03333333333333333
+    delta 0.18257418583505536
   ]
   edge [
     source 17
     target 572
-    similar 0.078125
+    delta 0.21516574145596762
   ]
   edge [
     source 17
     target 416
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 17
     target 219
-    similar 0.3225806451612903
+    delta 0.5504818825631803
   ]
   edge [
     source 17
     target 361
-    similar 0.18032786885245902
+    delta 0.40994579587496144
   ]
   edge [
     source 17
     target 18
-    similar 0.3977272727272727
+    delta 0.569275042553311
   ]
   edge [
     source 18
     target 162
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 18
     target 30
-    similar 0.2840909090909091
+    delta 0.44543540318737396
   ]
   edge [
     source 18
     target 208
-    similar 0.28125
+    delta 0.520265981714472
   ]
   edge [
     source 18
     target 177
-    similar 0.328125
+    delta 0.5640760748177662
   ]
   edge [
     source 18
     target 55
-    similar 0.3380281690140845
+    delta 0.5345224838248488
   ]
   edge [
     source 18
     target 207
-    similar 0.1527777777777778
+    delta 0.3098898934004561
   ]
   edge [
     source 18
     target 628
-    similar 0.109375
+    delta 0.31180478223116176
   ]
   edge [
     source 18
     target 863
-    similar 0.06349206349206349
+    delta 0.2519763153394848
   ]
   edge [
     source 18
     target 819
-    similar 0.0625
+    delta 0.2253744679276044
   ]
   edge [
     source 18
     target 169
-    similar 0.12
+    delta 0.24743582965269675
   ]
   edge [
     source 18
     target 809
-    similar 0.046153846153846156
+    delta 0.1690308509457033
   ]
   edge [
     source 18
     target 1172
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 18
     target 407
-    similar 0.10294117647058823
+    delta 0.2545875386086578
   ]
   edge [
     source 18
     target 431
-    similar 0.10294117647058823
+    delta 0.2545875386086578
   ]
   edge [
     source 18
     target 261
-    similar 0.23076923076923078
+    delta 0.45834924851410563
   ]
   edge [
     source 18
     target 323
-    similar 0.16417910447761194
+    delta 0.3578300267477955
   ]
   edge [
     source 18
     target 245
-    similar 0.15942028985507245
+    delta 0.3361227822436775
   ]
   edge [
     source 18
     target 784
-    similar 0.06349206349206349
+    delta 0.2519763153394848
   ]
   edge [
     source 18
     target 361
-    similar 0.11940298507462686
+    delta 0.29095718698132317
   ]
   edge [
     source 18
     target 176
-    similar 0.18571428571428572
+    delta 0.3662335103823572
   ]
   edge [
     source 18
     target 705
-    similar 0.06153846153846154
+    delta 0.20573779994945587
   ]
   edge [
     source 18
     target 44
-    similar 0.28205128205128205
+    delta 0.4556711617342134
   ]
   edge [
     source 18
     target 745
-    similar 0.07936507936507936
+    delta 0.2817180849095055
   ]
   edge [
     source 18
     target 622
-    similar 0.12698412698412698
+    delta 0.3563483225498992
   ]
   edge [
     source 18
     target 660
-    similar 0.07692307692307693
+    delta 0.23809523809523808
   ]
   edge [
     source 18
     target 338
-    similar 0.1875
+    delta 0.4193139346887673
   ]
   edge [
     source 18
     target 83
-    similar 0.09411764705882353
+    delta 0.18401748249129446
   ]
   edge [
     source 18
     target 374
-    similar 0.05714285714285714
+    delta 0.15194743527951726
   ]
   edge [
     source 18
     target 547
-    similar 0.05970149253731343
+    delta 0.1781741612749496
   ]
   edge [
     source 18
     target 674
-    similar 0.07692307692307693
+    delta 0.23809523809523808
   ]
   edge [
     source 18
     target 204
-    similar 0.13333333333333333
+    delta 0.26860765467512676
   ]
   edge [
     source 18
     target 98
-    similar 0.11627906976744186
+    delta 0.21931723165325634
   ]
   edge [
     source 18
     target 321
-    similar 0.08571428571428572
+    delta 0.20965696734438366
   ]
   edge [
     source 18
     target 71
-    similar 0.1686746987951807
+    delta 0.3024950709910101
   ]
   edge [
     source 18
     target 116
-    similar 0.0975609756097561
+    delta 0.19397145798754878
   ]
   edge [
     source 18
     target 142
-    similar 0.1
+    delta 0.20158105227158785
   ]
   edge [
     source 18
     target 444
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 18
     target 913
-    similar 0.047619047619047616
+    delta 0.21821789023599236
   ]
   edge [
     source 18
     target 134
-    similar 0.1891891891891892
+    delta 0.35276684147527876
   ]
   edge [
     source 18
     target 1212
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 18
     target 286
-    similar 0.14285714285714285
+    delta 0.3055661656760704
   ]
   edge [
     source 18
     target 111
-    similar 0.3333333333333333
+    delta 0.5543478937468667
   ]
   edge [
     source 18
     target 516
-    similar 0.12307692307692308
+    delta 0.3187276291558383
   ]
   edge [
     source 18
     target 752
-    similar 0.078125
+    delta 0.25717224993681986
   ]
   edge [
     source 18
     target 527
-    similar 0.125
+    delta 0.3359684204526464
   ]
   edge [
     source 18
     target 365
-    similar 0.171875
+    delta 0.40006613209931935
   ]
   edge [
     source 18
     target 168
-    similar 0.25
+    delta 0.45663301294771547
   ]
   edge [
     source 18
     target 722
-    similar 0.078125
+    delta 0.25717224993681986
   ]
   edge [
     source 18
     target 1032
-    similar 0.047619047619047616
+    delta 0.21821789023599236
   ]
   edge [
     source 18
     target 511
-    similar 0.140625
+    delta 0.3585685828003181
   ]
   edge [
     source 18
     target 326
-    similar 0.16923076923076924
+    delta 0.3843711067980367
   ]
   edge [
     source 18
     target 281
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 18
     target 625
-    similar 0.109375
+    delta 0.31180478223116176
   ]
   edge [
     source 18
     target 324
-    similar 0.14705882352941177
+    delta 0.3253000243161777
   ]
   edge [
     source 18
     target 465
-    similar 0.140625
+    delta 0.3585685828003181
   ]
   edge [
     source 18
     target 1097
-    similar 0.031746031746031744
+    delta 0.1781741612749496
   ]
   edge [
     source 18
     target 400
-    similar 0.1044776119402985
+    delta 0.26590801173915524
   ]
   edge [
     source 18
     target 725
-    similar 0.06153846153846154
+    delta 0.20573779994945587
   ]
   edge [
     source 18
     target 479
-    similar 0.058823529411764705
+    delta 0.1679842102263232
   ]
   edge [
     source 18
     target 160
-    similar 0.11392405063291139
+    delta 0.22677868380553634
   ]
   edge [
     source 19
     target 850
-    similar 0.06896551724137931
+    delta 0.2626128657194451
   ]
   edge [
     source 19
     target 93
-    similar 0.24324324324324326
+    delta 0.40533961419994047
   ]
   edge [
     source 19
     target 147
-    similar 0.2923076923076923
+    delta 0.48927489249337447
   ]
   edge [
     source 19
     target 633
-    similar 0.06779661016949153
+    delta 0.23488808780588138
   ]
   edge [
     source 19
     target 539
-    similar 0.03076923076923077
+    delta 0.0875376219064817
   ]
   edge [
     source 19
     target 227
-    similar 0.1746031746031746
+    delta 0.361092690364237
   ]
   edge [
     source 19
     target 53
-    similar 0.19736842105263158
+    delta 0.34286274066187084
   ]
   edge [
     source 19
     target 382
-    similar 0.06060606060606061
+    delta 0.15161960871578067
   ]
   edge [
     source 19
     target 317
-    similar 0.05970149253731343
+    delta 0.14567140814584595
   ]
   edge [
     source 19
     target 229
-    similar 0.057971014492753624
+    delta 0.1356127007241621
   ]
   edge [
     source 19
     target 500
-    similar 0.047619047619047616
+    delta 0.1392715036327889
   ]
   edge [
     source 19
     target 556
-    similar 0.1
+    delta 0.2785430072655778
   ]
   edge [
     source 19
     target 785
-    similar 0.08620689655172414
+    delta 0.29361010975735174
   ]
   edge [
     source 19
     target 164
-    similar 0.12162162162162163
+    delta 0.2363515791475006
   ]
   edge [
     source 19
     target 453
-    similar 0.0625
+    delta 0.16609095970747995
   ]
   edge [
     source 19
     target 96
-    similar 0.1282051282051282
+    delta 0.23973165074269207
   ]
   edge [
     source 19
     target 180
-    similar 0.1875
+    delta 0.3713906763541038
   ]
   edge [
     source 19
     target 236
-    similar 0.16666666666666666
+    delta 0.3313613782208279
   ]
   edge [
     source 19
     target 390
-    similar 0.15
+    delta 0.3563134121092031
   ]
   edge [
     source 19
     target 209
-    similar 0.1323529411764706
+    delta 0.2711138549079501
   ]
   edge [
     source 19
     target 392
-    similar 0.09375
+    delta 0.227429413073671
   ]
   edge [
     source 19
     target 74
-    similar 0.1518987341772152
+    delta 0.27429019252949666
   ]
   edge [
     source 19
     target 617
-    similar 0.08333333333333333
+    delta 0.24814583349273256
   ]
   edge [
     source 19
     target 280
-    similar 0.15873015873015872
+    delta 0.33903175181040524
   ]
   edge [
     source 19
     target 379
-    similar 0.11666666666666667
+    delta 0.30638167667268595
   ]
   edge [
     source 19
     target 47
-    similar 0.3472222222222222
+    delta 0.5256464169139751
   ]
   edge [
     source 19
     target 199
-    similar 0.17647058823529413
+    delta 0.3359355065735126
   ]
   edge [
     source 19
     target 588
-    similar 0.11864406779661017
+    delta 0.32496684180984076
   ]
   edge [
     source 19
     target 578
-    similar 0.13793103448275862
+    delta 0.3713906763541037
   ]
   edge [
     source 19
     target 312
-    similar 0.16666666666666666
+    delta 0.3790490217894517
   ]
   edge [
     source 19
     target 25
-    similar 0.11320754716981132
+    delta 0.2034190510862431
   ]
   edge [
     source 19
     target 197
-    similar 0.14492753623188406
+    delta 0.2865341275306264
   ]
   edge [
     source 19
     target 56
-    similar 0.19480519480519481
+    delta 0.33778301183328374
   ]
   edge [
     source 19
     target 291
-    similar 0.15151515151515152
+    delta 0.3094922302950865
   ]
   edge [
     source 19
     target 148
-    similar 0.09333333333333334
+    delta 0.1876196935966141
   ]
   edge [
     source 19
     target 237
-    similar 0.2153846153846154
+    delta 0.401147778542877
   ]
   edge [
     source 19
     target 509
-    similar 0.07936507936507936
+    delta 0.20761369963434992
   ]
   edge [
     source 19
     target 257
-    similar 0.15151515151515152
+    delta 0.3094922302950865
   ]
   edge [
     source 19
     target 69
-    similar 0.18666666666666668
+    delta 0.33016664144560476
   ]
   edge [
     source 19
     target 131
-    similar 0.16666666666666666
+    delta 0.3090157215747628
   ]
   edge [
     source 19
     target 755
-    similar 0.06779661016949153
+    delta 0.23488808780588138
   ]
   edge [
     source 19
     target 82
-    similar 0.07954545454545454
+    delta 0.15110651212172094
   ]
   edge [
     source 19
     target 545
-    similar 0.08196721311475409
+    delta 0.23211917272131485
   ]
   edge [
     source 19
     target 42
-    similar 0.0898876404494382
+    delta 0.16820685341247202
   ]
   edge [
     source 19
     target 99
-    similar 0.03409090909090909
+    delta 0.06857254813237416
   ]
   edge [
     source 19
     target 114
-    similar 0.08433734939759036
+    delta 0.16248342090492038
   ]
   edge [
     source 19
     target 172
-    similar 0.07894736842105263
+    delta 0.1608168802256692
   ]
   edge [
     source 19
     target 284
-    similar 0.1935483870967742
+    delta 0.39391929857916763
   ]
   edge [
     source 19
     target 264
-    similar 0.02702702702702703
+    delta 0.061898446059017294
   ]
   edge [
     source 20
     target 381
-    similar 0.17307692307692307
+    delta 0.3837612894400988
   ]
   edge [
     source 20
     target 37
-    similar 0.047619047619047616
+    delta 0.0917662935482247
   ]
   edge [
     source 20
     target 72
-    similar 0.04938271604938271
+    delta 0.09561828874675149
   ]
   edge [
     source 20
     target 231
-    similar 0.15789473684210525
+    delta 0.31819805153394637
   ]
   edge [
     source 20
     target 130
-    similar 0.22950819672131148
+    delta 0.3959797974644666
   ]
   edge [
     source 20
     target 60
-    similar 0.23880597014925373
+    delta 0.3938927711338647
   ]
   edge [
     source 20
     target 417
-    similar 0.17647058823529413
+    delta 0.40249223594996214
   ]
   edge [
     source 20
     target 657
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 20
     target 420
-    similar 0.1509433962264151
+    delta 0.3411211461689767
   ]
   edge [
     source 20
     target 218
-    similar 0.24561403508771928
+    delta 0.4320493798938574
   ]
   edge [
     source 20
     target 568
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 20
     target 183
-    similar 0.21666666666666667
+    delta 0.38334908600273254
   ]
   edge [
     source 20
     target 238
-    similar 0.1864406779661017
+    delta 0.3478505426185217
   ]
   edge [
     source 20
     target 22
-    similar 0.30666666666666664
+    delta 0.46948553403344245
   ]
   edge [
     source 20
     target 664
-    similar 0.12
+    delta 0.3464101615137754
   ]
   edge [
     source 20
     target 34
-    similar 0.15151515151515152
+    delta 0.2773500981126146
   ]
   edge [
     source 20
     target 364
-    similar 0.23529411764705882
+    delta 0.47067872433164165
   ]
   edge [
     source 20
     target 161
-    similar 0.3157894736842105
+    delta 0.5091168824543142
   ]
   edge [
     source 20
     target 240
-    similar 0.23636363636363636
+    delta 0.43333333333333335
   ]
   edge [
     source 20
     target 759
-    similar 0.0784313725490196
+    delta 0.25298221281347033
   ]
   edge [
     source 20
     target 480
-    similar 0.18
+    delta 0.4242640687119285
   ]
   edge [
     source 20
     target 359
-    similar 0.23529411764705882
+    delta 0.47067872433164165
   ]
   edge [
     source 20
     target 667
-    similar 0.14
+    delta 0.3741657386773941
   ]
   edge [
     source 20
     target 285
-    similar 0.22641509433962265
+    delta 0.43817804600413285
   ]
   edge [
     source 20
     target 42
-    similar 0.14102564102564102
+    delta 0.24910094751181108
   ]
   edge [
     source 20
     target 332
-    similar 0.14545454545454545
+    delta 0.31378581622109447
   ]
   edge [
     source 20
     target 391
-    similar 0.21568627450980393
+    delta 0.4490731195102493
   ]
   edge [
     source 20
     target 82
-    similar 0.04819277108433735
+    delta 0.09299811099505542
   ]
   edge [
     source 20
     target 331
-    similar 0.2037037037037037
+    delta 0.4016632088371218
   ]
   edge [
     source 20
     target 136
-    similar 0.20634920634920634
+    delta 0.36055512754639896
   ]
   edge [
     source 20
     target 222
-    similar 0.2545454545454545
+    delta 0.4542199791661351
   ]
   edge [
     source 20
     target 243
-    similar 0.16393442622950818
+    delta 0.3086066999241838
   ]
   edge [
     source 20
     target 97
-    similar 0.2903225806451613
+    delta 0.46475800154489005
   ]
   edge [
     source 20
     target 659
-    similar 0.05555555555555555
+    delta 0.16035674514745463
   ]
   edge [
     source 20
     target 386
-    similar 0.10909090909090909
+    delta 0.25584085962673253
   ]
   edge [
     source 20
     target 591
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 20
     target 66
-    similar 0.26153846153846155
+    delta 0.425
   ]
   edge [
     source 20
     target 106
-    similar 0.05555555555555555
+    delta 0.11094003924504582
   ]
   edge [
     source 20
     target 166
-    similar 0.2
+    delta 0.3618136134933163
   ]
   edge [
     source 20
     target 145
-    similar 0.04054054054054054
+    delta 0.0816496580927726
   ]
   edge [
     source 20
     target 343
-    similar 0.16071428571428573
+    delta 0.3286335345030997
   ]
   edge [
     source 20
     target 25
-    similar 0.0891089108910891
+    delta 0.16431676725154984
   ]
   edge [
     source 20
     target 557
-    similar 0.05357142857142857
+    delta 0.1414213562373095
   ]
   edge [
     source 20
     target 23
-    similar 0.05434782608695652
+    delta 0.10314212462587934
   ]
   edge [
     source 20
     target 199
-    similar 0.043478260869565216
+    delta 0.09045340337332908
   ]
   edge [
     source 20
     target 291
-    similar 0.030303030303030304
+    delta 0.06666666666666667
   ]
   edge [
     source 20
     target 835
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 21
     target 128
-    similar 0.12307692307692308
+    delta 0.23094010767585027
   ]
   edge [
     source 21
     target 539
-    similar 0.07547169811320754
+    delta 0.19245008972987526
   ]
   edge [
     source 21
     target 39
-    similar 0.43103448275862066
+    delta 0.6099375455928333
   ]
   edge [
     source 21
     target 121
-    similar 0.32727272727272727
+    delta 0.5196152422706631
   ]
   edge [
     source 21
     target 84
-    similar 0.3389830508474576
+    delta 0.5184758473652127
   ]
   edge [
     source 21
     target 26
-    similar 0.3880597014925373
+    delta 0.5594309277855158
   ]
   edge [
     source 21
     target 101
-    similar 0.2413793103448276
+    delta 0.41247895569215276
   ]
   edge [
     source 21
     target 140
-    similar 0.2777777777777778
+    delta 0.472455591261534
   ]
   edge [
     source 21
     target 508
-    similar 0.14285714285714285
+    delta 0.3572172541558802
   ]
   edge [
     source 21
     target 31
-    similar 0.3333333333333333
+    delta 0.5004732608726313
   ]
   edge [
     source 21
     target 103
-    similar 0.34545454545454546
+    delta 0.537831591218683
   ]
   edge [
     source 21
     target 800
-    similar 0.10416666666666667
+    delta 0.3227486121839514
   ]
   edge [
     source 21
     target 32
-    similar 0.4032258064516129
+    delta 0.5778127044012803
   ]
   edge [
     source 21
     target 182
-    similar 0.28
+    delta 0.5051814855409226
   ]
   edge [
     source 21
     target 80
-    similar 0.3103448275862069
+    delta 0.49099025303098287
   ]
   edge [
     source 21
     target 135
-    similar 0.3090909090909091
+    delta 0.5008673033404712
   ]
   edge [
     source 21
     target 362
-    similar 0.11320754716981132
+    delta 0.26111648393354675
   ]
   edge [
     source 21
     target 125
-    similar 0.30357142857142855
+    delta 0.49074772881118184
   ]
   edge [
     source 21
     target 23
-    similar 0.5079365079365079
+    delta 0.6737215368532152
   ]
   edge [
     source 21
     target 153
-    similar 0.32075471698113206
+    delta 0.5231388366621641
   ]
   edge [
     source 21
     target 92
-    similar 0.38181818181818183
+    delta 0.57282196186948
   ]
   edge [
     source 21
     target 106
-    similar 0.34545454545454546
+    delta 0.537831591218683
   ]
   edge [
     source 21
     target 113
-    similar 0.3333333333333333
+    delta 0.5303300858899107
   ]
   edge [
     source 21
     target 248
-    similar 0.17857142857142858
+    delta 0.34020690871988585
   ]
   edge [
     source 21
     target 86
-    similar 0.40384615384615385
+    delta 0.606217782649107
   ]
   edge [
     source 21
     target 399
-    similar 0.22
+    delta 0.44035242296398963
   ]
   edge [
     source 21
     target 81
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 21
     target 76
-    similar 0.31666666666666665
+    delta 0.492552054996952
   ]
   edge [
     source 21
     target 333
-    similar 0.06779661016949153
+    delta 0.14907119849998599
   ]
   edge [
     source 21
     target 104
-    similar 0.06666666666666667
+    delta 0.1275775907699572
   ]
   edge [
     source 21
     target 42
-    similar 0.0875
+    delta 0.1617875572323585
   ]
   edge [
     source 21
     target 119
-    similar 0.05714285714285714
+    delta 0.11322770341445956
   ]
   edge [
     source 21
     target 531
-    similar 0.16
+    delta 0.3651483716701107
   ]
   edge [
     source 21
     target 45
-    similar 0.39655172413793105
+    delta 0.577896743774047
   ]
   edge [
     source 21
     target 77
-    similar 0.3793103448275862
+    delta 0.5613413993878117
   ]
   edge [
     source 21
     target 67
-    similar 0.3442622950819672
+    delta 0.519827460062754
   ]
   edge [
     source 21
     target 223
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 21
     target 136
-    similar 0.05714285714285714
+    delta 0.11322770341445956
   ]
   edge [
     source 21
     target 172
-    similar 0.058823529411764705
+    delta 0.11785113019775793
   ]
   edge [
     source 21
     target 130
-    similar 0.08955223880597014
+    delta 0.1732050807568877
   ]
   edge [
     source 21
     target 24
-    similar 0.3888888888888889
+    delta 0.560448538317805
   ]
   edge [
     source 22
     target 129
-    similar 0.0547945205479452
+    delta 0.10721125348377948
   ]
   edge [
     source 22
     target 116
-    similar 0.07142857142857142
+    delta 0.1388888888888889
   ]
   edge [
     source 22
     target 591
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 22
     target 384
-    similar 0.09090909090909091
+    delta 0.20833333333333334
   ]
   edge [
     source 22
     target 386
-    similar 0.1346153846153846
+    delta 0.3046358979224712
   ]
   edge [
     source 22
     target 207
-    similar 0.030303030303030304
+    delta 0.06454972243679027
   ]
   edge [
     source 22
     target 158
-    similar 0.09230769230769231
+    delta 0.1805787796286538
   ]
   edge [
     source 22
     target 231
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 22
     target 130
-    similar 0.25862068965517243
+    delta 0.4330127018922193
   ]
   edge [
     source 22
     target 60
-    similar 0.19117647058823528
+    delta 0.3266372899592439
   ]
   edge [
     source 22
     target 1003
-    similar 0.0625
+    delta 0.25
   ]
   edge [
     source 22
     target 234
-    similar 0.13333333333333333
+    delta 0.2581988897471611
   ]
   edge [
     source 22
     target 417
-    similar 0.09433962264150944
+    delta 0.22821773229381923
   ]
   edge [
     source 22
     target 218
-    similar 0.1896551724137931
+    delta 0.3464674335917916
   ]
   edge [
     source 22
     target 566
-    similar 0.09803921568627451
+    delta 0.2551551815399144
   ]
   edge [
     source 22
     target 183
-    similar 0.2033898305084746
+    delta 0.3611575592573076
   ]
   edge [
     source 22
     target 238
-    similar 0.19298245614035087
+    delta 0.3550234734023465
   ]
   edge [
     source 22
     target 915
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 22
     target 185
-    similar 0.2909090909090909
+    delta 0.4815434123430768
   ]
   edge [
     source 22
     target 607
-    similar 0.08
+    delta 0.23570226039551587
   ]
   edge [
     source 22
     target 187
-    similar 0.3076923076923077
+    delta 0.5163977794943222
   ]
   edge [
     source 22
     target 297
-    similar 0.14814814814814814
+    delta 0.3086066999241838
   ]
   edge [
     source 22
     target 664
-    similar 0.10204081632653061
+    delta 0.2946278254943948
   ]
   edge [
     source 22
     target 34
-    similar 0.2542372881355932
+    delta 0.42460388780422337
   ]
   edge [
     source 22
     target 825
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 22
     target 327
-    similar 0.1320754716981132
+    delta 0.2916666666666667
   ]
   edge [
     source 22
     target 136
-    similar 0.1746031746031746
+    delta 0.3113761843897638
   ]
   edge [
     source 22
     target 66
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 22
     target 328
-    similar 0.19230769230769232
+    delta 0.38575837490522974
   ]
   edge [
     source 22
     target 343
-    similar 0.21153846153846154
+    delta 0.40994579587496144
   ]
   edge [
     source 22
     target 612
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 22
     target 391
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 22
     target 325
-    similar 0.16363636363636364
+    delta 0.3247595264191645
   ]
   edge [
     source 22
     target 155
-    similar 0.18032786885245902
+    delta 0.3240906080438343
   ]
   edge [
     source 22
     target 305
-    similar 0.14545454545454545
+    delta 0.29814239699997197
   ]
   edge [
     source 22
     target 97
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 22
     target 243
-    similar 0.15
+    delta 0.2834733547569204
   ]
   edge [
     source 22
     target 29
-    similar 0.047058823529411764
+    delta 0.09016696346674323
   ]
   edge [
     source 22
     target 331
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 22
     target 746
-    similar 0.08
+    delta 0.23570226039551587
   ]
   edge [
     source 22
     target 42
-    similar 0.16
+    delta 0.2773500981126145
   ]
   edge [
     source 22
     target 483
-    similar 0.07407407407407407
+    delta 0.18257418583505536
   ]
   edge [
     source 22
     target 285
-    similar 0.125
+    delta 0.2608745973749754
   ]
   edge [
     source 23
     target 84
-    similar 0.3448275862068966
+    delta 0.5239625170622461
   ]
   edge [
     source 23
     target 26
-    similar 0.3939393939393939
+    delta 0.5653509966463166
   ]
   edge [
     source 23
     target 319
-    similar 0.22
+    delta 0.42882464657199776
   ]
   edge [
     source 23
     target 103
-    similar 0.40384615384615385
+    delta 0.6007360460751543
   ]
   edge [
     source 23
     target 185
-    similar 0.04477611940298507
+    delta 0.09124485970087103
   ]
   edge [
     source 23
     target 362
-    similar 0.13725490196078433
+    delta 0.3078596479934797
   ]
   edge [
     source 23
     target 76
-    similar 0.3448275862068966
+    delta 0.5239625170622461
   ]
   edge [
     source 23
     target 106
-    similar 0.32727272727272727
+    delta 0.5149166109215608
   ]
   edge [
     source 23
     target 398
-    similar 0.1
+    delta 0.2578553115646983
   ]
   edge [
     source 23
     target 531
-    similar 0.1875
+    delta 0.41513904361299825
   ]
   edge [
     source 23
     target 113
-    similar 0.42
+    delta 0.6252659008841843
   ]
   edge [
     source 23
     target 311
-    similar 0.22448979591836735
+    delta 0.44501236673450423
   ]
   edge [
     source 23
     target 211
-    similar 0.32
+    delta 0.5354195851282038
   ]
   edge [
     source 23
     target 77
-    similar 0.49056603773584906
+    delta 0.6704238100682157
   ]
   edge [
     source 23
     target 125
-    similar 0.2631578947368421
+    delta 0.4375949744936837
   ]
   edge [
     source 23
     target 393
-    similar 0.22448979591836735
+    delta 0.44501236673450423
   ]
   edge [
     source 23
     target 45
-    similar 0.3793103448275862
+    delta 0.5586203877309281
   ]
   edge [
     source 23
     target 463
-    similar 0.1875
+    delta 0.41513904361299825
   ]
   edge [
     source 23
     target 182
-    similar 0.26
+    delta 0.47406122236815734
   ]
   edge [
     source 23
     target 80
-    similar 0.36363636363636365
+    delta 0.5513178464199713
   ]
   edge [
     source 23
     target 31
-    similar 0.3582089552238806
+    delta 0.527759396560251
   ]
   edge [
     source 23
     target 507
-    similar 0.14
+    delta 0.32288592281010975
   ]
   edge [
     source 23
     target 254
-    similar 0.24
+    delta 0.45194614629282565
   ]
   edge [
     source 23
     target 101
-    similar 0.33962264150943394
+    delta 0.5359422007578724
   ]
   edge [
     source 23
     target 121
-    similar 0.38461538461538464
+    delta 0.5834599659915782
   ]
   edge [
     source 23
     target 223
-    similar 0.2641509433962264
+    delta 0.45662965113740955
   ]
   edge [
     source 23
     target 632
-    similar 0.10638297872340426
+    delta 0.3261640365267211
   ]
   edge [
     source 23
     target 39
-    similar 0.41379310344827586
+    delta 0.5917364072658455
   ]
   edge [
     source 23
     target 24
-    similar 0.47761194029850745
+    delta 0.6472907152501879
   ]
   edge [
     source 23
     target 399
-    similar 0.22448979591836735
+    delta 0.44501236673450423
   ]
   edge [
     source 23
     target 283
-    similar 0.26
+    delta 0.47406122236815734
   ]
   edge [
     source 23
     target 67
-    similar 0.2857142857142857
+    delta 0.45028151394683397
   ]
   edge [
     source 23
     target 310
-    similar 0.2653061224489796
+    delta 0.48960832515056113
   ]
   edge [
     source 23
     target 135
-    similar 0.26785714285714285
+    delta 0.4466185006315603
   ]
   edge [
     source 23
     target 86
-    similar 0.3584905660377358
+    delta 0.5542869676919993
   ]
   edge [
     source 23
     target 32
-    similar 0.36507936507936506
+    delta 0.5372131112471095
   ]
   edge [
     source 23
     target 92
-    similar 0.41509433962264153
+    delta 0.6064496310619684
   ]
   edge [
     source 24
     target 163
-    similar 0.043478260869565216
+    delta 0.09302605094190634
   ]
   edge [
     source 24
     target 228
-    similar 0.2033898305084746
+    delta 0.38177085778546666
   ]
   edge [
     source 24
     target 121
-    similar 0.24193548387096775
+    delta 0.41602514716892186
   ]
   edge [
     source 24
     target 26
-    similar 0.4264705882352941
+    delta 0.5995012171811742
   ]
   edge [
     source 24
     target 712
-    similar 0.03571428571428571
+    delta 0.11322770341445956
   ]
   edge [
     source 24
     target 32
-    similar 0.3188405797101449
+    delta 0.48852715085276033
   ]
   edge [
     source 24
     target 182
-    similar 0.23636363636363636
+    delta 0.4506939094329987
   ]
   edge [
     source 24
     target 61
-    similar 0.2054794520547945
+    delta 0.3466876226407682
   ]
   edge [
     source 24
     target 90
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 24
     target 330
-    similar 0.15789473684210525
+    delta 0.3335621924974955
   ]
   edge [
     source 24
     target 153
-    similar 0.2542372881355932
+    delta 0.44348429699181197
   ]
   edge [
     source 24
     target 283
-    similar 0.23636363636363636
+    delta 0.4506939094329987
   ]
   edge [
     source 24
     target 92
-    similar 0.3333333333333333
+    delta 0.5241424183609592
   ]
   edge [
     source 24
     target 106
-    similar 0.21875
+    delta 0.38074980525429486
   ]
   edge [
     source 24
     target 677
-    similar 0.03508771929824561
+    delta 0.10482848367219183
   ]
   edge [
     source 24
     target 42
-    similar 0.12345679012345678
+    delta 0.22205779584216379
   ]
   edge [
     source 24
     target 31
-    similar 0.37142857142857144
+    delta 0.543557306504609
   ]
   edge [
     source 24
     target 76
-    similar 0.23880597014925373
+    delta 0.3985083851093743
   ]
   edge [
     source 24
     target 211
-    similar 0.2033898305084746
+    delta 0.38177085778546666
   ]
   edge [
     source 24
     target 77
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 24
     target 223
-    similar 0.2413793103448276
+    delta 0.43412157106222965
   ]
   edge [
     source 24
     target 1052
-    similar 0.057692307692307696
+    delta 0.24019223070763068
   ]
   edge [
     source 24
     target 125
-    similar 0.2222222222222222
+    delta 0.3882901373576604
   ]
   edge [
     source 24
     target 393
-    similar 0.16071428571428573
+    delta 0.34615384615384615
   ]
   edge [
     source 24
     target 45
-    similar 0.328125
+    delta 0.5069447770645309
   ]
   edge [
     source 24
     target 463
-    similar 0.14814814814814814
+    delta 0.3508232077228117
   ]
   edge [
     source 24
     target 632
-    similar 0.09615384615384616
+    delta 0.31008683647302115
   ]
   edge [
     source 24
     target 243
-    similar 0.057971014492753624
+    delta 0.12104550653376049
   ]
   edge [
     source 24
     target 352
-    similar 0.06349206349206349
+    delta 0.1432229748078866
   ]
   edge [
     source 24
     target 1125
-    similar 0.038461538461538464
+    delta 0.19611613513818404
   ]
   edge [
     source 24
     target 629
-    similar 0.07142857142857142
+    delta 0.19611613513818404
   ]
   edge [
     source 24
     target 36
-    similar 0.06521739130434782
+    delta 0.12267912301642961
   ]
   edge [
     source 24
     target 98
-    similar 0.1038961038961039
+    delta 0.19312181983410703
   ]
   edge [
     source 24
     target 461
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 24
     target 103
-    similar 0.3220338983050847
+    delta 0.5167318785594002
   ]
   edge [
     source 24
     target 531
-    similar 0.19230769230769232
+    delta 0.43852900965351466
   ]
   edge [
     source 24
     target 82
-    similar 0.08536585365853659
+    delta 0.1595862634056436
   ]
   edge [
     source 24
     target 72
-    similar 0.10126582278481013
+    delta 0.18752289237539815
   ]
   edge [
     source 24
     target 399
-    similar 0.2037037037037037
+    delta 0.4230769230769231
   ]
   edge [
     source 24
     target 86
-    similar 0.2833333333333333
+    delta 0.47149516679144476
   ]
   edge [
     source 24
     target 135
-    similar 0.26666666666666666
+    delta 0.45291081365783825
   ]
   edge [
     source 24
     target 39
-    similar 0.4032258064516129
+    delta 0.5860090386731193
   ]
   edge [
     source 25
     target 189
-    similar 0.025
+    delta 0.055048188256318034
   ]
   edge [
     source 25
     target 93
-    similar 0.10588235294117647
+    delta 0.19926334924652145
   ]
   edge [
     source 25
     target 353
-    similar 0.057971014492753624
+    delta 0.1432229748078866
   ]
   edge [
     source 25
     target 402
-    similar 0.043478260869565216
+    delta 0.11180339887498948
   ]
   edge [
     source 25
     target 542
-    similar 0.030303030303030304
+    delta 0.09128709291752768
   ]
   edge [
     source 25
     target 129
-    similar 0.05952380952380952
+    delta 0.11986582537134603
   ]
   edge [
     source 25
     target 489
-    similar 0.046153846153846156
+    delta 0.13693063937629152
   ]
   edge [
     source 25
     target 982
-    similar 0.03278688524590164
+    delta 0.14907119849998599
   ]
   edge [
     source 25
     target 408
-    similar 0.07462686567164178
+    delta 0.18633899812498247
   ]
   edge [
     source 25
     target 384
-    similar 0.02857142857142857
+    delta 0.07453559924999299
   ]
   edge [
     source 25
     target 549
-    similar 0.06153846153846154
+    delta 0.17213259316477408
   ]
   edge [
     source 25
     target 35
-    similar 0.0891089108910891
+    delta 0.16431676725154984
   ]
   edge [
     source 25
     target 779
-    similar 0.06557377049180328
+    delta 0.23094010767585027
   ]
   edge [
     source 25
     target 342
-    similar 0.05714285714285714
+    delta 0.13801311186847084
   ]
   edge [
     source 25
     target 232
-    similar 0.0821917808219178
+    delta 0.1777046633277277
   ]
   edge [
     source 25
     target 60
-    similar 0.06896551724137931
+    delta 0.13483997249264842
   ]
   edge [
     source 25
     target 96
-    similar 0.0975609756097561
+    delta 0.18856180831641267
   ]
   edge [
     source 25
     target 905
-    similar 0.06666666666666667
+    delta 0.2581988897471611
   ]
   edge [
     source 25
     target 68
-    similar 0.053763440860215055
+    delta 0.10471347707292387
   ]
   edge [
     source 25
     target 181
-    similar 0.05
+    delta 0.10540925533894598
   ]
   edge [
     source 25
     target 1027
-    similar 0.03278688524590164
+    delta 0.14907119849998599
   ]
   edge [
     source 25
     target 199
-    similar 0.10810810810810811
+    delta 0.22019275302527214
   ]
   edge [
     source 25
     target 183
-    similar 0.0641025641025641
+    delta 0.13459547551454137
   ]
   edge [
     source 25
     target 238
-    similar 0.06666666666666667
+    delta 0.14433756729740643
   ]
   edge [
     source 25
     target 184
-    similar 0.07894736842105263
+    delta 0.1651445647689541
   ]
   edge [
     source 25
     target 608
-    similar 0.046875
+    delta 0.14638501094227999
   ]
   edge [
     source 25
     target 186
-    similar 0.038461538461538464
+    delta 0.08451542547285165
   ]
   edge [
     source 25
     target 1079
-    similar 0.03278688524590164
+    delta 0.14907119849998599
   ]
   edge [
     source 25
     target 364
-    similar 0.057971014492753624
+    delta 0.1432229748078866
   ]
   edge [
     source 25
     target 329
-    similar 0.02702702702702703
+    delta 0.06454972243679027
   ]
   edge [
     source 25
     target 38
-    similar 0.07446808510638298
+    delta 0.14113362174546457
   ]
   edge [
     source 25
     target 201
-    similar 0.05128205128205128
+    delta 0.11009637651263607
   ]
   edge [
     source 25
     target 475
-    similar 0.05970149253731343
+    delta 0.1556997888323046
   ]
   edge [
     source 25
     target 70
-    similar 0.08045977011494253
+    delta 0.15498260496951669
   ]
   edge [
     source 25
     target 29
-    similar 0.030612244897959183
+    delta 0.060485837890913385
   ]
   edge [
     source 25
     target 433
-    similar 0.04411764705882353
+    delta 0.11677484162422844
   ]
   edge [
     source 25
     target 47
-    similar 0.11235955056179775
+    delta 0.20672455764868078
   ]
   edge [
     source 25
     target 119
-    similar 0.13157894736842105
+    delta 0.25318484177091666
   ]
   edge [
     source 25
     target 28
-    similar 0.07692307692307693
+    delta 0.1432229748078866
   ]
   edge [
     source 25
     target 127
-    similar 0.08860759493670886
+    delta 0.17722938923964168
   ]
   edge [
     source 25
     target 33
-    similar 0.10101010101010101
+    delta 0.18442777839082938
   ]
   edge [
     source 25
     target 120
-    similar 0.06172839506172839
+    delta 0.12659242088545833
   ]
   edge [
     source 25
     target 114
-    similar 0.13580246913580246
+    delta 0.25103950552320115
   ]
   edge [
     source 25
     target 87
-    similar 0.12195121951219512
+    delta 0.22821773229381923
   ]
   edge [
     source 25
     target 249
-    similar 0.06666666666666667
+    delta 0.14433756729740643
   ]
   edge [
     source 25
     target 107
-    similar 0.09876543209876543
+    delta 0.19178532059415365
   ]
   edge [
     source 25
     target 624
-    similar 0.046153846153846156
+    delta 0.13693063937629152
   ]
   edge [
     source 25
     target 188
-    similar 0.05063291139240506
+    delta 0.1076763804116331
   ]
   edge [
     source 25
     target 845
-    similar 0.06557377049180328
+    delta 0.23094010767585027
   ]
   edge [
     source 26
     target 393
-    similar 0.20833333333333334
+    delta 0.41344911529736156
   ]
   edge [
     source 26
     target 81
-    similar 0.5
+    delta 0.6804138174397716
   ]
   edge [
     source 26
     target 45
-    similar 0.39285714285714285
+    delta 0.5708992257184502
   ]
   edge [
     source 26
     target 67
-    similar 0.29508196721311475
+    delta 0.46017899330842227
   ]
   edge [
     source 26
     target 1017
-    similar 0.043478260869565216
+    delta 0.17213259316477408
   ]
   edge [
     source 26
     target 31
-    similar 0.4126984126984127
+    delta 0.5843065474681431
   ]
   edge [
     source 26
     target 125
-    similar 0.4
+    delta 0.5962847939999439
   ]
   edge [
     source 26
     target 182
-    similar 0.2978723404255319
+    delta 0.5217491947499509
   ]
   edge [
     source 26
     target 76
-    similar 0.3333333333333333
+    delta 0.5087055749715826
   ]
   edge [
     source 26
     target 211
-    similar 0.23076923076923078
+    delta 0.41039134083406165
   ]
   edge [
     source 26
     target 77
-    similar 0.3050847457627119
+    delta 0.4743416490252569
   ]
   edge [
     source 26
     target 140
-    similar 0.2692307692307692
+    delta 0.4554200340426488
   ]
   edge [
     source 26
     target 814
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 26
     target 39
-    similar 0.40350877192982454
+    delta 0.579545525280815
   ]
   edge [
     source 26
     target 399
-    similar 0.2608695652173913
+    delta 0.49613893835683387
   ]
   edge [
     source 26
     target 248
-    similar 0.18867924528301888
+    delta 0.35136418446315326
   ]
   edge [
     source 26
     target 283
-    similar 0.2708333333333333
+    delta 0.4844813951249544
   ]
   edge [
     source 26
     target 310
-    similar 0.2765957446808511
+    delta 0.5003702332976756
   ]
   edge [
     source 26
     target 153
-    similar 0.425531914893617
+    delta 0.6356417261637282
   ]
   edge [
     source 26
     target 143
-    similar 0.35294117647058826
+    delta 0.5477225575051662
   ]
   edge [
     source 26
     target 666
-    similar 0.10869565217391304
+    delta 0.3042903097250923
   ]
   edge [
     source 26
     target 90
-    similar 0.2909090909090909
+    delta 0.4677642769637489
   ]
   edge [
     source 26
     target 61
-    similar 0.32786885245901637
+    delta 0.49690399499995325
   ]
   edge [
     source 26
     target 467
-    similar 0.19148936170212766
+    delta 0.40451991747794525
   ]
   edge [
     source 26
     target 518
-    similar 0.12244897959183673
+    delta 0.282842712474619
   ]
   edge [
     source 26
     target 135
-    similar 0.2777777777777778
+    delta 0.45643546458763845
   ]
   edge [
     source 26
     target 304
-    similar 0.15384615384615385
+    delta 0.3079201435678004
   ]
   edge [
     source 26
     target 239
-    similar 0.26
+    delta 0.4567734398020992
   ]
   edge [
     source 26
     target 723
-    similar 0.0851063829787234
+    delta 0.24343224778007383
   ]
   edge [
     source 26
     target 86
-    similar 0.2727272727272727
+    delta 0.447213595499958
   ]
   edge [
     source 26
     target 515
-    similar 0.17391304347826086
+    delta 0.3975231959999626
   ]
   edge [
     source 26
     target 461
-    similar 0.14583333333333334
+    delta 0.3299831645537222
   ]
   edge [
     source 26
     target 32
-    similar 0.3770491803278688
+    delta 0.5490214034302319
   ]
   edge [
     source 26
     target 228
-    similar 0.28
+    delta 0.4787898976397386
   ]
   edge [
     source 26
     target 262
-    similar 0.17647058823529413
+    delta 0.34641016151377546
   ]
   edge [
     source 26
     target 106
-    similar 0.26785714285714285
+    delta 0.43852900965351455
   ]
   edge [
     source 27
     target 204
-    similar 0.18333333333333332
+    delta 0.33502969713024494
   ]
   edge [
     source 27
     target 337
-    similar 0.05357142857142857
+    delta 0.1355261854357877
   ]
   edge [
     source 27
     target 542
-    similar 0.09615384615384616
+    delta 0.2525381361380527
   ]
   edge [
     source 27
     target 71
-    similar 0.23880597014925373
+    delta 0.3919967660400202
   ]
   edge [
     source 27
     target 83
-    similar 0.1791044776119403
+    delta 0.31298431857438064
   ]
   edge [
     source 27
     target 356
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 27
     target 30
-    similar 0.13793103448275862
+    delta 0.24243661069253056
   ]
   edge [
     source 27
     target 35
-    similar 0.020618556701030927
+    delta 0.04040610178208843
   ]
   edge [
     source 27
     target 207
-    similar 0.11290322580645161
+    delta 0.22360679774997896
   ]
   edge [
     source 27
     target 158
-    similar 0.043478260869565216
+    delta 0.0893633203101749
   ]
   edge [
     source 27
     target 888
-    similar 0.08163265306122448
+    delta 0.2857142857142857
   ]
   edge [
     source 27
     target 49
-    similar 0.3088235294117647
+    delta 0.47434164902525694
   ]
   edge [
     source 27
     target 344
-    similar 0.19230769230769232
+    delta 0.39621442587516364
   ]
   edge [
     source 27
     target 345
-    similar 0.20754716981132076
+    delta 0.40574111245982464
   ]
   edge [
     source 27
     target 132
-    similar 0.23728813559322035
+    delta 0.40824829046386296
   ]
   edge [
     source 27
     target 787
-    similar 0.08
+    delta 0.25555062599997597
   ]
   edge [
     source 27
     target 142
-    similar 0.1746031746031746
+    delta 0.3142857142857143
   ]
   edge [
     source 27
     target 562
-    similar 0.14
+    delta 0.3535533905932738
   ]
   edge [
     source 27
     target 514
-    similar 0.11764705882352941
+    delta 0.30304576336566325
   ]
   edge [
     source 27
     target 721
-    similar 0.1
+    delta 0.29160592175990213
   ]
   edge [
     source 27
     target 259
-    similar 0.18518518518518517
+    delta 0.36885555678165877
   ]
   edge [
     source 27
     target 411
-    similar 0.03389830508474576
+    delta 0.08247860988423225
   ]
   edge [
     source 27
     target 1051
-    similar 0.061224489795918366
+    delta 0.24743582965269675
   ]
   edge [
     source 27
     target 116
-    similar 0.1875
+    delta 0.329914439536929
   ]
   edge [
     source 27
     target 282
-    similar 0.2037037037037037
+    delta 0.39285714285714285
   ]
   edge [
     source 27
     target 422
-    similar 0.17647058823529413
+    delta 0.3876574430285532
   ]
   edge [
     source 27
     target 374
-    similar 0.1111111111111111
+    delta 0.2584382953523688
   ]
   edge [
     source 27
     target 694
-    similar 0.12244897959183673
+    delta 0.34992710611188255
   ]
   edge [
     source 27
     target 479
-    similar 0.13725490196078433
+    delta 0.3333333333333333
   ]
   edge [
     source 27
     target 55
-    similar 0.125
+    delta 0.2272843225242474
   ]
   edge [
     source 27
     target 154
-    similar 0.15873015873015872
+    delta 0.29160592175990213
   ]
   edge [
     source 27
     target 457
-    similar 0.1111111111111111
+    delta 0.2584382953523688
   ]
   edge [
     source 27
     target 63
-    similar 0.2571428571428571
+    delta 0.4117581097845098
   ]
   edge [
     source 27
     target 315
-    similar 0.07142857142857142
+    delta 0.1722921969015792
   ]
   edge [
     source 27
     target 98
-    similar 0.20588235294117646
+    delta 0.3481553119113957
   ]
   edge [
     source 27
     target 599
-    similar 0.09615384615384616
+    delta 0.2525381361380527
   ]
   edge [
     source 27
     target 555
-    similar 0.09433962264150944
+    delta 0.23809523809523808
   ]
   edge [
     source 27
     target 123
-    similar 0.2711864406779661
+    delta 0.4482654517444206
   ]
   edge [
     source 27
     target 416
-    similar 0.07407407407407407
+    delta 0.19047619047619047
   ]
   edge [
     source 27
     target 803
-    similar 0.08163265306122448
+    delta 0.2857142857142857
   ]
   edge [
     source 27
     target 360
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 27
     target 255
-    similar 0.17543859649122806
+    delta 0.3367175148507369
   ]
   edge [
     source 27
     target 40
-    similar 0.3283582089552239
+    delta 0.4969293465978882
   ]
   edge [
     source 27
     target 1061
-    similar 0.061224489795918366
+    delta 0.24743582965269675
   ]
   edge [
     source 27
     target 572
-    similar 0.07407407407407407
+    delta 0.19047619047619047
   ]
   edge [
     source 27
     target 160
-    similar 0.2982456140350877
+    delta 0.4857142857142857
   ]
   edge [
     source 27
     target 373
-    similar 0.16666666666666666
+    delta 0.3436215967445456
   ]
   edge [
     source 28
     target 551
-    similar 0.1346153846153846
+    delta 0.36689969285267143
   ]
   edge [
     source 28
     target 290
-    similar 0.11864406779661017
+    delta 0.2594372608313854
   ]
   edge [
     source 28
     target 652
-    similar 0.05357142857142857
+    delta 0.15724272550828775
   ]
   edge [
     source 28
     target 302
-    similar 0.23214285714285715
+    delta 0.4372373160976031
   ]
   edge [
     source 28
     target 32
-    similar 0.07058823529411765
+    delta 0.13323467750529827
   ]
   edge [
     source 28
     target 75
-    similar 0.060240963855421686
+    delta 0.11556254088025605
   ]
   edge [
     source 28
     target 368
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 28
     target 57
-    similar 0.0875
+    delta 0.1640825308284734
   ]
   edge [
     source 28
     target 119
-    similar 0.25806451612903225
+    delta 0.43514263457633695
   ]
   edge [
     source 28
     target 276
-    similar 0.21052631578947367
+    delta 0.4036036763977875
   ]
   edge [
     source 28
     target 585
-    similar 0.1111111111111111
+    delta 0.29417420270727607
   ]
   edge [
     source 28
     target 929
-    similar 0.057692307692307696
+    delta 0.24019223070763068
   ]
   edge [
     source 28
     target 190
-    similar 0.171875
+    delta 0.3180732125814321
   ]
   edge [
     source 28
     target 404
-    similar 0.12280701754385964
+    delta 0.2802242691589025
   ]
   edge [
     source 28
     target 36
-    similar 0.4
+    delta 0.5725025740766715
   ]
   edge [
     source 28
     target 693
-    similar 0.09433962264150944
+    delta 0.2830692585361489
   ]
   edge [
     source 28
     target 100
-    similar 0.22388059701492538
+    delta 0.379777262656375
   ]
   edge [
     source 28
     target 478
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 28
     target 375
-    similar 0.14035087719298245
+    delta 0.3076923076923077
   ]
   edge [
     source 28
     target 367
-    similar 0.08333333333333333
+    delta 0.19230769230769232
   ]
   edge [
     source 28
     target 352
-    similar 0.19642857142857142
+    delta 0.3938631807216881
   ]
   edge [
     source 28
     target 201
-    similar 0.13846153846153847
+    delta 0.2660905781950872
   ]
   edge [
     source 28
     target 430
-    similar 0.10526315789473684
+    delta 0.2508726030021272
   ]
   edge [
     source 28
     target 317
-    similar 0.16071428571428573
+    delta 0.34615384615384615
   ]
   edge [
     source 28
     target 115
-    similar 0.25
+    delta 0.4193139346887673
   ]
   edge [
     source 28
     target 529
-    similar 0.08928571428571429
+    delta 0.2311250817605121
   ]
   edge [
     source 28
     target 528
-    similar 0.08771929824561403
+    delta 0.21926450482675733
   ]
   edge [
     source 28
     target 87
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 28
     target 355
-    similar 0.08196721311475409
+    delta 0.1853123291652753
   ]
   edge [
     source 28
     target 639
-    similar 0.03508771929824561
+    delta 0.10482848367219183
   ]
   edge [
     source 28
     target 104
-    similar 0.1506849315068493
+    delta 0.26965968581500305
   ]
   edge [
     source 28
     target 756
-    similar 0.09433962264150944
+    delta 0.2830692585361489
   ]
   edge [
     source 28
     target 669
-    similar 0.11320754716981132
+    delta 0.3144854510165755
   ]
   edge [
     source 28
     target 401
-    similar 0.18181818181818182
+    delta 0.38461538461538464
   ]
   edge [
     source 28
     target 126
-    similar 0.1388888888888889
+    delta 0.25318484177091666
   ]
   edge [
     source 28
     target 411
-    similar 0.04918032786885246
+    delta 0.12009611535381534
   ]
   edge [
     source 28
     target 82
-    similar 0.07228915662650602
+    delta 0.13678822577626595
   ]
   edge [
     source 28
     target 749
-    similar 0.09615384615384616
+    delta 0.31008683647302115
   ]
   edge [
     source 28
     target 172
-    similar 0.1875
+    delta 0.3396831102433787
   ]
   edge [
     source 28
     target 170
-    similar 0.203125
+    delta 0.36055512754639896
   ]
   edge [
     source 28
     target 477
-    similar 0.16981132075471697
+    delta 0.39467610868816316
   ]
   edge [
     source 28
     target 615
-    similar 0.07142857142857142
+    delta 0.19611613513818404
   ]
   edge [
     source 28
     target 33
-    similar 0.10989010989010989
+    delta 0.19810721293758182
   ]
   edge [
     source 28
     target 99
-    similar 0.08974358974358974
+    delta 0.16898159235484364
   ]
   edge [
     source 28
     target 577
-    similar 0.03389830508474576
+    delta 0.09245003270420485
   ]
   edge [
     source 28
     target 249
-    similar 0.2631578947368421
+    delta 0.46513025470953173
   ]
   edge [
     source 28
     target 264
-    similar 0.04477611940298507
+    delta 0.09805806756909201
   ]
   edge [
     source 29
     target 855
-    similar 0.07317073170731707
+    delta 0.2705008904002297
   ]
   edge [
     source 29
     target 761
-    similar 0.046511627906976744
+    delta 0.15617376188860607
   ]
   edge [
     source 29
     target 129
-    similar 0.16666666666666666
+    delta 0.2900073952828708
   ]
   edge [
     source 29
     target 139
-    similar 0.13793103448275862
+    delta 0.2498780190217697
   ]
   edge [
     source 29
     target 777
-    similar 0.046511627906976744
+    delta 0.15617376188860607
   ]
   edge [
     source 29
     target 792
-    similar 0.06976744186046512
+    delta 0.20952908873087345
   ]
   edge [
     source 29
     target 1026
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 460
-    similar 0.10869565217391304
+    delta 0.2469323991623974
   ]
   edge [
     source 29
     target 258
-    similar 0.08928571428571429
+    delta 0.17460757394239454
   ]
   edge [
     source 29
     target 396
-    similar 0.10204081632653061
+    delta 0.21657404091210497
   ]
   edge [
     source 29
     target 1100
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1075
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1073
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1066
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1072
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1071
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1070
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1069
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1068
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1067
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1065
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1064
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1063
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1076
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1074
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 978
-    similar 0.047619047619047616
+    delta 0.18033392693348646
   ]
   edge [
     source 29
     target 647
-    similar 0.09090909090909091
+    delta 0.2361125344403821
   ]
   edge [
     source 29
     target 1205
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 1219
-    similar 0.04878048780487805
+    delta 0.22086305214969307
   ]
   edge [
     source 29
     target 126
-    similar 0.05970149253731343
+    delta 0.11405318970244022
   ]
   edge [
     source 29
     target 424
-    similar 0.0851063829787234
+    delta 0.1975459193299179
   ]
   edge [
     source 29
     target 82
-    similar 0.08333333333333333
+    delta 0.15404884978892905
   ]
   edge [
     source 29
     target 521
-    similar 0.0851063829787234
+    delta 0.1975459193299179
   ]
   edge [
     source 29
     target 543
-    similar 0.13953488372093023
+    delta 0.3312945782245396
   ]
   edge [
     source 29
     target 247
-    similar 0.1568627450980392
+    delta 0.2944840695329241
   ]
   edge [
     source 29
     target 682
-    similar 0.11627906976744186
+    delta 0.2951406680504776
   ]
   edge [
     source 30
     target 298
-    similar 0.23076923076923078
+    delta 0.4535573676110727
   ]
   edge [
     source 30
     target 266
-    similar 0.16363636363636364
+    delta 0.3401680257083045
   ]
   edge [
     source 30
     target 1023
-    similar 0.0392156862745098
+    delta 0.16329931618554522
   ]
   edge [
     source 30
     target 165
-    similar 0.2909090909090909
+    delta 0.49377071987869414
   ]
   edge [
     source 30
     target 315
-    similar 0.10909090909090909
+    delta 0.25584085962673253
   ]
   edge [
     source 30
     target 55
-    similar 0.26153846153846155
+    delta 0.425
   ]
   edge [
     source 30
     target 111
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 30
     target 323
-    similar 0.16071428571428573
+    delta 0.3286335345030997
   ]
   edge [
     source 30
     target 44
-    similar 0.4745762711864407
+    delta 0.6509867769653879
   ]
   edge [
     source 30
     target 324
-    similar 0.22641509433962265
+    delta 0.43817804600413285
   ]
   edge [
     source 30
     target 400
-    similar 0.22
+    delta 0.469041575982343
   ]
   edge [
     source 30
     target 452
-    similar 0.08928571428571429
+    delta 0.21320071635561044
   ]
   edge [
     source 30
     target 516
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 30
     target 625
-    similar 0.09433962264150944
+    delta 0.25
   ]
   edge [
     source 30
     target 281
-    similar 0.23636363636363636
+    delta 0.43333333333333335
   ]
   edge [
     source 30
     target 109
-    similar 0.29508196721311475
+    delta 0.4727031582950012
   ]
   edge [
     source 30
     target 134
-    similar 0.29310344827586204
+    delta 0.4808326112068523
   ]
   edge [
     source 30
     target 40
-    similar 0.2676056338028169
+    delta 0.42485291572496003
   ]
   edge [
     source 30
     target 168
-    similar 0.18032786885245902
+    delta 0.33166247903553997
   ]
   edge [
     source 30
     target 245
-    similar 0.28846153846153844
+    delta 0.5144957554275266
   ]
   edge [
     source 30
     target 154
-    similar 0.27586206896551724
+    delta 0.46188021535170054
   ]
   edge [
     source 30
     target 191
-    similar 0.24561403508771928
+    delta 0.4320493798938574
   ]
   edge [
     source 30
     target 212
-    similar 0.12698412698412698
+    delta 0.24688535993934707
   ]
   edge [
     source 30
     target 725
-    similar 0.12
+    delta 0.3464101615137754
   ]
   edge [
     source 30
     target 142
-    similar 0.19047619047619047
+    delta 0.3394112549695428
   ]
   edge [
     source 30
     target 217
-    similar 0.04411764705882353
+    delta 0.09258200997725516
   ]
   edge [
     source 30
     target 123
-    similar 0.16923076923076924
+    delta 0.305085107923876
   ]
   edge [
     source 30
     target 63
-    similar 0.390625
+    delta 0.5661385170722979
   ]
   edge [
     source 30
     target 431
-    similar 0.12727272727272726
+    delta 0.2857738033247041
   ]
   edge [
     source 30
     target 444
-    similar 0.1346153846153846
+    delta 0.3299831645537222
   ]
   edge [
     source 30
     target 503
-    similar 0.05357142857142857
+    delta 0.1414213562373095
   ]
   edge [
     source 30
     target 178
-    similar 0.12307692307692308
+    delta 0.2359071298478354
   ]
   edge [
     source 30
     target 943
-    similar 0.058823529411764705
+    delta 0.21213203435596426
   ]
   edge [
     source 30
     target 326
-    similar 0.125
+    delta 0.27456258919345766
   ]
   edge [
     source 30
     target 361
-    similar 0.19230769230769232
+    delta 0.408248290463863
   ]
   edge [
     source 30
     target 648
-    similar 0.09615384615384616
+    delta 0.2672612419124244
   ]
   edge [
     source 30
     target 1088
-    similar 0.0392156862745098
+    delta 0.16329931618554522
   ]
   edge [
     source 30
     target 169
-    similar 0.18333333333333332
+    delta 0.33946736991660226
   ]
   edge [
     source 30
     target 282
-    similar 0.17857142857142858
+    delta 0.35355339059327373
   ]
   edge [
     source 30
     target 465
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 30
     target 286
-    similar 0.15517241379310345
+    delta 0.30869745325651593
   ]
   edge [
     source 30
     target 356
-    similar 0.23076923076923078
+    delta 0.4535573676110727
   ]
   edge [
     source 30
     target 806
-    similar 0.0784313725490196
+    delta 0.25298221281347033
   ]
   edge [
     source 30
     target 1034
-    similar 0.0392156862745098
+    delta 0.16329931618554522
   ]
   edge [
     source 30
     target 176
-    similar 0.22807017543859648
+    delta 0.41109609582188933
   ]
   edge [
     source 30
     target 219
-    similar 0.3090909090909091
+    delta 0.5125692857821981
   ]
   edge [
     source 31
     target 71
-    similar 0.09859154929577464
+    delta 0.1809806914982567
   ]
   edge [
     source 31
     target 39
-    similar 0.29508196721311475
+    delta 0.458682472293863
   ]
   edge [
     source 31
     target 228
-    similar 0.26
+    delta 0.4496144015129485
   ]
   edge [
     source 31
     target 699
-    similar 0.041666666666666664
+    delta 0.12309149097933272
   ]
   edge [
     source 31
     target 286
-    similar 0.07017543859649122
+    delta 0.14625448482542613
   ]
   edge [
     source 31
     target 507
-    similar 0.2
+    delta 0.42905816516051654
   ]
   edge [
     source 31
     target 72
-    similar 0.09722222222222222
+    delta 0.17837651700316895
   ]
   edge [
     source 31
     target 86
-    similar 0.3269230769230769
+    delta 0.5125692857821981
   ]
   edge [
     source 31
     target 76
-    similar 0.3888888888888889
+    delta 0.5686068791275765
   ]
   edge [
     source 31
     target 80
-    similar 0.3333333333333333
+    delta 0.5128225940683707
   ]
   edge [
     source 31
     target 77
-    similar 0.3103448275862069
+    delta 0.47970161180012344
   ]
   edge [
     source 31
     target 92
-    similar 0.3333333333333333
+    delta 0.5128225940683707
   ]
   edge [
     source 31
     target 393
-    similar 0.26666666666666666
+    delta 0.5017452060042544
   ]
   edge [
     source 31
     target 389
-    similar 0.05660377358490566
+    delta 0.13055824196677338
   ]
   edge [
     source 31
     target 45
-    similar 0.4528301886792453
+    delta 0.6298366572977736
   ]
   edge [
     source 31
     target 211
-    similar 0.2857142857142857
+    delta 0.48420012470625223
   ]
   edge [
     source 31
     target 217
-    similar 0.06557377049180328
+    delta 0.1315903389919538
   ]
   edge [
     source 31
     target 110
-    similar 0.1111111111111111
+    delta 0.2069593385961789
   ]
   edge [
     source 31
     target 106
-    similar 0.32075471698113206
+    delta 0.5026155365907202
   ]
   edge [
     source 31
     target 103
-    similar 0.32075471698113206
+    delta 0.5026155365907202
   ]
   edge [
     source 31
     target 302
-    similar 0.05172413793103448
+    delta 0.10969086361906959
   ]
   edge [
     source 31
     target 239
-    similar 0.21568627450980393
+    delta 0.39086797998528583
   ]
   edge [
     source 31
     target 304
-    similar 0.1346153846153846
+    delta 0.27247463045653303
   ]
   edge [
     source 31
     target 135
-    similar 0.25925925925925924
+    delta 0.43082021842766455
   ]
   edge [
     source 31
     target 74
-    similar 0.0547945205479452
+    delta 0.1049727762162956
   ]
   edge [
     source 31
     target 81
-    similar 0.34545454545454546
+    delta 0.5229577884350213
   ]
   edge [
     source 31
     target 168
-    similar 0.047619047619047616
+    delta 0.09642365197998376
   ]
   edge [
     source 31
     target 61
-    similar 0.23076923076923078
+    delta 0.3768891807222045
   ]
   edge [
     source 31
     target 90
-    similar 0.2962962962962963
+    delta 0.47304991679126607
   ]
   edge [
     source 31
     target 330
-    similar 0.16
+    delta 0.3223291856101521
   ]
   edge [
     source 31
     target 481
-    similar 0.14893617021276595
+    delta 0.3337119062359573
   ]
   edge [
     source 31
     target 1084
-    similar 0.06818181818181818
+    delta 0.26111648393354675
   ]
   edge [
     source 31
     target 113
-    similar 0.3877551020408163
+    delta 0.5846845821518305
   ]
   edge [
     source 31
     target 248
-    similar 0.12727272727272726
+    delta 0.24873416908154553
   ]
   edge [
     source 32
     target 353
-    similar 0.061224489795918366
+    delta 0.13323467750529827
   ]
   edge [
     source 32
     target 539
-    similar 0.06666666666666667
+    delta 0.16012815380508716
   ]
   edge [
     source 32
     target 39
-    similar 0.39622641509433965
+    delta 0.5683985600588051
   ]
   edge [
     source 32
     target 84
-    similar 0.22807017543859648
+    delta 0.373878250552983
   ]
   edge [
     source 32
     target 207
-    similar 0.05357142857142857
+    delta 0.10741723110591493
   ]
   edge [
     source 32
     target 140
-    similar 0.2765957446808511
+    delta 0.45425676257949793
   ]
   edge [
     source 32
     target 103
-    similar 0.27450980392156865
+    delta 0.43965200511492936
   ]
   edge [
     source 32
     target 399
-    similar 0.2682926829268293
+    delta 0.48852715085276033
   ]
   edge [
     source 32
     target 283
-    similar 0.34146341463414637
+    delta 0.560448538317805
   ]
   edge [
     source 32
     target 310
-    similar 0.35
+    delta 0.5788287614163061
   ]
   edge [
     source 32
     target 153
-    similar 0.35555555555555557
+    delta 0.5462309935991351
   ]
   edge [
     source 32
     target 135
-    similar 0.3125
+    delta 0.49029033784546006
   ]
   edge [
     source 32
     target 80
-    similar 0.21818181818181817
+    delta 0.36313651960128146
   ]
   edge [
     source 32
     target 45
-    similar 0.3090909090909091
+    delta 0.4738704723373514
   ]
   edge [
     source 32
     target 98
-    similar 0.1076923076923077
+    delta 0.19512313566832118
   ]
   edge [
     source 32
     target 86
-    similar 0.3617021276595745
+    delta 0.5444357229372963
   ]
   edge [
     source 32
     target 158
-    similar 0.05084745762711865
+    delta 0.10016708449412667
   ]
   edge [
     source 32
     target 77
-    similar 0.24561403508771928
+    delta 0.3962969619506085
   ]
   edge [
     source 32
     target 666
-    similar 0.0975609756097561
+    delta 0.26148818018424536
   ]
   edge [
     source 32
     target 182
-    similar 0.34146341463414637
+    delta 0.560448538317805
   ]
   edge [
     source 32
     target 566
-    similar 0.044444444444444446
+    delta 0.11322770341445956
   ]
   edge [
     source 32
     target 276
-    similar 0.07692307692307693
+    delta 0.15534712747612348
   ]
   edge [
     source 32
     target 81
-    similar 0.23214285714285715
+    delta 0.38005847503304596
   ]
   edge [
     source 32
     target 187
-    similar 0.05357142857142857
+    delta 0.10741723110591493
   ]
   edge [
     source 32
     target 350
-    similar 0.17777777777777778
+    delta 0.3423683940087303
   ]
   edge [
     source 32
     target 92
-    similar 0.3673469387755102
+    delta 0.5447047794019222
   ]
   edge [
     source 32
     target 127
-    similar 0.08333333333333333
+    delta 0.15701857325533192
   ]
   edge [
     source 32
     target 401
-    similar 0.061224489795918366
+    delta 0.13323467750529827
   ]
   edge [
     source 33
     target 270
-    similar 0.15517241379310345
+    delta 0.30304576336566325
   ]
   edge [
     source 33
     target 150
-    similar 0.06557377049180328
+    delta 0.14285714285714285
   ]
   edge [
     source 33
     target 95
-    similar 0.2786885245901639
+    delta 0.4509743927156974
   ]
   edge [
     source 33
     target 88
-    similar 0.35714285714285715
+    delta 0.549857399228215
   ]
   edge [
     source 33
     target 48
-    similar 0.2898550724637681
+    delta 0.45175395145262565
   ]
   edge [
     source 33
     target 410
-    similar 0.1320754716981132
+    delta 0.30151134457776363
   ]
   edge [
     source 33
     target 702
-    similar 0.03773584905660377
+    delta 0.11664236870396086
   ]
   edge [
     source 33
     target 174
-    similar 0.14754098360655737
+    delta 0.2805658588748473
   ]
   edge [
     source 33
     target 232
-    similar 0.15254237288135594
+    delta 0.29496308640500796
   ]
   edge [
     source 33
     target 184
-    similar 0.24561403508771928
+    delta 0.4264014327112209
   ]
   edge [
     source 33
     target 74
-    similar 0.05128205128205128
+    delta 0.09947294626039876
   ]
   edge [
     source 33
     target 65
-    similar 0.24285714285714285
+    delta 0.39396630846042335
   ]
   edge [
     source 33
     target 75
-    similar 0.328125
+    delta 0.5
   ]
   edge [
     source 33
     target 112
-    similar 0.24193548387096775
+    delta 0.40496193536702924
   ]
   edge [
     source 33
     target 1049
-    similar 0.04
+    delta 0.1649572197684645
   ]
   edge [
     source 33
     target 471
-    similar 0.1346153846153846
+    delta 0.31622776601683794
   ]
   edge [
     source 33
     target 104
-    similar 0.06578947368421052
+    delta 0.12626906806902635
   ]
   edge [
     source 33
     target 70
-    similar 0.36065573770491804
+    delta 0.5389955533050278
   ]
   edge [
     source 33
     target 620
-    similar 0.057692307692307696
+    delta 0.17496355305594127
   ]
   edge [
     source 33
     target 574
-    similar 0.11764705882352941
+    delta 0.30304576336566325
   ]
   edge [
     source 33
     target 46
-    similar 0.3230769230769231
+    delta 0.4931969619160719
   ]
   edge [
     source 33
     target 57
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 33
     target 62
-    similar 0.31746031746031744
+    delta 0.4899959575500253
   ]
   edge [
     source 33
     target 137
-    similar 0.37735849056603776
+    delta 0.5832118435198043
   ]
   edge [
     source 33
     target 263
-    similar 0.05263157894736842
+    delta 0.1292191476761844
   ]
   edge [
     source 33
     target 130
-    similar 0.07246376811594203
+    delta 0.14285714285714285
   ]
   edge [
     source 33
     target 36
-    similar 0.05555555555555555
+    delta 0.10531568296778367
   ]
   edge [
     source 33
     target 264
-    similar 0.046875
+    delta 0.10101525445522108
   ]
   edge [
     source 33
     target 194
-    similar 0.09230769230769231
+    delta 0.1827434711619518
   ]
   edge [
     source 33
     target 38
-    similar 0.2328767123287671
+    delta 0.37927913601518615
   ]
   edge [
     source 33
     target 953
-    similar 0.061224489795918366
+    delta 0.24743582965269675
   ]
   edge [
     source 33
     target 538
-    similar 0.16
+    delta 0.38095238095238093
   ]
   edge [
     source 33
     target 818
-    similar 0.08
+    delta 0.25555062599997597
   ]
   edge [
     source 33
     target 563
-    similar 0.09433962264150944
+    delta 0.23809523809523808
   ]
   edge [
     source 33
     target 684
-    similar 0.038461538461538464
+    delta 0.12777531299998798
   ]
   edge [
     source 33
     target 107
-    similar 0.25806451612903225
+    delta 0.4244464872618328
   ]
   edge [
     source 33
     target 306
-    similar 0.18181818181818182
+    delta 0.35714285714285715
   ]
   edge [
     source 33
     target 449
-    similar 0.1346153846153846
+    delta 0.31622776601683794
   ]
   edge [
     source 33
     target 138
-    similar 0.3392857142857143
+    delta 0.5323152239464994
   ]
   edge [
     source 33
     target 120
-    similar 0.36363636363636365
+    delta 0.5603318146805257
   ]
   edge [
     source 33
     target 203
-    similar 0.22033898305084745
+    delta 0.38724105467742453
   ]
   edge [
     source 33
     target 756
-    similar 0.057692307692307696
+    delta 0.17496355305594127
   ]
   edge [
     source 34
     target 536
-    similar 0.20689655172413793
+    delta 0.39223227027636803
   ]
   edge [
     source 34
     target 231
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 34
     target 895
-    similar 0.07692307692307693
+    delta 0.2773500981126146
   ]
   edge [
     source 34
     target 185
-    similar 0.1951219512195122
+    delta 0.32714432804381227
   ]
   edge [
     source 34
     target 327
-    similar 0.22580645161290322
+    delta 0.3962969619506085
   ]
   edge [
     source 34
     target 240
-    similar 0.1282051282051282
+    delta 0.2311250817605121
   ]
   edge [
     source 34
     target 66
-    similar 0.3181818181818182
+    delta 0.48536267169707553
   ]
   edge [
     source 34
     target 388
-    similar 0.058823529411764705
+    delta 0.12403473458920847
   ]
   edge [
     source 34
     target 297
-    similar 0.42857142857142855
+    delta 0.628970902033151
   ]
   edge [
     source 34
     target 372
-    similar 0.1875
+    delta 0.3396831102433787
   ]
   edge [
     source 34
     target 744
-    similar 0.14814814814814814
+    delta 0.3508232077228117
   ]
   edge [
     source 34
     target 607
-    similar 0.18518518518518517
+    delta 0.40032038451271784
   ]
   edge [
     source 34
     target 305
-    similar 0.1388888888888889
+    delta 0.25318484177091666
   ]
   edge [
     source 34
     target 155
-    similar 0.16279069767441862
+    delta 0.2802242691589025
   ]
   edge [
     source 34
     target 194
-    similar 0.14285714285714285
+    delta 0.2508726030021272
   ]
   edge [
     source 34
     target 187
-    similar 0.24324324324324326
+    delta 0.39467610868816316
   ]
   edge [
     source 34
     target 825
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 34
     target 995
-    similar 0.07692307692307693
+    delta 0.2773500981126146
   ]
   edge [
     source 34
     target 480
-    similar 0.09375
+    delta 0.19611613513818402
   ]
   edge [
     source 34
     target 332
-    similar 0.3
+    delta 0.4895354638983791
   ]
   edge [
     source 34
     target 772
-    similar 0.1111111111111111
+    delta 0.29417420270727607
   ]
   edge [
     source 34
     target 97
-    similar 0.24444444444444444
+    delta 0.3938631807216881
   ]
   edge [
     source 35
     target 52
-    similar 0.07142857142857142
+    delta 0.13416407864998736
   ]
   edge [
     source 35
     target 39
-    similar 0.0759493670886076
+    delta 0.14342743312012723
   ]
   edge [
     source 35
     target 691
-    similar 0.05660377358490566
+    delta 0.1732050807568877
   ]
   edge [
     source 35
     target 139
-    similar 0.041666666666666664
+    delta 0.0848528137423857
   ]
   edge [
     source 35
     target 193
-    similar 0.05970149253731343
+    delta 0.12344267996967354
   ]
   edge [
     source 35
     target 84
-    similar 0.05194805194805195
+    delta 0.1016001016001524
   ]
   edge [
     source 35
     target 408
-    similar 0.06896551724137931
+    delta 0.16329931618554522
   ]
   edge [
     source 35
     target 495
-    similar 0.09259259259259259
+    delta 0.23570226039551584
   ]
   edge [
     source 35
     target 642
-    similar 0.037037037037037035
+    delta 0.11547005383792514
   ]
   edge [
     source 35
     target 419
-    similar 0.05172413793103448
+    delta 0.12792042981336627
   ]
   edge [
     source 35
     target 549
-    similar 0.05357142857142857
+    delta 0.1414213562373095
   ]
   edge [
     source 35
     target 659
-    similar 0.03636363636363636
+    delta 0.10690449676496974
   ]
   edge [
     source 35
     target 490
-    similar 0.034482758620689655
+    delta 0.08944271909999159
   ]
   edge [
     source 35
     target 216
-    similar 0.0625
+    delta 0.13333333333333333
   ]
   edge [
     source 35
     target 779
-    similar 0.0784313725490196
+    delta 0.25298221281347033
   ]
   edge [
     source 35
     target 702
-    similar 0.05660377358490566
+    delta 0.1732050807568877
   ]
   edge [
     source 35
     target 886
-    similar 0.038461538461538464
+    delta 0.1414213562373095
   ]
   edge [
     source 35
     target 704
-    similar 0.03773584905660377
+    delta 0.12649110640673517
   ]
   edge [
     source 35
     target 890
-    similar 0.038461538461538464
+    delta 0.1414213562373095
   ]
   edge [
     source 35
     target 319
-    similar 0.12280701754385964
+    delta 0.2645751311064591
   ]
   edge [
     source 35
     target 60
-    similar 0.0641025641025641
+    delta 0.12309149097933272
   ]
   edge [
     source 35
     target 796
-    similar 0.03773584905660377
+    delta 0.12649110640673517
   ]
   edge [
     source 35
     target 455
-    similar 0.07142857142857142
+    delta 0.17888543819998318
   ]
   edge [
     source 35
     target 346
-    similar 0.08771929824561403
+    delta 0.2041241452319315
   ]
   edge [
     source 35
     target 199
-    similar 0.1076923076923077
+    delta 0.21105794120443452
   ]
   edge [
     source 35
     target 65
-    similar 0.023255813953488372
+    delta 0.04588314677411235
   ]
   edge [
     source 35
     target 327
-    similar 0.05084745762711865
+    delta 0.12247448713915891
   ]
   edge [
     source 35
     target 125
-    similar 0.041666666666666664
+    delta 0.0848528137423857
   ]
   edge [
     source 35
     target 522
-    similar 0.05263157894736842
+    delta 0.13416407864998736
   ]
   edge [
     source 35
     target 242
-    similar 0.06666666666666667
+    delta 0.15118578920369088
   ]
   edge [
     source 35
     target 823
-    similar 0.057692307692307696
+    delta 0.18973665961010278
   ]
   edge [
     source 35
     target 159
-    similar 0.09230769230769231
+    delta 0.18516401995451032
   ]
   edge [
     source 35
     target 223
-    similar 0.06060606060606061
+    delta 0.12649110640673517
   ]
   edge [
     source 35
     target 349
-    similar 0.03278688524590164
+    delta 0.07844645405527362
   ]
   edge [
     source 35
     target 144
-    similar 0.056338028169014086
+    delta 0.1131370849898476
   ]
   edge [
     source 35
     target 311
-    similar 0.05
+    delta 0.11766968108291041
   ]
   edge [
     source 35
     target 1269
-    similar 0.04
+    delta 0.2
   ]
   edge [
     source 35
     target 434
-    similar 0.05084745762711865
+    delta 0.12247448713915891
   ]
   edge [
     source 35
     target 577
-    similar 0.03508771929824561
+    delta 0.09428090415820634
   ]
   edge [
     source 35
     target 36
-    similar 0.043478260869565216
+    delta 0.0834057656228299
   ]
   edge [
     source 35
     target 56
-    similar 0.05
+    delta 0.09701425001453319
   ]
   edge [
     source 35
     target 629
-    similar 0.05454545454545454
+    delta 0.15
   ]
   edge [
     source 35
     target 845
-    similar 0.057692307692307696
+    delta 0.18973665961010278
   ]
   edge [
     source 36
     target 93
-    similar 0.03896103896103896
+    delta 0.07585826061362604
   ]
   edge [
     source 36
     target 353
-    similar 0.07272727272727272
+    delta 0.16357216402190614
   ]
   edge [
     source 36
     target 697
-    similar 0.10638297872340426
+    delta 0.300964632714423
   ]
   edge [
     source 36
     target 207
-    similar 0.03125
+    delta 0.0659380473395787
   ]
   edge [
     source 36
     target 302
-    similar 0.23529411764705882
+    delta 0.4291191239112909
   ]
   edge [
     source 36
     target 181
-    similar 0.14754098360655737
+    delta 0.2708681694429807
   ]
   edge [
     source 36
     target 279
-    similar 0.2549019607843137
+    delta 0.4517812304569953
   ]
   edge [
     source 36
     target 477
-    similar 0.16666666666666666
+    delta 0.3730019232961255
   ]
   edge [
     source 36
     target 42
-    similar 0.0625
+    delta 0.1180480411624714
   ]
   edge [
     source 36
     target 100
-    similar 0.26666666666666666
+    delta 0.4307055216465324
   ]
   edge [
     source 36
     target 114
-    similar 0.25806451612903225
+    delta 0.41702882811414954
   ]
   edge [
     source 36
     target 87
-    similar 0.3
+    delta 0.4691574316284183
   ]
   edge [
     source 36
     target 249
-    similar 0.2692307692307692
+    delta 0.4615663313770509
   ]
   edge [
     source 36
     target 413
-    similar 0.05454545454545454
+    delta 0.1276884796138123
   ]
   edge [
     source 36
     target 126
-    similar 0.16923076923076924
+    delta 0.29611004613199104
   ]
   edge [
     source 36
     target 404
-    similar 0.1836734693877551
+    delta 0.3830654388414369
   ]
   edge [
     source 36
     target 317
-    similar 0.18
+    delta 0.3680373690492888
   ]
   edge [
     source 36
     target 624
-    similar 0.125
+    delta 0.3127716210856122
   ]
   edge [
     source 36
     target 530
-    similar 0.19148936170212766
+    delta 0.41962716370814124
   ]
   edge [
     source 36
     target 376
-    similar 0.2
+    delta 0.39405520311955033
   ]
   edge [
     source 36
     target 172
-    similar 0.14754098360655737
+    delta 0.2708681694429807
   ]
   edge [
     source 36
     target 375
-    similar 0.18
+    delta 0.3680373690492888
   ]
   edge [
     source 36
     target 352
-    similar 0.2708333333333333
+    delta 0.4949015419574726
   ]
   edge [
     source 36
     target 276
-    similar 0.16666666666666666
+    delta 0.3218393429334682
   ]
   edge [
     source 36
     target 119
-    similar 0.2631578947368421
+    delta 0.4337361989746802
   ]
   edge [
     source 36
     target 401
-    similar 0.1568627450980392
+    delta 0.32714432804381227
   ]
   edge [
     source 36
     target 478
-    similar 0.14285714285714285
+    delta 0.3263766828841098
   ]
   edge [
     source 36
     target 367
-    similar 0.11320754716981132
+    delta 0.24535824603285922
   ]
   edge [
     source 36
     target 201
-    similar 0.11475409836065574
+    delta 0.220043114711676
   ]
   edge [
     source 36
     target 430
-    similar 0.2127659574468085
+    delta 0.444554224474387
   ]
   edge [
     source 36
     target 529
-    similar 0.12244897959183673
+    delta 0.29488391230979427
   ]
   edge [
     source 36
     target 104
-    similar 0.14705882352941177
+    delta 0.26064301757134345
   ]
   edge [
     source 36
     target 669
-    similar 0.10416666666666667
+    delta 0.2786391062876764
   ]
   edge [
     source 36
     target 115
-    similar 0.2982456140350877
+    delta 0.4736864806890499
   ]
   edge [
     source 36
     target 771
-    similar 0.0625
+    delta 0.1978141420187361
   ]
   edge [
     source 36
     target 355
-    similar 0.15384615384615385
+    delta 0.31524416249564025
   ]
   edge [
     source 36
     target 1007
-    similar 0.0425531914893617
+    delta 0.17025130615174972
   ]
   edge [
     source 36
     target 629
-    similar 0.125
+    delta 0.3127716210856122
   ]
   edge [
     source 37
     target 226
-    similar 0.26666666666666666
+    delta 0.4465937565388721
   ]
   edge [
     source 37
     target 93
-    similar 0.2413793103448276
+    delta 0.38949041885226005
   ]
   edge [
     source 37
     target 41
-    similar 0.37037037037037035
+    delta 0.5407380704358752
   ]
   edge [
     source 37
     target 141
-    similar 0.2653061224489796
+    delta 0.43047301604613925
   ]
   edge [
     source 37
     target 68
-    similar 0.35714285714285715
+    delta 0.5263157894736842
   ]
   edge [
     source 37
     target 592
-    similar 0.21052631578947367
+    delta 0.4588314677411235
   ]
   edge [
     source 37
     target 689
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 37
     target 96
-    similar 0.19298245614035087
+    delta 0.32579188276750076
   ]
   edge [
     source 37
     target 58
-    similar 0.23076923076923078
+    delta 0.37546963074131917
   ]
   edge [
     source 37
     target 497
-    similar 0.2631578947368421
+    delta 0.5129891760425771
   ]
   edge [
     source 37
     target 229
-    similar 0.358974358974359
+    delta 0.5863954716083737
   ]
   edge [
     source 37
     target 52
-    similar 0.2786885245901639
+    delta 0.4360407996361905
   ]
   edge [
     source 37
     target 553
-    similar 0.14634146341463414
+    delta 0.3244428422615251
   ]
   edge [
     source 37
     target 193
-    similar 0.22916666666666666
+    delta 0.3893957789726338
   ]
   edge [
     source 37
     target 237
-    similar 0.09259259259259259
+    delta 0.17699808135119716
   ]
   edge [
     source 37
     target 236
-    similar 0.11764705882352941
+    delta 0.22329687826943606
   ]
   edge [
     source 37
     target 695
-    similar 0.07317073170731707
+    delta 0.19867985355975656
   ]
   edge [
     source 37
     target 277
-    similar 0.058823529411764705
+    delta 0.12166606584807191
   ]
   edge [
     source 37
     target 388
-    similar 0.11627906976744186
+    delta 0.25649458802128855
   ]
   edge [
     source 37
     target 322
-    similar 0.18181818181818182
+    delta 0.346843987809648
   ]
   edge [
     source 37
     target 233
-    similar 0.12
+    delta 0.22941573387056177
   ]
   edge [
     source 37
     target 145
-    similar 0.2037037037037037
+    delta 0.34341479757995447
   ]
   edge [
     source 37
     target 89
-    similar 0.04411764705882353
+    delta 0.08471737420873575
   ]
   edge [
     source 37
     target 74
-    similar 0.18333333333333332
+    delta 0.31063037209869776
   ]
   edge [
     source 37
     target 474
-    similar 0.06521739130434782
+    delta 0.14673479641335554
   ]
   edge [
     source 37
     target 557
-    similar 0.11904761904761904
+    delta 0.2703690352179376
   ]
   edge [
     source 37
     target 221
-    similar 0.24444444444444444
+    delta 0.4205955120960299
   ]
   edge [
     source 37
     target 117
-    similar 0.2692307692307692
+    delta 0.4291975376394761
   ]
   edge [
     source 37
     target 251
-    similar 0.2608695652173913
+    delta 0.435285750066007
   ]
   edge [
     source 37
     target 358
-    similar 0.13953488372093023
+    delta 0.2934695928267111
   ]
   edge [
     source 37
     target 569
-    similar 0.21052631578947367
+    delta 0.4588314677411235
   ]
   edge [
     source 38
     target 580
-    similar 0.14634146341463414
+    delta 0.38254602783800296
   ]
   edge [
     source 38
     target 854
-    similar 0.07317073170731707
+    delta 0.2705008904002297
   ]
   edge [
     source 38
     target 687
-    similar 0.06976744186046512
+    delta 0.20952908873087345
   ]
   edge [
     source 38
     target 538
-    similar 0.19047619047619047
+    delta 0.41646336503628284
   ]
   edge [
     source 38
     target 192
-    similar 0.16666666666666666
+    delta 0.29966722119541206
   ]
   edge [
     source 38
     target 88
-    similar 0.23636363636363636
+    delta 0.3907235083558874
   ]
   edge [
     source 38
     target 48
-    similar 0.22727272727272727
+    delta 0.3703985987435961
   ]
   edge [
     source 38
     target 492
-    similar 0.06521739130434782
+    delta 0.1656472891122698
   ]
   edge [
     source 38
     target 174
-    similar 0.24
+    delta 0.40895890595459816
   ]
   edge [
     source 38
     target 794
-    similar 0.12195121951219512
+    delta 0.3492151478847891
   ]
   edge [
     source 38
     target 184
-    similar 0.21153846153846154
+    delta 0.36625993701661474
   ]
   edge [
     source 38
     target 65
-    similar 0.3620689655172414
+    delta 0.5320293215350469
   ]
   edge [
     source 38
     target 520
-    similar 0.0851063829787234
+    delta 0.1975459193299179
   ]
   edge [
     source 38
     target 641
-    similar 0.11627906976744186
+    delta 0.2951406680504776
   ]
   edge [
     source 38
     target 72
-    similar 0.08571428571428572
+    delta 0.1583891032045364
   ]
   edge [
     source 38
     target 732
-    similar 0.12195121951219512
+    delta 0.3492151478847891
   ]
   edge [
     source 38
     target 683
-    similar 0.11904761904761904
+    delta 0.31878835653166915
   ]
   edge [
     source 38
     target 406
-    similar 0.13043478260869565
+    delta 0.28252896560880664
   ]
   edge [
     source 38
     target 589
-    similar 0.16666666666666666
+    delta 0.3865103412619629
   ]
   edge [
     source 38
     target 804
-    similar 0.09523809523809523
+    delta 0.27937211830783126
   ]
   edge [
     source 38
     target 818
-    similar 0.12195121951219512
+    delta 0.3492151478847891
   ]
   edge [
     source 38
     target 158
-    similar 0.10344827586206896
+    delta 0.19538688270775084
   ]
   edge [
     source 38
     target 66
-    similar 0.07352941176470588
+    delta 0.13803940759355818
   ]
   edge [
     source 38
     target 132
-    similar 0.08333333333333333
+    delta 0.15939417826583457
   ]
   edge [
     source 38
     target 411
-    similar 0.06
+    delta 0.13525044520011484
   ]
   edge [
     source 38
     target 471
-    similar 0.10869565217391304
+    delta 0.2469323991623974
   ]
   edge [
     source 38
     target 306
-    similar 0.2127659574468085
+    delta 0.3904344047215152
   ]
   edge [
     source 38
     target 525
-    similar 0.08695652173913043
+    delta 0.20823168251814142
   ]
   edge [
     source 38
     target 307
-    similar 0.16
+    delta 0.3030216076314281
   ]
   edge [
     source 38
     target 296
-    similar 0.1836734693877551
+    delta 0.3408993085853566
   ]
   edge [
     source 38
     target 70
-    similar 0.2711864406779661
+    delta 0.4285372672044641
   ]
   edge [
     source 38
     target 571
-    similar 0.06818181818181818
+    delta 0.19127301391900148
   ]
   edge [
     source 38
     target 57
-    similar 0.22580645161290322
+    delta 0.36957457414391826
   ]
   edge [
     source 38
     target 137
-    similar 0.27450980392156865
+    delta 0.44630369914433676
   ]
   edge [
     source 38
     target 351
-    similar 0.16666666666666666
+    delta 0.3225911354182047
   ]
   edge [
     source 38
     target 107
-    similar 0.2962962962962963
+    delta 0.46401183245259325
   ]
   edge [
     source 39
     target 248
-    similar 0.17777777777777778
+    delta 0.3187276291558383
   ]
   edge [
     source 39
     target 228
-    similar 0.2558139534883721
+    delta 0.4265617038812147
   ]
   edge [
     source 39
     target 113
-    similar 0.2826086956521739
+    delta 0.4485426135725303
   ]
   edge [
     source 39
     target 153
-    similar 0.425
+    delta 0.6126374746329801
   ]
   edge [
     source 39
     target 67
-    similar 0.3269230769230769
+    delta 0.49280538030458115
   ]
   edge [
     source 39
     target 399
-    similar 0.37142857142857144
+    delta 0.609449400220044
   ]
   edge [
     source 39
     target 92
-    similar 0.4318181818181818
+    delta 0.6069327367499429
   ]
   edge [
     source 39
     target 283
-    similar 0.4166666666666667
+    delta 0.6338656910463875
   ]
   edge [
     source 39
     target 310
-    similar 0.3888888888888889
+    delta 0.6110100926607787
   ]
   edge [
     source 39
     target 223
-    similar 0.27906976744186046
+    delta 0.4535573676110727
   ]
   edge [
     source 39
     target 103
-    similar 0.38636363636363635
+    delta 0.5635445125120265
   ]
   edge [
     source 39
     target 463
-    similar 0.15384615384615385
+    delta 0.32071349029490925
   ]
   edge [
     source 39
     target 182
-    similar 0.4166666666666667
+    delta 0.6338656910463875
   ]
   edge [
     source 39
     target 125
-    similar 0.36363636363636365
+    delta 0.5408987230262506
   ]
   edge [
     source 39
     target 121
-    similar 0.25
+    delta 0.40567404226968795
   ]
   edge [
     source 39
     target 140
-    similar 0.3333333333333333
+    delta 0.5163977794943223
   ]
   edge [
     source 39
     target 346
-    similar 0.06818181818181818
+    delta 0.14638501094227999
   ]
   edge [
     source 39
     target 81
-    similar 0.3
+    delta 0.46291004988627577
   ]
   edge [
     source 39
     target 330
-    similar 0.1951219512195122
+    delta 0.36140316116210053
   ]
   edge [
     source 39
     target 350
-    similar 0.2564102564102564
+    delta 0.45175395145262565
   ]
   edge [
     source 39
     target 434
-    similar 0.06818181818181818
+    delta 0.14638501094227999
   ]
   edge [
     source 40
     target 298
-    similar 0.2
+    delta 0.3803194146278325
   ]
   edge [
     source 40
     target 313
-    similar 0.13333333333333333
+    delta 0.28603877677367767
   ]
   edge [
     source 40
     target 853
-    similar 0.047619047619047616
+    delta 0.15811388300841897
   ]
   edge [
     source 40
     target 204
-    similar 0.10714285714285714
+    delta 0.20225995873897262
   ]
   edge [
     source 40
     target 162
-    similar 0.12962962962962962
+    delta 0.24152294576982397
   ]
   edge [
     source 40
     target 71
-    similar 0.15625
+    delta 0.2711630722733202
   ]
   edge [
     source 40
     target 83
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 40
     target 356
-    similar 0.22727272727272727
+    delta 0.4225771273642583
   ]
   edge [
     source 40
     target 407
-    similar 0.08333333333333333
+    delta 0.18257418583505536
   ]
   edge [
     source 40
     target 207
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 40
     target 253
-    similar 0.1276595744680851
+    delta 0.2631174057921088
   ]
   edge [
     source 40
     target 49
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 40
     target 44
-    similar 0.3050847457627119
+    delta 0.46788772041903276
   ]
   edge [
     source 40
     target 176
-    similar 0.22448979591836735
+    delta 0.38890872965260115
   ]
   edge [
     source 40
     target 345
-    similar 0.12244897959183673
+    delta 0.24494897427831783
   ]
   edge [
     source 40
     target 287
-    similar 0.1276595744680851
+    delta 0.2631174057921088
   ]
   edge [
     source 40
     target 787
-    similar 0.0975609756097561
+    delta 0.282842712474619
   ]
   edge [
     source 40
     target 142
-    similar 0.16071428571428573
+    delta 0.28460498941515416
   ]
   edge [
     source 40
     target 562
-    similar 0.09090909090909091
+    delta 0.22360679774997896
   ]
   edge [
     source 40
     target 457
-    similar 0.10869565217391304
+    delta 0.2383656473113981
   ]
   edge [
     source 40
     target 803
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 40
     target 360
-    similar 0.08
+    delta 0.1690308509457033
   ]
   edge [
     source 40
     target 720
-    similar 0.07142857142857142
+    delta 0.21213203435596426
   ]
   edge [
     source 40
     target 219
-    similar 0.24
+    delta 0.40451991747794525
   ]
   edge [
     source 40
     target 361
-    similar 0.10638297872340426
+    delta 0.22821773229381923
   ]
   edge [
     source 40
     target 806
-    similar 0.07142857142857142
+    delta 0.21213203435596426
   ]
   edge [
     source 40
     target 134
-    similar 0.22641509433962265
+    delta 0.37947331922020555
   ]
   edge [
     source 40
     target 169
-    similar 0.17307692307692307
+    delta 0.3105295017040594
   ]
   edge [
     source 40
     target 191
-    similar 0.35555555555555557
+    delta 0.5520524474738834
   ]
   edge [
     source 40
     target 555
-    similar 0.08888888888888889
+    delta 0.21081851067789195
   ]
   edge [
     source 40
     target 154
-    similar 0.4222222222222222
+    delta 0.6132223631495076
   ]
   edge [
     source 40
     target 245
-    similar 0.26666666666666666
+    delta 0.4601789933084222
   ]
   edge [
     source 40
     target 160
-    similar 0.22641509433962265
+    delta 0.37947331922020555
   ]
   edge [
     source 40
     target 55
-    similar 0.22033898305084745
+    delta 0.3633610463437158
   ]
   edge [
     source 40
     target 373
-    similar 0.14893617021276595
+    delta 0.2958039891549808
   ]
   edge [
     source 40
     target 400
-    similar 0.21428571428571427
+    delta 0.42905816516051654
   ]
   edge [
     source 41
     target 336
-    similar 0.2564102564102564
+    delta 0.4622501635210242
   ]
   edge [
     source 41
     target 226
-    similar 0.34146341463414637
+    delta 0.5353033790313108
   ]
   edge [
     source 41
     target 380
-    similar 0.21052631578947367
+    delta 0.4216370213557839
   ]
   edge [
     source 41
     target 52
-    similar 0.288135593220339
+    delta 0.4479893351905204
   ]
   edge [
     source 41
     target 53
-    similar 0.1896551724137931
+    delta 0.3191423692521127
   ]
   edge [
     source 41
     target 251
-    similar 0.19148936170212766
+    delta 0.33541019662496846
   ]
   edge [
     source 41
     target 215
-    similar 0.17391304347826086
+    delta 0.31426968052735443
   ]
   edge [
     source 41
     target 108
-    similar 0.21568627450980393
+    delta 0.3595462477533374
   ]
   edge [
     source 41
     target 229
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 41
     target 216
-    similar 0.2558139534883721
+    delta 0.4321208107251124
   ]
   edge [
     source 41
     target 157
-    similar 0.3023255813953488
+    delta 0.4844813951249544
   ]
   edge [
     source 41
     target 230
-    similar 0.18604651162790697
+    delta 0.34426518632954817
   ]
   edge [
     source 41
     target 141
-    similar 0.36363636363636365
+    delta 0.5443310539518174
   ]
   edge [
     source 41
     target 117
-    similar 0.3333333333333333
+    delta 0.5039526306789696
   ]
   edge [
     source 41
     target 68
-    similar 0.2542372881355932
+    delta 0.40555355282690636
   ]
   edge [
     source 41
     target 392
-    similar 0.17073170731707318
+    delta 0.3367876570272817
   ]
   edge [
     source 41
     target 74
-    similar 0.1896551724137931
+    delta 0.3191423692521127
   ]
   edge [
     source 41
     target 569
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 41
     target 395
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 41
     target 369
-    similar 0.2894736842105263
+    delta 0.5084751798731266
   ]
   edge [
     source 41
     target 358
-    similar 0.14634146341463414
+    delta 0.30151134457776363
   ]
   edge [
     source 41
     target 273
-    similar 0.08163265306122448
+    delta 0.16169041669088866
   ]
   edge [
     source 41
     target 322
-    similar 0.21951219512195122
+    delta 0.4008918628686366
   ]
   edge [
     source 41
     target 335
-    similar 0.16666666666666666
+    delta 0.323575114464717
   ]
   edge [
     source 41
     target 221
-    similar 0.3170731707317073
+    delta 0.510688230856951
   ]
   edge [
     source 41
     target 91
-    similar 0.046153846153846156
+    delta 0.08838834764831845
   ]
   edge [
     source 41
     target 58
-    similar 0.4716981132075472
+    delta 0.6429306248420497
   ]
   edge [
     source 41
     target 99
-    similar 0.045454545454545456
+    delta 0.08703882797784893
   ]
   edge [
     source 42
     target 386
-    similar 0.13636363636363635
+    delta 0.28968272975116055
   ]
   edge [
     source 42
     target 231
-    similar 0.12244897959183673
+    delta 0.24019223070763068
   ]
   edge [
     source 42
     target 130
-    similar 0.12280701754385964
+    delta 0.224179415327122
   ]
   edge [
     source 42
     target 998
-    similar 0.05
+    delta 0.1849000654084097
   ]
   edge [
     source 42
     target 60
-    similar 0.1076923076923077
+    delta 0.19512313566832118
   ]
   edge [
     source 42
     target 96
-    similar 0.11290322580645161
+    delta 0.20464687117164013
   ]
   edge [
     source 42
     target 713
-    similar 0.046511627906976744
+    delta 0.13074409009212268
   ]
   edge [
     source 42
     target 566
-    similar 0.09302325581395349
+    delta 0.22645540682891913
   ]
   edge [
     source 42
     target 327
-    similar 0.0625
+    delta 0.13867504905630726
   ]
   edge [
     source 42
     target 305
-    similar 0.125
+    delta 0.24806946917841693
   ]
   edge [
     source 42
     target 61
-    similar 0.08695652173913043
+    delta 0.16012815380508716
   ]
   edge [
     source 42
     target 90
-    similar 0.06557377049180328
+    delta 0.12561485860426555
   ]
   edge [
     source 42
     target 332
-    similar 0.13043478260869565
+    delta 0.26646935501059654
   ]
   edge [
     source 42
     target 57
-    similar 0.027777777777777776
+    delta 0.05413319619607667
   ]
   edge [
     source 42
     target 86
-    similar 0.0847457627118644
+    delta 0.16012815380508713
   ]
   edge [
     source 42
     target 958
-    similar 0.05
+    delta 0.1849000654084097
   ]
   edge [
     source 42
     target 98
-    similar 0.07462686567164178
+    delta 0.13937366833451512
   ]
   edge [
     source 42
     target 859
-    similar 0.075
+    delta 0.24019223070763068
   ]
   edge [
     source 42
     target 376
-    similar 0.06
+    delta 0.12838814775327387
   ]
   edge [
     source 42
     target 435
-    similar 0.0851063829787234
+    delta 0.1849000654084097
   ]
   edge [
     source 42
     target 47
-    similar 0.11428571428571428
+    delta 0.20512820512820512
   ]
   edge [
     source 42
     target 179
-    similar 0.07017543859649122
+    delta 0.13655774839978377
   ]
   edge [
     source 42
     target 404
-    similar 0.0625
+    delta 0.13867504905630726
   ]
   edge [
     source 42
     target 213
-    similar 0.03508771929824561
+    delta 0.0716114874039433
   ]
   edge [
     source 42
     target 161
-    similar 0.0847457627118644
+    delta 0.16012815380508713
   ]
   edge [
     source 42
     target 744
-    similar 0.047619047619047616
+    delta 0.1432229748078866
   ]
   edge [
     source 42
     target 480
-    similar 0.09090909090909091
+    delta 0.21350420507344953
   ]
   edge [
     source 43
     target 78
-    similar 0.32075471698113206
+    delta 0.49074772881118184
   ]
   edge [
     source 43
     target 889
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 43
     target 363
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 43
     target 295
-    similar 0.1956521739130435
+    delta 0.3674234614174767
   ]
   edge [
     source 43
     target 382
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 43
     target 102
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 43
     target 510
-    similar 0.08888888888888889
+    delta 0.21081851067789195
   ]
   edge [
     source 43
     target 146
-    similar 0.18867924528301888
+    delta 0.3296902366978935
   ]
   edge [
     source 43
     target 241
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 43
     target 414
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 43
     target 73
-    similar 0.21666666666666667
+    delta 0.3578132236660672
   ]
   edge [
     source 43
     target 224
-    similar 0.22448979591836735
+    delta 0.38890872965260115
   ]
   edge [
     source 43
     target 377
-    similar 0.10416666666666667
+    delta 0.21926450482675733
   ]
   edge [
     source 43
     target 91
-    similar 0.2413793103448276
+    delta 0.3913118960624632
   ]
   edge [
     source 43
     target 347
-    similar 0.15555555555555556
+    delta 0.3195048252113469
   ]
   edge [
     source 43
     target 499
-    similar 0.11363636363636363
+    delta 0.26352313834736496
   ]
   edge [
     source 43
     target 54
-    similar 0.18309859154929578
+    delta 0.3098753415048175
   ]
   edge [
     source 43
     target 610
-    similar 0.12195121951219512
+    delta 0.3227486121839514
   ]
   edge [
     source 43
     target 122
-    similar 0.19642857142857142
+    delta 0.3347193406976015
   ]
   edge [
     source 43
     target 105
-    similar 0.21052631578947367
+    delta 0.35233213170882205
   ]
   edge [
     source 43
     target 565
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 43
     target 534
-    similar 0.11627906976744186
+    delta 0.2795084971874737
   ]
   edge [
     source 43
     target 606
-    similar 0.06666666666666667
+    delta 0.16770509831248423
   ]
   edge [
     source 43
     target 163
-    similar 0.2765957446808511
+    delta 0.4596194077712559
   ]
   edge [
     source 43
     target 427
-    similar 0.13636363636363635
+    delta 0.3
   ]
   edge [
     source 43
     target 195
-    similar 0.11764705882352941
+    delta 0.2300894966542111
   ]
   edge [
     source 43
     target 94
-    similar 0.21052631578947367
+    delta 0.35233213170882205
   ]
   edge [
     source 43
     target 246
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 43
     target 348
-    similar 0.20454545454545456
+    delta 0.39467610868816316
   ]
   edge [
     source 43
     target 548
-    similar 0.11627906976744186
+    delta 0.2795084971874737
   ]
   edge [
     source 43
     target 474
-    similar 0.0851063829787234
+    delta 0.19069251784911848
   ]
   edge [
     source 43
     target 278
-    similar 0.11764705882352941
+    delta 0.2300894966542111
   ]
   edge [
     source 43
     target 89
-    similar 0.23728813559322035
+    delta 0.3853373177942262
   ]
   edge [
     source 43
     target 830
-    similar 0.0975609756097561
+    delta 0.282842712474619
   ]
   edge [
     source 43
     target 64
-    similar 0.18461538461538463
+    delta 0.3119251469460218
   ]
   edge [
     source 43
     target 496
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 43
     target 770
-    similar 0.07317073170731707
+    delta 0.23717082451262844
   ]
   edge [
     source 43
     target 651
-    similar 0.09302325581395349
+    delta 0.23904572186687872
   ]
   edge [
     source 44
     target 298
-    similar 0.24390243902439024
+    delta 0.4393747751637468
   ]
   edge [
     source 44
     target 338
-    similar 0.21951219512195122
+    delta 0.4103646773287979
   ]
   edge [
     source 44
     target 266
-    similar 0.18604651162790697
+    delta 0.35149982013099745
   ]
   edge [
     source 44
     target 162
-    similar 0.2608695652173913
+    delta 0.43049760200050513
   ]
   edge [
     source 44
     target 444
-    similar 0.1794871794871795
+    delta 0.38359763704583366
   ]
   edge [
     source 44
     target 356
-    similar 0.3076923076923077
+    delta 0.5272497301964961
   ]
   edge [
     source 44
     target 207
-    similar 0.26666666666666666
+    delta 0.44112877325628463
   ]
   edge [
     source 44
     target 416
-    similar 0.12195121951219512
+    delta 0.2739983121755955
   ]
   edge [
     source 44
     target 281
-    similar 0.2222222222222222
+    delta 0.3874921291460643
   ]
   edge [
     source 44
     target 109
-    similar 0.2692307692307692
+    delta 0.4273937576108645
   ]
   edge [
     source 44
     target 465
-    similar 0.23684210526315788
+    delta 0.46788772041903276
   ]
   edge [
     source 44
     target 400
-    similar 0.2972972972972973
+    delta 0.5452497568062706
   ]
   edge [
     source 44
     target 628
-    similar 0.18421052631578946
+    delta 0.4068667356033675
   ]
   edge [
     source 44
     target 1096
-    similar 0.05405405405405406
+    delta 0.23249527748763857
   ]
   edge [
     source 44
     target 165
-    similar 0.28888888888888886
+    delta 0.46637240216721393
   ]
   edge [
     source 44
     target 63
-    similar 0.35714285714285715
+    delta 0.5264981264926564
   ]
   edge [
     source 44
     target 191
-    similar 0.28888888888888886
+    delta 0.46637240216721393
   ]
   edge [
     source 44
     target 1030
-    similar 0.08108108108108109
+    delta 0.2847473987257497
   ]
   edge [
     source 44
     target 154
-    similar 0.2708333333333333
+    delta 0.4362514358891158
   ]
   edge [
     source 44
     target 176
-    similar 0.425
+    delta 0.6249324287797365
   ]
   edge [
     source 44
     target 315
-    similar 0.11627906976744186
+    delta 0.24784079854830482
   ]
   edge [
     source 44
     target 431
-    similar 0.2564102564102564
+    delta 0.4745789978762495
   ]
   edge [
     source 44
     target 55
-    similar 0.38
+    delta 0.5521762840331416
   ]
   edge [
     source 44
     target 134
-    similar 0.34782608695652173
+    delta 0.5260767593771433
   ]
   edge [
     source 44
     target 49
-    similar 0.26229508196721313
+    delta 0.4159001959280291
   ]
   edge [
     source 44
     target 142
-    similar 0.16981132075471697
+    delta 0.29591817714964314
   ]
   edge [
     source 44
     target 323
-    similar 0.18181818181818182
+    delta 0.3395810879824071
   ]
   edge [
     source 44
     target 219
-    similar 0.37209302325581395
+    delta 0.5607997097862253
   ]
   edge [
     source 44
     target 111
-    similar 0.2916666666666667
+    delta 0.46031716445500037
   ]
   edge [
     source 44
     target 168
-    similar 0.1568627450980392
+    delta 0.28039985489311264
   ]
   edge [
     source 44
     target 261
-    similar 0.2558139534883721
+    delta 0.438598722555895
   ]
   edge [
     source 44
     target 245
-    similar 0.4594594594594595
+    delta 0.677834389404565
   ]
   edge [
     source 45
     target 71
-    similar 0.09836065573770492
+    delta 0.17912443020795965
   ]
   edge [
     source 45
     target 94
-    similar 0.05084745762711865
+    delta 0.09697622757528539
   ]
   edge [
     source 45
     target 84
-    similar 0.30612244897959184
+    delta 0.4689790496105418
   ]
   edge [
     source 45
     target 72
-    similar 0.11475409836065574
+    delta 0.20597146021777488
   ]
   edge [
     source 45
     target 101
-    similar 0.26666666666666666
+    delta 0.4264014327112209
   ]
   edge [
     source 45
     target 507
-    similar 0.2647058823529412
+    delta 0.4954336943068623
   ]
   edge [
     source 45
     target 508
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 45
     target 254
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 45
     target 239
-    similar 0.24390243902439024
+    delta 0.4103049699311091
   ]
   edge [
     source 45
     target 135
-    similar 0.35714285714285715
+    delta 0.5330017908890261
   ]
   edge [
     source 45
     target 77
-    similar 0.41304347826086957
+    delta 0.5846845821518305
   ]
   edge [
     source 45
     target 86
-    similar 0.38095238095238093
+    delta 0.5570484990582331
   ]
   edge [
     source 45
     target 76
-    similar 0.4222222222222222
+    delta 0.5940401295066863
   ]
   edge [
     source 45
     target 140
-    similar 0.22727272727272727
+    delta 0.37986858819879316
   ]
   edge [
     source 45
     target 61
-    similar 0.1694915254237288
+    delta 0.29012942659282975
   ]
   edge [
     source 45
     target 125
-    similar 0.3181818181818182
+    delta 0.48741743667595394
   ]
   edge [
     source 45
     target 106
-    similar 0.3409090909090909
+    delta 0.5120915564991891
   ]
   edge [
     source 45
     target 92
-    similar 0.2708333333333333
+    delta 0.42766860172384985
   ]
   edge [
     source 45
     target 81
-    similar 0.3695652173913043
+    delta 0.540295467239169
   ]
   edge [
     source 45
     target 168
-    similar 0.057692307692307696
+    delta 0.11134044285378082
   ]
   edge [
     source 45
     target 90
-    similar 0.18
+    delta 0.30725493389951347
   ]
   edge [
     source 46
     target 270
-    similar 0.25
+    delta 0.4262413420606707
   ]
   edge [
     source 46
     target 95
-    similar 0.5348837209302325
+    delta 0.7021468875035631
   ]
   edge [
     source 46
     target 88
-    similar 0.5609756097560976
+    delta 0.7276877967435826
   ]
   edge [
     source 46
     target 48
-    similar 0.5098039215686274
+    delta 0.6758378183830474
   ]
   edge [
     source 46
     target 386
-    similar 0.06666666666666667
+    delta 0.1487044791289829
   ]
   edge [
     source 46
     target 184
-    similar 0.3111111111111111
+    delta 0.49069974606294714
   ]
   edge [
     source 46
     target 65
-    similar 0.5
+    delta 0.6667259338283312
   ]
   edge [
     source 46
     target 75
-    similar 0.43137254901960786
+    delta 0.60279628678631
   ]
   edge [
     source 46
     target 112
-    similar 0.5853658536585366
+    delta 0.74564371920144
   ]
   edge [
     source 46
     target 471
-    similar 0.20512820512820512
+    delta 0.4159001959280291
   ]
   edge [
     source 46
     target 525
-    similar 0.12195121951219512
+    delta 0.2739983121755955
   ]
   edge [
     source 46
     target 70
-    similar 0.5434782608695652
+    delta 0.7048548430432512
   ]
   edge [
     source 46
     target 574
-    similar 0.18421052631578946
+    delta 0.4068667356033675
   ]
   edge [
     source 46
     target 192
-    similar 0.1568627450980392
+    delta 0.28039985489311264
   ]
   edge [
     source 46
     target 308
-    similar 0.42105263157894735
+    delta 0.63796177826312
   ]
   edge [
     source 46
     target 351
-    similar 0.3
+    delta 0.5093716319736106
   ]
   edge [
     source 46
     target 470
-    similar 0.23076923076923078
+    delta 0.4461134373869487
   ]
   edge [
     source 46
     target 402
-    similar 0.2894736842105263
+    delta 0.5220368976638745
   ]
   edge [
     source 46
     target 62
-    similar 0.5434782608695652
+    delta 0.7048548430432512
   ]
   edge [
     source 46
     target 120
-    similar 0.46511627906976744
+    delta 0.644825880219161
   ]
   edge [
     source 46
     target 171
-    similar 0.2653061224489796
+    delta 0.4274373669939289
   ]
   edge [
     source 46
     target 307
-    similar 0.2558139534883721
+    delta 0.438598722555895
   ]
   edge [
     source 46
     target 520
-    similar 0.175
+    delta 0.3639126714370255
   ]
   edge [
     source 46
     target 57
-    similar 0.46938775510204084
+    delta 0.6391355165332376
   ]
   edge [
     source 46
     target 99
-    similar 0.34615384615384615
+    delta 0.5151274263289283
   ]
   edge [
     source 46
     target 378
-    similar 0.3783783783783784
+    delta 0.6151246852292455
   ]
   edge [
     source 46
     target 137
-    similar 0.4186046511627907
+    delta 0.6040404496926219
   ]
   edge [
     source 46
     target 448
-    similar 0.2972972972972973
+    delta 0.5452497568062706
   ]
   edge [
     source 46
     target 194
-    similar 0.1346153846153846
+    delta 0.24534987303147357
   ]
   edge [
     source 46
     target 718
-    similar 0.04878048780487805
+    delta 0.13423121104280486
   ]
   edge [
     source 46
     target 523
-    similar 0.12195121951219512
+    delta 0.2739983121755955
   ]
   edge [
     source 46
     target 127
-    similar 0.06779661016949153
+    delta 0.1289651760438322
   ]
   edge [
     source 46
     target 138
-    similar 0.5365853658536586
+    delta 0.7093084682410771
   ]
   edge [
     source 46
     target 203
-    similar 0.5789473684210527
+    delta 0.754150287210167
   ]
   edge [
     source 47
     target 93
-    similar 0.21666666666666667
+    delta 0.3570027736477083
   ]
   edge [
     source 47
     target 147
-    similar 0.3541666666666667
+    delta 0.5338631490681285
   ]
   edge [
     source 47
     target 227
-    similar 0.2222222222222222
+    delta 0.40032038451271784
   ]
   edge [
     source 47
     target 586
-    similar 0.15
+    delta 0.36313651960128146
   ]
   edge [
     source 47
     target 95
-    similar 0.046153846153846156
+    delta 0.08920515501750789
   ]
   edge [
     source 47
     target 96
-    similar 0.13114754098360656
+    delta 0.23388213848187445
   ]
   edge [
     source 47
     target 180
-    similar 0.14
+    delta 0.264197974633739
   ]
   edge [
     source 47
     target 671
-    similar 0.15384615384615385
+    delta 0.39223227027636803
   ]
   edge [
     source 47
     target 159
-    similar 0.2
+    delta 0.3494282789073061
   ]
   edge [
     source 47
     target 934
-    similar 0.05
+    delta 0.1849000654084097
   ]
   edge [
     source 47
     target 673
-    similar 0.1
+    delta 0.2864459496157732
   ]
   edge [
     source 47
     target 309
-    similar 0.12244897959183673
+    delta 0.24019223070763068
   ]
   edge [
     source 47
     target 482
-    similar 0.06382978723404255
+    delta 0.14484136487558028
   ]
   edge [
     source 47
     target 429
-    similar 0.10869565217391304
+    delta 0.2311250817605121
   ]
   edge [
     source 47
     target 312
-    similar 0.21428571428571427
+    delta 0.4160251471689218
   ]
   edge [
     source 47
     target 141
-    similar 0.08620689655172414
+    delta 0.16343011261515336
   ]
   edge [
     source 47
     target 199
-    similar 0.32608695652173914
+    delta 0.5120915564991891
   ]
   edge [
     source 47
     target 257
-    similar 0.2127659574468085
+    delta 0.3774256780481986
   ]
   edge [
     source 47
     target 237
-    similar 0.22448979591836735
+    delta 0.3843711067980367
   ]
   edge [
     source 47
     target 588
-    similar 0.14634146341463414
+    delta 0.3396831102433787
   ]
   edge [
     source 47
     target 236
-    similar 0.23404255319148937
+    delta 0.4040950971038548
   ]
   edge [
     source 47
     target 552
-    similar 0.06976744186046512
+    delta 0.18156825980064073
   ]
   edge [
     source 47
     target 148
-    similar 0.125
+    delta 0.2288021576612147
   ]
   edge [
     source 47
     target 198
-    similar 0.17307692307692307
+    delta 0.30725493389951347
   ]
   edge [
     source 47
     target 379
-    similar 0.2
+    delta 0.42700841014689905
   ]
   edge [
     source 47
     target 69
-    similar 0.1864406779661017
+    delta 0.31635851969867795
   ]
   edge [
     source 47
     target 260
-    similar 0.09615384615384616
+    delta 0.1887128390240993
   ]
   edge [
     source 47
     target 56
-    similar 0.21666666666666667
+    delta 0.3570027736477083
   ]
   edge [
     source 48
     target 95
-    similar 0.46808510638297873
+    delta 0.6459422414661737
   ]
   edge [
     source 48
     target 99
-    similar 0.30357142857142855
+    delta 0.46790960017870326
   ]
   edge [
     source 48
     target 137
-    similar 0.4222222222222222
+    delta 0.6132223631495076
   ]
   edge [
     source 48
     target 351
-    similar 0.30952380952380953
+    delta 0.5307227776030219
   ]
   edge [
     source 48
     target 75
-    similar 0.38181818181818183
+    delta 0.5533985905294664
   ]
   edge [
     source 48
     target 62
-    similar 0.5416666666666666
+    delta 0.7050239879106326
   ]
   edge [
     source 48
     target 171
-    similar 0.25
+    delta 0.41109609582188933
   ]
   edge [
     source 48
     target 120
-    similar 0.43478260869565216
+    delta 0.6201736729460423
   ]
   edge [
     source 48
     target 308
-    similar 0.32558139534883723
+    delta 0.5368754921931592
   ]
   edge [
     source 48
     target 70
-    similar 0.5102040816326531
+    delta 0.6779076806833005
   ]
   edge [
     source 48
     target 57
-    similar 0.41509433962264153
+    delta 0.5879747322073337
   ]
   edge [
     source 48
     target 448
-    similar 0.24390243902439024
+    delta 0.4767312946227962
   ]
   edge [
     source 48
     target 88
-    similar 0.5581395348837209
+    delta 0.7302967433402215
   ]
   edge [
     source 48
     target 579
-    similar 0.11904761904761904
+    delta 0.2988071523335984
   ]
   edge [
     source 48
     target 764
-    similar 0.07317073170731707
+    delta 0.23717082451262844
   ]
   edge [
     source 48
     target 411
-    similar 0.061224489795918366
+    delta 0.13693063937629152
   ]
   edge [
     source 48
     target 710
-    similar 0.09523809523809523
+    delta 0.2581988897471611
   ]
   edge [
     source 48
     target 58
-    similar 0.05128205128205128
+    delta 0.09759000729485333
   ]
   edge [
     source 48
     target 470
-    similar 0.21428571428571427
+    delta 0.42905816516051654
   ]
   edge [
     source 48
     target 378
-    similar 0.3170731707317073
+    delta 0.5493502655735357
   ]
   edge [
     source 48
     target 1180
-    similar 0.05
+    delta 0.22360679774997896
   ]
   edge [
     source 48
     target 408
-    similar 0.10638297872340426
+    delta 0.22821773229381923
   ]
   edge [
     source 48
     target 649
-    similar 0.09523809523809523
+    delta 0.2581988897471611
   ]
   edge [
     source 48
     target 589
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 48
     target 794
-    similar 0.07142857142857142
+    delta 0.21213203435596426
   ]
   edge [
     source 48
     target 523
-    similar 0.08888888888888889
+    delta 0.21081851067789195
   ]
   edge [
     source 48
     target 449
-    similar 0.21951219512195122
+    delta 0.45
   ]
   edge [
     source 48
     target 184
-    similar 0.34782608695652173
+    delta 0.5393598899705937
   ]
   edge [
     source 48
     target 65
-    similar 0.4716981132075472
+    delta 0.6412364700532214
   ]
   edge [
     source 48
     target 112
-    similar 0.4782608695652174
+    delta 0.6573757351339165
   ]
   edge [
     source 48
     target 307
-    similar 0.2127659574468085
+    delta 0.3834824944236852
   ]
   edge [
     source 48
     target 138
-    similar 0.5714285714285714
+    delta 0.7442084075352507
   ]
   edge [
     source 48
     target 203
-    similar 0.5365853658536586
+    delta 0.7253185207353657
   ]
   edge [
     source 49
     target 266
-    similar 0.10204081632653061
+    delta 0.21128856368212914
   ]
   edge [
     source 49
     target 542
-    similar 0.11627906976744186
+    delta 0.2795084971874737
   ]
   edge [
     source 49
     target 485
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 49
     target 83
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 49
     target 191
-    similar 0.32608695652173914
+    delta 0.5175491695067657
   ]
   edge [
     source 49
     target 356
-    similar 0.22727272727272727
+    delta 0.4225771273642583
   ]
   edge [
     source 49
     target 493
-    similar 0.16666666666666666
+    delta 0.3689323936863109
   ]
   edge [
     source 49
     target 547
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 49
     target 207
-    similar 0.17647058823529413
+    delta 0.31819805153394637
   ]
   edge [
     source 49
     target 98
-    similar 0.12307692307692308
+    delta 0.22019275302527214
   ]
   edge [
     source 49
     target 142
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 49
     target 212
-    similar 0.2708333333333333
+    delta 0.4485426135725303
   ]
   edge [
     source 49
     target 1061
-    similar 0.075
+    delta 0.27386127875258304
   ]
   edge [
     source 49
     target 63
-    similar 0.27419354838709675
+    delta 0.43041423101055837
   ]
   edge [
     source 49
     target 123
-    similar 0.2222222222222222
+    delta 0.3721042037676254
   ]
   edge [
     source 49
     target 282
-    similar 0.19148936170212766
+    delta 0.35575623676894264
   ]
   edge [
     source 49
     target 237
-    similar 0.03389830508474576
+    delta 0.06900655593423542
   ]
   edge [
     source 49
     target 1128
-    similar 0.05
+    delta 0.22360679774997896
   ]
   edge [
     source 49
     target 109
-    similar 0.2545454545454545
+    delta 0.4110541536602924
   ]
   edge [
     source 49
     target 176
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 49
     target 503
-    similar 0.11363636363636363
+    delta 0.26352313834736496
   ]
   edge [
     source 49
     target 132
-    similar 0.18518518518518517
+    delta 0.3227486121839514
   ]
   edge [
     source 49
     target 415
-    similar 0.1590909090909091
+    delta 0.3337119062359573
   ]
   edge [
     source 49
     target 457
-    similar 0.18604651162790697
+    delta 0.38138503569823695
   ]
   edge [
     source 49
     target 803
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 49
     target 255
-    similar 0.2608695652173913
+    delta 0.4472135954999579
   ]
   edge [
     source 49
     target 111
-    similar 0.1206896551724138
+    delta 0.22135943621178655
   ]
   edge [
     source 49
     target 168
-    similar 0.06896551724137931
+    delta 0.13483997249264842
   ]
   edge [
     source 49
     target 431
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 49
     target 160
-    similar 0.22641509433962265
+    delta 0.37947331922020555
   ]
   edge [
     source 49
     target 1263
-    similar 0.05
+    delta 0.22360679774997896
   ]
   edge [
     source 49
     target 373
-    similar 0.17391304347826086
+    delta 0.3380617018914066
   ]
   edge [
     source 49
     target 374
-    similar 0.24390243902439024
+    delta 0.4767312946227962
   ]
   edge [
     source 49
     target 628
-    similar 0.09090909090909091
+    delta 0.22360679774997896
   ]
   edge [
     source 50
     target 149
-    similar 0.22
+    delta 0.3720805503204561
   ]
   edge [
     source 50
     target 94
-    similar 0.24074074074074073
+    delta 0.3916089015337057
   ]
   edge [
     source 50
     target 272
-    similar 0.20454545454545456
+    delta 0.3769685174625259
   ]
   edge [
     source 50
     target 175
-    similar 0.5789473684210527
+    delta 0.760885910252682
   ]
   edge [
     source 50
     target 85
-    similar 0.7948717948717948
+    delta 0.8889859687484267
   ]
   edge [
     source 50
     target 274
-    similar 0.29545454545454547
+    delta 0.48380990291711146
   ]
   edge [
     source 50
     target 118
-    similar 0.3191489361702128
+    delta 0.4966996338993914
   ]
   edge [
     source 50
     target 616
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 50
     target 623
-    similar 0.1794871794871795
+    delta 0.40147753427348304
   ]
   edge [
     source 50
     target 173
-    similar 0.32608695652173914
+    delta 0.5073825686188038
   ]
   edge [
     source 50
     target 349
-    similar 0.18604651162790697
+    delta 0.359937016532678
   ]
   edge [
     source 50
     target 412
-    similar 0.175
+    delta 0.3785166493051126
   ]
   edge [
     source 50
     target 423
-    similar 0.2
+    delta 0.41039134083406165
   ]
   edge [
     source 50
     target 241
-    similar 0.16
+    delta 0.29019050004400465
   ]
   edge [
     source 50
     target 244
-    similar 0.22727272727272727
+    delta 0.40555355282690636
   ]
   edge [
     source 50
     target 736
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 50
     target 626
-    similar 0.12195121951219512
+    delta 0.2867696673382022
   ]
   edge [
     source 50
     target 224
-    similar 0.13725490196078433
+    delta 0.2539166875385041
   ]
   edge [
     source 50
     target 52
-    similar 0.23809523809523808
+    delta 0.3847418820319328
   ]
   edge [
     source 50
     target 133
-    similar 0.2830188679245283
+    delta 0.44426165831931924
   ]
   edge [
     source 50
     target 695
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 50
     target 590
-    similar 0.12195121951219512
+    delta 0.2867696673382022
   ]
   edge [
     source 50
     target 260
-    similar 0.16666666666666666
+    delta 0.305887645160749
   ]
   edge [
     source 50
     target 273
-    similar 0.12244897959183673
+    delta 0.23606684260939012
   ]
   edge [
     source 50
     target 606
-    similar 0.15
+    delta 0.3441236008058426
   ]
   edge [
     source 50
     target 148
-    similar 0.19230769230769232
+    delta 0.33113308926626095
   ]
   edge [
     source 50
     target 131
-    similar 0.2549019607843137
+    delta 0.4135850959342555
   ]
   edge [
     source 50
     target 278
-    similar 0.14583333333333334
+    delta 0.2754113163776218
   ]
   edge [
     source 50
     target 701
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 50
     target 206
-    similar 0.2127659574468085
+    delta 0.37216146378239345
   ]
   edge [
     source 50
     target 715
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 50
     target 68
-    similar 0.13432835820895522
+    delta 0.23684210526315788
   ]
   edge [
     source 50
     target 167
-    similar 0.47619047619047616
+    delta 0.6622661785325219
   ]
   edge [
     source 51
     target 445
-    similar 0.1276595744680851
+    delta 0.30151134457776363
   ]
   edge [
     source 51
     target 303
-    similar 0.16
+    delta 0.3223291856101521
   ]
   edge [
     source 51
     target 737
-    similar 0.06521739130434782
+    delta 0.20225995873897262
   ]
   edge [
     source 51
     target 763
-    similar 0.0425531914893617
+    delta 0.13483997249264842
   ]
   edge [
     source 51
     target 235
-    similar 0.1
+    delta 0.22727272727272727
   ]
   edge [
     source 51
     target 940
-    similar 0.043478260869565216
+    delta 0.15075567228888181
   ]
   edge [
     source 51
     target 919
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 51
     target 1013
-    similar 0.044444444444444446
+    delta 0.17407765595569785
   ]
   edge [
     source 51
     target 798
-    similar 0.08888888888888889
+    delta 0.26967994498529685
   ]
   edge [
     source 51
     target 598
-    similar 0.061224489795918366
+    delta 0.15990053726670783
   ]
   edge [
     source 51
     target 887
-    similar 0.06666666666666667
+    delta 0.22613350843332272
   ]
   edge [
     source 51
     target 220
-    similar 0.06557377049180328
+    delta 0.1315903389919538
   ]
   edge [
     source 51
     target 993
-    similar 0.044444444444444446
+    delta 0.17407765595569785
   ]
   edge [
     source 51
     target 1081
-    similar 0.044444444444444446
+    delta 0.17407765595569785
   ]
   edge [
     source 51
     target 1156
-    similar 0.045454545454545456
+    delta 0.21320071635561041
   ]
   edge [
     source 51
     target 805
-    similar 0.0425531914893617
+    delta 0.13483997249264842
   ]
   edge [
     source 51
     target 82
-    similar 0.05194805194805195
+    delta 0.09913631941932192
   ]
   edge [
     source 51
     target 151
-    similar 0.22641509433962265
+    delta 0.39477101697586137
   ]
   edge [
     source 51
     target 920
-    similar 0.06666666666666667
+    delta 0.22613350843332272
   ]
   edge [
     source 51
     target 670
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 51
     target 122
-    similar 0.09230769230769231
+    delta 0.17407765595569785
   ]
   edge [
     source 51
     target 1103
-    similar 0.045454545454545456
+    delta 0.21320071635561041
   ]
   edge [
     source 51
     target 663
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 51
     target 753
-    similar 0.06382978723404255
+    delta 0.1846372364689991
   ]
   edge [
     source 51
     target 409
-    similar 0.1
+    delta 0.22727272727272727
   ]
   edge [
     source 51
     target 740
-    similar 0.13636363636363635
+    delta 0.3692744729379982
   ]
   edge [
     source 51
     target 200
-    similar 0.28
+    delta 0.47193990372426947
   ]
   edge [
     source 51
     target 110
-    similar 0.1111111111111111
+    delta 0.2069593385961789
   ]
   edge [
     source 51
     target 217
-    similar 0.06557377049180328
+    delta 0.1315903389919538
   ]
   edge [
     source 51
     target 817
-    similar 0.06521739130434782
+    delta 0.20225995873897262
   ]
   edge [
     source 51
     target 1035
-    similar 0.06818181818181818
+    delta 0.26111648393354675
   ]
   edge [
     source 51
     target 289
-    similar 0.07017543859649122
+    delta 0.14625448482542613
   ]
   edge [
     source 51
     target 152
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 51
     target 790
-    similar 0.08888888888888889
+    delta 0.26967994498529685
   ]
   edge [
     source 51
     target 1133
-    similar 0.045454545454545456
+    delta 0.21320071635561041
   ]
   edge [
     source 51
     target 1042
-    similar 0.06818181818181818
+    delta 0.26111648393354675
   ]
   edge [
     source 51
     target 907
-    similar 0.043478260869565216
+    delta 0.15075567228888181
   ]
   edge [
     source 51
     target 712
-    similar 0.06382978723404255
+    delta 0.1846372364689991
   ]
   edge [
     source 51
     target 1083
-    similar 0.06818181818181818
+    delta 0.26111648393354675
   ]
   edge [
     source 51
     target 524
-    similar 0.14893617021276595
+    delta 0.3337119062359573
   ]
   edge [
     source 51
     target 299
-    similar 0.18
+    delta 0.35032452487268534
   ]
   edge [
     source 52
     target 336
-    similar 0.23255813953488372
+    delta 0.43852900965351466
   ]
   edge [
     source 52
     target 226
-    similar 0.22916666666666666
+    delta 0.3990119375605064
   ]
   edge [
     source 52
     target 221
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 52
     target 244
-    similar 0.3023255813953488
+    delta 0.5138701197773616
   ]
   edge [
     source 52
     target 389
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 52
     target 74
-    similar 0.19672131147540983
+    delta 0.3302891295379082
   ]
   edge [
     source 52
     target 58
-    similar 0.22388059701492538
+    delta 0.36596252735569995
   ]
   edge [
     source 52
     target 124
-    similar 0.15789473684210525
+    delta 0.279078152825719
   ]
   edge [
     source 52
     target 459
-    similar 0.08888888888888889
+    delta 0.21081851067789195
   ]
   edge [
     source 52
     target 69
-    similar 0.24561403508771928
+    delta 0.3975732839729454
   ]
   edge [
     source 52
     target 179
-    similar 0.14814814814814814
+    delta 0.26967994498529685
   ]
   edge [
     source 52
     target 644
-    similar 0.125
+    delta 0.35355339059327373
   ]
   edge [
     source 52
     target 468
-    similar 0.24390243902439024
+    delta 0.4767312946227962
   ]
   edge [
     source 52
     target 141
-    similar 0.20754716981132076
+    delta 0.3550234734023465
   ]
   edge [
     source 52
     target 118
-    similar 0.3617021276595745
+    delta 0.5486726407127174
   ]
   edge [
     source 52
     target 133
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 52
     target 93
-    similar 0.21311475409836064
+    delta 0.3525119939553163
   ]
   edge [
     source 52
     target 268
-    similar 0.14285714285714285
+    delta 0.2766992952647332
   ]
   edge [
     source 52
     target 583
-    similar 0.11904761904761904
+    delta 0.2988071523335984
   ]
   edge [
     source 52
     target 94
-    similar 0.09523809523809523
+    delta 0.17616606585441102
   ]
   edge [
     source 52
     target 193
-    similar 0.19607843137254902
+    delta 0.3450327796711771
   ]
   edge [
     source 52
     target 206
-    similar 0.2553191489361702
+    delta 0.435285750066007
   ]
   edge [
     source 52
     target 215
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 52
     target 85
-    similar 0.22033898305084745
+    delta 0.3633610463437158
   ]
   edge [
     source 52
     target 131
-    similar 0.2222222222222222
+    delta 0.3721042037676254
   ]
   edge [
     source 52
     target 412
-    similar 0.16666666666666666
+    delta 0.3689323936863109
   ]
   edge [
     source 52
     target 117
-    similar 0.23636363636363636
+    delta 0.38844929803367795
   ]
   edge [
     source 52
     target 197
-    similar 0.22
+    delta 0.37953605763829484
   ]
   edge [
     source 52
     target 68
-    similar 0.3448275862068966
+    delta 0.5129891760425771
   ]
   edge [
     source 52
     target 167
-    similar 0.18518518518518517
+    delta 0.3227486121839514
   ]
   edge [
     source 53
     target 93
-    similar 0.2641509433962264
+    delta 0.41795700381857254
   ]
   edge [
     source 53
     target 148
-    similar 0.11764705882352941
+    delta 0.21320071635561044
   ]
   edge [
     source 53
     target 149
-    similar 0.19148936170212766
+    delta 0.3266793038882825
   ]
   edge [
     source 53
     target 392
-    similar 0.36363636363636365
+    delta 0.6030226891555273
   ]
   edge [
     source 53
     target 221
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 53
     target 133
-    similar 0.18867924528301888
+    delta 0.3178208630818641
   ]
   edge [
     source 53
     target 180
-    similar 0.18604651162790697
+    delta 0.32824397594488725
   ]
   edge [
     source 53
     target 473
-    similar 0.2222222222222222
+    delta 0.4198911048651824
   ]
   edge [
     source 53
     target 454
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 53
     target 209
-    similar 0.40540540540540543
+    delta 0.5990422978731538
   ]
   edge [
     source 53
     target 256
-    similar 0.3333333333333333
+    delta 0.5393598899705937
   ]
   edge [
     source 53
     target 271
-    similar 0.3611111111111111
+    delta 0.565752381856018
   ]
   edge [
     source 53
     target 69
-    similar 0.391304347826087
+    delta 0.5627748595326502
   ]
   edge [
     source 53
     target 257
-    similar 0.18604651162790697
+    delta 0.32824397594488725
   ]
   edge [
     source 53
     target 124
-    similar 0.22916666666666666
+    delta 0.3755338080994054
   ]
   edge [
     source 53
     target 54
-    similar 0.08450704225352113
+    delta 0.1574591643244434
   ]
   edge [
     source 53
     target 58
-    similar 0.15384615384615385
+    delta 0.26860765467512676
   ]
   edge [
     source 53
     target 198
-    similar 0.375
+    delta 0.5567022142689041
   ]
   edge [
     source 53
     target 74
-    similar 0.32
+    delta 0.48484848484848486
   ]
   edge [
     source 53
     target 250
-    similar 0.3157894736842105
+    delta 0.5066403971048989
   ]
   edge [
     source 53
     target 300
-    similar 0.11627906976744186
+    delta 0.22473328748774737
   ]
   edge [
     source 53
     target 206
-    similar 0.18181818181818182
+    delta 0.31948922553234865
   ]
   edge [
     source 53
     target 108
-    similar 0.3409090909090909
+    delta 0.5120915564991891
   ]
   edge [
     source 54
     target 225
-    similar 0.10344827586206896
+    delta 0.20225995873897262
   ]
   edge [
     source 54
     target 336
-    similar 0.05555555555555555
+    delta 0.1254363015010636
   ]
   edge [
     source 54
     target 537
-    similar 0.13043478260869565
+    delta 0.31980107453341566
   ]
   edge [
     source 54
     target 267
-    similar 0.07142857142857142
+    delta 0.15075567228888181
   ]
   edge [
     source 54
     target 78
-    similar 0.1044776119402985
+    delta 0.1926686588971131
   ]
   edge [
     source 54
     target 163
-    similar 0.10344827586206896
+    delta 0.20225995873897262
   ]
   edge [
     source 54
     target 94
-    similar 0.057971014492753624
+    delta 0.11197850219117086
   ]
   edge [
     source 54
     target 405
-    similar 0.12
+    delta 0.26111648393354675
   ]
   edge [
     source 54
     target 108
-    similar 0.1111111111111111
+    delta 0.2069593385961789
   ]
   edge [
     source 54
     target 122
-    similar 0.14516129032258066
+    delta 0.26111648393354675
   ]
   edge [
     source 54
     target 196
-    similar 0.11666666666666667
+    delta 0.220043114711676
   ]
   edge [
     source 54
     target 451
-    similar 0.13043478260869565
+    delta 0.31980107453341566
   ]
   edge [
     source 54
     target 597
-    similar 0.061224489795918366
+    delta 0.15990053726670783
   ]
   edge [
     source 54
     target 73
-    similar 0.2222222222222222
+    delta 0.36740471675703457
   ]
   edge [
     source 54
     target 164
-    similar 0.06153846153846154
+    delta 0.12060453783110543
   ]
   edge [
     source 54
     target 102
-    similar 0.15625
+    delta 0.27524094128159016
   ]
   edge [
     source 54
     target 300
-    similar 0.11320754716981132
+    delta 0.23354968324845687
   ]
   edge [
     source 54
     target 711
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 54
     target 605
-    similar 0.06382978723404255
+    delta 0.1846372364689991
   ]
   edge [
     source 54
     target 292
-    similar 0.14814814814814814
+    delta 0.2842676218074806
   ]
   edge [
     source 54
     target 517
-    similar 0.125
+    delta 0.28603877677367767
   ]
   edge [
     source 54
     target 183
-    similar 0.046875
+    delta 0.09430419201928972
   ]
   edge [
     source 54
     target 238
-    similar 0.04918032786885246
+    delta 0.10112997936948631
   ]
   edge [
     source 54
     target 294
-    similar 0.09259259259259259
+    delta 0.19462473604038075
   ]
   edge [
     source 54
     target 392
-    similar 0.07692307692307693
+    delta 0.17407765595569785
   ]
   edge [
     source 54
     target 654
-    similar 0.10869565217391304
+    delta 0.2849014411490949
   ]
   edge [
     source 54
     target 729
-    similar 0.041666666666666664
+    delta 0.12309149097933272
   ]
   edge [
     source 54
     target 611
-    similar 0.10638297872340426
+    delta 0.26650089544451305
   ]
   edge [
     source 54
     target 363
-    similar 0.21739130434782608
+    delta 0.4351941398892446
   ]
   edge [
     source 54
     target 124
-    similar 0.09375
+    delta 0.17739371879672478
   ]
   edge [
     source 54
     target 922
-    similar 0.043478260869565216
+    delta 0.15075567228888181
   ]
   edge [
     source 54
     target 366
-    similar 0.11538461538461539
+    delta 0.24174688920761409
   ]
   edge [
     source 54
     target 1240
-    similar 0.045454545454545456
+    delta 0.21320071635561041
   ]
   edge [
     source 54
     target 210
-    similar 0.10344827586206896
+    delta 0.20225995873897262
   ]
   edge [
     source 54
     target 371
-    similar 0.12244897959183673
+    delta 0.2727272727272727
   ]
   edge [
     source 54
     target 348
-    similar 0.14
+    delta 0.29268470350248177
   ]
   edge [
     source 54
     target 830
-    similar 0.06521739130434782
+    delta 0.20225995873897262
   ]
   edge [
     source 54
     target 91
-    similar 0.20634920634920634
+    delta 0.34645116407786697
   ]
   edge [
     source 54
     target 938
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 54
     target 680
-    similar 0.04081632653061224
+    delta 0.11396057645963795
   ]
   edge [
     source 55
     target 338
-    similar 0.36363636363636365
+    delta 0.5883484054145521
   ]
   edge [
     source 55
     target 162
-    similar 0.39473684210526316
+    delta 0.5786375623578447
   ]
   edge [
     source 55
     target 83
-    similar 0.12727272727272726
+    delta 0.22592402852876597
   ]
   edge [
     source 55
     target 207
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 55
     target 176
-    similar 0.3333333333333333
+    delta 0.5138701197773616
   ]
   edge [
     source 55
     target 134
-    similar 0.29545454545454547
+    delta 0.4596194077712559
   ]
   edge [
     source 55
     target 259
-    similar 0.09302325581395349
+    delta 0.18257418583505536
   ]
   edge [
     source 55
     target 261
-    similar 0.1951219512195122
+    delta 0.34299717028501764
   ]
   edge [
     source 55
     target 245
-    similar 0.3611111111111111
+    delta 0.5573704017131537
   ]
   edge [
     source 55
     target 745
-    similar 0.12121212121212122
+    delta 0.31622776601683794
   ]
   edge [
     source 55
     target 516
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 55
     target 622
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 55
     target 660
-    similar 0.11428571428571428
+    delta 0.2672612419124244
   ]
   edge [
     source 55
     target 705
-    similar 0.08571428571428572
+    delta 0.21650635094610968
   ]
   edge [
     source 55
     target 465
-    similar 0.23529411764705882
+    delta 0.4472135954999579
   ]
   edge [
     source 55
     target 648
-    similar 0.14705882352941177
+    delta 0.33407655239053047
   ]
   edge [
     source 55
     target 63
-    similar 0.2033898305084746
+    delta 0.3396831102433787
   ]
   edge [
     source 55
     target 628
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 55
     target 665
-    similar 0.08571428571428572
+    delta 0.21650635094610968
   ]
   edge [
     source 55
     target 281
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 55
     target 719
-    similar 0.15151515151515152
+    delta 0.36084391824351614
   ]
   edge [
     source 55
     target 911
-    similar 0.09090909090909091
+    delta 0.2651650429449553
   ]
   edge [
     source 55
     target 111
-    similar 0.26666666666666666
+    delta 0.4242640687119285
   ]
   edge [
     source 55
     target 511
-    similar 0.13513513513513514
+    delta 0.2795084971874737
   ]
   edge [
     source 55
     target 400
-    similar 0.2647058823529412
+    delta 0.47970161180012344
   ]
   edge [
     source 56
     target 147
-    similar 0.3333333333333333
+    delta 0.5045045954972344
   ]
   edge [
     source 56
     target 634
-    similar 0.17647058823529413
+    delta 0.42008402520840293
   ]
   edge [
     source 56
     target 268
-    similar 0.1111111111111111
+    delta 0.21437323142813602
   ]
   edge [
     source 56
     target 492
-    similar 0.07692307692307693
+    delta 0.18190171877724973
   ]
   edge [
     source 56
     target 215
-    similar 0.20930232558139536
+    delta 0.3638034375544995
   ]
   edge [
     source 56
     target 875
-    similar 0.05555555555555555
+    delta 0.17149858514250882
   ]
   edge [
     source 56
     target 108
-    similar 0.1320754716981132
+    delta 0.23543547789870936
   ]
   edge [
     source 56
     target 776
-    similar 0.11764705882352941
+    delta 0.34299717028501764
   ]
   edge [
     source 56
     target 781
-    similar 0.11428571428571428
+    delta 0.30678599553894814
   ]
   edge [
     source 56
     target 217
-    similar 0.1
+    delta 0.18712029714127992
   ]
   edge [
     source 56
     target 559
-    similar 0.19444444444444445
+    delta 0.4001633653325206
   ]
   edge [
     source 56
     target 180
-    similar 0.23809523809523808
+    delta 0.40422604172722165
   ]
   edge [
     source 56
     target 390
-    similar 0.25
+    delta 0.46537892099551725
   ]
   edge [
     source 56
     target 673
-    similar 0.11428571428571428
+    delta 0.30678599553894814
   ]
   edge [
     source 56
     target 214
-    similar 0.2558139534883721
+    delta 0.42183074386605374
   ]
   edge [
     source 56
     target 578
-    similar 0.2
+    delta 0.4244373438135827
   ]
   edge [
     source 56
     target 145
-    similar 0.2708333333333333
+    delta 0.42906393528989223
   ]
   edge [
     source 56
     target 236
-    similar 0.2619047619047619
+    delta 0.43278921145054855
   ]
   edge [
     source 56
     target 237
-    similar 0.34146341463414637
+    delta 0.5239368319955838
   ]
   edge [
     source 56
     target 334
-    similar 0.28205128205128205
+    delta 0.4716211091418993
   ]
   edge [
     source 56
     target 291
-    similar 0.23809523809523808
+    delta 0.40422604172722165
   ]
   edge [
     source 56
     target 1089
-    similar 0.058823529411764705
+    delta 0.24253562503633297
   ]
   edge [
     source 56
     target 76
-    similar 0.04838709677419355
+    delta 0.09240616554505462
   ]
   edge [
     source 56
     target 133
-    similar 0.10344827586206896
+    delta 0.18786728732554486
   ]
   edge [
     source 56
     target 173
-    similar 0.14
+    delta 0.25031948894825307
   ]
   edge [
     source 57
     target 484
-    similar 0.16216216216216217
+    delta 0.35856858280031806
   ]
   edge [
     source 57
     target 95
-    similar 0.4883720930232558
+    delta 0.6591530616030618
   ]
   edge [
     source 57
     target 88
-    similar 0.5121951219512195
+    delta 0.6831300510639732
   ]
   edge [
     source 57
     target 65
-    similar 0.40384615384615385
+    delta 0.5758289219624358
   ]
   edge [
     source 57
     target 112
-    similar 0.575
+    delta 0.7347080497499309
   ]
   edge [
     source 57
     target 70
-    similar 0.6046511627906976
+    delta 0.753702346348183
   ]
   edge [
     source 57
     target 192
-    similar 0.16326530612244897
+    delta 0.28829998806257884
   ]
   edge [
     source 57
     target 449
-    similar 0.18421052631578946
+    delta 0.3741657386773941
   ]
   edge [
     source 57
     target 138
-    similar 0.525
+    delta 0.6961432213383857
   ]
   edge [
     source 57
     target 201
-    similar 0.09615384615384616
+    delta 0.1801874925391118
   ]
   edge [
     source 57
     target 67
-    similar 0.045454545454545456
+    delta 0.08696565534786727
   ]
   edge [
     source 57
     target 538
-    similar 0.2222222222222222
+    delta 0.4507489358552088
   ]
   edge [
     source 57
     target 351
-    similar 0.35135135135135137
+    delta 0.5673665146135801
   ]
   edge [
     source 57
     target 171
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 57
     target 520
-    similar 0.25
+    delta 0.4810702354423639
   ]
   edge [
     source 57
     target 99
-    similar 0.36
+    delta 0.5296408977028497
   ]
   edge [
     source 57
     target 137
-    similar 0.43902439024390244
+    delta 0.6210590034081188
   ]
   edge [
     source 57
     target 402
-    similar 0.3055555555555556
+    delta 0.5367450401216932
   ]
   edge [
     source 57
     target 62
-    similar 0.5
+    delta 0.6667366910003157
   ]
   edge [
     source 57
     target 120
-    similar 0.4186046511627907
+    delta 0.5966941897186163
   ]
   edge [
     source 57
     target 75
-    similar 0.36538461538461536
+    delta 0.5352643613280604
   ]
   edge [
     source 57
     target 308
-    similar 0.3684210526315789
+    delta 0.5739440431835514
   ]
   edge [
     source 57
     target 758
-    similar 0.08108108108108109
+    delta 0.22677868380553634
   ]
   edge [
     source 57
     target 748
-    similar 0.1388888888888889
+    delta 0.3450327796711771
   ]
   edge [
     source 57
     target 100
-    similar 0.06557377049180328
+    delta 0.12344267996967354
   ]
   edge [
     source 57
     target 107
-    similar 0.23076923076923078
+    delta 0.3766588923446067
   ]
   edge [
     source 57
     target 203
-    similar 0.45
+    delta 0.6344166391652172
   ]
   edge [
     source 58
     target 336
-    similar 0.1956521739130435
+    delta 0.3851644432598216
   ]
   edge [
     source 58
     target 226
-    similar 0.1509433962264151
+    delta 0.28319693016191544
   ]
   edge [
     source 58
     target 380
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 58
     target 93
-    similar 0.15151515151515152
+    delta 0.26462806201248157
   ]
   edge [
     source 58
     target 227
-    similar 0.13725490196078433
+    delta 0.2700308624336608
   ]
   edge [
     source 58
     target 251
-    similar 0.16981132075471697
+    delta 0.3105295017040594
   ]
   edge [
     source 58
     target 546
-    similar 0.1111111111111111
+    delta 0.2727723627949905
   ]
   edge [
     source 58
     target 215
-    similar 0.1320754716981132
+    delta 0.2545875386086578
   ]
   edge [
     source 58
     target 108
-    similar 0.1724137931034483
+    delta 0.30261376633440124
   ]
   edge [
     source 58
     target 216
-    similar 0.2
+    delta 0.363696483726654
   ]
   edge [
     source 58
     target 157
-    similar 0.24
+    delta 0.41403933560541256
   ]
   edge [
     source 58
     target 230
-    similar 0.11764705882352941
+    delta 0.23904572186687875
   ]
   edge [
     source 58
     target 358
-    similar 0.17777777777777778
+    delta 0.37219368415938836
   ]
   edge [
     source 58
     target 164
-    similar 0.06349206349206349
+    delta 0.12344267996967354
   ]
   edge [
     source 58
     target 101
-    similar 0.03125
+    delta 0.0629940788348712
   ]
   edge [
     source 58
     target 791
-    similar 0.044444444444444446
+    delta 0.13801311186847084
   ]
   edge [
     source 58
     target 117
-    similar 0.2727272727272727
+    delta 0.4374088826398532
   ]
   edge [
     source 58
     target 68
-    similar 0.15942028985507245
+    delta 0.2753443958769674
   ]
   edge [
     source 58
     target 69
-    similar 0.23728813559322035
+    delta 0.3879917968315853
   ]
   edge [
     source 58
     target 199
-    similar 0.0847457627118644
+    delta 0.16448792373994225
   ]
   edge [
     source 58
     target 293
-    similar 0.05263157894736842
+    delta 0.10910894511799618
   ]
   edge [
     source 58
     target 425
-    similar 0.0851063829787234
+    delta 0.20573779994945587
   ]
   edge [
     source 58
     target 392
-    similar 0.14893617021276595
+    delta 0.31180478223116176
   ]
   edge [
     source 58
     target 569
-    similar 0.16279069767441862
+    delta 0.3818813079129867
   ]
   edge [
     source 58
     target 613
-    similar 0.06521739130434782
+    delta 0.17496355305594127
   ]
   edge [
     source 58
     target 395
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 58
     target 1242
-    similar 0.047619047619047616
+    delta 0.2182178902359924
   ]
   edge [
     source 58
     target 280
-    similar 0.11764705882352941
+    delta 0.23904572186687875
   ]
   edge [
     source 58
     target 62
-    similar 0.05555555555555555
+    delta 0.10585122480499262
   ]
   edge [
     source 58
     target 927
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 58
     target 335
-    similar 0.1
+    delta 0.21398024625545645
   ]
   edge [
     source 59
     target 852
-    similar 0.058823529411764705
+    delta 0.20100756305184242
   ]
   edge [
     source 59
     target 766
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 59
     target 637
-    similar 0.11764705882352941
+    delta 0.3113995776646092
   ]
   edge [
     source 59
     target 488
-    similar 0.20588235294117646
+    delta 0.43082021842766455
   ]
   edge [
     source 59
     target 880
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 59
     target 593
-    similar 0.1111111111111111
+    delta 0.2631806779839076
   ]
   edge [
     source 59
     target 152
-    similar 0.5405405405405406
+    delta 0.7106690545187014
   ]
   edge [
     source 59
     target 498
-    similar 0.21212121212121213
+    delta 0.4605661864718383
   ]
   edge [
     source 59
     target 678
-    similar 0.05405405405405406
+    delta 0.1421338109037403
   ]
   edge [
     source 59
     target 753
-    similar 0.11428571428571428
+    delta 0.2842676218074806
   ]
   edge [
     source 59
     target 640
-    similar 0.14705882352941177
+    delta 0.3553345272593507
   ]
   edge [
     source 59
     target 793
-    similar 0.11764705882352941
+    delta 0.3113995776646092
   ]
   edge [
     source 59
     target 110
-    similar 0.1568627450980392
+    delta 0.27311549679956754
   ]
   edge [
     source 59
     target 896
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 59
     target 519
-    similar 0.14285714285714285
+    delta 0.3289758474798845
   ]
   edge [
     source 59
     target 716
-    similar 0.08333333333333333
+    delta 0.21320071635561044
   ]
   edge [
     source 59
     target 598
-    similar 0.07894736842105263
+    delta 0.1846372364689991
   ]
   edge [
     source 59
     target 435
-    similar 0.0975609756097561
+    delta 0.20100756305184242
   ]
   edge [
     source 59
     target 466
-    similar 0.19444444444444445
+    delta 0.3853373177942262
   ]
   edge [
     source 59
     target 151
-    similar 0.17391304347826086
+    delta 0.3038948705590345
   ]
   edge [
     source 59
     target 445
-    similar 0.13513513513513514
+    delta 0.29012942659282975
   ]
   edge [
     source 59
     target 366
-    similar 0.06818181818181818
+    delta 0.13957263155977062
   ]
   edge [
     source 59
     target 83
-    similar 0.10526315789473684
+    delta 0.19069251784911845
   ]
   edge [
     source 59
     target 265
-    similar 0.0425531914893617
+    delta 0.08703882797784893
   ]
   edge [
     source 59
     target 1174
-    similar 0.06060606060606061
+    delta 0.24618298195866545
   ]
   edge [
     source 59
     target 949
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 59
     target 333
-    similar 0.09090909090909091
+    delta 0.1797866299901979
   ]
   edge [
     source 59
     target 879
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 59
     target 299
-    similar 0.17073170731707318
+    delta 0.3146266024828463
   ]
   edge [
     source 59
     target 577
-    similar 0.07692307692307693
+    delta 0.17407765595569785
   ]
   edge [
     source 60
     target 353
-    similar 0.1794871794871795
+    delta 0.3379631847096873
   ]
   edge [
     source 60
     target 320
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 60
     target 609
-    similar 0.1388888888888889
+    delta 0.3077287274483318
   ]
   edge [
     source 60
     target 166
-    similar 0.30952380952380953
+    delta 0.48247525236638356
   ]
   edge [
     source 60
     target 359
-    similar 0.35294117647058826
+    delta 0.5793654595023211
   ]
   edge [
     source 60
     target 667
-    similar 0.21212121212121213
+    delta 0.4605661864718383
   ]
   edge [
     source 60
     target 285
-    similar 0.2972972972972973
+    delta 0.4944132324730442
   ]
   edge [
     source 60
     target 161
-    similar 0.3488372093023256
+    delta 0.5222329678670935
   ]
   edge [
     source 60
     target 364
-    similar 0.3142857142857143
+    delta 0.5310850045437943
   ]
   edge [
     source 60
     target 136
-    similar 0.20408163265306123
+    delta 0.3413943709994594
   ]
   edge [
     source 60
     target 144
-    similar 0.3488372093023256
+    delta 0.5222329678670935
   ]
   edge [
     source 60
     target 822
-    similar 0.11764705882352941
+    delta 0.3113995776646092
   ]
   edge [
     source 60
     target 97
-    similar 0.3404255319148936
+    delta 0.5085133809309825
   ]
   edge [
     source 60
     target 305
-    similar 0.17073170731707318
+    delta 0.3146266024828463
   ]
   edge [
     source 60
     target 155
-    similar 0.16326530612244897
+    delta 0.2842676218074806
   ]
   edge [
     source 60
     target 158
-    similar 0.05660377358490566
+    delta 0.10889310129609417
   ]
   edge [
     source 60
     target 788
-    similar 0.15151515151515152
+    delta 0.3892494720807615
   ]
   edge [
     source 60
     target 903
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 60
     target 795
-    similar 0.11764705882352941
+    delta 0.3113995776646092
   ]
   edge [
     source 60
     target 234
-    similar 0.20454545454545456
+    delta 0.35032452487268534
   ]
   edge [
     source 60
     target 568
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 60
     target 187
-    similar 0.20454545454545456
+    delta 0.35032452487268534
   ]
   edge [
     source 60
     target 387
-    similar 0.1794871794871795
+    delta 0.3379631847096873
   ]
   edge [
     source 60
     target 240
-    similar 0.275
+    delta 0.45133546692422
   ]
   edge [
     source 60
     target 328
-    similar 0.175
+    delta 0.3256694736394648
   ]
   edge [
     source 60
     target 480
-    similar 0.13513513513513514
+    delta 0.29012942659282975
   ]
   edge [
     source 61
     target 128
-    similar 0.32608695652173914
+    delta 0.5
   ]
   edge [
     source 61
     target 450
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 61
     target 81
-    similar 0.24528301886792453
+    delta 0.39557740264262
   ]
   edge [
     source 61
     target 262
-    similar 0.24390243902439024
+    delta 0.43033148291193524
   ]
   edge [
     source 61
     target 143
-    similar 0.4634146341463415
+    delta 0.6463931265677831
   ]
   edge [
     source 61
     target 618
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 61
     target 90
-    similar 0.37777777777777777
+    delta 0.5556623828915214
   ]
   edge [
     source 61
     target 518
-    similar 0.15
+    delta 0.31622776601683794
   ]
   edge [
     source 61
     target 304
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 61
     target 239
-    similar 0.22727272727272727
+    delta 0.3928371006591931
   ]
   edge [
     source 61
     target 515
-    similar 0.18421052631578946
+    delta 0.3888888888888889
   ]
   edge [
     source 61
     target 461
-    similar 0.1794871794871795
+    delta 0.3689323936863109
   ]
   edge [
     source 61
     target 467
-    similar 0.20512820512820512
+    delta 0.40201512610368484
   ]
   edge [
     source 61
     target 228
-    similar 0.27906976744186046
+    delta 0.45883146774112354
   ]
   edge [
     source 61
     target 666
-    similar 0.10526315789473684
+    delta 0.2721655269759087
   ]
   edge [
     source 61
     target 1084
-    similar 0.08333333333333333
+    delta 0.28867513459481287
   ]
   edge [
     source 61
     target 478
-    similar 0.06976744186046512
+    delta 0.15811388300841897
   ]
   edge [
     source 61
     target 529
-    similar 0.046511627906976744
+    delta 0.1111111111111111
   ]
   edge [
     source 61
     target 355
-    similar 0.06382978723404255
+    delta 0.1336306209562122
   ]
   edge [
     source 61
     target 136
-    similar 0.06896551724137931
+    delta 0.13074409009212268
   ]
   edge [
     source 61
     target 243
-    similar 0.09615384615384616
+    delta 0.181848241863327
   ]
   edge [
     source 61
     target 155
-    similar 0.07142857142857142
+    delta 0.13608276348795434
   ]
   edge [
     source 61
     target 98
-    similar 0.078125
+    delta 0.14506471329641488
   ]
   edge [
     source 61
     target 104
-    similar 0.046153846153846156
+    delta 0.08838834764831845
   ]
   edge [
     source 61
     target 103
-    similar 0.14814814814814814
+    delta 0.26148818018424536
   ]
   edge [
     source 61
     target 223
-    similar 0.14285714285714285
+    delta 0.2608745973749754
   ]
   edge [
     source 61
     target 248
-    similar 0.125
+    delta 0.23570226039551584
   ]
   edge [
     source 61
     target 331
-    similar 0.04081632653061224
+    delta 0.08606629658238704
   ]
   edge [
     source 62
     target 95
-    similar 0.6153846153846154
+    delta 0.7643157063581784
   ]
   edge [
     source 62
     target 88
-    similar 0.4523809523809524
+    delta 0.6270934438852271
   ]
   edge [
     source 62
     target 406
-    similar 0.15384615384615385
+    delta 0.3102526139970115
   ]
   edge [
     source 62
     target 410
-    similar 0.15384615384615385
+    delta 0.3102526139970115
   ]
   edge [
     source 62
     target 232
-    similar 0.17777777777777778
+    delta 0.3147557901458535
   ]
   edge [
     source 62
     target 65
-    similar 0.5
+    delta 0.6676978608895887
   ]
   edge [
     source 62
     target 112
-    similar 0.631578947368421
+    delta 0.7778444682625973
   ]
   edge [
     source 62
     target 471
-    similar 0.2222222222222222
+    delta 0.4338609156373123
   ]
   edge [
     source 62
     target 70
-    similar 0.5111111111111111
+    delta 0.6764705882352942
   ]
   edge [
     source 62
     target 308
-    similar 0.3783783783783784
+    delta 0.5823232315653921
   ]
   edge [
     source 62
     target 351
-    similar 0.32432432432432434
+    delta 0.5313689313240572
   ]
   edge [
     source 62
     target 75
-    similar 0.4
+    delta 0.5716619504750294
   ]
   edge [
     source 62
     target 171
-    similar 0.37209302325581395
+    delta 0.5487954724560283
   ]
   edge [
     source 62
     target 470
-    similar 0.25
+    delta 0.46537892099551725
   ]
   edge [
     source 62
     target 120
-    similar 0.4634146341463415
+    delta 0.6390391542964968
   ]
   edge [
     source 62
     target 138
-    similar 0.5384615384615384
+    delta 0.7063064336961281
   ]
   edge [
     source 62
     target 520
-    similar 0.2222222222222222
+    delta 0.4338609156373123
   ]
   edge [
     source 62
     target 99
-    similar 0.34
+    delta 0.5075192189225524
   ]
   edge [
     source 62
     target 378
-    similar 0.3333333333333333
+    delta 0.5500190982169268
   ]
   edge [
     source 62
     target 137
-    similar 0.45
+    delta 0.6301260378126043
   ]
   edge [
     source 62
     target 448
-    similar 0.3235294117647059
+    delta 0.5687964589945211
   ]
   edge [
     source 62
     target 201
-    similar 0.05660377358490566
+    delta 0.10969086361906959
   ]
   edge [
     source 62
     target 435
-    similar 0.06976744186046512
+    delta 0.14852213144650114
   ]
   edge [
     source 62
     target 748
-    similar 0.14285714285714285
+    delta 0.3500700210070024
   ]
   edge [
     source 62
     target 203
-    similar 0.5405405405405406
+    delta 0.7151985398521515
   ]
   edge [
     source 63
     target 298
-    similar 0.2619047619047619
+    delta 0.47075654176200415
   ]
   edge [
     source 63
     target 853
-    similar 0.04878048780487805
+    delta 0.16012815380508713
   ]
   edge [
     source 63
     target 204
-    similar 0.1509433962264151
+    delta 0.27311549679956754
   ]
   edge [
     source 63
     target 71
-    similar 0.15873015873015872
+    delta 0.27461751819054486
   ]
   edge [
     source 63
     target 83
-    similar 0.23214285714285715
+    delta 0.38005847503304596
   ]
   edge [
     source 63
     target 356
-    similar 0.2926829268292683
+    delta 0.5135525910130955
   ]
   edge [
     source 63
     target 407
-    similar 0.0851063829787234
+    delta 0.1849000654084097
   ]
   edge [
     source 63
     target 207
-    similar 0.1568627450980392
+    delta 0.2864459496157732
   ]
   edge [
     source 63
     target 253
-    similar 0.18181818181818182
+    delta 0.35529247334746206
   ]
   edge [
     source 63
     target 109
-    similar 0.4782608695652174
+    delta 0.6541711367950579
   ]
   edge [
     source 63
     target 176
-    similar 0.2553191489361702
+    delta 0.4296689244236597
   ]
   edge [
     source 63
     target 165
-    similar 0.4634146341463415
+    delta 0.6639137299238815
   ]
   edge [
     source 63
     target 191
-    similar 0.3953488372093023
+    delta 0.5940280741424203
   ]
   edge [
     source 63
     target 178
-    similar 0.16981132075471697
+    delta 0.30050125348238005
   ]
   edge [
     source 63
     target 142
-    similar 0.23076923076923078
+    delta 0.38430756913220915
   ]
   edge [
     source 63
     target 457
-    similar 0.16279069767441862
+    delta 0.3379631847096873
   ]
   edge [
     source 63
     target 513
-    similar 0.043478260869565216
+    delta 0.10675210253672476
   ]
   edge [
     source 63
     target 360
-    similar 0.08163265306122448
+    delta 0.17118419700436516
   ]
   edge [
     source 63
     target 323
-    similar 0.10204081632653061
+    delta 0.20672455764868078
   ]
   edge [
     source 63
     target 255
-    similar 0.2127659574468085
+    delta 0.3774256780481986
   ]
   edge [
     source 63
     target 219
-    similar 0.32608695652173914
+    delta 0.5120915564991891
   ]
   edge [
     source 63
     target 361
-    similar 0.13333333333333333
+    delta 0.2773500981126145
   ]
   edge [
     source 63
     target 324
-    similar 0.17391304347826086
+    delta 0.33075929223788925
   ]
   edge [
     source 63
     target 134
-    similar 0.30612244897959184
+    delta 0.4803844614152614
   ]
   edge [
     source 63
     target 169
-    similar 0.17647058823529413
+    delta 0.3144854510165755
   ]
   edge [
     source 63
     target 245
-    similar 0.3023255813953488
+    delta 0.5048781642974013
   ]
   edge [
     source 63
     target 154
-    similar 0.4318181818181818
+    delta 0.6210344279375828
   ]
   edge [
     source 63
     target 282
-    similar 0.27906976744186046
+    delta 0.48038446141526137
   ]
   edge [
     source 63
     target 373
-    similar 0.17777777777777778
+    delta 0.3423683940087303
   ]
   edge [
     source 63
     target 212
-    similar 0.2765957446808511
+    delta 0.45425676257949793
   ]
   edge [
     source 63
     target 400
-    similar 0.21951219512195122
+    delta 0.4345240946267408
   ]
   edge [
     source 63
     target 532
-    similar 0.13953488372093023
+    delta 0.3038218101251
   ]
   edge [
     source 64
     target 205
-    similar 0.22448979591836735
+    delta 0.3770751436050835
   ]
   edge [
     source 64
     target 636
-    similar 0.15789473684210525
+    delta 0.37282185960072
   ]
   edge [
     source 64
     target 163
-    similar 0.14
+    delta 0.2573251177328327
   ]
   edge [
     source 64
     target 405
-    similar 0.225
+    delta 0.4271210980886246
   ]
   edge [
     source 64
     target 122
-    similar 0.28
+    delta 0.4429403980178329
   ]
   edge [
     source 64
     target 196
-    similar 0.22448979591836735
+    delta 0.3770751436050835
   ]
   edge [
     source 64
     target 987
-    similar 0.08108108108108109
+    delta 0.2847473987257497
   ]
   edge [
     source 64
     target 597
-    similar 0.0975609756097561
+    delta 0.23249527748763857
   ]
   edge [
     source 64
     target 73
-    similar 0.2727272727272727
+    delta 0.42927285527410686
   ]
   edge [
     source 64
     target 289
-    similar 0.22727272727272727
+    delta 0.39872611141444997
   ]
   edge [
     source 64
     target 96
-    similar 0.046875
+    delta 0.09004503377814962
   ]
   edge [
     source 64
     target 654
-    similar 0.1282051282051282
+    delta 0.31068488300060004
   ]
   edge [
     source 64
     target 512
-    similar 0.09302325581395349
+    delta 0.20795009796401456
   ]
   edge [
     source 64
     target 462
-    similar 0.09090909090909091
+    delta 0.19827263883864385
   ]
   edge [
     source 64
     target 277
-    similar 0.10416666666666667
+    delta 0.20549873413169661
   ]
   edge [
     source 64
     target 464
-    similar 0.09523809523809523
+    delta 0.2191986497404764
   ]
   edge [
     source 64
     target 425
-    similar 0.09523809523809523
+    delta 0.2191986497404764
   ]
   edge [
     source 64
     target 611
-    similar 0.0975609756097561
+    delta 0.23249527748763857
   ]
   edge [
     source 64
     target 474
-    similar 0.11627906976744186
+    delta 0.24784079854830482
   ]
   edge [
     source 64
     target 102
-    similar 0.21818181818181817
+    delta 0.3601801351125985
   ]
   edge [
     source 64
     target 377
-    similar 0.1111111111111111
+    delta 0.2279803762937766
   ]
   edge [
     source 64
     target 385
-    similar 0.19047619047619047
+    delta 0.3647686020700426
   ]
   edge [
     source 64
     target 937
-    similar 0.10810810810810811
+    delta 0.3287979746107146
   ]
   edge [
     source 64
     target 260
-    similar 0.0784313725490196
+    delta 0.15499685165842572
   ]
   edge [
     source 64
     target 299
-    similar 0.18181818181818182
+    delta 0.3395810879824071
   ]
   edge [
     source 64
     target 366
-    similar 0.24390243902439024
+    delta 0.4393747751637468
   ]
   edge [
     source 64
     target 152
-    similar 0.08928571428571429
+    delta 0.16778901380350608
   ]
   edge [
     source 64
     target 105
-    similar 0.24528301886792453
+    delta 0.39686563206723136
   ]
   edge [
     source 64
     target 210
-    similar 0.11764705882352941
+    delta 0.22056438662814232
   ]
   edge [
     source 64
     target 371
-    similar 0.11627906976744186
+    delta 0.24784079854830482
   ]
   edge [
     source 64
     target 348
-    similar 0.19047619047619047
+    delta 0.3647686020700426
   ]
   edge [
     source 64
     target 91
-    similar 0.2545454545454545
+    delta 0.4068667356033675
   ]
   edge [
     source 64
     target 202
-    similar 0.12962962962962962
+    delta 0.23490461932490853
   ]
   edge [
     source 65
     target 580
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 65
     target 764
-    similar 0.07692307692307693
+    delta 0.24333213169614382
   ]
   edge [
     source 65
     target 406
-    similar 0.13953488372093023
+    delta 0.2934695928267111
   ]
   edge [
     source 65
     target 112
-    similar 0.6097560975609756
+    delta 0.7664241743562074
   ]
   edge [
     source 65
     target 818
-    similar 0.10256410256410256
+    delta 0.29019050004400465
   ]
   edge [
     source 65
     target 579
-    similar 0.07142857142857142
+    delta 0.18394180184548975
   ]
   edge [
     source 65
     target 351
-    similar 0.325
+    delta 0.5445100807792042
   ]
   edge [
     source 65
     target 99
-    similar 0.2033898305084746
+    delta 0.338869496834943
   ]
   edge [
     source 65
     target 687
-    similar 0.10256410256410256
+    delta 0.29019050004400465
   ]
   edge [
     source 65
     target 88
-    similar 0.4444444444444444
+    delta 0.6243905410544627
   ]
   edge [
     source 65
     target 402
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 65
     target 448
-    similar 0.2564102564102564
+    delta 0.4891159880445185
   ]
   edge [
     source 65
     target 308
-    similar 0.27906976744186046
+    delta 0.47213368521878024
   ]
   edge [
     source 65
     target 171
-    similar 0.2857142857142857
+    delta 0.4542199791661351
   ]
   edge [
     source 65
     target 378
-    similar 0.2682926829268293
+    delta 0.47691048323826596
   ]
   edge [
     source 65
     target 137
-    similar 0.37777777777777777
+    delta 0.5629262517526437
   ]
   edge [
     source 65
     target 70
-    similar 0.5652173913043478
+    delta 0.7233393492970543
   ]
   edge [
     source 65
     target 470
-    similar 0.1951219512195122
+    delta 0.3912927904356148
   ]
   edge [
     source 65
     target 75
-    similar 0.27586206896551724
+    delta 0.43259045634870014
   ]
   edge [
     source 65
     target 120
-    similar 0.3617021276595745
+    delta 0.5408420485294111
   ]
   edge [
     source 65
     target 138
-    similar 0.45454545454545453
+    delta 0.6362847629757777
   ]
   edge [
     source 65
     target 520
-    similar 0.2
+    delta 0.41039134083406165
   ]
   edge [
     source 65
     target 95
-    similar 0.45652173913043476
+    delta 0.6325989947852169
   ]
   edge [
     source 65
     target 641
-    similar 0.07142857142857142
+    delta 0.18394180184548975
   ]
   edge [
     source 65
     target 72
-    similar 0.07352941176470588
+    delta 0.13710212427677043
   ]
   edge [
     source 65
     target 683
-    similar 0.1
+    delta 0.26490647141300877
   ]
   edge [
     source 65
     target 307
-    similar 0.12244897959183673
+    delta 0.23606684260939012
   ]
   edge [
     source 65
     target 471
-    similar 0.2
+    delta 0.41039134083406165
   ]
   edge [
     source 65
     target 296
-    similar 0.1
+    delta 0.19672236884115843
   ]
   edge [
     source 66
     target 158
-    similar 0.1702127659574468
+    delta 0.29488391230979427
   ]
   edge [
     source 66
     target 231
-    similar 0.2972972972972973
+    delta 0.4861359120657514
   ]
   edge [
     source 66
     target 130
-    similar 0.32558139534883723
+    delta 0.49497474683058323
   ]
   edge [
     source 66
     target 664
-    similar 0.1875
+    delta 0.43301270189221935
   ]
   edge [
     source 66
     target 97
-    similar 0.34782608695652173
+    delta 0.5163977794943222
   ]
   edge [
     source 66
     target 746
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 66
     target 185
-    similar 0.2222222222222222
+    delta 0.3686048903872428
   ]
   edge [
     source 66
     target 297
-    similar 0.1794871794871795
+    delta 0.3307189138830738
   ]
   edge [
     source 66
     target 343
-    similar 0.14634146341463414
+    delta 0.27386127875258304
   ]
   edge [
     source 66
     target 82
-    similar 0.06153846153846154
+    delta 0.11624763874381928
   ]
   edge [
     source 66
     target 126
-    similar 0.08771929824561403
+    delta 0.1613743060919757
   ]
   edge [
     source 66
     target 132
-    similar 0.12
+    delta 0.21650635094610968
   ]
   edge [
     source 66
     target 116
-    similar 0.11320754716981132
+    delta 0.2041241452319315
   ]
   edge [
     source 66
     target 325
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 66
     target 1018
-    similar 0.09375
+    delta 0.3061862178478973
   ]
   edge [
     source 66
     target 305
-    similar 0.14634146341463414
+    delta 0.27386127875258304
   ]
   edge [
     source 66
     target 331
-    similar 0.20512820512820512
+    delta 0.3651483716701107
   ]
   edge [
     source 66
     target 136
-    similar 0.23404255319148937
+    delta 0.381356384904845
   ]
   edge [
     source 66
     target 222
-    similar 0.34210526315789475
+    delta 0.5272196186749782
   ]
   edge [
     source 66
     target 243
-    similar 0.17777777777777778
+    delta 0.3086066999241838
   ]
   edge [
     source 66
     target 194
-    similar 0.10204081632653061
+    delta 0.18844459036110225
   ]
   edge [
     source 66
     target 155
-    similar 0.24444444444444444
+    delta 0.3969283100678677
   ]
   edge [
     source 66
     target 1003
-    similar 0.09375
+    delta 0.3061862178478973
   ]
   edge [
     source 66
     target 187
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 66
     target 332
-    similar 0.3235294117647059
+    delta 0.5393193716300061
   ]
   edge [
     source 66
     target 285
-    similar 0.11904761904761904
+    delta 0.22821773229381923
   ]
   edge [
     source 67
     target 128
-    similar 0.18
+    delta 0.30869745325651593
   ]
   edge [
     source 67
     target 150
-    similar 0.08695652173913043
+    delta 0.17149858514250882
   ]
   edge [
     source 67
     target 84
-    similar 0.2037037037037037
+    delta 0.3388226069985336
   ]
   edge [
     source 67
     target 321
-    similar 0.11904761904761904
+    delta 0.23782574707724702
   ]
   edge [
     source 67
     target 800
-    similar 0.14705882352941177
+    delta 0.3834824944236852
   ]
   edge [
     source 67
     target 81
-    similar 0.2549019607843137
+    delta 0.4070457892053472
   ]
   edge [
     source 67
     target 125
-    similar 0.2826086956521739
+    delta 0.445896321370523
   ]
   edge [
     source 67
     target 201
-    similar 0.14285714285714285
+    delta 0.25594534844449573
   ]
   edge [
     source 67
     target 279
-    similar 0.10638297872340426
+    delta 0.20211302086361083
   ]
   edge [
     source 67
     target 104
-    similar 0.11864406779661017
+    delta 0.21221867190679136
   ]
   edge [
     source 67
     target 90
-    similar 0.22448979591836735
+    delta 0.36997003669797185
   ]
   edge [
     source 67
     target 143
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 67
     target 153
-    similar 0.24444444444444444
+    delta 0.40219983326992187
   ]
   edge [
     source 67
     target 211
-    similar 0.2926829268292683
+    delta 0.47213368521878024
   ]
   edge [
     source 67
     target 350
-    similar 0.14285714285714285
+    delta 0.2750095491084634
   ]
   edge [
     source 67
     target 262
-    similar 0.1951219512195122
+    delta 0.3542459542160381
   ]
   edge [
     source 67
     target 92
-    similar 0.19230769230769232
+    delta 0.3241018617760822
   ]
   edge [
     source 67
     target 113
-    similar 0.3181818181818182
+    delta 0.4900980294098034
   ]
   edge [
     source 67
     target 77
-    similar 0.2692307692307692
+    delta 0.4244373438135827
   ]
   edge [
     source 67
     target 223
-    similar 0.2857142857142857
+    delta 0.4601789933084222
   ]
   edge [
     source 67
     target 188
-    similar 0.09615384615384616
+    delta 0.17879963496303788
   ]
   edge [
     source 68
     target 229
-    similar 0.2926829268292683
+    delta 0.5026246899500346
   ]
   edge [
     source 68
     target 583
-    similar 0.125
+    delta 0.3065696697424829
   ]
   edge [
     source 68
     target 193
-    similar 0.2826086956521739
+    delta 0.46019501151311265
   ]
   edge [
     source 68
     target 69
-    similar 0.1694915254237288
+    delta 0.29135827337403253
   ]
   edge [
     source 68
     target 96
-    similar 0.15254237288135594
+    delta 0.2665569949915915
   ]
   edge [
     source 68
     target 389
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 68
     target 197
-    similar 0.1568627450980392
+    delta 0.28319693016191544
   ]
   edge [
     source 68
     target 145
-    similar 0.2037037037037037
+    delta 0.34341479757995447
   ]
   edge [
     source 68
     target 250
-    similar 0.12244897959183673
+    delta 0.23606684260939012
   ]
   edge [
     source 68
     target 233
-    similar 0.16666666666666666
+    delta 0.305887645160749
   ]
   edge [
     source 68
     target 173
-    similar 0.19607843137254902
+    delta 0.3382550457458692
   ]
   edge [
     source 68
     target 131
-    similar 0.23076923076923078
+    delta 0.38177085778546666
   ]
   edge [
     source 68
     target 336
-    similar 0.1590909090909091
+    delta 0.3149448894660933
   ]
   edge [
     source 68
     target 805
-    similar 0.04878048780487805
+    delta 0.14509525002200233
   ]
   edge [
     source 68
     target 592
-    similar 0.15
+    delta 0.3441236008058426
   ]
   edge [
     source 68
     target 141
-    similar 0.24
+    delta 0.39735970711951313
   ]
   edge [
     source 68
     target 497
-    similar 0.2
+    delta 0.41039134083406165
   ]
   edge [
     source 68
     target 291
-    similar 0.05660377358490566
+    delta 0.11470786693528089
   ]
   edge [
     source 68
     target 91
-    similar 0.06060606060606061
+    delta 0.11470786693528087
   ]
   edge [
     source 68
     target 89
-    similar 0.05970149253731343
+    delta 0.112956498944981
   ]
   edge [
     source 68
     target 72
-    similar 0.057971014492753624
+    delta 0.10968169942141634
   ]
   edge [
     source 68
     target 221
-    similar 0.16666666666666666
+    delta 0.305887645160749
   ]
   edge [
     source 68
     target 133
-    similar 0.19298245614035087
+    delta 0.32579188276750076
   ]
   edge [
     source 68
     target 553
-    similar 0.11904761904761904
+    delta 0.2703690352179376
   ]
   edge [
     source 68
     target 564
-    similar 0.09302325581395349
+    delta 0.21629522817435007
   ]
   edge [
     source 68
     target 316
-    similar 0.10416666666666667
+    delta 0.20942695414584775
   ]
   edge [
     source 68
     target 157
-    similar 0.2608695652173913
+    delta 0.435285750066007
   ]
   edge [
     source 69
     target 227
-    similar 0.46875
+    delta 0.673519882600406
   ]
   edge [
     source 69
     target 129
-    similar 0.034482758620689655
+    delta 0.06670373459650701
   ]
   edge [
     source 69
     target 251
-    similar 0.275
+    delta 0.44177063089637436
   ]
   edge [
     source 69
     target 193
-    similar 0.18181818181818182
+    delta 0.3135447206678482
   ]
   edge [
     source 69
     target 271
-    similar 0.46875
+    delta 0.673519882600406
   ]
   edge [
     source 69
     target 216
-    similar 0.225
+    delta 0.38100038100057154
   ]
   edge [
     source 69
     target 421
-    similar 0.17142857142857143
+    delta 0.3407771005482389
   ]
   edge [
     source 69
     target 198
-    similar 0.358974358974359
+    delta 0.5360877067472385
   ]
   edge [
     source 69
     target 133
-    similar 0.22
+    delta 0.3607042096811741
   ]
   edge [
     source 69
     target 256
-    similar 0.35294117647058826
+    delta 0.5564866749122019
   ]
   edge [
     source 69
     target 454
-    similar 0.3125
+    delta 0.5415303610738823
   ]
   edge [
     source 69
     target 468
-    similar 0.2
+    delta 0.37907125275171766
   ]
   edge [
     source 69
     target 199
-    similar 0.2926829268292683
+    delta 0.45950374864049015
   ]
   edge [
     source 69
     target 179
-    similar 0.2926829268292683
+    delta 0.45950374864049015
   ]
   edge [
     source 69
     target 392
-    similar 0.2647058823529412
+    delta 0.4666282626286914
   ]
   edge [
     source 69
     target 209
-    similar 0.42857142857142855
+    delta 0.6180642325727469
   ]
   edge [
     source 69
     target 74
-    similar 0.28
+    delta 0.4377137796365057
   ]
   edge [
     source 70
     target 95
-    similar 0.5365853658536586
+    delta 0.7006227308283302
   ]
   edge [
     source 70
     target 88
-    similar 0.525
+    delta 0.6931032800836721
   ]
   edge [
     source 70
     target 112
-    similar 0.5897435897435898
+    delta 0.7454342820849891
   ]
   edge [
     source 70
     target 484
-    similar 0.13513513513513514
+    delta 0.30316953129541624
   ]
   edge [
     source 70
     target 194
-    similar 0.07692307692307693
+    delta 0.14625448482542613
   ]
   edge [
     source 70
     target 351
-    similar 0.4
+    delta 0.6199304198780667
   ]
   edge [
     source 70
     target 99
-    similar 0.3137254901960784
+    delta 0.4776651472212257
   ]
   edge [
     source 70
     target 402
-    similar 0.3142857142857143
+    delta 0.5445811486371709
   ]
   edge [
     source 70
     target 448
-    similar 0.2857142857142857
+    delta 0.5170876899950192
   ]
   edge [
     source 70
     target 308
-    similar 0.3783783783783784
+    delta 0.5823232315653921
   ]
   edge [
     source 70
     target 171
-    similar 0.3409090909090909
+    delta 0.5144957554275266
   ]
   edge [
     source 70
     target 378
-    similar 0.3333333333333333
+    delta 0.5500190982169268
   ]
   edge [
     source 70
     target 137
-    similar 0.5263157894736842
+    delta 0.7001400420140048
   ]
   edge [
     source 70
     target 470
-    similar 0.25
+    delta 0.46537892099551725
   ]
   edge [
     source 70
     target 75
-    similar 0.37254901960784315
+    delta 0.543078852951278
   ]
   edge [
     source 70
     target 120
-    similar 0.5
+    delta 0.6726727939963124
   ]
   edge [
     source 70
     target 538
-    similar 0.22857142857142856
+    delta 0.4573295603800236
   ]
   edge [
     source 70
     target 580
-    similar 0.17647058823529413
+    delta 0.42008402520840293
   ]
   edge [
     source 70
     target 683
-    similar 0.1111111111111111
+    delta 0.28005601680560194
   ]
   edge [
     source 70
     target 72
-    similar 0.06153846153846154
+    delta 0.11595420713048969
   ]
   edge [
     source 70
     target 449
-    similar 0.1891891891891892
+    delta 0.3796283011826483
   ]
   edge [
     source 70
     target 138
-    similar 0.6216216216216216
+    delta 0.7735737130957593
   ]
   edge [
     source 70
     target 107
-    similar 0.23529411764705882
+    delta 0.3821578531790892
   ]
   edge [
     source 70
     target 203
-    similar 0.5833333333333334
+    delta 0.7509584668447591
   ]
   edge [
     source 71
     target 298
-    similar 0.14285714285714285
+    delta 0.2750095491084634
   ]
   edge [
     source 71
     target 169
-    similar 0.25
+    delta 0.41166465371081584
   ]
   edge [
     source 71
     target 109
-    similar 0.16666666666666666
+    delta 0.28661838988431687
   ]
   edge [
     source 71
     target 154
-    similar 0.1836734693877551
+    delta 0.3150630189063022
   ]
   edge [
     source 71
     target 98
-    similar 0.19642857142857142
+    delta 0.3283947887145927
   ]
   edge [
     source 71
     target 286
-    similar 0.24390243902439024
+    delta 0.4159451654038515
   ]
   edge [
     source 71
     target 422
-    similar 0.18421052631578946
+    delta 0.3619613829965134
   ]
   edge [
     source 71
     target 255
-    similar 0.18181818181818182
+    delta 0.3233808333817773
   ]
   edge [
     source 71
     target 204
-    similar 0.3333333333333333
+    delta 0.5118906968889915
   ]
   edge [
     source 71
     target 321
-    similar 0.20512820512820512
+    delta 0.38052119532359524
   ]
   edge [
     source 71
     target 132
-    similar 0.2608695652173913
+    delta 0.42008402520840293
   ]
   edge [
     source 71
     target 599
-    similar 0.16666666666666666
+    delta 0.36380343755449945
   ]
   edge [
     source 71
     target 116
-    similar 0.22
+    delta 0.36305409909144726
   ]
   edge [
     source 71
     target 572
-    similar 0.10256410256410256
+    delta 0.2286647801900118
   ]
   edge [
     source 71
     target 507
-    similar 0.1282051282051282
+    delta 0.2711630722733202
   ]
   edge [
     source 71
     target 555
-    similar 0.13157894736842105
+    delta 0.2858309752375147
   ]
   edge [
     source 71
     target 281
-    similar 0.08333333333333333
+    delta 0.16169041669088866
   ]
   edge [
     source 71
     target 964
-    similar 0.08823529411764706
+    delta 0.2970442628930023
   ]
   edge [
     source 71
     target 452
-    similar 0.125
+    delta 0.2585438449975096
   ]
   edge [
     source 71
     target 176
-    similar 0.14893617021276595
+    delta 0.2684377460965796
   ]
   edge [
     source 71
     target 123
-    similar 0.2765957446808511
+    delta 0.4372373160976031
   ]
   edge [
     source 71
     target 261
-    similar 0.10869565217391304
+    delta 0.20797258270192576
   ]
   edge [
     source 71
     target 160
-    similar 0.18
+    delta 0.30869745325651593
   ]
   edge [
     source 71
     target 628
-    similar 0.07692307692307693
+    delta 0.18190171877724973
   ]
   edge [
     source 72
     target 542
-    similar 0.04878048780487805
+    delta 0.11952286093343936
   ]
   edge [
     source 72
     target 357
-    similar 0.0425531914893617
+    delta 0.09035079029052513
   ]
   edge [
     source 72
     target 384
-    similar 0.044444444444444446
+    delta 0.09759000729485333
   ]
   edge [
     source 72
     target 598
-    similar 0.10256410256410256
+    delta 0.23904572186687872
   ]
   edge [
     source 72
     target 342
-    similar 0.13953488372093023
+    delta 0.2710523708715754
   ]
   edge [
     source 72
     target 217
-    similar 0.07692307692307693
+    delta 0.1475422227126635
   ]
   edge [
     source 72
     target 164
-    similar 0.1111111111111111
+    delta 0.20283702113484398
   ]
   edge [
     source 72
     target 140
-    similar 0.05660377358490566
+    delta 0.11065666703449763
   ]
   edge [
     source 72
     target 293
-    similar 0.06
+    delta 0.11952286093343938
   ]
   edge [
     source 72
     target 608
-    similar 0.05
+    delta 0.12777531299998798
   ]
   edge [
     source 72
     target 663
-    similar 0.05128205128205128
+    delta 0.13801311186847084
   ]
   edge [
     source 72
     target 732
-    similar 0.1111111111111111
+    delta 0.30237157840738177
   ]
   edge [
     source 72
     target 201
-    similar 0.05555555555555555
+    delta 0.10811249552346708
   ]
   edge [
     source 72
     target 475
-    similar 0.09523809523809523
+    delta 0.20385887657505022
   ]
   edge [
     source 72
     target 223
-    similar 0.0784313725490196
+    delta 0.15118578920369088
   ]
   edge [
     source 72
     target 119
-    similar 0.08928571428571429
+    delta 0.16574838603294897
   ]
   edge [
     source 72
     target 87
-    similar 0.08064516129032258
+    delta 0.1494035761667992
   ]
   edge [
     source 72
     target 172
-    similar 0.07272727272727272
+    delta 0.13801311186847084
   ]
   edge [
     source 72
     target 754
-    similar 0.1111111111111111
+    delta 0.30237157840738177
   ]
   edge [
     source 72
     target 188
-    similar 0.05454545454545454
+    delta 0.1057361065275362
   ]
   edge [
     source 73
     target 225
-    similar 0.23255813953488372
+    delta 0.3892494720807615
   ]
   edge [
     source 73
     target 205
-    similar 0.2727272727272727
+    delta 0.4355724051843767
   ]
   edge [
     source 73
     target 156
-    similar 0.26666666666666666
+    delta 0.4264014327112209
   ]
   edge [
     source 73
     target 196
-    similar 0.4
+    delta 0.5807632069125022
   ]
   edge [
     source 73
     target 451
-    similar 0.20588235294117646
+    delta 0.43082021842766455
   ]
   edge [
     source 73
     target 464
-    similar 0.13513513513513514
+    delta 0.29012942659282975
   ]
   edge [
     source 73
     target 878
-    similar 0.12121212121212122
+    delta 0.3481553119113957
   ]
   edge [
     source 73
     target 611
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 73
     target 661
-    similar 0.05714285714285714
+    delta 0.17407765595569785
   ]
   edge [
     source 73
     target 891
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 73
     target 105
-    similar 0.2653061224489796
+    delta 0.42023031949290335
   ]
   edge [
     source 73
     target 1127
-    similar 0.06060606060606061
+    delta 0.24618298195866545
   ]
   edge [
     source 73
     target 289
-    similar 0.13636363636363635
+    delta 0.25332019855244947
   ]
   edge [
     source 73
     target 409
-    similar 0.2222222222222222
+    delta 0.4198911048651824
   ]
   edge [
     source 73
     target 698
-    similar 0.11764705882352941
+    delta 0.3113995776646092
   ]
   edge [
     source 73
     target 726
-    similar 0.14705882352941177
+    delta 0.3553345272593507
   ]
   edge [
     source 73
     target 496
-    similar 0.16216216216216217
+    delta 0.3302891295379082
   ]
   edge [
     source 73
     target 122
-    similar 0.36363636363636365
+    delta 0.5360201681382464
   ]
   edge [
     source 73
     target 89
-    similar 0.24528301886792453
+    delta 0.3939393939393939
   ]
   edge [
     source 73
     target 318
-    similar 0.225
+    delta 0.39167472590032015
   ]
   edge [
     source 73
     target 499
-    similar 0.13513513513513514
+    delta 0.29012942659282975
   ]
   edge [
     source 73
     target 102
-    similar 0.3125
+    delta 0.4767312946227961
   ]
   edge [
     source 73
     target 292
-    similar 0.24390243902439024
+    delta 0.4103049699311091
   ]
   edge [
     source 73
     target 363
-    similar 0.18421052631578946
+    delta 0.35176323534072423
   ]
   edge [
     source 73
     target 371
-    similar 0.1891891891891892
+    delta 0.36740471675703457
   ]
   edge [
     source 73
     target 91
-    similar 0.3
+    delta 0.4615930911724977
   ]
   edge [
     source 73
     target 202
-    similar 0.11764705882352941
+    delta 0.21320071635561044
   ]
   edge [
     source 74
     target 336
-    similar 0.1794871794871795
+    delta 0.3379631847096873
   ]
   edge [
     source 74
     target 93
-    similar 0.2641509433962264
+    delta 0.41795700381857254
   ]
   edge [
     source 74
     target 314
-    similar 0.05
+    delta 0.11605177063713189
   ]
   edge [
     source 74
     target 250
-    similar 0.28205128205128205
+    delta 0.464420364012824
   ]
   edge [
     source 74
     target 340
-    similar 0.15
+    delta 0.28968272975116055
   ]
   edge [
     source 74
     target 164
-    similar 0.11538461538461539
+    delta 0.2088931871468374
   ]
   edge [
     source 74
     target 96
-    similar 0.14545454545454545
+    delta 0.25425669046549126
   ]
   edge [
     source 74
     target 256
-    similar 0.3333333333333333
+    delta 0.5393598899705937
   ]
   edge [
     source 74
     target 209
-    similar 0.3
+    delta 0.479233838298523
   ]
   edge [
     source 74
     target 271
-    similar 0.2894736842105263
+    delta 0.47871355387816905
   ]
   edge [
     source 74
     target 454
-    similar 0.2571428571428571
+    delta 0.4723774929733302
   ]
   edge [
     source 74
     target 389
-    similar 0.15384615384615385
+    delta 0.30151134457776363
   ]
   edge [
     source 74
     target 286
-    similar 0.06382978723404255
+    delta 0.12666009927622474
   ]
   edge [
     source 74
     target 145
-    similar 0.2
+    delta 0.335012605086404
   ]
   edge [
     source 74
     target 899
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 74
     target 613
-    similar 0.14285714285714285
+    delta 0.3289758474798845
   ]
   edge [
     source 74
     target 284
-    similar 0.1951219512195122
+    delta 0.3481553119113957
   ]
   edge [
     source 75
     target 270
-    similar 0.22727272727272727
+    delta 0.3928371006591931
   ]
   edge [
     source 75
     target 95
-    similar 0.3541666666666667
+    delta 0.526136791501647
   ]
   edge [
     source 75
     target 88
-    similar 0.4318181818181818
+    delta 0.609425284144605
   ]
   edge [
     source 75
     target 410
-    similar 0.14634146341463414
+    delta 0.30151134457776363
   ]
   edge [
     source 75
     target 96
-    similar 0.047619047619047616
+    delta 0.09128709291752769
   ]
   edge [
     source 75
     target 184
-    similar 0.2608695652173913
+    delta 0.4264014327112209
   ]
   edge [
     source 75
     target 378
-    similar 0.35135135135135137
+    delta 0.5790660241435861
   ]
   edge [
     source 75
     target 99
-    similar 0.38
+    delta 0.5512459105263765
   ]
   edge [
     source 75
     target 402
-    similar 0.2631578947368421
+    delta 0.4811252243246881
   ]
   edge [
     source 75
     target 523
-    similar 0.125
+    delta 0.2777777777777778
   ]
   edge [
     source 75
     target 846
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 75
     target 904
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 75
     target 1007
-    similar 0.05405405405405406
+    delta 0.19245008972987526
   ]
   edge [
     source 75
     target 107
-    similar 0.25
+    delta 0.4023398993836124
   ]
   edge [
     source 75
     target 743
-    similar 0.07894736842105263
+    delta 0.22360679774997896
   ]
   edge [
     source 75
     target 92
-    similar 0.04918032786885246
+    delta 0.0944911182523068
   ]
   edge [
     source 75
     target 90
-    similar 0.05084745762711865
+    delta 0.09805806756909201
   ]
   edge [
     source 75
     target 1017
-    similar 0.05405405405405406
+    delta 0.19245008972987526
   ]
   edge [
     source 75
     target 138
-    similar 0.4090909090909091
+    delta 0.588348405414552
   ]
   edge [
     source 75
     target 112
-    similar 0.3617021276595745
+    delta 0.5354496700964052
   ]
   edge [
     source 75
     target 525
-    similar 0.125
+    delta 0.2777777777777778
   ]
   edge [
     source 75
     target 120
-    similar 0.34782608695652173
+    delta 0.5229763603684907
   ]
   edge [
     source 75
     target 203
-    similar 0.3409090909090909
+    delta 0.5212860351426869
   ]
   edge [
     source 76
     target 544
-    similar 0.05263157894736842
+    delta 0.11973686801784993
   ]
   edge [
     source 76
     target 84
-    similar 0.24
+    delta 0.3870967741935484
   ]
   edge [
     source 76
     target 217
-    similar 0.08333333333333333
+    delta 0.1567723603339241
   ]
   edge [
     source 76
     target 101
-    similar 0.30952380952380953
+    delta 0.47660312381939823
   ]
   edge [
     source 76
     target 453
-    similar 0.07894736842105263
+    delta 0.17038855027411945
   ]
   edge [
     source 76
     target 508
-    similar 0.18181818181818182
+    delta 0.3810003810005715
   ]
   edge [
     source 76
     target 254
-    similar 0.21052631578947367
+    delta 0.37099111660813466
   ]
   edge [
     source 76
     target 80
-    similar 0.3409090909090909
+    delta 0.509133174976598
   ]
   edge [
     source 76
     target 239
-    similar 0.225
+    delta 0.38100038100057154
   ]
   edge [
     source 76
     target 518
-    similar 0.10810810810810811
+    delta 0.2271847336988259
   ]
   edge [
     source 76
     target 135
-    similar 0.30952380952380953
+    delta 0.47660312381939823
   ]
   edge [
     source 76
     target 81
-    similar 0.24489795918367346
+    delta 0.39349550147037177
   ]
   edge [
     source 76
     target 90
-    similar 0.29545454545454547
+    delta 0.4579054698896255
   ]
   edge [
     source 76
     target 210
-    similar 0.04081632653061224
+    delta 0.08032193289024989
   ]
   edge [
     source 76
     target 143
-    similar 0.1702127659574468
+    delta 0.2932942300427066
   ]
   edge [
     source 76
     target 211
-    similar 0.3888888888888889
+    delta 0.5768599504012304
   ]
   edge [
     source 76
     target 92
-    similar 0.2826086956521739
+    delta 0.44124875164638494
   ]
   edge [
     source 76
     target 113
-    similar 0.30952380952380953
+    delta 0.47660312381939823
   ]
   edge [
     source 76
     target 393
-    similar 0.41935483870967744
+    delta 0.6475761258027333
   ]
   edge [
     source 77
     target 632
-    similar 0.15625
+    delta 0.3952847075210474
   ]
   edge [
     source 77
     target 121
-    similar 0.29545454545454547
+    delta 0.4596194077712559
   ]
   edge [
     source 77
     target 84
-    similar 0.3695652173913043
+    delta 0.5397505397508097
   ]
   edge [
     source 77
     target 207
-    similar 0.061224489795918366
+    delta 0.11858541225631422
   ]
   edge [
     source 77
     target 101
-    similar 0.36585365853658536
+    delta 0.5412658773652742
   ]
   edge [
     source 77
     target 254
-    similar 0.23684210526315788
+    delta 0.41079191812887456
   ]
   edge [
     source 77
     target 463
-    similar 0.2727272727272727
+    delta 0.5031152949374527
   ]
   edge [
     source 77
     target 239
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 77
     target 125
-    similar 0.29545454545454547
+    delta 0.4596194077712559
   ]
   edge [
     source 77
     target 223
-    similar 0.20930232558139536
+    delta 0.35575623676894264
   ]
   edge [
     source 77
     target 211
-    similar 0.3783783783783784
+    delta 0.567774973957669
   ]
   edge [
     source 77
     target 481
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 77
     target 113
-    similar 0.3023255813953488
+    delta 0.46909709371657093
   ]
   edge [
     source 77
     target 248
-    similar 0.13636363636363635
+    delta 0.25
   ]
   edge [
     source 77
     target 531
-    similar 0.23529411764705882
+    delta 0.4472135954999579
   ]
   edge [
     source 77
     target 507
-    similar 0.2
+    delta 0.3913118960624632
   ]
   edge [
     source 77
     target 86
-    similar 0.425
+    delta 0.6010407640085653
   ]
   edge [
     source 77
     target 233
-    similar 0.06382978723404255
+    delta 0.125
   ]
   edge [
     source 78
     target 952
-    similar 0.06666666666666667
+    delta 0.2581988897471611
   ]
   edge [
     source 78
     target 955
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 78
     target 534
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 78
     target 858
-    similar 0.0967741935483871
+    delta 0.27386127875258304
   ]
   edge [
     source 78
     target 267
-    similar 0.09523809523809523
+    delta 0.18257418583505536
   ]
   edge [
     source 78
     target 510
-    similar 0.14705882352941177
+    delta 0.3042903097250923
   ]
   edge [
     source 78
     target 700
-    similar 0.16129032258064516
+    delta 0.37267799624996495
   ]
   edge [
     source 78
     target 933
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 78
     target 517
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 78
     target 146
-    similar 0.2926829268292683
+    delta 0.45683219257612856
   ]
   edge [
     source 78
     target 414
-    similar 0.2
+    delta 0.3689323936863109
   ]
   edge [
     source 78
     target 94
-    similar 0.3111111111111111
+    delta 0.4746444525345673
   ]
   edge [
     source 78
     target 437
-    similar 0.14705882352941177
+    delta 0.3042903097250923
   ]
   edge [
     source 78
     target 565
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 78
     target 224
-    similar 0.21951219512195122
+    delta 0.3674234614174767
   ]
   edge [
     source 78
     target 606
-    similar 0.08571428571428572
+    delta 0.19364916731037085
   ]
   edge [
     source 78
     target 382
-    similar 0.10526315789473684
+    delta 0.21081851067789195
   ]
   edge [
     source 78
     target 278
-    similar 0.14634146341463414
+    delta 0.2656844656620286
   ]
   edge [
     source 78
     target 778
-    similar 0.09375
+    delta 0.24494897427831783
   ]
   edge [
     source 78
     target 274
-    similar 0.1951219512195122
+    delta 0.3350831266333564
   ]
   edge [
     source 78
     target 423
-    similar 0.21212121212121213
+    delta 0.404145188432738
   ]
   edge [
     source 78
     target 610
-    similar 0.09090909090909091
+    delta 0.22360679774997896
   ]
   edge [
     source 78
     target 241
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 78
     target 246
-    similar 0.1794871794871795
+    delta 0.3195048252113469
   ]
   edge [
     source 78
     target 349
-    similar 0.075
+    delta 0.15191090506255
   ]
   edge [
     source 78
     target 379
-    similar 0.05405405405405406
+    delta 0.12171612389003691
   ]
   edge [
     source 79
     target 704
-    similar 0.05263157894736842
+    delta 0.15118578920369088
   ]
   edge [
     source 79
     target 922
-    similar 0.05405405405405406
+    delta 0.1690308509457033
   ]
   edge [
     source 79
     target 303
-    similar 0.11363636363636363
+    delta 0.22587697572631282
   ]
   edge [
     source 79
     target 1184
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 1124
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 200
-    similar 0.12244897959183673
+    delta 0.22677868380553634
   ]
   edge [
     source 79
     target 901
-    similar 0.05555555555555555
+    delta 0.19518001458970666
   ]
   edge [
     source 79
     target 790
-    similar 0.1111111111111111
+    delta 0.30237157840738177
   ]
   edge [
     source 79
     target 235
-    similar 0.12195121951219512
+    delta 0.2548235957188128
   ]
   edge [
     source 79
     target 907
-    similar 0.05405405405405406
+    delta 0.1690308509457033
   ]
   edge [
     source 79
     target 1144
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 1081
-    similar 0.05555555555555555
+    delta 0.19518001458970666
   ]
   edge [
     source 79
     target 1207
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 424
-    similar 0.0975609756097561
+    delta 0.21380899352993948
   ]
   edge [
     source 79
     target 692
-    similar 0.07894736842105263
+    delta 0.20701966780270628
   ]
   edge [
     source 79
     target 920
-    similar 0.08333333333333333
+    delta 0.253546276418555
   ]
   edge [
     source 79
     target 940
-    similar 0.05405405405405406
+    delta 0.1690308509457033
   ]
   edge [
     source 79
     target 663
-    similar 0.10810810810810811
+    delta 0.2760262237369417
   ]
   edge [
     source 79
     target 524
-    similar 0.15384615384615385
+    delta 0.32071349029490925
   ]
   edge [
     source 79
     target 817
-    similar 0.08108108108108109
+    delta 0.22677868380553634
   ]
   edge [
     source 79
     target 220
-    similar 0.05660377358490566
+    delta 0.11065666703449763
   ]
   edge [
     source 79
     target 1005
-    similar 0.05555555555555555
+    delta 0.19518001458970666
   ]
   edge [
     source 79
     target 763
-    similar 0.05263157894736842
+    delta 0.15118578920369088
   ]
   edge [
     source 79
     target 650
-    similar 0.05
+    delta 0.12777531299998798
   ]
   edge [
     source 79
     target 1126
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 411
-    similar 0.044444444444444446
+    delta 0.09759000729485333
   ]
   edge [
     source 79
     target 1192
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 1009
-    similar 0.05555555555555555
+    delta 0.19518001458970666
   ]
   edge [
     source 79
     target 1159
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 1283
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 712
-    similar 0.07894736842105263
+    delta 0.20701966780270628
   ]
   edge [
     source 79
     target 1150
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 79
     target 300
-    similar 0.06382978723404255
+    delta 0.13093073414159542
   ]
   edge [
     source 79
     target 1216
-    similar 0.05714285714285714
+    delta 0.23904572186687872
   ]
   edge [
     source 80
     target 228
-    similar 0.20512820512820512
+    delta 0.346843987809648
   ]
   edge [
     source 80
     target 121
-    similar 0.2926829268292683
+    delta 0.4535573676110727
   ]
   edge [
     source 80
     target 84
-    similar 0.3409090909090909
+    delta 0.509133174976598
   ]
   edge [
     source 80
     target 101
-    similar 0.4444444444444444
+    delta 0.6172133998483676
   ]
   edge [
     source 80
     target 103
-    similar 0.3170731707317073
+    delta 0.48181205582971576
   ]
   edge [
     source 80
     target 86
-    similar 0.358974358974359
+    delta 0.5291502622129182
   ]
   edge [
     source 80
     target 113
-    similar 0.4857142857142857
+    delta 0.6557892373388906
   ]
   edge [
     source 80
     target 92
-    similar 0.2727272727272727
+    delta 0.42857142857142855
   ]
   edge [
     source 80
     target 223
-    similar 0.2972972972972973
+    delta 0.4648348401006841
   ]
   edge [
     source 80
     target 211
-    similar 0.3055555555555556
+    delta 0.47691048323826596
   ]
   edge [
     source 80
     target 433
-    similar 0.05405405405405406
+    delta 0.11396057645963795
   ]
   edge [
     source 80
     target 275
-    similar 0.07317073170731707
+    delta 0.1417366773784602
   ]
   edge [
     source 80
     target 393
-    similar 0.28125
+    delta 0.47172817652486326
   ]
   edge [
     source 80
     target 304
-    similar 0.16216216216216217
+    delta 0.29277002188455997
   ]
   edge [
     source 80
     target 662
-    similar 0.16666666666666666
+    delta 0.35714285714285715
   ]
   edge [
     source 80
     target 90
-    similar 0.22727272727272727
+    delta 0.3706246583305506
   ]
   edge [
     source 80
     target 736
-    similar 0.0967741935483871
+    delta 0.23145502494313785
   ]
   edge [
     source 80
     target 677
-    similar 0.12903225806451613
+    delta 0.2857142857142857
   ]
   edge [
     source 81
     target 129
-    similar 0.03508771929824561
+    delta 0.06780635036208105
   ]
   edge [
     source 81
     target 228
-    similar 0.2894736842105263
+    delta 0.46073929912086503
   ]
   edge [
     source 81
     target 239
-    similar 0.2972972972972973
+    delta 0.47336463120312877
   ]
   edge [
     source 81
     target 135
-    similar 0.2558139534883721
+    delta 0.40994579587496144
   ]
   edge [
     source 81
     target 153
-    similar 0.3333333333333333
+    delta 0.5060243137049899
   ]
   edge [
     source 81
     target 814
-    similar 0.12903225806451613
+    delta 0.32659863237109044
   ]
   edge [
     source 81
     target 125
-    similar 0.27906976744186046
+    delta 0.43817804600413285
   ]
   edge [
     source 81
     target 283
-    similar 0.24324324324324326
+    delta 0.41079191812887456
   ]
   edge [
     source 81
     target 106
-    similar 0.21739130434782608
+    delta 0.35805743701971643
   ]
   edge [
     source 81
     target 330
-    similar 0.1891891891891892
+    delta 0.34156502553198664
   ]
   edge [
     source 81
     target 143
-    similar 0.38461538461538464
+    delta 0.5590169943749475
   ]
   edge [
     source 81
     target 618
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 81
     target 90
-    similar 0.3023255813953488
+    delta 0.4654746681256314
   ]
   edge [
     source 81
     target 515
-    similar 0.18181818181818182
+    delta 0.36514837167011077
   ]
   edge [
     source 81
     target 128
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 81
     target 86
-    similar 0.25
+    delta 0.4016632088371218
   ]
   edge [
     source 81
     target 507
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 82
     target 684
-    similar 0.07692307692307693
+    delta 0.22056438662814232
   ]
   edge [
     source 82
     target 339
-    similar 0.045454545454545456
+    delta 0.1095993248702382
   ]
   edge [
     source 82
     target 129
-    similar 0.08196721311475409
+    delta 0.15264062771816592
   ]
   edge [
     source 82
     target 545
-    similar 0.125
+    delta 0.29061909685954823
   ]
   edge [
     source 82
     target 299
-    similar 0.061224489795918366
+    delta 0.12734290799340264
   ]
   edge [
     source 82
     target 492
-    similar 0.0975609756097561
+    delta 0.23249527748763857
   ]
   edge [
     source 82
     target 357
-    similar 0.04081632653061224
+    delta 0.08787495503274936
   ]
   edge [
     source 82
     target 158
-    similar 0.15384615384615385
+    delta 0.2742364680764244
   ]
   edge [
     source 82
     target 217
-    similar 0.16
+    delta 0.2869984013336701
   ]
   edge [
     source 82
     target 232
-    similar 0.12
+    delta 0.22629428592141426
   ]
   edge [
     source 82
     target 96
-    similar 0.046875
+    delta 0.09004503377814962
   ]
   edge [
     source 82
     target 89
-    similar 0.029411764705882353
+    delta 0.05723638070321425
   ]
   edge [
     source 82
     target 797
-    similar 0.07692307692307693
+    delta 0.22056438662814232
   ]
   edge [
     source 82
     target 654
-    similar 0.047619047619047616
+    delta 0.12427395320024001
   ]
   edge [
     source 82
     target 302
-    similar 0.10204081632653061
+    delta 0.19936305570722498
   ]
   edge [
     source 82
     target 293
-    similar 0.03773584905660377
+    delta 0.07749842582921286
   ]
   edge [
     source 82
     target 521
-    similar 0.09302325581395349
+    delta 0.20795009796401456
   ]
   edge [
     source 82
     target 739
-    similar 0.07692307692307693
+    delta 0.22056438662814232
   ]
   edge [
     source 82
     target 433
-    similar 0.043478260869565216
+    delta 0.09913631941932192
   ]
   edge [
     source 82
     target 99
-    similar 0.09375
+    delta 0.17170914210964275
   ]
   edge [
     source 82
     target 437
-    similar 0.06976744186046512
+    delta 0.1643989873053573
   ]
   edge [
     source 82
     target 629
-    similar 0.07142857142857142
+    delta 0.17437145811572893
   ]
   edge [
     source 83
     target 169
-    similar 0.24390243902439024
+    delta 0.3984095364447979
   ]
   edge [
     source 83
     target 287
-    similar 0.13157894736842105
+    delta 0.25318484177091666
   ]
   edge [
     source 83
     target 116
-    similar 0.14
+    delta 0.24595492912420727
   ]
   edge [
     source 83
     target 110
-    similar 0.24444444444444444
+    delta 0.3938631807216881
   ]
   edge [
     source 83
     target 503
-    similar 0.18181818181818182
+    delta 0.36514837167011077
   ]
   edge [
     source 83
     target 299
-    similar 0.21621621621621623
+    delta 0.37712361663282534
   ]
   edge [
     source 83
     target 151
-    similar 0.21428571428571427
+    delta 0.3585685828003181
   ]
   edge [
     source 83
     target 452
-    similar 0.10810810810810811
+    delta 0.22019275302527214
   ]
   edge [
     source 83
     target 313
-    similar 0.20588235294117646
+    delta 0.3853373177942262
   ]
   edge [
     source 83
     target 212
-    similar 0.21428571428571427
+    delta 0.3585685828003181
   ]
   edge [
     source 83
     target 154
-    similar 0.22727272727272727
+    delta 0.37267799624996495
   ]
   edge [
     source 83
     target 109
-    similar 0.1568627450980392
+    delta 0.2712254014483242
   ]
   edge [
     source 83
     target 532
-    similar 0.21212121212121213
+    delta 0.404145188432738
   ]
   edge [
     source 83
     target 123
-    similar 0.16666666666666666
+    delta 0.2864459496157732
   ]
   edge [
     source 83
     target 165
-    similar 0.1590909090909091
+    delta 0.27888667551135854
   ]
   edge [
     source 83
     target 142
-    similar 0.25
+    delta 0.4016632088371218
   ]
   edge [
     source 83
     target 512
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 83
     target 462
-    similar 0.1388888888888889
+    delta 0.27524094128159016
   ]
   edge [
     source 83
     target 152
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 83
     target 160
-    similar 0.27906976744186046
+    delta 0.43817804600413285
   ]
   edge [
     source 83
     target 202
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 84
     target 121
-    similar 0.4
+    delta 0.5747369664856797
   ]
   edge [
     source 84
     target 602
-    similar 0.1875
+    delta 0.4073065399812784
   ]
   edge [
     source 84
     target 1189
-    similar 0.06451612903225806
+    delta 0.254000254000381
   ]
   edge [
     source 84
     target 101
-    similar 0.41025641025641024
+    delta 0.5865884600854132
   ]
   edge [
     source 84
     target 254
-    similar 0.3939393939393939
+    delta 0.6028605644882188
   ]
   edge [
     source 84
     target 106
-    similar 0.2391304347826087
+    delta 0.3874584745219908
   ]
   edge [
     source 84
     target 445
-    similar 0.05263157894736842
+    delta 0.11973686801784993
   ]
   edge [
     source 84
     target 128
-    similar 0.16666666666666666
+    delta 0.28736848324283987
   ]
   edge [
     source 84
     target 304
-    similar 0.12195121951219512
+    delta 0.23186944788008415
   ]
   edge [
     source 84
     target 248
-    similar 0.11363636363636363
+    delta 0.21166687833365086
   ]
   edge [
     source 84
     target 467
-    similar 0.10526315789473684
+    delta 0.21661214442955293
   ]
   edge [
     source 84
     target 495
-    similar 0.1111111111111111
+    delta 0.23947373603569985
   ]
   edge [
     source 84
     target 319
-    similar 0.25
+    delta 0.4320138246635874
   ]
   edge [
     source 84
     target 677
-    similar 0.1875
+    delta 0.4073065399812784
   ]
   edge [
     source 84
     target 86
-    similar 0.4
+    delta 0.5747369664856797
   ]
   edge [
     source 84
     target 481
-    similar 0.17142857142857143
+    delta 0.3407771005482389
   ]
   edge [
     source 85
     target 173
-    similar 0.34146341463414637
+    delta 0.51604684654214
   ]
   edge [
     source 85
     target 616
-    similar 0.15151515151515152
+    delta 0.36084391824351614
   ]
   edge [
     source 85
     target 175
-    similar 0.5882352941176471
+    delta 0.753778361444409
   ]
   edge [
     source 85
     target 623
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 85
     target 118
-    similar 0.3333333333333333
+    delta 0.5051814855409226
   ]
   edge [
     source 85
     target 349
-    similar 0.18421052631578946
+    delta 0.3432032364918221
   ]
   edge [
     source 85
     target 412
-    similar 0.17142857142857143
+    delta 0.3535533905932738
   ]
   edge [
     source 85
     target 423
-    similar 0.2
+    delta 0.3913118960624632
   ]
   edge [
     source 85
     target 94
-    similar 0.24489795918367346
+    delta 0.39391929857916763
   ]
   edge [
     source 85
     target 241
-    similar 0.13043478260869565
+    delta 0.23717082451262844
   ]
   edge [
     source 85
     target 224
-    similar 0.13043478260869565
+    delta 0.23717082451262844
   ]
   edge [
     source 85
     target 626
-    similar 0.14285714285714285
+    delta 0.3125
   ]
   edge [
     source 85
     target 244
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 85
     target 133
-    similar 0.24
+    delta 0.3872983346207417
   ]
   edge [
     source 85
     target 695
-    similar 0.08571428571428572
+    delta 0.21650635094610968
   ]
   edge [
     source 85
     target 206
-    similar 0.18604651162790697
+    delta 0.3244428422615251
   ]
   edge [
     source 85
     target 273
-    similar 0.11363636363636363
+    delta 0.21437323142813602
   ]
   edge [
     source 85
     target 606
-    similar 0.14285714285714285
+    delta 0.3125
   ]
   edge [
     source 85
     target 260
-    similar 0.16279069767441862
+    delta 0.2916666666666667
   ]
   edge [
     source 85
     target 148
-    similar 0.19148936170212766
+    delta 0.3247595264191645
   ]
   edge [
     source 85
     target 131
-    similar 0.2608695652173913
+    delta 0.41602514716892186
   ]
   edge [
     source 85
     target 278
-    similar 0.16666666666666666
+    delta 0.30012252399939043
   ]
   edge [
     source 85
     target 701
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 85
     target 389
-    similar 0.1891891891891892
+    delta 0.3572172541558802
   ]
   edge [
     source 85
     target 272
-    similar 0.14634146341463414
+    delta 0.27386127875258304
   ]
   edge [
     source 85
     target 715
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 86
     target 121
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 86
     target 101
-    similar 0.4
+    delta 0.5715476066494082
   ]
   edge [
     source 86
     target 602
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 86
     target 330
-    similar 0.18181818181818182
+    delta 0.32071349029490925
   ]
   edge [
     source 86
     target 113
-    similar 0.32432432432432434
+    delta 0.48989794855663565
   ]
   edge [
     source 86
     target 127
-    similar 0.0851063829787234
+    delta 0.15689290811054724
   ]
   edge [
     source 87
     target 539
-    similar 0.10810810810810811
+    delta 0.23570226039551587
   ]
   edge [
     source 87
     target 302
-    similar 0.2564102564102564
+    delta 0.42874646285627205
   ]
   edge [
     source 87
     target 279
-    similar 0.21951219512195122
+    delta 0.375
   ]
   edge [
     source 87
     target 526
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 87
     target 434
-    similar 0.07317073170731707
+    delta 0.15309310892394865
   ]
   edge [
     source 87
     target 127
-    similar 0.16
+    delta 0.2773500981126146
   ]
   edge [
     source 87
     target 99
-    similar 0.1016949152542373
+    delta 0.1846372364689991
   ]
   edge [
     source 87
     target 100
-    similar 0.3191489361702128
+    delta 0.48412291827592707
   ]
   edge [
     source 87
     target 114
-    similar 0.2549019607843137
+    delta 0.40625
   ]
   edge [
     source 87
     target 375
-    similar 0.25
+    delta 0.44126130406091413
   ]
   edge [
     source 87
     target 276
-    similar 0.1951219512195122
+    delta 0.34299717028501764
   ]
   edge [
     source 87
     target 352
-    similar 0.2702702702702703
+    delta 0.45643546458763845
   ]
   edge [
     source 87
     target 530
-    similar 0.2
+    delta 0.3913118960624632
   ]
   edge [
     source 87
     target 376
-    similar 0.21052631578947367
+    delta 0.3779644730092272
   ]
   edge [
     source 87
     target 401
-    similar 0.21621621621621623
+    delta 0.3922322702763681
   ]
   edge [
     source 87
     target 249
-    similar 0.3684210526315789
+    delta 0.5533985905294664
   ]
   edge [
     source 87
     target 1273
-    similar 0.0625
+    delta 0.25
   ]
   edge [
     source 87
     target 119
-    similar 0.3488372093023256
+    delta 0.5200314339611524
   ]
   edge [
     source 87
     target 355
-    similar 0.24324324324324326
+    delta 0.4252100321353806
   ]
   edge [
     source 87
     target 469
-    similar 0.13157894736842105
+    delta 0.26650089544451305
   ]
   edge [
     source 87
     target 549
-    similar 0.10810810810810811
+    delta 0.23570226039551587
   ]
   edge [
     source 87
     target 475
-    similar 0.16216216216216217
+    delta 0.31980107453341566
   ]
   edge [
     source 87
     target 170
-    similar 0.16326530612244897
+    delta 0.282842712474619
   ]
   edge [
     source 88
     target 270
-    similar 0.3235294117647059
+    delta 0.4989701327891659
   ]
   edge [
     source 88
     target 95
-    similar 0.5135135135135135
+    delta 0.6790046053972701
   ]
   edge [
     source 88
     target 408
-    similar 0.14705882352941177
+    delta 0.2777777777777778
   ]
   edge [
     source 88
     target 171
-    similar 0.3684210526315789
+    delta 0.5388602512436507
   ]
   edge [
     source 88
     target 402
-    similar 0.3448275862068966
+    delta 0.5555555555555556
   ]
   edge [
     source 88
     target 589
-    similar 0.25
+    delta 0.4762896722078402
   ]
   edge [
     source 88
     target 99
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 88
     target 307
-    similar 0.29411764705882354
+    delta 0.46676002800933664
   ]
   edge [
     source 88
     target 120
-    similar 0.6060606060606061
+    delta 0.7548513560963972
   ]
   edge [
     source 88
     target 137
-    similar 0.5
+    delta 0.6678230711206282
   ]
   edge [
     source 88
     target 308
-    similar 0.5172413793103449
+    delta 0.7001400420140049
   ]
   edge [
     source 88
     target 174
-    similar 0.23076923076923078
+    delta 0.3779644730092272
   ]
   edge [
     source 88
     target 184
-    similar 0.4
+    delta 0.5744269579035527
   ]
   edge [
     source 88
     target 112
-    similar 0.5277777777777778
+    delta 0.6910233190806425
   ]
   edge [
     source 88
     target 138
-    similar 0.6060606060606061
+    delta 0.7548513560963972
   ]
   edge [
     source 88
     target 203
-    similar 0.6129032258064516
+    delta 0.7624437362098716
   ]
   edge [
     source 89
     target 225
-    similar 0.1276595744680851
+    delta 0.23354968324845687
   ]
   edge [
     source 89
     target 403
-    similar 0.2222222222222222
+    delta 0.4198911048651824
   ]
   edge [
     source 89
     target 267
-    similar 0.13953488372093023
+    delta 0.26111648393354675
   ]
   edge [
     source 89
     target 635
-    similar 0.14285714285714285
+    delta 0.3289758474798845
   ]
   edge [
     source 89
     target 541
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 89
     target 861
-    similar 0.08823529411764706
+    delta 0.26111648393354675
   ]
   edge [
     source 89
     target 163
-    similar 0.17777777777777778
+    delta 0.3113995776646092
   ]
   edge [
     source 89
     target 122
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 89
     target 196
-    similar 0.16666666666666666
+    delta 0.2903816034562511
   ]
   edge [
     source 89
     target 451
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 89
     target 506
-    similar 0.07692307692307693
+    delta 0.17407765595569785
   ]
   edge [
     source 89
     target 712
-    similar 0.05405405405405406
+    delta 0.1421338109037403
   ]
   edge [
     source 89
     target 371
-    similar 0.15789473684210525
+    delta 0.3149183286488868
   ]
   edge [
     source 89
     target 414
-    similar 0.0975609756097561
+    delta 0.20100756305184242
   ]
   edge [
     source 89
     target 423
-    similar 0.075
+    delta 0.1651445647689541
   ]
   edge [
     source 89
     target 883
-    similar 0.05714285714285714
+    delta 0.17407765595569785
   ]
   edge [
     source 89
     target 224
-    similar 0.15217391304347827
+    delta 0.27247463045653303
   ]
   edge [
     source 89
     target 656
-    similar 0.08333333333333333
+    delta 0.21320071635561044
   ]
   edge [
     source 89
     target 464
-    similar 0.07692307692307693
+    delta 0.17407765595569785
   ]
   edge [
     source 89
     target 363
-    similar 0.125
+    delta 0.251259453814803
   ]
   edge [
     source 89
     target 105
-    similar 0.19230769230769232
+    delta 0.32325409191761795
   ]
   edge [
     source 89
     target 295
-    similar 0.2631578947368421
+    delta 0.44946657497549475
   ]
   edge [
     source 89
     target 210
-    similar 0.23255813953488372
+    delta 0.3892494720807615
   ]
   edge [
     source 89
     target 347
-    similar 0.18421052631578946
+    delta 0.35176323534072423
   ]
   edge [
     source 89
     target 91
-    similar 0.22641509433962265
+    delta 0.3692744729379982
   ]
   edge [
     source 89
     target 246
-    similar 0.13953488372093023
+    delta 0.26111648393354675
   ]
   edge [
     source 90
     target 128
-    similar 0.21428571428571427
+    delta 0.3530090432487313
   ]
   edge [
     source 90
     target 228
-    similar 0.40625
+    delta 0.5848976518656018
   ]
   edge [
     source 90
     target 304
-    similar 0.28125
+    delta 0.45573271518765
   ]
   edge [
     source 90
     target 143
-    similar 0.35135135135135137
+    delta 0.5204164998665332
   ]
   edge [
     source 90
     target 262
-    similar 0.28125
+    delta 0.45573271518765
   ]
   edge [
     source 90
     target 113
-    similar 0.28205128205128205
+    delta 0.44035242296398963
   ]
   edge [
     source 90
     target 136
-    similar 0.08333333333333333
+    delta 0.15384615384615385
   ]
   edge [
     source 90
     target 155
-    similar 0.08695652173913043
+    delta 0.16012815380508713
   ]
   edge [
     source 90
     target 99
-    similar 0.09259259259259259
+    delta 0.1706971854997297
   ]
   edge [
     source 90
     target 110
-    similar 0.061224489795918366
+    delta 0.11538461538461539
   ]
   edge [
     source 90
     target 393
-    similar 0.3
+    delta 0.4895354638983791
   ]
   edge [
     source 90
     target 223
-    similar 0.2777777777777778
+    delta 0.43852900965351466
   ]
   edge [
     source 91
     target 163
-    similar 0.20930232558139536
+    delta 0.35575623676894264
   ]
   edge [
     source 91
     target 499
-    similar 0.17142857142857143
+    delta 0.3535533905932738
   ]
   edge [
     source 91
     target 451
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 91
     target 651
-    similar 0.14705882352941177
+    delta 0.33407655239053047
   ]
   edge [
     source 91
     target 366
-    similar 0.21052631578947367
+    delta 0.3779644730092272
   ]
   edge [
     source 91
     target 210
-    similar 0.3333333333333333
+    delta 0.5138701197773616
   ]
   edge [
     source 91
     target 385
-    similar 0.18421052631578946
+    delta 0.3432032364918221
   ]
   edge [
     source 91
     target 318
-    similar 0.17073170731707318
+    delta 0.30935921676911454
   ]
   edge [
     source 91
     target 972
-    similar 0.09375
+    delta 0.3061862178478973
   ]
   edge [
     source 91
     target 405
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 91
     target 156
-    similar 0.12
+    delta 0.21650635094610968
   ]
   edge [
     source 91
     target 731
-    similar 0.08571428571428572
+    delta 0.21650635094610968
   ]
   edge [
     source 91
     target 654
-    similar 0.18181818181818182
+    delta 0.4008918628686366
   ]
   edge [
     source 91
     target 409
-    similar 0.16216216216216217
+    delta 0.31980107453341566
   ]
   edge [
     source 91
     target 537
-    similar 0.14285714285714285
+    delta 0.3125
   ]
   edge [
     source 91
     target 377
-    similar 0.0975609756097561
+    delta 0.19611613513818404
   ]
   edge [
     source 91
     target 437
-    similar 0.10810810810810811
+    delta 0.23570226039551587
   ]
   edge [
     source 91
     target 105
-    similar 0.2978723404255319
+    delta 0.4595725150090289
   ]
   edge [
     source 91
     target 122
-    similar 0.3409090909090909
+    delta 0.5103103630798288
   ]
   edge [
     source 91
     target 891
-    similar 0.09090909090909091
+    delta 0.2651650429449553
   ]
   edge [
     source 91
     target 200
-    similar 0.08333333333333333
+    delta 0.15811388300841897
   ]
   edge [
     source 91
     target 246
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 91
     target 1256
-    similar 0.0625
+    delta 0.25
   ]
   edge [
     source 92
     target 110
-    similar 0.10204081632653061
+    delta 0.1853123291652753
   ]
   edge [
     source 92
     target 135
-    similar 0.3333333333333333
+    delta 0.5014858873767987
   ]
   edge [
     source 92
     target 330
-    similar 0.16666666666666666
+    delta 0.30304576336566325
   ]
   edge [
     source 92
     target 283
-    similar 0.3333333333333333
+    delta 0.5197011503876874
   ]
   edge [
     source 92
     target 310
-    similar 0.34375
+    delta 0.5367450401216932
   ]
   edge [
     source 92
     target 723
-    similar 0.13333333333333333
+    delta 0.3086066999241838
   ]
   edge [
     source 92
     target 362
-    similar 0.21875
+    delta 0.3988620176087328
   ]
   edge [
     source 92
     target 103
-    similar 0.35
+    delta 0.5188745216627708
   ]
   edge [
     source 92
     target 182
-    similar 0.3333333333333333
+    delta 0.5197011503876874
   ]
   edge [
     source 93
     target 851
-    similar 0.11764705882352941
+    delta 0.34299717028501764
   ]
   edge [
     source 93
     target 145
-    similar 0.22
+    delta 0.36305409909144726
   ]
   edge [
     source 93
     target 553
-    similar 0.10256410256410256
+    delta 0.2286647801900118
   ]
   edge [
     source 93
     target 157
-    similar 0.2
+    delta 0.3451342449813167
   ]
   edge [
     source 93
     target 250
-    similar 0.21428571428571427
+    delta 0.37435064886346636
   ]
   edge [
     source 93
     target 118
-    similar 0.13725490196078433
+    delta 0.2450490147049017
   ]
   edge [
     source 93
     target 197
-    similar 0.25
+    delta 0.41166465371081584
   ]
   edge [
     source 93
     target 236
-    similar 0.17777777777777778
+    delta 0.3147557901458535
   ]
   edge [
     source 93
     target 473
-    similar 0.18421052631578946
+    delta 0.3619613829965134
   ]
   edge [
     source 93
     target 507
-    similar 0.047619047619047616
+    delta 0.10846522890932808
   ]
   edge [
     source 93
     target 716
-    similar 0.05263157894736842
+    delta 0.14002800840280097
   ]
   edge [
     source 93
     target 237
-    similar 0.2222222222222222
+    delta 0.37424059428255985
   ]
   edge [
     source 93
     target 291
-    similar 0.13043478260869565
+    delta 0.242535625036333
   ]
   edge [
     source 93
     target 284
-    similar 0.21951219512195122
+    delta 0.38587181657064484
   ]
   edge [
     source 93
     target 468
-    similar 0.21621621621621623
+    delta 0.4136701519960153
   ]
   edge [
     source 94
     target 581
-    similar 0.125
+    delta 0.2807449625374386
   ]
   edge [
     source 94
     target 301
-    similar 0.2222222222222222
+    delta 0.3835706411883073
   ]
   edge [
     source 94
     target 252
-    similar 0.21052631578947367
+    delta 0.36030187928883595
   ]
   edge [
     source 94
     target 423
-    similar 0.3
+    delta 0.5284981975632331
   ]
   edge [
     source 94
     target 700
-    similar 0.16666666666666666
+    delta 0.3790490217894517
   ]
   edge [
     source 94
     target 224
-    similar 0.2894736842105263
+    delta 0.45675013919556984
   ]
   edge [
     source 94
     target 534
-    similar 0.27586206896551724
+    delta 0.5252257314388902
   ]
   edge [
     source 94
     target 414
-    similar 0.20588235294117646
+    delta 0.3752393871932282
   ]
   edge [
     source 94
     target 889
-    similar 0.1
+    delta 0.2785430072655778
   ]
   edge [
     source 94
     target 891
-    similar 0.06451612903225806
+    delta 0.18569533817705186
   ]
   edge [
     source 94
     target 884
-    similar 0.10344827586206896
+    delta 0.3216337604513384
   ]
   edge [
     source 94
     target 118
-    similar 0.17777777777777778
+    delta 0.30323921743156135
   ]
   edge [
     source 94
     target 735
-    similar 0.16666666666666666
+    delta 0.3790490217894517
   ]
   edge [
     source 94
     target 175
-    similar 0.1590909090909091
+    delta 0.2771326538627135
   ]
   edge [
     source 94
     target 274
-    similar 0.2972972972972973
+    delta 0.46861575512653547
   ]
   edge [
     source 94
     target 565
-    similar 0.15625
+    delta 0.32826608214930636
   ]
   edge [
     source 94
     target 278
-    similar 0.2777777777777778
+    delta 0.450377349111045
   ]
   edge [
     source 94
     target 241
-    similar 0.4
+    delta 0.5813183589761798
   ]
   edge [
     source 94
     target 146
-    similar 0.18181818181818182
+    delta 0.3097612370649465
   ]
   edge [
     source 95
     target 333
-    similar 0.047619047619047616
+    delta 0.09589266029707683
   ]
   edge [
     source 95
     target 585
-    similar 0.08823529411764706
+    delta 0.19695964928958382
   ]
   edge [
     source 95
     target 308
-    similar 0.3939393939393939
+    delta 0.5854905538443584
   ]
   edge [
     source 95
     target 120
-    similar 0.4473684210526316
+    delta 0.6191034846198452
   ]
   edge [
     source 95
     target 448
-    similar 0.3333333333333333
+    delta 0.5598925109558544
   ]
   edge [
     source 95
     target 351
-    similar 0.375
+    delta 0.575355961782461
   ]
   edge [
     source 95
     target 171
-    similar 0.35
+    delta 0.5199469468957453
   ]
   edge [
     source 95
     target 138
-    similar 0.6176470588235294
+    delta 0.7647748927656912
   ]
   edge [
     source 95
     target 520
-    similar 0.21875
+    delta 0.4110541536602924
   ]
   edge [
     source 95
     target 137
-    similar 0.5142857142857142
+    delta 0.682288239221013
   ]
   edge [
     source 95
     target 99
-    similar 0.3191489361702128
+    delta 0.48488113787642695
   ]
   edge [
     source 95
     target 378
-    similar 0.3870967741935484
+    delta 0.5955500003825581
   ]
   edge [
     source 95
     target 232
-    similar 0.2
+    delta 0.34081145827384396
   ]
   edge [
     source 95
     target 112
-    similar 0.6285714285714286
+    delta 0.772048646977956
   ]
   edge [
     source 95
     target 172
-    similar 0.06
+    delta 0.1137147065368355
   ]
   edge [
     source 95
     target 203
-    similar 0.5757575757575758
+    delta 0.735682938029248
   ]
   edge [
     source 96
     target 380
-    similar 0.21212121212121213
+    delta 0.404145188432738
   ]
   edge [
     source 96
     target 149
-    similar 0.20454545454545456
+    delta 0.34262414443209643
   ]
   edge [
     source 96
     target 251
-    similar 0.21951219512195122
+    delta 0.3674234614174767
   ]
   edge [
     source 96
     target 216
-    similar 0.2972972972972973
+    delta 0.47336463120312877
   ]
   edge [
     source 96
     target 157
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 96
     target 230
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 96
     target 196
-    similar 0.08163265306122448
+    delta 0.1522773975253762
   ]
   edge [
     source 96
     target 318
-    similar 0.06976744186046512
+    delta 0.13693063937629152
   ]
   edge [
     source 96
     target 224
-    similar 0.041666666666666664
+    delta 0.08164965809277261
   ]
   edge [
     source 96
     target 656
-    similar 0.058823529411764705
+    delta 0.14907119849998599
   ]
   edge [
     source 96
     target 145
-    similar 0.16326530612244897
+    delta 0.2810913475705226
   ]
   edge [
     source 96
     target 179
-    similar 0.40540540540540543
+    delta 0.5838742081211422
   ]
   edge [
     source 96
     target 117
-    similar 0.20833333333333334
+    delta 0.3450327796711771
   ]
   edge [
     source 96
     target 335
-    similar 0.16216216216216217
+    delta 0.3038218101251
   ]
   edge [
     source 97
     target 387
-    similar 0.19444444444444445
+    delta 0.35445877847928337
   ]
   edge [
     source 97
     target 185
-    similar 0.20454545454545456
+    delta 0.34262414443209643
   ]
   edge [
     source 97
     target 359
-    similar 0.2647058823529412
+    delta 0.45573271518765
   ]
   edge [
     source 97
     target 667
-    similar 0.1935483870967742
+    delta 0.41403933560541256
   ]
   edge [
     source 97
     target 285
-    similar 0.3235294117647059
+    delta 0.5185449728701348
   ]
   edge [
     source 97
     target 240
-    similar 0.2631578947368421
+    delta 0.43033148291193524
   ]
   edge [
     source 97
     target 187
-    similar 0.3888888888888889
+    delta 0.5715476066494082
   ]
   edge [
     source 97
     target 136
-    similar 0.36585365853658536
+    delta 0.5370861555295747
   ]
   edge [
     source 97
     target 331
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 97
     target 243
-    similar 0.275
+    delta 0.4382504900892777
   ]
   edge [
     source 97
     target 130
-    similar 0.30952380952380953
+    delta 0.47469288317114394
   ]
   edge [
     source 97
     target 155
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 97
     target 381
-    similar 0.1388888888888889
+    delta 0.27524094128159016
   ]
   edge [
     source 97
     target 795
-    similar 0.09375
+    delta 0.24494897427831783
   ]
   edge [
     source 97
     target 297
-    similar 0.1891891891891892
+    delta 0.34156502553198664
   ]
   edge [
     source 97
     target 144
-    similar 0.25
+    delta 0.4016632088371218
   ]
   edge [
     source 97
     target 343
-    similar 0.21621621621621623
+    delta 0.37712361663282534
   ]
   edge [
     source 97
     target 320
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 97
     target 612
-    similar 0.15151515151515152
+    delta 0.3227486121839514
   ]
   edge [
     source 97
     target 915
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 97
     target 372
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 97
     target 161
-    similar 0.34146341463414637
+    delta 0.511207720338155
   ]
   edge [
     source 97
     target 222
-    similar 0.2564102564102564
+    delta 0.4188539082916955
   ]
   edge [
     source 98
     target 204
-    similar 0.1702127659574468
+    delta 0.2969078476100822
   ]
   edge [
     source 98
     target 485
-    similar 0.13157894736842105
+    delta 0.27524094128159016
   ]
   edge [
     source 98
     target 968
-    similar 0.058823529411764705
+    delta 0.20100756305184242
   ]
   edge [
     source 98
     target 116
-    similar 0.2
+    delta 0.335012605086404
   ]
   edge [
     source 98
     target 407
-    similar 0.07142857142857142
+    delta 0.15075567228888181
   ]
   edge [
     source 98
     target 1148
-    similar 0.06060606060606061
+    delta 0.24618298195866545
   ]
   edge [
     source 98
     target 452
-    similar 0.1
+    delta 0.2099455524325912
   ]
   edge [
     source 98
     target 344
-    similar 0.1794871794871795
+    delta 0.3379631847096873
   ]
   edge [
     source 98
     target 132
-    similar 0.16326530612244897
+    delta 0.2842676218074806
   ]
   edge [
     source 98
     target 123
-    similar 0.18
+    delta 0.30725493389951347
   ]
   edge [
     source 98
     target 513
-    similar 0.10526315789473684
+    delta 0.23210354127426377
   ]
   edge [
     source 98
     target 514
-    similar 0.10810810810810811
+    delta 0.24618298195866545
   ]
   edge [
     source 98
     target 360
-    similar 0.11904761904761904
+    delta 0.2326210525996177
   ]
   edge [
     source 98
     target 276
-    similar 0.06382978723404255
+    delta 0.12666009927622474
   ]
   edge [
     source 98
     target 134
-    similar 0.09433962264150944
+    delta 0.17407765595569785
   ]
   edge [
     source 98
     target 259
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 98
     target 307
-    similar 0.041666666666666664
+    delta 0.08444006618414981
   ]
   edge [
     source 98
     target 160
-    similar 0.20833333333333334
+    delta 0.3481553119113957
   ]
   edge [
     source 98
     target 99
-    similar 0.047619047619047616
+    delta 0.09090909090909091
   ]
   edge [
     source 99
     target 484
-    similar 0.10810810810810811
+    delta 0.24618298195866545
   ]
   edge [
     source 99
     target 232
-    similar 0.18181818181818182
+    delta 0.31948922553234865
   ]
   edge [
     source 99
     target 184
-    similar 0.1956521739130435
+    delta 0.3340213285613425
   ]
   edge [
     source 99
     target 112
-    similar 0.2708333333333333
+    delta 0.42766860172384985
   ]
   edge [
     source 99
     target 574
-    similar 0.17142857142857143
+    delta 0.3692744729379982
   ]
   edge [
     source 99
     target 138
-    similar 0.3409090909090909
+    delta 0.5120915564991891
   ]
   edge [
     source 99
     target 449
-    similar 0.19444444444444445
+    delta 0.3853373177942262
   ]
   edge [
     source 99
     target 192
-    similar 0.14583333333333334
+    delta 0.25979436665882194
   ]
   edge [
     source 99
     target 203
-    similar 0.24444444444444444
+    delta 0.3992747047523453
   ]
   edge [
     source 99
     target 525
-    similar 0.13513513513513514
+    delta 0.29012942659282975
   ]
   edge [
     source 99
     target 435
-    similar 0.07142857142857142
+    delta 0.15075567228888181
   ]
   edge [
     source 99
     target 119
-    similar 0.07272727272727272
+    delta 0.13655774839978377
   ]
   edge [
     source 99
     target 155
-    similar 0.05555555555555555
+    delta 0.10660035817780522
   ]
   edge [
     source 99
     target 136
-    similar 0.05357142857142857
+    delta 0.10241831129983783
   ]
   edge [
     source 100
     target 489
-    similar 0.15151515151515152
+    delta 0.3227486121839514
   ]
   edge [
     source 100
     target 239
-    similar 0.06666666666666667
+    delta 0.12909944487358058
   ]
   edge [
     source 100
     target 305
-    similar 0.07142857142857142
+    delta 0.1414213562373095
   ]
   edge [
     source 100
     target 331
-    similar 0.046511627906976744
+    delta 0.09428090415820634
   ]
   edge [
     source 100
     target 515
-    similar 0.05405405405405406
+    delta 0.12171612389003691
   ]
   edge [
     source 100
     target 470
-    similar 0.05128205128205128
+    delta 0.11009637651263607
   ]
   edge [
     source 100
     target 276
-    similar 0.23684210526315788
+    delta 0.3985266984930429
   ]
   edge [
     source 100
     target 530
-    similar 0.21212121212121213
+    delta 0.404145188432738
   ]
   edge [
     source 100
     target 376
-    similar 0.15789473684210525
+    delta 0.29277002188455997
   ]
   edge [
     source 100
     target 172
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 100
     target 375
-    similar 0.19444444444444445
+    delta 0.35445877847928337
   ]
   edge [
     source 100
     target 352
-    similar 0.18421052631578946
+    delta 0.3299831645537222
   ]
   edge [
     source 100
     target 946
-    similar 0.0625
+    delta 0.18257418583505536
   ]
   edge [
     source 100
     target 119
-    similar 0.19148936170212766
+    delta 0.3222516933177448
   ]
   edge [
     source 100
     target 401
-    similar 0.22857142857142856
+    delta 0.40509574683346666
   ]
   edge [
     source 100
     target 469
-    similar 0.10810810810810811
+    delta 0.22019275302527214
   ]
   edge [
     source 100
     target 190
-    similar 0.15217391304347827
+    delta 0.26648544566940835
   ]
   edge [
     source 100
     target 419
-    similar 0.1388888888888889
+    delta 0.27524094128159016
   ]
   edge [
     source 100
     target 872
-    similar 0.0625
+    delta 0.18257418583505536
   ]
   edge [
     source 100
     target 357
-    similar 0.1
+    delta 0.19518001458970666
   ]
   edge [
     source 100
     target 126
-    similar 0.1320754716981132
+    delta 0.23333333333333334
   ]
   edge [
     source 100
     target 249
-    similar 0.47058823529411764
+    delta 0.6531972647421809
   ]
   edge [
     source 100
     target 629
-    similar 0.08571428571428572
+    delta 0.19364916731037085
   ]
   edge [
     source 101
     target 268
-    similar 0.05263157894736842
+    delta 0.10206207261596577
   ]
   edge [
     source 101
     target 121
-    similar 0.4
+    delta 0.5715476066494082
   ]
   edge [
     source 101
     target 463
-    similar 0.1724137931034483
+    delta 0.3227486121839514
   ]
   edge [
     source 101
     target 113
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 101
     target 254
-    similar 0.4444444444444444
+    delta 0.6324555320336759
   ]
   edge [
     source 101
     target 211
-    similar 0.2647058823529412
+    delta 0.4214636152117623
   ]
   edge [
     source 101
     target 1258
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 101
     target 393
-    similar 0.23333333333333334
+    delta 0.3962969619506085
   ]
   edge [
     source 101
     target 602
-    similar 0.24
+    delta 0.4629100498862757
   ]
   edge [
     source 101
     target 662
-    similar 0.24
+    delta 0.4629100498862757
   ]
   edge [
     source 101
     target 677
-    similar 0.19230769230769232
+    delta 0.38575837490522974
   ]
   edge [
     source 102
     target 225
-    similar 0.13636363636363635
+    delta 0.24494897427831783
   ]
   edge [
     source 102
     target 685
-    similar 0.09375
+    delta 0.24494897427831783
   ]
   edge [
     source 102
     target 205
-    similar 0.23255813953488372
+    delta 0.3806934938134405
   ]
   edge [
     source 102
     target 163
-    similar 0.1111111111111111
+    delta 0.2041241452319315
   ]
   edge [
     source 102
     target 122
-    similar 0.2127659574468085
+    delta 0.35136418446315326
   ]
   edge [
     source 102
     target 698
-    similar 0.12903225806451613
+    delta 0.32659863237109044
   ]
   edge [
     source 102
     target 385
-    similar 0.13157894736842105
+    delta 0.25318484177091666
   ]
   edge [
     source 102
     target 923
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 102
     target 348
-    similar 0.22857142857142856
+    delta 0.40509574683346666
   ]
   edge [
     source 102
     target 1010
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 102
     target 1157
-    similar 0.06666666666666667
+    delta 0.2581988897471611
   ]
   edge [
     source 102
     target 826
-    similar 0.12903225806451613
+    delta 0.32659863237109044
   ]
   edge [
     source 102
     target 726
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 102
     target 496
-    similar 0.21212121212121213
+    delta 0.404145188432738
   ]
   edge [
     source 102
     target 156
-    similar 0.22727272727272727
+    delta 0.37267799624996495
   ]
   edge [
     source 102
     target 292
-    similar 0.37142857142857144
+    delta 0.5594309277855158
   ]
   edge [
     source 102
     target 865
-    similar 0.0967741935483871
+    delta 0.27386127875258304
   ]
   edge [
     source 102
     target 487
-    similar 0.14705882352941177
+    delta 0.3042903097250923
   ]
   edge [
     source 102
     target 1134
-    similar 0.06666666666666667
+    delta 0.2581988897471611
   ]
   edge [
     source 102
     target 370
-    similar 0.1388888888888889
+    delta 0.27524094128159016
   ]
   edge [
     source 102
     target 474
-    similar 0.17142857142857143
+    delta 0.3302891295379082
   ]
   edge [
     source 102
     target 464
-    similar 0.11428571428571428
+    delta 0.24343224778007383
   ]
   edge [
     source 102
     target 363
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 102
     target 246
-    similar 0.12195121951219512
+    delta 0.22821773229381923
   ]
   edge [
     source 103
     target 140
-    similar 0.2702702702702703
+    delta 0.4279604925109129
   ]
   edge [
     source 103
     target 223
-    similar 0.35294117647058826
+    delta 0.5262348115842176
   ]
   edge [
     source 103
     target 1052
-    similar 0.11538461538461539
+    delta 0.3396831102433787
   ]
   edge [
     source 103
     target 113
-    similar 0.3888888888888889
+    delta 0.560448538317805
   ]
   edge [
     source 103
     target 311
-    similar 0.25806451612903225
+    delta 0.43514263457633695
   ]
   edge [
     source 103
     target 319
-    similar 0.21212121212121213
+    delta 0.36689969285267143
   ]
   edge [
     source 103
     target 125
-    similar 0.3076923076923077
+    delta 0.47067872433164165
   ]
   edge [
     source 103
     target 106
-    similar 0.3684210526315789
+    delta 0.5384615384615384
   ]
   edge [
     source 103
     target 239
-    similar 0.15789473684210525
+    delta 0.2773500981126145
   ]
   edge [
     source 104
     target 190
-    similar 0.14583333333333334
+    delta 0.25802342327107
   ]
   edge [
     source 104
     target 115
-    similar 0.17647058823529413
+    delta 0.30066889715147743
   ]
   edge [
     source 104
     target 551
-    similar 0.14705882352941177
+    delta 0.33407655239053047
   ]
   edge [
     source 104
     target 164
-    similar 0.11764705882352941
+    delta 0.21213203435596426
   ]
   edge [
     source 104
     target 512
-    similar 0.07692307692307693
+    delta 0.16770509831248423
   ]
   edge [
     source 104
     target 458
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 104
     target 181
-    similar 0.24444444444444444
+    delta 0.3969283100678677
   ]
   edge [
     source 104
     target 1232
-    similar 0.0625
+    delta 0.25
   ]
   edge [
     source 104
     target 279
-    similar 0.16279069767441862
+    delta 0.2916666666666667
   ]
   edge [
     source 104
     target 945
-    similar 0.09090909090909091
+    delta 0.2651650429449553
   ]
   edge [
     source 104
     target 544
-    similar 0.10810810810810811
+    delta 0.23570226039551587
   ]
   edge [
     source 104
     target 944
-    similar 0.058823529411764705
+    delta 0.17677669529663687
   ]
   edge [
     source 104
     target 170
-    similar 0.1875
+    delta 0.31819805153394637
   ]
   edge [
     source 104
     target 601
-    similar 0.08108108108108109
+    delta 0.1875
   ]
   edge [
     source 104
     target 158
-    similar 0.1
+    delta 0.1843024451936214
   ]
   edge [
     source 104
     target 469
-    similar 0.075
+    delta 0.15990053726670783
   ]
   edge [
     source 104
     target 333
-    similar 0.11904761904761904
+    delta 0.22821773229381923
   ]
   edge [
     source 104
     target 477
-    similar 0.13513513513513514
+    delta 0.2795084971874737
   ]
   edge [
     source 104
     target 482
-    similar 0.13157894736842105
+    delta 0.26650089544451305
   ]
   edge [
     source 104
     target 114
-    similar 0.10344827586206896
+    delta 0.1875
   ]
   edge [
     source 105
     target 225
-    similar 0.2564102564102564
+    delta 0.41522739926869984
   ]
   edge [
     source 105
     target 636
-    similar 0.2
+    delta 0.42111744380615784
   ]
   edge [
     source 105
     target 163
-    similar 0.16666666666666666
+    delta 0.2906591794880899
   ]
   edge [
     source 105
     target 405
-    similar 0.20588235294117646
+    delta 0.3752393871932282
   ]
   edge [
     source 105
     target 195
-    similar 0.3939393939393939
+    delta 0.5854905538443584
   ]
   edge [
     source 105
     target 594
-    similar 0.16129032258064516
+    delta 0.3509312031717982
   ]
   edge [
     source 105
     target 196
-    similar 0.23809523809523808
+    delta 0.3872015463311832
   ]
   edge [
     source 105
     target 1000
-    similar 0.06896551724137931
+    delta 0.2626128657194451
   ]
   edge [
     source 105
     target 560
-    similar 0.11764705882352941
+    delta 0.24759378423606918
   ]
   edge [
     source 105
     target 427
-    similar 0.25806451612903225
+    delta 0.46977617561176277
   ]
   edge [
     source 105
     target 366
-    similar 0.22857142857142856
+    delta 0.39703333358837206
   ]
   edge [
     source 105
     target 221
-    similar 0.14634146341463414
+    delta 0.2626128657194451
   ]
   edge [
     source 105
     target 409
-    similar 0.25
+    delta 0.44791400876468346
   ]
   edge [
     source 105
     target 122
-    similar 0.2727272727272727
+    delta 0.428845013935118
   ]
   edge [
     source 105
     target 370
-    similar 0.14285714285714285
+    delta 0.2799462554779272
   ]
   edge [
     source 105
     target 537
-    similar 0.15625
+    delta 0.32826608214930636
   ]
   edge [
     source 105
     target 269
-    similar 0.2
+    delta 0.34081145827384396
   ]
   edge [
     source 105
     target 322
-    similar 0.10256410256410256
+    delta 0.19851666679418603
   ]
   edge [
     source 105
     target 318
-    similar 0.36363636363636365
+    delta 0.5570860145311556
   ]
   edge [
     source 105
     target 826
-    similar 0.0625
+    delta 0.16609095970747995
   ]
   edge [
     source 105
     target 348
-    similar 0.2
+    delta 0.3605183418372233
   ]
   edge [
     source 106
     target 140
-    similar 0.34285714285714286
+    delta 0.5135525910130955
   ]
   edge [
     source 106
     target 508
-    similar 0.25925925925925924
+    delta 0.48536267169707553
   ]
   edge [
     source 106
     target 110
-    similar 0.15555555555555556
+    delta 0.2692307692307692
   ]
   edge [
     source 106
     target 662
-    similar 0.1
+    delta 0.22237479499833035
   ]
   edge [
     source 106
     target 153
-    similar 0.37142857142857144
+    delta 0.543557306504609
   ]
   edge [
     source 106
     target 350
-    similar 0.2903225806451613
+    delta 0.47172817652486326
   ]
   edge [
     source 106
     target 311
-    similar 0.3
+    delta 0.4895354638983791
   ]
   edge [
     source 106
     target 481
-    similar 0.2
+    delta 0.3721042037676254
   ]
   edge [
     source 106
     target 398
-    similar 0.25925925925925924
+    delta 0.48536267169707553
   ]
   edge [
     source 106
     target 113
-    similar 0.25
+    delta 0.40032038451271784
   ]
   edge [
     source 107
     target 265
-    similar 0.15384615384615385
+    delta 0.2785430072655778
   ]
   edge [
     source 107
     target 410
-    similar 0.17647058823529413
+    delta 0.3359355065735126
   ]
   edge [
     source 107
     target 174
-    similar 0.21951219512195122
+    delta 0.36469840431289846
   ]
   edge [
     source 107
     target 232
-    similar 0.2
+    delta 0.34081145827384396
   ]
   edge [
     source 107
     target 184
-    similar 0.24390243902439024
+    delta 0.3959037912324479
   ]
   edge [
     source 107
     target 296
-    similar 0.24324324324324326
+    delta 0.40533961419994047
   ]
   edge [
     source 107
     target 138
-    similar 0.25
+    delta 0.4005963724010763
   ]
   edge [
     source 107
     target 192
-    similar 0.21428571428571427
+    delta 0.3563134121092031
   ]
   edge [
     source 107
     target 171
-    similar 0.22727272727272727
+    delta 0.3713906763541037
   ]
   edge [
     source 107
     target 641
-    similar 0.125
+    delta 0.2807449625374386
   ]
   edge [
     source 107
     target 523
-    similar 0.11764705882352941
+    delta 0.24759378423606918
   ]
   edge [
     source 107
     target 808
-    similar 0.0625
+    delta 0.16609095970747995
   ]
   edge [
     source 107
     target 306
-    similar 0.2857142857142857
+    delta 0.4642383454426297
   ]
   edge [
     source 107
     target 538
-    similar 0.26666666666666666
+    delta 0.49518756847213835
   ]
   edge [
     source 107
     target 386
-    similar 0.08108108108108109
+    delta 0.1679677532867563
   ]
   edge [
     source 107
     target 308
-    similar 0.1794871794871795
+    delta 0.3152641443777315
   ]
   edge [
     source 107
     target 846
-    similar 0.13793103448275862
+    delta 0.3713906763541037
   ]
   edge [
     source 107
     target 904
-    similar 0.1
+    delta 0.2785430072655778
   ]
   edge [
     source 107
     target 794
-    similar 0.0967741935483871
+    delta 0.2491364395612199
   ]
   edge [
     source 108
     target 336
-    similar 0.3
+    delta 0.4895354638983791
   ]
   edge [
     source 108
     target 147
-    similar 0.23809523809523808
+    delta 0.38461538461538464
   ]
   edge [
     source 108
     target 340
-    similar 0.21875
+    delta 0.38074980525429486
   ]
   edge [
     source 108
     target 206
-    similar 0.21621621621621623
+    delta 0.359937016532678
   ]
   edge [
     source 108
     target 197
-    similar 0.3055555555555556
+    delta 0.47075654176200415
   ]
   edge [
     source 108
     target 257
-    similar 0.1891891891891892
+    delta 0.323575114464717
   ]
   edge [
     source 108
     target 124
-    similar 0.20930232558139536
+    delta 0.34615384615384615
   ]
   edge [
     source 108
     target 369
-    similar 0.18181818181818182
+    delta 0.3263569759322527
   ]
   edge [
     source 108
     target 284
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 108
     target 300
-    similar 0.17142857142857143
+    delta 0.3038218101251
   ]
   edge [
     source 108
     target 131
-    similar 0.13043478260869565
+    delta 0.23076923076923078
   ]
   edge [
     source 108
     target 117
-    similar 0.2
+    delta 0.3335621924974955
   ]
   edge [
     source 108
     target 180
-    similar 0.1891891891891892
+    delta 0.323575114464717
   ]
   edge [
     source 108
     target 198
-    similar 0.14285714285714285
+    delta 0.2508726030021272
   ]
   edge [
     source 108
     target 392
-    similar 0.22580645161290322
+    delta 0.3962969619506085
   ]
   edge [
     source 108
     target 214
-    similar 0.24324324324324326
+    delta 0.39467610868816316
   ]
   edge [
     source 109
     target 204
-    similar 0.1590909090909091
+    delta 0.2771326538627135
   ]
   edge [
     source 109
     target 266
-    similar 0.22857142857142856
+    delta 0.39703333358837206
   ]
   edge [
     source 109
     target 356
-    similar 0.30303030303030304
+    delta 0.4962916669854651
   ]
   edge [
     source 109
     target 253
-    similar 0.3125
+    delta 0.5150262026246047
   ]
   edge [
     source 109
     target 646
-    similar 0.09375
+    delta 0.227429413073671
   ]
   edge [
     source 109
     target 165
-    similar 0.5151515151515151
+    delta 0.6888747637021416
   ]
   edge [
     source 109
     target 154
-    similar 0.358974358974359
+    delta 0.5306686305052324
   ]
   edge [
     source 109
     target 191
-    similar 0.3888888888888889
+    delta 0.5673086289311754
   ]
   edge [
     source 109
     target 806
-    similar 0.0967741935483871
+    delta 0.2491364395612199
   ]
   edge [
     source 109
     target 572
-    similar 0.1875
+    delta 0.3713906763541038
   ]
   edge [
     source 109
     target 259
-    similar 0.1282051282051282
+    delta 0.23973165074269207
   ]
   edge [
     source 109
     target 286
-    similar 0.1794871794871795
+    delta 0.3152641443777315
   ]
   edge [
     source 109
     target 176
-    similar 0.2564102564102564
+    delta 0.41522739926869984
   ]
   edge [
     source 109
     target 457
-    similar 0.21212121212121213
+    delta 0.391924757669098
   ]
   edge [
     source 109
     target 255
-    similar 0.175
+    delta 0.30638167667268595
   ]
   edge [
     source 109
     target 219
-    similar 0.275
+    delta 0.4354941703556927
   ]
   edge [
     source 109
     target 324
-    similar 0.1891891891891892
+    delta 0.3356243110397689
   ]
   edge [
     source 109
     target 134
-    similar 0.2857142857142857
+    delta 0.4456688116249245
   ]
   edge [
     source 109
     target 373
-    similar 0.19444444444444445
+    delta 0.34740416688982556
   ]
   edge [
     source 109
     target 212
-    similar 0.25
+    delta 0.40522044923655387
   ]
   edge [
     source 109
     target 943
-    similar 0.1
+    delta 0.2785430072655778
   ]
   edge [
     source 110
     target 488
-    similar 0.1724137931034483
+    delta 0.34668762264076824
   ]
   edge [
     source 110
     target 445
-    similar 0.20689655172413793
+    delta 0.39223227027636803
   ]
   edge [
     source 110
     target 299
-    similar 0.28125
+    delta 0.45573271518765
   ]
   edge [
     source 110
     target 125
-    similar 0.0625
+    delta 0.11766968108291041
   ]
   edge [
     source 110
     target 481
-    similar 0.125
+    delta 0.24806946917841693
   ]
   edge [
     source 110
     target 151
-    similar 0.34285714285714286
+    delta 0.5135525910130955
   ]
   edge [
     source 110
     target 503
-    similar 0.16666666666666666
+    delta 0.3268602252303067
   ]
   edge [
     source 110
     target 153
-    similar 0.09090909090909091
+    delta 0.16724840200141816
   ]
   edge [
     source 110
     target 512
-    similar 0.16129032258064516
+    delta 0.31008683647302115
   ]
   edge [
     source 110
     target 462
-    similar 0.15625
+    delta 0.2956561979945413
   ]
   edge [
     source 110
     target 518
-    similar 0.058823529411764705
+    delta 0.12403473458920847
   ]
   edge [
     source 110
     target 362
-    similar 0.12121212121212122
+    delta 0.23652495839563303
   ]
   edge [
     source 110
     target 200
-    similar 0.15
+    delta 0.2631174057921088
   ]
   edge [
     source 110
     target 152
-    similar 0.19047619047619047
+    delta 0.32025630761017426
   ]
   edge [
     source 110
     target 350
-    similar 0.1111111111111111
+    delta 0.20965696734438366
   ]
   edge [
     source 110
     target 160
-    similar 0.0851063829787234
+    delta 0.15689290811054724
   ]
   edge [
     source 110
     target 202
-    similar 0.16279069767441862
+    delta 0.2802242691589025
   ]
   edge [
     source 111
     target 444
-    similar 0.36
+    delta 0.6
   ]
   edge [
     source 111
     target 207
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 111
     target 176
-    similar 0.25
+    delta 0.40249223594996214
   ]
   edge [
     source 111
     target 208
-    similar 0.4666666666666667
+    delta 0.6423640548375729
   ]
   edge [
     source 111
     target 323
-    similar 0.3793103448275862
+    delta 0.5680375574437545
   ]
   edge [
     source 111
     target 361
-    similar 0.23333333333333334
+    delta 0.404145188432738
   ]
   edge [
     source 111
     target 324
-    similar 0.2903225806451613
+    delta 0.46475800154489005
   ]
   edge [
     source 111
     target 511
-    similar 0.34615384615384615
+    delta 0.5692099788303083
   ]
   edge [
     source 111
     target 365
-    similar 0.32142857142857145
+    delta 0.5196152422706631
   ]
   edge [
     source 111
     target 1090
-    similar 0.12
+    delta 0.3464101615137754
   ]
   edge [
     source 111
     target 177
-    similar 0.42424242424242425
+    delta 0.5969620057957092
   ]
   edge [
     source 111
     target 326
-    similar 0.35714285714285715
+    delta 0.5547001962252291
   ]
   edge [
     source 111
     target 168
-    similar 0.46875
+    delta 0.6396021490668313
   ]
   edge [
     source 111
     target 648
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 111
     target 261
-    similar 0.3125
+    delta 0.48507125007266594
   ]
   edge [
     source 111
     target 674
-    similar 0.14285714285714285
+    delta 0.30237157840738177
   ]
   edge [
     source 111
     target 527
-    similar 0.3076923076923077
+    delta 0.5333333333333333
   ]
   edge [
     source 111
     target 281
-    similar 0.43333333333333335
+    delta 0.6128258770283411
   ]
   edge [
     source 112
     target 687
-    similar 0.1
+    delta 0.253546276418555
   ]
   edge [
     source 112
     target 308
-    similar 0.36363636363636365
+    delta 0.5500190982169268
   ]
   edge [
     source 112
     target 448
-    similar 0.3448275862068966
+    delta 0.5698028822981898
   ]
   edge [
     source 112
     target 120
-    similar 0.4594594594594595
+    delta 0.630061919161936
   ]
   edge [
     source 112
     target 351
-    similar 0.3870967741935484
+    delta 0.5855400437691199
   ]
   edge [
     source 112
     target 171
-    similar 0.358974358974359
+    delta 0.5291502622129182
   ]
   edge [
     source 112
     target 748
-    similar 0.13333333333333333
+    delta 0.3086066999241838
   ]
   edge [
     source 112
     target 470
-    similar 0.3
+    delta 0.5128225940683707
   ]
   edge [
     source 112
     target 402
-    similar 0.2903225806451613
+    delta 0.49099025303098287
   ]
   edge [
     source 112
     target 520
-    similar 0.22580645161290322
+    delta 0.4183300132670378
   ]
   edge [
     source 112
     target 758
-    similar 0.13793103448275862
+    delta 0.3380617018914066
   ]
   edge [
     source 112
     target 137
-    similar 0.4444444444444444
+    delta 0.6172133998483676
   ]
   edge [
     source 112
     target 378
-    similar 0.4
+    delta 0.6060915267313265
   ]
   edge [
     source 112
     target 296
-    similar 0.125
+    delta 0.22917462425705284
   ]
   edge [
     source 112
     target 138
-    similar 0.5882352941176471
+    delta 0.7412493166611012
   ]
   edge [
     source 112
     target 203
-    similar 0.7
+    delta 0.8275159265510557
   ]
   edge [
     source 113
     target 228
-    similar 0.30303030303030304
+    delta 0.468292905790847
   ]
   edge [
     source 113
     target 329
-    similar 0.05263157894736842
+    delta 0.10206207261596577
   ]
   edge [
     source 113
     target 223
-    similar 0.4666666666666667
+    delta 0.6390096504226938
   ]
   edge [
     source 113
     target 393
-    similar 0.37037037037037035
+    delta 0.5661385170722978
   ]
   edge [
     source 113
     target 211
-    similar 0.43333333333333335
+    delta 0.6087807775281011
   ]
   edge [
     source 114
     target 317
-    similar 0.2857142857142857
+    delta 0.4902903378454601
   ]
   edge [
     source 114
     target 837
-    similar 0.05714285714285714
+    delta 0.15811388300841897
   ]
   edge [
     source 114
     target 382
-    similar 0.07317073170731707
+    delta 0.15309310892394865
   ]
   edge [
     source 114
     target 135
-    similar 0.09803921568627451
+    delta 0.18042195912175807
   ]
   edge [
     source 114
     target 155
-    similar 0.037037037037037035
+    delta 0.07216878364870323
   ]
   edge [
     source 114
     target 188
-    similar 0.12244897959183673
+    delta 0.2211629342323457
   ]
   edge [
     source 114
     target 368
-    similar 0.1
+    delta 0.20412414523193154
   ]
   edge [
     source 114
     target 430
-    similar 0.10256410256410256
+    delta 0.21320071635561041
   ]
   edge [
     source 114
     target 530
-    similar 0.10526315789473684
+    delta 0.22360679774997896
   ]
   edge [
     source 114
     target 693
-    similar 0.15151515151515152
+    delta 0.36084391824351614
   ]
   edge [
     source 114
     target 585
-    similar 0.14285714285714285
+    delta 0.3125
   ]
   edge [
     source 114
     target 404
-    similar 0.1282051282051282
+    delta 0.2551551815399144
   ]
   edge [
     source 114
     target 624
-    similar 0.14285714285714285
+    delta 0.3125
   ]
   edge [
     source 114
     target 172
-    similar 0.21739130434782608
+    delta 0.36084391824351614
   ]
   edge [
     source 114
     target 376
-    similar 0.12195121951219512
+    delta 0.236227795630767
   ]
   edge [
     source 114
     target 127
-    similar 0.20833333333333334
+    delta 0.34668762264076824
   ]
   edge [
     source 114
     target 276
-    similar 0.13953488372093023
+    delta 0.25724787771376323
   ]
   edge [
     source 114
     target 119
-    similar 0.1836734693877551
+    delta 0.3120188603766914
   ]
   edge [
     source 114
     target 478
-    similar 0.07692307692307693
+    delta 0.16770509831248423
   ]
   edge [
     source 114
     target 355
-    similar 0.12195121951219512
+    delta 0.236227795630767
   ]
   edge [
     source 114
     target 190
-    similar 0.14583333333333334
+    delta 0.25802342327107
   ]
   edge [
     source 114
     target 475
-    similar 0.16216216216216217
+    delta 0.31980107453341566
   ]
   edge [
     source 114
     target 194
-    similar 0.08
+    delta 0.15075567228888181
   ]
   edge [
     source 114
     target 170
-    similar 0.2127659574468085
+    delta 0.35355339059327373
   ]
   edge [
     source 115
     target 963
-    similar 0.07142857142857142
+    delta 0.2672612419124244
   ]
   edge [
     source 115
     target 170
-    similar 0.20454545454545456
+    delta 0.3401680257083045
   ]
   edge [
     source 115
     target 126
-    similar 0.20833333333333334
+    delta 0.3450327796711771
   ]
   edge [
     source 115
     target 655
-    similar 0.1
+    delta 0.253546276418555
   ]
   edge [
     source 115
     target 530
-    similar 0.15151515151515152
+    delta 0.2988071523335984
   ]
   edge [
     source 115
     target 528
-    similar 0.1875
+    delta 0.35856858280031806
   ]
   edge [
     source 115
     target 1056
-    similar 0.10714285714285714
+    delta 0.3273268353539886
   ]
   edge [
     source 115
     target 478
-    similar 0.1875
+    delta 0.35856858280031806
   ]
   edge [
     source 115
     target 367
-    similar 0.17142857142857143
+    delta 0.3144854510165755
   ]
   edge [
     source 115
     target 188
-    similar 0.10869565217391304
+    delta 0.19702760155977517
   ]
   edge [
     source 115
     target 368
-    similar 0.1111111111111111
+    delta 0.2182178902359924
   ]
   edge [
     source 115
     target 430
-    similar 0.25806451612903225
+    delta 0.4558423058385518
   ]
   edge [
     source 115
     target 529
-    similar 0.1935483870967742
+    delta 0.3779644730092272
   ]
   edge [
     source 115
     target 279
-    similar 0.21052631578947367
+    delta 0.3563483225498992
   ]
   edge [
     source 115
     target 669
-    similar 0.20689655172413793
+    delta 0.42857142857142855
   ]
   edge [
     source 115
     target 624
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 115
     target 150
-    similar 0.1
+    delta 0.1889822365046136
   ]
   edge [
     source 115
     target 458
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 115
     target 302
-    similar 0.18421052631578946
+    delta 0.320844473959874
   ]
   edge [
     source 115
     target 181
-    similar 0.2682926829268293
+    delta 0.42433421239575275
   ]
   edge [
     source 115
     target 823
-    similar 0.1
+    delta 0.253546276418555
   ]
   edge [
     source 115
     target 935
-    similar 0.06666666666666667
+    delta 0.1889822365046136
   ]
   edge [
     source 115
     target 119
-    similar 0.22727272727272727
+    delta 0.3706246583305506
   ]
   edge [
     source 116
     target 204
-    similar 0.1951219512195122
+    delta 0.32824397594488725
   ]
   edge [
     source 116
     target 485
-    similar 0.12121212121212122
+    delta 0.24343224778007383
   ]
   edge [
     source 116
     target 178
-    similar 0.1111111111111111
+    delta 0.200643088476282
   ]
   edge [
     source 116
     target 422
-    similar 0.26666666666666666
+    delta 0.46420708254852755
   ]
   edge [
     source 116
     target 648
-    similar 0.0967741935483871
+    delta 0.21821789023599236
   ]
   edge [
     source 116
     target 321
-    similar 0.25
+    delta 0.42700841014689905
   ]
   edge [
     source 116
     target 132
-    similar 0.3076923076923077
+    delta 0.4714045207910317
   ]
   edge [
     source 116
     target 384
-    similar 0.11428571428571428
+    delta 0.2222222222222222
   ]
   edge [
     source 116
     target 257
-    similar 0.046511627906976744
+    delta 0.09072184232530289
   ]
   edge [
     source 116
     target 126
-    similar 0.09615384615384616
+    delta 0.17568209223157663
   ]
   edge [
     source 116
     target 694
-    similar 0.13793103448275862
+    delta 0.31426968052735443
   ]
   edge [
     source 116
     target 345
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 116
     target 123
-    similar 0.2619047619047619
+    delta 0.4151682458530185
   ]
   edge [
     source 116
     target 219
-    similar 0.06521739130434782
+    delta 0.12309149097933272
   ]
   edge [
     source 116
     target 212
-    similar 0.17073170731707318
+    delta 0.2939723678960656
   ]
   edge [
     source 116
     target 1281
-    similar 0.07407407407407407
+    delta 0.2721655269759087
   ]
   edge [
     source 117
     target 583
-    similar 0.16666666666666666
+    delta 0.35714285714285715
   ]
   edge [
     source 117
     target 216
-    similar 0.35294117647058826
+    delta 0.5345224838248488
   ]
   edge [
     source 117
     target 340
-    similar 0.17142857142857143
+    delta 0.3144854510165755
   ]
   edge [
     source 117
     target 553
-    similar 0.1935483870967742
+    delta 0.3779644730092272
   ]
   edge [
     source 117
     target 509
-    similar 0.15151515151515152
+    delta 0.2988071523335984
   ]
   edge [
     source 117
     target 927
-    similar 0.10344827586206896
+    delta 0.2834733547569204
   ]
   edge [
     source 117
     target 157
-    similar 0.37142857142857144
+    delta 0.5493502655735357
   ]
   edge [
     source 117
     target 251
-    similar 0.2972972972972973
+    delta 0.4648348401006841
   ]
   edge [
     source 117
     target 291
-    similar 0.09523809523809523
+    delta 0.1781741612749496
   ]
   edge [
     source 117
     target 236
-    similar 0.11904761904761904
+    delta 0.21677749238102997
   ]
   edge [
     source 117
     target 179
-    similar 0.25
+    delta 0.4029114820126901
   ]
   edge [
     source 117
     target 141
-    similar 0.23809523809523808
+    delta 0.38575837490522974
   ]
   edge [
     source 117
     target 382
-    similar 0.05263157894736842
+    delta 0.1091089451179962
   ]
   edge [
     source 117
     target 956
-    similar 0.10714285714285714
+    delta 0.3273268353539886
   ]
   edge [
     source 117
     target 336
-    similar 0.28125
+    delta 0.47172817652486326
   ]
   edge [
     source 117
     target 395
-    similar 0.21212121212121213
+    delta 0.3818813079129867
   ]
   edge [
     source 118
     target 268
-    similar 0.21212121212121213
+    delta 0.3572172541558802
   ]
   edge [
     source 118
     target 215
-    similar 0.23529411764705882
+    delta 0.3849001794597505
   ]
   edge [
     source 118
     target 173
-    similar 0.3055555555555556
+    delta 0.46819109191731173
   ]
   edge [
     source 118
     target 590
-    similar 0.18518518518518517
+    delta 0.36084391824351614
   ]
   edge [
     source 118
     target 175
-    similar 0.35294117647058826
+    delta 0.5222329678670935
   ]
   edge [
     source 118
     target 131
-    similar 0.28205128205128205
+    delta 0.44035242296398963
   ]
   edge [
     source 118
     target 389
-    similar 0.2413793103448276
+    delta 0.41247895569215276
   ]
   edge [
     source 118
     target 275
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 118
     target 244
-    similar 0.2903225806451613
+    delta 0.4592793267718459
   ]
   edge [
     source 118
     target 459
-    similar 0.17857142857142858
+    delta 0.34020690871988585
   ]
   edge [
     source 118
     target 197
-    similar 0.21621621621621623
+    delta 0.3563483225498992
   ]
   edge [
     source 118
     target 167
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 118
     target 124
-    similar 0.16279069767441862
+    delta 0.2802242691589025
   ]
   edge [
     source 118
     target 349
-    similar 0.1935483870967742
+    delta 0.3396831102433787
   ]
   edge [
     source 118
     target 833
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 119
     target 539
-    similar 0.12903225806451613
+    delta 0.26148818018424536
   ]
   edge [
     source 119
     target 489
-    similar 0.21428571428571427
+    delta 0.41602514716892186
   ]
   edge [
     source 119
     target 317
-    similar 0.21875
+    delta 0.38074980525429486
   ]
   edge [
     source 119
     target 551
-    similar 0.17857142857142858
+    delta 0.3706246583305506
   ]
   edge [
     source 119
     target 1006
-    similar 0.07692307692307693
+    delta 0.2773500981126146
   ]
   edge [
     source 119
     target 302
-    similar 0.22857142857142856
+    delta 0.38052119532359524
   ]
   edge [
     source 119
     target 823
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 119
     target 279
-    similar 0.1891891891891892
+    delta 0.323575114464717
   ]
   edge [
     source 119
     target 430
-    similar 0.27586206896551724
+    delta 0.47304991679126607
   ]
   edge [
     source 119
     target 126
-    similar 0.19148936170212766
+    delta 0.3222516933177448
   ]
   edge [
     source 119
     target 249
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 120
     target 484
-    similar 0.13333333333333333
+    delta 0.2773500981126146
   ]
   edge [
     source 120
     target 270
-    similar 0.1891891891891892
+    delta 0.323575114464717
   ]
   edge [
     source 120
     target 306
-    similar 0.16666666666666666
+    delta 0.29417420270727607
   ]
   edge [
     source 120
     target 574
-    similar 0.1724137931034483
+    delta 0.34668762264076824
   ]
   edge [
     source 120
     target 137
-    similar 0.47058823529411764
+    delta 0.6405126152203485
   ]
   edge [
     source 120
     target 138
-    similar 0.4444444444444444
+    delta 0.6153846153846154
   ]
   edge [
     source 120
     target 408
-    similar 0.22580645161290322
+    delta 0.3962969619506085
   ]
   edge [
     source 120
     target 589
-    similar 0.21428571428571427
+    delta 0.41602514716892186
   ]
   edge [
     source 120
     target 406
-    similar 0.27586206896551724
+    delta 0.47304991679126607
   ]
   edge [
     source 120
     target 171
-    similar 0.3783783783783784
+    delta 0.5491251783869153
   ]
   edge [
     source 120
     target 470
-    similar 0.37037037037037035
+    delta 0.5913123959890826
   ]
   edge [
     source 120
     target 203
-    similar 0.48484848484848486
+    delta 0.6542886560876245
   ]
   edge [
     source 121
     target 254
-    similar 0.42857142857142855
+    delta 0.6196773353931867
   ]
   edge [
     source 121
     target 283
-    similar 0.3225806451612903
+    delta 0.5
   ]
   edge [
     source 121
     target 153
-    similar 0.34285714285714286
+    delta 0.5116817192534651
   ]
   edge [
     source 121
     target 135
-    similar 0.2564102564102564
+    delta 0.408248290463863
   ]
   edge [
     source 121
     target 723
-    similar 0.14814814814814814
+    delta 0.32659863237109044
   ]
   edge [
     source 121
     target 319
-    similar 0.3
+    delta 0.4810702354423639
   ]
   edge [
     source 121
     target 602
-    similar 0.23076923076923078
+    delta 0.4535573676110727
   ]
   edge [
     source 121
     target 662
-    similar 0.23076923076923078
+    delta 0.4535573676110727
   ]
   edge [
     source 121
     target 311
-    similar 0.26666666666666666
+    delta 0.4437601569801833
   ]
   edge [
     source 122
     target 685
-    similar 0.14285714285714285
+    delta 0.34426518632954817
   ]
   edge [
     source 122
     target 205
-    similar 0.25
+    delta 0.401286176952564
   ]
   edge [
     source 122
     target 299
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 122
     target 196
-    similar 0.35135135135135137
+    delta 0.5216720300383333
   ]
   edge [
     source 122
     target 1120
-    similar 0.07407407407407407
+    delta 0.2721655269759087
   ]
   edge [
     source 122
     target 318
-    similar 0.22857142857142856
+    delta 0.3849001794597505
   ]
   edge [
     source 122
     target 548
-    similar 0.16666666666666666
+    delta 0.34020690871988585
   ]
   edge [
     source 122
     target 210
-    similar 0.23684210526315788
+    delta 0.3872983346207417
   ]
   edge [
     source 122
     target 269
-    similar 0.12195121951219512
+    delta 0.22075539284417398
   ]
   edge [
     source 122
     target 200
-    similar 0.11904761904761904
+    delta 0.21516574145596762
   ]
   edge [
     source 122
     target 1229
-    similar 0.07407407407407407
+    delta 0.2721655269759087
   ]
   edge [
     source 122
     target 409
-    similar 0.3103448275862069
+    delta 0.5222329678670935
   ]
   edge [
     source 122
     target 156
-    similar 0.21428571428571427
+    delta 0.3535533905932738
   ]
   edge [
     source 122
     target 385
-    similar 0.21212121212121213
+    delta 0.3736323588785367
   ]
   edge [
     source 122
     target 252
-    similar 0.07317073170731707
+    delta 0.140028008402801
   ]
   edge [
     source 122
     target 202
-    similar 0.1590909090909091
+    delta 0.27498597046143514
   ]
   edge [
     source 123
     target 853
-    similar 0.07142857142857142
+    delta 0.19611613513818404
   ]
   edge [
     source 123
     target 345
-    similar 0.24242424242424243
+    delta 0.40509574683346666
   ]
   edge [
     source 123
     target 282
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 123
     target 809
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 123
     target 725
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 123
     target 1060
-    similar 0.11538461538461539
+    delta 0.3396831102433787
   ]
   edge [
     source 123
     target 169
-    similar 0.2702702702702703
+    delta 0.4279604925109129
   ]
   edge [
     source 123
     target 191
-    similar 0.23684210526315788
+    delta 0.3851644432598216
   ]
   edge [
     source 123
     target 286
-    similar 0.19444444444444445
+    delta 0.3329560459081458
   ]
   edge [
     source 123
     target 298
-    similar 0.17647058823529413
+    delta 0.3144854510165755
   ]
   edge [
     source 123
     target 132
-    similar 0.28205128205128205
+    delta 0.44035242296398963
   ]
   edge [
     source 123
     target 160
-    similar 0.3076923076923077
+    delta 0.47067872433164165
   ]
   edge [
     source 123
     target 374
-    similar 0.15625
+    delta 0.2956561979945413
   ]
   edge [
     source 123
     target 422
-    similar 0.27586206896551724
+    delta 0.47304991679126607
   ]
   edge [
     source 123
     target 178
-    similar 0.13953488372093023
+    delta 0.24535824603285922
   ]
   edge [
     source 123
     target 255
-    similar 0.2571428571428571
+    delta 0.4160251471689218
   ]
   edge [
     source 123
     target 261
-    similar 0.075
+    delta 0.14269544824634822
   ]
   edge [
     source 124
     target 206
-    similar 0.25
+    delta 0.4049291435992628
   ]
   edge [
     source 124
     target 230
-    similar 0.07894736842105263
+    delta 0.15191090506255
   ]
   edge [
     source 124
     target 164
-    similar 0.13333333333333333
+    delta 0.23533936216582083
   ]
   edge [
     source 124
     target 363
-    similar 0.08571428571428572
+    delta 0.16984155512168936
   ]
   edge [
     source 124
     target 151
-    similar 0.06818181818181818
+    delta 0.12838814775327387
   ]
   edge [
     source 124
     target 847
-    similar 0.1111111111111111
+    delta 0.29417420270727607
   ]
   edge [
     source 124
     target 209
-    similar 0.18421052631578946
+    delta 0.3149448894660933
   ]
   edge [
     source 124
     target 454
-    similar 0.1935483870967742
+    delta 0.35478743759344955
   ]
   edge [
     source 124
     target 145
-    similar 0.15217391304347827
+    delta 0.264197974633739
   ]
   edge [
     source 124
     target 197
-    similar 0.34285714285714286
+    delta 0.5135525910130955
   ]
   edge [
     source 124
     target 934
-    similar 0.07407407407407407
+    delta 0.22645540682891913
   ]
   edge [
     source 124
     target 786
-    similar 0.10714285714285714
+    delta 0.2631174057921088
   ]
   edge [
     source 124
     target 468
-    similar 0.23333333333333334
+    delta 0.4139186771923578
   ]
   edge [
     source 124
     target 268
-    similar 0.13513513513513514
+    delta 0.24514516892273006
   ]
   edge [
     source 124
     target 214
-    similar 0.24324324324324326
+    delta 0.39467610868816316
   ]
   edge [
     source 125
     target 140
-    similar 0.3142857142857143
+    delta 0.4800793585191832
   ]
   edge [
     source 125
     target 182
-    similar 0.41379310344827586
+    delta 0.6
   ]
   edge [
     source 125
     target 239
-    similar 0.30303030303030304
+    delta 0.4714045207910317
   ]
   edge [
     source 125
     target 143
-    similar 0.1951219512195122
+    delta 0.32659863237109044
   ]
   edge [
     source 125
     target 467
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 125
     target 811
-    similar 0.07407407407407407
+    delta 0.2
   ]
   edge [
     source 125
     target 1093
-    similar 0.12
+    delta 0.3464101615137754
   ]
   edge [
     source 125
     target 814
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 126
     target 129
-    similar 0.09259259259259259
+    delta 0.16951587590520262
   ]
   edge [
     source 126
     target 150
-    similar 0.06976744186046512
+    delta 0.13693063937629152
   ]
   edge [
     source 126
     target 357
-    similar 0.1
+    delta 0.19518001458970666
   ]
   edge [
     source 126
     target 384
-    similar 0.10526315789473684
+    delta 0.21081851067789195
   ]
   edge [
     source 126
     target 551
-    similar 0.15625
+    delta 0.3450327796711771
   ]
   edge [
     source 126
     target 643
-    similar 0.058823529411764705
+    delta 0.14907119849998599
   ]
   edge [
     source 126
     target 158
-    similar 0.10416666666666667
+    delta 0.19034674690672024
   ]
   edge [
     source 126
     target 512
-    similar 0.05263157894736842
+    delta 0.11547005383792514
   ]
   edge [
     source 126
     target 302
-    similar 0.175
+    delta 0.30996520993903337
   ]
   edge [
     source 126
     target 418
-    similar 0.07894736842105263
+    delta 0.1651445647689541
   ]
   edge [
     source 126
     target 181
-    similar 0.17391304347826086
+    delta 0.29814239699997197
   ]
   edge [
     source 126
     target 424
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 126
     target 201
-    similar 0.13043478260869565
+    delta 0.23354968324845687
   ]
   edge [
     source 126
     target 924
-    similar 0.0967741935483871
+    delta 0.27386127875258304
   ]
   edge [
     source 126
     target 477
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 126
     target 575
-    similar 0.15625
+    delta 0.3450327796711771
   ]
   edge [
     source 126
     target 482
-    similar 0.10810810810810811
+    delta 0.22019275302527214
   ]
   edge [
     source 126
     target 434
-    similar 0.07692307692307693
+    delta 0.15811388300841897
   ]
   edge [
     source 126
     target 530
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 126
     target 188
-    similar 0.1276595744680851
+    delta 0.22841609628806428
   ]
   edge [
     source 127
     target 355
-    similar 0.1111111111111111
+    delta 0.20965696734438366
   ]
   edge [
     source 127
     target 643
-    similar 0.06666666666666667
+    delta 0.16012815380508713
   ]
   edge [
     source 127
     target 450
-    similar 0.06060606060606061
+    delta 0.13074409009212268
   ]
   edge [
     source 127
     target 652
-    similar 0.06451612903225806
+    delta 0.14824986333222023
   ]
   edge [
     source 127
     target 302
-    similar 0.075
+    delta 0.14269544824634822
   ]
   edge [
     source 127
     target 307
-    similar 0.075
+    delta 0.14269544824634822
   ]
   edge [
     source 127
     target 942
-    similar 0.11538461538461539
+    delta 0.3396831102433787
   ]
   edge [
     source 127
     target 170
-    similar 0.10869565217391304
+    delta 0.19611613513818404
   ]
   edge [
     source 127
     target 194
-    similar 0.14285714285714285
+    delta 0.2508726030021272
   ]
   edge [
     source 127
     target 243
-    similar 0.06818181818181818
+    delta 0.12838814775327387
   ]
   edge [
     source 127
     target 687
-    similar 0.06896551724137931
+    delta 0.17541160386140586
   ]
   edge [
     source 127
     target 135
-    similar 0.1111111111111111
+    delta 0.20016019225635892
   ]
   edge [
     source 127
     target 419
-    similar 0.12121212121212122
+    delta 0.23652495839563303
   ]
   edge [
     source 127
     target 469
-    similar 0.15625
+    delta 0.2956561979945413
   ]
   edge [
     source 127
     target 190
-    similar 0.08888888888888889
+    delta 0.16357216402190614
   ]
   edge [
     source 128
     target 304
-    similar 0.3333333333333333
+    delta 0.5163977794943223
   ]
   edge [
     source 128
     target 450
-    similar 0.21428571428571427
+    delta 0.4
   ]
   edge [
     source 128
     target 248
-    similar 0.16216216216216217
+    delta 0.282842712474619
   ]
   edge [
     source 128
     target 262
-    similar 0.3793103448275862
+    delta 0.5680375574437545
   ]
   edge [
     source 128
     target 143
-    similar 0.4411764705882353
+    delta 0.6123724356957946
   ]
   edge [
     source 128
     target 618
-    similar 0.2692307692307692
+    delta 0.49497474683058323
   ]
   edge [
     source 128
     target 467
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 128
     target 518
-    similar 0.12903225806451613
+    delta 0.25298221281347033
   ]
   edge [
     source 128
     target 461
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 128
     target 239
-    similar 0.13157894736842105
+    delta 0.23570226039551584
   ]
   edge [
     source 128
     target 404
-    similar 0.08823529411764706
+    delta 0.1732050807568877
   ]
   edge [
     source 128
     target 570
-    similar 0.0967741935483871
+    delta 0.2
   ]
   edge [
     source 128
     target 172
-    similar 0.08888888888888889
+    delta 0.16329931618554522
   ]
   edge [
     source 128
     target 243
-    similar 0.12195121951219512
+    delta 0.21821789023599236
   ]
   edge [
     source 128
     target 566
-    similar 0.06451612903225806
+    delta 0.1414213562373095
   ]
   edge [
     source 128
     target 429
-    similar 0.15625
+    delta 0.28867513459481287
   ]
   edge [
     source 128
     target 263
-    similar 0.058823529411764705
+    delta 0.12060453783110543
   ]
   edge [
     source 129
     target 739
-    similar 0.13333333333333333
+    delta 0.3321819194149599
   ]
   edge [
     source 129
     target 424
-    similar 0.11428571428571428
+    delta 0.23488808780588138
   ]
   edge [
     source 129
     target 264
-    similar 0.14634146341463414
+    delta 0.2626128657194451
   ]
   edge [
     source 129
     target 843
-    similar 0.13333333333333333
+    delta 0.3321819194149599
   ]
   edge [
     source 129
     target 247
-    similar 0.23684210526315788
+    delta 0.39391929857916763
   ]
   edge [
     source 129
     target 139
-    similar 0.22727272727272727
+    delta 0.3713906763541037
   ]
   edge [
     source 129
     target 821
-    similar 0.13333333333333333
+    delta 0.3321819194149599
   ]
   edge [
     source 129
     target 696
-    similar 0.0967741935483871
+    delta 0.2491364395612199
   ]
   edge [
     source 129
     target 864
-    similar 0.1
+    delta 0.2785430072655778
   ]
   edge [
     source 129
     target 490
-    similar 0.05405405405405406
+    delta 0.11744404390294069
   ]
   edge [
     source 129
     target 813
-    similar 0.0967741935483871
+    delta 0.2491364395612199
   ]
   edge [
     source 129
     target 426
-    similar 0.17647058823529413
+    delta 0.3359355065735126
   ]
   edge [
     source 129
     target 587
-    similar 0.08823529411764706
+    delta 0.19695964928958382
   ]
   edge [
     source 129
     target 728
-    similar 0.09375
+    delta 0.227429413073671
   ]
   edge [
     source 129
     target 554
-    similar 0.15151515151515152
+    delta 0.3094922302950865
   ]
   edge [
     source 129
     target 521
-    similar 0.18181818181818182
+    delta 0.35233213170882205
   ]
   edge [
     source 129
     target 630
-    similar 0.125
+    delta 0.2807449625374386
   ]
   edge [
     source 129
     target 970
-    similar 0.10344827586206896
+    delta 0.3216337604513384
   ]
   edge [
     source 129
     target 810
-    similar 0.13333333333333333
+    delta 0.3321819194149599
   ]
   edge [
     source 129
     target 845
-    similar 0.13333333333333333
+    delta 0.3321819194149599
   ]
   edge [
     source 130
     target 331
-    similar 0.25
+    delta 0.4131182235954578
   ]
   edge [
     source 130
     target 136
-    similar 0.34210526315789475
+    delta 0.5099019513592785
   ]
   edge [
     source 130
     target 222
-    similar 0.3333333333333333
+    delta 0.5047146145152358
   ]
   edge [
     source 130
     target 243
-    similar 0.3142857142857143
+    delta 0.4800793585191832
   ]
   edge [
     source 130
     target 155
-    similar 0.2564102564102564
+    delta 0.408248290463863
   ]
   edge [
     source 130
     target 194
-    similar 0.09302325581395349
+    delta 0.17056057308448835
   ]
   edge [
     source 130
     target 185
-    similar 0.23076923076923078
+    delta 0.37532594530273455
   ]
   edge [
     source 130
     target 276
-    similar 0.07692307692307693
+    delta 0.14552137502179976
   ]
   edge [
     source 130
     target 391
-    similar 0.23333333333333334
+    delta 0.404145188432738
   ]
   edge [
     source 130
     target 183
-    similar 0.2
+    delta 0.3336230624913196
   ]
   edge [
     source 130
     target 238
-    similar 0.21621621621621623
+    delta 0.35777087639996635
   ]
   edge [
     source 130
     target 187
-    similar 0.25
+    delta 0.40249223594996214
   ]
   edge [
     source 130
     target 332
-    similar 0.22580645161290322
+    delta 0.3882901373576604
   ]
   edge [
     source 131
     target 173
-    similar 0.4
+    delta 0.5725025740766715
   ]
   edge [
     source 131
     target 175
-    similar 0.23076923076923078
+    delta 0.3763089045031908
   ]
   edge [
     source 131
     target 145
-    similar 0.2926829268292683
+    delta 0.4529108136578383
   ]
   edge [
     source 131
     target 197
-    similar 0.38235294117647056
+    delta 0.5563486402641867
   ]
   edge [
     source 131
     target 334
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 131
     target 389
-    similar 0.26666666666666666
+    delta 0.45291081365783825
   ]
   edge [
     source 131
     target 237
-    similar 0.23684210526315788
+    delta 0.3851644432598216
   ]
   edge [
     source 131
     target 280
-    similar 0.24242424242424243
+    delta 0.40509574683346666
   ]
   edge [
     source 131
     target 133
-    similar 0.21739130434782608
+    delta 0.35805743701971643
   ]
   edge [
     source 131
     target 147
-    similar 0.3
+    delta 0.46153846153846156
   ]
   edge [
     source 131
     target 850
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 131
     target 870
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 131
     target 148
-    similar 0.19047619047619047
+    delta 0.32025630761017426
   ]
   edge [
     source 132
     target 204
-    similar 0.24324324324324326
+    delta 0.39167472590032015
   ]
   edge [
     source 132
     target 542
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 132
     target 158
-    similar 0.175
+    delta 0.297939785765562
   ]
   edge [
     source 132
     target 599
-    similar 0.18518518518518517
+    delta 0.36084391824351614
   ]
   edge [
     source 132
     target 415
-    similar 0.12903225806451613
+    delta 0.24618298195866545
   ]
   edge [
     source 132
     target 374
-    similar 0.25
+    delta 0.43082021842766455
   ]
   edge [
     source 132
     target 212
-    similar 0.18421052631578946
+    delta 0.31180478223116176
   ]
   edge [
     source 132
     target 674
-    similar 0.10714285714285714
+    delta 0.23145502494313785
   ]
   edge [
     source 132
     target 321
-    similar 0.27586206896551724
+    delta 0.45291081365783825
   ]
   edge [
     source 132
     target 433
-    similar 0.12903225806451613
+    delta 0.24618298195866545
   ]
   edge [
     source 132
     target 286
-    similar 0.1388888888888889
+    delta 0.2475368857441686
   ]
   edge [
     source 132
     target 422
-    similar 0.20689655172413793
+    delta 0.3692744729379982
   ]
   edge [
     source 132
     target 255
-    similar 0.3125
+    delta 0.4811252243246881
   ]
   edge [
     source 132
     target 164
-    similar 0.11363636363636363
+    delta 0.2041241452319315
   ]
   edge [
     source 133
     target 149
-    similar 0.20454545454545456
+    delta 0.34262414443209643
   ]
   edge [
     source 133
     target 193
-    similar 0.10869565217391304
+    delta 0.19920476822239894
   ]
   edge [
     source 133
     target 588
-    similar 0.11764705882352941
+    delta 0.2581988897471611
   ]
   edge [
     source 133
     target 173
-    similar 0.2926829268292683
+    delta 0.45683219257612856
   ]
   edge [
     source 133
     target 778
-    similar 0.06060606060606061
+    delta 0.16329931618554522
   ]
   edge [
     source 133
     target 780
-    similar 0.0625
+    delta 0.18257418583505536
   ]
   edge [
     source 133
     target 175
-    similar 0.2682926829268293
+    delta 0.42817441928883765
   ]
   edge [
     source 133
     target 510
-    similar 0.11428571428571428
+    delta 0.24343224778007383
   ]
   edge [
     source 133
     target 141
-    similar 0.10204081632653061
+    delta 0.18633899812498247
   ]
   edge [
     source 133
     target 561
-    similar 0.08823529411764706
+    delta 0.20701966780270628
   ]
   edge [
     source 133
     target 1027
-    similar 0.06451612903225806
+    delta 0.21081851067789195
   ]
   edge [
     source 133
     target 198
-    similar 0.15555555555555556
+    delta 0.27247463045653303
   ]
   edge [
     source 133
     target 209
-    similar 0.16666666666666666
+    delta 0.29319773580418684
   ]
   edge [
     source 133
     target 167
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 133
     target 242
-    similar 0.047619047619047616
+    delta 0.09759000729485333
   ]
   edge [
     source 133
     target 260
-    similar 0.17073170731707318
+    delta 0.30123203803835463
   ]
   edge [
     source 133
     target 349
-    similar 0.19444444444444445
+    delta 0.35445877847928337
   ]
   edge [
     source 134
     target 204
-    similar 0.2702702702702703
+    delta 0.4264014327112209
   ]
   edge [
     source 134
     target 688
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 134
     target 162
-    similar 0.21052631578947367
+    delta 0.34914862437758776
   ]
   edge [
     source 134
     target 416
-    similar 0.13333333333333333
+    delta 0.26666666666666666
   ]
   edge [
     source 134
     target 219
-    similar 0.38235294117647056
+    delta 0.5543218625245872
   ]
   edge [
     source 134
     target 282
-    similar 0.20588235294117646
+    delta 0.35
   ]
   edge [
     source 134
     target 176
-    similar 0.36363636363636365
+    delta 0.5366563145999494
   ]
   edge [
     source 134
     target 165
-    similar 0.3142857142857143
+    delta 0.4800793585191832
   ]
   edge [
     source 134
     target 154
-    similar 0.2894736842105263
+    delta 0.4490731195102493
   ]
   edge [
     source 134
     target 1196
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 134
     target 719
-    similar 0.19230769230769232
+    delta 0.408248290463863
   ]
   edge [
     source 134
     target 324
-    similar 0.25
+    delta 0.4131182235954578
   ]
   edge [
     source 134
     target 516
-    similar 0.20689655172413793
+    delta 0.37947331922020555
   ]
   edge [
     source 134
     target 245
-    similar 0.4
+    delta 0.5820855000871991
   ]
   edge [
     source 134
     target 365
-    similar 0.12121212121212122
+    delta 0.23094010767585027
   ]
   edge [
     source 135
     target 150
-    similar 0.08108108108108109
+    delta 0.15309310892394865
   ]
   edge [
     source 135
     target 1223
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 135
     target 194
-    similar 0.09523809523809523
+    delta 0.17407765595569785
   ]
   edge [
     source 135
     target 201
-    similar 0.09523809523809523
+    delta 0.17407765595569785
   ]
   edge [
     source 135
     target 153
-    similar 0.35294117647058826
+    delta 0.5222329678670935
   ]
   edge [
     source 135
     target 188
-    similar 0.11904761904761904
+    delta 0.21281413268968716
   ]
   edge [
     source 136
     target 915
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 136
     target 187
-    similar 0.3142857142857143
+    delta 0.4823819106188661
   ]
   edge [
     source 136
     target 222
-    similar 0.18421052631578946
+    delta 0.3149448894660933
   ]
   edge [
     source 136
     target 332
-    similar 0.18181818181818182
+    delta 0.3263569759322527
   ]
   edge [
     source 136
     target 161
-    similar 0.21428571428571427
+    delta 0.3530090432487313
   ]
   edge [
     source 136
     target 231
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 136
     target 185
-    similar 0.1951219512195122
+    delta 0.32714432804381227
   ]
   edge [
     source 136
     target 387
-    similar 0.11428571428571428
+    delta 0.21757131728816848
   ]
   edge [
     source 136
     target 759
-    similar 0.14814814814814814
+    delta 0.3508232077228117
   ]
   edge [
     source 136
     target 568
-    similar 0.13333333333333333
+    delta 0.2773500981126146
   ]
   edge [
     source 136
     target 1079
-    similar 0.07407407407407407
+    delta 0.22645540682891913
   ]
   edge [
     source 136
     target 779
-    similar 0.06896551724137931
+    delta 0.17541160386140586
   ]
   edge [
     source 136
     target 144
-    similar 0.1590909090909091
+    delta 0.27456258919345766
   ]
   edge [
     source 137
     target 232
-    similar 0.16216216216216217
+    delta 0.2809757434745082
   ]
   edge [
     source 137
     target 184
-    similar 0.2777777777777778
+    delta 0.4351941398892446
   ]
   edge [
     source 137
     target 306
-    similar 0.21212121212121213
+    delta 0.3572172541558802
   ]
   edge [
     source 137
     target 355
-    similar 0.05555555555555555
+    delta 0.1091089451179962
   ]
   edge [
     source 137
     target 580
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 137
     target 378
-    similar 0.46153846153846156
+    delta 0.6546536707079772
   ]
   edge [
     source 137
     target 538
-    similar 0.2692307692307692
+    delta 0.4762896722078402
   ]
   edge [
     source 137
     target 138
-    similar 0.5151515151515151
+    delta 0.6805446536716203
   ]
   edge [
     source 137
     target 351
-    similar 0.56
+    delta 0.7378647873726218
   ]
   edge [
     source 137
     target 203
-    similar 0.42424242424242425
+    delta 0.595879571531124
   ]
   edge [
     source 138
     target 174
-    similar 0.175
+    delta 0.299572344757639
   ]
   edge [
     source 138
     target 184
-    similar 0.45454545454545453
+    delta 0.6271815075053181
   ]
   edge [
     source 138
     target 448
-    similar 0.32142857142857145
+    delta 0.5321811563901744
   ]
   edge [
     source 138
     target 378
-    similar 0.42857142857142855
+    delta 0.628970902033151
   ]
   edge [
     source 138
     target 308
-    similar 0.4827586206896552
+    delta 0.6659120918162916
   ]
   edge [
     source 138
     target 351
-    similar 0.36666666666666664
+    delta 0.5570066518960167
   ]
   edge [
     source 138
     target 171
-    similar 0.3783783783783784
+    delta 0.5491251783869153
   ]
   edge [
     source 138
     target 449
-    similar 0.2857142857142857
+    delta 0.49613893835683387
   ]
   edge [
     source 138
     target 710
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 139
     target 543
-    similar 0.2692307692307692
+    delta 0.49497474683058323
   ]
   edge [
     source 139
     target 976
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 139
     target 810
-    similar 0.15384615384615385
+    delta 0.35777087639996635
   ]
   edge [
     source 139
     target 691
-    similar 0.14814814814814814
+    delta 0.32659863237109044
   ]
   edge [
     source 139
     target 970
-    similar 0.12
+    delta 0.3464101615137754
   ]
   edge [
     source 139
     target 1136
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 139
     target 426
-    similar 0.09090909090909091
+    delta 0.18090680674665816
   ]
   edge [
     source 139
     target 638
-    similar 0.19230769230769232
+    delta 0.408248290463863
   ]
   edge [
     source 139
     target 436
-    similar 0.1935483870967742
+    delta 0.3464101615137754
   ]
   edge [
     source 139
     target 587
-    similar 0.13793103448275862
+    delta 0.282842712474619
   ]
   edge [
     source 139
     target 843
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 139
     target 247
-    similar 0.34375
+    delta 0.5185449728701348
   ]
   edge [
     source 139
     target 264
-    similar 0.22857142857142856
+    delta 0.37712361663282534
   ]
   edge [
     source 139
     target 494
-    similar 0.09375
+    delta 0.18973665961010278
   ]
   edge [
     source 139
     target 1173
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 139
     target 460
-    similar 0.09375
+    delta 0.18973665961010278
   ]
   edge [
     source 139
     target 329
-    similar 0.1388888888888889
+    delta 0.25
   ]
   edge [
     source 139
     target 396
-    similar 0.26666666666666666
+    delta 0.4437601569801833
   ]
   edge [
     source 139
     target 1260
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 139
     target 397
-    similar 0.19230769230769232
+    delta 0.408248290463863
   ]
   edge [
     source 139
     target 682
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 140
     target 783
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 140
     target 182
-    similar 0.4230769230769231
+    delta 0.600099198148979
   ]
   edge [
     source 140
     target 350
-    similar 0.4
+    delta 0.5832118435198043
   ]
   edge [
     source 140
     target 398
-    similar 0.16
+    delta 0.3086066999241838
   ]
   edge [
     source 140
     target 1093
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 140
     target 178
-    similar 0.07317073170731707
+    delta 0.136504726557987
   ]
   edge [
     source 140
     target 153
-    similar 0.30303030303030304
+    delta 0.4652421051992354
   ]
   edge [
     source 140
     target 248
-    similar 0.18181818181818182
+    delta 0.3086066999241838
   ]
   edge [
     source 141
     target 380
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 141
     target 229
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 141
     target 216
-    similar 0.2727272727272727
+    delta 0.4330127018922193
   ]
   edge [
     source 141
     target 157
-    similar 0.2571428571428571
+    delta 0.41079191812887456
   ]
   edge [
     source 141
     target 230
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 141
     target 257
-    similar 0.10526315789473684
+    delta 0.19245008972987526
   ]
   edge [
     source 141
     target 506
-    similar 0.1
+    delta 0.2041241452319315
   ]
   edge [
     source 141
     target 695
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 141
     target 226
-    similar 0.22857142857142856
+    delta 0.3746343246326776
   ]
   edge [
     source 141
     target 335
-    similar 0.1935483870967742
+    delta 0.3396831102433787
   ]
   edge [
     source 141
     target 497
-    similar 0.25925925925925924
+    delta 0.45184805705753195
   ]
   edge [
     source 141
     target 201
-    similar 0.06976744186046512
+    delta 0.13055824196677338
   ]
   edge [
     source 141
     target 188
-    similar 0.09302325581395349
+    delta 0.17025130615174972
   ]
   edge [
     source 142
     target 493
-    similar 0.25925925925925924
+    delta 0.4666666666666667
   ]
   edge [
     source 142
     target 547
-    similar 0.32
+    delta 0.565685424949238
   ]
   edge [
     source 142
     target 415
-    similar 0.2857142857142857
+    delta 0.48241815132442173
   ]
   edge [
     source 142
     target 374
-    similar 0.3333333333333333
+    delta 0.5427204202399745
   ]
   edge [
     source 142
     target 217
-    similar 0.09523809523809523
+    delta 0.17457431218879388
   ]
   edge [
     source 142
     target 191
-    similar 0.2777777777777778
+    delta 0.4364357804719847
   ]
   edge [
     source 142
     target 212
-    similar 0.35294117647058826
+    delta 0.5237229365663817
   ]
   edge [
     source 142
     target 255
-    similar 0.30303030303030304
+    delta 0.4714045207910317
   ]
   edge [
     source 142
     target 694
-    similar 0.10714285714285714
+    delta 0.24494897427831783
   ]
   edge [
     source 142
     target 532
-    similar 0.25
+    delta 0.4427188724235731
   ]
   edge [
     source 142
     target 894
-    similar 0.16
+    delta 0.4
   ]
   edge [
     source 142
     target 452
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 142
     target 433
-    similar 0.2
+    delta 0.3618136134933163
   ]
   edge [
     source 142
     target 834
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 143
     target 367
-    similar 0.08823529411764706
+    delta 0.16984155512168936
   ]
   edge [
     source 143
     target 330
-    similar 0.1875
+    delta 0.3273268353539886
   ]
   edge [
     source 143
     target 248
-    similar 0.13513513513513514
+    delta 0.24056261216234406
   ]
   edge [
     source 143
     target 262
-    similar 0.3448275862068966
+    delta 0.5270462766947299
   ]
   edge [
     source 143
     target 618
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 143
     target 467
-    similar 0.34615384615384615
+    delta 0.5539117094069973
   ]
   edge [
     source 143
     target 518
-    similar 0.25925925925925924
+    delta 0.45184805705753195
   ]
   edge [
     source 143
     target 304
-    similar 0.21875
+    delta 0.3689323936863109
   ]
   edge [
     source 143
     target 239
-    similar 0.2727272727272727
+    delta 0.4330127018922193
   ]
   edge [
     source 143
     target 450
-    similar 0.17857142857142858
+    delta 0.34020690871988585
   ]
   edge [
     source 143
     target 515
-    similar 0.2222222222222222
+    delta 0.408248290463863
   ]
   edge [
     source 143
     target 461
-    similar 0.25925925925925924
+    delta 0.45184805705753195
   ]
   edge [
     source 143
     target 228
-    similar 0.30303030303030304
+    delta 0.468292905790847
   ]
   edge [
     source 143
     target 223
-    similar 0.15789473684210525
+    delta 0.27386127875258304
   ]
   edge [
     source 144
     target 536
-    similar 0.0967741935483871
+    delta 0.2
   ]
   edge [
     source 144
     target 501
-    similar 0.21428571428571427
+    delta 0.4
   ]
   edge [
     source 144
     target 359
-    similar 0.26666666666666666
+    delta 0.4437601569801833
   ]
   edge [
     source 144
     target 713
-    similar 0.10714285714285714
+    delta 0.24494897427831783
   ]
   edge [
     source 144
     target 166
-    similar 0.2702702702702703
+    delta 0.4264014327112209
   ]
   edge [
     source 144
     target 240
-    similar 0.22857142857142856
+    delta 0.37712361663282534
   ]
   edge [
     source 144
     target 327
-    similar 0.1935483870967742
+    delta 0.3464101615137754
   ]
   edge [
     source 144
     target 328
-    similar 0.18181818181818182
+    delta 0.32071349029490925
   ]
   edge [
     source 144
     target 364
-    similar 0.22580645161290322
+    delta 0.3882901373576604
   ]
   edge [
     source 144
     target 822
-    similar 0.15384615384615385
+    delta 0.35777087639996635
   ]
   edge [
     source 144
     target 668
-    similar 0.23076923076923078
+    delta 0.4535573676110727
   ]
   edge [
     source 144
     target 325
-    similar 0.1388888888888889
+    delta 0.25
   ]
   edge [
     source 144
     target 609
-    similar 0.17857142857142858
+    delta 0.35355339059327373
   ]
   edge [
     source 144
     target 343
-    similar 0.1111111111111111
+    delta 0.2065591117977289
   ]
   edge [
     source 144
     target 372
-    similar 0.1935483870967742
+    delta 0.3464101615137754
   ]
   edge [
     source 144
     target 788
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 144
     target 187
-    similar 0.25
+    delta 0.40249223594996214
   ]
   edge [
     source 144
     target 185
-    similar 0.14285714285714285
+    delta 0.2502172968684897
   ]
   edge [
     source 144
     target 767
-    similar 0.07142857142857142
+    delta 0.17888543819998318
   ]
   edge [
     source 144
     target 161
-    similar 0.3157894736842105
+    delta 0.48
   ]
   edge [
     source 145
     target 147
-    similar 0.23255813953488372
+    delta 0.3774256780481986
   ]
   edge [
     source 145
     target 340
-    similar 0.14285714285714285
+    delta 0.2668802563418119
   ]
   edge [
     source 145
     target 546
-    similar 0.12903225806451613
+    delta 0.2721655269759087
   ]
   edge [
     source 145
     target 215
-    similar 0.21621621621621623
+    delta 0.36288736930121157
   ]
   edge [
     source 145
     target 173
-    similar 0.25
+    delta 0.401286176952564
   ]
   edge [
     source 145
     target 229
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 145
     target 559
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 145
     target 197
-    similar 0.2972972972972973
+    delta 0.46195657812238883
   ]
   edge [
     source 145
     target 390
-    similar 0.26666666666666666
+    delta 0.46420708254852755
   ]
   edge [
     source 145
     target 280
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 145
     target 334
-    similar 0.2647058823529412
+    delta 0.4330127018922193
   ]
   edge [
     source 146
     target 267
-    similar 0.21875
+    delta 0.36490022459988086
   ]
   edge [
     source 146
     target 385
-    similar 0.09090909090909091
+    delta 0.17349447958987207
   ]
   edge [
     source 146
     target 274
-    similar 0.13513513513513514
+    delta 0.23918243661746993
   ]
   edge [
     source 146
     target 347
-    similar 0.20689655172413793
+    delta 0.3611575592573076
   ]
   edge [
     source 146
     target 246
-    similar 0.3
+    delta 0.4691574316284183
   ]
   edge [
     source 146
     target 437
-    similar 0.18518518518518517
+    delta 0.34752402342845795
   ]
   edge [
     source 146
     target 735
-    similar 0.20833333333333334
+    delta 0.4256282653793743
   ]
   edge [
     source 146
     target 295
-    similar 0.1875
+    delta 0.3230291412348993
   ]
   edge [
     source 146
     target 233
-    similar 0.10810810810810811
+    delta 0.1965892748731962
   ]
   edge [
     source 146
     target 997
-    similar 0.08333333333333333
+    delta 0.2407717061715384
   ]
   edge [
     source 146
     target 933
-    similar 0.17391304347826086
+    delta 0.41702882811414954
   ]
   edge [
     source 146
     target 414
-    similar 0.20689655172413793
+    delta 0.3611575592573076
   ]
   edge [
     source 146
     target 277
-    similar 0.11428571428571428
+    delta 0.20851441405707477
   ]
   edge [
     source 146
     target 686
-    similar 0.07692307692307693
+    delta 0.18650096164806276
   ]
   edge [
     source 146
     target 156
-    similar 0.09302325581395349
+    delta 0.17025130615174972
   ]
   edge [
     source 146
     target 224
-    similar 0.22857142857142856
+    delta 0.3730019232961255
   ]
   edge [
     source 146
     target 893
-    similar 0.08333333333333333
+    delta 0.2407717061715384
   ]
   edge [
     source 146
     target 681
-    similar 0.12
+    delta 0.27975144247209416
   ]
   edge [
     source 147
     target 237
-    similar 0.34285714285714286
+    delta 0.5135525910130955
   ]
   edge [
     source 147
     target 578
-    similar 0.3076923076923077
+    delta 0.5547001962252291
   ]
   edge [
     source 147
     target 199
-    similar 0.23076923076923078
+    delta 0.3763089045031908
   ]
   edge [
     source 147
     target 429
-    similar 0.15151515151515152
+    delta 0.2830692585361489
   ]
   edge [
     source 147
     target 312
-    similar 0.3103448275862069
+    delta 0.509524665365068
   ]
   edge [
     source 147
     target 236
-    similar 0.21621621621621623
+    delta 0.359937016532678
   ]
   edge [
     source 147
     target 291
-    similar 0.15789473684210525
+    delta 0.2773500981126145
   ]
   edge [
     source 147
     target 334
-    similar 0.2727272727272727
+    delta 0.44126130406091413
   ]
   edge [
     source 147
     target 284
-    similar 0.2727272727272727
+    delta 0.44126130406091413
   ]
   edge [
     source 147
     target 197
-    similar 0.2702702702702703
+    delta 0.4279604925109129
   ]
   edge [
     source 147
     target 257
-    similar 0.29411764705882354
+    delta 0.4622501635210242
   ]
   edge [
     source 147
     target 198
-    similar 0.23076923076923078
+    delta 0.3763089045031908
   ]
   edge [
     source 147
     target 421
-    similar 0.2857142857142857
+    delta 0.49613893835683387
   ]
   edge [
     source 147
     target 671
-    similar 0.18518518518518517
+    delta 0.40032038451271784
   ]
   edge [
     source 148
     target 645
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 148
     target 552
-    similar 0.2916666666666667
+    delta 0.5400617248673216
   ]
   edge [
     source 148
     target 623
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 148
     target 627
-    similar 0.14814814814814814
+    delta 0.3086066999241838
   ]
   edge [
     source 148
     target 626
-    similar 0.28
+    delta 0.5051814855409226
   ]
   edge [
     source 148
     target 272
-    similar 0.39285714285714285
+    delta 0.5797509043642028
   ]
   edge [
     source 148
     target 149
-    similar 0.3055555555555556
+    delta 0.46819109191731173
   ]
   edge [
     source 148
     target 173
-    similar 0.23684210526315788
+    delta 0.3830654388414369
   ]
   edge [
     source 148
     target 175
-    similar 0.21052631578947367
+    delta 0.3481553119113957
   ]
   edge [
     source 148
     target 1206
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 148
     target 734
-    similar 0.2
+    delta 0.4166666666666667
   ]
   edge [
     source 148
     target 428
-    similar 0.20689655172413793
+    delta 0.3692744729379982
   ]
   edge [
     source 148
     target 159
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 148
     target 621
-    similar 0.24
+    delta 0.4629100498862757
   ]
   edge [
     source 148
     target 951
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 149
     target 272
-    similar 0.3103448275862069
+    delta 0.48454371185234896
   ]
   edge [
     source 149
     target 552
-    similar 0.2
+    delta 0.39405520311955033
   ]
   edge [
     source 149
     target 230
-    similar 0.3103448275862069
+    delta 0.48454371185234896
   ]
   edge [
     source 149
     target 216
-    similar 0.24242424242424243
+    delta 0.3931785497463924
   ]
   edge [
     source 149
     target 621
-    similar 0.25
+    delta 0.47286624374346037
   ]
   edge [
     source 149
     target 715
-    similar 0.20833333333333334
+    delta 0.4256282653793743
   ]
   edge [
     source 149
     target 428
-    similar 0.25925925925925924
+    delta 0.440086229423352
   ]
   edge [
     source 149
     target 236
-    similar 0.10526315789473684
+    delta 0.19134594929397594
   ]
   edge [
     source 149
     target 179
-    similar 0.21621621621621623
+    delta 0.35564337957950964
   ]
   edge [
     source 149
     target 175
-    similar 0.2857142857142857
+    delta 0.444554224474387
   ]
   edge [
     source 149
     target 167
-    similar 0.20512820512820512
+    delta 0.34050261230349943
   ]
   edge [
     source 150
     target 539
-    similar 0.08695652173913043
+    delta 0.16666666666666666
   ]
   edge [
     source 150
     target 600
-    similar 0.1
+    delta 0.20412414523193154
   ]
   edge [
     source 150
     target 155
-    similar 0.1111111111111111
+    delta 0.20412414523193154
   ]
   edge [
     source 150
     target 263
-    similar 0.125
+    delta 0.22613350843332272
   ]
   edge [
     source 150
     target 304
-    similar 0.06896551724137931
+    delta 0.12909944487358055
   ]
   edge [
     source 150
     target 248
-    similar 0.0625
+    delta 0.11785113019775793
   ]
   edge [
     source 150
     target 526
-    similar 0.13043478260869565
+    delta 0.23717082451262844
   ]
   edge [
     source 150
     target 307
-    similar 0.06451612903225806
+    delta 0.12126781251816648
   ]
   edge [
     source 151
     target 299
-    similar 0.44
+    delta 0.6197797868009122
   ]
   edge [
     source 151
     target 445
-    similar 0.30434782608695654
+    delta 0.5091750772173156
   ]
   edge [
     source 151
     target 156
-    similar 0.125
+    delta 0.22271770159368698
   ]
   edge [
     source 151
     target 778
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 151
     target 200
-    similar 0.24242424242424243
+    delta 0.3903600291794133
   ]
   edge [
     source 151
     target 409
-    similar 0.14285714285714285
+    delta 0.2631806779839076
   ]
   edge [
     source 151
     target 289
-    similar 0.11764705882352941
+    delta 0.21170244960998524
   ]
   edge [
     source 151
     target 512
-    similar 0.24
+    delta 0.41403933560541256
   ]
   edge [
     source 151
     target 303
-    similar 0.16666666666666666
+    delta 0.29160592175990213
   ]
   edge [
     source 151
     target 462
-    similar 0.23076923076923078
+    delta 0.39477101697586137
   ]
   edge [
     source 151
     target 152
-    similar 0.2857142857142857
+    delta 0.44543540318737396
   ]
   edge [
     source 151
     target 740
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 151
     target 202
-    similar 0.21621621621621623
+    delta 0.3563483225498992
   ]
   edge [
     source 152
     target 637
-    similar 0.16
+    delta 0.3651483716701107
   ]
   edge [
     source 152
     target 488
-    similar 0.28
+    delta 0.5051814855409226
   ]
   edge [
     source 152
     target 498
-    similar 0.2916666666666667
+    delta 0.5400617248673216
   ]
   edge [
     source 152
     target 896
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 152
     target 519
-    similar 0.14814814814814814
+    delta 0.3086066999241838
   ]
   edge [
     source 152
     target 466
-    similar 0.13333333333333333
+    delta 0.2581988897471611
   ]
   edge [
     source 152
     target 299
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 152
     target 593
-    similar 0.10714285714285714
+    delta 0.23145502494313785
   ]
   edge [
     source 152
     target 766
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 152
     target 156
-    similar 0.09090909090909091
+    delta 0.16666666666666666
   ]
   edge [
     source 152
     target 879
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 152
     target 289
-    similar 0.1388888888888889
+    delta 0.2475368857441686
   ]
   edge [
     source 152
     target 753
-    similar 0.2
+    delta 0.4166666666666667
   ]
   edge [
     source 152
     target 880
-    similar 0.125
+    delta 0.3535533905932738
   ]
   edge [
     source 152
     target 640
-    similar 0.2
+    delta 0.4166666666666667
   ]
   edge [
     source 152
     target 793
-    similar 0.11538461538461539
+    delta 0.27386127875258304
   ]
   edge [
     source 153
     target 304
-    similar 0.12121212121212122
+    delta 0.22019275302527214
   ]
   edge [
     source 153
     target 467
-    similar 0.13793103448275862
+    delta 0.25712973861329
   ]
   edge [
     source 153
     target 283
-    similar 0.52
+    delta 0.6929023281557339
   ]
   edge [
     source 153
     target 310
-    similar 0.4230769230769231
+    delta 0.6055300708194984
   ]
   edge [
     source 154
     target 298
-    similar 0.35714285714285715
+    delta 0.545544725589981
   ]
   edge [
     source 154
     target 313
-    similar 0.16666666666666666
+    delta 0.3077287274483318
   ]
   edge [
     source 154
     target 204
-    similar 0.24324324324324326
+    delta 0.39167472590032015
   ]
   edge [
     source 154
     target 266
-    similar 0.22580645161290322
+    delta 0.3818813079129867
   ]
   edge [
     source 154
     target 253
-    similar 0.1935483870967742
+    delta 0.3396831102433787
   ]
   edge [
     source 154
     target 360
-    similar 0.15151515151515152
+    delta 0.2727723627949905
   ]
   edge [
     source 154
     target 720
-    similar 0.11538461538461539
+    delta 0.27386127875258304
   ]
   edge [
     source 154
     target 219
-    similar 0.35294117647058826
+    delta 0.5222329678670935
   ]
   edge [
     source 154
     target 361
-    similar 0.2413793103448276
+    delta 0.41247895569215276
   ]
   edge [
     source 154
     target 165
-    similar 0.45161290322580644
+    delta 0.6236095644623235
   ]
   edge [
     source 154
     target 811
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 154
     target 169
-    similar 0.21621621621621623
+    delta 0.3563483225498992
   ]
   edge [
     source 154
     target 400
-    similar 0.2962962962962963
+    delta 0.4923659639173309
   ]
   edge [
     source 155
     target 187
-    similar 0.3333333333333333
+    delta 0.5020790110464023
   ]
   edge [
     source 155
     target 222
-    similar 0.19444444444444445
+    delta 0.3278050340535929
   ]
   edge [
     source 155
     target 332
-    similar 0.1935483870967742
+    delta 0.3396831102433787
   ]
   edge [
     source 155
     target 1272
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 155
     target 343
-    similar 0.14705882352941177
+    delta 0.26352313834736496
   ]
   edge [
     source 155
     target 328
-    similar 0.15151515151515152
+    delta 0.2727723627949905
   ]
   edge [
     source 155
     target 325
-    similar 0.21212121212121213
+    delta 0.3572172541558802
   ]
   edge [
     source 155
     target 387
-    similar 0.12121212121212122
+    delta 0.22645540682891913
   ]
   edge [
     source 155
     target 1271
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 155
     target 166
-    similar 0.09523809523809523
+    delta 0.17407765595569785
   ]
   edge [
     source 156
     target 205
-    similar 0.175
+    delta 0.297939785765562
   ]
   edge [
     source 156
     target 487
-    similar 0.2222222222222222
+    delta 0.408248290463863
   ]
   edge [
     source 156
     target 496
-    similar 0.25925925925925924
+    delta 0.45184805705753195
   ]
   edge [
     source 156
     target 1087
-    similar 0.08
+    delta 0.23570226039551587
   ]
   edge [
     source 156
     target 495
-    similar 0.1
+    delta 0.2041241452319315
   ]
   edge [
     source 156
     target 796
-    similar 0.07407407407407407
+    delta 0.18257418583505536
   ]
   edge [
     source 156
     target 883
-    similar 0.07692307692307693
+    delta 0.20412414523193154
   ]
   edge [
     source 156
     target 196
-    similar 0.175
+    delta 0.297939785765562
   ]
   edge [
     source 156
     target 292
-    similar 0.2727272727272727
+    delta 0.4330127018922193
   ]
   edge [
     source 156
     target 370
-    similar 0.16666666666666666
+    delta 0.3077287274483318
   ]
   edge [
     source 156
     target 246
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 156
     target 202
-    similar 0.14285714285714285
+    delta 0.25
   ]
   edge [
     source 156
     target 836
-    similar 0.11538461538461539
+    delta 0.27386127875258304
   ]
   edge [
     source 157
     target 225
-    similar 0.05263157894736842
+    delta 0.1
   ]
   edge [
     source 157
     target 316
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 157
     target 193
-    similar 0.17142857142857143
+    delta 0.29277002188455997
   ]
   edge [
     source 157
     target 216
-    similar 0.46153846153846156
+    delta 0.6324555320336759
   ]
   edge [
     source 157
     target 179
-    similar 0.2727272727272727
+    delta 0.42905816516051654
   ]
   edge [
     source 157
     target 395
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 158
     target 342
-    similar 0.08823529411764706
+    delta 0.16718346377260584
   ]
   edge [
     source 158
     target 217
-    similar 0.1282051282051282
+    delta 0.22750787759664504
   ]
   edge [
     source 158
     target 164
-    similar 0.11627906976744186
+    delta 0.20851441405707477
   ]
   edge [
     source 158
     target 232
-    similar 0.16666666666666666
+    delta 0.2870189239409639
   ]
   edge [
     source 158
     target 797
-    similar 0.16666666666666666
+    delta 0.3730019232961255
   ]
   edge [
     source 158
     target 181
-    similar 0.11904761904761904
+    delta 0.21281413268968716
   ]
   edge [
     source 158
     target 608
-    similar 0.07142857142857142
+    delta 0.15762208124782012
   ]
   edge [
     source 158
     target 475
-    similar 0.0625
+    delta 0.1257389226923863
   ]
   edge [
     source 158
     target 570
-    similar 0.06666666666666667
+    delta 0.13900960937138318
   ]
   edge [
     source 159
     target 586
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 159
     target 271
-    similar 0.15625
+    delta 0.2727723627949905
   ]
   edge [
     source 159
     target 455
-    similar 0.47619047619047616
+    delta 0.6900655593423543
   ]
   edge [
     source 159
     target 584
-    similar 0.3181818181818182
+    delta 0.5400617248673216
   ]
   edge [
     source 159
     target 627
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 159
     target 199
-    similar 0.34375
+    delta 0.511766315719159
   ]
   edge [
     source 159
     target 421
-    similar 0.14814814814814814
+    delta 0.2760262237369417
   ]
   edge [
     source 159
     target 309
-    similar 0.48
+    delta 0.6546536707079772
   ]
   edge [
     source 159
     target 950
-    similar 0.13636363636363635
+    delta 0.3273268353539886
   ]
   edge [
     source 159
     target 801
-    similar 0.23809523809523808
+    delta 0.4879500364742666
   ]
   edge [
     source 159
     target 653
-    similar 0.07692307692307693
+    delta 0.1649572197684645
   ]
   edge [
     source 159
     target 316
-    similar 0.2857142857142857
+    delta 0.4507489358552088
   ]
   edge [
     source 159
     target 379
-    similar 0.30434782608695654
+    delta 0.5091750772173156
   ]
   edge [
     source 160
     target 259
-    similar 0.21212121212121213
+    delta 0.3614784456460256
   ]
   edge [
     source 160
     target 479
-    similar 0.21428571428571427
+    delta 0.4
   ]
   edge [
     source 160
     target 694
-    similar 0.14814814814814814
+    delta 0.32659863237109044
   ]
   edge [
     source 160
     target 321
-    similar 0.11764705882352941
+    delta 0.22188007849009164
   ]
   edge [
     source 160
     target 169
-    similar 0.2777777777777778
+    delta 0.4364357804719847
   ]
   edge [
     source 160
     target 888
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 160
     target 313
-    similar 0.125
+    delta 0.24120907566221086
   ]
   edge [
     source 160
     target 747
-    similar 0.06896551724137931
+    delta 0.16329931618554522
   ]
   edge [
     source 160
     target 191
-    similar 0.21052631578947367
+    delta 0.34914862437758776
   ]
   edge [
     source 160
     target 282
-    similar 0.24242424242424243
+    delta 0.4
   ]
   edge [
     source 160
     target 503
-    similar 0.21428571428571427
+    delta 0.4
   ]
   edge [
     source 160
     target 345
-    similar 0.2903225806451613
+    delta 0.46475800154489005
   ]
   edge [
     source 160
     target 344
-    similar 0.1875
+    delta 0.3328201177351375
   ]
   edge [
     source 160
     target 373
-    similar 0.25806451612903225
+    delta 0.42761798705987897
   ]
   edge [
     source 161
     target 501
-    similar 0.1724137931034483
+    delta 0.3333333333333333
   ]
   edge [
     source 161
     target 359
-    similar 0.35714285714285715
+    delta 0.5547001962252291
   ]
   edge [
     source 161
     target 183
-    similar 0.23076923076923078
+    delta 0.37532594530273455
   ]
   edge [
     source 161
     target 238
-    similar 0.25
+    delta 0.40249223594996214
   ]
   edge [
     source 161
     target 305
-    similar 0.25
+    delta 0.4131182235954578
   ]
   edge [
     source 161
     target 222
-    similar 0.3333333333333333
+    delta 0.5047146145152358
   ]
   edge [
     source 161
     target 391
-    similar 0.23333333333333334
+    delta 0.404145188432738
   ]
   edge [
     source 161
     target 759
-    similar 0.15384615384615385
+    delta 0.35777087639996635
   ]
   edge [
     source 161
     target 187
-    similar 0.18421052631578946
+    delta 0.31304951684997057
   ]
   edge [
     source 161
     target 411
-    similar 0.05714285714285714
+    delta 0.11547005383792514
   ]
   edge [
     source 161
     target 372
-    similar 0.23333333333333334
+    delta 0.404145188432738
   ]
   edge [
     source 161
     target 364
-    similar 0.26666666666666666
+    delta 0.4437601569801833
   ]
   edge [
     source 161
     target 240
-    similar 0.3870967741935484
+    delta 0.565685424949238
   ]
   edge [
     source 161
     target 166
-    similar 0.34285714285714286
+    delta 0.5116817192534651
   ]
   edge [
     source 161
     target 353
-    similar 0.08571428571428572
+    delta 0.16641005886756874
   ]
   edge [
     source 161
     target 331
-    similar 0.17647058823529413
+    delta 0.30983866769659335
   ]
   edge [
     source 161
     target 243
-    similar 0.1794871794871795
+    delta 0.30550504633038933
   ]
   edge [
     source 161
     target 285
-    similar 0.25
+    delta 0.4131182235954578
   ]
   edge [
     source 162
     target 338
-    similar 0.3076923076923077
+    delta 0.48418202613504197
   ]
   edge [
     source 162
     target 479
-    similar 0.1111111111111111
+    delta 0.21821789023599236
   ]
   edge [
     source 162
     target 832
-    similar 0.08695652173913043
+    delta 0.2182178902359924
   ]
   edge [
     source 162
     target 1034
-    similar 0.09090909090909091
+    delta 0.2519763153394848
   ]
   edge [
     source 162
     target 1050
-    similar 0.09090909090909091
+    delta 0.2519763153394848
   ]
   edge [
     source 162
     target 465
-    similar 0.2916666666666667
+    delta 0.48304589153964794
   ]
   edge [
     source 162
     target 628
-    similar 0.2608695652173913
+    delta 0.4629100498862757
   ]
   edge [
     source 162
     target 622
-    similar 0.2608695652173913
+    delta 0.4629100498862757
   ]
   edge [
     source 162
     target 281
-    similar 0.21875
+    delta 0.3600411499115478
   ]
   edge [
     source 162
     target 326
-    similar 0.13333333333333333
+    delta 0.24209101306752098
   ]
   edge [
     source 162
     target 719
-    similar 0.22727272727272727
+    delta 0.44543540318737396
   ]
   edge [
     source 162
     target 493
-    similar 0.07142857142857142
+    delta 0.14547859349066158
   ]
   edge [
     source 162
     target 207
-    similar 0.20588235294117646
+    delta 0.34156502553198664
   ]
   edge [
     source 162
     target 259
-    similar 0.09090909090909091
+    delta 0.1690308509457033
   ]
   edge [
     source 163
     target 382
-    similar 0.14285714285714285
+    delta 0.2581988897471611
   ]
   edge [
     source 163
     target 828
-    similar 0.09090909090909091
+    delta 0.22360679774997896
   ]
   edge [
     source 163
     target 610
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 163
     target 583
-    similar 0.08
+    delta 0.1690308509457033
   ]
   edge [
     source 163
     target 656
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 163
     target 278
-    similar 0.12121212121212122
+    delta 0.21693045781865616
   ]
   edge [
     source 163
     target 224
-    similar 0.14285714285714285
+    delta 0.25
   ]
   edge [
     source 163
     target 273
-    similar 0.08823529411764706
+    delta 0.16269784336399212
   ]
   edge [
     source 163
     target 731
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 164
     target 293
-    similar 0.16216216216216217
+    delta 0.282842712474619
   ]
   edge [
     source 164
     target 284
-    similar 0.24242424242424243
+    delta 0.4
   ]
   edge [
     source 164
     target 731
-    similar 0.06896551724137931
+    delta 0.16329931618554522
   ]
   edge [
     source 164
     target 333
-    similar 0.1111111111111111
+    delta 0.2065591117977289
   ]
   edge [
     source 164
     target 172
-    similar 0.08888888888888889
+    delta 0.16329931618554522
   ]
   edge [
     source 164
     target 831
-    similar 0.1111111111111111
+    delta 0.2683281572999747
   ]
   edge [
     source 164
     target 382
-    similar 0.08823529411764706
+    delta 0.1732050807568877
   ]
   edge [
     source 164
     target 716
-    similar 0.10714285714285714
+    delta 0.24494897427831783
   ]
   edge [
     source 164
     target 828
-    similar 0.07407407407407407
+    delta 0.2
   ]
   edge [
     source 164
     target 300
-    similar 0.14285714285714285
+    delta 0.25819888974716115
   ]
   edge [
     source 164
     target 674
-    similar 0.10344827586206896
+    delta 0.22677868380553634
   ]
   edge [
     source 164
     target 1025
-    similar 0.07692307692307693
+    delta 0.23094010767585027
   ]
   edge [
     source 165
     target 298
-    similar 0.34615384615384615
+    delta 0.5248906591678238
   ]
   edge [
     source 165
     target 266
-    similar 0.20689655172413793
+    delta 0.34992710611188255
   ]
   edge [
     source 165
     target 356
-    similar 0.34615384615384615
+    delta 0.5248906591678238
   ]
   edge [
     source 165
     target 253
-    similar 0.25925925925925924
+    delta 0.42365927286816174
   ]
   edge [
     source 165
     target 787
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 165
     target 457
-    similar 0.14285714285714285
+    delta 0.2631806779839076
   ]
   edge [
     source 165
     target 219
-    similar 0.34375
+    delta 0.511766315719159
   ]
   edge [
     source 165
     target 361
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 165
     target 324
-    similar 0.2413793103448276
+    delta 0.3944053188733077
   ]
   edge [
     source 165
     target 245
-    similar 0.3103448275862069
+    delta 0.4763305116224668
   ]
   edge [
     source 165
     target 373
-    similar 0.16666666666666666
+    delta 0.29160592175990213
   ]
   edge [
     source 165
     target 212
-    similar 0.23529411764705882
+    delta 0.38095238095238093
   ]
   edge [
     source 166
     target 359
-    similar 0.4
+    delta 0.5913123959890826
   ]
   edge [
     source 166
     target 320
-    similar 0.1935483870967742
+    delta 0.3302891295379082
   ]
   edge [
     source 166
     target 713
-    similar 0.12
+    delta 0.26111648393354675
   ]
   edge [
     source 166
     target 234
-    similar 0.10526315789473684
+    delta 0.19069251784911848
   ]
   edge [
     source 166
     target 218
-    similar 0.22857142857142856
+    delta 0.37219368415938836
   ]
   edge [
     source 166
     target 240
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 166
     target 659
-    similar 0.16
+    delta 0.3223291856101521
   ]
   edge [
     source 166
     target 364
-    similar 0.34615384615384615
+    delta 0.5321811563901744
   ]
   edge [
     source 166
     target 185
-    similar 0.18421052631578946
+    delta 0.3111879571320709
   ]
   edge [
     source 166
     target 820
-    similar 0.125
+    delta 0.28603877677367767
   ]
   edge [
     source 166
     target 305
-    similar 0.15625
+    delta 0.27524094128159016
   ]
   edge [
     source 166
     target 668
-    similar 0.11538461538461539
+    delta 0.24174688920761409
   ]
   edge [
     source 166
     target 297
-    similar 0.09090909090909091
+    delta 0.1709408646894569
   ]
   edge [
     source 166
     target 222
-    similar 0.20588235294117646
+    delta 0.34238119163116293
   ]
   edge [
     source 166
     target 331
-    similar 0.1935483870967742
+    delta 0.3302891295379082
   ]
   edge [
     source 166
     target 285
-    similar 0.32142857142857145
+    delta 0.4954336943068623
   ]
   edge [
     source 167
     target 412
-    similar 0.2692307692307692
+    delta 0.4762896722078402
   ]
   edge [
     source 167
     target 274
-    similar 0.16216216216216217
+    delta 0.2809757434745082
   ]
   edge [
     source 167
     target 244
-    similar 0.3793103448275862
+    delta 0.5613413993878117
   ]
   edge [
     source 167
     target 833
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 167
     target 272
-    similar 0.21875
+    delta 0.3689323936863109
   ]
   edge [
     source 167
     target 224
-    similar 0.1282051282051282
+    delta 0.22821773229381923
   ]
   edge [
     source 167
     target 644
-    similar 0.20833333333333334
+    delta 0.45643546458763845
   ]
   edge [
     source 167
     target 241
-    similar 0.1891891891891892
+    delta 0.3195048252113469
   ]
   edge [
     source 167
     target 715
-    similar 0.2
+    delta 0.4166666666666667
   ]
   edge [
     source 167
     target 252
-    similar 0.1388888888888889
+    delta 0.2475368857441686
   ]
   edge [
     source 167
     target 273
-    similar 0.1388888888888889
+    delta 0.2475368857441686
   ]
   edge [
     source 167
     target 260
-    similar 0.13513513513513514
+    delta 0.24056261216234406
   ]
   edge [
     source 167
     target 606
-    similar 0.18518518518518517
+    delta 0.36084391824351614
   ]
   edge [
     source 167
     target 301
-    similar 0.14705882352941177
+    delta 0.26352313834736496
   ]
   edge [
     source 167
     target 175
-    similar 0.3939393939393939
+    delta 0.565752381856018
   ]
   edge [
     source 167
     target 206
-    similar 0.16216216216216217
+    delta 0.2809757434745082
   ]
   edge [
     source 167
     target 349
-    similar 0.1935483870967742
+    delta 0.3396831102433787
   ]
   edge [
     source 168
     target 208
-    similar 0.5185185185185185
+    delta 0.6847623832623259
   ]
   edge [
     source 168
     target 177
-    similar 0.5172413793103449
+    delta 0.6818181818181818
   ]
   edge [
     source 168
     target 361
-    similar 0.1724137931034483
+    delta 0.3077287274483318
   ]
   edge [
     source 168
     target 281
-    similar 0.42857142857142855
+    delta 0.6030226891555273
   ]
   edge [
     source 168
     target 555
-    similar 0.06896551724137931
+    delta 0.1421338109037403
   ]
   edge [
     source 168
     target 625
-    similar 0.36363636363636365
+    delta 0.6030226891555273
   ]
   edge [
     source 168
     target 752
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 168
     target 527
-    similar 0.34782608695652173
+    delta 0.5685352436149612
   ]
   edge [
     source 168
     target 326
-    similar 0.4
+    delta 0.5913123959890826
   ]
   edge [
     source 168
     target 324
-    similar 0.32142857142857145
+    delta 0.4954336943068623
   ]
   edge [
     source 168
     target 722
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 168
     target 323
-    similar 0.4230769230769231
+    delta 0.6055300708194984
   ]
   edge [
     source 168
     target 511
-    similar 0.3333333333333333
+    delta 0.5393598899705937
   ]
   edge [
     source 168
     target 220
-    similar 0.34375
+    delta 0.511766315719159
   ]
   edge [
     source 169
     target 407
-    similar 0.2692307692307692
+    delta 0.44095855184409843
   ]
   edge [
     source 169
     target 416
-    similar 0.1111111111111111
+    delta 0.21821789023599236
   ]
   edge [
     source 169
     target 964
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 169
     target 1060
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 169
     target 599
-    similar 0.11538461538461539
+    delta 0.23145502494313785
   ]
   edge [
     source 169
     target 503
-    similar 0.2
+    delta 0.363696483726654
   ]
   edge [
     source 169
     target 282
-    similar 0.27586206896551724
+    delta 0.4364357804719848
   ]
   edge [
     source 169
     target 1114
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 169
     target 286
-    similar 0.26666666666666666
+    delta 0.4234048992199705
   ]
   edge [
     source 169
     target 1048
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 170
     target 848
-    similar 0.11538461538461539
+    delta 0.3
   ]
   edge [
     source 170
     target 190
-    similar 0.2972972972972973
+    delta 0.4587317109255645
   ]
   edge [
     source 170
     target 690
-    similar 0.06896551724137931
+    delta 0.16329931618554522
   ]
   edge [
     source 170
     target 693
-    similar 0.19230769230769232
+    delta 0.408248290463863
   ]
   edge [
     source 170
     target 357
-    similar 0.05405405405405406
+    delta 0.10690449676496974
   ]
   edge [
     source 170
     target 181
-    similar 0.2564102564102564
+    delta 0.408248290463863
   ]
   edge [
     source 170
     target 201
-    similar 0.175
+    delta 0.2984810028978546
   ]
   edge [
     source 170
     target 669
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 170
     target 615
-    similar 0.17857142857142858
+    delta 0.35355339059327373
   ]
   edge [
     source 170
     target 475
-    similar 0.2
+    delta 0.3618136134933163
   ]
   edge [
     source 170
     target 570
-    similar 0.0967741935483871
+    delta 0.2
   ]
   edge [
     source 170
     target 575
-    similar 0.18518518518518517
+    delta 0.37796447300922725
   ]
   edge [
     source 170
     target 528
-    similar 0.25
+    delta 0.4427188724235731
   ]
   edge [
     source 170
     target 482
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 170
     target 434
-    similar 0.1935483870967742
+    delta 0.3464101615137754
   ]
   edge [
     source 170
     target 172
-    similar 0.1951219512195122
+    delta 0.32659863237109044
   ]
   edge [
     source 170
     target 188
-    similar 0.23076923076923078
+    delta 0.37532594530273455
   ]
   edge [
     source 171
     target 582
-    similar 0.1
+    delta 0.21213203435596426
   ]
   edge [
     source 171
     target 538
-    similar 0.1724137931034483
+    delta 0.3333333333333333
   ]
   edge [
     source 171
     target 406
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 171
     target 410
-    similar 0.16129032258064516
+    delta 0.3015113445777636
   ]
   edge [
     source 171
     target 174
-    similar 0.15
+    delta 0.26186146828319085
   ]
   edge [
     source 171
     target 232
-    similar 0.1282051282051282
+    delta 0.22941573387056174
   ]
   edge [
     source 171
     target 900
-    similar 0.07692307692307693
+    delta 0.23094010767585027
   ]
   edge [
     source 171
     target 296
-    similar 0.16666666666666666
+    delta 0.29104275004359953
   ]
   edge [
     source 171
     target 247
-    similar 0.075
+    delta 0.1414213562373095
   ]
   edge [
     source 171
     target 397
-    similar 0.10714285714285714
+    delta 0.24494897427831783
   ]
   edge [
     source 171
     target 1275
-    similar 0.08
+    delta 0.282842712474619
   ]
   edge [
     source 171
     target 203
-    similar 0.2972972972972973
+    delta 0.4587317109255645
   ]
   edge [
     source 172
     target 1106
-    similar 0.08333333333333333
+    delta 0.2886751345948129
   ]
   edge [
     source 172
     target 317
-    similar 0.37037037037037035
+    delta 0.5661385170722978
   ]
   edge [
     source 172
     target 434
-    similar 0.09090909090909091
+    delta 0.1767766952966369
   ]
   edge [
     source 172
     target 249
-    similar 0.15789473684210525
+    delta 0.27386127875258304
   ]
   edge [
     source 172
     target 475
-    similar 0.16666666666666666
+    delta 0.3077287274483318
   ]
   edge [
     source 172
     target 404
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 172
     target 585
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 172
     target 693
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 172
     target 420
-    similar 0.06060606060606061
+    delta 0.12309149097933272
   ]
   edge [
     source 172
     target 650
-    similar 0.06896551724137931
+    delta 0.1543033499620919
   ]
   edge [
     source 173
     target 645
-    similar 0.11538461538461539
+    delta 0.2553769592276246
   ]
   edge [
     source 173
     target 623
-    similar 0.19230769230769232
+    delta 0.3686048903872428
   ]
   edge [
     source 173
     target 197
-    similar 0.2571428571428571
+    delta 0.40951417967396103
   ]
   edge [
     source 173
     target 533
-    similar 0.1111111111111111
+    delta 0.23643312187173018
   ]
   edge [
     source 173
     target 284
-    similar 0.14705882352941177
+    delta 0.26064301757134345
   ]
   edge [
     source 173
     target 206
-    similar 0.23529411764705882
+    delta 0.3826918985879519
   ]
   edge [
     source 173
     target 389
-    similar 0.25
+    delta 0.4213504858001922
   ]
   edge [
     source 173
     target 736
-    similar 0.11538461538461539
+    delta 0.2553769592276246
   ]
   edge [
     source 173
     target 175
-    similar 0.3235294117647059
+    delta 0.48900964692182575
   ]
   edge [
     source 174
     target 265
-    similar 0.37037037037037035
+    delta 0.545544725589981
   ]
   edge [
     source 174
     target 525
-    similar 0.2
+    delta 0.363696483726654
   ]
   edge [
     source 174
     target 675
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 174
     target 563
-    similar 0.25
+    delta 0.4364357804719847
   ]
   edge [
     source 174
     target 589
-    similar 0.20833333333333334
+    delta 0.38575837490522974
   ]
   edge [
     source 174
     target 703
-    similar 0.08695652173913043
+    delta 0.2182178902359924
   ]
   edge [
     source 174
     target 658
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 174
     target 492
-    similar 0.20833333333333334
+    delta 0.38575837490522974
   ]
   edge [
     source 174
     target 270
-    similar 0.14705882352941177
+    delta 0.25717224993681986
   ]
   edge [
     source 174
     target 217
-    similar 0.10526315789473684
+    delta 0.19047619047619047
   ]
   edge [
     source 174
     target 683
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 174
     target 804
-    similar 0.18181818181818182
+    delta 0.3903600291794133
   ]
   edge [
     source 174
     target 296
-    similar 0.26666666666666666
+    delta 0.4234048992199705
   ]
   edge [
     source 175
     target 616
-    similar 0.21739130434782608
+    delta 0.4351941398892446
   ]
   edge [
     source 175
     target 701
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 175
     target 206
-    similar 0.24242424242424243
+    delta 0.3912927904356148
   ]
   edge [
     source 175
     target 606
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 175
     target 244
-    similar 0.22580645161290322
+    delta 0.3731012536223182
   ]
   edge [
     source 175
     target 278
-    similar 0.18181818181818182
+    delta 0.3102526139970115
   ]
   edge [
     source 175
     target 715
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 175
     target 272
-    similar 0.23333333333333334
+    delta 0.3853373177942262
   ]
   edge [
     source 175
     target 349
-    similar 0.25
+    delta 0.4139186771923578
   ]
   edge [
     source 176
     target 338
-    similar 0.2692307692307692
+    delta 0.43412157106222965
   ]
   edge [
     source 176
     target 261
-    similar 0.37037037037037035
+    delta 0.5423261445466404
   ]
   edge [
     source 176
     target 1030
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 176
     target 414
-    similar 0.06666666666666667
+    delta 0.12909944487358055
   ]
   edge [
     source 176
     target 245
-    similar 0.5416666666666666
+    delta 0.7050239879106326
   ]
   edge [
     source 176
     target 784
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 176
     target 219
-    similar 0.3548387096774194
+    delta 0.5244044240850758
   ]
   edge [
     source 177
     target 208
-    similar 0.64
+    delta 0.7825855808712296
   ]
   edge [
     source 177
     target 465
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 177
     target 516
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 177
     target 863
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 177
     target 323
-    similar 0.37037037037037035
+    delta 0.5504818825631803
   ]
   edge [
     source 177
     target 281
-    similar 0.3793103448275862
+    delta 0.5527707983925666
   ]
   edge [
     source 177
     target 625
-    similar 0.30434782608695654
+    delta 0.5276448530110863
   ]
   edge [
     source 177
     target 752
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 177
     target 527
-    similar 0.34782608695652173
+    delta 0.5685352436149612
   ]
   edge [
     source 177
     target 365
-    similar 0.36
+    delta 0.5539117094069973
   ]
   edge [
     source 177
     target 819
-    similar 0.22727272727272727
+    delta 0.4767312946227962
   ]
   edge [
     source 177
     target 326
-    similar 0.34615384615384615
+    delta 0.5321811563901744
   ]
   edge [
     source 177
     target 722
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 177
     target 511
-    similar 0.3333333333333333
+    delta 0.5393598899705937
   ]
   edge [
     source 177
     target 324
-    similar 0.32142857142857145
+    delta 0.4954336943068623
   ]
   edge [
     source 177
     target 220
-    similar 0.43333333333333335
+    delta 0.6048147367590061
   ]
   edge [
     source 177
     target 261
-    similar 0.18181818181818182
+    delta 0.3102526139970115
   ]
   edge [
     source 178
     target 337
-    similar 0.1
+    delta 0.1978141420187361
   ]
   edge [
     source 178
     target 207
-    similar 0.10256410256410256
+    delta 0.18650096164806276
   ]
   edge [
     source 178
     target 452
-    similar 0.1724137931034483
+    delta 0.3143473067309657
   ]
   edge [
     source 178
     target 646
-    similar 0.16
+    delta 0.34050261230349943
   ]
   edge [
     source 178
     target 660
-    similar 0.07142857142857142
+    delta 0.15762208124782012
   ]
   edge [
     source 178
     target 783
-    similar 0.16666666666666666
+    delta 0.3730019232961255
   ]
   edge [
     source 178
     target 259
-    similar 0.08571428571428572
+    delta 0.16151457061744964
   ]
   edge [
     source 178
     target 572
-    similar 0.18518518518518517
+    delta 0.34752402342845795
   ]
   edge [
     source 178
     target 665
-    similar 0.16
+    delta 0.34050261230349943
   ]
   edge [
     source 178
     target 834
-    similar 0.07692307692307693
+    delta 0.18650096164806276
   ]
   edge [
     source 178
     target 747
-    similar 0.20833333333333334
+    delta 0.4256282653793743
   ]
   edge [
     source 178
     target 422
-    similar 0.21428571428571427
+    delta 0.37721676807715887
   ]
   edge [
     source 178
     target 324
-    similar 0.15151515151515152
+    delta 0.26919095102908275
   ]
   edge [
     source 178
     target 323
-    similar 0.11764705882352941
+    delta 0.2153527608232662
   ]
   edge [
     source 178
     target 373
-    similar 0.12121212121212122
+    delta 0.22291128503014113
   ]
   edge [
     source 178
     target 532
-    similar 0.1
+    delta 0.1978141420187361
   ]
   edge [
     source 179
     target 380
-    similar 0.28
+    delta 0.47193990372426947
   ]
   edge [
     source 179
     target 227
-    similar 0.26666666666666666
+    delta 0.42640143271122083
   ]
   edge [
     source 179
     target 251
-    similar 0.2727272727272727
+    delta 0.42905816516051654
   ]
   edge [
     source 179
     target 271
-    similar 0.22580645161290322
+    delta 0.3731012536223182
   ]
   edge [
     source 179
     target 216
-    similar 0.42857142857142855
+    delta 0.6030226891555273
   ]
   edge [
     source 179
     target 230
-    similar 0.27586206896551724
+    delta 0.4403855060505443
   ]
   edge [
     source 179
     target 199
-    similar 0.15789473684210525
+    delta 0.2727272727272727
   ]
   edge [
     source 179
     target 349
-    similar 0.06060606060606061
+    delta 0.11826247919781652
   ]
   edge [
     source 179
     target 482
-    similar 0.06451612903225806
+    delta 0.128564869306645
   ]
   edge [
     source 179
     target 335
-    similar 0.20689655172413793
+    delta 0.35478743759344955
   ]
   edge [
     source 180
     target 540
-    similar 0.09090909090909091
+    delta 0.19245008972987526
   ]
   edge [
     source 180
     target 250
-    similar 0.12903225806451613
+    delta 0.2286647801900118
   ]
   edge [
     source 180
     target 284
-    similar 0.25925925925925924
+    delta 0.41247895569215276
   ]
   edge [
     source 180
     target 236
-    similar 0.1935483870967742
+    delta 0.3244428422615251
   ]
   edge [
     source 180
     target 197
-    similar 0.18181818181818182
+    delta 0.3086066999241838
   ]
   edge [
     source 180
     target 291
-    similar 0.16129032258064516
+    delta 0.2777777777777778
   ]
   edge [
     source 180
     target 268
-    similar 0.0967741935483871
+    delta 0.1767766952966369
   ]
   edge [
     source 180
     target 1264
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 180
     target 300
-    similar 0.17857142857142858
+    delta 0.3042903097250923
   ]
   edge [
     source 180
     target 755
-    similar 0.21052631578947367
+    delta 0.4216370213557839
   ]
   edge [
     source 181
     target 458
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 181
     target 802
-    similar 0.07692307692307693
+    delta 0.20412414523193154
   ]
   edge [
     source 181
     target 965
-    similar 0.08
+    delta 0.23570226039551587
   ]
   edge [
     source 181
     target 190
-    similar 0.14634146341463414
+    delta 0.2553769592276246
   ]
   edge [
     source 181
     target 1019
-    similar 0.08
+    delta 0.23570226039551587
   ]
   edge [
     source 181
     target 528
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 181
     target 603
-    similar 0.10344827586206896
+    delta 0.21650635094610968
   ]
   edge [
     source 181
     target 184
-    similar 0.06976744186046512
+    delta 0.13055824196677338
   ]
   edge [
     source 181
     target 529
-    similar 0.17857142857142858
+    delta 0.34020690871988585
   ]
   edge [
     source 181
     target 276
-    similar 0.1388888888888889
+    delta 0.2475368857441686
   ]
   edge [
     source 181
     target 430
-    similar 0.16666666666666666
+    delta 0.3077287274483318
   ]
   edge [
     source 181
     target 615
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 181
     target 575
-    similar 0.14814814814814814
+    delta 0.3086066999241838
   ]
   edge [
     source 181
     target 482
-    similar 0.20689655172413793
+    delta 0.3692744729379982
   ]
   edge [
     source 182
     target 239
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 182
     target 350
-    similar 0.36363636363636365
+    delta 0.5345224838248488
   ]
   edge [
     source 183
     target 381
-    similar 0.21428571428571427
+    delta 0.37721676807715887
   ]
   edge [
     source 183
     target 1138
-    similar 0.08695652173913043
+    delta 0.29488391230979427
   ]
   edge [
     source 183
     target 218
-    similar 0.2222222222222222
+    delta 0.36401260415463205
   ]
   edge [
     source 183
     target 343
-    similar 0.22580645161290322
+    delta 0.3768673314407159
   ]
   edge [
     source 183
     target 240
-    similar 0.1388888888888889
+    delta 0.24573659359149524
   ]
   edge [
     source 183
     target 238
-    similar 0.8695652173913043
+    delta 0.9325048082403138
   ]
   edge [
     source 183
     target 222
-    similar 0.2
+    delta 0.3348554112644579
   ]
   edge [
     source 183
     target 391
-    similar 0.34615384615384615
+    delta 0.5417363388859614
   ]
   edge [
     source 183
     target 328
-    similar 0.12121212121212122
+    delta 0.22291128503014113
   ]
   edge [
     source 183
     target 820
-    similar 0.16666666666666666
+    delta 0.3730019232961255
   ]
   edge [
     source 183
     target 372
-    similar 0.12903225806451613
+    delta 0.2407717061715384
   ]
   edge [
     source 183
     target 305
-    similar 0.1875
+    delta 0.3230291412348993
   ]
   edge [
     source 183
     target 185
-    similar 0.21052631578947367
+    delta 0.34782608695652173
   ]
   edge [
     source 183
     target 550
-    similar 0.14285714285714285
+    delta 0.27801921874276636
   ]
   edge [
     source 183
     target 566
-    similar 0.14814814814814814
+    delta 0.29488391230979427
   ]
   edge [
     source 183
     target 905
-    similar 0.17391304347826086
+    delta 0.41702882811414954
   ]
   edge [
     source 184
     target 449
-    similar 0.28
+    delta 0.47193990372426947
   ]
   edge [
     source 184
     target 710
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 184
     target 270
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 184
     target 307
-    similar 0.3
+    delta 0.46537892099551725
   ]
   edge [
     source 184
     target 308
-    similar 0.3
+    delta 0.46537892099551725
   ]
   edge [
     source 184
     target 378
-    similar 0.2857142857142857
+    delta 0.4558423058385518
   ]
   edge [
     source 184
     target 979
-    similar 0.13636363636363635
+    delta 0.3692744729379982
   ]
   edge [
     source 184
     target 296
-    similar 0.14705882352941177
+    delta 0.2585438449975096
   ]
   edge [
     source 185
     target 591
-    similar 0.14814814814814814
+    delta 0.29488391230979427
   ]
   edge [
     source 185
     target 231
-    similar 0.18181818181818182
+    delta 0.3127716210856122
   ]
   edge [
     source 185
     target 218
-    similar 0.1282051282051282
+    delta 0.22750787759664504
   ]
   edge [
     source 185
     target 238
-    similar 0.19444444444444445
+    delta 0.3263766828841098
   ]
   edge [
     source 185
     target 327
-    similar 0.16666666666666666
+    delta 0.300964632714423
   ]
   edge [
     source 185
     target 746
-    similar 0.20833333333333334
+    delta 0.4256282653793743
   ]
   edge [
     source 185
     target 659
-    similar 0.1111111111111111
+    delta 0.23643312187173018
   ]
   edge [
     source 185
     target 550
-    similar 0.18518518518518517
+    delta 0.34752402342845795
   ]
   edge [
     source 185
     target 825
-    similar 0.17391304347826086
+    delta 0.41702882811414954
   ]
   edge [
     source 185
     target 820
-    similar 0.21739130434782608
+    delta 0.4662524041201569
   ]
   edge [
     source 185
     target 331
-    similar 0.26666666666666666
+    delta 0.4307055216465324
   ]
   edge [
     source 186
     target 447
-    similar 0.14814814814814814
+    delta 0.2760262237369417
   ]
   edge [
     source 186
     target 595
-    similar 0.2727272727272727
+    delta 0.4948716593053935
   ]
   edge [
     source 186
     target 1002
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 186
     target 604
-    similar 0.2727272727272727
+    delta 0.4948716593053935
   ]
   edge [
     source 186
     target 608
-    similar 0.16666666666666666
+    delta 0.329914439536929
   ]
   edge [
     source 186
     target 844
-    similar 0.18181818181818182
+    delta 0.3903600291794133
   ]
   edge [
     source 186
     target 1253
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 186
     target 213
-    similar 0.17142857142857143
+    delta 0.29277002188455997
   ]
   edge [
     source 186
     target 718
-    similar 0.08
+    delta 0.1781741612749496
   ]
   edge [
     source 186
     target 411
-    similar 0.06451612903225806
+    delta 0.1259881576697424
   ]
   edge [
     source 186
     target 1091
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 186
     target 1021
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 186
     target 742
-    similar 0.18181818181818182
+    delta 0.3903600291794133
   ]
   edge [
     source 186
     target 1058
-    similar 0.09090909090909091
+    delta 0.2519763153394848
   ]
   edge [
     source 186
     target 986
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 186
     target 1082
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 186
     target 936
-    similar 0.19047619047619047
+    delta 0.4364357804719848
   ]
   edge [
     source 186
     target 432
-    similar 0.17857142857142858
+    delta 0.314970394174356
   ]
   edge [
     source 186
     target 838
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 187
     target 231
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 187
     target 327
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 187
     target 243
-    similar 0.20588235294117646
+    delta 0.34156502553198664
   ]
   edge [
     source 187
     target 297
-    similar 0.25925925925925924
+    delta 0.4183300132670378
   ]
   edge [
     source 187
     target 612
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 187
     target 328
-    similar 0.25925925925925924
+    delta 0.4183300132670378
   ]
   edge [
     source 187
     target 325
-    similar 0.2413793103448276
+    delta 0.3913118960624632
   ]
   edge [
     source 188
     target 544
-    similar 0.06666666666666667
+    delta 0.13900960937138318
   ]
   edge [
     source 188
     target 201
-    similar 0.6071428571428571
+    delta 0.755742181606458
   ]
   edge [
     source 188
     target 575
-    similar 0.2
+    delta 0.39405520311955033
   ]
   edge [
     source 188
     target 434
-    similar 0.12903225806451613
+    delta 0.2407717061715384
   ]
   edge [
     source 188
     target 333
-    similar 0.11764705882352941
+    delta 0.2153527608232662
   ]
   edge [
     source 188
     target 429
-    similar 0.09375
+    delta 0.1805787796286538
   ]
   edge [
     source 188
     target 248
-    similar 0.07894736842105263
+    delta 0.14744195615489714
   ]
   edge [
     source 188
     target 965
-    similar 0.08333333333333333
+    delta 0.2407717061715384
   ]
   edge [
     source 188
     target 335
-    similar 0.09090909090909091
+    delta 0.17349447958987207
   ]
   edge [
     source 188
     target 771
-    similar 0.12
+    delta 0.27975144247209416
   ]
   edge [
     source 188
     target 190
-    similar 0.15
+    delta 0.2608695652173913
   ]
   edge [
     source 189
     target 714
-    similar 0.17391304347826086
+    delta 0.38138503569823695
   ]
   edge [
     source 189
     target 1039
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 189
     target 554
-    similar 0.24
+    delta 0.4264014327112209
   ]
   edge [
     source 189
     target 813
-    similar 0.17391304347826086
+    delta 0.38138503569823695
   ]
   edge [
     source 189
     target 258
-    similar 0.3548387096774194
+    delta 0.5244044240850758
   ]
   edge [
     source 189
     target 728
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 189
     target 426
-    similar 0.32
+    delta 0.51425947722658
   ]
   edge [
     source 189
     target 792
-    similar 0.08
+    delta 0.19069251784911848
   ]
   edge [
     source 189
     target 264
-    similar 0.14285714285714285
+    delta 0.251259453814803
   ]
   edge [
     source 189
     target 247
-    similar 0.21212121212121213
+    delta 0.35176323534072423
   ]
   edge [
     source 189
     target 690
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 189
     target 990
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 189
     target 194
-    similar 0.047619047619047616
+    delta 0.09090909090909091
   ]
   edge [
     source 189
     target 396
-    similar 0.20689655172413793
+    delta 0.35478743759344955
   ]
   edge [
     source 189
     target 638
-    similar 0.12
+    delta 0.26111648393354675
   ]
   edge [
     source 189
     target 1167
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 189
     target 727
-    similar 0.21739130434782608
+    delta 0.4351941398892446
   ]
   edge [
     source 189
     target 877
-    similar 0.13043478260869565
+    delta 0.31980107453341566
   ]
   edge [
     source 189
     target 436
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 189
     target 490
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 190
     target 848
-    similar 0.125
+    delta 0.3127716210856122
   ]
   edge [
     source 190
     target 1115
-    similar 0.08695652173913043
+    delta 0.29488391230979427
   ]
   edge [
     source 190
     target 1116
-    similar 0.08695652173913043
+    delta 0.29488391230979427
   ]
   edge [
     source 190
     target 1199
-    similar 0.08695652173913043
+    delta 0.29488391230979427
   ]
   edge [
     source 190
     target 418
-    similar 0.13333333333333333
+    delta 0.2514778453847726
   ]
   edge [
     source 190
     target 276
-    similar 0.25
+    delta 0.4045773899393389
   ]
   edge [
     source 190
     target 201
-    similar 0.15384615384615385
+    delta 0.2667325346846322
   ]
   edge [
     source 190
     target 924
-    similar 0.08
+    delta 0.20851441405707477
   ]
   edge [
     source 190
     target 831
-    similar 0.07692307692307693
+    delta 0.18650096164806276
   ]
   edge [
     source 190
     target 249
-    similar 0.19444444444444445
+    delta 0.3263766828841098
   ]
   edge [
     source 190
     target 401
-    similar 0.2413793103448276
+    delta 0.40482045237636816
   ]
   edge [
     source 190
     target 756
-    similar 0.16
+    delta 0.34050261230349943
   ]
   edge [
     source 190
     target 1092
-    similar 0.13043478260869565
+    delta 0.3611575592573076
   ]
   edge [
     source 191
     target 298
-    similar 0.4
+    delta 0.5832118435198043
   ]
   edge [
     source 191
     target 253
-    similar 0.25925925925925924
+    delta 0.42365927286816174
   ]
   edge [
     source 191
     target 212
-    similar 0.3548387096774194
+    delta 0.5238095238095238
   ]
   edge [
     source 191
     target 356
-    similar 0.4583333333333333
+    delta 0.6415330278717847
   ]
   edge [
     source 191
     target 345
-    similar 0.2413793103448276
+    delta 0.3944053188733077
   ]
   edge [
     source 191
     target 457
-    similar 0.23076923076923078
+    delta 0.39477101697586137
   ]
   edge [
     source 191
     target 255
-    similar 0.3
+    delta 0.4629100498862757
   ]
   edge [
     source 191
     target 219
-    similar 0.30303030303030304
+    delta 0.4652421051992354
   ]
   edge [
     source 191
     target 245
-    similar 0.3103448275862069
+    delta 0.4763305116224668
   ]
   edge [
     source 191
     target 373
-    similar 0.25
+    delta 0.40824829046386296
   ]
   edge [
     source 192
     target 402
-    similar 0.1724137931034483
+    delta 0.3077287274483318
   ]
   edge [
     source 192
     target 574
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 192
     target 232
-    similar 0.20588235294117646
+    delta 0.34238119163116293
   ]
   edge [
     source 192
     target 918
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 192
     target 1080
-    similar 0.13636363636363635
+    delta 0.3692744729379982
   ]
   edge [
     source 192
     target 818
-    similar 0.125
+    delta 0.28603877677367767
   ]
   edge [
     source 192
     target 265
-    similar 0.11764705882352941
+    delta 0.21320071635561041
   ]
   edge [
     source 192
     target 1094
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 192
     target 408
-    similar 0.1724137931034483
+    delta 0.3077287274483318
   ]
   edge [
     source 192
     target 702
-    similar 0.12
+    delta 0.26111648393354675
   ]
   edge [
     source 192
     target 991
-    similar 0.08695652173913043
+    delta 0.24618298195866545
   ]
   edge [
     source 192
     target 608
-    similar 0.07407407407407407
+    delta 0.16116459280507606
   ]
   edge [
     source 192
     target 306
-    similar 0.1875
+    delta 0.31980107453341566
   ]
   edge [
     source 192
     target 307
-    similar 0.14705882352941177
+    delta 0.2585438449975096
   ]
   edge [
     source 192
     target 296
-    similar 0.25806451612903225
+    delta 0.4136701519960153
   ]
   edge [
     source 193
     target 316
-    similar 0.16129032258064516
+    delta 0.2817180849095055
   ]
   edge [
     source 193
     target 388
-    similar 0.19230769230769232
+    delta 0.3450327796711771
   ]
   edge [
     source 193
     target 251
-    similar 0.17142857142857143
+    delta 0.29277002188455997
   ]
   edge [
     source 193
     target 268
-    similar 0.12121212121212122
+    delta 0.2182178902359924
   ]
   edge [
     source 193
     target 701
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 193
     target 340
-    similar 0.13333333333333333
+    delta 0.24209101306752098
   ]
   edge [
     source 193
     target 411
-    similar 0.06451612903225806
+    delta 0.1259881576697424
   ]
   edge [
     source 193
     target 497
-    similar 0.24
+    delta 0.41403933560541256
   ]
   edge [
     source 193
     target 592
-    similar 0.2608695652173913
+    delta 0.4629100498862757
   ]
   edge [
     source 193
     target 974
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 193
     target 229
-    similar 0.2857142857142857
+    delta 0.4507489358552088
   ]
   edge [
     source 194
     target 536
-    similar 0.10714285714285714
+    delta 0.21320071635561044
   ]
   edge [
     source 194
     target 472
-    similar 0.1
+    delta 0.19284730395996752
   ]
   edge [
     source 194
     target 231
-    similar 0.15151515151515152
+    delta 0.26650089544451305
   ]
   edge [
     source 194
     target 386
-    similar 0.13793103448275862
+    delta 0.25712973861329
   ]
   edge [
     source 194
     target 653
-    similar 0.07407407407407407
+    delta 0.16116459280507606
   ]
   edge [
     source 194
     target 419
-    similar 0.1
+    delta 0.19284730395996752
   ]
   edge [
     source 194
     target 327
-    similar 0.0967741935483871
+    delta 0.1846372364689991
   ]
   edge [
     source 194
     target 329
-    similar 0.08571428571428572
+    delta 0.15990053726670783
   ]
   edge [
     source 194
     target 523
-    similar 0.14814814814814814
+    delta 0.2842676218074806
   ]
   edge [
     source 194
     target 306
-    similar 0.11764705882352941
+    delta 0.21320071635561041
   ]
   edge [
     source 194
     target 309
-    similar 0.05555555555555555
+    delta 0.10660035817780521
   ]
   edge [
     source 195
     target 225
-    similar 0.1935483870967742
+    delta 0.32539568672798425
   ]
   edge [
     source 195
     target 405
-    similar 0.2608695652173913
+    delta 0.42008402520840293
   ]
   edge [
     source 195
     target 857
-    similar 0.16666666666666666
+    delta 0.36380343755449945
   ]
   edge [
     source 195
     target 898
-    similar 0.17647058823529413
+    delta 0.42008402520840293
   ]
   edge [
     source 195
     target 427
-    similar 0.35
+    delta 0.5368754921931592
   ]
   edge [
     source 195
     target 318
-    similar 0.2692307692307692
+    delta 0.4244373438135827
   ]
   edge [
     source 195
     target 594
-    similar 0.4117647058823529
+    delta 0.641688947919748
   ]
   edge [
     source 195
     target 370
-    similar 0.21739130434782608
+    delta 0.36563621206356534
   ]
   edge [
     source 195
     target 289
-    similar 0.25925925925925924
+    delta 0.4117647058823529
   ]
   edge [
     source 195
     target 636
-    similar 0.2
+    delta 0.36667939881128453
   ]
   edge [
     source 195
     target 597
-    similar 0.13636363636363635
+    delta 0.25724787771376323
   ]
   edge [
     source 195
     target 366
-    similar 0.2916666666666667
+    delta 0.4537426064865151
   ]
   edge [
     source 195
     target 348
-    similar 0.25
+    delta 0.4036036763977875
   ]
   edge [
     source 196
     target 205
-    similar 0.3142857142857143
+    delta 0.4782608695652174
   ]
   edge [
     source 196
     target 409
-    similar 0.25925925925925924
+    delta 0.440086229423352
   ]
   edge [
     source 196
     target 318
-    similar 0.21875
+    delta 0.36490022459988086
   ]
   edge [
     source 196
     target 726
-    similar 0.16
+    delta 0.34050261230349943
   ]
   edge [
     source 196
     target 273
-    similar 0.1111111111111111
+    delta 0.20228869496966945
   ]
   edge [
     source 196
     target 685
-    similar 0.12
+    delta 0.27975144247209416
   ]
   edge [
     source 196
     target 371
-    similar 0.25925925925925924
+    delta 0.440086229423352
   ]
   edge [
     source 196
     target 636
-    similar 0.2
+    delta 0.39405520311955033
   ]
   edge [
     source 196
     target 807
-    similar 0.12
+    delta 0.27975144247209416
   ]
   edge [
     source 196
     target 289
-    similar 0.14285714285714285
+    delta 0.2528608687120868
   ]
   edge [
     source 196
     target 506
-    similar 0.14285714285714285
+    delta 0.27801921874276636
   ]
   edge [
     source 196
     target 292
-    similar 0.17142857142857143
+    delta 0.29488391230979427
   ]
   edge [
     source 197
     target 206
-    similar 0.25
+    delta 0.4005009394574071
   ]
   edge [
     source 197
     target 284
-    similar 0.37037037037037035
+    delta 0.545544725589981
   ]
   edge [
     source 197
     target 468
-    similar 0.28
+    delta 0.4605661864718383
   ]
   edge [
     source 197
     target 214
-    similar 0.20588235294117646
+    delta 0.34156502553198664
   ]
   edge [
     source 197
     target 673
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 198
     target 230
-    similar 0.08823529411764706
+    delta 0.1651445647689541
   ]
   edge [
     source 198
     target 236
-    similar 0.1388888888888889
+    delta 0.24455799402225925
   ]
   edge [
     source 198
     target 509
-    similar 0.10344827586206896
+    delta 0.20225995873897262
   ]
   edge [
     source 198
     target 473
-    similar 0.17857142857142858
+    delta 0.32141217326661253
   ]
   edge [
     source 198
     target 454
-    similar 0.32
+    delta 0.51425947722658
   ]
   edge [
     source 198
     target 209
-    similar 0.36666666666666664
+    delta 0.5380275868489703
   ]
   edge [
     source 198
     target 256
-    similar 0.4230769230769231
+    delta 0.6055300708194984
   ]
   edge [
     source 198
     target 250
-    similar 0.21875
+    delta 0.3619613829965134
   ]
   edge [
     source 198
     target 271
-    similar 0.3103448275862069
+    delta 0.47970161180012344
   ]
   edge [
     source 198
     target 251
-    similar 0.2
+    delta 0.3337119062359573
   ]
   edge [
     source 198
     target 257
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 198
     target 421
-    similar 0.18518518518518517
+    delta 0.337099931231621
   ]
   edge [
     source 199
     target 586
-    similar 0.20833333333333334
+    delta 0.4029114820126901
   ]
   edge [
     source 199
     target 288
-    similar 0.12121212121212122
+    delta 0.22019275302527214
   ]
   edge [
     source 199
     target 421
-    similar 0.28
+    delta 0.47193990372426947
   ]
   edge [
     source 199
     target 312
-    similar 0.36
+    delta 0.5539117094069973
   ]
   edge [
     source 199
     target 379
-    similar 0.34782608695652173
+    delta 0.5685352436149612
   ]
   edge [
     source 200
     target 760
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 200
     target 303
-    similar 0.25925925925925924
+    delta 0.4183300132670378
   ]
   edge [
     source 200
     target 1042
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 200
     target 1233
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 200
     target 712
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 200
     target 680
-    similar 0.08
+    delta 0.1690308509457033
   ]
   edge [
     source 200
     target 663
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 200
     target 445
-    similar 0.2608695652173913
+    delta 0.4472135954999579
   ]
   edge [
     source 200
     target 503
-    similar 0.11538461538461539
+    delta 0.22360679774997896
   ]
   edge [
     source 200
     target 1083
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 200
     target 524
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 200
     target 740
-    similar 0.23809523809523808
+    delta 0.45643546458763845
   ]
   edge [
     source 201
     target 333
-    similar 0.12121212121212122
+    delta 0.22019275302527214
   ]
   edge [
     source 201
     target 429
-    similar 0.0967741935483871
+    delta 0.1846372364689991
   ]
   edge [
     source 201
     target 248
-    similar 0.08108108108108109
+    delta 0.15075567228888181
   ]
   edge [
     source 201
     target 575
-    similar 0.20833333333333334
+    delta 0.4029114820126901
   ]
   edge [
     source 201
     target 771
-    similar 0.17391304347826086
+    delta 0.38138503569823695
   ]
   edge [
     source 201
     target 279
-    similar 0.14285714285714285
+    delta 0.251259453814803
   ]
   edge [
     source 202
     target 762
-    similar 0.12
+    delta 0.3061862178478973
   ]
   edge [
     source 202
     target 753
-    similar 0.07142857142857142
+    delta 0.16666666666666666
   ]
   edge [
     source 202
     target 807
-    similar 0.11538461538461539
+    delta 0.27386127875258304
   ]
   edge [
     source 202
     target 512
-    similar 0.25925925925925924
+    delta 0.45184805705753195
   ]
   edge [
     source 202
     target 524
-    similar 0.0625
+    delta 0.12909944487358055
   ]
   edge [
     source 202
     target 896
-    similar 0.07692307692307693
+    delta 0.20412414523193154
   ]
   edge [
     source 202
     target 879
-    similar 0.07692307692307693
+    delta 0.20412414523193154
   ]
   edge [
     source 202
     target 637
-    similar 0.07407407407407407
+    delta 0.18257418583505536
   ]
   edge [
     source 202
     target 766
-    similar 0.07692307692307693
+    delta 0.20412414523193154
   ]
   edge [
     source 202
     target 640
-    similar 0.07142857142857142
+    delta 0.16666666666666666
   ]
   edge [
     source 202
     target 793
-    similar 0.07407407407407407
+    delta 0.18257418583505536
   ]
   edge [
     source 202
     target 488
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 202
     target 299
-    similar 0.25806451612903225
+    delta 0.4216370213557839
   ]
   edge [
     source 202
     target 842
-    similar 0.07407407407407407
+    delta 0.18257418583505536
   ]
   edge [
     source 202
     target 733
-    similar 0.11538461538461539
+    delta 0.27386127875258304
   ]
   edge [
     source 203
     target 308
-    similar 0.3333333333333333
+    delta 0.5057217374241736
   ]
   edge [
     source 203
     target 351
-    similar 0.35714285714285715
+    delta 0.5383819020581655
   ]
   edge [
     source 203
     target 307
-    similar 0.14285714285714285
+    delta 0.2528608687120868
   ]
   edge [
     source 203
     target 402
-    similar 0.2962962962962963
+    delta 0.4815434123430768
   ]
   edge [
     source 203
     target 378
-    similar 0.37037037037037035
+    delta 0.5572782125753528
   ]
   edge [
     source 203
     target 448
-    similar 0.3076923076923077
+    delta 0.5029556907695452
   ]
   edge [
     source 203
     target 408
-    similar 0.16666666666666666
+    delta 0.300964632714423
   ]
   edge [
     source 203
     target 470
-    similar 0.3076923076923077
+    delta 0.5029556907695452
   ]
   edge [
     source 204
     target 705
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 204
     target 599
-    similar 0.2
+    delta 0.3768891807222045
   ]
   edge [
     source 204
     target 282
-    similar 0.15151515151515152
+    delta 0.26650089544451305
   ]
   edge [
     source 204
     target 688
-    similar 0.22727272727272727
+    delta 0.4767312946227962
   ]
   edge [
     source 204
     target 660
-    similar 0.16
+    delta 0.3223291856101521
   ]
   edge [
     source 204
     target 286
-    similar 0.18181818181818182
+    delta 0.3102526139970115
   ]
   edge [
     source 204
     target 217
-    similar 0.04878048780487805
+    delta 0.09304842103984709
   ]
   edge [
     source 204
     target 811
-    similar 0.13043478260869565
+    delta 0.31980107453341566
   ]
   edge [
     source 204
     target 1110
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 204
     target 321
-    similar 0.20689655172413793
+    delta 0.35478743759344955
   ]
   edge [
     source 205
     target 726
-    similar 0.20833333333333334
+    delta 0.4256282653793743
   ]
   edge [
     source 205
     target 826
-    similar 0.12
+    delta 0.27975144247209416
   ]
   edge [
     source 205
     target 985
-    similar 0.08333333333333333
+    delta 0.2407717061715384
   ]
   edge [
     source 205
     target 348
-    similar 0.2413793103448276
+    delta 0.40482045237636816
   ]
   edge [
     source 205
     target 923
-    similar 0.125
+    delta 0.3127716210856122
   ]
   edge [
     source 205
     target 878
-    similar 0.125
+    delta 0.3127716210856122
   ]
   edge [
     source 205
     target 711
-    similar 0.16
+    delta 0.34050261230349943
   ]
   edge [
     source 205
     target 273
-    similar 0.1111111111111111
+    delta 0.20228869496966945
   ]
   edge [
     source 205
     target 269
-    similar 0.16666666666666666
+    delta 0.2870189239409639
   ]
   edge [
     source 205
     target 409
-    similar 0.25925925925925924
+    delta 0.440086229423352
   ]
   edge [
     source 205
     target 937
-    similar 0.17391304347826086
+    delta 0.41702882811414954
   ]
   edge [
     source 205
     target 815
-    similar 0.08
+    delta 0.20851441405707477
   ]
   edge [
     source 205
     target 289
-    similar 0.2903225806451613
+    delta 0.45514956368175624
   ]
   edge [
     source 205
     target 1118
-    similar 0.08695652173913043
+    delta 0.29488391230979427
   ]
   edge [
     source 205
     target 405
-    similar 0.16666666666666666
+    delta 0.300964632714423
   ]
   edge [
     source 206
     target 1102
-    similar 0.10526315789473684
+    delta 0.3244428422615251
   ]
   edge [
     source 206
     target 237
-    similar 0.1111111111111111
+    delta 0.20025046972870356
   ]
   edge [
     source 207
     target 208
-    similar 0.14705882352941177
+    delta 0.25649458802128855
   ]
   edge [
     source 207
     target 431
-    similar 0.28
+    delta 0.45184805705753195
   ]
   edge [
     source 207
     target 511
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 207
     target 261
-    similar 0.23333333333333334
+    delta 0.3796283011826483
   ]
   edge [
     source 208
     target 1032
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 208
     target 1090
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 208
     target 365
-    similar 0.24
+    delta 0.39735970711951313
   ]
   edge [
     source 208
     target 722
-    similar 0.25
+    delta 0.468292905790847
   ]
   edge [
     source 208
     target 511
-    similar 0.38095238095238093
+    delta 0.5803810000880093
   ]
   edge [
     source 208
     target 752
-    similar 0.25
+    delta 0.468292905790847
   ]
   edge [
     source 208
     target 527
-    similar 0.3333333333333333
+    delta 0.5353033790313108
   ]
   edge [
     source 208
     target 863
-    similar 0.21052631578947367
+    delta 0.4588314677411235
   ]
   edge [
     source 208
     target 625
-    similar 0.2857142857142857
+    delta 0.48666426339228763
   ]
   edge [
     source 208
     target 281
-    similar 0.37037037037037035
+    delta 0.5407380704358752
   ]
   edge [
     source 208
     target 326
-    similar 0.3333333333333333
+    delta 0.5090278103806222
   ]
   edge [
     source 208
     target 323
-    similar 0.36
+    delta 0.533113989983183
   ]
   edge [
     source 208
     target 324
-    similar 0.25925925925925924
+    delta 0.4146442144313646
   ]
   edge [
     source 209
     target 354
-    similar 0.07407407407407407
+    delta 0.14509525002200233
   ]
   edge [
     source 209
     target 256
-    similar 0.4782608695652174
+    delta 0.6515837655350015
   ]
   edge [
     source 209
     target 454
-    similar 0.5789473684210527
+    delta 0.760885910252682
   ]
   edge [
     source 209
     target 322
-    similar 0.13793103448275862
+    delta 0.24525573579398632
   ]
   edge [
     source 209
     target 1182
-    similar 0.10526315789473684
+    delta 0.3244428422615251
   ]
   edge [
     source 209
     target 271
-    similar 0.5217391304347826
+    delta 0.6882472016116852
   ]
   edge [
     source 209
     target 227
-    similar 0.34615384615384615
+    delta 0.5161854012087639
   ]
   edge [
     source 210
     target 403
-    similar 0.24
+    delta 0.40451991747794525
   ]
   edge [
     source 210
     target 651
-    similar 0.22727272727272727
+    delta 0.4225771273642583
   ]
   edge [
     source 210
     target 295
-    similar 0.25
+    delta 0.404145188432738
   ]
   edge [
     source 210
     target 499
-    similar 0.16
+    delta 0.29814239699997197
   ]
   edge [
     source 210
     target 318
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 210
     target 267
-    similar 0.3333333333333333
+    delta 0.5031152949374527
   ]
   edge [
     source 210
     target 347
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 210
     target 278
-    similar 0.05714285714285714
+    delta 0.10846522890932808
   ]
   edge [
     source 210
     target 385
-    similar 0.2692307692307692
+    delta 0.43412157106222965
   ]
   edge [
     source 210
     target 972
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 210
     target 1087
-    similar 0.09523809523809523
+    delta 0.2581988897471611
   ]
   edge [
     source 210
     target 246
-    similar 0.16129032258064516
+    delta 0.2795084971874737
   ]
   edge [
     source 211
     target 453
-    similar 0.11538461538461539
+    delta 0.2176428750330035
   ]
   edge [
     source 211
     target 321
-    similar 0.10344827586206896
+    delta 0.19088542889273333
   ]
   edge [
     source 211
     target 223
-    similar 0.3448275862068966
+    delta 0.5129891760425771
   ]
   edge [
     source 211
     target 481
-    similar 0.20833333333333334
+    delta 0.36273812505500586
   ]
   edge [
     source 212
     target 298
-    similar 0.20689655172413793
+    delta 0.34992710611188255
   ]
   edge [
     source 212
     target 485
-    similar 0.14814814814814814
+    delta 0.2760262237369417
   ]
   edge [
     source 212
     target 493
-    similar 0.25
+    delta 0.4364357804719847
   ]
   edge [
     source 212
     target 547
-    similar 0.20833333333333334
+    delta 0.38575837490522974
   ]
   edge [
     source 212
     target 345
-    similar 0.16129032258064516
+    delta 0.2817180849095055
   ]
   edge [
     source 212
     target 321
-    similar 0.1724137931034483
+    delta 0.30261376633440124
   ]
   edge [
     source 212
     target 255
-    similar 0.39285714285714285
+    delta 0.5657789498610036
   ]
   edge [
     source 212
     target 374
-    similar 0.28
+    delta 0.4605661864718383
   ]
   edge [
     source 212
     target 532
-    similar 0.19230769230769232
+    delta 0.3450327796711771
   ]
   edge [
     source 212
     target 253
-    similar 0.21428571428571427
+    delta 0.36313651960128146
   ]
   edge [
     source 213
     target 446
-    similar 0.06896551724137931
+    delta 0.13483997249264842
   ]
   edge [
     source 213
     target 447
-    similar 0.30434782608695654
+    delta 0.49497474683058323
   ]
   edge [
     source 213
     target 502
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 213
     target 1183
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 213
     target 799
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 213
     target 604
-    similar 0.125
+    delta 0.253546276418555
   ]
   edge [
     source 213
     target 608
-    similar 0.125
+    delta 0.253546276418555
   ]
   edge [
     source 213
     target 1228
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 213
     target 1057
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 213
     target 432
-    similar 0.28
+    delta 0.45184805705753195
   ]
   edge [
     source 213
     target 926
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 213
     target 973
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 213
     target 892
-    similar 0.14285714285714285
+    delta 0.33541019662496846
   ]
   edge [
     source 213
     target 917
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 213
     target 925
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 213
     target 1036
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 213
     target 1024
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 214
     target 268
-    similar 0.3333333333333333
+    delta 0.5031152949374527
   ]
   edge [
     source 214
     target 340
-    similar 0.2222222222222222
+    delta 0.3721042037676254
   ]
   edge [
     source 214
     target 251
-    similar 0.21212121212121213
+    delta 0.35
   ]
   edge [
     source 214
     target 215
-    similar 0.35714285714285715
+    delta 0.5270462766947299
   ]
   edge [
     source 214
     target 395
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 214
     target 459
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 214
     target 275
-    similar 0.3333333333333333
+    delta 0.5031152949374527
   ]
   edge [
     source 214
     target 236
-    similar 0.21875
+    delta 0.35909242322980395
   ]
   edge [
     source 214
     target 237
-    similar 0.20588235294117646
+    delta 0.34156502553198664
   ]
   edge [
     source 215
     target 871
-    similar 0.16666666666666666
+    delta 0.408248290463863
   ]
   edge [
     source 215
     target 275
-    similar 0.3076923076923077
+    delta 0.47140452079103173
   ]
   edge [
     source 215
     target 859
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 215
     target 334
-    similar 0.25925925925925924
+    delta 0.41247895569215276
   ]
   edge [
     source 215
     target 268
-    similar 0.25925925925925924
+    delta 0.41247895569215276
   ]
   edge [
     source 216
     target 312
-    similar 0.2
+    delta 0.34020690871988585
   ]
   edge [
     source 216
     target 230
-    similar 0.5714285714285714
+    delta 0.7302967433402215
   ]
   edge [
     source 217
     target 265
-    similar 0.12121212121212122
+    delta 0.2182178902359924
   ]
   edge [
     source 217
     target 545
-    similar 0.16
+    delta 0.3086066999241838
   ]
   edge [
     source 217
     target 492
-    similar 0.2608695652173913
+    delta 0.4629100498862757
   ]
   edge [
     source 217
     target 300
-    similar 0.058823529411764705
+    delta 0.1126872339638022
   ]
   edge [
     source 217
     target 731
-    similar 0.08
+    delta 0.1781741612749496
   ]
   edge [
     source 217
     target 232
-    similar 0.14285714285714285
+    delta 0.25031308716087947
   ]
   edge [
     source 217
     target 437
-    similar 0.1111111111111111
+    delta 0.21821789023599236
   ]
   edge [
     source 217
     target 334
-    similar 0.08823529411764706
+    delta 0.1636634176769943
   ]
   edge [
     source 218
     target 320
-    similar 0.2413793103448276
+    delta 0.3944053188733077
   ]
   edge [
     source 218
     target 612
-    similar 0.16
+    delta 0.3086066999241838
   ]
   edge [
     source 218
     target 364
-    similar 0.21428571428571427
+    delta 0.36313651960128146
   ]
   edge [
     source 218
     target 657
-    similar 0.23809523809523808
+    delta 0.4879500364742666
   ]
   edge [
     source 218
     target 285
-    similar 0.2413793103448276
+    delta 0.3944053188733077
   ]
   edge [
     source 218
     target 420
-    similar 0.23076923076923078
+    delta 0.39477101697586137
   ]
   edge [
     source 218
     target 359
-    similar 0.21428571428571427
+    delta 0.36313651960128146
   ]
   edge [
     source 218
     target 417
-    similar 0.34782608695652173
+    delta 0.5520524474738834
   ]
   edge [
     source 218
     target 391
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 218
     target 609
-    similar 0.11538461538461539
+    delta 0.23145502494313785
   ]
   edge [
     source 218
     target 325
-    similar 0.12121212121212122
+    delta 0.2182178902359924
   ]
   edge [
     source 218
     target 381
-    similar 0.3333333333333333
+    delta 0.5263613559678152
   ]
   edge [
     source 218
     target 387
-    similar 0.13333333333333333
+    delta 0.24209101306752098
   ]
   edge [
     source 218
     target 343
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 218
     target 984
-    similar 0.09090909090909091
+    delta 0.2519763153394848
   ]
   edge [
     source 219
     target 298
-    similar 0.38461538461538464
+    delta 0.5698028822981898
   ]
   edge [
     source 219
     target 282
-    similar 0.1875
+    delta 0.31980107453341566
   ]
   edge [
     source 219
     target 245
-    similar 0.5
+    delta 0.6722139969935249
   ]
   edge [
     source 219
     target 809
-    similar 0.125
+    delta 0.28603877677367767
   ]
   edge [
     source 219
     target 725
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 219
     target 400
-    similar 0.375
+    delta 0.5785419118799026
   ]
   edge [
     source 219
     target 261
-    similar 0.14705882352941177
+    delta 0.2585438449975096
   ]
   edge [
     source 219
     target 827
-    similar 0.125
+    delta 0.28603877677367767
   ]
   edge [
     source 219
     target 1113
-    similar 0.09090909090909091
+    delta 0.30151134457776363
   ]
   edge [
     source 220
     target 1053
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 220
     target 812
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 220
     target 1046
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 220
     target 511
-    similar 0.19230769230769232
+    delta 0.3450327796711771
   ]
   edge [
     source 220
     target 365
-    similar 0.13793103448275862
+    delta 0.2519763153394848
   ]
   edge [
     source 220
     target 323
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 220
     target 752
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 220
     target 625
-    similar 0.16
+    delta 0.3086066999241838
   ]
   edge [
     source 220
     target 324
-    similar 0.125
+    delta 0.2253744679276044
   ]
   edge [
     source 220
     target 527
-    similar 0.2
+    delta 0.363696483726654
   ]
   edge [
     source 220
     target 326
-    similar 0.1724137931034483
+    delta 0.30261376633440124
   ]
   edge [
     source 220
     target 722
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 220
     target 819
-    similar 0.13043478260869565
+    delta 0.29277002188455997
   ]
   edge [
     source 220
     target 798
-    similar 0.18181818181818182
+    delta 0.3903600291794133
   ]
   edge [
     source 220
     target 692
-    similar 0.17391304347826086
+    delta 0.3563483225498992
   ]
   edge [
     source 220
     target 919
-    similar 0.13636363636363635
+    delta 0.3273268353539886
   ]
   edge [
     source 221
     target 226
-    similar 0.4230769230769231
+    delta 0.5948118774794626
   ]
   edge [
     source 221
     target 322
-    similar 0.391304347826087
+    delta 0.5669467095138409
   ]
   edge [
     source 221
     target 260
-    similar 0.16129032258064516
+    delta 0.2777777777777778
   ]
   edge [
     source 221
     target 269
-    similar 0.12121212121212122
+    delta 0.21629522817435007
   ]
   edge [
     source 221
     target 369
-    similar 0.4090909090909091
+    delta 0.588348405414552
   ]
   edge [
     source 221
     target 349
-    similar 0.06896551724137931
+    delta 0.13074409009212268
   ]
   edge [
     source 222
     target 536
-    similar 0.07692307692307693
+    delta 0.1529438225803745
   ]
   edge [
     source 222
     target 591
-    similar 0.17391304347826086
+    delta 0.3244428422615251
   ]
   edge [
     source 222
     target 238
-    similar 0.21875
+    delta 0.35909242322980395
   ]
   edge [
     source 222
     target 664
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 222
     target 305
-    similar 0.25925925925925924
+    delta 0.4146442144313646
   ]
   edge [
     source 222
     target 1018
-    similar 0.15789473684210525
+    delta 0.39735970711951313
   ]
   edge [
     source 222
     target 331
-    similar 0.36
+    delta 0.533113989983183
   ]
   edge [
     source 222
     target 243
-    similar 0.21212121212121213
+    delta 0.35043832202523123
   ]
   edge [
     source 222
     target 325
-    similar 0.12903225806451613
+    delta 0.22941573387056174
   ]
   edge [
     source 223
     target 228
-    similar 0.3448275862068966
+    delta 0.5129891760425771
   ]
   edge [
     source 223
     target 319
-    similar 0.21428571428571427
+    delta 0.35856858280031806
   ]
   edge [
     source 224
     target 225
-    similar 0.14285714285714285
+    delta 0.25
   ]
   edge [
     source 224
     target 534
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 224
     target 548
-    similar 0.21739130434782608
+    delta 0.3952847075210474
   ]
   edge [
     source 224
     target 252
-    similar 0.32142857142857145
+    delta 0.4880935300919764
   ]
   edge [
     source 224
     target 233
-    similar 0.08571428571428572
+    delta 0.15811388300841897
   ]
   edge [
     source 224
     target 423
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 224
     target 241
-    similar 0.3793103448275862
+    delta 0.55
   ]
   edge [
     source 224
     target 681
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 225
     target 560
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 225
     target 277
-    similar 0.09090909090909091
+    delta 0.16770509831248423
   ]
   edge [
     source 225
     target 252
-    similar 0.08823529411764706
+    delta 0.16269784336399212
   ]
   edge [
     source 225
     target 269
-    similar 0.14705882352941177
+    delta 0.25649458802128855
   ]
   edge [
     source 225
     target 537
-    similar 0.21739130434782608
+    delta 0.3952847075210474
   ]
   edge [
     source 225
     target 474
-    similar 0.10714285714285714
+    delta 0.20225995873897262
   ]
   edge [
     source 225
     target 499
-    similar 0.16
+    delta 0.29814239699997197
   ]
   edge [
     source 225
     target 385
-    similar 0.2222222222222222
+    delta 0.3721042037676254
   ]
   edge [
     source 225
     target 318
-    similar 0.2413793103448276
+    delta 0.3913118960624632
   ]
   edge [
     source 225
     target 289
-    similar 0.15625
+    delta 0.2711630722733202
   ]
   edge [
     source 226
     target 322
-    similar 0.375
+    delta 0.5518254055364693
   ]
   edge [
     source 226
     target 273
-    similar 0.125
+    delta 0.2225659536298629
   ]
   edge [
     source 226
     target 244
-    similar 0.20689655172413793
+    delta 0.3441236008058426
   ]
   edge [
     source 226
     target 358
-    similar 0.2
+    delta 0.3458572319330373
   ]
   edge [
     source 226
     target 250
-    similar 0.16129032258064516
+    delta 0.2782074420373286
   ]
   edge [
     source 226
     target 506
-    similar 0.21739130434782608
+    delta 0.3823595564509363
   ]
   edge [
     source 226
     target 260
-    similar 0.15625
+    delta 0.2703690352179376
   ]
   edge [
     source 226
     target 473
-    similar 0.2
+    delta 0.3458572319330373
   ]
   edge [
     source 226
     target 369
-    similar 0.3333333333333333
+    delta 0.5090278103806222
   ]
   edge [
     source 227
     target 257
-    similar 0.25925925925925924
+    delta 0.41247895569215276
   ]
   edge [
     source 227
     target 271
-    similar 0.5238095238095238
+    delta 0.6875
   ]
   edge [
     source 228
     target 467
-    similar 0.25
+    delta 0.4150286783196448
   ]
   edge [
     source 228
     target 518
-    similar 0.20833333333333334
+    delta 0.36273812505500586
   ]
   edge [
     source 228
     target 531
-    similar 0.20833333333333334
+    delta 0.36273812505500586
   ]
   edge [
     source 228
     target 741
-    similar 0.13636363636363635
+    delta 0.2809757434745082
   ]
   edge [
     source 229
     target 689
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 229
     target 497
-    similar 0.6666666666666666
+    delta 0.816496580927726
   ]
   edge [
     source 229
     target 592
-    similar 0.5333333333333333
+    delta 0.7302967433402214
   ]
   edge [
     source 230
     target 312
-    similar 0.17391304347826086
+    delta 0.29814239699997197
   ]
   edge [
     source 231
     target 386
-    similar 0.2857142857142857
+    delta 0.45226701686664544
   ]
   edge [
     source 231
     target 332
-    similar 0.38095238095238093
+    delta 0.5547001962252291
   ]
   edge [
     source 231
     target 328
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 231
     target 325
-    similar 0.28
+    delta 0.4375
   ]
   edge [
     source 231
     target 372
-    similar 0.12
+    delta 0.21650635094610968
   ]
   edge [
     source 231
     target 320
-    similar 0.10714285714285714
+    delta 0.19364916731037085
   ]
   edge [
     source 232
     target 550
-    similar 0.12
+    delta 0.22941573387056177
   ]
   edge [
     source 232
     target 574
-    similar 0.2857142857142857
+    delta 0.48666426339228763
   ]
   edge [
     source 232
     target 408
-    similar 0.14814814814814814
+    delta 0.26490647141300877
   ]
   edge [
     source 232
     target 804
-    similar 0.14285714285714285
+    delta 0.30779350562554625
   ]
   edge [
     source 233
     target 546
-    similar 0.18181818181818182
+    delta 0.3333333333333333
   ]
   edge [
     source 233
     target 672
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 233
     target 564
-    similar 0.17391304347826086
+    delta 0.31426968052735443
   ]
   edge [
     source 233
     target 300
-    similar 0.06451612903225806
+    delta 0.12171612389003691
   ]
   edge [
     source 233
     target 389
-    similar 0.15384615384615385
+    delta 0.2721655269759087
   ]
   edge [
     source 233
     target 260
-    similar 0.16129032258064516
+    delta 0.2777777777777778
   ]
   edge [
     source 233
     target 273
-    similar 0.16666666666666666
+    delta 0.2858309752375147
   ]
   edge [
     source 233
     target 369
-    similar 0.19230769230769232
+    delta 0.3268602252303067
   ]
   edge [
     source 233
     target 246
-    similar 0.0967741935483871
+    delta 0.1767766952966369
   ]
   edge [
     source 234
     target 443
-    similar 0.14814814814814814
+    delta 0.26967994498529685
   ]
   edge [
     source 234
     target 501
-    similar 0.2608695652173913
+    delta 0.4472135954999579
   ]
   edge [
     source 234
     target 795
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 234
     target 483
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 234
     target 567
-    similar 0.2857142857142857
+    delta 0.50709255283711
   ]
   edge [
     source 234
     target 568
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 234
     target 609
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 234
     target 325
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 234
     target 343
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 234
     target 839
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 234
     target 903
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 234
     target 372
-    similar 0.14285714285714285
+    delta 0.2581988897471611
   ]
   edge [
     source 234
     target 387
-    similar 0.1
+    delta 0.1860521018838127
   ]
   edge [
     source 234
     target 612
-    similar 0.12
+    delta 0.23717082451262844
   ]
   edge [
     source 234
     target 297
-    similar 0.1724137931034483
+    delta 0.2988071523335984
   ]
   edge [
     source 234
     target 897
-    similar 0.15
+    delta 0.3872983346207417
   ]
   edge [
     source 235
     target 663
-    similar 0.3076923076923077
+    delta 0.4923659639173309
   ]
   edge [
     source 235
     target 670
-    similar 0.21428571428571427
+    delta 0.3692744729379982
   ]
   edge [
     source 235
     target 424
-    similar 0.23529411764705882
+    delta 0.38138503569823695
   ]
   edge [
     source 235
     target 605
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 235
     target 768
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 235
     target 300
-    similar 0.13043478260869565
+    delta 0.23354968324845687
   ]
   edge [
     source 235
     target 1209
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 236
     target 251
-    similar 0.21875
+    delta 0.35909242322980395
   ]
   edge [
     source 236
     target 288
-    similar 0.13333333333333333
+    delta 0.23693955110363693
   ]
   edge [
     source 236
     target 459
-    similar 0.16666666666666666
+    delta 0.305887645160749
   ]
   edge [
     source 236
     target 390
-    similar 0.25
+    delta 0.4150286783196448
   ]
   edge [
     source 237
     target 634
-    similar 0.22727272727272727
+    delta 0.44543540318737396
   ]
   edge [
     source 237
     target 556
-    similar 0.20833333333333334
+    delta 0.38575837490522974
   ]
   edge [
     source 237
     target 676
-    similar 0.08333333333333333
+    delta 0.19518001458970666
   ]
   edge [
     source 237
     target 334
-    similar 0.27586206896551724
+    delta 0.4364357804719848
   ]
   edge [
     source 237
     target 578
-    similar 0.3181818181818182
+    delta 0.5400617248673216
   ]
   edge [
     source 238
     target 343
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 238
     target 240
-    similar 0.15151515151515152
+    delta 0.26352313834736496
   ]
   edge [
     source 238
     target 820
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 238
     target 372
-    similar 0.14285714285714285
+    delta 0.2581988897471611
   ]
   edge [
     source 238
     target 305
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 238
     target 550
-    similar 0.16
+    delta 0.29814239699997197
   ]
   edge [
     source 238
     target 391
-    similar 0.28
+    delta 0.45184805705753195
   ]
   edge [
     source 238
     target 328
-    similar 0.13333333333333333
+    delta 0.23904572186687872
   ]
   edge [
     source 238
     target 566
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 238
     target 905
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 239
     target 276
-    similar 0.09375
+    delta 0.17149858514250885
   ]
   edge [
     source 239
     target 463
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 239
     target 393
-    similar 0.24
+    delta 0.39223227027636803
   ]
   edge [
     source 240
     target 359
-    similar 0.47619047619047616
+    delta 0.6537204504606134
   ]
   edge [
     source 240
     target 320
-    similar 0.2222222222222222
+    delta 0.36514837167011077
   ]
   edge [
     source 240
     target 505
-    similar 0.08695652173913043
+    delta 0.1781741612749496
   ]
   edge [
     source 240
     target 607
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 240
     target 420
-    similar 0.11538461538461539
+    delta 0.21320071635561044
   ]
   edge [
     source 240
     target 364
-    similar 0.34782608695652173
+    delta 0.5229763603684907
   ]
   edge [
     source 240
     target 483
-    similar 0.07692307692307693
+    delta 0.14907119849998599
   ]
   edge [
     source 240
     target 285
-    similar 0.375
+    delta 0.5477225575051662
   ]
   edge [
     source 241
     target 316
-    similar 0.06060606060606061
+    delta 0.11547005383792514
   ]
   edge [
     source 241
     target 252
-    similar 0.23333333333333334
+    delta 0.3796283011826483
   ]
   edge [
     source 241
     target 274
-    similar 0.25806451612903225
+    delta 0.41039134083406165
   ]
   edge [
     source 241
     target 565
-    similar 0.21739130434782608
+    delta 0.3952847075210474
   ]
   edge [
     source 241
     target 423
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 241
     target 700
-    similar 0.23809523809523808
+    delta 0.45643546458763845
   ]
   edge [
     source 241
     target 681
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 241
     target 414
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 241
     target 301
-    similar 0.12903225806451613
+    delta 0.23094010767585027
   ]
   edge [
     source 241
     target 997
-    similar 0.09523809523809523
+    delta 0.2581988897471611
   ]
   edge [
     source 241
     target 830
-    similar 0.13636363636363635
+    delta 0.3
   ]
   edge [
     source 242
     target 991
-    similar 0.13333333333333333
+    delta 0.3086066999241838
   ]
   edge [
     source 242
     target 505
-    similar 0.10526315789473684
+    delta 0.20203050891044214
   ]
   edge [
     source 242
     target 346
-    similar 0.4444444444444444
+    delta 0.6172133998483676
   ]
   edge [
     source 242
     target 912
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 242
     target 614
-    similar 0.3125
+    delta 0.5050762722761054
   ]
   edge [
     source 242
     target 522
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 242
     target 438
-    similar 0.4375
+    delta 0.6236095644623235
   ]
   edge [
     source 242
     target 394
-    similar 0.29411764705882354
+    delta 0.472455591261534
   ]
   edge [
     source 242
     target 476
-    similar 0.29411764705882354
+    delta 0.472455591261534
   ]
   edge [
     source 242
     target 1268
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 242
     target 842
-    similar 0.1875
+    delta 0.35856858280031806
   ]
   edge [
     source 243
     target 1108
-    similar 0.09523809523809523
+    delta 0.3086066999241838
   ]
   edge [
     source 243
     target 417
-    similar 0.19230769230769232
+    delta 0.3450327796711771
   ]
   edge [
     source 243
     target 304
-    similar 0.16129032258064516
+    delta 0.2817180849095055
   ]
   edge [
     source 243
     target 522
-    similar 0.06896551724137931
+    delta 0.13801311186847084
   ]
   edge [
     source 243
     target 391
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 243
     target 387
-    similar 0.13333333333333333
+    delta 0.24209101306752098
   ]
   edge [
     source 244
     target 252
-    similar 0.1
+    delta 0.18190171877724973
   ]
   edge [
     source 244
     target 644
-    similar 0.3125
+    delta 0.5590169943749475
   ]
   edge [
     source 244
     target 412
-    similar 0.3888888888888889
+    delta 0.5833333333333334
   ]
   edge [
     source 244
     target 833
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 245
     target 338
-    similar 0.30434782608695654
+    delta 0.4708709557974187
   ]
   edge [
     source 245
     target 356
-    similar 0.4090909090909091
+    delta 0.583383351196948
   ]
   edge [
     source 245
     target 261
-    similar 0.25925925925925924
+    delta 0.4117647058823529
   ]
   edge [
     source 245
     target 400
-    similar 0.5555555555555556
+    delta 0.7312724241271307
   ]
   edge [
     source 246
     target 1010
-    similar 0.1875
+    delta 0.43301270189221935
   ]
   edge [
     source 246
     target 437
-    similar 0.3157894736842105
+    delta 0.5
   ]
   edge [
     source 246
     target 445
-    similar 0.13636363636363635
+    delta 0.25
   ]
   edge [
     source 246
     target 933
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 246
     target 906
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 247
     target 543
-    similar 0.3684210526315789
+    delta 0.5833333333333334
   ]
   edge [
     source 247
     target 258
-    similar 0.22580645161290322
+    delta 0.3689323936863109
   ]
   edge [
     source 247
     target 472
-    similar 0.20833333333333334
+    delta 0.3553345272593507
   ]
   edge [
     source 247
     target 396
-    similar 0.4090909090909091
+    delta 0.588348405414552
   ]
   edge [
     source 247
     target 843
-    similar 0.2777777777777778
+    delta 0.5270462766947299
   ]
   edge [
     source 247
     target 264
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 247
     target 397
-    similar 0.2631578947368421
+    delta 0.4811252243246881
   ]
   edge [
     source 247
     target 810
-    similar 0.2777777777777778
+    delta 0.5270462766947299
   ]
   edge [
     source 247
     target 690
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 247
     target 554
-    similar 0.2857142857142857
+    delta 0.4714045207910317
   ]
   edge [
     source 247
     target 682
-    similar 0.3157894736842105
+    delta 0.5345224838248488
   ]
   edge [
     source 247
     target 630
-    similar 0.25
+    delta 0.44543540318737396
   ]
   edge [
     source 248
     target 360
-    similar 0.06666666666666667
+    delta 0.1259881576697424
   ]
   edge [
     source 248
     target 399
-    similar 0.19230769230769232
+    delta 0.3268602252303067
   ]
   edge [
     source 248
     target 741
-    similar 0.09090909090909091
+    delta 0.19245008972987526
   ]
   edge [
     source 248
     target 350
-    similar 0.14285714285714285
+    delta 0.2519763153394848
   ]
   edge [
     source 249
     target 652
-    similar 0.125
+    delta 0.253546276418555
   ]
   edge [
     source 249
     target 570
-    similar 0.16
+    delta 0.29814239699997197
   ]
   edge [
     source 249
     target 376
-    similar 0.1724137931034483
+    delta 0.2988071523335984
   ]
   edge [
     source 249
     target 375
-    similar 0.2692307692307692
+    delta 0.43412157106222965
   ]
   edge [
     source 249
     target 401
-    similar 0.32
+    delta 0.49613893835683387
   ]
   edge [
     source 249
     target 530
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 249
     target 352
-    similar 0.25
+    delta 0.404145188432738
   ]
   edge [
     source 249
     target 276
-    similar 0.27586206896551724
+    delta 0.4338609156373123
   ]
   edge [
     source 249
     target 419
-    similar 0.10714285714285714
+    delta 0.20225995873897262
   ]
   edge [
     source 249
     target 750
-    similar 0.13043478260869565
+    delta 0.27386127875258304
   ]
   edge [
     source 250
     target 473
-    similar 0.5555555555555556
+    delta 0.7312724241271307
   ]
   edge [
     source 250
     target 389
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 250
     target 613
-    similar 0.3333333333333333
+    delta 0.5500190982169268
   ]
   edge [
     source 250
     target 506
-    similar 0.18181818181818182
+    delta 0.3233808333817773
   ]
   edge [
     source 250
     target 256
-    similar 0.3333333333333333
+    delta 0.5009794328681196
   ]
   edge [
     source 251
     target 275
-    similar 0.16129032258064516
+    delta 0.2795084971874737
   ]
   edge [
     source 251
     target 453
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 251
     target 256
-    similar 0.20689655172413793
+    delta 0.3464101615137754
   ]
   edge [
     source 251
     target 257
-    similar 0.11764705882352941
+    delta 0.21081851067789195
   ]
   edge [
     source 252
     target 581
-    similar 0.14285714285714285
+    delta 0.2750095491084634
   ]
   edge [
     source 252
     target 534
-    similar 0.19047619047619047
+    delta 0.34299717028501764
   ]
   edge [
     source 252
     target 868
-    similar 0.16666666666666666
+    delta 0.36380343755449945
   ]
   edge [
     source 252
     target 548
-    similar 0.19047619047619047
+    delta 0.34299717028501764
   ]
   edge [
     source 252
     target 679
-    similar 0.2
+    delta 0.36667939881128453
   ]
   edge [
     source 252
     target 1109
-    similar 0.11764705882352941
+    delta 0.34299717028501764
   ]
   edge [
     source 252
     target 681
-    similar 0.2222222222222222
+    delta 0.4338609156373123
   ]
   edge [
     source 252
     target 414
-    similar 0.16
+    delta 0.28005601680560194
   ]
   edge [
     source 252
     target 278
-    similar 0.13333333333333333
+    delta 0.23529411764705882
   ]
   edge [
     source 253
     target 356
-    similar 0.35
+    delta 0.5188745216627708
   ]
   edge [
     source 253
     target 259
-    similar 0.12
+    delta 0.21483446221182986
   ]
   edge [
     source 253
     target 572
-    similar 0.15789473684210525
+    delta 0.2773500981126145
   ]
   edge [
     source 253
     target 287
-    similar 0.13043478260869565
+    delta 0.23076923076923078
   ]
   edge [
     source 253
     target 1267
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 254
     target 319
-    similar 0.38095238095238093
+    delta 0.5520524474738834
   ]
   edge [
     source 254
     target 602
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 254
     target 662
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 254
     target 311
-    similar 0.21739130434782608
+    delta 0.35805743701971643
   ]
   edge [
     source 254
     target 677
-    similar 0.2222222222222222
+    delta 0.3903600291794133
   ]
   edge [
     source 255
     target 493
-    similar 0.22727272727272727
+    delta 0.3928371006591931
   ]
   edge [
     source 255
     target 321
-    similar 0.24
+    delta 0.39223227027636803
   ]
   edge [
     source 255
     target 1169
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 255
     target 345
-    similar 0.2692307692307692
+    delta 0.42600643361512924
   ]
   edge [
     source 255
     target 433
-    similar 0.20833333333333334
+    delta 0.3553345272593507
   ]
   edge [
     source 255
     target 282
-    similar 0.25925925925925924
+    delta 0.41247895569215276
   ]
   edge [
     source 256
     target 454
-    similar 0.625
+    delta 0.778498944161523
   ]
   edge [
     source 256
     target 613
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 256
     target 271
-    similar 0.47619047619047616
+    delta 0.6454972243679028
   ]
   edge [
     source 256
     target 293
-    similar 0.06451612903225806
+    delta 0.12171612389003691
   ]
   edge [
     source 257
     target 633
-    similar 0.21052631578947367
+    delta 0.4216370213557839
   ]
   edge [
     source 257
     target 386
-    similar 0.07407407407407407
+    delta 0.1421338109037403
   ]
   edge [
     source 257
     target 421
-    similar 0.21739130434782608
+    delta 0.37267799624996495
   ]
   edge [
     source 257
     target 424
-    similar 0.07692307692307693
+    delta 0.14907119849998599
   ]
   edge [
     source 258
     target 573
-    similar 0.2608695652173913
+    delta 0.4472135954999579
   ]
   edge [
     source 258
     target 647
-    similar 0.17391304347826086
+    delta 0.3380617018914066
   ]
   edge [
     source 258
     target 486
-    similar 0.2608695652173913
+    delta 0.4472135954999579
   ]
   edge [
     source 258
     target 460
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 258
     target 691
-    similar 0.08333333333333333
+    delta 0.18257418583505536
   ]
   edge [
     source 258
     target 490
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 258
     target 769
-    similar 0.08695652173913043
+    delta 0.2
   ]
   edge [
     source 258
     target 877
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 258
     target 264
-    similar 0.11764705882352941
+    delta 0.21081851067789195
   ]
   edge [
     source 258
     target 1224
-    similar 0.1
+    delta 0.31622776601683794
   ]
   edge [
     source 258
     target 554
-    similar 0.20833333333333334
+    delta 0.37267799624996495
   ]
   edge [
     source 258
     target 813
-    similar 0.19047619047619047
+    delta 0.4
   ]
   edge [
     source 258
     target 426
-    similar 0.2916666666666667
+    delta 0.47193990372426947
   ]
   edge [
     source 258
     target 587
-    similar 0.12
+    delta 0.23717082451262844
   ]
   edge [
     source 258
     target 728
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 258
     target 690
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 259
     target 345
-    similar 0.2
+    delta 0.3333333333333333
   ]
   edge [
     source 259
     target 562
-    similar 0.2777777777777778
+    delta 0.45643546458763845
   ]
   edge [
     source 259
     target 457
-    similar 0.18181818181818182
+    delta 0.3113995776646092
   ]
   edge [
     source 259
     target 513
-    similar 0.14285714285714285
+    delta 0.25819888974716115
   ]
   edge [
     source 259
     target 344
-    similar 0.2727272727272727
+    delta 0.4296689244236597
   ]
   edge [
     source 259
     target 373
-    similar 0.2608695652173913
+    delta 0.41403933560541256
   ]
   edge [
     source 260
     target 299
-    similar 0.1
+    delta 0.18257418583505539
   ]
   edge [
     source 260
     target 273
-    similar 0.34615384615384615
+    delta 0.5144957554275266
   ]
   edge [
     source 260
     target 672
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 260
     target 704
-    similar 0.15
+    delta 0.31622776601683794
   ]
   edge [
     source 261
     target 431
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 261
     target 784
-    similar 0.23529411764705882
+    delta 0.48507125007266594
   ]
   edge [
     source 261
     target 444
-    similar 0.23809523809523808
+    delta 0.40422604172722165
   ]
   edge [
     source 261
     target 819
-    similar 0.2222222222222222
+    delta 0.4338609156373123
   ]
   edge [
     source 261
     target 365
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 262
     target 333
-    similar 0.07142857142857142
+    delta 0.13333333333333333
   ]
   edge [
     source 262
     target 570
-    similar 0.14285714285714285
+    delta 0.25819888974716115
   ]
   edge [
     source 262
     target 355
-    similar 0.11538461538461539
+    delta 0.20701966780270628
   ]
   edge [
     source 262
     target 429
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 262
     target 461
-    similar 0.3157894736842105
+    delta 0.48989794855663565
   ]
   edge [
     source 262
     target 618
-    similar 0.35294117647058826
+    delta 0.5477225575051661
   ]
   edge [
     source 263
     target 385
-    similar 0.09090909090909091
+    delta 0.16724840200141816
   ]
   edge [
     source 263
     target 358
-    similar 0.15789473684210525
+    delta 0.2727272727272727
   ]
   edge [
     source 263
     target 661
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 263
     target 294
-    similar 0.18181818181818182
+    delta 0.3113995776646092
   ]
   edge [
     source 263
     target 656
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 263
     target 277
-    similar 0.08
+    delta 0.15075567228888181
   ]
   edge [
     source 264
     target 761
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 264
     target 543
-    similar 0.23809523809523808
+    delta 0.4166666666666667
   ]
   edge [
     source 264
     target 777
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 264
     target 521
-    similar 0.12
+    delta 0.22360679774997896
   ]
   edge [
     source 264
     target 472
-    similar 0.16
+    delta 0.2842676218074806
   ]
   edge [
     source 264
     target 396
-    similar 0.2916666666666667
+    delta 0.4576043153224294
   ]
   edge [
     source 264
     target 397
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 264
     target 682
-    similar 0.25
+    delta 0.44543540318737396
   ]
   edge [
     source 264
     target 630
-    similar 0.3157894736842105
+    delta 0.5345224838248488
   ]
   edge [
     source 265
     target 684
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 265
     target 675
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 265
     target 683
-    similar 0.15789473684210525
+    delta 0.3061862178478973
   ]
   edge [
     source 265
     target 525
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 265
     target 1055
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 265
     target 1235
-    similar 0.125
+    delta 0.35355339059327373
   ]
   edge [
     source 265
     target 641
-    similar 0.15
+    delta 0.2834733547569204
   ]
   edge [
     source 265
     target 492
-    similar 0.2631578947368421
+    delta 0.44194173824159216
   ]
   edge [
     source 265
     target 563
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 266
     target 313
-    similar 0.3888888888888889
+    delta 0.5640760748177662
   ]
   edge [
     source 266
     target 337
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 266
     target 287
-    similar 0.2857142857142857
+    delta 0.4447495899966607
   ]
   edge [
     source 266
     target 442
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 266
     target 315
-    similar 0.47058823529411764
+    delta 0.6446583712203042
   ]
   edge [
     source 266
     target 282
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 266
     target 286
-    similar 0.14814814814814814
+    delta 0.25928148942086576
   ]
   edge [
     source 267
     target 403
-    similar 0.22727272727272727
+    delta 0.3768891807222045
   ]
   edge [
     source 267
     target 347
-    similar 0.3333333333333333
+    delta 0.5051814855409226
   ]
   edge [
     source 267
     target 277
-    similar 0.10344827586206896
+    delta 0.1875
   ]
   edge [
     source 267
     target 318
-    similar 0.10344827586206896
+    delta 0.1875
   ]
   edge [
     source 267
     target 631
-    similar 0.15789473684210525
+    delta 0.3061862178478973
   ]
   edge [
     source 267
     target 735
-    similar 0.15789473684210525
+    delta 0.3061862178478973
   ]
   edge [
     source 267
     target 651
-    similar 0.15
+    delta 0.2834733547569204
   ]
   edge [
     source 267
     target 474
-    similar 0.08
+    delta 0.15075567228888181
   ]
   edge [
     source 267
     target 295
-    similar 0.2916666666666667
+    delta 0.45184805705753195
   ]
   edge [
     source 268
     target 275
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 268
     target 395
-    similar 0.16666666666666666
+    delta 0.2886751345948129
   ]
   edge [
     source 268
     target 459
-    similar 0.3157894736842105
+    delta 0.5
   ]
   edge [
     source 268
     target 340
-    similar 0.16
+    delta 0.2773500981126146
   ]
   edge [
     source 268
     target 553
-    similar 0.08695652173913043
+    delta 0.16666666666666666
   ]
   edge [
     source 268
     target 453
-    similar 0.13043478260869565
+    delta 0.23717082451262844
   ]
   edge [
     source 269
     target 487
-    similar 0.16666666666666666
+    delta 0.305887645160749
   ]
   edge [
     source 269
     target 698
-    similar 0.09090909090909091
+    delta 0.20519567041703082
   ]
   edge [
     source 269
     target 289
-    similar 0.2
+    delta 0.33384893044479436
   ]
   edge [
     source 269
     target 789
-    similar 0.15
+    delta 0.3441236008058426
   ]
   edge [
     source 269
     target 711
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 269
     target 906
-    similar 0.09523809523809523
+    delta 0.22941573387056174
   ]
   edge [
     source 269
     target 605
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 269
     target 807
-    similar 0.14285714285714285
+    delta 0.30779350562554625
   ]
   edge [
     source 269
     target 294
-    similar 0.0967741935483871
+    delta 0.1777046633277277
   ]
   edge [
     source 269
     target 427
-    similar 0.16
+    delta 0.29019050004400465
   ]
   edge [
     source 269
     target 611
-    similar 0.17391304347826086
+    delta 0.3244428422615251
   ]
   edge [
     source 269
     target 370
-    similar 0.2
+    delta 0.3458572319330373
   ]
   edge [
     source 270
     target 978
-    similar 0.10526315789473684
+    delta 0.2721655269759087
   ]
   edge [
     source 270
     target 904
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 270
     target 308
-    similar 0.20689655172413793
+    delta 0.3429971702850177
   ]
   edge [
     source 270
     target 307
-    similar 0.20689655172413793
+    delta 0.3429971702850177
   ]
   edge [
     source 270
     target 378
-    similar 0.18518518518518517
+    delta 0.314970394174356
   ]
   edge [
     source 270
     target 899
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 270
     target 384
-    similar 0.1111111111111111
+    delta 0.2041241452319315
   ]
   edge [
     source 270
     target 1201
-    similar 0.1111111111111111
+    delta 0.3333333333333333
   ]
   edge [
     source 270
     target 481
-    similar 0.07692307692307693
+    delta 0.14907119849998599
   ]
   edge [
     source 272
     target 581
-    similar 0.15789473684210525
+    delta 0.29277002188455997
   ]
   edge [
     source 272
     target 645
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 272
     target 428
-    similar 0.3
+    delta 0.46709936649691375
   ]
   edge [
     source 272
     target 623
-    similar 0.35294117647058826
+    delta 0.5477225575051661
   ]
   edge [
     source 272
     target 552
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 272
     target 301
-    similar 0.2
+    delta 0.3333333333333333
   ]
   edge [
     source 272
     target 274
-    similar 0.21428571428571427
+    delta 0.3554093266554554
   ]
   edge [
     source 272
     target 621
-    similar 0.4666666666666667
+    delta 0.6831300510639733
   ]
   edge [
     source 273
     target 672
-    similar 0.23529411764705882
+    delta 0.48507125007266594
   ]
   edge [
     source 273
     target 704
-    similar 0.15789473684210525
+    delta 0.32539568672798425
   ]
   edge [
     source 273
     target 412
-    similar 0.23809523809523808
+    delta 0.40422604172722165
   ]
   edge [
     source 273
     target 560
-    similar 0.08333333333333333
+    delta 0.16169041669088866
   ]
   edge [
     source 274
     target 428
-    similar 0.15384615384615385
+    delta 0.27668578554642986
   ]
   edge [
     source 274
     target 695
-    similar 0.13636363636363635
+    delta 0.2809757434745082
   ]
   edge [
     source 274
     target 623
-    similar 0.17391304347826086
+    delta 0.3244428422615251
   ]
   edge [
     source 274
     target 700
-    similar 0.25
+    delta 0.468292905790847
   ]
   edge [
     source 274
     target 735
-    similar 0.19047619047619047
+    delta 0.3746343246326776
   ]
   edge [
     source 274
     target 616
-    similar 0.13636363636363635
+    delta 0.2809757434745082
   ]
   edge [
     source 274
     target 736
-    similar 0.13636363636363635
+    delta 0.2809757434745082
   ]
   edge [
     source 274
     target 534
-    similar 0.17391304347826086
+    delta 0.3244428422615251
   ]
   edge [
     source 274
     target 423
-    similar 0.2608695652173913
+    delta 0.435285750066007
   ]
   edge [
     source 275
     target 871
-    similar 0.1875
+    delta 0.43301270189221935
   ]
   edge [
     source 275
     target 556
-    similar 0.09090909090909091
+    delta 0.17677669529663687
   ]
   edge [
     source 275
     target 453
-    similar 0.23809523809523808
+    delta 0.3952847075210474
   ]
   edge [
     source 275
     target 459
-    similar 0.25
+    delta 0.4166666666666667
   ]
   edge [
     source 275
     target 395
-    similar 0.16666666666666666
+    delta 0.2886751345948129
   ]
   edge [
     source 275
     target 736
-    similar 0.15789473684210525
+    delta 0.3061862178478973
   ]
   edge [
     source 275
     target 284
-    similar 0.14285714285714285
+    delta 0.25
   ]
   edge [
     source 276
     target 290
-    similar 0.19230769230769232
+    delta 0.3241018617760822
   ]
   edge [
     source 276
     target 368
-    similar 0.3181818181818182
+    delta 0.4900980294098034
   ]
   edge [
     source 276
     target 749
-    similar 0.29411764705882354
+    delta 0.5423261445466404
   ]
   edge [
     source 277
     target 805
-    similar 0.10526315789473684
+    delta 0.22360679774997896
   ]
   edge [
     source 277
     target 679
-    similar 0.15
+    delta 0.2834733547569204
   ]
   edge [
     source 277
     target 425
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 277
     target 278
-    similar 0.13793103448275862
+    delta 0.24253562503633297
   ]
   edge [
     source 277
     target 610
-    similar 0.1
+    delta 0.20412414523193154
   ]
   edge [
     source 277
     target 366
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 277
     target 930
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 278
     target 423
-    similar 0.2857142857142857
+    delta 0.4601789933084222
   ]
   edge [
     source 278
     target 679
-    similar 0.2631578947368421
+    delta 0.4583492485141057
   ]
   edge [
     source 278
     target 989
-    similar 0.1111111111111111
+    delta 0.28005601680560194
   ]
   edge [
     source 278
     target 382
-    similar 0.2608695652173913
+    delta 0.42008402520840293
   ]
   edge [
     source 278
     target 738
-    similar 0.1
+    delta 0.21693045781865616
   ]
   edge [
     source 279
     target 355
-    similar 0.23076923076923078
+    delta 0.3779644730092272
   ]
   edge [
     source 279
     target 375
-    similar 0.24
+    delta 0.39223227027636803
   ]
   edge [
     source 279
     target 352
-    similar 0.2222222222222222
+    delta 0.36514837167011077
   ]
   edge [
     source 279
     target 367
-    similar 0.24
+    delta 0.39223227027636803
   ]
   edge [
     source 279
     target 430
-    similar 0.2608695652173913
+    delta 0.4264014327112209
   ]
   edge [
     source 279
     target 848
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 279
     target 435
-    similar 0.07142857142857142
+    delta 0.13608276348795434
   ]
   edge [
     source 279
     target 526
-    similar 0.3333333333333333
+    delta 0.5217491947499509
   ]
   edge [
     source 280
     target 453
-    similar 0.19047619047619047
+    delta 0.32659863237109044
   ]
   edge [
     source 280
     target 909
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 280
     target 390
-    similar 0.3684210526315789
+    delta 0.5449492609130661
   ]
   edge [
     source 281
     target 407
-    similar 0.15384615384615385
+    delta 0.2721655269759087
   ]
   edge [
     source 281
     target 286
-    similar 0.25
+    delta 0.4001633653325206
   ]
   edge [
     source 281
     target 326
-    similar 0.4090909090909091
+    delta 0.588348405414552
   ]
   edge [
     source 281
     target 625
-    similar 0.3684210526315789
+    delta 0.5833333333333334
   ]
   edge [
     source 281
     target 323
-    similar 0.375
+    delta 0.5477225575051662
   ]
   edge [
     source 281
     target 324
-    similar 0.375
+    delta 0.5477225575051662
   ]
   edge [
     source 282
     target 407
-    similar 0.16666666666666666
+    delta 0.2886751345948129
   ]
   edge [
     source 282
     target 345
-    similar 0.24
+    delta 0.3872983346207417
   ]
   edge [
     source 283
     target 310
-    similar 0.7222222222222222
+    delta 0.8391463916782737
   ]
   edge [
     source 283
     target 741
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 284
     target 300
-    similar 0.19230769230769232
+    delta 0.3227486121839514
   ]
   edge [
     source 285
     target 359
-    similar 0.5555555555555556
+    delta 0.7161148740394329
   ]
   edge [
     source 285
     target 320
-    similar 0.30434782608695654
+    delta 0.4666666666666667
   ]
   edge [
     source 285
     target 667
-    similar 0.375
+    delta 0.5855400437691199
   ]
   edge [
     source 285
     target 993
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 285
     target 598
-    similar 0.09523809523809523
+    delta 0.18257418583505536
   ]
   edge [
     source 286
     target 407
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 286
     target 911
-    similar 0.10526315789473684
+    delta 0.24253562503633297
   ]
   edge [
     source 286
     target 365
-    similar 0.16
+    delta 0.28005601680560194
   ]
   edge [
     source 287
     target 313
-    similar 0.6
+    delta 0.7526178090063816
   ]
   edge [
     source 287
     target 337
-    similar 0.35294117647058826
+    delta 0.5262348115842176
   ]
   edge [
     source 287
     target 442
-    similar 0.46153846153846156
+    delta 0.6793662204867574
   ]
   edge [
     source 287
     target 315
-    similar 0.3333333333333333
+    delta 0.5017452060042544
   ]
   edge [
     source 287
     target 407
-    similar 0.13636363636363635
+    delta 0.24019223070763068
   ]
   edge [
     source 287
     target 1210
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 287
     target 532
-    similar 0.2777777777777778
+    delta 0.43852900965351466
   ]
   edge [
     source 287
     target 415
-    similar 0.14285714285714285
+    delta 0.2508726030021272
   ]
   edge [
     source 288
     target 533
-    similar 0.375
+    delta 0.5855400437691199
   ]
   edge [
     source 288
     target 504
-    similar 0.4375
+    delta 0.6390096504226938
   ]
   edge [
     source 288
     target 709
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 288
     target 500
-    similar 0.35294117647058826
+    delta 0.5477225575051661
   ]
   edge [
     source 288
     target 509
-    similar 0.19047619047619047
+    delta 0.32659863237109044
   ]
   edge [
     source 288
     target 291
-    similar 0.1
+    delta 0.18257418583505539
   ]
   edge [
     source 288
     target 781
-    similar 0.25
+    delta 0.46188021535170054
   ]
   edge [
     source 288
     target 334
-    similar 0.10714285714285714
+    delta 0.19364916731037085
   ]
   edge [
     source 289
     target 405
-    similar 0.2608695652173913
+    delta 0.42008402520840293
   ]
   edge [
     source 289
     target 487
-    similar 0.13043478260869565
+    delta 0.242535625036333
   ]
   edge [
     source 289
     target 366
-    similar 0.19230769230769232
+    delta 0.3241018617760822
   ]
   edge [
     source 289
     target 370
-    similar 0.16666666666666666
+    delta 0.29250896965085227
   ]
   edge [
     source 289
     target 348
-    similar 0.2
+    delta 0.3363363969981562
   ]
   edge [
     source 289
     target 937
-    similar 0.23529411764705882
+    delta 0.48507125007266594
   ]
   edge [
     source 290
     target 357
-    similar 0.12
+    delta 0.21428571428571427
   ]
   edge [
     source 290
     target 929
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 290
     target 368
-    similar 0.5294117647058824
+    delta 0.6943650748294136
   ]
   edge [
     source 290
     target 585
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 290
     target 750
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 290
     target 558
-    similar 0.23529411764705882
+    delta 0.40406101782088427
   ]
   edge [
     source 290
     target 1004
-    similar 0.13333333333333333
+    delta 0.3086066999241838
   ]
   edge [
     source 290
     target 600
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 290
     target 601
-    similar 0.15789473684210525
+    delta 0.2834733547569204
   ]
   edge [
     source 290
     target 413
-    similar 0.23809523809523808
+    delta 0.38575837490522974
   ]
   edge [
     source 290
     target 749
-    similar 0.35714285714285715
+    delta 0.5976143046671968
   ]
   edge [
     source 291
     target 634
-    similar 0.2631578947368421
+    delta 0.4811252243246881
   ]
   edge [
     source 291
     target 883
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 291
     target 342
-    similar 0.06666666666666667
+    delta 0.1259881576697424
   ]
   edge [
     source 291
     target 559
-    similar 0.2857142857142857
+    delta 0.4714045207910317
   ]
   edge [
     source 291
     target 617
-    similar 0.3157894736842105
+    delta 0.5345224838248488
   ]
   edge [
     source 292
     target 496
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 292
     target 865
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 292
     target 487
-    similar 0.2857142857142857
+    delta 0.4714045207910317
   ]
   edge [
     source 292
     target 826
-    similar 0.15
+    delta 0.31622776601683794
   ]
   edge [
     source 292
     target 985
-    similar 0.10526315789473684
+    delta 0.2721655269759087
   ]
   edge [
     source 292
     target 348
-    similar 0.19230769230769232
+    delta 0.3268602252303067
   ]
   edge [
     source 292
     target 711
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 292
     target 923
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 292
     target 698
-    similar 0.21052631578947367
+    delta 0.4216370213557839
   ]
   edge [
     source 292
     target 878
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 292
     target 370
-    similar 0.20833333333333334
+    delta 0.3553345272593507
   ]
   edge [
     source 293
     target 881
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 293
     target 519
-    similar 0.13636363636363635
+    delta 0.2672612419124244
   ]
   edge [
     source 293
     target 466
-    similar 0.3333333333333333
+    delta 0.5217491947499509
   ]
   edge [
     source 293
     target 751
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 293
     target 435
-    similar 0.1111111111111111
+    delta 0.2041241452319315
   ]
   edge [
     source 293
     target 837
-    similar 0.15
+    delta 0.31622776601683794
   ]
   edge [
     source 293
     target 678
-    similar 0.09090909090909091
+    delta 0.19245008972987526
   ]
   edge [
     source 293
     target 945
-    similar 0.1
+    delta 0.23570226039551587
   ]
   edge [
     source 293
     target 949
-    similar 0.15789473684210525
+    delta 0.3535533905932738
   ]
   edge [
     source 293
     target 333
-    similar 0.13793103448275862
+    delta 0.24343224778007383
   ]
   edge [
     source 293
     target 577
-    similar 0.125
+    delta 0.23570226039551584
   ]
   edge [
     source 293
     target 716
-    similar 0.14285714285714285
+    delta 0.28867513459481287
   ]
   edge [
     source 294
     target 661
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 294
     target 358
-    similar 0.13043478260869565
+    delta 0.23354968324845687
   ]
   edge [
     source 294
     target 371
-    similar 0.13043478260869565
+    delta 0.23354968324845687
   ]
   edge [
     source 294
     target 1155
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 294
     target 731
-    similar 0.10526315789473684
+    delta 0.21081851067789195
   ]
   edge [
     source 294
     target 730
-    similar 0.17647058823529413
+    delta 0.3464101615137754
   ]
   edge [
     source 294
     target 816
-    similar 0.1875
+    delta 0.3872983346207417
   ]
   edge [
     source 294
     target 363
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 294
     target 611
-    similar 0.21052631578947367
+    delta 0.3651483716701107
   ]
   edge [
     source 294
     target 1037
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 294
     target 1230
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 295
     target 403
-    similar 0.7333333333333333
+    delta 0.8563488385776753
   ]
   edge [
     source 295
     target 635
-    similar 0.375
+    delta 0.5855400437691199
   ]
   edge [
     source 295
     target 541
-    similar 0.4375
+    delta 0.6390096504226938
   ]
   edge [
     source 295
     target 610
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 295
     target 496
-    similar 0.19047619047619047
+    delta 0.32659863237109044
   ]
   edge [
     source 295
     target 377
-    similar 0.2727272727272727
+    delta 0.4296689244236597
   ]
   edge [
     source 295
     target 347
-    similar 0.42105263157894735
+    delta 0.5962847939999439
   ]
   edge [
     source 296
     target 306
-    similar 0.2222222222222222
+    delta 0.36380343755449945
   ]
   edge [
     source 296
     target 918
-    similar 0.23529411764705882
+    delta 0.48507125007266594
   ]
   edge [
     source 296
     target 758
-    similar 0.15789473684210525
+    delta 0.32539568672798425
   ]
   edge [
     source 296
     target 563
-    similar 0.18181818181818182
+    delta 0.3233808333817773
   ]
   edge [
     source 296
     target 658
-    similar 0.21052631578947367
+    delta 0.39605901719066977
   ]
   edge [
     source 296
     target 980
-    similar 0.17647058823529413
+    delta 0.42008402520840293
   ]
   edge [
     source 296
     target 408
-    similar 0.11538461538461539
+    delta 0.21004201260420147
   ]
   edge [
     source 297
     target 536
-    similar 0.2777777777777778
+    delta 0.44543540318737396
   ]
   edge [
     source 297
     target 327
-    similar 0.23809523809523808
+    delta 0.38575837490522974
   ]
   edge [
     source 297
     target 772
-    similar 0.2
+    delta 0.4008918628686366
   ]
   edge [
     source 297
     target 332
-    similar 0.22727272727272727
+    delta 0.3706246583305506
   ]
   edge [
     source 297
     target 744
-    similar 0.1875
+    delta 0.35856858280031806
   ]
   edge [
     source 297
     target 372
-    similar 0.3
+    delta 0.4629100498862757
   ]
   edge [
     source 298
     target 415
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 299
     target 462
-    similar 0.3684210526315789
+    delta 0.5449492609130661
   ]
   edge [
     source 299
     target 740
-    similar 0.3125
+    delta 0.5270462766947299
   ]
   edge [
     source 300
     target 775
-    similar 0.1111111111111111
+    delta 0.23094010767585027
   ]
   edge [
     source 300
     target 548
-    similar 0.09523809523809523
+    delta 0.18257418583505536
   ]
   edge [
     source 300
     target 363
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 300
     target 831
-    similar 0.17647058823529413
+    delta 0.3464101615137754
   ]
   edge [
     source 301
     target 581
-    similar 0.2222222222222222
+    delta 0.3903600291794133
   ]
   edge [
     source 301
     target 534
-    similar 0.15
+    delta 0.27386127875258304
   ]
   edge [
     source 301
     target 548
-    similar 0.15
+    delta 0.27386127875258304
   ]
   edge [
     source 301
     target 884
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 301
     target 427
-    similar 0.13636363636363635
+    delta 0.24494897427831783
   ]
   edge [
     source 301
     target 735
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 301
     target 930
-    similar 0.11764705882352941
+    delta 0.2581988897471611
   ]
   edge [
     source 301
     target 621
-    similar 0.15789473684210525
+    delta 0.29277002188455997
   ]
   edge [
     source 302
     target 376
-    similar 0.14814814814814814
+    delta 0.25928148942086576
   ]
   edge [
     source 302
     target 352
-    similar 0.23076923076923078
+    delta 0.3757345746510897
   ]
   edge [
     source 302
     target 418
-    similar 0.21739130434782608
+    delta 0.36563621206356534
   ]
   edge [
     source 302
     target 401
-    similar 0.30434782608695654
+    delta 0.4708709557974187
   ]
   edge [
     source 302
     target 404
-    similar 0.20833333333333334
+    delta 0.3500700210070024
   ]
   edge [
     source 303
     target 537
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 303
     target 424
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 303
     target 733
-    similar 0.11764705882352941
+    delta 0.23904572186687872
   ]
   edge [
     source 303
     target 1035
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 303
     target 517
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 303
     target 768
-    similar 0.2
+    delta 0.4008918628686366
   ]
   edge [
     source 303
     target 524
-    similar 0.2631578947368421
+    delta 0.4225771273642583
   ]
   edge [
     source 304
     target 450
-    similar 0.3333333333333333
+    delta 0.5163977794943223
   ]
   edge [
     source 304
     target 429
-    similar 0.17391304347826086
+    delta 0.29814239699997197
   ]
   edge [
     source 305
     target 387
-    similar 0.12
+    delta 0.21483446221182986
   ]
   edge [
     source 305
     target 332
-    similar 0.21739130434782608
+    delta 0.35805743701971643
   ]
   edge [
     source 306
     target 538
-    similar 0.3157894736842105
+    delta 0.5
   ]
   edge [
     source 306
     target 523
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 306
     target 953
-    similar 0.1875
+    delta 0.43301270189221935
   ]
   edge [
     source 306
     target 470
-    similar 0.125
+    delta 0.22613350843332272
   ]
   edge [
     source 306
     target 829
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 307
     target 582
-    similar 0.13636363636363635
+    delta 0.25724787771376323
   ]
   edge [
     source 307
     target 449
-    similar 0.17391304347826086
+    delta 0.30678599553894814
   ]
   edge [
     source 307
     target 352
-    similar 0.06666666666666667
+    delta 0.1252448582170299
   ]
   edge [
     source 308
     target 471
-    similar 0.2857142857142857
+    delta 0.4601789933084222
   ]
   edge [
     source 309
     target 316
-    similar 0.34782608695652173
+    delta 0.5163977794943222
   ]
   edge [
     source 309
     target 586
-    similar 0.35294117647058826
+    delta 0.5669467095138409
   ]
   edge [
     source 309
     target 882
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 309
     target 890
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 309
     target 950
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 309
     target 557
-    similar 0.08695652173913043
+    delta 0.16666666666666666
   ]
   edge [
     source 309
     target 584
-    similar 0.4117647058823529
+    delta 0.6187184335382291
   ]
   edge [
     source 309
     target 455
-    similar 0.3684210526315789
+    delta 0.5533985905294664
   ]
   edge [
     source 309
     target 801
-    similar 0.3125
+    delta 0.5590169943749475
   ]
   edge [
     source 310
     target 399
-    similar 0.47368421052631576
+    delta 0.6445033866354896
   ]
   edge [
     source 310
     target 741
-    similar 0.23529411764705882
+    delta 0.4216370213557839
   ]
   edge [
     source 311
     target 398
-    similar 0.4
+    delta 0.5883484054145521
   ]
   edge [
     source 311
     target 319
-    similar 0.42105263157894735
+    delta 0.5929994533288809
   ]
   edge [
     source 311
     target 350
-    similar 0.2857142857142857
+    delta 0.4447495899966607
   ]
   edge [
     source 312
     target 578
-    similar 0.3333333333333333
+    delta 0.5103103630798288
   ]
   edge [
     source 313
     target 337
-    similar 0.4
+    delta 0.5720775535473553
   ]
   edge [
     source 313
     target 442
-    similar 0.5454545454545454
+    delta 0.7385489458759964
   ]
   edge [
     source 313
     target 315
-    similar 0.375
+    delta 0.5454545454545454
   ]
   edge [
     source 313
     target 532
-    similar 0.23529411764705882
+    delta 0.38138503569823695
   ]
   edge [
     source 314
     target 535
-    similar 0.6666666666666666
+    delta 0.816496580927726
   ]
   edge [
     source 314
     target 439
-    similar 0.7
+    delta 0.8249579113843055
   ]
   edge [
     source 314
     target 540
-    similar 0.5
+    delta 0.6804138174397717
   ]
   edge [
     source 314
     target 339
-    similar 0.6363636363636364
+    delta 0.7777777777777778
   ]
   edge [
     source 314
     target 354
-    similar 0.5833333333333334
+    delta 0.7378647873726218
   ]
   edge [
     source 314
     target 441
-    similar 0.45454545454545453
+    delta 0.629940788348712
   ]
   edge [
     source 314
     target 440
-    similar 0.38461538461538464
+    delta 0.5555555555555556
   ]
   edge [
     source 315
     target 337
-    similar 0.5
+    delta 0.6674238124719146
   ]
   edge [
     source 315
     target 442
-    similar 0.5454545454545454
+    delta 0.7385489458759964
   ]
   edge [
     source 315
     target 431
-    similar 0.21052631578947367
+    delta 0.3481553119113957
   ]
   edge [
     source 315
     target 513
-    similar 0.1111111111111111
+    delta 0.20100756305184242
   ]
   edge [
     source 316
     target 388
-    similar 0.19047619047619047
+    delta 0.32659863237109044
   ]
   edge [
     source 316
     target 801
-    similar 0.25
+    delta 0.46188021535170054
   ]
   edge [
     source 316
     target 882
-    similar 0.26666666666666666
+    delta 0.5163977794943222
   ]
   edge [
     source 316
     target 627
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 316
     target 584
-    similar 0.4375
+    delta 0.6390096504226938
   ]
   edge [
     source 316
     target 586
-    similar 0.2222222222222222
+    delta 0.3903600291794133
   ]
   edge [
     source 317
     target 489
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 317
     target 693
-    similar 0.35714285714285715
+    delta 0.5661385170722978
   ]
   edge [
     source 317
     target 404
-    similar 0.3888888888888889
+    delta 0.560448538317805
   ]
   edge [
     source 317
     target 624
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 317
     target 585
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 318
     target 594
-    similar 0.2777777777777778
+    delta 0.472455591261534
   ]
   edge [
     source 318
     target 560
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 318
     target 427
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 318
     target 611
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 319
     target 495
-    similar 0.2777777777777778
+    delta 0.44543540318737396
   ]
   edge [
     source 319
     target 398
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 320
     target 788
-    similar 0.25
+    delta 0.46188021535170054
   ]
   edge [
     source 320
     target 609
-    similar 0.21052631578947367
+    delta 0.3651483716701107
   ]
   edge [
     source 320
     target 353
-    similar 0.16666666666666666
+    delta 0.2864459496157732
   ]
   edge [
     source 320
     target 325
-    similar 0.14814814814814814
+    delta 0.2581988897471611
   ]
   edge [
     source 320
     target 839
-    similar 0.1111111111111111
+    delta 0.23094010767585027
   ]
   edge [
     source 320
     target 612
-    similar 0.21052631578947367
+    delta 0.3651483716701107
   ]
   edge [
     source 320
     target 1270
-    similar 0.13333333333333333
+    delta 0.3651483716701107
   ]
   edge [
     source 322
     target 473
-    similar 0.3157894736842105
+    delta 0.48349377841522817
   ]
   edge [
     source 322
     target 506
-    similar 0.21052631578947367
+    delta 0.3563483225498992
   ]
   edge [
     source 322
     target 425
-    similar 0.21052631578947367
+    delta 0.3563483225498992
   ]
   edge [
     source 322
     target 369
-    similar 0.5
+    delta 0.667124384994991
   ]
   edge [
     source 323
     target 511
-    similar 0.47058823529411764
+    delta 0.6531972647421809
   ]
   edge [
     source 323
     target 365
-    similar 0.35
+    delta 0.5217491947499509
   ]
   edge [
     source 323
     target 827
-    similar 0.1111111111111111
+    delta 0.23094010767585027
   ]
   edge [
     source 325
     target 501
-    similar 0.19047619047619047
+    delta 0.3333333333333333
   ]
   edge [
     source 325
     target 607
-    similar 0.15789473684210525
+    delta 0.3061862178478973
   ]
   edge [
     source 325
     target 668
-    similar 0.15
+    delta 0.2834733547569204
   ]
   edge [
     source 325
     target 1262
-    similar 0.125
+    delta 0.35355339059327373
   ]
   edge [
     source 325
     target 332
-    similar 0.20833333333333334
+    delta 0.34668762264076824
   ]
   edge [
     source 326
     target 444
-    similar 0.375
+    delta 0.554700196225229
   ]
   edge [
     source 326
     target 527
-    similar 0.6923076923076923
+    delta 0.8320502943378436
   ]
   edge [
     source 326
     target 827
-    similar 0.125
+    delta 0.24806946917841693
   ]
   edge [
     source 327
     target 387
-    similar 0.08695652173913043
+    delta 0.16012815380508713
   ]
   edge [
     source 327
     target 609
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 328
     target 977
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 328
     target 591
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 328
     target 822
-    similar 0.26666666666666666
+    delta 0.47809144373375745
   ]
   edge [
     source 328
     target 668
-    similar 0.16666666666666666
+    delta 0.30304576336566325
   ]
   edge [
     source 328
     target 331
-    similar 0.16
+    delta 0.2760262237369417
   ]
   edge [
     source 329
     target 772
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 329
     target 396
-    similar 0.20833333333333334
+    delta 0.34668762264076824
   ]
   edge [
     source 329
     target 696
-    similar 0.10526315789473684
+    delta 0.22360679774997896
   ]
   edge [
     source 329
     target 864
-    similar 0.1111111111111111
+    delta 0.25
   ]
   edge [
     source 329
     target 472
-    similar 0.17391304347826086
+    delta 0.30151134457776363
   ]
   edge [
     source 329
     target 990
-    similar 0.11764705882352941
+    delta 0.2886751345948129
   ]
   edge [
     source 329
     target 638
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 329
     target 769
-    similar 0.10526315789473684
+    delta 0.22360679774997896
   ]
   edge [
     source 329
     target 436
-    similar 0.2727272727272727
+    delta 0.43301270189221935
   ]
   edge [
     source 329
     target 948
-    similar 0.17647058823529413
+    delta 0.375
   ]
   edge [
     source 329
     target 727
-    similar 0.1
+    delta 0.20412414523193154
   ]
   edge [
     source 330
     target 360
-    similar 0.07692307692307693
+    delta 0.14285714285714285
   ]
   edge [
     source 330
     target 367
-    similar 0.125
+    delta 0.22237479499833035
   ]
   edge [
     source 330
     target 430
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 330
     target 399
-    similar 0.17391304347826086
+    delta 0.29649972666444047
   ]
   edge [
     source 330
     target 461
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 331
     target 591
-    similar 0.4375
+    delta 0.6390096504226938
   ]
   edge [
     source 331
     target 480
-    similar 0.14285714285714285
+    delta 0.25819888974716115
   ]
   edge [
     source 332
     target 536
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 333
     target 968
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 333
     target 593
-    similar 0.15789473684210525
+    delta 0.29277002188455997
   ]
   edge [
     source 333
     target 519
-    similar 0.29411764705882354
+    delta 0.4879500364742666
   ]
   edge [
     source 334
     target 781
-    similar 0.23529411764705882
+    delta 0.4472135954999579
   ]
   edge [
     source 334
     target 388
-    similar 0.13043478260869565
+    delta 0.23717082451262844
   ]
   edge [
     source 334
     target 1255
-    similar 0.125
+    delta 0.35355339059327373
   ]
   edge [
     source 334
     target 755
-    similar 0.16666666666666666
+    delta 0.33541019662496846
   ]
   edge [
     source 335
     target 357
-    similar 0.08
+    delta 0.14824986333222023
   ]
   edge [
     source 335
     target 342
-    similar 0.08
+    delta 0.14824986333222023
   ]
   edge [
     source 336
     target 468
-    similar 0.2631578947368421
+    delta 0.4181210050035454
   ]
   edge [
     source 336
     target 340
-    similar 0.3
+    delta 0.46153846153846156
   ]
   edge [
     source 337
     target 442
-    similar 0.6
+    delta 0.7745966692414834
   ]
   edge [
     source 337
     target 747
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 337
     target 1088
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 338
     target 465
-    similar 0.4375
+    delta 0.6139406135149205
   ]
   edge [
     source 338
     target 911
-    similar 0.21428571428571427
+    delta 0.41602514716892186
   ]
   edge [
     source 338
     target 361
-    similar 0.19047619047619047
+    delta 0.32025630761017426
   ]
   edge [
     source 338
     target 622
-    similar 0.4
+    delta 0.5883484054145521
   ]
   edge [
     source 338
     target 660
-    similar 0.25
+    delta 0.4193139346887673
   ]
   edge [
     source 339
     target 535
-    similar 0.5
+    delta 0.6804138174397717
   ]
   edge [
     source 339
     target 439
-    similar 0.5454545454545454
+    delta 0.7071067811865476
   ]
   edge [
     source 339
     target 441
-    similar 0.45454545454545453
+    delta 0.629940788348712
   ]
   edge [
     source 339
     target 354
-    similar 0.46153846153846156
+    delta 0.6324555320336759
   ]
   edge [
     source 339
     target 540
-    similar 0.5
+    delta 0.6804138174397717
   ]
   edge [
     source 339
     target 960
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 340
     target 874
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 340
     target 429
-    similar 0.13636363636363635
+    delta 0.24019223070763068
   ]
   edge [
     source 341
     target 545
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 341
     target 1276
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 341
     target 921
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 341
     target 491
-    similar 0.4
+    delta 0.5773502691896257
   ]
   edge [
     source 341
     target 1234
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 341
     target 939
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 341
     target 975
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 341
     target 796
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 341
     target 874
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 341
     target 773
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 342
     target 676
-    similar 0.26666666666666666
+    delta 0.47809144373375745
   ]
   edge [
     source 342
     target 774
-    similar 0.11764705882352941
+    delta 0.23904572186687872
   ]
   edge [
     source 342
     target 754
-    similar 0.35714285714285715
+    delta 0.5976143046671968
   ]
   edge [
     source 342
     target 598
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 342
     target 939
-    similar 0.125
+    delta 0.2672612419124244
   ]
   edge [
     source 342
     target 999
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 343
     target 381
-    similar 0.3
+    delta 0.46709936649691375
   ]
   edge [
     source 343
     target 567
-    similar 0.2222222222222222
+    delta 0.3903600291794133
   ]
   edge [
     source 343
     target 668
-    similar 0.15789473684210525
+    delta 0.29277002188455997
   ]
   edge [
     source 343
     target 483
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 344
     target 516
-    similar 0.09523809523809523
+    delta 0.17541160386140586
   ]
   edge [
     source 344
     target 721
-    similar 0.35714285714285715
+    delta 0.5661385170722978
   ]
   edge [
     source 344
     target 562
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 344
     target 514
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 344
     target 360
-    similar 0.17391304347826086
+    delta 0.29649972666444047
   ]
   edge [
     source 344
     target 724
-    similar 0.2
+    delta 0.3721042037676254
   ]
   edge [
     source 344
     target 479
-    similar 0.29411764705882354
+    delta 0.4622501635210242
   ]
   edge [
     source 345
     target 694
-    similar 0.3125
+    delta 0.5270462766947299
   ]
   edge [
     source 345
     target 598
-    similar 0.09523809523809523
+    delta 0.18257418583505536
   ]
   edge [
     source 345
     target 862
-    similar 0.125
+    delta 0.29814239699997197
   ]
   edge [
     source 345
     target 562
-    similar 0.2777777777777778
+    delta 0.45643546458763845
   ]
   edge [
     source 346
     target 707
-    similar 0.5
+    delta 0.7071067811865476
   ]
   edge [
     source 346
     target 438
-    similar 0.6153846153846154
+    delta 0.769800358919501
   ]
   edge [
     source 346
     target 476
-    similar 0.5384615384615384
+    delta 0.7144345083117604
   ]
   edge [
     source 346
     target 394
-    similar 0.5384615384615384
+    delta 0.7144345083117604
   ]
   edge [
     source 346
     target 456
-    similar 0.5
+    delta 0.6735753140545634
   ]
   edge [
     source 346
     target 912
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 346
     target 614
-    similar 0.35714285714285715
+    delta 0.545544725589981
   ]
   edge [
     source 347
     target 631
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 347
     target 858
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 347
     target 770
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 347
     target 557
-    similar 0.10526315789473684
+    delta 0.19245008972987526
   ]
   edge [
     source 348
     target 363
-    similar 0.3157894736842105
+    delta 0.48038446141526137
   ]
   edge [
     source 348
     target 409
-    similar 0.2631578947368421
+    delta 0.4181210050035454
   ]
   edge [
     source 349
     target 510
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 349
     target 626
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 350
     target 398
-    similar 0.29411764705882354
+    delta 0.472455591261534
   ]
   edge [
     source 351
     target 580
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 351
     target 751
-    similar 0.10526315789473684
+    delta 0.21081851067789195
   ]
   edge [
     source 352
     target 633
-    similar 0.1111111111111111
+    delta 0.23094010767585027
   ]
   edge [
     source 352
     target 355
-    similar 0.2608695652173913
+    delta 0.41403933560541256
   ]
   edge [
     source 352
     target 477
-    similar 0.19047619047619047
+    delta 0.32659863237109044
   ]
   edge [
     source 353
     target 430
-    similar 0.14285714285714285
+    delta 0.2508726030021272
   ]
   edge [
     source 353
     target 788
-    similar 0.2857142857142857
+    delta 0.49613893835683387
   ]
   edge [
     source 354
     target 535
-    similar 0.45454545454545453
+    delta 0.6454972243679028
   ]
   edge [
     source 354
     target 440
-    similar 0.5833333333333334
+    delta 0.7378647873726218
   ]
   edge [
     source 354
     target 441
-    similar 0.5454545454545454
+    delta 0.7171371656006361
   ]
   edge [
     source 354
     target 439
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 354
     target 786
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 355
     target 482
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 355
     target 526
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 355
     target 629
-    similar 0.15789473684210525
+    delta 0.2834733547569204
   ]
   edge [
     source 356
     target 431
-    similar 0.3
+    delta 0.4629100498862757
   ]
   edge [
     source 357
     target 639
-    similar 0.16666666666666666
+    delta 0.30304576336566325
   ]
   edge [
     source 357
     target 924
-    similar 0.2
+    delta 0.4008918628686366
   ]
   edge [
     source 357
     target 362
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 357
     target 376
-    similar 0.12
+    delta 0.21428571428571427
   ]
   edge [
     source 357
     target 603
-    similar 0.1
+    delta 0.1889822365046136
   ]
   edge [
     source 357
     target 601
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 358
     target 770
-    similar 0.15384615384615385
+    delta 0.30151134457776363
   ]
   edge [
     source 358
     target 425
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 358
     target 927
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 359
     target 480
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 359
     target 667
-    similar 0.5384615384615384
+    delta 0.7337993857053429
   ]
   edge [
     source 359
     target 364
-    similar 0.625
+    delta 0.7692307692307693
   ]
   edge [
     source 360
     target 485
-    similar 0.14285714285714285
+    delta 0.253546276418555
   ]
   edge [
     source 360
     target 518
-    similar 0.09090909090909091
+    delta 0.1690308509457033
   ]
   edge [
     source 360
     target 1194
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 360
     target 433
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 360
     target 1130
-    similar 0.14285714285714285
+    delta 0.3779644730092272
   ]
   edge [
     source 361
     target 365
-    similar 0.2631578947368421
+    delta 0.4166666666666667
   ]
   edge [
     source 362
     target 739
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 363
     target 437
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 364
     target 417
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 364
     target 568
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 364
     target 667
-    similar 0.3333333333333333
+    delta 0.5241424183609592
   ]
   edge [
     source 366
     target 405
-    similar 0.7333333333333333
+    delta 0.8486684247915055
   ]
   edge [
     source 366
     target 654
-    similar 0.4
+    delta 0.6060915267313265
   ]
   edge [
     source 366
     target 636
-    similar 0.3125
+    delta 0.5050762722761054
   ]
   edge [
     source 366
     target 992
-    similar 0.21428571428571427
+    delta 0.4629100498862757
   ]
   edge [
     source 367
     target 706
-    similar 0.11764705882352941
+    delta 0.22645540682891913
   ]
   edge [
     source 367
     target 558
-    similar 0.1111111111111111
+    delta 0.20965696734438366
   ]
   edge [
     source 367
     target 526
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 367
     target 1203
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 367
     target 666
-    similar 0.11764705882352941
+    delta 0.22645540682891913
   ]
   edge [
     source 368
     target 750
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 368
     target 558
-    similar 0.1875
+    delta 0.3273268353539886
   ]
   edge [
     source 368
     target 600
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 368
     target 585
-    similar 0.3333333333333333
+    delta 0.5103103630798288
   ]
   edge [
     source 368
     target 749
-    similar 0.4166666666666667
+    delta 0.6454972243679028
   ]
   edge [
     source 369
     target 425
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 370
     target 414
-    similar 0.15
+    delta 0.26111648393354675
   ]
   edge [
     source 370
     target 474
-    similar 0.15789473684210525
+    delta 0.2727272727272727
   ]
   edge [
     source 371
     target 636
-    similar 0.2857142857142857
+    delta 0.4558423058385518
   ]
   edge [
     source 371
     target 861
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 371
     target 451
-    similar 0.35714285714285715
+    delta 0.5330017908890261
   ]
   edge [
     source 371
     target 651
-    similar 0.125
+    delta 0.2279211529192759
   ]
   edge [
     source 372
     target 536
-    similar 0.3125
+    delta 0.4811252243246881
   ]
   edge [
     source 372
     target 501
-    similar 0.3125
+    delta 0.4811252243246881
   ]
   edge [
     source 373
     target 787
-    similar 0.35714285714285715
+    delta 0.5976143046671968
   ]
   edge [
     source 373
     target 479
-    similar 0.21052631578947367
+    delta 0.3563483225498992
   ]
   edge [
     source 374
     target 493
-    similar 0.42857142857142855
+    delta 0.6030226891555273
   ]
   edge [
     source 374
     target 547
-    similar 0.5833333333333334
+    delta 0.7462025072446364
   ]
   edge [
     source 374
     target 415
-    similar 0.4666666666666667
+    delta 0.6363636363636364
   ]
   edge [
     source 375
     target 706
-    similar 0.11764705882352941
+    delta 0.22645540682891913
   ]
   edge [
     source 375
     target 558
-    similar 0.1111111111111111
+    delta 0.20965696734438366
   ]
   edge [
     source 375
     target 526
-    similar 0.2777777777777778
+    delta 0.43852900965351466
   ]
   edge [
     source 375
     target 477
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 375
     target 1062
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 376
     target 539
-    similar 0.15
+    delta 0.2672612419124244
   ]
   edge [
     source 376
     target 697
-    similar 0.17647058823529413
+    delta 0.3273268353539886
   ]
   edge [
     source 376
     target 706
-    similar 0.1111111111111111
+    delta 0.2182178902359924
   ]
   edge [
     source 376
     target 462
-    similar 0.08695652173913043
+    delta 0.16116459280507606
   ]
   edge [
     source 377
     target 961
-    similar 0.14285714285714285
+    delta 0.32025630761017426
   ]
   edge [
     source 377
     target 403
-    similar 0.2631578947368421
+    delta 0.4181210050035454
   ]
   edge [
     source 377
     target 635
-    similar 0.3333333333333333
+    delta 0.5241424183609592
   ]
   edge [
     source 377
     target 541
-    similar 0.3125
+    delta 0.4902903378454601
   ]
   edge [
     source 377
     target 838
-    similar 0.2
+    delta 0.3721042037676254
   ]
   edge [
     source 381
     target 966
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 381
     target 391
-    similar 0.2777777777777778
+    delta 0.4351941398892446
   ]
   edge [
     source 381
     target 420
-    similar 0.29411764705882354
+    delta 0.45454545454545453
   ]
   edge [
     source 381
     target 835
-    similar 0.36363636363636365
+    delta 0.6030226891555273
   ]
   edge [
     source 381
     target 387
-    similar 0.2
+    delta 0.3344968040028363
   ]
   edge [
     source 382
     target 868
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 382
     target 679
-    similar 0.26666666666666666
+    delta 0.4364357804719848
   ]
   edge [
     source 382
     target 499
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 383
     target 869
-    similar 0.13333333333333333
+    delta 0.2773500981126146
   ]
   edge [
     source 383
     target 876
-    similar 0.13333333333333333
+    delta 0.2773500981126146
   ]
   edge [
     source 383
     target 486
-    similar 0.29411764705882354
+    delta 0.4622501635210242
   ]
   edge [
     source 383
     target 647
-    similar 0.1111111111111111
+    delta 0.20965696734438366
   ]
   edge [
     source 383
     target 436
-    similar 0.25
+    delta 0.40032038451271784
   ]
   edge [
     source 383
     target 948
-    similar 0.21428571428571427
+    delta 0.41602514716892186
   ]
   edge [
     source 383
     target 472
-    similar 0.09090909090909091
+    delta 0.16724840200141816
   ]
   edge [
     source 383
     target 769
-    similar 0.125
+    delta 0.24806946917841693
   ]
   edge [
     source 383
     target 821
-    similar 0.125
+    delta 0.24806946917841693
   ]
   edge [
     source 383
     target 490
-    similar 0.15
+    delta 0.2631174057921088
   ]
   edge [
     source 383
     target 728
-    similar 0.11764705882352941
+    delta 0.22645540682891913
   ]
   edge [
     source 383
     target 587
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 384
     target 762
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 384
     target 424
-    similar 0.15789473684210525
+    delta 0.27386127875258304
   ]
   edge [
     source 384
     target 386
-    similar 0.15
+    delta 0.26111648393354675
   ]
   edge [
     source 384
     target 432
-    similar 0.09090909090909091
+    delta 0.16666666666666666
   ]
   edge [
     source 385
     target 499
-    similar 0.29411764705882354
+    delta 0.4622501635210242
   ]
   edge [
     source 385
     target 597
-    similar 0.23529411764705882
+    delta 0.3922322702763681
   ]
   edge [
     source 385
     target 560
-    similar 0.15789473684210525
+    delta 0.2773500981126145
   ]
   edge [
     source 387
     target 713
-    similar 0.11764705882352941
+    delta 0.22645540682891913
   ]
   edge [
     source 387
     target 417
-    similar 0.21052631578947367
+    delta 0.3508232077228117
   ]
   edge [
     source 388
     target 561
-    similar 0.3076923076923077
+    delta 0.47809144373375745
   ]
   edge [
     source 390
     target 724
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 391
     target 501
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 391
     target 480
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 394
     target 707
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 394
     target 456
-    similar 0.7
+    delta 0.8249579113843055
   ]
   edge [
     source 394
     target 476
-    similar 1.0
+    delta 1.0
   ]
   edge [
     source 394
     target 438
-    similar 0.7
+    delta 0.8249579113843055
   ]
   edge [
     source 394
     target 653
-    similar 0.36363636363636365
+    delta 0.5345224838248488
   ]
   edge [
     source 395
     target 546
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 396
     target 472
-    similar 0.2631578947368421
+    delta 0.4181210050035454
   ]
   edge [
     source 396
     target 436
-    similar 0.25
+    delta 0.40032038451271784
   ]
   edge [
     source 396
     target 543
-    similar 0.4
+    delta 0.5883484054145521
   ]
   edge [
     source 396
     target 876
-    similar 0.13333333333333333
+    delta 0.2773500981126146
   ]
   edge [
     source 396
     target 554
-    similar 0.2222222222222222
+    delta 0.3698001308168194
   ]
   edge [
     source 396
     target 1245
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 397
     target 638
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 398
     target 508
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 401
     target 1177
-    similar 0.15384615384615385
+    delta 0.3922322702763681
   ]
   edge [
     source 401
     target 678
-    similar 0.1875
+    delta 0.3396831102433787
   ]
   edge [
     source 401
     target 418
-    similar 0.2631578947368421
+    delta 0.4181210050035454
   ]
   edge [
     source 403
     target 541
-    similar 0.5833333333333334
+    delta 0.7462025072446364
   ]
   edge [
     source 403
     target 496
-    similar 0.16666666666666666
+    delta 0.28603877677367767
   ]
   edge [
     source 403
     target 635
-    similar 0.5
+    delta 0.6837634587578276
   ]
   edge [
     source 404
     target 849
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 404
     target 706
-    similar 0.125
+    delta 0.23570226039551587
   ]
   edge [
     source 405
     target 992
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 405
     target 654
-    similar 0.46153846153846156
+    delta 0.6546536707079772
   ]
   edge [
     source 406
     target 408
-    similar 0.15
+    delta 0.26111648393354675
   ]
   edge [
     source 406
     target 589
-    similar 0.35714285714285715
+    delta 0.5330017908890261
   ]
   edge [
     source 406
     target 650
-    similar 0.125
+    delta 0.2279211529192759
   ]
   edge [
     source 406
     target 794
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 407
     target 648
-    similar 0.11764705882352941
+    delta 0.2182178902359924
   ]
   edge [
     source 407
     target 622
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 408
     target 702
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 410
     target 582
-    similar 0.35714285714285715
+    delta 0.5330017908890261
   ]
   edge [
     source 410
     target 563
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 410
     target 758
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 410
     target 829
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 411
     target 513
-    similar 0.10526315789473684
+    delta 0.19245008972987526
   ]
   edge [
     source 411
     target 522
-    similar 0.1
+    delta 0.18257418583505536
   ]
   edge [
     source 412
     target 644
-    similar 0.5555555555555556
+    delta 0.7453559924999299
   ]
   edge [
     source 412
     target 414
-    similar 0.10526315789473684
+    delta 0.19245008972987526
   ]
   edge [
     source 413
     target 697
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 413
     target 549
-    similar 0.23529411764705882
+    delta 0.3849001794597505
   ]
   edge [
     source 413
     target 619
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 413
     target 603
-    similar 0.17647058823529413
+    delta 0.3061862178478973
   ]
   edge [
     source 413
     target 600
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 413
     target 558
-    similar 0.1875
+    delta 0.3273268353539886
   ]
   edge [
     source 413
     target 750
-    similar 0.2
+    delta 0.3535533905932738
   ]
   edge [
     source 413
     target 462
-    similar 0.15
+    delta 0.26111648393354675
   ]
   edge [
     source 413
     target 615
-    similar 0.1111111111111111
+    delta 0.20412414523193154
   ]
   edge [
     source 415
     target 493
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 415
     target 547
-    similar 0.46153846153846156
+    delta 0.6396021490668313
   ]
   edge [
     source 415
     target 894
-    similar 0.36363636363636365
+    delta 0.6030226891555273
   ]
   edge [
     source 415
     target 532
-    similar 0.23529411764705882
+    delta 0.38138503569823695
   ]
   edge [
     source 416
     target 452
-    similar 0.25
+    delta 0.40201512610368484
   ]
   edge [
     source 416
     target 422
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 416
     target 465
-    similar 0.26666666666666666
+    delta 0.4216370213557839
   ]
   edge [
     source 417
     target 657
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 417
     target 480
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 417
     target 420
-    similar 0.3125
+    delta 0.4767312946227962
   ]
   edge [
     source 418
     target 873
-    similar 0.15384615384615385
+    delta 0.30151134457776363
   ]
   edge [
     source 418
     target 669
-    similar 0.2
+    delta 0.3418817293789138
   ]
   edge [
     source 418
     target 601
-    similar 0.11764705882352941
+    delta 0.21320071635561041
   ]
   edge [
     source 418
     target 1004
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 418
     target 528
-    similar 0.16666666666666666
+    delta 0.28603877677367767
   ]
   edge [
     source 419
     target 489
-    similar 0.1875
+    delta 0.31980107453341566
   ]
   edge [
     source 419
     target 544
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 419
     target 505
-    similar 0.125
+    delta 0.2279211529192759
   ]
   edge [
     source 419
     target 469
-    similar 0.29411764705882354
+    delta 0.45454545454545453
   ]
   edge [
     source 419
     target 823
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 420
     target 443
-    similar 0.1
+    delta 0.18181818181818182
   ]
   edge [
     source 420
     target 657
-    similar 0.45454545454545453
+    delta 0.674199862463242
   ]
   edge [
     source 420
     target 1222
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 420
     target 835
-    similar 0.36363636363636365
+    delta 0.6030226891555273
   ]
   edge [
     source 422
     target 452
-    similar 0.375
+    delta 0.5454545454545454
   ]
   edge [
     source 422
     target 479
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 424
     target 768
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 425
     target 474
-    similar 0.25
+    delta 0.40201512610368484
   ]
   edge [
     source 426
     target 714
-    similar 0.3333333333333333
+    delta 0.5393598899705937
   ]
   edge [
     source 426
     target 727
-    similar 0.3076923076923077
+    delta 0.4923659639173309
   ]
   edge [
     source 426
     target 554
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 426
     target 813
-    similar 0.45454545454545453
+    delta 0.674199862463242
   ]
   edge [
     source 426
     target 728
-    similar 0.4166666666666667
+    delta 0.6154574548966636
   ]
   edge [
     source 426
     target 573
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 427
     target 594
-    similar 0.4166666666666667
+    delta 0.5976143046671968
   ]
   edge [
     source 427
     target 889
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 428
     target 621
-    similar 0.38461538461538464
+    delta 0.5698028822981898
   ]
   edge [
     source 428
     target 626
-    similar 0.1875
+    delta 0.31980107453341566
   ]
   edge [
     source 428
     target 738
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 429
     target 450
-    similar 0.23529411764705882
+    delta 0.3849001794597505
   ]
   edge [
     source 431
     target 567
-    similar 0.11764705882352941
+    delta 0.2182178902359924
   ]
   edge [
     source 431
     target 599
-    similar 0.1111111111111111
+    delta 0.20412414523193154
   ]
   edge [
     source 432
     target 742
-    similar 0.21428571428571427
+    delta 0.3872983346207417
   ]
   edge [
     source 432
     target 932
-    similar 0.14285714285714285
+    delta 0.2886751345948129
   ]
   edge [
     source 432
     target 917
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 432
     target 502
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 432
     target 925
-    similar 0.23076923076923078
+    delta 0.43301270189221935
   ]
   edge [
     source 432
     target 1036
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 432
     target 1011
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 432
     target 1002
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 433
     target 834
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 433
     target 532
-    similar 0.16666666666666666
+    delta 0.28603877677367767
   ]
   edge [
     source 434
     target 1119
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 434
     target 528
-    similar 0.15789473684210525
+    delta 0.27386127875258304
   ]
   edge [
     source 434
     target 1161
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 434
     target 489
-    similar 0.1111111111111111
+    delta 0.20412414523193154
   ]
   edge [
     source 435
     target 539
-    similar 0.10526315789473684
+    delta 0.19245008972987526
   ]
   edge [
     source 435
     target 1165
-    similar 0.16666666666666666
+    delta 0.4082482904638631
   ]
   edge [
     source 435
     target 466
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 436
     target 486
-    similar 0.3125
+    delta 0.4811252243246881
   ]
   edge [
     source 436
     target 587
-    similar 0.3333333333333333
+    delta 0.5103103630798288
   ]
   edge [
     source 436
     target 638
-    similar 0.38461538461538464
+    delta 0.5892556509887896
   ]
   edge [
     source 436
     target 994
-    similar 0.15384615384615385
+    delta 0.3333333333333333
   ]
   edge [
     source 436
     target 573
-    similar 0.16666666666666666
+    delta 0.28867513459481287
   ]
   edge [
     source 436
     target 948
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 438
     target 707
-    similar 0.6666666666666666
+    delta 0.816496580927726
   ]
   edge [
     source 438
     target 522
-    similar 0.35714285714285715
+    delta 0.5270462766947299
   ]
   edge [
     source 438
     target 476
-    similar 0.7
+    delta 0.8249579113843055
   ]
   edge [
     source 438
     target 614
-    similar 0.6
+    delta 0.7559289460184544
   ]
   edge [
     source 438
     target 456
-    similar 0.8
+    delta 0.8888888888888888
   ]
   edge [
     source 439
     target 540
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 439
     target 441
-    similar 0.6666666666666666
+    delta 0.8017837257372732
   ]
   edge [
     source 439
     target 440
-    similar 0.4166666666666667
+    delta 0.5892556509887896
   ]
   edge [
     source 440
     target 535
-    similar 0.36363636363636365
+    delta 0.5443310539518174
   ]
   edge [
     source 440
     target 960
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 440
     target 786
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 443
     target 998
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 443
     target 1105
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 443
     target 839
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 443
     target 822
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 443
     target 1142
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 443
     target 903
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 443
     target 958
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 443
     target 1123
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 444
     target 527
-    similar 0.38461538461538464
+    delta 0.5555555555555556
   ]
   edge [
     source 446
     target 576
-    similar 0.1875
+    delta 0.31980107453341566
   ]
   edge [
     source 446
     target 717
-    similar 0.3076923076923077
+    delta 0.4923659639173309
   ]
   edge [
     source 446
     target 941
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 446
     target 1153
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 446
     target 1154
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 446
     target 932
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 446
     target 708
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 446
     target 928
-    similar 0.25
+    delta 0.45226701686664544
   ]
   edge [
     source 446
     target 1040
-    similar 0.16666666666666666
+    delta 0.3481553119113957
   ]
   edge [
     source 447
     target 502
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 447
     target 973
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 447
     target 917
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 447
     target 1024
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 447
     target 838
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 447
     target 1011
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 447
     target 1187
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 448
     target 471
-    similar 0.3125
+    delta 0.4767312946227962
   ]
   edge [
     source 449
     target 782
-    similar 0.16666666666666666
+    delta 0.31622776601683794
   ]
   edge [
     source 450
     target 478
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 450
     target 748
-    similar 0.15384615384615385
+    delta 0.2721655269759087
   ]
   edge [
     source 451
     target 560
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 452
     target 555
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 455
     target 627
-    similar 0.4166666666666667
+    delta 0.5976143046671968
   ]
   edge [
     source 455
     target 584
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 455
     target 801
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 456
     target 707
-    similar 0.6666666666666666
+    delta 0.816496580927726
   ]
   edge [
     source 456
     target 653
-    similar 0.45454545454545453
+    delta 0.629940788348712
   ]
   edge [
     source 456
     target 476
-    similar 0.7
+    delta 0.8249579113843055
   ]
   edge [
     source 456
     target 522
-    similar 0.26666666666666666
+    delta 0.4216370213557839
   ]
   edge [
     source 456
     target 614
-    similar 0.6
+    delta 0.7559289460184544
   ]
   edge [
     source 457
     target 719
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 457
     target 503
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 458
     target 655
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 458
     target 478
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 459
     target 1122
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 460
     target 486
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 460
     target 866
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 460
     target 1086
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 460
     target 647
-    similar 0.5454545454545454
+    delta 0.7171371656006361
   ]
   edge [
     source 460
     target 472
-    similar 0.10526315789473684
+    delta 0.19069251784911848
   ]
   edge [
     source 460
     target 1280
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 461
     target 824
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 462
     target 549
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 462
     target 1244
-    similar 0.18181818181818182
+    delta 0.42640143271122083
   ]
   edge [
     source 463
     target 531
-    similar 0.5384615384615384
+    delta 0.7
   ]
   edge [
     source 464
     target 686
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 464
     target 623
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 464
     target 1033
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 464
     target 581
-    similar 0.14285714285714285
+    delta 0.2519763153394848
   ]
   edge [
     source 466
     target 640
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 466
     target 837
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 466
     target 577
-    similar 0.26666666666666666
+    delta 0.4216370213557839
   ]
   edge [
     source 466
     target 949
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 466
     target 751
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 467
     target 515
-    similar 0.3333333333333333
+    delta 0.502518907629606
   ]
   edge [
     source 469
     target 771
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 469
     target 544
-    similar 0.25
+    delta 0.40201512610368484
   ]
   edge [
     source 469
     target 549
-    similar 0.17647058823529413
+    delta 0.30151134457776363
   ]
   edge [
     source 469
     target 942
-    similar 0.2727272727272727
+    delta 0.5222329678670935
   ]
   edge [
     source 469
     target 528
-    similar 0.10526315789473684
+    delta 0.19069251784911848
   ]
   edge [
     source 471
     target 829
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 472
     target 792
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 472
     target 714
-    similar 0.14285714285714285
+    delta 0.26967994498529685
   ]
   edge [
     source 472
     target 810
-    similar 0.23076923076923078
+    delta 0.40451991747794525
   ]
   edge [
     source 473
     target 613
-    similar 0.2857142857142857
+    delta 0.4558423058385518
   ]
   edge [
     source 474
     target 635
-    similar 0.125
+    delta 0.2279211529192759
   ]
   edge [
     source 475
     target 557
-    similar 0.1111111111111111
+    delta 0.20100756305184242
   ]
   edge [
     source 475
     target 544
-    similar 0.1111111111111111
+    delta 0.20100756305184242
   ]
   edge [
     source 475
     target 482
-    similar 0.15789473684210525
+    delta 0.2727272727272727
   ]
   edge [
     source 476
     target 707
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 476
     target 653
-    similar 0.36363636363636365
+    delta 0.5345224838248488
   ]
   edge [
     source 477
     target 551
-    similar 0.4166666666666667
+    delta 0.5976143046671968
   ]
   edge [
     source 477
     target 478
-    similar 0.25
+    delta 0.4
   ]
   edge [
     source 477
     target 1151
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 479
     target 721
-    similar 0.36363636363636365
+    delta 0.5443310539518174
   ]
   edge [
     source 481
     target 677
-    similar 0.21428571428571427
+    delta 0.35856858280031806
   ]
   edge [
     source 482
     target 706
-    similar 0.13333333333333333
+    delta 0.24618298195866545
   ]
   edge [
     source 483
     target 1107
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 483
     target 501
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 483
     target 897
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 483
     target 795
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 483
     target 567
-    similar 0.3076923076923077
+    delta 0.47809144373375745
   ]
   edge [
     source 484
     target 759
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 484
     target 520
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 485
     target 542
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 485
     target 1211
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 485
     target 599
-    similar 0.125
+    delta 0.22360679774997896
   ]
   edge [
     source 485
     target 1265
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 486
     target 587
-    similar 0.4166666666666667
+    delta 0.5892556509887896
   ]
   edge [
     source 486
     target 490
-    similar 0.35714285714285715
+    delta 0.5270462766947299
   ]
   edge [
     source 486
     target 494
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 486
     target 573
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 487
     target 1217
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 487
     target 496
-    similar 0.35714285714285715
+    delta 0.5270462766947299
   ]
   edge [
     source 488
     target 519
-    similar 0.36363636363636365
+    delta 0.5345224838248488
   ]
   edge [
     source 488
     target 498
-    similar 0.36363636363636365
+    delta 0.5345224838248488
   ]
   edge [
     source 490
     target 994
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 490
     target 727
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 490
     target 573
-    similar 0.26666666666666666
+    delta 0.4216370213557839
   ]
   edge [
     source 491
     target 969
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 491
     target 939
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 491
     target 875
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 491
     target 1146
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 491
     target 796
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 491
     target 773
-    similar 0.4
+    delta 0.5962847939999439
   ]
   edge [
     source 491
     target 975
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 492
     target 684
-    similar 0.4444444444444444
+    delta 0.6324555320336759
   ]
   edge [
     source 493
     target 514
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 494
     target 959
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 494
     target 690
-    similar 0.14285714285714285
+    delta 0.2581988897471611
   ]
   edge [
     source 494
     target 1246
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 494
     target 691
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 494
     target 869
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 494
     target 573
-    similar 0.26666666666666666
+    delta 0.4216370213557839
   ]
   edge [
     source 494
     target 769
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 495
     target 861
-    similar 0.18181818181818182
+    delta 0.3333333333333333
   ]
   edge [
     source 495
     target 893
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 496
     target 836
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 497
     target 689
-    similar 0.45454545454545453
+    delta 0.6454972243679028
   ]
   edge [
     source 498
     target 637
-    similar 0.5
+    delta 0.6761234037828132
   ]
   edge [
     source 498
     target 640
-    similar 0.4444444444444444
+    delta 0.6172133998483676
   ]
   edge [
     source 498
     target 753
-    similar 0.4444444444444444
+    delta 0.6172133998483676
   ]
   edge [
     source 499
     target 857
-    similar 0.18181818181818182
+    delta 0.3333333333333333
   ]
   edge [
     source 500
     target 774
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 500
     target 533
-    similar 0.6666666666666666
+    delta 0.8017837257372732
   ]
   edge [
     source 500
     target 709
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 500
     target 504
-    similar 0.6
+    delta 0.75
   ]
   edge [
     source 501
     target 609
-    similar 0.3076923076923077
+    delta 0.47140452079103173
   ]
   edge [
     source 502
     target 757
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 502
     target 926
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 502
     target 1208
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 502
     target 629
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 502
     target 1059
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 504
     target 533
-    similar 0.6666666666666666
+    delta 0.8017837257372732
   ]
   edge [
     source 504
     target 709
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 504
     target 509
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 504
     target 951
-    similar 0.3333333333333333
+    delta 0.5303300858899106
   ]
   edge [
     source 505
     target 1001
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 505
     target 659
-    similar 0.16666666666666666
+    delta 0.2857142857142857
   ]
   edge [
     source 506
     target 1176
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 510
     target 581
-    similar 0.14285714285714285
+    delta 0.2519763153394848
   ]
   edge [
     source 510
     target 686
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 510
     target 565
-    similar 0.4166666666666667
+    delta 0.5892556509887896
   ]
   edge [
     source 512
     target 601
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 513
     target 721
-    similar 0.15384615384615385
+    delta 0.2721655269759087
   ]
   edge [
     source 513
     target 1050
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 514
     target 1111
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 514
     target 542
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 514
     target 721
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 516
     target 1031
-    similar 0.18181818181818182
+    delta 0.3651483716701107
   ]
   edge [
     source 516
     target 674
-    similar 0.3076923076923077
+    delta 0.47809144373375745
   ]
   edge [
     source 517
     target 858
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 517
     target 537
-    similar 0.38461538461538464
+    delta 0.5590169943749475
   ]
   edge [
     source 517
     target 938
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 517
     target 577
-    similar 0.11764705882352941
+    delta 0.21081851067789195
   ]
   edge [
     source 521
     target 971
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 521
     target 1139
-    similar 0.2
+    delta 0.4472135954999579
   ]
   edge [
     source 521
     target 988
-    similar 0.3
+    delta 0.5477225575051661
   ]
   edge [
     source 521
     target 860
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 521
     target 554
-    similar 0.1875
+    delta 0.31622776601683794
   ]
   edge [
     source 522
     target 842
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 522
     target 824
-    similar 0.25
+    delta 0.4242640687119285
   ]
   edge [
     source 522
     target 614
-    similar 0.4166666666666667
+    delta 0.5976143046671968
   ]
   edge [
     source 523
     target 702
-    similar 0.15384615384615385
+    delta 0.2721655269759087
   ]
   edge [
     source 523
     target 782
-    similar 0.18181818181818182
+    delta 0.3333333333333333
   ]
   edge [
     source 524
     target 808
-    similar 0.15384615384615385
+    delta 0.282842712474619
   ]
   edge [
     source 524
     target 920
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 524
     target 790
-    similar 0.36363636363636365
+    delta 0.565685424949238
   ]
   edge [
     source 524
     target 919
-    similar 0.2727272727272727
+    delta 0.4743416490252569
   ]
   edge [
     source 525
     target 767
-    similar 0.2727272727272727
+    delta 0.4472135954999579
   ]
   edge [
     source 526
     target 615
-    similar 0.2
+    delta 0.33541019662496846
   ]
   edge [
     source 526
     target 756
-    similar 0.23076923076923078
+    delta 0.3872983346207417
   ]
   edge [
     source 529
     target 1022
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 529
     target 570
-    similar 0.2
+    delta 0.3333333333333333
   ]
   edge [
     source 533
     target 709
-    similar 0.8571428571428571
+    delta 0.9258200997725514
   ]
   edge [
     source 535
     target 540
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 536
     target 659
-    similar 0.14285714285714285
+    delta 0.2519763153394848
   ]
   edge [
     source 541
     target 635
-    similar 0.6666666666666666
+    delta 0.8017837257372732
   ]
   edge [
     source 541
     target 1077
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 543
     target 843
-    similar 0.4444444444444444
+    delta 0.6324555320336759
   ]
   edge [
     source 543
     target 792
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 544
     target 873
-    similar 0.18181818181818182
+    delta 0.3333333333333333
   ]
   edge [
     source 545
     target 603
-    similar 0.14285714285714285
+    delta 0.25
   ]
   edge [
     source 546
     target 982
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 547
     target 894
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 549
     target 619
-    similar 0.21428571428571427
+    delta 0.3535533905932738
   ]
   edge [
     source 549
     target 1181
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 550
     target 908
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 550
     target 619
-    similar 0.13333333333333333
+    delta 0.23570226039551587
   ]
   edge [
     source 550
     target 746
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 552
     target 734
-    similar 0.3
+    delta 0.4629100498862757
   ]
   edge [
     source 552
     target 621
-    similar 0.5555555555555556
+    delta 0.7142857142857143
   ]
   edge [
     source 553
     target 583
-    similar 0.3333333333333333
+    delta 0.5039526306789696
   ]
   edge [
     source 553
     target 956
-    similar 0.3333333333333333
+    delta 0.5773502691896257
   ]
   edge [
     source 554
     target 1214
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 555
     target 646
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 555
     target 888
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 555
     target 665
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 556
     target 774
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 556
     target 785
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 557
     target 767
-    similar 0.16666666666666666
+    delta 0.29814239699997197
   ]
   edge [
     source 558
     target 652
-    similar 0.16666666666666666
+    delta 0.2857142857142857
   ]
   edge [
     source 559
     target 921
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 559
     target 617
-    similar 0.3333333333333333
+    delta 0.5039526306789696
   ]
   edge [
     source 560
     target 1137
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 560
     target 996
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 562
     target 832
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 562
     target 1051
-    similar 0.375
+    delta 0.6123724356957946
   ]
   edge [
     source 563
     target 582
-    similar 0.3076923076923077
+    delta 0.47140452079103173
   ]
   edge [
     source 564
     target 984
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 564
     target 590
-    similar 0.4166666666666667
+    delta 0.5892556509887896
   ]
   edge [
     source 564
     target 1033
-    similar 0.2
+    delta 0.3849001794597505
   ]
   edge [
     source 565
     target 686
-    similar 0.3
+    delta 0.4743416490252569
   ]
   edge [
     source 565
     target 738
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 566
     target 859
-    similar 0.3333333333333333
+    delta 0.5303300858899106
   ]
   edge [
     source 567
     target 839
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 567
     target 568
-    similar 0.25
+    delta 0.4008918628686366
   ]
   edge [
     source 568
     target 591
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 570
     target 750
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 571
     target 649
-    similar 0.7142857142857143
+    delta 0.8333333333333334
   ]
   edge [
     source 571
     target 620
-    similar 0.7142857142857143
+    delta 0.8333333333333334
   ]
   edge [
     source 571
     target 579
-    similar 0.625
+    delta 0.7715167498104595
   ]
   edge [
     source 572
     target 747
-    similar 0.25
+    delta 0.408248290463863
   ]
   edge [
     source 572
     target 646
-    similar 0.36363636363636365
+    delta 0.5443310539518174
   ]
   edge [
     source 573
     target 877
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 573
     target 869
-    similar 0.3
+    delta 0.5
   ]
   edge [
     source 575
     target 1200
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 576
     target 757
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 576
     target 941
-    similar 0.375
+    delta 0.6123724356957946
   ]
   edge [
     source 576
     target 812
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 576
     target 1059
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 576
     target 886
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 576
     target 841
-    similar 0.18181818181818182
+    delta 0.31622776601683794
   ]
   edge [
     source 577
     target 1198
-    similar 0.2222222222222222
+    delta 0.47140452079103173
   ]
   edge [
     source 579
     target 620
-    similar 0.625
+    delta 0.7715167498104595
   ]
   edge [
     source 579
     target 649
-    similar 0.8571428571428571
+    delta 0.9258200997725514
   ]
   edge [
     source 582
     target 1028
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 582
     target 658
-    similar 0.2727272727272727
+    delta 0.43301270189221935
   ]
   edge [
     source 584
     target 882
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 584
     target 627
-    similar 0.6666666666666666
+    delta 0.8017837257372732
   ]
   edge [
     source 587
     target 761
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 592
     target 689
-    similar 0.5555555555555556
+    delta 0.7216878364870323
   ]
   edge [
     source 593
     target 881
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 593
     target 1160
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 593
     target 791
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 594
     target 857
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 594
     target 898
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 595
     target 1091
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 595
     target 1021
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 595
     target 1170
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 595
     target 604
-    similar 0.2727272727272727
+    delta 0.42857142857142855
   ]
   edge [
     source 595
     target 936
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 596
     target 1038
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 596
     target 1282
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 596
     target 1016
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 596
     target 840
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 596
     target 692
-    similar 0.2
+    delta 0.3333333333333333
   ]
   edge [
     source 597
     target 906
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 597
     target 996
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 600
     target 652
-    similar 0.18181818181818182
+    delta 0.3086066999241838
   ]
   edge [
     source 601
     target 639
-    similar 0.25
+    delta 0.4008918628686366
   ]
   edge [
     source 601
     target 652
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 602
     target 700
-    similar 0.18181818181818182
+    delta 0.3086066999241838
   ]
   edge [
     source 603
     target 856
-    similar 0.2
+    delta 0.35355339059327373
   ]
   edge [
     source 603
     target 619
-    similar 0.23076923076923078
+    delta 0.375
   ]
   edge [
     source 604
     target 1188
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 604
     target 986
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 604
     target 844
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 605
     target 789
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 607
     target 744
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 612
     target 668
-    similar 0.15384615384615385
+    delta 0.2672612419124244
   ]
   edge [
     source 614
     target 653
-    similar 0.2727272727272727
+    delta 0.42857142857142855
   ]
   edge [
     source 615
     target 1236
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 617
     target 765
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 618
     target 1248
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 619
     target 1019
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 619
     target 1043
-    similar 0.2222222222222222
+    delta 0.4082482904638631
   ]
   edge [
     source 619
     target 1197
-    similar 0.25
+    delta 0.5
   ]
   edge [
     source 620
     target 649
-    similar 0.7142857142857143
+    delta 0.8333333333333334
   ]
   edge [
     source 624
     target 643
-    similar 0.2727272727272727
+    delta 0.43301270189221935
   ]
   edge [
     source 626
     target 734
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 626
     target 645
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 630
     target 777
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 630
     target 682
-    similar 0.4
+    delta 0.5714285714285714
   ]
   edge [
     source 631
     target 1162
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 631
     target 815
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 639
     target 872
-    similar 0.2222222222222222
+    delta 0.3779644730092272
   ]
   edge [
     source 639
     target 983
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 641
     target 1147
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 641
     target 732
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 642
     target 892
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 642
     target 844
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 642
     target 780
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 642
     target 926
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 643
     target 946
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 645
     target 734
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 646
     target 665
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 647
     target 866
-    similar 0.375
+    delta 0.5669467095138409
   ]
   edge [
     source 647
     target 1086
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 650
     target 1166
-    similar 0.2857142857142857
+    delta 0.5345224838248488
   ]
   edge [
     source 650
     target 1038
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 650
     target 737
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 655
     target 1020
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 655
     target 1193
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 660
     target 688
-    similar 0.3333333333333333
+    delta 0.50709255283711
   ]
   edge [
     source 670
     target 887
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 670
     target 922
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 670
     target 680
-    similar 0.18181818181818182
+    delta 0.3086066999241838
   ]
   edge [
     source 675
     target 699
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 675
     target 1015
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 676
     target 999
-    similar 0.6
+    delta 0.7745966692414834
   ]
   edge [
     source 676
     target 754
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 679
     target 868
-    similar 0.5714285714285714
+    delta 0.7559289460184544
   ]
   edge [
     source 679
     target 775
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 680
     target 1005
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 680
     target 1013
-    similar 0.25
+    delta 0.4364357804719848
   ]
   edge [
     source 680
     target 763
-    similar 0.2
+    delta 0.3380617018914066
   ]
   edge [
     source 682
     target 855
-    similar 0.42857142857142855
+    delta 0.6546536707079772
   ]
   edge [
     source 685
     target 775
-    similar 0.25
+    delta 0.4
   ]
   edge [
     source 688
     target 705
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 691
     target 1135
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 692
     target 798
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 692
     target 1168
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 696
     target 1045
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 696
     target 821
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 697
     target 1284
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 699
     target 1143
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 699
     target 967
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 699
     target 743
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 703
     target 867
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 703
     target 885
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 705
     target 914
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 708
     target 757
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 708
     target 1190
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 708
     target 1191
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 708
     target 841
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 710
     target 1047
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 710
     target 1049
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 713
     target 746
-    similar 0.2
+    delta 0.3333333333333333
   ]
   edge [
     source 714
     target 727
-    similar 0.5714285714285714
+    delta 0.7302967433402214
   ]
   edge [
     source 716
     target 793
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 717
     target 928
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 717
     target 1227
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 717
     target 1259
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 717
     target 932
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 718
     target 1012
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 718
     target 886
-    similar 0.25
+    delta 0.4082482904638631
   ]
   edge [
     source 718
     target 841
-    similar 0.2222222222222222
+    delta 0.3651483716701107
   ]
   edge [
     source 720
     target 1249
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 720
     target 931
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 729
     target 1231
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 729
     target 1037
-    similar 0.2857142857142857
+    delta 0.47140452079103173
   ]
   edge [
     source 729
     target 730
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 729
     target 816
-    similar 0.42857142857142855
+    delta 0.6123724356957946
   ]
   edge [
     source 730
     target 816
-    similar 0.8
+    delta 0.8944271909999159
   ]
   edge [
     source 733
     target 762
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 733
     target 1279
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 734
     target 1178
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 737
     target 798
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 737
     target 840
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 738
     target 828
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 739
     target 845
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 742
     target 1239
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 742
     target 1082
-    similar 0.6
+    delta 0.7745966692414834
   ]
   edge [
     source 745
     target 913
-    similar 0.6
+    delta 0.7745966692414834
   ]
   edge [
     source 747
     target 783
-    similar 0.375
+    delta 0.5477225575051661
   ]
   edge [
     source 751
     target 1117
-    similar 0.3333333333333333
+    delta 0.5773502691896258
   ]
   edge [
     source 757
     target 1040
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 760
     target 763
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 764
     target 1047
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 773
     target 875
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 780
     target 916
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 782
     target 981
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 783
     target 1031
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 789
     target 1132
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 790
     target 817
-    similar 0.6666666666666666
+    delta 0.8
   ]
   edge [
     source 791
     target 881
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 791
     target 1220
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 797
     target 1094
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 799
     target 812
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 799
     target 925
-    similar 0.6
+    delta 0.75
   ]
   edge [
     source 802
     target 873
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 802
     target 1044
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 805
     target 961
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 806
     target 931
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 808
     target 1218
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 808
     target 817
-    similar 0.25
+    delta 0.4
   ]
   edge [
     source 812
     target 1046
-    similar 0.6
+    delta 0.7745966692414834
   ]
   edge [
     source 815
     target 1008
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 821
     target 864
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 824
     target 842
-    similar 0.42857142857142855
+    delta 0.6
   ]
   edge [
     source 830
     target 1077
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 831
     target 1129
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 832
     target 862
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 834
     target 1023
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 836
     target 1278
-    similar 0.4
+    delta 0.6324555320336759
   ]
   edge [
     source 836
     target 865
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 837
     target 852
-    similar 0.3333333333333333
+    delta 0.5163977794943222
   ]
   edge [
     source 841
     target 916
-    similar 0.2857142857142857
+    delta 0.4472135954999579
   ]
   edge [
     source 844
     target 936
-    similar 0.5
+    delta 0.6708203932499369
   ]
   edge [
     source 849
     target 954
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 856
     target 872
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 856
     target 1237
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 860
     target 971
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 860
     target 988
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 866
     target 1277
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 867
     target 885
-    similar 1.0
+    delta 1.0
   ]
   edge [
     source 876
     target 1039
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 887
     target 1009
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 890
     target 950
-    similar 0.6
+    delta 0.75
   ]
   edge [
     source 892
     target 1057
-    similar 0.75
+    delta 0.8660254037844387
   ]
   edge [
     source 901
     target 1014
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 902
     target 1225
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 902
     target 1164
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 902
     target 1243
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 907
     target 1112
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 910
     target 1029
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 910
     target 1043
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 914
     target 1171
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 916
     target 1041
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 928
     target 1041
-    similar 0.4
+    delta 0.5773502691896258
   ]
   edge [
     source 931
     target 943
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 935
     target 1213
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 935
     target 944
-    similar 0.3333333333333333
+    delta 0.5
   ]
   edge [
     source 940
     target 1241
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 944
     target 1131
-    similar 0.5
+    delta 0.7071067811865475
   ]
   edge [
     source 959
     target 1158
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 967
     target 1186
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 969
     target 1257
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 981
     target 1015
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 983
     target 1098
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1012
     target 1058
-    similar 0.5
+    delta 0.6666666666666666
   ]
   edge [
     source 1020
     target 1121
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1054
     target 1221
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1054
     target 1185
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1055
     target 1152
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1062
     target 1251
-    similar 0.6666666666666666
+    delta 0.8164965809277261
   ]
   edge [
     source 1101
     target 1254
-    similar 1.0
+    delta 1.0
   ]
   edge [
     source 1179
     target 1215
-    similar 1.0
+    delta 1.0
   ]
   edge [
     source 1204
     target 1274
-    similar 1.0
+    delta 1.0
   ]
 ]

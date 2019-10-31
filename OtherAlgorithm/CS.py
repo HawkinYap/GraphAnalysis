@@ -26,10 +26,6 @@ def loadData(path1, path2, isDirect):
         edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
-    for n, data in G.nodes(data=True):
-        G.node[n]['core'] = 0
-        G.node[n]['core1'] = 0
-        G.node[n]['global'] = 0
     return (G)
 
 def getCS(G):

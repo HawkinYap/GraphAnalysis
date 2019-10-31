@@ -32,7 +32,7 @@ def loadData(path1, path2, isDirect):
         G.node[n]['global'] = 0
     return (G)
 
-def getSimilarity(G, e=0.15, mu=3):
+def getSimilarity(G, e=0.8, mu=3):
     for u, v in G.edges:
         u_neighbor = list(G.neighbors(u)) + [u]
         v_neighbor = list(G.neighbors(v)) + [v]
@@ -43,13 +43,14 @@ def getSimilarity(G, e=0.15, mu=3):
         u_neighbor = list(G.neighbors(u))
         e_u = []
         for v in u_neighbor:
-            if G[u][v]['delta'] <= e:
+            if G[u][v]['delta'] >= e:
                 e_u.append(v)
         if len(e_u) > mu:
             G.node[u]['core'] = 1
             G.node[u]['core1'] = 1
         else:
             continue
+
 
     heigh_neighbour = 0.01
     nodes_num = round(heigh_neighbour * len(G))
@@ -76,8 +77,12 @@ def saveGraph(G, fn):
 
 
 def dataTest():
-    path1 = "../GraphSampling/Data/eurosis_node.csv"
-    path2 = "../GraphSampling/Data/eurosis_edge.csv"
+    # path1 = "../GraphSampling/Data/eurosis_node.csv"
+    # path2 = "../GraphSampling/Data/eurosis_edge.csv"
+
+    path1 = "Data/facebook3980_node.csv"
+    path2 = "Data/facebook3980_edge.csv"
+
 
     file = os.path.splitext(path1)
     filename, type = file
