@@ -3,6 +3,7 @@ import csv
 from fast_unfolding import *
 import math
 import matplotlib.pyplot as plt
+import os
 
 
 def Extract_Global_High_Neighbor(G, heigh_neighbour):
@@ -51,8 +52,8 @@ def Extract_Star(G):
 
     print(star_num)
 
-def Save_Graph(G):
-    path = 'Output/test_feature.gml'
+def Save_Graph(G, fn):
+    path = 'Output/test_feature_{}.gml'.format(fn)
     nx.write_gml(G, path)
 
 def Get_Node_Community(G):
@@ -75,7 +76,6 @@ def Get_Node_Community(G):
         for i in v:
             G.node[i]['commuty'] = count
 
-    Save_Graph(G)
 
 
     values = [partition.get(node) for node in G_copy.nodes()]
@@ -102,8 +102,14 @@ def Get_Info(G):
 
 
 if __name__ == '__main__':
-    path1 = "Data/toy6_node.csv"
-    path2 = "Data/toy6_edge.csv"
+    path1 = "Data/power_node.csv"
+    path2 = "Data/power_edge.csv"
+
+    file = os.path.splitext(path1)
+    filename, type = file
+    a = filename.split('/')
+    b = a[-1].split('_')
+    fn = b[0]
 
     isDirect = False
     # add nodes
@@ -127,11 +133,12 @@ if __name__ == '__main__':
         edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
-    Extract_Global_High_Neighbor(G, 0.05)
-    Extract_Star(G)
+    # Extract_Global_High_Neighbor(G, 0.05)
+    # Extract_Star(G)
     # Get_Info(G)
 
-    # Get_Node_Community(G)
+    Get_Node_Community(G)
+    Save_Graph(G, fn)
 
 
 
