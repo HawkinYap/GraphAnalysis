@@ -2,17 +2,17 @@ graph [
   node [
     id 0
     label "0"
-    class 1
+    class 2
   ]
   node [
     id 1
     label "1"
-    class 2
+    class 1
   ]
   node [
     id 2
     label "2"
-    class 2
+    class 1
   ]
   node [
     id 3
@@ -22,12 +22,12 @@ graph [
   node [
     id 4
     label "4"
-    class 2
+    class 1
   ]
   node [
     id 5
     label "5"
-    class 1
+    class 2
   ]
   node [
     id 6
@@ -42,27 +42,27 @@ graph [
   node [
     id 8
     label "8"
-    class 2
+    class 1
   ]
   node [
     id 9
     label "9"
-    class 2
+    class 1
   ]
   node [
     id 10
     label "10"
-    class 1
+    class 2
   ]
   node [
     id 11
     label "11"
-    class 1
+    class 2
   ]
   node [
     id 12
     label "12"
-    class 1
+    class 2
   ]
   node [
     id 13
@@ -72,7 +72,7 @@ graph [
   node [
     id 14
     label "14"
-    class 1
+    class 2
   ]
   node [
     id 15
@@ -82,7 +82,7 @@ graph [
   node [
     id 16
     label "16"
-    class 1
+    class 2
   ]
   node [
     id 17
@@ -92,7 +92,7 @@ graph [
   node [
     id 18
     label "18"
-    class 1
+    class 2
   ]
   node [
     id 19
@@ -117,7 +117,7 @@ graph [
   node [
     id 23
     label "23"
-    class 1
+    class 2
   ]
   node [
     id 24
@@ -127,7 +127,7 @@ graph [
   node [
     id 25
     label "25"
-    class 1
+    class 2
   ]
   node [
     id 26
@@ -142,7 +142,7 @@ graph [
   node [
     id 28
     label "28"
-    class 1
+    class 2
   ]
   node [
     id 29
