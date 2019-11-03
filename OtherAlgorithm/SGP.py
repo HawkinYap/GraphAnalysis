@@ -97,7 +97,7 @@ def filterEdges(G, eta):
 
         rate = 0.5
         size = round(len(G) * rate)
-        p = 0.5
+        p = 0.6
         GraphSampling(Gi, Gs, startpoint, max, size, p)
     Gs = G.subgraph(Gs.nodes())
     print(len(G))
@@ -149,8 +149,8 @@ def loadData(path1, path2, isDirect):
 def dataTest():
     # path1 = "Data/toycase6_node.csv"
     # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/TestData/Facebook/facebook414_node.csv"
-    path2 = "../GraphSampling/TestData/Facebook/facebook414_edge.csv"
+    path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
+    path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
 
@@ -166,14 +166,14 @@ def dataTest():
 
     # Graph Partition Process
     edgeWeightComputing(G)
+    eta = 0.8
     for u, v, d in G.edges(data='Ewe'):
-        if d < 0.5:
+        if d < eta:
             G[u][v]['filter'] = 1
         else:
             G[u][v]['filter'] = 0
 
     # Save_Graph_test(G, fn)
-    eta = 0.3
     filterEdges(G, eta)
     Save_Graph_test(G, fn)
 

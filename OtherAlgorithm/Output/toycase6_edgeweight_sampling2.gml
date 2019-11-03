@@ -7,17 +7,17 @@ graph [
   node [
     id 1
     label "1"
-    class 2
+    class 1
   ]
   node [
     id 2
     label "2"
-    class 2
+    class 1
   ]
   node [
     id 3
     label "3"
-    class 1
+    class 2
   ]
   node [
     id 4
@@ -62,7 +62,7 @@ graph [
   node [
     id 12
     label "12"
-    class 2
+    class 1
   ]
   node [
     id 13
@@ -82,12 +82,12 @@ graph [
   node [
     id 16
     label "16"
-    class 1
+    class 2
   ]
   node [
     id 17
     label "17"
-    class 1
+    class 2
   ]
   node [
     id 18
@@ -97,7 +97,7 @@ graph [
   node [
     id 19
     label "19"
-    class 2
+    class 1
   ]
   node [
     id 20
@@ -112,7 +112,7 @@ graph [
   node [
     id 22
     label "22"
-    class 2
+    class 1
   ]
   node [
     id 23
@@ -137,7 +137,7 @@ graph [
   node [
     id 27
     label "27"
-    class 1
+    class 2
   ]
   node [
     id 28
@@ -549,7 +549,7 @@ graph [
     source 17
     target 28
     Ewe 0.65
-    filter 0
+    filter 1
   ]
   edge [
     source 17

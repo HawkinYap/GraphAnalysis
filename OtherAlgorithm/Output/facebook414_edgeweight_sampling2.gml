@@ -2,12 +2,12 @@ graph [
   node [
     id 0
     label "650"
-    class 2
+    class 1
   ]
   node [
     id 1
     label "647"
-    class 1
+    class 2
   ]
   node [
     id 2
@@ -22,27 +22,27 @@ graph [
   node [
     id 4
     label "614"
-    class 1
+    class 2
   ]
   node [
     id 5
     label "515"
-    class 1
+    class 2
   ]
   node [
     id 6
     label "363"
-    class 2
+    class 1
   ]
   node [
     id 7
     label "348"
-    class 1
+    class 2
   ]
   node [
     id 8
     label "436"
-    class 2
+    class 1
   ]
   node [
     id 9
@@ -67,7 +67,7 @@ graph [
   node [
     id 13
     label "630"
-    class 1
+    class 2
   ]
   node [
     id 14
@@ -102,7 +102,7 @@ graph [
   node [
     id 20
     label "619"
-    class 2
+    class 1
   ]
   node [
     id 21
@@ -122,12 +122,12 @@ graph [
   node [
     id 24
     label "438"
-    class 2
+    class 1
   ]
   node [
     id 25
     label "370"
-    class 1
+    class 2
   ]
   node [
     id 26
@@ -142,7 +142,7 @@ graph [
   node [
     id 28
     label "665"
-    class 1
+    class 2
   ]
   node [
     id 29
@@ -167,7 +167,7 @@ graph [
   node [
     id 33
     label "566"
-    class 1
+    class 2
   ]
   node [
     id 34
@@ -177,7 +177,7 @@ graph [
   node [
     id 35
     label "683"
-    class 2
+    class 1
   ]
   node [
     id 36
@@ -202,7 +202,7 @@ graph [
   node [
     id 40
     label "580"
-    class 1
+    class 2
   ]
   node [
     id 41
@@ -232,17 +232,17 @@ graph [
   node [
     id 46
     label "577"
-    class 1
+    class 2
   ]
   node [
     id 47
     label "578"
-    class 2
+    class 1
   ]
   node [
     id 48
     label "395"
-    class 2
+    class 1
   ]
   node [
     id 49
@@ -252,22 +252,22 @@ graph [
   node [
     id 50
     label "596"
-    class 1
+    class 2
   ]
   node [
     id 51
     label "676"
-    class 1
+    class 2
   ]
   node [
     id 52
     label "635"
-    class 2
+    class 1
   ]
   node [
     id 53
     label "671"
-    class 1
+    class 2
   ]
   node [
     id 54
@@ -277,12 +277,12 @@ graph [
   node [
     id 55
     label "567"
-    class 2
+    class 1
   ]
   node [
     id 56
     label "542"
-    class 2
+    class 1
   ]
   node [
     id 57
@@ -292,17 +292,17 @@ graph [
   node [
     id 58
     label "684"
-    class 2
+    class 1
   ]
   node [
     id 59
     label "627"
-    class 1
+    class 2
   ]
   node [
     id 60
     label "422"
-    class 2
+    class 1
   ]
   node [
     id 61
@@ -312,7 +312,7 @@ graph [
   node [
     id 62
     label "558"
-    class 1
+    class 2
   ]
   node [
     id 63
@@ -322,17 +322,17 @@ graph [
   node [
     id 64
     label "685"
-    class 2
+    class 1
   ]
   node [
     id 65
     label "575"
-    class 1
+    class 2
   ]
   node [
     id 66
     label "623"
-    class 1
+    class 2
   ]
   node [
     id 67
@@ -362,17 +362,17 @@ graph [
   node [
     id 72
     label "600"
-    class 2
+    class 1
   ]
   node [
     id 73
     label "582"
-    class 2
+    class 1
   ]
   node [
     id 74
     label "559"
-    class 2
+    class 1
   ]
   node [
     id 75
@@ -382,12 +382,12 @@ graph [
   node [
     id 76
     label "612"
-    class 2
+    class 1
   ]
   node [
     id 77
     label "644"
-    class 1
+    class 2
   ]
   node [
     id 78
@@ -412,12 +412,12 @@ graph [
   node [
     id 82
     label "513"
-    class 1
+    class 2
   ]
   node [
     id 83
     label "617"
-    class 1
+    class 2
   ]
   node [
     id 84
@@ -452,22 +452,22 @@ graph [
   node [
     id 90
     label "514"
-    class 1
+    class 2
   ]
   node [
     id 91
     label "615"
-    class 1
+    class 2
   ]
   node [
     id 92
     label "620"
-    class 1
+    class 2
   ]
   node [
     id 93
     label "506"
-    class 2
+    class 1
   ]
   node [
     id 94
@@ -487,7 +487,7 @@ graph [
   node [
     id 97
     label "628"
-    class 1
+    class 2
   ]
   node [
     id 98
@@ -497,7 +497,7 @@ graph [
   node [
     id 99
     label "629"
-    class 2
+    class 1
   ]
   node [
     id 100
@@ -507,12 +507,12 @@ graph [
   node [
     id 101
     label "563"
-    class 1
+    class 2
   ]
   node [
     id 102
     label "634"
-    class 2
+    class 1
   ]
   node [
     id 103
@@ -522,22 +522,22 @@ graph [
   node [
     id 104
     label "618"
-    class 2
+    class 1
   ]
   node [
     id 105
     label "587"
-    class 2
+    class 1
   ]
   node [
     id 106
     label "173"
-    class 2
+    class 1
   ]
   node [
     id 107
     label "496"
-    class 1
+    class 2
   ]
   node [
     id 108
@@ -552,7 +552,7 @@ graph [
   node [
     id 110
     label "670"
-    class 1
+    class 2
   ]
   node [
     id 111
@@ -562,7 +562,7 @@ graph [
   node [
     id 112
     label "672"
-    class 2
+    class 1
   ]
   node [
     id 113
@@ -572,17 +572,17 @@ graph [
   node [
     id 114
     label "605"
-    class 2
+    class 1
   ]
   node [
     id 115
     label "653"
-    class 2
+    class 1
   ]
   node [
     id 116
     label "655"
-    class 2
+    class 1
   ]
   node [
     id 117
@@ -602,12 +602,12 @@ graph [
   node [
     id 120
     label "427"
-    class 1
+    class 2
   ]
   node [
     id 121
     label "616"
-    class 1
+    class 2
   ]
   node [
     id 122
@@ -622,7 +622,7 @@ graph [
   node [
     id 124
     label "598"
-    class 2
+    class 1
   ]
   node [
     id 125
@@ -637,27 +637,27 @@ graph [
   node [
     id 127
     label "576"
-    class 1
+    class 2
   ]
   node [
     id 128
     label "594"
-    class 1
+    class 2
   ]
   node [
     id 129
     label "622"
-    class 1
+    class 2
   ]
   node [
     id 130
     label "659"
-    class 2
+    class 1
   ]
   node [
     id 131
     label "631"
-    class 1
+    class 2
   ]
   node [
     id 132
@@ -672,17 +672,17 @@ graph [
   node [
     id 134
     label "656"
-    class 2
+    class 1
   ]
   node [
     id 135
     label "610"
-    class 2
+    class 1
   ]
   node [
     id 136
     label "34"
-    class 2
+    class 1
   ]
   node [
     id 137
@@ -692,7 +692,7 @@ graph [
   node [
     id 138
     label "639"
-    class 2
+    class 1
   ]
   node [
     id 139
@@ -707,12 +707,12 @@ graph [
   node [
     id 141
     label "673"
-    class 2
+    class 1
   ]
   node [
     id 142
     label "652"
-    class 2
+    class 1
   ]
   node [
     id 143
@@ -722,7 +722,7 @@ graph [
   node [
     id 144
     label "660"
-    class 1
+    class 2
   ]
   node [
     id 145
@@ -732,12 +732,12 @@ graph [
   node [
     id 146
     label "679"
-    class 1
+    class 2
   ]
   node [
     id 147
     label "667"
-    class 1
+    class 2
   ]
   node [
     id 148
@@ -1701,7 +1701,7 @@ graph [
     source 5
     target 69
     Ewe 0.6287762416794676
-    filter 0
+    filter 1
   ]
   edge [
     source 5
@@ -2463,7 +2463,7 @@ graph [
     source 9
     target 36
     Ewe 0.7787171787171787
-    filter 0
+    filter 1
   ]
   edge [
     source 9
@@ -10041,7 +10041,7 @@ graph [
     source 86
     target 111
     Ewe 0.5833333333333334
-    filter 0
+    filter 1
   ]
   edge [
     source 86
@@ -10491,7 +10491,7 @@ graph [
     source 106
     target 111
     Ewe 0.75
-    filter 0
+    filter 1
   ]
   edge [
     source 106
