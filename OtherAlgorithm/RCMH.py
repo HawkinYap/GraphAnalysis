@@ -76,8 +76,8 @@ def Save_Graph_test(G, filename):
 def dataTest():
     # path1 = "Data/toycase6_node.csv"
     # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
-    path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
+    path1 = "../GraphSampling/TestData/Facebook/facebook414_node.csv"
+    path2 = "../GraphSampling/TestData/Facebook/facebook414_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
 

@@ -4,6 +4,7 @@ import csv
 import os
 import numpy as np
 import math
+import random
 
 def Extract_Global_High_Neighbor(G, G0, heigh_neighbour, anomaly_total):
     '''
@@ -188,8 +189,9 @@ def getRateAnomaly(anomaly_total, rate):
     anomaly_cut['star'] = anomaly_total['star'][:l_s]
     anomaly_cut['arti'] = anomaly_total['arti'][:l_a]
     # anomaly_cut['isolates'] = anomaly_total['isolates'][:l_is]
-    # print(anomaly_cut)
+    print(anomaly_cut)
     return(anomaly_cut)
+
 
 
 def importantRank(G, total_anomaly):
@@ -210,19 +212,23 @@ def importantRank(G, total_anomaly):
                 rank_anomaly['arti'] = v
             else:
                 rank_anomaly['arti'] += v
-    print(rank_anomaly)
     return(rank_anomaly)
+
 
 
 # Maintain abnormal structure
 def keepAnomalyStructure(G, anomaly_cut, rate, structure_info):
+    between = nx.betweenness_centrality(G)
     for u, v in anomaly_cut.items():
         structure_info[u] = {}
         if u == 'global' or u == 'star':
             for node in v:
+                neighbor_between = {}
                 node_neighbor = list(G.neighbors(node))
-                tmp = G.degree(node_neighbor)
-                nn = sorted(tmp, key=lambda x: x[1], reverse=True)
+                for node in node_neighbor:
+                    neighbor_between[node] = between[node]
+                nn = sorted(neighbor_between.items(), key=lambda x: x[1], reverse=True)
+
                 keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
                 structure_info[u][node] = keep_anomaly
                 for i in keep_anomaly:
@@ -232,15 +238,54 @@ def keepAnomalyStructure(G, anomaly_cut, rate, structure_info):
             for node_group in v:
                 nn_union = set()
                 for node in node_group:
+                    neighbor_between = {}
                     node_neighbor = list(G.neighbors(node))
-                    tmp = G.degree(node_neighbor)
-                    nn = sorted(tmp, key=lambda x: x[1], reverse=True)
+                    for node in node_neighbor:
+                        neighbor_between[node] = between[node]
+                    nn = sorted(neighbor_between.items(), key=lambda x: x[1], reverse=True)
                     keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
                     nn_union = nn_union | set(keep_anomaly)
                 structure_info[u][node_group] = nn_union
                 for i in nn_union:
                     if G.node[i]['labels'] == 0:
                         G.node[i]['labels'] = -2
+
+    for n,d in G.nodes(data=True):
+        if d['topok'] != 0:
+            node_neighbor = list(G.neighbors(n))
+            neighbor_between = {}
+            for node in node_neighbor:
+                neighbor_between[node] = between[node]
+                nn = sorted(neighbor_between.items(), key=lambda x: x[1], reverse=True)
+                keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
+                for i in keep_anomaly:
+                    if G.node[i]['labels'] == 0:
+                        G.node[i]['labels'] = -2
+
+def importantSampler(G, rate):
+    size = round(len(G) * rate)
+    Gs = nx.Graph()
+    for n,d in G.nodes(data=True):
+        if d['labels'] != 0:
+            Gs.add_node(n)
+    G1 = G.subgraph(Gs.nodes())
+    g1_e = set()
+    for u,v in G1.edges():
+        g1_e.add((u,v))
+    g_e = set()
+    for u,v in G.edges():
+        g_e.add((u,v))
+
+    remain = g_e - g1_e
+    Vs = []
+    while len(Gs) < size:
+        edges_sample = random.sample(G.edges(), 1)
+        for a1, a2 in edges_sample:
+            # Nodes corresponding to sample edge are retrieved and added in Graph G1
+            Gs.add_edge(a1, a2)
+    Gs = G.subgraph(Gs.nodes())
+    return(Gs)
+
 
 
 def isPartition(G, fn, s=1):
@@ -277,22 +322,30 @@ def isPartition(G, fn, s=1):
         else:
             total_anomaly['outerarti'] = anomaly_total['outerarti']
 
-
+    # print(total_anomaly)
     rank_anomaly = importantRank(G, total_anomaly)
 
     rate = 0.5
     anomaly_cut = getRateAnomaly(rank_anomaly, rate)
     structure_info = {}
     keepAnomalyStructure(G, anomaly_cut, rate, structure_info)
-    # print(neighbor)
-    # for i in neighbor:
-    #     print(G.node[i])
-    #     if G.node[i]['labels'] == 0:
-    #         G.node[i]['labels'] = -2
-    #     else:
-    #         continue
 
-    iter = 22
+    Gs = importantSampler(G, rate)
+
+    for node in G.nodes():
+        if node in Gs.nodes():
+            G.node[node]['sample'] = 2
+        else:
+            G.node[node]['sample'] = 1
+
+    # convert to edge list
+    for edge in G.edges():
+        if edge in Gs.edges():
+            G[edge[0]][edge[1]]['sample'] = 2
+        else:
+            G[edge[0]][edge[1]]['sample'] = 1
+
+    iter = 1
     Save_Graph_test(G, fn, iter)
 
 
@@ -319,7 +372,7 @@ def starThreshold_2(G, s=1):
 
 
 def Save_Graph_test(G, filename, iter):
-    path = 'anomalous_output_data/global{}{}_orig.gml'.format(filename, iter)
+    path = 'anomalous_output_data/importanceSampler{}{}_orig.gml'.format(filename, iter)
     nx.write_gml(G, path)
 
 
@@ -352,8 +405,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "Data/facebook3980_node.csv"
-    path2 = "Data/facebook3980_edge.csv"
+    path1 = "Data/facebook414_node.csv"
+    path2 = "Data/facebook414_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

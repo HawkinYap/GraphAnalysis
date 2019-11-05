@@ -77,7 +77,7 @@ def getInfo(G, Gs):
 
 def Save_Graph_test(G, filename):
     iter = 1
-    path = 'Output/{}MD.gml'.format(filename, iter)
+    path = 'Output/{}GMD.gml'.format(filename, iter)
     nx.write_gml(G, path)
 
 
@@ -85,8 +85,8 @@ def Save_Graph_test(G, filename):
 def dataTest():
     # path1 = "Data/toycase6_node.csv"
     # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
-    path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
+    path1 = "../GraphSampling/TestData/Facebook/facebook414_node.csv"
+    path2 = "../GraphSampling/TestData/Facebook/facebook414_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
 
@@ -102,8 +102,8 @@ def dataTest():
 
     rate = 0.5
     Gs = GMD(G, rate)
-    # getInfo(G, Gs)
-    # Save_Graph_test(G, fn)
+    getInfo(G, Gs)
+    Save_Graph_test(G, fn)
 
 
 if __name__ == '__main__':
