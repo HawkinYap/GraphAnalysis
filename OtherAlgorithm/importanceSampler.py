@@ -288,7 +288,7 @@ def importantSampler(G, rate):
 
 
 
-def isPartition(G, fn, s=1):
+def isPartition(G, fn, rate, s=1):
     # set hubs and star threshold
     threshold = starThreshold_2(G, s=1)
     heigh_neighbour = 0.05
@@ -325,7 +325,7 @@ def isPartition(G, fn, s=1):
     # print(total_anomaly)
     rank_anomaly = importantRank(G, total_anomaly)
 
-    rate = 0.5
+    # rate = 0.5
     anomaly_cut = getRateAnomaly(rank_anomaly, rate)
     structure_info = {}
     keepAnomalyStructure(G, anomaly_cut, rate, structure_info)
@@ -345,7 +345,7 @@ def isPartition(G, fn, s=1):
         else:
             G[edge[0]][edge[1]]['sample'] = 1
 
-    iter = 1
+    iter = rate
     Save_Graph_test(G, fn, iter)
 
 
@@ -372,7 +372,7 @@ def starThreshold_2(G, s=1):
 
 
 def Save_Graph_test(G, filename, iter):
-    path = 'anomalous_output_data/importanceSampler{}{}_orig.gml'.format(filename, iter)
+    path = 'anomalous_output_data/importanceSampler{}_{}_orig.gml'.format(filename, iter)
     nx.write_gml(G, path)
 
 
@@ -405,8 +405,11 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "Data/facebook414_node.csv"
-    path2 = "Data/facebook414_edge.csv"
+    # path1 = "Data/facebook414_node.csv"
+    # path2 = "Data/facebook414_edge.csv"
+    path1 = "../GraphSampling/Data/toy3_node.csv"
+    path2 = "../GraphSampling/Data/toy3_edge.csv"
+    rate = 0.4
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -424,7 +427,8 @@ def dataTest():
         G.node[n]['topok'] = 0
         G.node[n]['labels'] = 0
 
-    isPartition(G, fn)
+
+    isPartition(G, fn, rate)
 
     G1 = nx.Graph()
     for n, d in G.nodes(data=True):

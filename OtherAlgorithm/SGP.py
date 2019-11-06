@@ -49,6 +49,7 @@ def edgeWeightComputing(G):
         EWe = R2(G, Vu, Vuv) + R2(G, Vu, Vv) + R2(G, Vuv, Vv) + \
             R1(G, Vuv) + cycle_ratio
         G[u][v]['Ewe'] = EWe
+        print(EWe)
 
 
 def GraphSampling(Gi, Gs, vs, max, size, p):
@@ -77,7 +78,7 @@ def GraphSampling(Gi, Gs, vs, max, size, p):
                     break
 
 
-def filterEdges(G, eta):
+def filterEdges(G, eta, rate):
     G_copy = G.copy()
     Gs = nx.Graph()
     for u, v, d in G.edges(data='Ewe'):
@@ -95,7 +96,6 @@ def filterEdges(G, eta):
                     diameter = [i[0], u]
         startpoint = random.choice(diameter)
 
-        rate = 0.5
         size = round(len(G) * rate)
         p = 0.6
         GraphSampling(Gi, Gs, startpoint, max, size, p)
@@ -112,9 +112,9 @@ def getInfo(G, Gs):
             G.node[node]['class'] = 1
 
 
-def Save_Graph_test(G, filename):
+def Save_Graph_test(G, filename, rate):
     iter = 2
-    path = 'Output/{}_edgeweight_sampling{}.gml'.format(filename, iter)
+    path = 'Output/{}_SGP_sampling_{}.gml'.format(filename, rate)
     nx.write_gml(G, path)
 
 
@@ -147,10 +147,10 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "Data/toycase6_node.csv"
-    # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
-    path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
+    path1 = "Data/facebook1684_node.csv"
+    path2 = "Data/facebook1684_edge.csv"
+    # path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
+    # path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
 
@@ -174,8 +174,9 @@ def dataTest():
             G[u][v]['filter'] = 0
 
     # Save_Graph_test(G, fn)
-    filterEdges(G, eta)
-    Save_Graph_test(G, fn)
+    rate = 0.4
+    filterEdges(G, eta, rate)
+    Save_Graph_test(G, fn, rate)
 
 
 if __name__ == '__main__':
