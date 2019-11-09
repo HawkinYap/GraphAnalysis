@@ -8,3 +8,6 @@ from GraphSampling.MHRW import MHRW
 from GraphSampling.TIES import TIES
 from GraphSampling.RJ import RJ
 from GraphSampling.REN import REN
+from GraphSampling.GMD import GMD
+from GraphSampling.RCMH import RCMH
+from GraphSampling.MD import MD
