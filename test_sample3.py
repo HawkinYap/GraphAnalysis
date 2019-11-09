@@ -265,6 +265,7 @@ def dataTest():
     for i,j in ccGs.items():
         d2.append(j)
 
+    plt.title("cond-mat")
     sns.distplot(d1, rug=False, hist=False, label='Origin')
     sns.distplot(d2, rug=False, hist=False, label='MHRW')
     plt.show()
