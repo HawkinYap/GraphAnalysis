@@ -1,0 +1,72 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import csv
+import networkx as nx
+import os
+
+# def samplemat(dims):
+#     aa = np.zeros(dims)
+#     for i in range(min(dims)):
+#         aa[i, i] = i
+#     return(aa)
+# load graph to networkx
+def loadData(path1, path2, isDirect):
+
+    # add nodes
+    f = open(path1, "r")
+    reader1 = csv.reader(f)
+    nodes = []
+    for item in reader1:
+        nodes.append(int(item[0]))
+    f.close()
+    if isDirect:
+        G = nx.DiGraph()
+    else:
+        G = nx.Graph()
+    G.add_nodes_from(nodes)
+
+    # add edges
+    f = open(path2, "r")
+    reader1 = csv.reader(f)
+    edges = []
+    for item in reader1:
+        edges.append([int(item[0]), int(item[1])])
+    f.close()
+    G.add_edges_from(edges)
+
+    # add edge attribution
+    # i = 0
+    # for u, v, d in G.edges(data=True):
+    #     G[u][v]['bridge'] = 0
+    #     i += 1
+    return (G)
+
+
+path1 = "../GraphSampling/Data/toy2_node.csv"
+path2 = "../GraphSampling/Data/toy2_edge.csv"
+
+file = os.path.splitext(path1)
+filename, type = file
+a = filename.split('/')
+b = a[-1].split('_')
+fn = b[0]
+
+isDirect = False
+G = loadData(path1, path2, isDirect)
+s = nx.convert_matrix.to_numpy_matrix(G)
+print(s)
+# Matrix = np.array(
+#     [
+#         [0, 1, 1, 1, 1, 1, 0, 0],  # a
+#         [0, 0, 1, 0, 1, 0, 0, 0],  # b
+#         [0, 0, 0, 1, 0, 0, 0, 0],  # c
+#         [0, 0, 0, 0, 1, 0, 0, 0],  # d
+#         [0, 0, 0, 0, 0, 1, 0, 0],  # e
+#         [0, 0, 1, 0, 0, 0, 1, 1],  # f
+#         [0, 0, 0, 0, 0, 1, 0, 1],  # g
+#         [0, 0, 0, 0, 0, 1, 1, 0]  # h
+#
+#     ]
+# )
+plt.matshow(s, cmap=plt.cm.gray)
+plt.show()
