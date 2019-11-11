@@ -230,11 +230,19 @@ def dataTest():
     random_seed.append(random.sample(seed_choice, 3))
     random_seed = random_seed[0]
 
-    # test 1
-    seed = random.sample(random_seed, 1)
-    Gs, sample_type = graphSampling(G, isDirect, seed[0])
-    print(len(G), len(Gs))
-    drawGraph(G, Gs)
+    # # test 1
+    # seed = random.sample(random_seed, 1)
+    # Gs, sample_type = graphSampling(G, isDirect, seed[0])
+    # print(len(G), len(Gs))
+    # drawGraph(G, Gs)
+
+    # formal
+    iter = 3
+    for i in range(iter):
+        seed = random.sample(random_seed, 1)
+        sample, sample_type = graphSampling(G, isDirect, seed[0])
+        print(len(G), len(sample))
+        saveGraph(G, sample, fn, i + 1, sample_type)
 
 if __name__ == '__main__':
     dataTest()
