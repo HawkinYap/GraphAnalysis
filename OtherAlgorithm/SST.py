@@ -36,7 +36,7 @@ def prim(G, s):
                 dist[v] = G[u][v]['weight']
     return(parent)
 
-def SSP(G, rate, L=500):
+def SST(G, rate, L=500):
     size = round(len(G) * rate)
     Gs = nx.Graph()
     Gnode = list(G.nodes())
@@ -152,7 +152,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     rate = 0.4
-    Gs = SSP(G, rate)
+    Gs = SST(G, rate)
     getInfo(G, Gs)
     for u, v, d in G.edges(data=True):
         print(u,v,d)
