@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/SSP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/Output/class2_SSP_sampling_0.4.gml" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/Output/class2_SSP_sampling_0.4.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/Output/email_SSP_sampling_0.4.gml" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/Output/email_SSP_sampling_0.4.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SST.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +31,8 @@
             <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-1863">
+                  <state relative-caret-position="378">
+                    <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="42" />
                     <folding>
                       <element signature="e#0#10#0" expanded="true" />
                     </folding>
@@ -151,11 +153,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SSP.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SSP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-864">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="351">
+              <caret line="82" column="8" lean-forward="true" selection-end-line="137" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SST.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SST.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -194,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OtherAlgorithm/test_global_anomalous.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/CS.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/keepneibor.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/matrix.py" />
@@ -245,6 +258,7 @@
         <option value="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/LA.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/SSP.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/SST.py" />
       </list>
     </option>
   </component>
@@ -509,6 +523,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1272" y="-8" width="1296" height="1416" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -516,7 +531,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41728136" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4026583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3471462" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.26332796" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -718,13 +733,10 @@
           <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/toycase8_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/importanceSampler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10935">
@@ -1111,19 +1123,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SSP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="82" column="8" lean-forward="true" selection-end-line="137" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1863">
+        <state relative-caret-position="378">
+          <caret line="110" column="42" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SSP.py">
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="339">
+          <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
