@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/LA.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/SSP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/eurosis/edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/eurosis/eurosis_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datasets/eurosis/node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Datasets/eurosis/eurosis_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_sample_cal.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample_cal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,14 +27,42 @@
       <content type="file-editors">
         <state>
           <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="new_TIES4.py" pinned="false" current-in-tab="true">
+            <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-1863">
+                    <folding>
+                      <element signature="e#0#10#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="new_TIES4.py" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES4.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="621">
-                    <caret line="158" column="57" lean-forward="true" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="57" />
+                  <state relative-caret-position="513">
+                    <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
                     <folding>
                       <element signature="e#0#9#0" expanded="true" />
                     </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="SGP.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-941">
+                    <caret line="106" selection-start-line="106" selection-end-line="111" selection-end-column="37" />
                   </state>
                 </provider>
               </entry>
@@ -55,7 +79,7 @@
               <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GMD.py">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="621">
-                    <caret line="23" column="45" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="45" />
+                    <caret line="74" column="32" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="74" selection-end-column="32" />
                     <folding>
                       <element signature="e#0#9#0" expanded="true" />
                     </folding>
@@ -73,7 +97,7 @@
       <file leaf-file-name="anomaloutcount.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/anomaloutcount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="351">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -103,22 +127,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keep_anomalous.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5319">
-              <caret line="198" column="34" selection-start-line="175" selection-start-column="4" selection-end-line="198" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KS.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="162">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -127,23 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KSD_linechart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KSD_linechart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LA.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LA.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/LA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="288">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -151,13 +151,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matrixvis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py">
+      <file leaf-file-name="SSP.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SSP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2322">
-              <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+            <state relative-caret-position="-864">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,18 +168,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_sample_cal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6318">
-              <caret line="247" column="14" selection-start-line="247" selection-start-column="14" selection-end-line="247" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -206,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OtherAlgorithm/test_anomalous.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/test_global_anomalous.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/CS.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/keepneibor.py" />
@@ -257,6 +244,7 @@
         <option value="$PROJECT_DIR$/OtherAlgorithm/log/test_log.txt" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/LA.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/SSP.py" />
       </list>
     </option>
   </component>
@@ -292,6 +280,11 @@
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -523,13 +516,13 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41728136" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.020328382" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.23263328" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.4026583" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.26332796" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="5" side_tool="true" weight="0.0120689655" />
       <window_info id="Structure" order="1" sideWeight="0.5011062" side_tool="true" weight="0.26515764" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3471462" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3471462" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,21 +722,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GraphSampling/TestData/pgp_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/toycase8_node.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/toycase8_edge.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4806">
-          <caret line="181" column="26" selection-start-line="181" selection-start-column="26" selection-end-line="181" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/importanceSampler.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1037,72 +1017,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KSD_linechart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/anomaloutcount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GMD.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_sample3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
           <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="158" column="57" lean-forward="true" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,10 +1034,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KSD_linechart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/KS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="90" column="10" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/LA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="288">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-941">
+          <caret line="106" selection-start-line="106" selection-end-line="111" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GMD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="74" column="32" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="74" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/anomaloutcount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1863">
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SSP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-864">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
