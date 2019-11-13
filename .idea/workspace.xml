@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/DPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/DPL.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OtherAlgorithm/LA.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/LA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +30,7 @@
             <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="324">
+                  <state relative-caret-position="3240">
                     <caret line="204" column="73" lean-forward="true" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="73" />
                     <folding>
                       <element signature="e#0#10#0" expanded="true" />
@@ -64,7 +62,7 @@
             <file leaf-file-name="SGP.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-266">
+                  <state relative-caret-position="1674">
                     <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
                   </state>
                 </provider>
@@ -109,8 +107,8 @@
       <file leaf-file-name="DPL.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="210" column="14" selection-start-line="210" selection-start-column="14" selection-end-line="210" selection-end-column="14" />
+            <state relative-caret-position="346">
+              <caret line="190" column="25" lean-forward="true" selection-start-line="171" selection-end-line="190" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -121,8 +119,8 @@
       <file leaf-file-name="LA.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/LA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+            <state relative-caret-position="518">
+              <caret line="169" column="42" selection-start-line="169" selection-start-column="42" selection-end-line="169" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -530,6 +528,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="-7" width="1295" height="1415" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -537,8 +536,8 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41673183" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.842723" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.17542441" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3967136" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.23524657" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.011317704" />
@@ -1056,33 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="210" column="14" selection-start-line="210" selection-start-column="14" selection-end-line="210" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="204" column="73" lean-forward="true" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GraphSampling/RandomNode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1092,10 +1064,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="204" column="73" lean-forward="true" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="190" column="25" lean-forward="true" selection-start-line="171" selection-end-line="190" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="65" column="31" lean-forward="true" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/LA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="518">
+          <caret line="169" column="42" selection-start-line="169" selection-start-column="42" selection-end-line="169" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

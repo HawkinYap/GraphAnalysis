@@ -4,9 +4,10 @@ import networkx as nx
 import random
 
 
-def LA(G, rate, tau=0.9, T=10000, alpha=0.8):
+def LA(G, rate, tau=0.9, T=10100, alpha=0.01):
     # init sampler
     size = round(len(G) * rate)
+    print(size)
     Gs = nx.Graph()
 
     # init action matrix
@@ -20,7 +21,7 @@ def LA(G, rate, tau=0.9, T=10000, alpha=0.8):
     # init random seed and enable automata
     Gnode = list(G.nodes())
     As = random.choice(Gnode)
-    print('seed AS is', As)
+    # print('seed AS is', As)
     Gs.add_node(As)
 
     # start iter
@@ -32,7 +33,7 @@ def LA(G, rate, tau=0.9, T=10000, alpha=0.8):
         ndegree = []
         for k, v in a[As].items():
             ndegree.append(G.degree(k))
-        print('init',a[As])
+        # print('init',a[As])
 
         # calculate the iter pt
         sum_p = 0
@@ -40,48 +41,98 @@ def LA(G, rate, tau=0.9, T=10000, alpha=0.8):
             sum_p += a[As][n] * (1 / ndegree[i])
         for i, n in enumerate(a[As].keys()):
             a[As][n] = (a[As][n] * (1 / ndegree[i])) / sum_p
-        print('new',a[As])
+        # print('new',a[As])
 
-        # find the max in action vector
-        next = max(a[As], key=lambda x: a[As][x])
+        # randomly find the next action in action vector
+        pc = random.random()
+        # print(pc)
+        zero_one = []
+        sum = 0.0
+        for u,v in a[As].items():
+            sum += v
+            zero_one.append(sum)
+        zero_one[-1] = 1.0
+        next = 0
+        for index, i in enumerate(zero_one):
+            if pc <= i:
+                aslist = list(a[As].keys())
+                next = aslist[index]
+                break
 
         # if visited, reward it else do nothing
+        visited.append(As)
         if next in visited:
             for i, n in enumerate(a[As].keys()):
                 if n != next:
                     a[As][n] = (1 - alpha) * a[As][n]
                 else:
                     a[As][n] = a[As][n] + alpha * (1 - a[As][n])
-        print('visited?',a[As])
-        visited.append(As)
+        # print('visited?',a[As])
+
         As = next
-        print('new As is',As)
-        print('visited', visited)
+        # print('new As is',As)
+        # print('visited', visited)
         # print(As)
         iter += 1
         multi = 1
         for u,v in a.items():
             multi *= max(v.items(),key=lambda x:x[1])[1]
         pmax = multi
-        print('multi is', pmax)
-        print('-----finish-iter-----')
+        # print('multi is', pmax)
+        # print('-----finish-iter-----')
 
-        if iter == 5:
+        if iter == 1000:
+            print('-----result------')
             print(set(visited))
-            break
+            print('-----')
+            result = {}
+            for n in set(visited):
+                for u,v in a[n].items():
+                    if u not in result:
+                        result[u] = []
+                        result[u].append(v)
+                    else:
+                        result[u].append(v)
+
+            for u,v in result.items():
+                result[u] = max(v)
+            result = sorted(result.items(), key=lambda x: x[1], reverse=True)
+            print(result)
+            i = 0
+            while len(Gs) < size and i < len(result):
+                Gs.add_node(result[i][0])
+                i += 1
+
+            count = 0
+            nodeall = list(G.nodes())
+            while len(Gs) < size:
+                check = list(Gs.nodes())
+                node = random.choice(nodeall)
+                if node not in check:
+                    Gs.add_node(node)
+            print(len(Gs))
+            Gs = G.subgraph(Gs.nodes())
+            return(Gs)
 
 
+def getInfo(G, Gs):
+    for node in G.nodes():
+        if node in Gs.nodes():
+            G.node[node]['class'] = 2
+        else:
+            G.node[node]['class'] = 1
+
+    for u,v in G.edges():
+        if (u, v) in Gs.edges():
+            G[u][v]['class'] = 2
+        else:
+            G[u][v]['class'] = 1
 
 
-
-
-
-
-
-
-
-
-
+def Save_Graph_test(G, filename, rate):
+    iter = 1
+    path = 'Output/{}_LA_sampling_{}.gml'.format(filename, rate)
+    nx.write_gml(G, path)
 
 
 # load graph to networkx
@@ -115,8 +166,8 @@ def loadData(path1, path2, isDirect):
 def dataTest():
     # path1 = "Data/toycase6_node.csv"
     # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/Data/class2_node.csv"
-    path2 = "../GraphSampling/Data/class2_edge.csv"
+    path1 = "../GraphSampling/Data/eurosis_node.csv"
+    path2 = "../GraphSampling/Data/eurosis_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -130,6 +181,11 @@ def dataTest():
 
     rate = 0.4
     Gs = LA(G, rate)
+    print(len(Gs))
+    getInfo(G, Gs)
+    # for u, v, d in G.edges(data=True):
+    #     print(u, v, d)
+    Save_Graph_test(G, fn, rate)
 
 
 if __name__ == '__main__':
