@@ -4,54 +4,71 @@ import networkx as nx
 import random
 
 
-def LA(G, rate, tau=0.9, T=1000, alpha=0.4):
+def LA(G, rate, tau=0.9, T=10000, alpha=0.8):
+    # init sampler
     size = round(len(G) * rate)
     Gs = nx.Graph()
+
+    # init action matrix
+    a = {}
+    for n in G.nodes():
+        a[n] = {}
+        n_neighbor = list(G.neighbors(n))
+        for nei in n_neighbor:
+            a[n][nei] = 1/len(n_neighbor)
+
+    # init random seed and enable automata
     Gnode = list(G.nodes())
     As = random.choice(Gnode)
+    print('seed AS is', As)
     Gs.add_node(As)
+
+    # start iter
     iter = 0
     pmax = 0
-    a = {}
-    b = {}
-    count = 0
+    visited = []
     while pmax < tau and iter < T:
-        if As not in a:
-            a[As] = {}
-            b[As] = {}
-        As_neighbor = list(G.neighbors(As))
-        p0 = [1 / len(list(G.neighbors(As)))] * len(list(G.neighbors(As)))
+        # get neighbors' degree
         ndegree = []
-        for n in As_neighbor:
-            ndegree.append(G.degree(n))
+        for k, v in a[As].items():
+            ndegree.append(G.degree(k))
+        print('init',a[As])
+
+        # calculate the iter pt
         sum_p = 0
-        for i in range(len(p0)):
-            sum_p += p0[i] * (1 / ndegree[i])
-        for i, n in enumerate(As_neighbor):
-            b[As][n] = p0[i]
-            a[As][n] = (p0[i] * (1 / ndegree[i])) / sum_p
+        for i, n in enumerate(a[As].keys()):
+            sum_p += a[As][n] * (1 / ndegree[i])
+        for i, n in enumerate(a[As].keys()):
+            a[As][n] = (a[As][n] * (1 / ndegree[i])) / sum_p
+        print('new',a[As])
+
+        # find the max in action vector
         next = max(a[As], key=lambda x: a[As][x])
-        # reward
-        if next in a:
-            count += 1
-            for i, n in enumerate(As_neighbor):
+
+        # if visited, reward it else do nothing
+        if next in visited:
+            for i, n in enumerate(a[As].keys()):
                 if n != next:
-                    b[As][n] = (1 - alpha) * b[As][n]
+                    a[As][n] = (1 - alpha) * a[As][n]
                 else:
-                    b[As][n] = b[As][n] + alpha * (1 - b[As][n])
+                    a[As][n] = a[As][n] + alpha * (1 - a[As][n])
+        print('visited?',a[As])
+        visited.append(As)
         As = next
-        print(As)
+        print('new As is',As)
+        print('visited', visited)
+        # print(As)
         iter += 1
         multi = 1
         for u,v in a.items():
             multi *= max(v.items(),key=lambda x:x[1])[1]
         pmax = multi
+        print('multi is', pmax)
+        print('-----finish-iter-----')
 
-        if iter == 50:
+        if iter == 5:
+            print(set(visited))
             break
-    print(count)
-    print(iter)
-    print(a)
 
 
 

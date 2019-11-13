@@ -208,7 +208,7 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.5
+    rate = 0.3
     Gs = DPL_sampler(G, rate)
     print(len(Gs))
     getInfo(G, Gs)
