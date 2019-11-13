@@ -2,33 +2,20 @@ import os
 import csv
 import networkx as nx
 import random
-from collections import Counter
-from itertools import *
 
 
-def RNN(G, rate):
+def RNE(G, rate):
     size = round(len(G) * rate)
     node = list(G.nodes())
     Gs = nx.Graph()
-    seed = random.choice(node)
-    Gs.add_node(seed)
-    visited = [seed]
+    u = random.choice(node)
+    Gs.add_node(u)
     while len(Gs) < size:
-        neibor = list(G.neighbors(seed))
-        cur_size = len(Gs) + len(neibor)
-        if cur_size > size:
-            tmp = len(neibor) - (cur_size - size)
-            Gs.add_nodes_from(neibor[:tmp])
-        else:
-            Gs.add_nodes_from(neibor)
-
-        seed = random.choice(node)
-        while seed in visited:
-            seed = random.choice(node)
-        visited.append(seed)
-
-    Gs_induce = G.subgraph(Gs.nodes())
-    return(Gs_induce)
+        neibor = list(G.neighbors(u))
+        v = random.choice(neibor)
+        Gs.add_edge(u,v)
+        u = random.choice(node)
+    return(Gs)
 
 
 # load graph to networkx
@@ -76,7 +63,7 @@ def getInfo(G, Gs):
 
 def Save_Graph_test(G, filename, rate):
     iter = 1
-    path = 'Output/{}_RNN_sampling_{}.gml'.format(filename, rate)
+    path = 'Output/{}_RNE_sampling_{}.gml'.format(filename, rate)
     nx.write_gml(G, path)
 
 # data processing
@@ -99,7 +86,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     rate = 0.4
-    Gs = RNN(G, rate)
+    Gs = RNE(G, rate)
     print(len(Gs))
     getInfo(G, Gs)
     # for u, v, d in G.edges(data=True):
