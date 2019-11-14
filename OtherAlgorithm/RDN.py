@@ -10,7 +10,7 @@ def MaxMinNormalization(x, xmax, xmin):
     x = (x - xmin) / (xmax - xmin)
     return(x)
 
-def RPN(G, rate):
+def RDN(G, rate):
     size = round(len(G) * rate)
     Gs = nx.Graph()
     d = nx.degree(G)
@@ -109,7 +109,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     rate = 0.4
-    Gs = RPN(G, rate)
+    Gs = RDN(G, rate)
     print(len(Gs))
     getInfo(G, Gs)
     # for u, v, d in G.edges(data=True):

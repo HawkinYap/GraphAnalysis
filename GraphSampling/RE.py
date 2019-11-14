@@ -1,7 +1,7 @@
 import random
 import networkx as nx
 
-class RandomEdge():
+class RE():
 
     def __init__(self):
         self.G1 = nx.Graph()

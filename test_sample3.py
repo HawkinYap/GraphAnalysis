@@ -52,16 +52,16 @@ def graphSampling(G, isDirect, seed):
 
     # set sampling rate
     total = len(G.nodes())
-    rate = 0.6
+    rate = 0.4
     sample_rate = int(total * rate)
 
-    # RN_object = GraphSampling.RandomNode()
+    # RN_object = GraphSampling.RN()
     # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(RN_sample, 'RN')
 
-    # REN_object = GraphSampling.REN()
-    # REN_sample = REN_object.ren(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
-    # return(REN_sample, 'REN')
+    # RNE_object = GraphSampling.RNE()
+    # RNE_sample = RNE_object.rne(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
+    # return(RNE_sample, 'RNE')
 
     # SB_object = GraphSampling.Snowball()
     # SB_sample = SB_object.snowball(G, sample_rate, 8, seed)  # graph, number of nodes to sample
@@ -91,9 +91,9 @@ def graphSampling(G, isDirect, seed):
     # MHRW_sample = MHRW_object.mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(MHRW_sample, 'MHRW')
 
-    ISMHRW_object = GraphSampling.MHRW()
-    ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
-    return(ISMHRW_sample, 'ISMHRW')
+    # ISMHRW_object = GraphSampling.MHRW()
+    # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
+    # return(ISMHRW_sample, 'ISMHRW')
 
     # TIES_object = GraphSampling.TIES()
     # TIES_sample = TIES_object.ties(G, sample_rate, isDirect)  # graph, number of n

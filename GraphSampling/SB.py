@@ -34,7 +34,7 @@ class Queue():
         return self.queue
 
 
-class Snowball():
+class SB():
     def __init__(self):
         self.G1 = nx.Graph()
 

@@ -2,7 +2,7 @@ import random
 import networkx as nx
 from random import choice
 
-class RandomNode():
+class RN():
     def randomnode(self, G, size, seed):
         list_nodes = list(G.nodes())
         select_nodes = random.sample(list_nodes, size)

@@ -2,10 +2,10 @@ import random
 import networkx as nx
 from random import choice
 
-class REN():
+class RNE():
     def __init__(self):
         self.G1 = nx.Graph()
-    def ren(self, G, size, isDirect, seed):
+    def rne(self, G, size, isDirect, seed):
 
         list_nodes = list(G.nodes())
         select_nodes = seed
