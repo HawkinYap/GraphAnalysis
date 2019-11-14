@@ -195,8 +195,8 @@ def Save_Graph_test(G, filename, rate):
 def dataTest():
     path1 = "../GraphSampling/Data/email2_node.csv"
     path2 = "../GraphSampling/Data/email2_edge.csv"
-    # path1 = "../GraphSampling/Data/class2_node.csv"
-    # path2 = "../GraphSampling/Data/class2_edge.csv"
+    # path1 = "../GraphSampling/Data/class_node.csv"
+    # path2 = "../GraphSampling/Data/class_edge.csv"
 
 
     file = os.path.splitext(path1)

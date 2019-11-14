@@ -136,9 +136,9 @@ def graphSampling(G, isDirect, seed):
     # DLA_sample = DLA_object.DLA(G, rate)
     # return(DLA_sample, 'DLA')
 
-    GPS_object = GraphSampling.GPS()
-    GPS_sample = GPS_object.GPS(G, rate)
-    return(GPS_sample, 'GPS')
+    # GPS_object = GraphSampling.GPS()
+    # GPS_sample = GPS_object.GPS(G, rate)
+    # return(GPS_sample, 'GPS')
 
     # -----variant sampler------
 
@@ -250,11 +250,8 @@ def saveGraph(G, sample, filename, iter, sample_type):
 
 
 def dataTest():
-    path1 = "GraphSampling/TestData/email_node.csv"
-    path2 = "GraphSampling/TestData/email_edge.csv"
-
-    path1 = "GraphSampling/Data/class2_node.csv"
-    path2 = "GraphSampling/Data/class2_edge.csv"
+    path1 = "GraphSampling/formalData/facebook414_node.csv"
+    path2 = "GraphSampling/formalData/facebook414_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -264,6 +261,8 @@ def dataTest():
 
     isDirect = False
     G = loadData(path1, path2, isDirect)
+    isolate = list(nx.isolates(G))
+    G.remove_nodes_from(isolate)
 
     #  random seeds (3 different seeds)
     random_seed = []
