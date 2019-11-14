@@ -2,12 +2,12 @@ graph [
   node [
     id 0
     label "1"
-    class 1
+    class 2
   ]
   node [
     id 1
     label "2"
-    class 2
+    class 1
   ]
   node [
     id 2
@@ -32,12 +32,12 @@ graph [
   node [
     id 6
     label "7"
-    class 2
+    class 1
   ]
   node [
     id 7
     label "9"
-    class 2
+    class 1
   ]
   node [
     id 8
@@ -77,7 +77,7 @@ graph [
   node [
     id 15
     label "17"
-    class 1
+    class 2
   ]
   node [
     id 16
@@ -102,12 +102,12 @@ graph [
   node [
     id 20
     label "23"
-    class 2
+    class 1
   ]
   node [
     id 21
     label "24"
-    class 1
+    class 2
   ]
   node [
     id 22
@@ -117,7 +117,7 @@ graph [
   node [
     id 23
     label "26"
-    class 2
+    class 1
   ]
   node [
     id 24
@@ -127,7 +127,7 @@ graph [
   node [
     id 25
     label "28"
-    class 1
+    class 2
   ]
   node [
     id 26
@@ -137,12 +137,12 @@ graph [
   node [
     id 27
     label "30"
-    class 2
+    class 1
   ]
   node [
     id 28
     label "31"
-    class 1
+    class 2
   ]
   node [
     id 29
@@ -172,7 +172,7 @@ graph [
   node [
     id 34
     label "38"
-    class 2
+    class 1
   ]
   node [
     id 35
@@ -197,7 +197,7 @@ graph [
   node [
     id 39
     label "44"
-    class 2
+    class 1
   ]
   node [
     id 40
@@ -212,7 +212,7 @@ graph [
   node [
     id 42
     label "47"
-    class 1
+    class 2
   ]
   node [
     id 43
@@ -222,12 +222,12 @@ graph [
   node [
     id 44
     label "50"
-    class 1
+    class 2
   ]
   node [
     id 45
     label "51"
-    class 1
+    class 2
   ]
   node [
     id 46
@@ -257,7 +257,7 @@ graph [
   edge [
     source 0
     target 12
-    class 1
+    class 2
   ]
   edge [
     source 0
@@ -292,7 +292,7 @@ graph [
   edge [
     source 1
     target 13
-    class 2
+    class 1
   ]
   edge [
     source 1
@@ -307,7 +307,7 @@ graph [
   edge [
     source 1
     target 2
-    class 2
+    class 1
   ]
   edge [
     source 1
@@ -317,27 +317,27 @@ graph [
   edge [
     source 1
     target 19
-    class 2
+    class 1
   ]
   edge [
     source 2
     target 3
-    class 1
+    class 2
   ]
   edge [
     source 2
     target 7
-    class 2
-  ]
-  edge [
-    source 2
-    target 14
     class 1
   ]
   edge [
     source 2
-    target 32
+    target 14
     class 2
+  ]
+  edge [
+    source 2
+    target 32
+    class 1
   ]
   edge [
     source 2
@@ -362,12 +362,12 @@ graph [
   edge [
     source 3
     target 20
-    class 2
+    class 1
   ]
   edge [
     source 3
     target 32
-    class 2
+    class 1
   ]
   edge [
     source 3
@@ -442,12 +442,12 @@ graph [
   edge [
     source 6
     target 13
-    class 2
+    class 1
   ]
   edge [
     source 6
     target 32
-    class 2
+    class 1
   ]
   edge [
     source 7
@@ -467,7 +467,7 @@ graph [
   edge [
     source 9
     target 12
-    class 1
+    class 2
   ]
   edge [
     source 9
@@ -477,7 +477,7 @@ graph [
   edge [
     source 9
     target 25
-    class 1
+    class 2
   ]
   edge [
     source 9
@@ -487,12 +487,12 @@ graph [
   edge [
     source 9
     target 19
-    class 2
+    class 1
   ]
   edge [
     source 9
     target 32
-    class 2
+    class 1
   ]
   edge [
     source 9
@@ -537,27 +537,27 @@ graph [
   edge [
     source 12
     target 14
-    class 1
+    class 2
   ]
   edge [
     source 12
     target 23
-    class 2
+    class 1
   ]
   edge [
     source 12
     target 27
-    class 2
+    class 1
   ]
   edge [
     source 12
     target 28
-    class 1
+    class 2
   ]
   edge [
     source 12
     target 44
-    class 1
+    class 2
   ]
   edge [
     source 12
@@ -577,7 +577,7 @@ graph [
   edge [
     source 13
     target 20
-    class 2
+    class 1
   ]
   edge [
     source 13
@@ -592,17 +592,17 @@ graph [
   edge [
     source 13
     target 45
-    class 1
+    class 2
   ]
   edge [
     source 13
     target 14
-    class 1
+    class 2
   ]
   edge [
     source 13
     target 19
-    class 1
+    class 2
   ]
   edge [
     source 13
@@ -612,7 +612,7 @@ graph [
   edge [
     source 13
     target 28
-    class 1
+    class 2
   ]
   edge [
     source 13
@@ -642,7 +642,7 @@ graph [
   edge [
     source 13
     target 44
-    class 1
+    class 2
   ]
   edge [
     source 13
@@ -657,7 +657,7 @@ graph [
   edge [
     source 14
     target 23
-    class 2
+    class 1
   ]
   edge [
     source 14
@@ -677,12 +677,12 @@ graph [
   edge [
     source 15
     target 38
-    class 1
+    class 2
   ]
   edge [
     source 15
     target 42
-    class 1
+    class 2
   ]
   edge [
     source 16
@@ -722,7 +722,7 @@ graph [
   edge [
     source 18
     target 21
-    class 1
+    class 2
   ]
   edge [
     source 19
@@ -732,7 +732,7 @@ graph [
   edge [
     source 19
     target 39
-    class 2
+    class 1
   ]
   edge [
     source 19
@@ -762,7 +762,7 @@ graph [
   edge [
     source 20
     target 32
-    class 2
+    class 1
   ]
   edge [
     source 20
@@ -782,7 +782,7 @@ graph [
   edge [
     source 20
     target 38
-    class 2
+    class 1
   ]
   edge [
     source 21
@@ -797,7 +797,7 @@ graph [
   edge [
     source 21
     target 28
-    class 1
+    class 2
   ]
   edge [
     source 21
@@ -887,7 +887,7 @@ graph [
   edge [
     source 32
     target 42
-    class 1
+    class 2
   ]
   edge [
     source 32
@@ -897,7 +897,7 @@ graph [
   edge [
     source 32
     target 34
-    class 2
+    class 1
   ]
   edge [
     source 33
