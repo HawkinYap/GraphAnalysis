@@ -574,7 +574,21 @@ def sampleTest(G, rate):
     map = MAP(X1, X2)
     ndcg = NDCG(X1, X2)
     print('Recall:', recall, file=f)
+    sumr = 0
+    count1 = 0
+    for i in recall:
+        if i != '-':
+            count1 += 1
+            sumr += i
+    print('Mean Recall:', sumr / count1, file=f)
     print('FAC:', fac, file=f)
+    sumf = 0
+    count2 = 0
+    for i in fac:
+        if i != '-':
+            count2 += 1
+            sumf += i
+    print('Mean FAC:', sumf / count2, file=f)
     print('MAP:', map, file=f)
     print('NDCG:', ndcg, file=f)
 
