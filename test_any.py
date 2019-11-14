@@ -1,6 +1,4 @@
-import pandas as pd
-import networkx as nx
-import operator
+
 
 # WS = nx.random_graphs.watts_strogatz_graph(300, 2, 0.3)
 # #
@@ -16,6 +14,11 @@ import operator
 # else:
 #     print(False)
 
-series_k = [1,0,0,0,1,0,1,1,1,0]
-series_k_sort = sorted(series_k, reverse=True)
-print(series_k_sort)
+a = [1, 2, 3, 4]
+i = 0
+u = 5
+while i < 4:
+    a.append(u)
+    i += 1
+    a.pop(0)
+    print(a)
