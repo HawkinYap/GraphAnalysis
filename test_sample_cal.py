@@ -14,6 +14,7 @@ from math import log
 import numpy as np
 
 
+
 # load graph to networkx
 def loadData(path1, path2, isDirect):
 
@@ -40,10 +41,10 @@ def loadData(path1, path2, isDirect):
     G.add_edges_from(edges)
 
     # add edge attribution
-    # i = 0
-    # for u, v, d in G.edges(data=True):
-    #     G[u][v]['bridge'] = 0
-    #     i += 1
+    i = 0
+    for u, v, d in G.edges(data=True):
+        G[u][v]['weight'] = 1
+        i += 1
     return (G)
 
 
@@ -110,14 +111,34 @@ def graphSampling(G, isDirect, seed):
     # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
     # return(RCMH_sample, 'RCMH')
 
-    m = 5
-    node = list(G.nodes())
-    seeds = random.sample(node, m)
-    IDRW_object = GraphSampling.IDRW()
-    IDRW_sample = IDRW_object.IDRW(G, sample_rate, seeds)
-    return(IDRW_sample, 'IDRW')
+    # m = 5
+    # node = list(G.nodes())
+    # seeds = random.sample(node, m)
+    # IDRW_object = GraphSampling.IDRW()
+    # IDRW_sample = IDRW_object.IDRW(G, sample_rate, seeds)
+    # return(IDRW_sample, 'IDRW')
 
     # -----two-step sampler------
+
+    # SST_object = GraphSampling.SST()
+    # SST_sample = SST_object.SST(G, sample_rate, seed)
+    # return(SST_sample, 'SST')
+
+    # SSP_object = GraphSampling.SSP()
+    # SSP_sample = SSP_object.SSP(G, sample_rate, seed)
+    # return(SSP_sample, 'SSP')
+
+    # DPL_object = GraphSampling.DPL()
+    # DPL_sample = DPL_object.DPL(G, rate)
+    # return(DPL_sample, 'DPL')
+
+    # DLA_object = GraphSampling.DLA()
+    # DLA_sample = DLA_object.DLA(G, rate)
+    # return(DLA_sample, 'DLA')
+
+    GPS_object = GraphSampling.GPS()
+    GPS_sample = GPS_object.GPS(G, rate)
+    return(GPS_sample, 'GPS')
 
     # -----variant sampler------
 

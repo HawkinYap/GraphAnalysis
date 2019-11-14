@@ -15,3 +15,9 @@ from GraphSampling.RMSC import RMSC
 from GraphSampling.RPN import RPN
 from GraphSampling.RDN import RDN
 from GraphSampling.IDRW import IDRW
+from GraphSampling.SST import SST
+from GraphSampling.SSP import SSP
+from GraphSampling.DPL import DPL
+from GraphSampling.Louvain import Louvain
+from GraphSampling.DLA import DLA
+from GraphSampling.GPS import GPS

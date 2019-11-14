@@ -6,6 +6,7 @@ from fast_unfolding import *
 import matplotlib.pyplot as plt
 import math
 from itertools import *
+from collections import defaultdict
 
 
 def DPL(x, y):
