@@ -59,9 +59,9 @@ def graphSampling(G, isDirect, seed):
     # -----one-step sampler------
     # -----random node sampler------
 
-    # RN_object = GraphSampling.RN()
-    # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
-    # return(RN_sample, 'RN')
+    RN_object = GraphSampling.RN()
+    RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
+    return(RN_sample, 'RN')
 
     # RPN_object = GraphSampling.RPN()
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
@@ -271,18 +271,18 @@ def dataTest():
     random_seed = random_seed[0]
 
     # test 1
-    seed = random.sample(random_seed, 1)
-    Gs, sample_type = graphSampling(G, isDirect, seed[0])
-    print(sample_type, len(G), len(Gs))
+    # seed = random.sample(random_seed, 1)
+    # Gs, sample_type = graphSampling(G, isDirect, seed[0])
+    # print(sample_type, len(G), len(Gs))
     # drawGraph(G, Gs)
 
     # formal
-    # iter = 3
-    # for i in range(iter):
-    #     seed = random.sample(random_seed, 1)
-    #     sample, sample_type = graphSampling(G, isDirect, seed[0])
-    #     print(len(G), len(sample))
-    #     saveGraph(G, sample, fn, i + 1, sample_type)
+    iter = 10
+    for i in range(iter):
+        seed = random.sample(random_seed, 1)
+        sample, sample_type = graphSampling(G, isDirect, seed[0])
+        print(len(G), len(sample))
+        saveGraph(G, sample, fn, i + 1, sample_type)
 
 if __name__ == '__main__':
     dataTest()

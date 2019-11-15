@@ -280,7 +280,7 @@ def Articulation_Points_and_Bridge(G, anomaly_total, ss=1):
 
 
 
-def featureExtraction(G, Gs):
+def featureExtraction(G, Gs, f):
     # origin graph
     threshold = starThreshold_2(G, s=1)
     heigh_neighbour = 0.05
@@ -296,6 +296,26 @@ def featureExtraction(G, Gs):
     Extract_Global_High_Neighbor(Gs, heigh_neighbour, anomaly_total2, s=2)
     Extract_Star(Gs, threshold, anomaly_total2, s=2)
     Articulation_Points_and_Bridge(Gs, anomaly_total2, ss=2)
+
+    # count anomalous
+    for u,v in anomaly_total1.items():
+        t = '{}: {}'.format(u, len(v))
+        print(t, file=f)
+    print('---------sampling---------', file=f)
+    print('nodes number : %d' % Gs.number_of_nodes(), file=f)
+    print('edges number : %d' % Gs.number_of_edges(), file=f)
+    print("average degree: %s" % threshold, file=f)
+    print("average clustering: %s" % nx.average_clustering(Gs), file=f)
+    print("density: %s" % nx.density(Gs), file=f)
+    print('---------------------', file=f)
+    for u,v in anomaly_total2.items():
+        new = 0
+        for ii in v:
+            if ii not in anomaly_total1[u]:
+                new += 1
+        print('{}: {}'.format(u, len(v)), file=f)
+        print('{} new: {}'.format(u, new), file=f)
+
 
     return(anomaly_total1, anomaly_total2)
 
@@ -527,7 +547,7 @@ def JaccardIndex(G, Gs):
     jaccard = sum / len(G)
     return(jaccard)
 
-def sampleTest(G, rate):
+def sampleTest(G, rate, f):
     Gs = nx.Graph()
     for n, data in G.nodes(data=True):
         if data['type1'] == 2:
@@ -546,33 +566,35 @@ def sampleTest(G, rate):
 
     threshold = degree_total / len(Gs)
 
-    print('nodes number : %d' % Gs.number_of_nodes())
-    print('edges number : %d' % Gs.number_of_edges())
-    print("average degree: %s" % threshold)
-    print("average clustering: %s" % nx.average_clustering(Gs))
-    print("density: %s" % nx.density(Gs))
-    print('---------------------')
+    # print('nodes number : %d' % Gs.number_of_nodes())
+    # print('edges number : %d' % Gs.number_of_edges())
+    # print("average degree: %s" % threshold)
+    # print("average clustering: %s" % nx.average_clustering(Gs))
+    # print("density: %s" % nx.density(Gs))
+    # print('---------------------')
 
-    f = open('log/test_log.txt', mode='a+')
-    user = 'Hawkin'
-    print('---------------------------', file=f)
-    localtime = time.asctime(time.localtime(time.time()))
-    print('Time:', localtime, file=f)
-    print('User:', user, file=f)
-    print('', file=f)
-    print('Logfile: countOriginSampleTest', file=f)
-    print('Sampling Rate:', rate, file=f)
+    # f = open('log/test_log.txt', mode='a+')
+    # user = 'Hawkin'
+    # print('---------------------------', file=f)
+    # localtime = time.asctime(time.localtime(time.time()))
+    # print('Time:', localtime, file=f)
+    # print('User:', user, file=f)
+    # print('', file=f)
+    # print('Logfile: countOriginSampleTest', file=f)
+    # print('Sampling Rate:', rate, file=f)
 
     d1, d2 = getVector(G, Gs)
     ks = KSD(G, Gs, d1, d2)
     sd = SDD(G, Gs, d1, d2)
     nd = ND(G, Gs, d1, d2)
 
-    X1, X2 = featureExtraction(G, Gs)
+    X1, X2 = featureExtraction(G, Gs, f)
+
     recall = Recall(X1, X2)
     fac = FalseAcceptanceRate(X1, X2)
     map = MAP(X1, X2)
     ndcg = NDCG(X1, X2)
+    print('----Evaluation indicators----', file=f)
     print('Recall:', recall, file=f)
     sumr = 0
     count1 = 0
@@ -659,17 +681,27 @@ def Data_Test(sample_type, filename, iter, rate):
         degree_total = degree_total + G.degree(x)
     threshold = degree_total / len(G)
 
-    print('---------original---------')
-    print('sampling rate : {:.2%} '.format(rate))
-    print('--------------------------')
-    print('nodes number : %d' % G.number_of_nodes())
-    print('edges number : %d' % G.number_of_edges())
-    print("average degree: %s" % threshold)
-    print("average clustering: %s" % nx.average_clustering(G))
-    print("density: %s" % nx.density(G))
-    print('---------------------')
+    f = open('log/test_log.txt', mode='a+')
+    user = 'Hawkin'
+    print('---------------------------', file=f)
+    localtime = time.asctime(time.localtime(time.time()))
+    print('Time:', localtime, file=f)
+    print('User:', user, file=f)
+    print('', file=f)
+    print('filename: {}_{}'.format(filename, iter), file=f)
+    print('Sampling Rate:', rate, file=f)
 
-    sampleTest(G, rate)
+    print('---------original---------', file=f)
+    print('sampling rate : {:.2%} '.format(rate), file=f)
+    print('--------------------------', file=f)
+    print('nodes number : %d' % G.number_of_nodes(),  file=f)
+    print('edges number : %d' % G.number_of_edges(), file=f)
+    print("average degree: %s" % threshold, file=f)
+    print("average clustering: %s" % nx.average_clustering(G), file=f)
+    print("density: %s" % nx.density(G), file=f)
+    print('---------------------', file=f)
+
+    sampleTest(G, rate, f)
 
 
 

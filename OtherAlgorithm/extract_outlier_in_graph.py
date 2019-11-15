@@ -120,8 +120,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "Data/facebook1684_node.csv"
-    path2 = "Data/facebook1684_edge.csv"
+    path1 = "simi-Data/facebook1912_simulation1_node.csv"
+    path2 = "simi-Data/facebook1912_simulation1_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -134,7 +134,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     # origin graph
-    threshold = starThreshold_2(G, s=1)
+    threshold = starThreshold_1(G)
     heigh_neighbour = 0.05
     anomaly_total1 = {}
     Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total1)

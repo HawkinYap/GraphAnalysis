@@ -2,6 +2,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import random
 import math
+import csv
+import os
 
 def ER_Generator(nodes, probablity):
     # generate a graph which has n=20 nodes, probablity p = 0.2.
@@ -255,7 +257,7 @@ def Star_Like_Connection(G):
     :return: graph + star_like subgraph
     '''
 
-    percentage_choice = [0.01, 0.005, 0.002]
+    percentage_choice = [0.1, 0.08, 0.05]
     percentage = random.choice(percentage_choice)
     star_ego = math.floor(len(G) * percentage)
     star_node = range(0, star_ego)
@@ -453,16 +455,62 @@ def Label_Set(G):
                 G[u][v][edge_label] = 0
 
 
+# load graph to networkx
+def loadData(path1, path2, isDirect):
+
+    # add nodes
+    f = open(path1, "r")
+    reader1 = csv.reader(f)
+    nodes = []
+    for item in reader1:
+        nodes.append(int(item[0]))
+    f.close()
+    if isDirect:
+        G = nx.DiGraph()
+    else:
+        G = nx.Graph()
+    G.add_nodes_from(nodes)
+
+    # add edges
+    f = open(path2, "r")
+    reader1 = csv.reader(f)
+    edges = []
+    for item in reader1:
+        edges.append([int(item[0]), int(item[1])])
+    f.close()
+    G.add_edges_from(edges)
+
+    # add edge attribution
+    i = 0
+    for u, v, d in G.edges(data=True):
+        G[u][v]['weight'] = 1
+        i += 1
+    return (G)
+
 def Generate_Simi_Simulated_Data():
-    G = nx.read_gml("../Datasets/football.gml")
-    G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
+    # G = nx.read_gml("../Datasets/football.gml")
+    # G = nx.convert_node_labels_to_integers(G, 0, 'default', True)
+    path1 = "../GraphSampling/formalData/facebook0_node.csv"
+    path2 = "../GraphSampling/formalData/facebook0_edge.csv"
+
+    file = os.path.splitext(path1)
+    filename, type = file
+    a = filename.split('/')
+    b = a[-1].split('_')
+    fn = b[0]
+
+    isDirect = False
+    G = loadData(path1, path2, isDirect)
 
     # Abnormal injection
-    G = Balloon_Like_Community_Connection(G)
-    G = Balloon_Like_Ego_Connection(G)
+    # G = Balloon_Like_Community_Connection(G)
+    # G = Balloon_Like_Ego_Connection(G)
     G = Star_Like_Connection(G)
     G = Star_Like_Connection(G)
-    G = Bridge_Like_Connection(G)
+    # G = Star_Like_Connection(G)
+    # G = Star_Like_Connection(G)
+    # G = Star_Like_Connection(G)
+    # G = Bridge_Like_Connection(G)
     # G = Special_People_on_Bridge()
     # G = Chain_Connection(G)
     # G = Noise_Connection(G)
@@ -479,7 +527,6 @@ def Save_GML(graph, path):
     nx.write_gml(graph, path)
 
 if __name__ == '__main__':
-    Generate_Simulated_Data()
-
+    Generate_Simi_Simulated_Data()
 
 
