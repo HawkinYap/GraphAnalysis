@@ -669,8 +669,8 @@ def loadData(path1, path2, isDirect):
 def Data_Test(sample_type, filename, iter, rate):
 
     # Test file type
-    path1 = "testSamplingDataCount/{}_{}{}_node.csv".format(sample_type, filename, iter)
-    path2 = "testSamplingDataCount/{}_{}{}_edge.csv".format(sample_type, filename, iter)
+    path1 = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    path2 = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
@@ -681,7 +681,7 @@ def Data_Test(sample_type, filename, iter, rate):
         degree_total = degree_total + G.degree(x)
     threshold = degree_total / len(G)
 
-    f = open('log/test_log.txt', mode='a+')
+    f = open('log/log.txt', mode='a+')
     user = 'Hawkin'
     print('---------------------------', file=f)
     localtime = time.asctime(time.localtime(time.time()))
@@ -689,6 +689,7 @@ def Data_Test(sample_type, filename, iter, rate):
     print('User:', user, file=f)
     print('', file=f)
     print('filename: {}_{}'.format(filename, iter), file=f)
+    print('Sampling Type:', sample_type, file=f)
     print('Sampling Rate:', rate, file=f)
 
     print('---------original---------', file=f)
@@ -706,9 +707,11 @@ def Data_Test(sample_type, filename, iter, rate):
 
 
 if __name__ == '__main__':
-    sample_type = 'MD'
-    filename = 'email'
-    iter = 3
-    rate = 0.6
-    for i in range(iter):
-        Data_Test(sample_type, filename, i+1, rate)
+    sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
+    # sample_type = 'RDN'
+    filename = 'pgp2'
+    iter = 5
+    rate = 0.05
+    for sample_type in sample_types:
+        for i in range(iter):
+            Data_Test(sample_type, filename, i+1, rate)

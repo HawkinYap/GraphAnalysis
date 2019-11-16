@@ -120,8 +120,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "simi-Data/facebook1912_simulation1_node.csv"
-    path2 = "simi-Data/facebook1912_simulation1_edge.csv"
+    path1 = "simi-Data/facebook414simi_node.csv"
+    path2 = "simi-Data/facebook414simi_edge.csv"
 
 
     file = os.path.splitext(path1)

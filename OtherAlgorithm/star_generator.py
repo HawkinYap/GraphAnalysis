@@ -123,8 +123,8 @@ def saveGraph(G, filename):
 
 
 def Generate_Simi_Simulated_Data():
-    path1 = "../GraphSampling/formalData/facebook1912_node.csv"
-    path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
+    path1 = "../GraphSampling/formalData/facebook3437_node.csv"
+    path2 = "../GraphSampling/formalData/facebook3437_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -156,8 +156,8 @@ def Generate_Simi_Simulated_Data():
 
     # Abnormal injection
     G = Star_Like_Connection(G, S[max])
-    G = Star_Like_Connection(G, S[max])
-    G = Star_Like_Connection(G, S[max])
+    # G = Star_Like_Connection(G, S[max])
+    # G = Star_Like_Connection(G, S[max])
     # G = Star_Like_Connection(G, S[max])
 
     # print('G_len')
