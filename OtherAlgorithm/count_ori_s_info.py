@@ -709,9 +709,9 @@ def Data_Test(sample_type, filename, iter, rate):
 if __name__ == '__main__':
     sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
     # sample_type = 'RDN'
-    filename = 'pgp2'
+    filename = 'facebook3437simi'
     iter = 5
-    rate = 0.05
+    rate = 0.2
     for sample_type in sample_types:
         for i in range(iter):
             Data_Test(sample_type, filename, i+1, rate)

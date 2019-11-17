@@ -49,19 +49,19 @@ def loadData(path1, path2, isDirect):
 
 
 # graph sampling
-def graphSampling(G, isDirect, seed):
+def graphSampling(G, isDirect, seed, rate):
 
     # set sampling rate
     total = len(G.nodes())
-    rate = 0.4
+    # rate = 0.1
     sample_rate = int(total * rate)
 
     # -----one-step sampler------
     # -----random node sampler------
 
-    RN_object = GraphSampling.RN()
-    RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
-    return(RN_sample, 'RN')
+    # RN_object = GraphSampling.RN()
+    # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
+    # return(RN_sample, 'RN')
 
     # RPN_object = GraphSampling.RPN()
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
@@ -72,7 +72,7 @@ def graphSampling(G, isDirect, seed):
     # return(RDN_sample, 'RDN')
 
     # -----random edge sampler------
-
+    #
     # RNE_object = GraphSampling.RNE()
     # RNE_sample = RNE_object.rne(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
     # return(RNE_sample, 'RNE')
@@ -218,7 +218,7 @@ def getInfo(G, sample):
     plt.show()
 
 
-def saveGraph(G, sample, filename, iter, sample_type):
+def saveGraph(G, sample, filename, iter, sample_type, rate):
 
     # convert to node list
     class_nodes = []
@@ -237,8 +237,8 @@ def saveGraph(G, sample, filename, iter, sample_type):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "OtherAlgorithm/testSamplingDataCount/{}_{}{}_node.csv".format(sample_type, filename, iter)
-    orig_edgefile_path = "OtherAlgorithm/testSamplingDataCount/{}_{}{}_edge.csv".format(sample_type, filename, iter)
+    classfile_path = "OtherAlgorithm/SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "OtherAlgorithm/SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
     # title = ['ID', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -250,8 +250,8 @@ def saveGraph(G, sample, filename, iter, sample_type):
 
 
 def dataTest():
-    path1 = "GraphSampling/formalData/facebook414_node.csv"
-    path2 = "GraphSampling/formalData/facebook414_edge.csv"
+    path1 = "GraphSampling/formalData/facebook3437simi_node.csv"
+    path2 = "GraphSampling/formalData/facebook3437simi_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -277,12 +277,13 @@ def dataTest():
     # drawGraph(G, Gs)
 
     # formal
-    iter = 10
+    rate = 0.2
+    iter = 5
     for i in range(iter):
         seed = random.sample(random_seed, 1)
-        sample, sample_type = graphSampling(G, isDirect, seed[0])
+        sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
         print(len(G), len(sample))
-        saveGraph(G, sample, fn, i + 1, sample_type)
+        saveGraph(G, sample, fn, i + 1, sample_type, rate)
 
 if __name__ == '__main__':
     dataTest()

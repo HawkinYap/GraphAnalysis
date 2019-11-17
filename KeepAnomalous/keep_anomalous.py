@@ -581,7 +581,7 @@ def Data_Test(sample_type, filename, iter, rate):
 
 if __name__ == '__main__':
     sample_type = 'NTIES'
-    filename = 'pgp2'
+    filename = 'pgp2_0.50'
     iter = 1
     rate = 0.15
     for i in range(iter):
