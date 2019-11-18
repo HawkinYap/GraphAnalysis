@@ -66,6 +66,8 @@ def SST(G, rate, L=500):
             if None not in i:
                 tree_not_none.append(i)
         t += 1
+        print(t)
+    print('finish')
     count = Counter(tree_not_none)
     sort_count = sorted(count.items(), key=lambda x: x[1], reverse=True)
     i = 0

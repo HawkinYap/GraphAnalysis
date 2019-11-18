@@ -681,7 +681,7 @@ def Data_Test(sample_type, filename, iter, rate):
         degree_total = degree_total + G.degree(x)
     threshold = degree_total / len(G)
 
-    f = open('log/log.txt', mode='a+')
+    f = open('log/log.txt', mode='a')
     user = 'Hawkin'
     print('---------------------------', file=f)
     localtime = time.asctime(time.localtime(time.time()))
@@ -707,9 +707,11 @@ def Data_Test(sample_type, filename, iter, rate):
 
 
 if __name__ == '__main__':
-    sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
+    # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
+    # sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
+    sample_types = ['ISMHRW', 'RMSC']
     # sample_type = 'RDN'
-    filename = 'facebook3437simi'
+    filename = 'facebook107'
     iter = 5
     rate = 0.2
     for sample_type in sample_types:

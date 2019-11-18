@@ -2,6 +2,7 @@ import os
 import csv
 import networkx as nx
 import random
+import pandas as pd
 
 
 def R2(G, A, B):
@@ -38,6 +39,7 @@ def R1(G, A):
 
 def edgeWeightComputing(G):
     for u, v in G.edges:
+        print('hi')
         u_neighbor = list(G.neighbors(u))
         v_neighbor = list(G.neighbors(v))
         Vuv = set(u_neighbor) & set(v_neighbor)
@@ -56,6 +58,7 @@ def GraphSampling(Gi, Gs, vs, max, size, p):
     if len(Gs) < size:
         edge = list(Gi.edges())
         Gs.add_node(vs)
+
         VGi = {}
         for vi in Gi.nodes():
             distance = len(nx.dijkstra_path(Gi, source=vi, target=vs)) - 1
@@ -116,6 +119,30 @@ def Save_Graph_test(G, filename, iter):
     path = 'GSP_data/{}_SGP_sampling.gml'.format(filename)
     nx.write_gml(G, path)
 
+def saveGraph(G, filename, iter, sample_type):
+
+    # convert to node list
+    class_nodes = []
+    for node in G.nodes():
+        class_nodes.append([node])
+
+    # convert to edge list
+    orig_edges = []
+    for u,v,d in G.edges(data='Ewe'):
+        orig_edges.append([u, v, d])
+
+    # test csv
+    classfile_path = "SGP_1step_data/{}_{}_node.csv".format(filename, iter)
+    orig_edgefile_path = "SGP_1step_data/{}_{}_edge.csv".format(filename, iter)
+
+    # title = ['ID', 'Class']
+    test = pd.DataFrame(data=class_nodes)
+    test.to_csv(classfile_path, index=None, header=False)
+
+    # title = ['Source', 'Target', 'Type']
+    test = pd.DataFrame(data=orig_edges)
+    test.to_csv(orig_edgefile_path, index=None, header=False)
+
 
 # load graph to networkx
 def loadData(path1, path2, isDirect):
@@ -146,14 +173,10 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "Data/facebook414_node.csv"
-    # path2 = "Data/facebook414_edge.csv"
-    path1 = "Data/facebook107_node.csv"
-    path2 = "Data/facebook107_edge.csv"
-    # path1 = "../GraphSampling/Data/class_node.csv"
-    # path2 = "../GraphSampling/Data/class_edge.csv"
-    # path1 = "Data/toycase8_node.csv"
-    # path2 = "Data/toycase8_edge.csv"
+    # path1 = "../GraphSampling/Data/email2_node.csv"
+    # path2 = "../GraphSampling/Data/email2_edge.csv"
+    path1 = "../GraphSampling/formalData/p2p_node.csv"
+    path2 = "../GraphSampling/formalData/p2p_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -164,17 +187,18 @@ def dataTest():
 
     isDirect = False
     G = loadData(path1, path2, isDirect)
-
+    print('hi')
     # Graph Partition Process
     edgeWeightComputing(G)
-    eta = 0.8
-    for u, v, d in G.edges(data='Ewe'):
-        if d < eta:
-            G[u][v]['filter'] = 1
-        else:
-            G[u][v]['filter'] = 0
+    # eta = 0.8
+    # for u, v, d in G.edges(data='Ewe'):
+    #     if d < eta:
+    #         G[u][v]['filter'] = 1
+    #     else:
+    #         G[u][v]['filter'] = 0
     iter = 1
-    Save_Graph_test(G, fn, iter)
+    # Save_Graph_test(G, fn, iter)
+    saveGraph(G, fn, iter, 'SGP')
 
 
 if __name__ == '__main__':

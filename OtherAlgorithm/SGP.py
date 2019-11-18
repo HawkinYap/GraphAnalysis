@@ -114,7 +114,7 @@ def getInfo(G, Gs):
 
 def Save_Graph_test(G, filename, rate):
     iter = 2
-    path = 'Output/{}_SGP_sampling_{}.gml'.format(filename, rate)
+    path = 'GSP_data/{}_SGP_sampling_{}.gml'.format(filename, rate)
     nx.write_gml(G, path)
 
 
@@ -147,12 +147,14 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "Data/facebook1684_node.csv"
-    path2 = "Data/facebook1684_edge.csv"
+    # path1 = "Data/facebook1684_node.csv"
+    # path2 = "Data/facebook1684_edge.csv"
     # path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
     # path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
+    path1 = "../GraphSampling/formalData/as_node.csv"
+    path2 = "../GraphSampling/formalData/as_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -166,16 +168,16 @@ def dataTest():
 
     # Graph Partition Process
     edgeWeightComputing(G)
-    eta = 0.8
-    for u, v, d in G.edges(data='Ewe'):
-        if d < eta:
-            G[u][v]['filter'] = 1
-        else:
-            G[u][v]['filter'] = 0
+    # eta = 0.8
+    # for u, v, d in G.edges(data='Ewe'):
+    #     if d < eta:
+    #         G[u][v]['filter'] = 1
+    #     else:
+    #         G[u][v]['filter'] = 0
 
-    # Save_Graph_test(G, fn)
+    # Save_Graph_test(G, fn, rate)
     rate = 0.4
-    filterEdges(G, eta, rate)
+    # filterEdges(G, eta, rate)
     Save_Graph_test(G, fn, rate)
 
 
