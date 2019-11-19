@@ -132,9 +132,9 @@ def graphSampling(G, isDirect, seed, rate):
     # DPL_sample = DPL_object.DPL(G, rate)
     # return(DPL_sample, 'DPL')
 
-    # DLA_object = GraphSampling.DLA()
-    # DLA_sample = DLA_object.DLA(G, rate)
-    # return(DLA_sample, 'DLA')
+    DLA_object = GraphSampling.DLA()
+    DLA_sample = DLA_object.DLA(G, rate)
+    return(DLA_sample, 'DLA')
 
     # GPS_object = GraphSampling.GPS()
     # GPS_sample = GPS_object.GPS(G, rate)
@@ -250,8 +250,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "GraphSampling/formalData/facebook3437simi_node.csv"
-    path2 = "GraphSampling/formalData/facebook3437simi_edge.csv"
+    path1 = "GraphSampling/formalData/eurosis_node.csv"
+    path2 = "GraphSampling/formalData/eurosis_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -271,13 +271,16 @@ def dataTest():
     random_seed = random_seed[0]
 
     # test 1
+    # rate = 0.2
+    # iter = 1
     # seed = random.sample(random_seed, 1)
-    # Gs, sample_type = graphSampling(G, isDirect, seed[0])
+    # Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
     # print(sample_type, len(G), len(Gs))
-    # drawGraph(G, Gs)
+    # # drawGraph(G, Gs)
+    # saveGraph(G, Gs, fn, iter, sample_type, rate)
 
     # formal
-    rate = 0.2
+    rate = 0.05
     iter = 5
     for i in range(iter):
         seed = random.sample(random_seed, 1)

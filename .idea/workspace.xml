@@ -3,146 +3,78 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/AbnormalExtractor/Abnormal_Extractor.py" line="168" />
     <bookmark url="file://$PROJECT_DIR$/AbnormalExtractor/Abnormal_Extractor.py" line="35" />
-    <bookmark url="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" line="45" />
+    <bookmark url="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" line="34" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_edge.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_node.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/BF_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/BF_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/FF_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/FF_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/GMD_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/GMD_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/IDRW_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/IDRW_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/MHRW_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/MHRW_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RCMH_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RCMH_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RDN_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RDN_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RJ_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RJ_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RNE_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RNE_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RN_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RN_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RPN_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RPN_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RWF_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/RWF_pgp2_0.05_5_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_1_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_1_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_2_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_2_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_3_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_3_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_4_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_4_node.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_5_edge.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/TIES_pgp2_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/pgp2_0.50/TIES_pgp2_0.05_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphSampling/SST.py" beforeDir="false" afterPath="$PROJECT_DIR$/GraphSampling/SST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/DPL.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/DPL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/GSP_twostep.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/GSP_twostep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SGP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SGP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/eurosis_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/eurosis_gsp_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/eurosis_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/eurosis_gsp_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/ISMHRW_facebook107_0.05_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.1_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/ISMHRW_facebook107_0.1_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/ISMHRW_facebook107_0.2_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/ISMHRW_facebook107_0.2_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.05_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.05/RMSC_facebook107_0.05_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.1_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.1/RMSC_facebook107_0.1_5_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_1_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_1_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_1_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_1_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_2_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_2_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_2_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_2_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_3_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_3_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_3_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_3_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_4_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_4_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_4_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_4_node.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_5_edge.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_5_edge.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/RMSC_facebook107_0.2_5_node.csv" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/variant/facebook107_0.2/RMSC_facebook107_0.2_5_node.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_sample_cal.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_sample_cal.py" afterDir="false" />
@@ -155,64 +87,66 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GraphAnalysis$LA.coverage" NAME="LA Coverage Results" MODIFIED="1573627916399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherAlgorithm" />
+    <SUITE FILE_PATH="coverage/GraphAnalysis$LA.coverage" NAME="LA Coverage Results" MODIFIED="1573996720524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherAlgorithm" />
     <SUITE FILE_PATH="coverage/GraphAnalysis$AP.coverage" NAME="AP Coverage Results" MODIFIED="1573478663033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherAlgorithm" />
-    <SUITE FILE_PATH="coverage/GraphAnalysis$DPL.coverage" NAME="DPL Coverage Results" MODIFIED="1573543775545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherAlgorithm" />
+    <SUITE FILE_PATH="coverage/GraphAnalysis$DPL.coverage" NAME="DPL Coverage Results" MODIFIED="1573996848205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OtherAlgorithm" />
     <SUITE FILE_PATH="coverage/GraphAnalysis$generator.coverage" NAME="generator Coverage Results" MODIFIED="1568270467296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GraphGenerator" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="graph_feature.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/FeatureExtractor/graph_feature.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="729">
-                    <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-                    <folding>
-                      <element signature="e#0#21#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="new_TIES.py" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="1042">
-                    <caret line="313" column="53" selection-start-line="312" selection-start-column="15" selection-end-line="313" selection-end-column="53" />
-                    <folding>
-                      <element signature="e#0#10#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="new_TIES4.py" pinned="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES4.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="4428">
-                    <caret line="169" selection-start-line="169" selection-end-line="169" />
-                    <folding>
-                      <element signature="e#0#9#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="count_ori_s_info.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="count_ori_s_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
-              <caret line="716" column="42" selection-start-line="716" selection-start-column="42" selection-end-line="716" selection-end-column="42" />
+            <state relative-caret-position="465">
+              <caret line="712" column="25" lean-forward="true" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPL.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6912">
+              <caret line="256" column="38" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract_sampler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_sampler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="654">
+              <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GSP_onestep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GSP_twostep.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_twostep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="681">
+              <caret line="216" column="26" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -222,18 +156,26 @@
       </file>
       <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="SGP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="641">
+              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sample_cal.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_sample_cal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+            <state relative-caret-position="384">
+              <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -263,11 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GraphSampling/MD.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/SSP.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/LA.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/RPN.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/RNN.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/RNE.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/muti_RW.py" />
@@ -287,9 +224,6 @@
         <option value="$PROJECT_DIR$/GraphSampling/RDN.py" />
         <option value="$PROJECT_DIR$/GraphSampling/BFS.py" />
         <option value="$PROJECT_DIR$/GraphSampling/IDRW.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/SST.py" />
-        <option value="$PROJECT_DIR$/GraphSampling/SST.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/DPL.py" />
         <option value="$PROJECT_DIR$/GraphSampling/DPL.py" />
         <option value="$PROJECT_DIR$/GraphSampling/DLA.py" />
         <option value="$PROJECT_DIR$/GraphSampling/__init__.py" />
@@ -297,23 +231,31 @@
         <option value="$PROJECT_DIR$/GraphSampling/formalData/eurosis_edge.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/eurosis_node.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/SSP.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/log/test_log.txt" />
         <option value="$PROJECT_DIR$/GraphGenerator/generator.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook1912_simulation1_edge.csv" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook1912_simulation1_node.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_edge.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_node.csv" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook414simi_edge.csv" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook414simi_node.csv" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/star_generator.py" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/fac" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_node.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_edge.csv" />
-        <option value="$PROJECT_DIR$/test_sample_cal.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/testSamplingDataCount/GSP_twostep.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/SST.py" />
+        <option value="$PROJECT_DIR$/GraphSampling/SST.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/extract_sampler.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/DPL.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/GSP_twostep.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/SGP.py" />
+        <option value="$PROJECT_DIR$/test_sample_cal.py" />
       </list>
     </option>
   </component>
@@ -331,11 +273,11 @@
       <path value="$PROJECT_DIR$/HighlightGraph/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1909" />
-    <option name="y" value="-11" />
-    <option name="width" value="1943" />
-    <option name="height" value="2123" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1813" />
+    <option name="y" value="81" />
+    <option name="width" value="1944" />
+    <option name="height" value="2124" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -394,6 +336,12 @@
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="GSP_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -401,6 +349,25 @@
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
               <item name="SamplingDataCount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="SamplingDataCount" type="462c0819:PsiDirectoryNode" />
+              <item name="variant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="SGP_1step_data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -420,19 +387,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\facebook3437simi_0.20" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\facebook3437simi_0.10" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\facebook3437_0.05" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\facebook107_0.20" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\facebook107_0.10" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\GraphSampling\formalData" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\simi-data" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\GraphSampling" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\variant\facebook1912_0.05" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\variant\facebook1912_0.20" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\variant\facebook1912_0.10" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\variant\facebook1684_0.05" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\variant\facebook1684_0.2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -447,7 +414,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LA">
+  <component name="RunManager" selected="Python.DPL">
     <configuration name="AP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraphAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -552,8 +519,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LA" />
         <item itemvalue="Python.DPL" />
+        <item itemvalue="Python.LA" />
         <item itemvalue="Python.AP" />
         <item itemvalue="Python.generator" />
         <item itemvalue="Python.test_subgraph" />
@@ -574,17 +541,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="-7" width="1295" height="1415" extended-state="0" />
+    <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004042" side_tool="true" weight="0.37480438" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.41673183" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.37480438" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.3047696" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4995958" visible="true" weight="0.34350547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.22169249" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
@@ -604,25 +571,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988938" visible="true" weight="0.23909532" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.011308562" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41673183" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Data View" order="4" />
       <window_info id="Structure" order="1" sideWeight="0.5011062" side_tool="true" weight="0.26515764" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41673183" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34663537" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.31430805" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
+      <window_info anchor="right" id="SciView" order="5" side_tool="true" visible="true" weight="0.011308562" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -719,139 +686,26 @@
           <line>89</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OtherAlgorithm/DPL.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OtherAlgorithm/DPL.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OtherAlgorithm/DPL.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="81" />
+      <option name="time" value="91" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/test_global_anomalous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/sample_result_evaluation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2341">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="313" column="53" selection-start-line="312" selection-start-column="15" selection-end-line="313" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_anomalous.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureExtractor/feature_anomaly_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2079">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1431">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AbnormalExtractor/Abnormal_Extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4212">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/class_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/eurosis_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/eurosis_node.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/SSP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook0_edge.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook107_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1684_edge.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/as_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/p2p_edge.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/pgp2_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/email_edge.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -862,20 +716,9 @@
     <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/oregon_edge.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/SST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KeepAnomalous/keep_important_anomalous.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13527">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-13527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook0simi_edge.csv">
@@ -888,62 +731,22 @@
     <entry file="file://$PROJECT_DIR$/test_output.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2661">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_sample3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="200" lean-forward="true" selection-start-line="200" selection-end-line="200" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_sample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="92" selection-start-line="92" selection-end-line="93" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_sample2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4675">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureExtractor/feature_extractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6048">
-          <caret line="224" selection-start-line="224" selection-end-line="225" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GraphGenerator/generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
           <caret line="491" column="67" lean-forward="true" selection-start-line="491" selection-start-column="4" selection-end-line="491" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,12 +760,8 @@
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook1912_simulation1_edge.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_node.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_node.csv" />
+    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1912simi_edge.csv" />
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/simi-data/facebook414simi_node.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -980,33 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/star_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="168" lean-forward="true" selection-start-line="168" selection-end-line="168" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="97" column="19" selection-start-line="93" selection-start-column="4" selection-end-line="97" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,26 +793,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/p2p_0.20/FF_p2p_0.2_3_node.csv">
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/one-step/p2p_0.20/FF_p2p_0.2_3_node.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FeatureExtractor/graph_feature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="93" column="10" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GMD.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,13 +810,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/fac">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="8267" column="7" lean-forward="true" selection-end-line="8283" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/fac" />
     <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_edge.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1061,29 +818,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/GraphAnalysis/Lib/site-packages/numpy/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+        <state relative-caret-position="567">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/email_0.05/DPL_email_0.05_3_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/anomaloutcount.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/email_gsp_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/one-step/as_0.05/BF_as_0.05_1_node.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/one-step/as_0.05/BF_as_0.05_1_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1852">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphSampling/SST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/as_0.05/DLA_as_0.05_1_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/as_0.05/DLA_as_0.05_1_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/LA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2188">
+          <caret line="92" selection-start-line="92" selection-end-line="93" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureExtractor/graph_feature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8343">
+          <caret line="313" column="53" selection-start-line="312" selection-start-column="15" selection-end-line="313" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/new_TIES4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4428">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureExtractor/feature_extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="221" column="50" lean-forward="true" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_sampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/p2p_1_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/eurosis_gsp_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="184" column="24" selection-start-line="184" selection-start-column="24" selection-end-line="184" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_twostep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="681">
+          <caret line="216" column="26" selection-start-line="216" selection-start-column="26" selection-end-line="216" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP_1step_data/p2p_1_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="712" column="25" lean-forward="true" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/DPL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6912">
+          <caret line="256" column="38" selection-start-line="256" selection-start-column="38" selection-end-line="256" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
+    <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="716" column="42" selection-start-line="716" selection-start-column="42" selection-end-line="716" selection-end-column="42" />
+        <state relative-caret-position="384">
+          <caret line="282" column="15" selection-start-line="282" selection-start-column="15" selection-end-line="282" selection-end-column="15" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -132,8 +132,8 @@ def saveGraph(G, filename, iter, sample_type):
         orig_edges.append([u, v, d])
 
     # test csv
-    classfile_path = "SGP_1step_data/{}_{}_node.csv".format(filename, iter)
-    orig_edgefile_path = "SGP_1step_data/{}_{}_edge.csv".format(filename, iter)
+    classfile_path = "SGP_1step_data/{}_{}_node.csv".format(filename, 'gsp')
+    orig_edgefile_path = "SGP_1step_data/{}_{}_edge.csv".format(filename, 'gsp')
 
     # title = ['ID', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -175,8 +175,8 @@ def loadData(path1, path2, isDirect):
 def dataTest():
     # path1 = "../GraphSampling/Data/email2_node.csv"
     # path2 = "../GraphSampling/Data/email2_edge.csv"
-    path1 = "../GraphSampling/formalData/p2p_node.csv"
-    path2 = "../GraphSampling/formalData/p2p_edge.csv"
+    path1 = "../GraphSampling/formalData/facebook1912_node.csv"
+    path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
 
 
     file = os.path.splitext(path1)

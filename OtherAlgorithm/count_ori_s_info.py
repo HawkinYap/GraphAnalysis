@@ -708,10 +708,10 @@ def Data_Test(sample_type, filename, iter, rate):
 
 if __name__ == '__main__':
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
-    # sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
-    sample_types = ['ISMHRW', 'RMSC']
+    sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
+    # sample_types = ['ISMHRW', 'RMSC']
     # sample_type = 'RDN'
-    filename = 'facebook107'
+    filename = 'eurosis'
     iter = 5
     rate = 0.2
     for sample_type in sample_types:

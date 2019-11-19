@@ -186,8 +186,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 # data processing
 def dataTest():
-    path1 = "SGP_1step_data/email_gsp_node.csv"
-    path2 = "SGP_1step_data/email_gsp_edge.csv"
+    path1 = "SGP_1step_data/eurosis_gsp_node.csv"
+    path2 = "SGP_1step_data/eurosis_gsp_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -209,7 +209,7 @@ def dataTest():
 
     # Save_Graph_test(G, fn)
     rate = 0.2
-    iter = 5
+    iter = 1
     Gs = filterEdges(G, eta, rate)
     saveGraph(G, Gs, fn, iter, 'SGP', rate)
 
