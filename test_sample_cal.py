@@ -120,9 +120,9 @@ def graphSampling(G, isDirect, seed, rate):
 
     # -----two-step sampler------
 
-    # SST_object = GraphSampling.SST()
-    # SST_sample = SST_object.SST(G, sample_rate, seed)
-    # return(SST_sample, 'SST')
+    SST_object = GraphSampling.SST()
+    SST_sample = SST_object.SST(G, sample_rate, seed)
+    return(SST_sample, 'SST')
 
     # SSP_object = GraphSampling.SSP()
     # SSP_sample = SSP_object.SSP(G, sample_rate, seed)
@@ -132,9 +132,9 @@ def graphSampling(G, isDirect, seed, rate):
     # DPL_sample = DPL_object.DPL(G, rate)
     # return(DPL_sample, 'DPL')
 
-    DLA_object = GraphSampling.DLA()
-    DLA_sample = DLA_object.DLA(G, rate)
-    return(DLA_sample, 'DLA')
+    # DLA_object = GraphSampling.DLA()
+    # DLA_sample = DLA_object.DLA(G, rate)
+    # return(DLA_sample, 'DLA')
 
     # GPS_object = GraphSampling.GPS()
     # GPS_sample = GPS_object.GPS(G, rate)
@@ -250,8 +250,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "GraphSampling/formalData/eurosis_node.csv"
-    path2 = "GraphSampling/formalData/eurosis_edge.csv"
+    path1 = "GraphSampling/formalData/pgp2_node.csv"
+    path2 = "GraphSampling/formalData/pgp2_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -280,7 +280,7 @@ def dataTest():
     # saveGraph(G, Gs, fn, iter, sample_type, rate)
 
     # formal
-    rate = 0.05
+    rate = 0.1
     iter = 5
     for i in range(iter):
         seed = random.sample(random_seed, 1)

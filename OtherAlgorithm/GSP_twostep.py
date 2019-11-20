@@ -186,8 +186,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 # data processing
 def dataTest():
-    path1 = "SGP_1step_data/eurosis_gsp_node.csv"
-    path2 = "SGP_1step_data/eurosis_gsp_edge.csv"
+    path1 = "SGP_1step_data/pgp2_gsp_node.csv"
+    path2 = "SGP_1step_data/pgp2_gsp_edge.csv"
 
 
     file = os.path.splitext(path1)

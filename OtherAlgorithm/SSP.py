@@ -5,7 +5,7 @@ import random
 from collections import Counter
 
 
-def SSP(G, rate, L=10000):
+def SSP(G, rate, L=500):
     size = round(len(G) * rate)
     Gs = nx.Graph()
     Gnode = list(G.nodes())

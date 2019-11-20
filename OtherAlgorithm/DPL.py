@@ -235,8 +235,8 @@ def dataTest():
     # path2 = "../GraphSampling/Data/email2_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
-    path1 = "../GraphSampling/formalData/eurosis_node.csv"
-    path2 = "../GraphSampling/formalData/eurosis_edge.csv"
+    path1 = "../GraphSampling/formalData/pgp2_node.csv"
+    path2 = "../GraphSampling/formalData/pgp2_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -249,8 +249,8 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.2
-    iter = 1
+    rate = 0.05
+    iter = 5
     Gs = DPL_sampler(G, rate)
     print(len(Gs))
     getInfo(G, Gs)
