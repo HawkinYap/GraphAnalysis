@@ -5,6 +5,8 @@ import os
 import numpy as np
 import math
 import random
+from itertools import *
+import pandas as pd
 
 def Extract_Global_High_Neighbor(G, G0, heigh_neighbour, anomaly_total):
     '''
@@ -189,7 +191,7 @@ def getRateAnomaly(anomaly_total, rate):
     anomaly_cut['star'] = anomaly_total['star'][:l_s]
     anomaly_cut['arti'] = anomaly_total['arti'][:l_a]
     # anomaly_cut['isolates'] = anomaly_total['isolates'][:l_is]
-    print(anomaly_cut)
+    # print(anomaly_cut)
     return(anomaly_cut)
 
 
@@ -223,10 +225,11 @@ def keepAnomalyStructure(G, anomaly_cut, rate, structure_info):
         structure_info[u] = {}
         if u == 'global' or u == 'star':
             for node in v:
+                print(node)
                 neighbor_between = {}
                 node_neighbor = list(G.neighbors(node))
-                for node in node_neighbor:
-                    neighbor_between[node] = between[node]
+                for node2 in node_neighbor:
+                    neighbor_between[node2] = between[node2]
                 nn = sorted(neighbor_between.items(), key=lambda x: x[1], reverse=True)
 
                 keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
@@ -240,8 +243,8 @@ def keepAnomalyStructure(G, anomaly_cut, rate, structure_info):
                 for node in node_group:
                     neighbor_between = {}
                     node_neighbor = list(G.neighbors(node))
-                    for node in node_neighbor:
-                        neighbor_between[node] = between[node]
+                    for node2 in node_neighbor:
+                        neighbor_between[node2] = between[node2]
                     nn = sorted(neighbor_between.items(), key=lambda x: x[1], reverse=True)
                     keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
                     nn_union = nn_union | set(keep_anomaly)
@@ -260,50 +263,65 @@ def keepAnomalyStructure(G, anomaly_cut, rate, structure_info):
                 keep_anomaly = [i[0] for i in nn[:math.floor(len(nn) * rate)]]
                 for i in keep_anomaly:
                     if G.node[i]['labels'] == 0:
-                        G.node[i]['labels'] = -2
+                        G.node[i]['labels'] = -3
 
-def importantSampler(G, rate):
+def importantSampler(G, rate, structure_info):
     size = round(len(G) * rate)
+    print(len(G), size)
+
+    print(structure_info)
+
     Gs = nx.Graph()
-    for n,d in G.nodes(data=True):
-        if d['labels'] != 0:
-            Gs.add_node(n)
-    G1 = G.subgraph(Gs.nodes())
-    g1_e = set()
-    for u,v in G1.edges():
-        g1_e.add((u,v))
-    g_e = set()
-    for u,v in G.edges():
-        g_e.add((u,v))
+    for u,v in structure_info.items():
+        if u == 'arti':
+            tmp = []
+            for sets in v.keys():
+                tmp += list(sets)
+            Gs.add_nodes_from(tmp)
+            t = []
+            for sets in v.values():
+                t += list(sets)
+            print(t)
+            Gs.add_nodes_from(t)
+        else:
+            for node, neibor in v.items():
+                Gs.add_node(node)
+                if len(neibor) != 0:
+                    Gs.add_nodes_from(neibor)
+    print(len(Gs))
+    G_remain = list(set(G.nodes()) - set(Gs.nodes()))
+    d = G.degree(G_remain)
+    degree_index = {}
+    for i in d:
+        degree_index[i[0]] = i[1]
+    cycle_d = cycle(G_remain)
 
-    remain = g_e - g1_e
-    Vs = []
     while len(Gs) < size:
-        edges_sample = random.sample(G.edges(), 1)
-        for a1, a2 in edges_sample:
-            # Nodes corresponding to sample edge are retrieved and added in Graph G1
-            Gs.add_edge(a1, a2)
+        p = random.random()
+        node = next(cycle_d)
+        try:
+            pt = 1 / degree_index[node]
+        except:
+            pt = 1
+        if p >= pt:
+            Gs.add_node(node)
     Gs = G.subgraph(Gs.nodes())
-    return(Gs)
+    print(len(Gs))
+    return(Gs, 'new')
 
 
 
-def isPartition(G, fn, rate, s=1):
+def isPartition(G, fn, rate, isBalance):
     # set hubs and star threshold
     threshold = starThreshold_2(G, s=1)
     heigh_neighbour = 0.05
-    partitions = nxmetis.partition(G, 3)
     total_anomaly = {}
-    for partition in partitions[1]:
-        G_t = nx.Graph()
-        G_t.add_nodes_from(partition)
-        G_p = G.subgraph(G_t.nodes())
-
+    if isBalance:
         anomaly_total = {}
-        Extract_Global_High_Neighbor(G_p, G, heigh_neighbour, anomaly_total)
-        Extract_Star(G_p, G, threshold, anomaly_total)
-        Articulation_Points_and_Bridge(G_p, G, anomaly_total)
-        MetisRank(G_p, G, anomaly_total)
+        Extract_Global_High_Neighbor(G, G, heigh_neighbour, anomaly_total)
+        Extract_Star(G, G, threshold, anomaly_total)
+        Articulation_Points_and_Bridge(G, G, anomaly_total)
+        MetisRank(G, G, anomaly_total)
         AnomalousLable(G)
         if 'global' in total_anomaly:
             total_anomaly['global'] += anomaly_total['global']
@@ -321,32 +339,71 @@ def isPartition(G, fn, rate, s=1):
             total_anomaly['outerarti'] += anomaly_total['outerarti']
         else:
             total_anomaly['outerarti'] = anomaly_total['outerarti']
+        # for u,v in total_anomaly.items():
+        #     print(u, len(v))
+    else:
+        partitions = nxmetis.partition(G, 2)
+        for partition in partitions[1]:
+            G_t = nx.Graph()
+            G_t.add_nodes_from(partition)
+            G_p = G.subgraph(G_t.nodes())
+
+            anomaly_total = {}
+            Extract_Global_High_Neighbor(G_p, G, heigh_neighbour, anomaly_total)
+            Extract_Star(G_p, G, threshold, anomaly_total)
+            Articulation_Points_and_Bridge(G_p, G, anomaly_total)
+            MetisRank(G_p, G, anomaly_total)
+            AnomalousLable(G)
+            if 'global' in total_anomaly:
+                total_anomaly['global'] += anomaly_total['global']
+            else:
+                total_anomaly['global'] = anomaly_total['global']
+            if 'star' in total_anomaly:
+                total_anomaly['star'] += anomaly_total['star']
+            else:
+                total_anomaly['star'] = anomaly_total['star']
+            if 'innerarti' in total_anomaly:
+                total_anomaly['innerarti'] += anomaly_total['innerarti']
+            else:
+                total_anomaly['innerarti'] = anomaly_total['innerarti']
+            if 'outerarti' in total_anomaly:
+                total_anomaly['outerarti'] += anomaly_total['outerarti']
+            else:
+                total_anomaly['outerarti'] = anomaly_total['outerarti']
 
     # print(total_anomaly)
     rank_anomaly = importantRank(G, total_anomaly)
 
     # rate = 0.5
     anomaly_cut = getRateAnomaly(rank_anomaly, rate)
+    print(anomaly_cut)
     structure_info = {}
     keepAnomalyStructure(G, anomaly_cut, rate, structure_info)
+    print(structure_info)
 
-    Gs = importantSampler(G, rate)
 
-    for node in G.nodes():
-        if node in Gs.nodes():
-            G.node[node]['sample'] = 2
-        else:
-            G.node[node]['sample'] = 1
 
-    # convert to edge list
-    for edge in G.edges():
-        if edge in Gs.edges():
-            G[edge[0]][edge[1]]['sample'] = 2
-        else:
-            G[edge[0]][edge[1]]['sample'] = 1
 
-    iter = rate
-    Save_Graph_test(G, fn, iter)
+    # for node in G.nodes():
+    #     if node in Gs.nodes():
+    #         G.node[node]['sample'] = 2
+    #     else:
+    #         G.node[node]['sample'] = 1
+    #
+    # # convert to edge list
+    # for edge in G.edges():
+    #     if edge in Gs.edges():
+    #         G[edge[0]][edge[1]]['sample'] = 2
+    #     else:
+    #         G[edge[0]][edge[1]]['sample'] = 1
+
+    # Save_Graph_test(G, fn, iter)
+    iter = 5
+    for i in range(iter):
+        # sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+        sample, sample_type = importantSampler(G, rate, structure_info)
+        print(len(G), len(sample))
+        saveGraph(G, sample, fn, i + 1, sample_type, rate)
 
 
 
@@ -374,6 +431,37 @@ def starThreshold_2(G, s=1):
 def Save_Graph_test(G, filename, iter):
     path = 'anomalous_output_data/importanceSampler{}_{}_orig.gml'.format(filename, iter)
     nx.write_gml(G, path)
+
+
+def saveGraph(G, sample, filename, iter, sample_type, rate):
+
+    # convert to node list
+    class_nodes = []
+    for node in G.nodes():
+        if node in sample.nodes():
+            class_nodes.append([node, 2])
+        else:
+            class_nodes.append([node, 1])
+
+    # convert to edge list
+    orig_edges = []
+    for edge in G.edges():
+        if edge in sample.edges():
+            orig_edges.append([edge[0], edge[1], 2])
+        else:
+            orig_edges.append([edge[0], edge[1], 1])
+
+    # test csv
+    classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+
+    # title = ['ID', 'Class']
+    test = pd.DataFrame(data=class_nodes)
+    test.to_csv(classfile_path, index=None, header=False)
+
+    # title = ['Source', 'Target', 'Type']
+    test = pd.DataFrame(data=orig_edges)
+    test.to_csv(orig_edgefile_path, index=None, header=False)
 
 
 # load graph to networkx
@@ -407,9 +495,11 @@ def loadData(path1, path2, isDirect):
 def dataTest():
     # path1 = "Data/facebook414_node.csv"
     # path2 = "Data/facebook414_edge.csv"
-    path1 = "../GraphSampling/Data/toy3_node.csv"
-    path2 = "../GraphSampling/Data/toy3_edge.csv"
-    rate = 0.4
+    # path1 = "../GraphSampling/Data/toy3_node.csv"
+    # path2 = "../GraphSampling/Data/toy3_edge.csv"
+    path1 = "../GraphSampling/formalData/facebook1912_node.csv"
+    path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
+    rate = 0.2
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -427,8 +517,8 @@ def dataTest():
         G.node[n]['topok'] = 0
         G.node[n]['labels'] = 0
 
-
-    isPartition(G, fn, rate)
+    isBalance = False
+    isPartition(G, fn, rate, isBalance)
 
     G1 = nx.Graph()
     for n, d in G.nodes(data=True):

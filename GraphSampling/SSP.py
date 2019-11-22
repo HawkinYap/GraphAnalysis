@@ -3,7 +3,7 @@ import random
 from collections import Counter
 
 class SSP:
-    def SSP(self, G, size, vs, L=500):
+    def SSP(self, G, size, vs, L=1000):
         Gs = nx.Graph()
         Gnode = list(G.nodes())
         # vs = random.choice(Gnode)

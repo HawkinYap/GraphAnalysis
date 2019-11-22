@@ -82,27 +82,27 @@ def saveGraph(G, filename, iter, sample_type, rate):
     classfile_path = "samplingResult/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
     orig_edgefile_path = "samplingResult/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
-    # title = ['ID', 'Class']
-    test = pd.DataFrame(data=class_nodes)
-    test.to_csv(classfile_path, index=None, header=False)
+    title = ['ID']
+    test = pd.DataFrame(data=class_nodes, columns=title)
+    test.to_csv(classfile_path, index=None, header=True)
 
-    # title = ['Source', 'Target', 'Type']
-    test = pd.DataFrame(data=orig_edges)
-    test.to_csv(orig_edgefile_path, index=None, header=False)
+    title = ['Source', 'Target']
+    test = pd.DataFrame(data=orig_edges, columns=title)
+    test.to_csv(orig_edgefile_path, index=None, header=True)
 
 
 def dataTest():
-    sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
+    sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
     iter = ['0.05', '0.1', '0.2']
     count = ['1', '2', '3', '4', '5']
-    nn = 'email'
+    nn = 'facebook1684'
     for ii in sample_types:
         iter = ['0.05', '0.1', '0.2']
         for jj in iter:
             for kk in count:
                 print(ii, jj ,kk)
-                path1 = "SamplingDataCount/one-step/{}_{}/{}_{}_{}_{}_node.csv".format(nn, jj, ii, nn, jj, kk)
-                path2 = "SamplingDataCount/one-step/{}_{}/{}_{}_{}_{}_edge.csv".format(nn, jj, ii, nn, jj, kk)
+                path1 = "SamplingDataCount/two-step/{}_{}/{}_{}_{}_{}_node.csv".format(nn, jj, ii, nn, jj, kk)
+                path2 = "SamplingDataCount/two-step/{}_{}/{}_{}_{}_{}_edge.csv".format(nn, jj, ii, nn, jj, kk)
 
                 file = os.path.splitext(path1)
                 filename, type = file

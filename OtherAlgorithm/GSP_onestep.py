@@ -187,7 +187,7 @@ def dataTest():
 
     isDirect = False
     G = loadData(path1, path2, isDirect)
-    print('hi')
+    # print('hi')
     # Graph Partition Process
     edgeWeightComputing(G)
     # eta = 0.8
