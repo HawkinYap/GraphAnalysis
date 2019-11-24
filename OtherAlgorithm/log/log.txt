@@ -1,1125 +1,1125 @@
 ---------------------------
-Time: Fri Nov 22 22:19:39 2019
+Time: Sun Nov 24 12:25:16 2019
 User: Hawkin
 
-filename: oregon_1
+filename: facebook3437simi_1
 Sampling Type: DLA
 Sampling Rate: 0.05
 ---------original---------
 sampling rate : 5.00% 
 --------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
 ---------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
 ---------sampling---------
-nodes number : 534
-edges number : 256
-average degree: 0.0
-average clustering: 0.042825644345458255
-density: 0.001798877107180752
----------------------
-global: 27
-global new: 4
-star: 163
-star new: 149
-innerarti: 3
-innerarti new: 3
-outerarti: 6
-outerarti new: 6
-----Evaluation indicators----
-Recall: [0.04307116104868914, 0.025362318840579712, 0.0, 0.0]
-Mean Recall: 0.01710836997231721
-FAC: [0.14814814814814814, 0.9141104294478528, 1.0, 1.0]
-Mean FAC: 0.7655646443990003
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.009638952885489598
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:19:42 2019
-User: Hawkin
-
-filename: oregon_2
-Sampling Type: DLA
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 1313
+nodes number : 40
+edges number : 41
 average degree: 1.0
-average clustering: 0.35243874792797963
-density: 0.009226272038001278
+average clustering: 0.17773809523809522
+density: 0.052564102564102565
 ---------------------
-global: 27
+global: 2
+global new: 2
+star: 8
+star new: 8
+innerarti: 1
+innerarti new: 1
+outerarti: 6
+outerarti new: 5
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.1]
+Mean Recall: 0.03333333333333333
+FAC: [1.0, 1.0, 1.0, 0.8333333333333334]
+Mean FAC: 0.9583333333333334
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.009543399601052499
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:16 2019
+User: Hawkin
+
+filename: facebook3437simi_2
+Sampling Type: DLA
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 42
+average degree: 2.0
+average clustering: 0.027499999999999997
+density: 0.05384615384615385
+---------------------
+global: 2
+global new: 2
+star: 6
+star new: 6
+innerarti: 1
+innerarti new: 1
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.0]
+Mean Recall: 0.0
+FAC: [1.0, 1.0, 1.0, 1.0]
+Mean FAC: 1.0
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.007422587573282121
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:16 2019
+User: Hawkin
+
+filename: facebook3437simi_3
+Sampling Type: DLA
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 47
+average degree: 2.0
+average clustering: 0.2916666666666667
+density: 0.06025641025641026
+---------------------
+global: 2
+global new: 2
+star: 2
+star new: 2
+innerarti: 2
+innerarti new: 2
+outerarti: 5
+outerarti new: 4
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.1]
+Mean Recall: 0.03333333333333333
+FAC: [1.0, 1.0, 1.0, 0.8]
+Mean FAC: 0.95
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.012334862164336817
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:17 2019
+User: Hawkin
+
+filename: facebook3437simi_4
+Sampling Type: DLA
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 32
+average degree: 1.0
+average clustering: 0.1625
+density: 0.041025641025641026
+---------------------
+global: 2
+global new: 2
+star: 10
+star new: 10
+innerarti: 1
+innerarti new: 1
+outerarti: 1
+outerarti new: 1
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.0]
+Mean Recall: 0.0
+FAC: [1.0, 1.0, 1.0, 1.0]
+Mean FAC: 1.0
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.008598472891009444
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:17 2019
+User: Hawkin
+
+filename: facebook3437simi_5
+Sampling Type: DLA
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 119
+average degree: 5.0
+average clustering: 0.38501762126762124
+density: 0.15256410256410258
+---------------------
+global: 2
+global new: 2
+star: 0
+star new: 0
+innerarti: 1
+innerarti new: 1
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.0]
+Mean Recall: 0.0
+FAC: [1.0, '-', 1.0, 1.0]
+Mean FAC: 1.0
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.03496183451320578
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:17 2019
+User: Hawkin
+
+filename: facebook3437simi_1
+Sampling Type: DPL
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 39
+edges number : 75
+average degree: 3.0
+average clustering: 0.4560392598854138
+density: 0.10121457489878542
+---------------------
+global: 2
 global new: 0
-star: 34
-star new: 31
+star: 0
+star new: 0
 innerarti: 0
 innerarti new: 0
-outerarti: 12
-outerarti new: 12
+outerarti: 1
+outerarti new: 1
 ----Evaluation indicators----
-Recall: [0.05056179775280899, 0.005434782608695652, 0.0, 0.0]
-Mean Recall: 0.013999145090376159
-FAC: [0.0, 0.9117647058823529, '-', 1.0]
-Mean FAC: 0.6372549019607843
-MAP: [0.2, 0.0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.027729343798025267
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.004374389083323082
 ---------------------------
 
 ---------------------------
-Time: Fri Nov 22 22:19:46 2019
+Time: Sun Nov 24 12:25:17 2019
 User: Hawkin
 
-filename: oregon_3
-Sampling Type: DLA
+filename: facebook3437simi_2
+Sampling Type: DPL
 Sampling Rate: 0.05
 ---------original---------
 sampling rate : 5.00% 
 --------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
 ---------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
 ---------sampling---------
-nodes number : 534
-edges number : 727
-average degree: 1.0
-average clustering: 0.3489446930632299
-density: 0.0051085299098453385
+nodes number : 40
+edges number : 79
+average degree: 4.0
+average clustering: 0.44660256410256416
+density: 0.10128205128205128
 ---------------------
-global: 27
-global new: 22
-star: 4
-star new: 3
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 1
+outerarti new: 1
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.004645844371892975
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:17 2019
+User: Hawkin
+
+filename: facebook3437simi_3
+Sampling Type: DPL
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 77
+average degree: 3.0
+average clustering: 0.4692811355311356
+density: 0.09871794871794871
+---------------------
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 1
+outerarti new: 1
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.0044478102566918925
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:18 2019
+User: Hawkin
+
+filename: facebook3437simi_4
+Sampling Type: DPL
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 82
+average degree: 4.0
+average clustering: 0.44686050061050064
+density: 0.10512820512820513
+---------------------
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.004745319087781509
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:18 2019
+User: Hawkin
+
+filename: facebook3437simi_5
+Sampling Type: DPL
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 39
+edges number : 76
+average degree: 3.0
+average clustering: 0.4560392598854138
+density: 0.10256410256410256
+---------------------
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 1
+outerarti new: 1
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.00448931660062751
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:18 2019
+User: Hawkin
+
+filename: facebook3437simi_1
+Sampling Type: SGP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 100
+average degree: 4.0
+average clustering: 0.2934111721611722
+density: 0.1282051282051282
+---------------------
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', 1.0]
+Mean FAC: 0.5
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.0065358491358905755
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:18 2019
+User: Hawkin
+
+filename: facebook3437simi_2
+Sampling Type: SGP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 115
+average degree: 6.0
+average clustering: 0.38775627150627157
+density: 0.14743589743589744
+---------------------
+global: 2
+global new: 1
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.025, 0.0, '-', 0.0]
+Mean Recall: 0.008333333333333333
+FAC: [0.5, '-', '-', 1.0]
+Mean FAC: 0.75
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.006597916883908228
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:18 2019
+User: Hawkin
+
+filename: facebook3437simi_3
+Sampling Type: SGP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 161
+average degree: 8.0
+average clustering: 0.5179510036746879
+density: 0.2064102564102564
+---------------------
+global: 2
+global new: 0
+star: 0
+star new: 0
 innerarti: 0
 innerarti new: 0
 outerarti: 0
 outerarti new: 0
 ----Evaluation indicators----
-Recall: [0.009363295880149813, 0.0018115942028985507, 0.0, 0.0]
-Mean Recall: 0.002793722520762091
-FAC: [0.8148148148148148, 0.75, '-', '-']
-Mean FAC: 0.7824074074074074
-MAP: [0.0, 0.0, '-', '-']
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', '-']
+Mean FAC: 0.0
+MAP: [0.0, '-', '-', '-']
 NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.03999793656597448
+JaccardIndex: 0.008303378019401486
 ---------------------------
 
 ---------------------------
-Time: Fri Nov 22 22:19:50 2019
+Time: Sun Nov 24 12:25:19 2019
 User: Hawkin
 
-filename: oregon_4
-Sampling Type: DLA
+filename: facebook3437simi_4
+Sampling Type: SGP
 Sampling Rate: 0.05
 ---------original---------
 sampling rate : 5.00% 
 --------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
 ---------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
 ---------sampling---------
-nodes number : 534
-edges number : 221
-average degree: 0.0
-average clustering: 0.03697162369200111
-density: 0.0015529368776833836
+nodes number : 40
+edges number : 142
+average degree: 6.5
+average clustering: 0.4803891943539777
+density: 0.18205128205128204
 ---------------------
-global: 27
-global new: 7
-star: 127
-star new: 114
-innerarti: 2
-innerarti new: 2
-outerarti: 8
-outerarti new: 8
+global: 2
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 0
+outerarti new: 0
 ----Evaluation indicators----
-Recall: [0.03745318352059925, 0.02355072463768116, 0.0, 0.0]
-Mean Recall: 0.015250977039570103
-FAC: [0.25925925925925924, 0.8976377952755905, 1.0, 1.0]
-Mean FAC: 0.7892242636337125
-MAP: [0.0, 0.0, 0.0, 0.0]
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, '-', '-', '-']
+Mean FAC: 0.0
+MAP: [0.0, '-', '-', '-']
 NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.008783158999564602
+JaccardIndex: 0.007374814362427589
 ---------------------------
 
 ---------------------------
-Time: Fri Nov 22 22:19:53 2019
+Time: Sun Nov 24 12:25:19 2019
 User: Hawkin
 
-filename: oregon_5
-Sampling Type: DLA
+filename: facebook3437simi_5
+Sampling Type: SGP
 Sampling Rate: 0.05
 ---------original---------
 sampling rate : 5.00% 
 --------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
 ---------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
 ---------sampling---------
-nodes number : 534
-edges number : 87
-average degree: 0.0
-average clustering: 0.014226964193917268
-density: 0.0006113371418934587
+nodes number : 40
+edges number : 98
+average degree: 4.0
+average clustering: 0.3124224386724387
+density: 0.12564102564102564
 ---------------------
-global: 27
-global new: 8
-star: 79
-star new: 71
+global: 2
+global new: 1
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 3
+outerarti new: 3
+----Evaluation indicators----
+Recall: [0.025, 0.0, '-', 0.0]
+Mean Recall: 0.008333333333333333
+FAC: [0.5, '-', '-', 1.0]
+Mean FAC: 0.75
+MAP: [0.0, '-', '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.005791902008785921
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:19 2019
+User: Hawkin
+
+filename: facebook3437simi_1
+Sampling Type: SSP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 30
+average degree: 1.0
+average clustering: 0.0
+density: 0.038461538461538464
+---------------------
+global: 2
+global new: 0
+star: 9
+star new: 9
+innerarti: 0
+innerarti new: 0
+outerarti: 3
+outerarti new: 3
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, 1.0, '-', 1.0]
+Mean FAC: 0.6666666666666666
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+JaccardIndex: 0.0032940560352578054
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:19 2019
+User: Hawkin
+
+filename: facebook3437simi_2
+Sampling Type: SSP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 41
+edges number : 33
+average degree: 1.0
+average clustering: 0.0
+density: 0.04024390243902439
+---------------------
+global: 2
+global new: 0
+star: 15
+star new: 15
+innerarti: 5
+innerarti new: 5
+outerarti: 5
+outerarti new: 5
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, 1.0, 1.0, 1.0]
+Mean FAC: 0.75
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+JaccardIndex: 0.0034179623283880707
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:20 2019
+User: Hawkin
+
+filename: facebook3437simi_3
+Sampling Type: SSP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 34
+average degree: 1.0
+average clustering: 0.0
+density: 0.04358974358974359
+---------------------
+global: 2
+global new: 0
+star: 15
+star new: 15
+innerarti: 5
+innerarti new: 5
+outerarti: 5
+outerarti new: 5
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, 1.0, 1.0, 1.0]
+Mean FAC: 0.75
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+JaccardIndex: 0.00296513643333296
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:20 2019
+User: Hawkin
+
+filename: facebook3437simi_4
+Sampling Type: SSP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 32
+average degree: 1.0
+average clustering: 0.010416666666666666
+density: 0.041025641025641026
+---------------------
+global: 2
+global new: 0
+star: 7
+star new: 7
+innerarti: 1
+innerarti new: 1
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, 1.0, 1.0, 1.0]
+Mean FAC: 0.75
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+JaccardIndex: 0.0031479489779550527
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:20 2019
+User: Hawkin
+
+filename: facebook3437simi_5
+Sampling Type: SSP
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 33
+average degree: 1.0
+average clustering: 0.0
+density: 0.04230769230769231
+---------------------
+global: 2
+global new: 0
+star: 13
+star new: 13
+innerarti: 3
+innerarti new: 3
+outerarti: 2
+outerarti new: 2
+----Evaluation indicators----
+Recall: [0.05, 0.0, '-', 0.0]
+Mean Recall: 0.016666666666666666
+FAC: [0.0, 1.0, 1.0, 1.0]
+Mean FAC: 0.75
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+JaccardIndex: 0.0031973221149032725
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:20 2019
+User: Hawkin
+
+filename: facebook3437simi_1
+Sampling Type: SST
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 34
+average degree: 1.0
+average clustering: 0.16333333333333333
+density: 0.04358974358974359
+---------------------
+global: 2
+global new: 1
+star: 6
+star new: 6
+innerarti: 1
+innerarti new: 1
+outerarti: 7
+outerarti new: 7
+----Evaluation indicators----
+Recall: [0.025, 0.0, '-', 0.0]
+Mean Recall: 0.008333333333333333
+FAC: [0.5, 1.0, 1.0, 1.0]
+Mean FAC: 0.875
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.018534745019012894
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:20 2019
+User: Hawkin
+
+filename: facebook3437simi_2
+Sampling Type: SST
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 42
+average degree: 1.0
+average clustering: 0.26083333333333336
+density: 0.05384615384615385
+---------------------
+global: 2
+global new: 1
+star: 1
+star new: 1
+innerarti: 1
+innerarti new: 1
+outerarti: 5
+outerarti new: 4
+----Evaluation indicators----
+Recall: [0.025, 0.0, '-', 0.1]
+Mean Recall: 0.041666666666666664
+FAC: [0.5, 1.0, 1.0, 0.8]
+Mean FAC: 0.825
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+JaccardIndex: 0.0266947736553424
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:21 2019
+User: Hawkin
+
+filename: facebook3437simi_3
+Sampling Type: SST
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 41
+edges number : 44
+average degree: 2.0
+average clustering: 0.20325203252032523
+density: 0.05365853658536585
+---------------------
+global: 2
+global new: 2
+star: 2
+star new: 2
+innerarti: 3
+innerarti new: 3
+outerarti: 10
+outerarti new: 9
+----Evaluation indicators----
+Recall: [0.0, 0.0, '-', 0.1]
+Mean Recall: 0.03333333333333333
+FAC: [1.0, 1.0, 1.0, 0.9]
+Mean FAC: 0.975
+MAP: [0.0, 0.0, '-', 0.2]
+NDCG: ['-', '-', '-', 1.0]
+JaccardIndex: 0.023242700410669784
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:21 2019
+User: Hawkin
+
+filename: facebook3437simi_4
+Sampling Type: SST
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 30
+average degree: 1.0
+average clustering: 0.11916666666666667
+density: 0.038461538461538464
+---------------------
+global: 2
+global new: 1
+star: 3
+star new: 3
+innerarti: 0
+innerarti new: 0
+outerarti: 7
+outerarti new: 6
+----Evaluation indicators----
+Recall: [0.025, 0.0, '-', 0.1]
+Mean Recall: 0.041666666666666664
+FAC: [0.5, 1.0, '-', 0.8571428571428571]
+Mean FAC: 0.7857142857142857
+MAP: [0.0, 0.0, '-', 0.2]
+NDCG: ['-', '-', '-', 1.0]
+JaccardIndex: 0.01941080314224243
+---------------------------
+
+---------------------------
+Time: Sun Nov 24 12:25:21 2019
+User: Hawkin
+
+filename: facebook3437simi_5
+Sampling Type: SST
+Sampling Rate: 0.05
+---------original---------
+sampling rate : 5.00% 
+--------------------------
+nodes number : 806
+edges number : 8283
+average degree: 20.55334987593052
+average clustering: 0.34256435375043626
+density: 0.02553211164711866
+---------------------
+global: 40
+star: 1
+innerarti: 0
+outerarti: 10
+---------sampling---------
+nodes number : 40
+edges number : 31
+average degree: 1.0
+average clustering: 0.11583333333333332
+density: 0.03974358974358974
+---------------------
+global: 2
+global new: 2
+star: 5
+star new: 5
 innerarti: 1
 innerarti new: 1
 outerarti: 6
 outerarti new: 6
 ----Evaluation indicators----
-Recall: [0.035580524344569285, 0.014492753623188406, 0.0, 0.0]
-Mean Recall: 0.012518319491939423
-FAC: [0.2962962962962963, 0.8987341772151899, 1.0, 1.0]
-Mean FAC: 0.7987576183778715
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.004168539641214138
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:19:57 2019
-User: Hawkin
-
-filename: oregon_1
-Sampling Type: DPL
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 536
-edges number : 601
-average degree: 1.0
-average clustering: 0.17150882700288536
-density: 0.004191658529781001
----------------------
-global: 27
-global new: 0
-star: 63
-star new: 57
-innerarti: 3
-innerarti new: 3
-outerarti: 23
-outerarti new: 23
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.010869565217391304, 0.0, 0.0]
-Mean Recall: 0.015357840742550073
-FAC: [0.0, 0.9047619047619048, 1.0, 1.0]
-Mean FAC: 0.7261904761904762
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.01299877248385962
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:00 2019
-User: Hawkin
-
-filename: oregon_2
-Sampling Type: DPL
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 646
-average degree: 1.0
-average clustering: 0.16960341620100577
-density: 0.004556419190565532
----------------------
-global: 27
-global new: 0
-star: 75
-star new: 69
-innerarti: 4
-innerarti new: 4
-outerarti: 21
-outerarti new: 21
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.010869565217391304, 0.0, 0.0]
-Mean Recall: 0.015357840742550073
-FAC: [0.0, 0.92, 1.0, 1.0]
-Mean FAC: 0.73
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.01364231494564175
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:03 2019
-User: Hawkin
-
-filename: oregon_3
-Sampling Type: DPL
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 635
-average degree: 1.0
-average clustering: 0.17228634303493653
-density: 0.004462058449452256
----------------------
-global: 27
-global new: 0
-star: 71
-star new: 66
-innerarti: 4
-innerarti new: 4
-outerarti: 20
-outerarti new: 20
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.009057971014492754, 0.0, 0.0]
-Mean Recall: 0.014904942191825435
-FAC: [0.0, 0.9295774647887324, 1.0, 1.0]
-Mean FAC: 0.7323943661971831
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.012632433448683608
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:07 2019
-User: Hawkin
-
-filename: oregon_4
-Sampling Type: DPL
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 532
-edges number : 656
-average degree: 1.0
-average clustering: 0.15610475147930344
-density: 0.004644379309856562
----------------------
-global: 27
-global new: 0
-star: 81
-star new: 76
-innerarti: 4
-innerarti new: 4
-outerarti: 31
-outerarti new: 31
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.009057971014492754, 0.0, 0.0]
-Mean Recall: 0.014904942191825435
-FAC: [0.0, 0.9382716049382716, 1.0, 1.0]
-Mean FAC: 0.7345679012345678
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.01326024001755745
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:10 2019
-User: Hawkin
-
-filename: oregon_5
-Sampling Type: DPL
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 643
-average degree: 1.0
-average clustering: 0.15345241311238944
-density: 0.004535259349123277
----------------------
-global: 27
-global new: 0
-star: 90
-star new: 84
-innerarti: 5
-innerarti new: 5
-outerarti: 25
-outerarti new: 25
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.010869565217391304, 0.0, 0.0]
-Mean Recall: 0.015357840742550073
-FAC: [0.0, 0.9333333333333333, 1.0, 1.0]
-Mean FAC: 0.7333333333333334
-MAP: [0.4, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.013126396546917532
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:14 2019
-User: Hawkin
-
-filename: oregon_1
-Sampling Type: SGP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10686
-edges number : 22002
-average degree: 4.117911285794498
-average clustering: 0.2965277455107892
-density: 0.00038539179090262026
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 38
-average degree: 0.0
-average clustering: 0.0
-density: 0.0002670208205971429
----------------------
-global: 27
-global new: 15
-star: 60
-star new: 60
-innerarti: 1
-innerarti new: 1
-outerarti: 3
-outerarti new: 3
-----Evaluation indicators----
-Recall: [0.02247191011235955, 0.0, 0.0, 0.0]
-Mean Recall: 0.0056179775280898875
-FAC: [0.5555555555555556, 1.0, 1.0, 1.0]
-Mean FAC: 0.8888888888888888
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.0013524610408994163
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:17 2019
-User: Hawkin
-
-filename: oregon_2
-Sampling Type: SGP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10686
-edges number : 22002
-average degree: 4.117911285794498
-average clustering: 0.2965277455107892
-density: 0.00038539179090262026
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 50
-average degree: 0.0
-average clustering: 0.0
-density: 0.0003513431849962406
----------------------
-global: 27
-global new: 17
-star: 73
-star new: 73
-innerarti: 0
-innerarti new: 0
-outerarti: 2
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.018726591760299626, 0.0, 0.0, 0.0]
-Mean Recall: 0.0046816479400749065
-FAC: [0.6296296296296297, 1.0, '-', 1.0]
-Mean FAC: 0.8765432098765432
+Recall: [0.0, 0.0, '-', 0.0]
+Mean Recall: 0.0
+FAC: [1.0, 1.0, 1.0, 1.0]
+Mean FAC: 1.0
 MAP: [0.0, 0.0, '-', 0.0]
 NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.0018967609070948714
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:20 2019
-User: Hawkin
-
-filename: oregon_3
-Sampling Type: SGP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10686
-edges number : 22002
-average degree: 4.117911285794498
-average clustering: 0.2965277455107892
-density: 0.00038539179090262026
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 52
-average degree: 0.0
-average clustering: 0.0
-density: 0.00036539691239609025
----------------------
-global: 27
-global new: 13
-star: 70
-star new: 70
-innerarti: 1
-innerarti new: 1
-outerarti: 5
-outerarti new: 5
-----Evaluation indicators----
-Recall: [0.026217228464419477, 0.0, 0.0, 0.0]
-Mean Recall: 0.006554307116104869
-FAC: [0.48148148148148145, 1.0, 1.0, 1.0]
-Mean FAC: 0.8703703703703703
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.0019073239749512751
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:23 2019
-User: Hawkin
-
-filename: oregon_4
-Sampling Type: SGP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10686
-edges number : 22002
-average degree: 4.117911285794498
-average clustering: 0.2965277455107892
-density: 0.00038539179090262026
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 33
-average degree: 0.0
-average clustering: 0.0
-density: 0.0002318865020975188
----------------------
-global: 27
-global new: 17
-star: 47
-star new: 47
-innerarti: 1
-innerarti new: 1
-outerarti: 2
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.018726591760299626, 0.0, 0.0, 0.0]
-Mean Recall: 0.0046816479400749065
-FAC: [0.6296296296296297, 1.0, 1.0, 1.0]
-Mean FAC: 0.9074074074074074
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.0009894014603244598
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:26 2019
-User: Hawkin
-
-filename: oregon_5
-Sampling Type: SGP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10686
-edges number : 22002
-average degree: 4.117911285794498
-average clustering: 0.2965277455107892
-density: 0.00038539179090262026
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 33
-average degree: 0.0
-average clustering: 0.0
-density: 0.0002318865020975188
----------------------
-global: 27
-global new: 5
-star: 42
-star new: 42
-innerarti: 2
-innerarti new: 2
-outerarti: 1
-outerarti new: 1
-----Evaluation indicators----
-Recall: [0.04119850187265917, 0.0, 0.0, 0.0]
-Mean Recall: 0.010299625468164793
-FAC: [0.18518518518518517, 1.0, 1.0, 1.0]
-Mean FAC: 0.7962962962962963
-MAP: [0.0, 0.0, 0.0, 0.0]
-NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.0006246713809289793
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:30 2019
-User: Hawkin
-
-filename: oregon_1
-Sampling Type: SSP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 534
-edges number : 612
-average degree: 1.0
-average clustering: 0.009194793240554019
-density: 0.004300440584353985
----------------------
-global: 27
-global new: 0
-star: 132
-star new: 124
-innerarti: 11
-innerarti new: 11
-outerarti: 70
-outerarti new: 70
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.014492753623188406, 0.0, 0.0]
-Mean Recall: 0.016263637843999347
-FAC: [0.0, 0.9393939393939394, 1.0, 1.0]
-Mean FAC: 0.7348484848484849
-MAP: [0.4, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.022024124040909157
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:33 2019
-User: Hawkin
-
-filename: oregon_2
-Sampling Type: SSP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 606
-average degree: 1.0
-average clustering: 0.010070422936314403
-density: 0.0042742879713354685
----------------------
-global: 27
-global new: 0
-star: 141
-star new: 124
-innerarti: 15
-innerarti new: 15
-outerarti: 75
-outerarti new: 75
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.030797101449275364, 0.0, 0.0]
-Mean Recall: 0.020339724800521087
-FAC: [0.0, 0.8794326241134752, 1.0, 1.0]
-Mean FAC: 0.7198581560283688
-MAP: [0.4, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.023069733955793554
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:36 2019
-User: Hawkin
-
-filename: oregon_3
-Sampling Type: SSP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 614
-average degree: 1.0
-average clustering: 0.007571025422703789
-density: 0.0043307142151814805
----------------------
-global: 27
-global new: 0
-star: 141
-star new: 129
-innerarti: 13
-innerarti new: 13
-outerarti: 66
-outerarti new: 65
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.021739130434782608, 0.0, 0.002331002331002331]
-Mean Recall: 0.018657982629648483
-FAC: [0.0, 0.9148936170212766, 1.0, 0.9848484848484849]
-Mean FAC: 0.7249355254674403
-MAP: [0.4, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.021741643377797545
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:40 2019
-User: Hawkin
-
-filename: oregon_4
-Sampling Type: SSP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 615
-average degree: 1.0
-average clustering: 0.009665804533497383
-density: 0.004337767495662233
----------------------
-global: 27
-global new: 0
-star: 128
-star new: 114
-innerarti: 10
-innerarti new: 10
-outerarti: 62
-outerarti new: 62
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.025362318840579712, 0.0, 0.0]
-Mean Recall: 0.018981029148347175
-FAC: [0.0, 0.890625, 1.0, 1.0]
-Mean FAC: 0.72265625
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.023388526567369495
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:43 2019
-User: Hawkin
-
-filename: oregon_5
-Sampling Type: SSP
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 609
-average degree: 1.0
-average clustering: 0.008556195124907236
-density: 0.004295447812777723
----------------------
-global: 27
-global new: 0
-star: 133
-star new: 118
-innerarti: 20
-innerarti new: 20
-outerarti: 71
-outerarti new: 70
-----Evaluation indicators----
-Recall: [0.05056179775280899, 0.02717391304347826, 0.0, 0.002331002331002331]
-Mean Recall: 0.020016678281822395
-FAC: [0.0, 0.8872180451127819, 1.0, 0.9859154929577465]
-Mean FAC: 0.7182833845176321
-MAP: [0.4, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.022941734679248763
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:47 2019
-User: Hawkin
-
-filename: oregon_1
-Sampling Type: SST
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 618
-average degree: 1.0
-average clustering: 0.034568607386174136
-density: 0.004358927337104487
----------------------
-global: 27
-global new: 2
-star: 33
-star new: 27
-innerarti: 0
-innerarti new: 0
-outerarti: 3
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.04681647940074907, 0.010869565217391304, 0.0, 0.002331002331002331]
-Mean Recall: 0.015004261737285675
-FAC: [0.07407407407407407, 0.8181818181818182, '-', 0.6666666666666666]
-Mean FAC: 0.5196408529741863
-MAP: [0.2, 0.0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.03756526967713566
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:50 2019
-User: Hawkin
-
-filename: oregon_2
-Sampling Type: SST
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 644
-average degree: 1.0
-average clustering: 0.06051217179596699
-density: 0.004542312629604029
----------------------
-global: 27
-global new: 2
-star: 23
-star new: 15
-innerarti: 1
-innerarti new: 1
-outerarti: 4
-outerarti new: 3
-----Evaluation indicators----
-Recall: [0.04681647940074907, 0.014492753623188406, 0.0, 0.002331002331002331]
-Mean Recall: 0.01591005883873495
-FAC: [0.07407407407407407, 0.6521739130434783, 1.0, 0.75]
-Mean FAC: 0.6190619967793881
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.03755783098779428
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:54 2019
-User: Hawkin
-
-filename: oregon_3
-Sampling Type: SST
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 614
-average degree: 1.0
-average clustering: 0.02547595773914461
-density: 0.0043307142151814805
----------------------
-global: 27
-global new: 2
-star: 27
-star new: 20
-innerarti: 1
-innerarti new: 1
-outerarti: 3
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.04681647940074907, 0.012681159420289856, 0.0, 0.002331002331002331]
-Mean Recall: 0.015457160288010313
-FAC: [0.07407407407407407, 0.7407407407407407, 1.0, 0.6666666666666666]
-Mean FAC: 0.6203703703703703
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.03697080857967549
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:20:57 2019
-User: Hawkin
-
-filename: oregon_4
-Sampling Type: SST
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 621
-average degree: 1.0
-average clustering: 0.04440289897772178
-density: 0.004380087178546742
----------------------
-global: 27
-global new: 2
-star: 29
-star new: 22
-innerarti: 0
-innerarti new: 0
-outerarti: 4
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.04681647940074907, 0.012681159420289856, 0.0, 0.004662004662004662]
-Mean Recall: 0.016039910870760895
-FAC: [0.07407407407407407, 0.7586206896551724, '-', 0.5]
-Mean FAC: 0.44423158790974887
-MAP: [0.2, 0.0, '-', 0.0]
-NDCG: [1.0, 1.0, '-', '-']
-JaccardIndex: 0.037590379422881647
----------------------------
-
----------------------------
-Time: Fri Nov 22 22:21:00 2019
-User: Hawkin
-
-filename: oregon_5
-Sampling Type: SST
-Sampling Rate: 0.05
----------original---------
-sampling rate : 5.00% 
---------------------------
-nodes number : 10670
-edges number : 22002
-average degree: 4.124086223055295
-average clustering: 0.2969723981750978
-density: 0.00038654852592138865
----------------------
-global: 534
-star: 552
-innerarti: 17
-outerarti: 429
----------sampling---------
-nodes number : 533
-edges number : 610
-average degree: 1.0
-average clustering: 0.03241387737098977
-density: 0.004302501093258474
----------------------
-global: 27
-global new: 1
-star: 18
-star new: 11
-innerarti: 1
-innerarti new: 1
-outerarti: 2
-outerarti new: 2
-----Evaluation indicators----
-Recall: [0.04868913857677903, 0.012681159420289856, 0.0, 0.0]
-Mean Recall: 0.01534257449926722
-FAC: [0.037037037037037035, 0.6111111111111112, 1.0, 1.0]
-Mean FAC: 0.662037037037037
-MAP: [0.2, 0.0, 0.0, 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.03711696724719351
+JaccardIndex: 0.02108350936381244
 ---------------------------
 

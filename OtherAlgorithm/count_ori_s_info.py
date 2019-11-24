@@ -669,8 +669,8 @@ def loadData(path1, path2, isDirect):
 def Data_Test(sample_type, filename, iter, rate):
 
     # Test file type
-    path1 = "SamplingDataCount/two-step/oregon_0.05/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    path2 = "SamplingDataCount/two-step/oregon_0.05/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    path1 = "SamplingDataCount/two-step/facebook3437simi_0.05/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    path2 = "SamplingDataCount/two-step/facebook3437simi_0.05/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
@@ -711,7 +711,7 @@ if __name__ == '__main__':
     sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
     # sample_types = ['ISMHRW', 'RMSC']
     # sample_type = 'RDN'
-    filename = 'oregon'
+    filename = 'facebook3437simi'
     iter = 5
     rate = 0.05
     for sample_type in sample_types:
