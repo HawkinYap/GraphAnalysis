@@ -6,10 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" line="34" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" afterDir="false" />
-    </list>
+    <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="count_ori_s_info.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="count_ori_s_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="672" column="56" selection-start-line="672" selection-start-column="56" selection-end-line="672" selection-end-column="56" />
+            <state relative-caret-position="726">
+              <caret line="676" column="17" lean-forward="true" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -83,9 +80,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="log.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="SSP.py" pinned="false" current-in-tab="false">
@@ -928,16 +929,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="672" column="56" selection-start-line="672" selection-start-column="56" selection-end-line="672" selection-end-column="56" />
+        <state relative-caret-position="726">
+          <caret line="676" column="17" lean-forward="true" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
         </state>
       </provider>
     </entry>
