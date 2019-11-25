@@ -37,7 +37,12 @@ def R1(G, A):
 
 
 def edgeWeightComputing(G):
-    for u, v in G.edges:
+    i = 0
+    edge_list = list(G.edges())
+    print(edge_list[0], edge_list[1])
+    for edge in edge_list[:10001]:
+        u = edge[0]
+        v = edge[1]
         u_neighbor = list(G.neighbors(u))
         v_neighbor = list(G.neighbors(v))
         Vuv = set(u_neighbor) & set(v_neighbor)
@@ -49,7 +54,10 @@ def edgeWeightComputing(G):
         EWe = R2(G, Vu, Vuv) + R2(G, Vu, Vv) + R2(G, Vuv, Vv) + \
             R1(G, Vuv) + cycle_ratio
         G[u][v]['Ewe'] = EWe
-        print(EWe)
+        print(u, v, EWe)
+        i += 1
+        if i == 10000:
+            break
 
 
 def GraphSampling(Gi, Gs, vs, max, size, p):
@@ -153,8 +161,8 @@ def dataTest():
     # path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
-    path1 = "../GraphSampling/formalData/oregon_node.csv"
-    path2 = "../GraphSampling/formalData/oregon_edge.csv"
+    path1 = "../GraphSampling/formalData/facebook1912_node.csv"
+    path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -176,7 +184,7 @@ def dataTest():
     #         G[u][v]['filter'] = 0
 
     # Save_Graph_test(G, fn, rate)
-    rate = 0.4
+    rate = 'part1'
     # filterEdges(G, eta, rate)
     Save_Graph_test(G, fn, rate)
 
