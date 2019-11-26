@@ -7,8 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc51644f-6278-4b54-96dd-edda3f5da961" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/cagrqc_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/cagrqc_node.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/cahepth_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/cahepth_node.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/p2pG06_edge.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/Data/p2pG06_node.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/read_result_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OtherAlgorithm/test_result_log/p2p_0.05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/SGP.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/SGP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +39,8 @@
             <file leaf-file-name="importanceSampler.py" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/OtherAlgorithm/importanceSampler.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="638">
-                    <caret line="519" column="21" selection-start-line="519" selection-start-column="21" selection-end-line="519" selection-end-column="21" />
+                  <state relative-caret-position="287">
+                    <caret line="506" column="24" selection-start-line="506" selection-start-column="24" selection-end-line="507" selection-end-column="13" />
                     <folding>
                       <element signature="e#0#21#0" expanded="true" />
                     </folding>
@@ -50,8 +58,8 @@
       <file leaf-file-name="count_ori_s_info.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17955">
-              <caret line="676" column="17" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
+            <state relative-caret-position="-57">
+              <caret line="659" column="26" lean-forward="true" selection-start-line="659" selection-start-column="26" selection-end-line="659" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -59,28 +67,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extract_sampler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_sampler.py">
+      <file leaf-file-name="extract_outlier_in_graph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="551">
+              <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facebook1912_edge.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/facebook1912_edge.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="GSP_onestep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="192" column="15" lean-forward="true" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
+            <state relative-caret-position="452">
+              <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -88,34 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29889">
-              <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SGP.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SGP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="164" column="53" selection-start-line="164" selection-start-column="53" selection-end-line="164" selection-end-column="53" />
+            <state relative-caret-position="3699">
+              <caret line="169" column="27" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SSP.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GraphSampling/SSP.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +106,7 @@
       <file leaf-file-name="test_sample_cal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
+            <state relative-caret-position="1874">
               <caret line="291" column="14" selection-start-line="291" selection-start-column="14" selection-end-line="291" selection-end-column="14" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
@@ -147,6 +129,7 @@
       <find>print</find>
       <find>48</find>
       <find>,</find>
+      <find>2363</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_any.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/RMSC.py" />
         <option value="$PROJECT_DIR$/GraphSampling/RE.py" />
         <option value="$PROJECT_DIR$/GraphSampling/RN.py" />
@@ -189,7 +171,6 @@
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_node.csv" />
         <option value="$PROJECT_DIR$/GraphSampling/formalData/facebook3437simi_edge.csv" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/testSamplingDataCount/GSP_twostep.py" />
-        <option value="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/matrixvis.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/SST.py" />
         <option value="$PROJECT_DIR$/GraphSampling/SST.py" />
@@ -206,6 +187,8 @@
         <option value="$PROJECT_DIR$/OtherAlgorithm/log/log.txt" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py" />
         <option value="$PROJECT_DIR$/OtherAlgorithm/SGP.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/read_result_log.py" />
+        <option value="$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py" />
       </list>
     </option>
   </component>
@@ -223,8 +206,9 @@
       <path value="$PROJECT_DIR$/HighlightGraph/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1911" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="1788" />
+    <option name="y" value="22" />
     <option name="width" value="1938" />
     <option name="height" value="2112" />
   </component>
@@ -291,75 +275,6 @@
             <path>
               <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="GSP_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SamplingDataCount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SamplingDataCount" type="462c0819:PsiDirectoryNode" />
-              <item name="two-step" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SamplingDataCount" type="462c0819:PsiDirectoryNode" />
-              <item name="two-step" type="462c0819:PsiDirectoryNode" />
-              <item name="facebook3437simi_0.05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
-              <item name="G" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
-              <item name="G" type="462c0819:PsiDirectoryNode" />
-              <item name="two-step" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
-              <item name="Gs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="OtherAlgorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="samplingResult" type="462c0819:PsiDirectoryNode" />
-              <item name="Gs" type="462c0819:PsiDirectoryNode" />
-              <item name="two-step" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraphAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraphAnalysis" type="462c0819:PsiDirectoryNode" />
               <item name="SimulationDataset" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -374,19 +289,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\Data" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\test_result_log" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\pgp2_0.05" />
+      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\pgp2_0.2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\oregon_0.2" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\oregon_0.05" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\oregon_0.1" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\new\oregon_0.05" />
       <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\facebook1912_0.2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\pgp2_0.05" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\pgp2_0.2" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\pgp2_0.1" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\p2p_0.05" />
-      <recent name="D:\JHJ2019\2019_2020_code_paper\paper_code\GraphAnalysis\OtherAlgorithm\SamplingDataCount\two-step\p2p_0.2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -528,8 +443,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1274" y="0" width="1292" height="1408" extended-state="0" />
-    <editor active="true" />
+    <frame x="1192" y="15" width="1292" height="1408" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5004042" side_tool="true" weight="0.37480438" />
@@ -537,10 +451,11 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.41673183" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32942098" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32869565" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4995958" visible="true" weight="0.26199841" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.31928688" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4995958" visible="true" weight="0.43115658" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.22447325" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32730132" />
       <window_info anchor="right" id="SciView" order="5" side_tool="true" weight="0.011308562" />
       <window_info id="Structure" order="1" sideWeight="0.50240386" side_tool="true" weight="0.22473727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34663537" />
@@ -552,7 +467,6 @@
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280881" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -693,33 +607,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook0simi_0.05/DPL_facebook0simi_0.05_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook107_0.1/DPL_facebook107_0.1_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook107_0.2/DPL_facebook107_0.2_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook107_0.05/DPL_facebook107_0.05_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook414simi_0.1/DPL_facebook414simi_0.1_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook414simi_0.2/DPL_facebook414simi_0.2_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook414simi_0.05/DPL_facebook414simi_0.05_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook1684_0.1/DPL_facebook1684_0.1_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook1684_0.2/DPL_facebook1684_0.2_1_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SamplingDataCount/two-step/facebook1684_0.05/DPL_facebook1684_0.05_1_edge.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -846,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/importanceSampler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="519" column="21" selection-start-line="519" selection-start-column="21" selection-end-line="519" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GraphSampling/SSP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -865,36 +742,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17955">
-          <caret line="676" column="17" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29889">
-          <caret line="1107" selection-start-line="1107" selection-end-line="1107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="291" column="14" selection-start-line="291" selection-start-column="14" selection-end-line="291" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/facebook1912_edge.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_sampler2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -906,6 +753,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/facebook1912_edge.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/log/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1102" column="17" lean-forward="true" selection-start-line="1102" selection-start-column="17" selection-end-line="1102" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/importanceSampler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="506" column="24" selection-start-line="506" selection-start-column="24" selection-end-line="507" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/test_result_log/DLA_p2p_0.1_1_edge.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GraphSampling/formalData/facebook1912_edge.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_sampler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -916,20 +795,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/p2p_0.05.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/read_result_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="192" column="15" lean-forward="true" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
+        <state relative-caret-position="324">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/test_result_log/p2p_0.05.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/cagrqc_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_sample_cal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1874">
+          <caret line="291" column="14" selection-start-line="291" selection-start-column="14" selection-end-line="291" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OtherAlgorithm/SGP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="164" column="53" selection-start-line="164" selection-start-column="53" selection-end-line="164" selection-end-column="53" />
+        <state relative-caret-position="3699">
+          <caret line="169" column="27" selection-start-line="169" selection-start-column="27" selection-end-line="169" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/cahepth_node.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/count_ori_s_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="659" column="26" lean-forward="true" selection-start-line="659" selection-start-column="26" selection-end-line="659" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/Data/p2pG06_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/GSP_onestep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OtherAlgorithm/extract_outlier_in_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="126" column="34" lean-forward="true" selection-start-line="126" selection-start-column="34" selection-end-line="126" selection-end-column="34" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

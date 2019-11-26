@@ -120,8 +120,11 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "starmatrix/toycase10_node.csv"
-    path2 = "starmatrix/toycase10_edge.csv"
+    # path1 = "starmatrix/toycase10_node.csv"
+    # path2 = "starmatrix/toycase10_edge.csv"
+
+    path1 = "Data/cahepth_node.csv"
+    path2 = "Data/cahepth_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -143,6 +146,7 @@ def dataTest():
     print('node:', len(G))
     print('edge:', nx.number_of_edges(G))
     print(anomaly_total1)
+    print(len(anomaly_total1['global']))
     print(len(anomaly_total1['star']))
 
 
