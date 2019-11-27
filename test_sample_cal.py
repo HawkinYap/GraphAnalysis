@@ -67,9 +67,9 @@ def graphSampling(G, isDirect, seed, rate):
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
     # return(RPN_sample, 'RPN')
 
-    # RDN_object = GraphSampling.RDN()
-    # RDN_sample = RDN_object.RDN(G, sample_rate)
-    # return(RDN_sample, 'RDN')
+    RDN_object = GraphSampling.RDN()
+    RDN_sample = RDN_object.RDN(G, sample_rate)
+    return(RDN_sample, 'RDN')
 
     # -----random edge sampler------
     #
@@ -132,9 +132,9 @@ def graphSampling(G, isDirect, seed, rate):
     # DPL_sample = DPL_object.DPL(G, rate)
     # return(DPL_sample, 'DPL')
 
-    DLA_object = GraphSampling.DLA()
-    DLA_sample = DLA_object.DLA(G, rate)
-    return(DLA_sample, 'DLA')
+    # DLA_object = GraphSampling.DLA()
+    # DLA_sample = DLA_object.DLA(G, rate)
+    # return(DLA_sample, 'DLA')
 
     # GPS_object = GraphSampling.GPS()
     # GPS_sample = GPS_object.GPS(G, rate)
@@ -250,8 +250,10 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "GraphSampling/formalData/oregon_node.csv"
-    path2 = "GraphSampling/formalData/oregon_edge.csv"
+    # path1 = "GraphSampling/formalData/oregon_node.csv"
+    # path2 = "GraphSampling/formalData/oregon_edge.csv"
+    path1 = "OtherAlgorithm/Data/toy2_node.csv"
+    path2 = "OtherAlgorithm/Data/toy2_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -271,7 +273,7 @@ def dataTest():
     random_seed = random_seed[0]
 
     # test 1
-    rate = 0.2
+    rate = 0.5
     iter = 5
     seed = random.sample(random_seed, 1)
     Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
