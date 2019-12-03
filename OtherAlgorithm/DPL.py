@@ -212,14 +212,16 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    # classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    # orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
-    # title = ['ID', 'Class']
+    title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
     test.to_csv(classfile_path, index=None, header=False)
 
-    # title = ['Source', 'Target', 'Type']
+    title = ['Source', 'Target', 'Type']
     test = pd.DataFrame(data=orig_edges)
     test.to_csv(orig_edgefile_path, index=None, header=False)
 
@@ -235,8 +237,10 @@ def dataTest():
     # path2 = "../GraphSampling/Data/email2_edge.csv"
     # path1 = "../GraphSampling/Data/class_node.csv"
     # path2 = "../GraphSampling/Data/class_edge.csv"
-    path1 = "../GraphSampling/formalData/pgp2_node.csv"
-    path2 = "../GraphSampling/formalData/pgp2_edge.csv"
+    # path1 = "../GraphSampling/formalData/pgp2_node.csv"
+    # path2 = "../GraphSampling/formalData/pgp2_edge.csv"
+    path1 = "Data/lesmi_node.csv"
+    path2 = "Data/lesmi_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -249,8 +253,8 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.05
-    iter = 5
+    rate = 0.4
+    iter = 1
     Gs = DPL_sampler(G, rate)
     print(len(Gs))
     getInfo(G, Gs)
