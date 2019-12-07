@@ -339,6 +339,8 @@ def isPartition(G, fn, rate, isBalance):
             total_anomaly['outerarti'] += anomaly_total['outerarti']
         else:
             total_anomaly['outerarti'] = anomaly_total['outerarti']
+        print(anomaly_total)
+        print(total_anomaly)
         # for u,v in total_anomaly.items():
         #     print(u, len(v))
     else:
@@ -497,9 +499,13 @@ def dataTest():
     # path2 = "Data/facebook414_edge.csv"
     # path1 = "../GraphSampling/Data/toy3_node.csv"
     # path2 = "../GraphSampling/Data/toy3_edge.csv"
-    path1 = "../GraphSampling/formalData/facebook1912_node.csv"
-    path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
-    rate = 0.2
+    # path1 = "../GraphSampling/formalData/facebook1912_node.csv"
+    # path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
+
+    path1 = "../OtherAlgorithm/Data/lesmi5_node.csv"
+    path2 = "../OtherAlgorithm/Data/lesmi5_edge.csv"
+
+    rate = 0.4
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -517,7 +523,7 @@ def dataTest():
         G.node[n]['topok'] = 0
         G.node[n]['labels'] = 0
 
-    isBalance = False
+    isBalance = True
     isPartition(G, fn, rate, isBalance)
 
     G1 = nx.Graph()

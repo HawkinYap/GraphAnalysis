@@ -77,8 +77,9 @@ def addGLabels(G, sample_type, filename, iter, rate):
 
 
 def addSampleLabels(G):
-    sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW', 'DLA', 'DPL', 'GPS', 'SSP', 'SST', 'ISMHRW', 'RMSC']
-    filename = 'lesmi'
+    # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW', 'DLA', 'DPL', 'GPS', 'SSP', 'SST', 'ISMHRW', 'RMSC']
+    sample_types = ['RDN', 'TIES', 'FF', 'MHRW']
+    filename = 'lesmi5'
     iter = 1
     rate = 0.4
     for sample_type in sample_types:
@@ -90,8 +91,8 @@ def Save_Graph_test(G, filename):
 
 
 def dataTest():
-    path1 = "Data/lesmi_node.csv"
-    path2 = "Data/lesmi_edge.csv"
+    path1 = "Data/lesmi5_node.csv"
+    path2 = "Data/lesmi5_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

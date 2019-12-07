@@ -239,8 +239,8 @@ def dataTest():
     # path2 = "../GraphSampling/Data/class_edge.csv"
     # path1 = "../GraphSampling/formalData/pgp2_node.csv"
     # path2 = "../GraphSampling/formalData/pgp2_edge.csv"
-    path1 = "Data/lesmi_node.csv"
-    path2 = "Data/lesmi_edge.csv"
+    path1 = "Data/lesmi3_node.csv"
+    path2 = "Data/lesmi3_edge.csv"
 
 
     file = os.path.splitext(path1)
