@@ -7,6 +7,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 1
@@ -16,6 +19,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 2
@@ -25,6 +31,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 3
@@ -34,6 +43,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 4
@@ -43,6 +55,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 5
@@ -52,6 +67,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 6
@@ -61,6 +79,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 7
@@ -70,6 +91,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 8
@@ -79,6 +103,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 9
@@ -88,6 +115,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 10
@@ -97,6 +127,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 2
+    SST 2
+    RWF 2
   ]
   node [
     id 11
@@ -106,6 +139,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 12
@@ -115,6 +151,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 1
   ]
   node [
     id 13
@@ -124,6 +163,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 14
@@ -133,6 +175,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 15
@@ -142,6 +187,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 16
@@ -151,6 +199,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 17
@@ -160,6 +211,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 18
@@ -169,6 +223,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 19
@@ -178,6 +235,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 20
@@ -187,6 +247,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 1
   ]
   node [
     id 21
@@ -196,6 +259,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 22
@@ -205,6 +271,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 23
@@ -214,6 +283,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 24
@@ -223,6 +295,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 1
   ]
   node [
     id 25
@@ -232,6 +307,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 26
@@ -241,6 +319,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 27
@@ -250,6 +331,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 1
   ]
   node [
     id 28
@@ -259,6 +343,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 29
@@ -268,6 +355,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 30
@@ -277,6 +367,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 31
@@ -286,6 +379,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 32
@@ -295,6 +391,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 33
@@ -304,6 +403,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 34
@@ -313,6 +415,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 1
   ]
   node [
     id 35
@@ -322,6 +427,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 36
@@ -331,6 +439,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 37
@@ -340,6 +451,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 38
@@ -349,6 +463,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 39
@@ -358,6 +475,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 40
@@ -367,6 +487,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 41
@@ -376,6 +499,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 42
@@ -385,6 +511,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 43
@@ -394,6 +523,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 44
@@ -403,6 +535,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 45
@@ -412,6 +547,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 2
+    SST 2
+    RWF 2
   ]
   node [
     id 46
@@ -421,6 +559,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 47
@@ -430,6 +571,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 48
@@ -439,6 +583,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 49
@@ -448,6 +595,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 50
@@ -457,6 +607,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 2
   ]
   node [
     id 51
@@ -466,6 +619,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 52
@@ -475,6 +631,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   node [
     id 53
@@ -484,6 +643,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 54
@@ -493,6 +655,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 55
@@ -502,6 +667,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 56
@@ -511,6 +679,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 57
@@ -520,6 +691,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 58
@@ -529,6 +703,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 59
@@ -538,6 +715,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 60
@@ -547,6 +727,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 61
@@ -556,6 +739,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 62
@@ -565,6 +751,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 63
@@ -574,6 +763,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   node [
     id 64
@@ -583,6 +775,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 65
@@ -592,6 +787,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   node [
     id 66
@@ -601,6 +799,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 67
@@ -610,6 +811,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 68
@@ -619,6 +823,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   node [
     id 69
@@ -628,6 +835,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   node [
     id 70
@@ -637,6 +847,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 0
@@ -645,6 +858,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -653,6 +869,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -661,6 +880,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -669,6 +891,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -677,6 +902,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -685,6 +913,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -693,6 +924,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -701,6 +935,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -709,6 +946,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 0
@@ -717,6 +957,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 2
@@ -725,6 +968,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -733,6 +979,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 10
@@ -741,6 +990,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -749,6 +1001,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -757,6 +1012,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -765,6 +1023,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -773,6 +1034,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -781,6 +1045,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -789,6 +1056,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -797,6 +1067,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -805,6 +1078,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -813,6 +1089,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 10
@@ -821,6 +1100,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 10
@@ -829,6 +1111,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 10
@@ -837,6 +1122,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -845,6 +1133,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -853,6 +1144,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -861,6 +1155,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -869,6 +1166,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -877,6 +1177,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -885,6 +1188,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 10
@@ -893,6 +1199,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -901,6 +1210,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 10
@@ -909,6 +1221,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -917,6 +1232,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -925,6 +1243,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -933,6 +1254,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 10
@@ -941,6 +1265,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -949,6 +1276,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 10
@@ -957,6 +1287,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 11
@@ -965,6 +1298,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 11
@@ -973,6 +1309,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 12
@@ -981,6 +1320,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 13
@@ -989,6 +1331,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 13
@@ -997,6 +1342,9 @@ graph [
     TIES 1
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 14
@@ -1005,6 +1353,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 14
@@ -1013,6 +1364,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 15
@@ -1021,6 +1375,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 15
@@ -1029,6 +1386,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 15
@@ -1037,6 +1397,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 15
@@ -1045,6 +1408,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 15
@@ -1053,6 +1419,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 15
@@ -1061,6 +1430,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 15
@@ -1069,6 +1441,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 16
@@ -1077,6 +1452,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 16
@@ -1085,6 +1463,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 16
@@ -1093,6 +1474,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 16
@@ -1101,6 +1485,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 16
@@ -1109,6 +1496,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 17
@@ -1117,6 +1507,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 17
@@ -1125,6 +1518,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 17
@@ -1133,6 +1529,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 1
   ]
   edge [
     source 17
@@ -1141,6 +1540,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 18
@@ -1149,6 +1551,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 18
@@ -1157,6 +1562,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 18
@@ -1165,6 +1573,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 19
@@ -1173,6 +1584,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 19
@@ -1181,6 +1595,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 20
@@ -1189,6 +1606,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1197,6 +1617,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1205,6 +1628,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1213,6 +1639,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 22
@@ -1221,6 +1650,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1229,6 +1661,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1237,6 +1672,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 22
@@ -1245,6 +1683,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 22
@@ -1253,6 +1694,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1261,6 +1705,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1269,6 +1716,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1277,6 +1727,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1285,6 +1738,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1293,6 +1749,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1301,6 +1760,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 23
@@ -1309,6 +1771,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 23
@@ -1317,6 +1782,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 23
@@ -1325,6 +1793,9 @@ graph [
     TIES 2
     FF 2
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 23
@@ -1333,6 +1804,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1341,6 +1815,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 23
@@ -1349,6 +1826,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 23
@@ -1357,6 +1837,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 24
@@ -1365,6 +1848,9 @@ graph [
     TIES 2
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 24
@@ -1373,6 +1859,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 24
@@ -1381,6 +1870,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 24
@@ -1389,6 +1881,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1397,6 +1892,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 25
@@ -1405,6 +1903,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1413,6 +1914,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1421,6 +1925,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1429,6 +1936,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 25
@@ -1437,6 +1947,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1445,6 +1958,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 25
@@ -1453,6 +1969,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1461,6 +1980,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 25
@@ -1469,6 +1991,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 26
@@ -1477,6 +2002,9 @@ graph [
     TIES 1
     FF 2
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 26
@@ -1485,6 +2013,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 26
@@ -1493,6 +2024,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 27
@@ -1501,6 +2035,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 27
@@ -1509,6 +2046,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 27
@@ -1517,6 +2057,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 1
+    RWF 1
   ]
   edge [
     source 27
@@ -1525,6 +2068,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 27
@@ -1533,6 +2079,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 28
@@ -1541,6 +2090,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 30
@@ -1549,6 +2101,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 32
@@ -1557,6 +2112,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 32
@@ -1565,6 +2123,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 32
@@ -1573,6 +2134,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 32
@@ -1581,6 +2145,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 33
@@ -1589,6 +2156,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 33
@@ -1597,6 +2167,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 33
@@ -1605,6 +2178,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 34
@@ -1613,6 +2189,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 34
@@ -1621,6 +2200,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 35
@@ -1629,6 +2211,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 37
@@ -1637,6 +2222,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 37
@@ -1645,6 +2233,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 38
@@ -1653,6 +2244,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1661,6 +2255,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1669,6 +2266,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1677,6 +2277,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1685,6 +2288,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 39
@@ -1693,6 +2299,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1701,6 +2310,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1709,6 +2321,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1717,6 +2332,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 39
@@ -1725,6 +2343,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 41
@@ -1733,6 +2354,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 43
@@ -1741,6 +2365,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   edge [
     source 44
@@ -1749,6 +2376,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   edge [
     source 45
@@ -1757,6 +2387,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 45
@@ -1765,6 +2398,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1773,6 +2409,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1781,6 +2420,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1789,6 +2431,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1797,6 +2442,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1805,6 +2453,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1813,6 +2464,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1821,6 +2475,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 45
@@ -1829,6 +2486,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1837,6 +2497,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1845,6 +2508,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1853,6 +2519,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 45
@@ -1861,6 +2530,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1869,6 +2541,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 45
@@ -1877,6 +2552,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 46
@@ -1885,6 +2563,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 46
@@ -1893,6 +2574,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 46
@@ -1901,6 +2585,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 47
@@ -1909,6 +2596,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 47
@@ -1917,6 +2607,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 2
+    SST 2
+    RWF 1
   ]
   edge [
     source 47
@@ -1925,6 +2618,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 47
@@ -1933,6 +2629,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 2
+    RWF 1
   ]
   edge [
     source 48
@@ -1941,6 +2640,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 48
@@ -1949,6 +2651,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 48
@@ -1957,6 +2662,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 50
@@ -1965,6 +2673,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -1973,6 +2684,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 51
@@ -1981,6 +2695,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 51
@@ -1989,6 +2706,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -1997,6 +2717,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -2005,6 +2728,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -2013,6 +2739,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -2021,6 +2750,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 51
@@ -2029,6 +2761,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 51
@@ -2037,6 +2772,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 53
@@ -2045,6 +2783,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 53
@@ -2053,6 +2794,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 53
@@ -2061,6 +2805,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 53
@@ -2069,6 +2816,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 53
@@ -2077,6 +2827,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 53
@@ -2085,6 +2838,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 53
@@ -2093,6 +2849,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2101,6 +2860,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 54
@@ -2109,6 +2871,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2117,6 +2882,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2125,6 +2893,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2133,6 +2904,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2141,6 +2915,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2149,6 +2926,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2157,6 +2937,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2165,6 +2948,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 54
@@ -2173,6 +2959,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 55
@@ -2181,6 +2970,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 55
@@ -2189,6 +2981,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 55
@@ -2197,6 +2992,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 55
@@ -2205,6 +3003,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 55
@@ -2213,6 +3014,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 55
@@ -2221,6 +3025,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 55
@@ -2229,6 +3036,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 56
@@ -2237,6 +3047,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 56
@@ -2245,6 +3058,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 56
@@ -2253,6 +3069,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 56
@@ -2261,6 +3080,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 56
@@ -2269,6 +3091,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 56
@@ -2277,6 +3102,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 57
@@ -2285,6 +3113,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 57
@@ -2293,6 +3124,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 57
@@ -2301,6 +3135,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 57
@@ -2309,6 +3146,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 57
@@ -2317,6 +3157,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 58
@@ -2325,6 +3168,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 2
+    SST 1
+    RWF 2
   ]
   edge [
     source 58
@@ -2333,6 +3179,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 58
@@ -2341,6 +3190,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 58
@@ -2349,6 +3201,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 58
@@ -2357,6 +3212,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 59
@@ -2365,6 +3223,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 59
@@ -2373,6 +3234,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 59
@@ -2381,6 +3245,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 59
@@ -2389,6 +3256,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 60
@@ -2397,6 +3267,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 60
@@ -2405,6 +3278,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 60
@@ -2413,6 +3289,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 61
@@ -2421,6 +3300,9 @@ graph [
     TIES 1
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 61
@@ -2429,6 +3311,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 62
@@ -2437,6 +3322,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 64
@@ -2445,6 +3333,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 64
@@ -2453,6 +3344,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 64
@@ -2461,6 +3355,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 64
@@ -2469,6 +3366,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 65
@@ -2477,6 +3377,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 65
@@ -2485,6 +3388,9 @@ graph [
     TIES 2
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 65
@@ -2493,6 +3399,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 66
@@ -2501,6 +3410,9 @@ graph [
     TIES 2
     FF 1
     MHRW 2
+    NEW 1
+    SST 1
+    RWF 1
   ]
   edge [
     source 66
@@ -2509,6 +3421,9 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 2
   ]
   edge [
     source 67
@@ -2517,5 +3432,8 @@ graph [
     TIES 1
     FF 1
     MHRW 1
+    NEW 1
+    SST 1
+    RWF 1
   ]
 ]

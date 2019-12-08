@@ -290,23 +290,34 @@ def importantSampler(G, rate, structure_info):
                     Gs.add_nodes_from(neibor)
     print(len(Gs))
     G_remain = list(set(G.nodes()) - set(Gs.nodes()))
-    d = G.degree(G_remain)
-    degree_index = {}
-    for i in d:
-        degree_index[i[0]] = i[1]
-    cycle_d = cycle(G_remain)
+
+    G_remain_ori = G.subgraph(G_remain)
+    G_remain_edge = list(G_remain_ori.edges())
 
     while len(Gs) < size:
-        p = random.random()
-        node = next(cycle_d)
-        try:
-            pt = 1 / degree_index[node]
-        except:
-            pt = 1
-        if p >= pt:
-            Gs.add_node(node)
-    Gs = G.subgraph(Gs.nodes())
-    print(len(Gs))
+        Gs_edge = random.sample(G_remain_edge, 1)
+        print(Gs_edge)
+        Gs.add_edges_from(Gs_edge)
+
+
+
+    # d = G.degree(G_remain)
+    # degree_index = {}
+    # for i in d:
+    #     degree_index[i[0]] = i[1]
+    # cycle_d = cycle(G_remain)
+    #
+    # while len(Gs) < size:
+    #     p = random.random()
+    #     node = next(cycle_d)
+    #     try:
+    #         pt = 1 / degree_index[node]
+    #     except:
+    #         pt = 1
+    #     if p >= pt:
+    #         Gs.add_node(node)
+    # Gs = G.subgraph(Gs.nodes())
+    # print(len(Gs))
     return(Gs, 'new')
 
 
@@ -378,6 +389,7 @@ def isPartition(G, fn, rate, isBalance):
 
     # rate = 0.5
     anomaly_cut = getRateAnomaly(rank_anomaly, rate)
+    print('***')
     print(anomaly_cut)
     structure_info = {}
     keepAnomalyStructure(G, anomaly_cut, rate, structure_info)
