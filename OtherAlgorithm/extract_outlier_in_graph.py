@@ -99,7 +99,8 @@ def loadData(path1, path2, isDirect):
     reader1 = csv.reader(f)
     nodes = []
     for item in reader1:
-        nodes.append(int(item[0]))
+        if int(item[1]) == 2:
+            nodes.append(int(item[0]))
     f.close()
     if isDirect:
         G = nx.DiGraph()
@@ -112,7 +113,8 @@ def loadData(path1, path2, isDirect):
     reader1 = csv.reader(f)
     edges = []
     for item in reader1:
-        edges.append([int(item[0]), int(item[1])])
+        if int(item[2]) == 2:
+            edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
     return (G)
@@ -123,8 +125,8 @@ def dataTest():
     # path1 = "starmatrix/toycase10_node.csv"
     # path2 = "starmatrix/toycase10_edge.csv"
 
-    path1 = "Data/cahepth_node.csv"
-    path2 = "Data/cahepth_edge.csv"
+    path1 = "fig_data/RDN_lesmi5_0.4_1_node.csv"
+    path2 = "fig_data/RDN_lesmi5_0.4_1_edge.csv"
 
 
     file = os.path.splitext(path1)

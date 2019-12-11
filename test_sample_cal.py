@@ -59,17 +59,17 @@ def graphSampling(G, isDirect, seed, rate):
     # -----one-step sampler------
     # -----random node sampler------
 
-    # RN_object = GraphSampling.RN()
-    # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
-    # return(RN_sample, 'RN')
+    RN_object = GraphSampling.RN()
+    RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
+    return(RN_sample, 'RN')
 
     # RPN_object = GraphSampling.RPN()
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
     # return(RPN_sample, 'RPN')
 
-    RDN_object = GraphSampling.RDN()
-    RDN_sample = RDN_object.RDN(G, sample_rate)
-    return(RDN_sample, 'RDN')
+    # RDN_object = GraphSampling.RDN()
+    # RDN_sample = RDN_object.RDN(G, sample_rate)
+    # return(RDN_sample, 'RDN')
 
     # -----random edge sampler------
     #
@@ -240,11 +240,11 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
     classfile_path = "OtherAlgorithm/SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
     orig_edgefile_path = "OtherAlgorithm/SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
-    # title = ['ID', 'Class']
+    title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
     test.to_csv(classfile_path, index=None, header=False)
 
-    # title = ['Source', 'Target', 'Type']
+    title = ['Source', 'Target', 'Type']
     test = pd.DataFrame(data=orig_edges)
     test.to_csv(orig_edgefile_path, index=None, header=False)
 
@@ -274,7 +274,7 @@ def dataTest():
 
     # test 1
     rate = 0.5
-    iter = 5
+    iter = 1
     seed = random.sample(random_seed, 1)
     Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
     print(sample_type, len(G), len(Gs))

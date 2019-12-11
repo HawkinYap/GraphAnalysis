@@ -25,8 +25,9 @@ def loadData(path1, path2, isDirect):
     labels = []
     for item in reader1:
         nodes.append(int(item[0]))
-        labels.append(int(item[1]))
+        labels.append(str(item[1]))
     f.close()
+    print(labels)
     if isDirect:
         G = nx.DiGraph()
     else:
@@ -34,8 +35,8 @@ def loadData(path1, path2, isDirect):
     G.add_nodes_from(nodes)
 
     i = 0
-    for n in G.nodes(data=True):
-        G.node[n]['labels'] = labels[i]
+    for n in G.nodes():
+        G.nodes[n]['labels'] = labels[i]
         i += 1
 
     # add edges
@@ -74,9 +75,9 @@ def graphSampling(G, isDirect, seed, rate):
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
     # return(RPN_sample, 'RPN')
 
-    RDN_object = GraphSampling.RDN()
-    RDN_sample = RDN_object.RDN(G, sample_rate)
-    return(RDN_sample, 'RDN')
+    # RDN_object = GraphSampling.RDN()
+    # RDN_sample = RDN_object.RDN(G, sample_rate)
+    # return(RDN_sample, 'RDN')
 
     # -----random edge sampler------
     #
@@ -244,21 +245,21 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "OtherAlgorithm/fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "OtherAlgorithm/fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
-    # title = ['ID', 'Class']
+    title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
     test.to_csv(classfile_path, index=None, header=False)
 
-    # title = ['Source', 'Target', 'Type']
+    title = ['Source', 'Target', 'Type']
     test = pd.DataFrame(data=orig_edges)
     test.to_csv(orig_edgefile_path, index=None, header=False)
 
 
 def dataTest():
-    path1 = "Data/lesmi_node.csv"
-    path2 = "Data/lesmi_edge.csv"
+    path1 = "OtherAlgorithm/Data/lesmi5_node.csv"
+    path2 = "OtherAlgorithm/Data/lesmi5_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -274,19 +275,19 @@ def dataTest():
     G.remove_nodes_from(isolate)
 
     #  random seeds (3 different seeds)
-    # random_seed = []
-    # seed_choice = list(G.nodes())
-    # random_seed.append(random.sample(seed_choice, 3))
-    # random_seed = random_seed[0]
+    random_seed = []
+    seed_choice = list(G.nodes())
+    random_seed.append(random.sample(seed_choice, 3))
+    random_seed = random_seed[0]
 
     # test 1
-    # rate = 0.5
-    # iter = 5
-    # seed = random.sample(random_seed, 1)
-    # Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
-    # print(sample_type, len(G), len(Gs))
-    # # drawGraph(G, Gs)
-    # saveGraph(G, Gs, fn, iter, sample_type, rate)
+    rate = 0.4
+    iter = 1
+    seed = random.sample(random_seed, 1)
+    Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
+    print(sample_type, len(G), len(Gs))
+    # drawGraph(G, Gs)
+    saveGraph(G, Gs, fn, iter, sample_type, rate)
 
     # formal
     # rate = 0.2

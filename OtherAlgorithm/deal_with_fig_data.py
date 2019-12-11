@@ -78,7 +78,7 @@ def addGLabels(G, sample_type, filename, iter, rate):
 
 def addSampleLabels(G):
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW', 'DLA', 'DPL', 'GPS', 'SSP', 'SST', 'ISMHRW', 'RMSC']
-    sample_types = ['RDN', 'TIES', 'FF', 'MHRW', 'NEW', 'SST', 'RWF']
+    sample_types = ['RDN', 'BF', 'TIES', 'FF', 'MHRW', 'NEW', 'SST', 'RWF']
     filename = 'lesmi5'
     iter = 1
     rate = 0.4
