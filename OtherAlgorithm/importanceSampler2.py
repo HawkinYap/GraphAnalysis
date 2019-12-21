@@ -11,7 +11,6 @@ import itertools
 
 
 def Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total, node_degree):
-
     # core two: get degree + sorted_reverse
     nodes_num = round(heigh_neighbour * len(G))
     sort_node_degree = sorted(node_degree, key=lambda tup: tup[1], reverse=True)[:nodes_num]
@@ -98,7 +97,6 @@ def bridgeMerge(inner, s=0):
         merge = []
         copyinner = inner.copy()
         count_node={}
-        print(inner)
         for i in inner:
             if i[0] in count_node:
                 count_node[i[0]] += 1
@@ -171,15 +169,14 @@ def Articulation_Points_and_Bridge(G, anomaly_total):
     inner = list(filter(lambda d: d[0] not in s and d[1] not in s, both))
     outer = [i for i in b if i not in inner]
 
-    # marge chain
+    # marge
     sort_inner = bridgeMerge(inner)
     sort_outer = bridgeMerge(outer, s=1)
+    tie_and_rim = sort_inner + sort_outer
 
     # save
-    if sort_inner:
-        anomaly_total['innerarti'] = sort_inner
-    if sort_outer:
-        anomaly_total['outerarti'] = sort_outer
+    if tie_and_rim:
+        anomaly_total['arti'] = tie_and_rim
 
 
 def MetisRank(G, anomaly_total, k=0.08):
@@ -188,23 +185,95 @@ def MetisRank(G, anomaly_total, k=0.08):
     anomaly_total['topo'] = a[:math.floor(len(G) * k)]
 
 
-def addMinorityStructure(G, Gs, rate, anomaly_total):
+def addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly):
 
-    minotruncation = {}
+    # truncation
     for minoname, minokeynode in anomaly_total.items():
-        print(minoname, minokeynode)
+        truncation = math.ceil(len(minokeynode) * rate)
+        anomaly_total[minoname] = minokeynode[:truncation]
+
+    # add in Gs
+    for minoname, minokeynode in anomaly_total.items():
+        print('+++')
+        print(len(minokeynode))
+        for node in minokeynode:
+            if type(node) == int:
+                total_anomaly.append(node)
+                Gs.add_node(node)
+                sampleneighborlist = neighborSampler(G, rate, node)
+            else:
+                total_anomaly = total_anomaly + list(node)
+                # print(total_anomaly)
+                Gs.add_nodes_from(node)
+                sampleneighborlist = neighborSampler(G, rate, node, s=1)
+            Gs.add_nodes_from(sampleneighborlist)
+            print(len(Gs))
+    return(total_anomaly, anomaly_total)
 
 
-    # for minoname, minokeynode in anomaly_total.items():
-    #     for node in minokeynode:
-    #         if type(node) == int:
-    #             print(node)
-    #             Gs.add_node(node)
-    #         else:
-    #             print(node)
-    #             Gs.add_nodes_from(node)
-    # print(list(Gs.nodes()))
+def neighborSampler(G, rate, node, s=0):
+    if s == 0:
+        nodelist = list(G.neighbors(node))
+        samplesize = math.floor(len(nodelist) * rate)
+        samplenodelist = random.sample(nodelist, samplesize)
+        return(samplenodelist)
+    if s == 1:
+        nodelist = []
+        for n in node:
+            nodelist = nodelist + list(G.neighbors(n))
+        coneighbor = list(set(nodelist)-set(node))
+        samplesize = math.floor(len(coneighbor) * rate)
+        samplenodelist = random.sample(nodelist, samplesize)
+        return (samplenodelist)
 
+
+def RandomGiveUp(G, Gs, size, total_anomaly):
+    print('giveup')
+    Gsnodes = list(Gs.nodes())
+    while len(Gs) > size:
+        choice = random.choice(Gsnodes)
+        if choice not in total_anomaly:
+            Gs.remove_node(choice)
+            Gsnodes.remove(choice)
+
+
+def RandomSample(G, Gs, size):
+    print('samplemore')
+    Gedges = list(G.edges())
+    while len(Gs) < size:
+        choice = random.choice(Gedges)
+        Gs.add_edge(choice[0], choice[1])
+
+
+def saveGraph(G, sample, filename, iter, sample_type, rate):
+
+    # convert to node list
+    class_nodes = []
+    for node in G.nodes():
+        if node in sample.nodes():
+            class_nodes.append([node, 2])
+        else:
+            class_nodes.append([node, 1])
+
+    # convert to edge list
+    orig_edges = []
+    for edge in G.edges():
+        if edge in sample.edges():
+            orig_edges.append([edge[0], edge[1], 2])
+        else:
+            orig_edges.append([edge[0], edge[1], 1])
+
+    # test csv
+    classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+
+    # title = ['ID', 'Class']
+    test = pd.DataFrame(data=class_nodes)
+    test.to_csv(classfile_path, index=None, header=False)
+
+    # title = ['Source', 'Target', 'Type']
+    test = pd.DataFrame(data=orig_edges)
+    test.to_csv(orig_edgefile_path, index=None, header=False)
 
 
 def isPartition(G, fn, rate, isBalance):
@@ -212,61 +281,60 @@ def isPartition(G, fn, rate, isBalance):
     threshold = starThreshold_1(G)
     heigh_neighbour = 0.05
 
-    # basic variable
-    node_degree = [[n, d] for n, d in G.degree()]
-
     # init sample set
     Gs = nx.Graph()
 
-    total_anomaly = {}
+    total_anomaly = []
     if isBalance:
+        # basic variable
+        node_degree = [[n, d] for n, d in G.degree()]
+
         anomaly_total = {}
         Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total, node_degree)
         Extract_Star(G, threshold, anomaly_total, node_degree)
         Articulation_Points_and_Bridge(G, anomaly_total)
-        MetisRank(G, anomaly_total)
-        addMinorityStructure(G, Gs, rate, anomaly_total)
+        # MetisRank(G, anomaly_total)
+        for u,v in anomaly_total.items():
+            print(u, len(v))
+        total_anomaly, anomaly_total = addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly)
+        for u,v in anomaly_total.items():
+            print(u, len(v))
 
     else:
         partitions = nxmetis.partition(G, 2)
         for partition in partitions[1]:
-            print('i')
+            Gt = nx.Graph()
+            Gt.add_nodes_from(partition)
+            Gp = G.subgraph(Gt.nodes())
+
+            # basic variable
+            node_degree = [[n, d] for n, d in Gp.degree()]
+
+            anomaly_total = {}
+            Extract_Global_High_Neighbor(Gp, heigh_neighbour, anomaly_total, node_degree)
+            Extract_Star(Gp, threshold, anomaly_total, node_degree)
+            Articulation_Points_and_Bridge(Gp, anomaly_total)
+            MetisRank(Gp, anomaly_total)
+            anomaly, anomaly_total = addMinorityStructure(Gp, Gs, rate, anomaly_total, total_anomaly)
+            total_anomaly = list(set(total_anomaly + anomaly))
+
+    iter = 1
+    sample_type = 'minocentric'
+    for i in range(iter):
+        size = math.floor(len(G) * rate)
+        # detection the sample size
+        print(len(G), len(Gs), size)
+        if len(Gs) > size:
+            RandomGiveUp(G, Gs, size, total_anomaly)
+        if len(Gs) < size:
+            RandomSample(G, Gs, size)
+
+        # get induced subgraph
+        Gs = G.subgraph(Gs.nodes())
 
 
-    # # print(total_anomaly)
-    # rank_anomaly = importantRank(G, total_anomaly)
-    #
-    # # rate = 0.5
-    # anomaly_cut = getRateAnomaly(rank_anomaly, rate)
-    # print('***')
-    # print(anomaly_cut)
-    # structure_info = {}
-    # keepAnomalyStructure(G, anomaly_cut, rate, structure_info)
-    # print(structure_info)
-
-
-
-
-    # for node in G.nodes():
-    #     if node in Gs.nodes():
-    #         G.node[node]['sample'] = 2
-    #     else:
-    #         G.node[node]['sample'] = 1
-    #
-    # # convert to edge list
-    # for edge in G.edges():
-    #     if edge in Gs.edges():
-    #         G[edge[0]][edge[1]]['sample'] = 2
-    #     else:
-    #         G[edge[0]][edge[1]]['sample'] = 1
-
-    # Save_Graph_test(G, fn, iter)
-    # iter = 5
-    # for i in range(iter):
-    #     # sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
-    #     sample, sample_type = importantSampler(G, rate, structure_info)
-    #     print(len(G), len(sample))
-    #     saveGraph(G, sample, fn, i + 1, sample_type, rate)
+        # save
+        saveGraph(G, Gs, fn, i + 1, sample_type, rate)
 
 
 # load graph to networkx
@@ -299,8 +367,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/Data/toy4_node.csv"
-    path2 = "../GraphSampling/Data/toy4_edge.csv"
+    path1 = "../GraphSampling/Data/toycase4.csv"
+    path2 = "../GraphSampling/Data/toycase4.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -311,29 +379,9 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    for n, data in G.nodes(data=True):
-        G.node[n]['pivot'] = 0
-        G.node[n]['star'] = 0
-        G.node[n]['arti'] = 0
-        G.node[n]['topok'] = 0
-        G.node[n]['labels'] = 0
-
-    rate = 0.4
+    rate = 0.1
     isBalance = True
     isPartition(G, fn, rate, isBalance)
-
-    # G1 = nx.Graph()
-    # for n, d in G.nodes(data=True):
-    #     if d['labels'] != 0:
-    #         G1.add_node(n)
-    # induced_graph = G.subgraph(G1.nodes())
-    # for edge in G.edges():
-    #     if edge in induced_graph.edges():
-    #         G[edge[0]][edge[1]]['labels'] = 2
-    #     else:
-    #         G[edge[0]][edge[1]]['labels'] = 1
-
-
 
 
 if __name__ == '__main__':
