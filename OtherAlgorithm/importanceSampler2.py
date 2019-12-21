@@ -194,8 +194,6 @@ def addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly):
 
     # add in Gs
     for minoname, minokeynode in anomaly_total.items():
-        print('+++')
-        print(len(minokeynode))
         for node in minokeynode:
             if type(node) == int:
                 total_anomaly.append(node)
@@ -212,6 +210,7 @@ def addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly):
 
 
 def neighborSampler(G, rate, node, s=0):
+    rate = rate / 6
     if s == 0:
         nodelist = list(G.neighbors(node))
         samplesize = math.floor(len(nodelist) * rate)
@@ -367,8 +366,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/Data/toycase4.csv"
-    path2 = "../GraphSampling/Data/toycase4.csv"
+    path1 = "../GraphSampling/formalData/pgp2_node.csv"
+    path2 = "../GraphSampling/formalData/pgp2_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -379,7 +378,7 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.1
+    rate = 0.3
     isBalance = True
     isPartition(G, fn, rate, isBalance)
 
