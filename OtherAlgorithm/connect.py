@@ -37,8 +37,8 @@ def loadData(path1, path2, isDirect):
 
 
 def dataTest():
-    path1 = "Data/toy1_node.csv"
-    path2 = "Data/toy1_edge.csv"
+    path1 = "InputData/toy1_node.csv"
+    path2 = "InputData/toy1_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

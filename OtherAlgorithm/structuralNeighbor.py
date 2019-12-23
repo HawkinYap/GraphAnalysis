@@ -77,11 +77,11 @@ def saveGraph(G, fn):
 
 
 def dataTest():
-    # path1 = "../GraphSampling/Data/class_node.csv"
-    # path2 = "../GraphSampling/Data/class_edge.csv"
+    # path1 = "../GraphSampling/InputData/class_node.csv"
+    # path2 = "../GraphSampling/InputData/class_edge.csv"
 
-    path1 = "Data/facebook414_node.csv"
-    path2 = "Data/facebook414_edge.csv"
+    path1 = "InputData/facebook414_node.csv"
+    path2 = "InputData/facebook414_edge.csv"
 
 
     file = os.path.splitext(path1)

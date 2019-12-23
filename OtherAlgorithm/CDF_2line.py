@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 #     try:
 #         dataSets.append(line.split(','))
 #     except :
-#         print("Error: Exception Happened... \nPlease Check Your Data Format... ")
+#         print("Error: Exception Happened... \nPlease Check Your InputData Format... ")
 dataSets = [[1,2,4,2,3,4,3,2,4,3,4,6,4,3,4,5,4,3,6,7,5,4,6],[8,6,5,4,3,6,7,5,3,5,6,4,3,4,5]]
 
 

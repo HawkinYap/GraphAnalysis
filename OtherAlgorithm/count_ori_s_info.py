@@ -566,23 +566,6 @@ def sampleTest(G, rate, f):
 
     threshold = degree_total / len(Gs)
 
-    # print('nodes number : %d' % Gs.number_of_nodes())
-    # print('edges number : %d' % Gs.number_of_edges())
-    # print("average degree: %s" % threshold)
-    # print("average clustering: %s" % nx.average_clustering(Gs))
-    # print("density: %s" % nx.density(Gs))
-    # print('---------------------')
-
-    # f = open('log/test_log.txt', mode='a+')
-    # user = 'Hawkin'
-    # print('---------------------------', file=f)
-    # localtime = time.asctime(time.localtime(time.time()))
-    # print('Time:', localtime, file=f)
-    # print('User:', user, file=f)
-    # print('', file=f)
-    # print('Logfile: countOriginSampleTest', file=f)
-    # print('Sampling Rate:', rate, file=f)
-
     d1, d2 = getVector(G, Gs)
     ks = KSD(G, Gs, d1, d2)
     sd = SDD(G, Gs, d1, d2)

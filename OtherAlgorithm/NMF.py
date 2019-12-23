@@ -27,8 +27,8 @@ def loadData(path1, path2):
     return (G)
 
 
-path1 = "Data/toycase8_node.csv"
-path2 = "Data/toycase8_edge.csv"
+path1 = "InputData/toycase8_node.csv"
+path2 = "InputData/toycase8_edge.csv"
 
 file = os.path.splitext(path2)
 filename, type = file

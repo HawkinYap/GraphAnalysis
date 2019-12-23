@@ -123,6 +123,8 @@ def DPL_sampler(G, rate):
         print('***')
         print(len(s), len(edge))
         print('***')
+        if len(s) == 0 or len(edge) == 0:
+            continue
         alpha = DPL(len(s), len(edge))
         print(alpha)
         alpha_mean += alpha
@@ -233,14 +235,14 @@ def Save_Graph_test(G, filename, rate):
 
 # data processing
 def dataTest():
-    # path1 = "../GraphSampling/Data/email2_node.csv"
-    # path2 = "../GraphSampling/Data/email2_edge.csv"
-    # path1 = "../GraphSampling/Data/class_node.csv"
-    # path2 = "../GraphSampling/Data/class_edge.csv"
+    # path1 = "../GraphSampling/InputData/email2_node.csv"
+    # path2 = "../GraphSampling/InputData/email2_edge.csv"
+    # path1 = "../GraphSampling/InputData/class_node.csv"
+    # path2 = "../GraphSampling/InputData/class_edge.csv"
     # path1 = "../GraphSampling/formalData/pgp2_node.csv"
     # path2 = "../GraphSampling/formalData/pgp2_edge.csv"
-    path1 = "Data/lesmi3_node.csv"
-    path2 = "Data/lesmi3_edge.csv"
+    path1 = "../Experiment_2/InputData/cagrqc_node.csv"
+    path2 = "../Experiment_2/InputData/cagrqc_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -253,7 +255,7 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.4
+    rate = 0.05
     iter = 1
     Gs = DPL_sampler(G, rate)
     print(len(Gs))

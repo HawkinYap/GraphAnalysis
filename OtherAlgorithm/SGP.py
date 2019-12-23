@@ -155,12 +155,12 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "Data/facebook1684_node.csv"
-    # path2 = "Data/facebook1684_edge.csv"
+    # path1 = "InputData/facebook1684_node.csv"
+    # path2 = "InputData/facebook1684_edge.csv"
     # path1 = "../GraphSampling/TestData/Facebook/facebook1684_node.csv"
     # path2 = "../GraphSampling/TestData/Facebook/facebook1684_edge.csv"
-    # path1 = "../GraphSampling/Data/class_node.csv"
-    # path2 = "../GraphSampling/Data/class_edge.csv"
+    # path1 = "../GraphSampling/InputData/class_node.csv"
+    # path2 = "../GraphSampling/InputData/class_edge.csv"
     path1 = "../GraphSampling/formalData/facebook1912_node.csv"
     path2 = "../GraphSampling/formalData/facebook1912_edge.csv"
 

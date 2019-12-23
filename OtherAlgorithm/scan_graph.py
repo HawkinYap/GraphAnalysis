@@ -124,8 +124,8 @@ def saveGraph(G, fn):
     nx.write_gml(G, path)
                         
 if __name__ == '__main__':
-    path1 = "Data/facebook1912_node.csv"
-    path2 = "Data/facebook1912_edge.csv"
+    path1 = "InputData/facebook1912_node.csv"
+    path2 = "InputData/facebook1912_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

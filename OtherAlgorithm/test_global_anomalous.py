@@ -252,8 +252,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "Data/facebook107_node.csv"
-    path2 = "Data/facebook107_edge.csv"
+    path1 = "InputData/facebook107_node.csv"
+    path2 = "InputData/facebook107_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

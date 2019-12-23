@@ -164,10 +164,10 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "Data/toycase6_node.csv"
-    # path2 = "Data/toycase6_edge.csv"
-    path1 = "../GraphSampling/Data/eurosis_node.csv"
-    path2 = "../GraphSampling/Data/eurosis_edge.csv"
+    # path1 = "InputData/toycase6_node.csv"
+    # path2 = "InputData/toycase6_edge.csv"
+    path1 = "../GraphSampling/InputData/eurosis_node.csv"
+    path2 = "../GraphSampling/InputData/eurosis_edge.csv"
 
 
     file = os.path.splitext(path1)

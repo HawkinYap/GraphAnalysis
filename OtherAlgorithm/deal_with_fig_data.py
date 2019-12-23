@@ -91,8 +91,8 @@ def Save_Graph_test(G, filename):
 
 
 def dataTest():
-    path1 = "Data/lesmi5_node.csv"
-    path2 = "Data/lesmi5_edge.csv"
+    path1 = "InputData/lesmi5_node.csv"
+    path2 = "InputData/lesmi5_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

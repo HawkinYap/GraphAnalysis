@@ -652,8 +652,8 @@ def JaccardIndex(G, Gs):
 
 # data processing
 def dataTest():
-    # path1 = "../GraphSampling/Data/toy3_node.csv"
-    # path2 = "../GraphSampling/Data/toy3_edge.csv"
+    # path1 = "../GraphSampling/InputData/toy3_node.csv"
+    # path2 = "../GraphSampling/InputData/toy3_edge.csv"
 
     path1 = "../GraphSampling/TestData/email_node.csv"
     path2 = "../GraphSampling/TestData/email_edge.csv"
