@@ -26,6 +26,11 @@ class DPL:
 
 
     def sampleEdges(self, edge, n_sample_edges, G):
+        print('---+++---')
+        print(edge)
+        if len(edge) == 0:
+            print('ohoh zero')
+            return ([])
         edges = []
         cycle_e = cycle(edge)
         while len(edges) < n_sample_edges:
@@ -34,7 +39,7 @@ class DPL:
             pc = random.random()
             if pc > pt:
                 edges.append(n_cur)
-        return(edges)
+        return (edges)
 
 
     def nearestPair(self, G, Gs, S, alpha):

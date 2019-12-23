@@ -11,7 +11,11 @@ import pandas as pd
 
 
 def DPL(x, y):
-    return(math.log(y, x))
+    try:
+        a = math.log(y, x)
+    except:
+        a = None
+    return(a)
 
 
 def sampleNodes(s, n_sample_nodes, G):
@@ -126,6 +130,8 @@ def DPL_sampler(G, rate):
         if len(s) == 0 or len(edge) == 0:
             continue
         alpha = DPL(len(s), len(edge))
+        if alpha == None:
+            continue
         print(alpha)
         alpha_mean += alpha
         n_sample_nodes = round(len(s) * rate)

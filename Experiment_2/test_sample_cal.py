@@ -1,4 +1,3 @@
-import GraphSampling
 import networkx as nx
 import matplotlib.pyplot as plt
 import csv
@@ -59,9 +58,9 @@ def graphSampling(G, isDirect, seed, rate):
     # -----one-step sampler------
     # -----random node sampler------
 
-    RN_object = GraphSampling.RN()
-    RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
-    return(RN_sample, 'RN')
+    # RN_object = GraphSampling.RN()
+    # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
+    # return(RN_sample, 'RN')
 
     # RPN_object = GraphSampling.RPN()
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
@@ -107,9 +106,9 @@ def graphSampling(G, isDirect, seed, rate):
     # GMD_sample = GMD_object.gmd(G, sample_rate, isDirect, seed)
     # return(GMD_sample, 'GMD')
 
-    # RCMH_object = GraphSampling.RCMH()
-    # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
-    # return(RCMH_sample, 'RCMH')
+    RCMH_object = GraphSampling.RCMH()
+    RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
+    return(RCMH_sample, 'RCMH')
 
     # m = 5
     # node = list(G.nodes())
@@ -117,6 +116,11 @@ def graphSampling(G, isDirect, seed, rate):
     # IDRW_object = GraphSampling.IDRW()
     # IDRW_sample = IDRW_object.IDRW(G, sample_rate, seeds)
     # return(IDRW_sample, 'IDRW')
+
+    # RAS_object = GraphSampling.RAS()
+    # RAS_sample = RAS_object.RAS(G, sample_rate)
+    # return(RAS_sample, 'RAS')
+
 
     # -----two-step sampler------
 
@@ -178,45 +182,6 @@ def drawGraph(G, sample):
     plt.show()
 
 
-def getInfo(G, sample):
-    # degree distribution
-    plt.subplot(221)
-    degree_sequence = sorted([d for n, d in G.degree()], reverse=True)
-    print('Degree sequence', degree_sequence)
-    plt.loglog(degree_sequence, 'b-', marker='o')
-    plt.title('Degree Rank of original graph')
-    plt.ylabel('degree')
-
-    ax = plt.subplot(222)
-    degree_sequence = sorted([d for n2, d in G.degree()], reverse=True)
-    degreeCount = collections.Counter(degree_sequence)
-    deg, cnt = zip(*degreeCount.items())
-    plt.bar(deg, cnt, width=0.80, color='b')
-    plt.title('Degree Histogram of original graph')
-    plt.ylabel('Count')
-    plt.xlabel('Degree')
-    ax.set_xticks([d + 0.4 for d in deg])
-    ax.set_xticklabels(deg)
-
-    plt.subplot(223)
-    degree_sequence = sorted([d for n1, d in sample.degree()], reverse=True)
-    print('Degree sequence', degree_sequence)
-    plt.loglog(degree_sequence, 'b-', marker='o')
-    plt.title('Degree Rank of sample graph')
-    plt.ylabel('degree')
-
-    ax = plt.subplot(224)
-    degree_sequence = sorted([d for n2, d in sample.degree()], reverse=True)
-    degreeCount = collections.Counter(degree_sequence)
-    deg, cnt = zip(*degreeCount.items())
-    plt.bar(deg, cnt, width=0.80, color='b')
-    plt.title('Degree Histogram of original graph')
-    plt.ylabel('Count')
-    plt.xlabel('Degree')
-    ax.set_xticks([d + 0.4 for d in deg])
-    ax.set_xticklabels(deg)
-    plt.show()
-
 
 def saveGraph(G, sample, filename, iter, sample_type, rate):
 
@@ -250,8 +215,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "InputData/toy2_node.csv"
-    path2 = "InputData/toy2_edge.csv"
+    path1 = "InputData/email_node.csv"
+    path2 = "InputData/email_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -264,14 +229,37 @@ def dataTest():
     isolate = list(nx.isolates(G))
     G.remove_nodes_from(isolate)
 
-    #  random seeds (3 different seeds)
-    random_seed = []
-    seed_choice = list(G.nodes())
-    random_seed.append(random.sample(seed_choice, 3))
-    random_seed = random_seed[0]
+
+    # Four Seed Choice
+
+    # Rnd - Random Choice
+    # random_seed = []
+    # seed_choice = list(G.nodes())
+    # random_seed.append(random.sample(seed_choice, 3))
+    # random_seed = random_seed[0] # three
+    # print(random_seed)
+
+    # Hbc - High Betweenness Choice
+    # score = nx.betweenness_centrality(G)
+    # score = sorted(score.items(), key=lambda item:item[1], reverse=True)[:3]
+    # random_seed = [i[0] for i in score]
+    # print(random_seed)
+
+    # Hdc - High Degree Choice
+    score = nx.degree(G)
+    score = sorted(score, key=lambda item:item[1], reverse=True)[:3]
+    random_seed = [i[0] for i in score]
+    print(random_seed)
+
+    # Per - Margin Choice
+    # score = nx.degree(G)
+    # score = sorted(score, key=lambda item:item[1])[:3]
+    # random_seed = [i[0] for i in score]
+    # print(random_seed)
+
 
     # test 1
-    rate = 0.5
+    rate = 0.2
     iter = 1
     seed = random.sample(random_seed, 1)
     Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
