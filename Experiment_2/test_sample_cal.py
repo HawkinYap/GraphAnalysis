@@ -62,51 +62,51 @@ def graphSampling(G, isDirect, seed, rate):
     # -----one-step sampler------
     # -----random node sampler------
 
-    # RN_object = GraphSampling.RN()
+    # RN_object = Experiment_2.GraphSampling.RN()
     # RN_sample = RN_object.randomnode(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(RN_sample, 'RN')
 
-    # RPN_object = GraphSampling.RPN()
+    # RPN_object = Experiment_2.GraphSampling.RPN()
     # RPN_sample = RPN_object.RPN(G, sample_rate)  # graph, number of nodes to sample
     # return(RPN_sample, 'RPN')
 
-    # RDN_object = GraphSampling.RDN()
+    # RDN_object = Experiment_2.GraphSampling.RDN()
     # RDN_sample = RDN_object.RDN(G, sample_rate)
     # return(RDN_sample, 'RDN')
 
     # -----random edge sampler------
     #
-    # RNE_object = GraphSampling.RNE()
+    # RNE_object = Experiment_2.GraphSampling.RNE()
     # RNE_sample = RNE_object.rne(G, sample_rate, isDirect, seed)  # graph, number of nodes to sample
     # return(RNE_sample, 'RNE')
 
-    # TIES_object = GraphSampling.TIES()
+    # TIES_object = Experiment_2.GraphSampling.TIES()
     # TIES_sample = TIES_object.ties(G, sample_rate, isDirect)  # graph, number of n
     # return(TIES_sample, 'TIES')
 
     # -----random explore sampler------
 
-    # BF_object = GraphSampling.BF()
+    # BF_object = Experiment_2.GraphSampling.BF()
     # BF_sample = BF_object.bfs(G, sample_rate)
     # return (BF_sample, 'BF')
 
-    # FF_object = GraphSampling.ForestFire()
+    # FF_object = Experiment_2.GraphSampling.ForestFire()
     # FF_sample = FF_object.forestfire(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(FF_sample, 'FF')
 
-    # RWF_object = GraphSampling.SRW_RWF_ISRW()
-    # RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15, seed)  # graph, number of nodes to sample
-    # return(RWF_sample, 'RWF')
+    RWF_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
+    RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15, seed)  # graph, number of nodes to sample
+    return(RWF_sample, 'RWF')
 
-    # RJ_object = GraphSampling.RJ()
+    # RJ_object = Experiment_2.GraphSampling.RJ()
     # RJ_sample = RJ_object.rj(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(RJ_sample, 'RJ')
 
-    # MHRW_object = GraphSampling.MHRW()
+    # MHRW_object = Experiment_2.GraphSampling.MHRW()
     # MHRW_sample = MHRW_object.mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(MHRW_sample, 'MHRW')
 
-    # GMD_object = GraphSampling.GMD()
+    # GMD_object = Experiment_2.GraphSampling.GMD()
     # GMD_sample = GMD_object.gmd(G, sample_rate, isDirect, seed)
     # return(GMD_sample, 'GMD')
 
@@ -114,16 +114,17 @@ def graphSampling(G, isDirect, seed, rate):
     # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
     # return(RCMH_sample, 'RCMH')
 
-    # m = 5
+    # m = 4
     # node = list(G.nodes())
     # seeds = random.sample(node, m)
-    # IDRW_object = GraphSampling.IDRW()
+    # seeds.append(seed)
+    # IDRW_object = Experiment_2.GraphSampling.IDRW()
     # IDRW_sample = IDRW_object.IDRW(G, sample_rate, seeds)
     # return(IDRW_sample, 'IDRW')
 
-    RAS_object = Experiment_2.GraphSampling.RAS()
-    RAS_sample = RAS_object.RAS(G, sample_rate)
-    return(RAS_sample, 'RAS')
+    # RAS_object = Experiment_2.GraphSampling.RAS()
+    # RAS_sample = RAS_object.RAS(G, sample_rate)
+    # return(RAS_sample, 'RAS')
 
 
     # -----two-step sampler------
@@ -237,11 +238,11 @@ def dataTest():
     # Four Seed Choice
 
     # Rnd - Random Choice
-    # random_seed = []
-    # seed_choice = list(G.nodes())
-    # random_seed.append(random.sample(seed_choice, 3))
-    # random_seed = random_seed[0] # three
-    # print(random_seed)
+    random_seed = []
+    seed_choice = list(G.nodes())
+    random_seed.append(random.sample(seed_choice, 3))
+    random_seed = random_seed[0] # three
+    print(random_seed)
 
     # Hbc - High Betweenness Choice
     # score = nx.betweenness_centrality(G)
@@ -250,10 +251,10 @@ def dataTest():
     # print(random_seed)
 
     # Hdc - High Degree Choice
-    score = nx.degree(G)
-    score = sorted(score, key=lambda item:item[1], reverse=True)[:3]
-    random_seed = [i[0] for i in score]
-    print(random_seed)
+    # score = nx.degree(G)
+    # score = sorted(score, key=lambda item:item[1], reverse=True)[:3]
+    # random_seed = [i[0] for i in score]
+    # print(random_seed)
 
     # Per - Margin Choice
     # score = nx.degree(G)
@@ -273,8 +274,8 @@ def dataTest():
 
     # formal
     # rate range [0.1, 0.2, 0.3, 0.4]
-    seed_type = 'Hdc'
-    rate = 0.2
+    seed_type = 'Rnd'
+    rate = 0.4
     iter = 5
     for i in range(iter):
         seed = random.sample(random_seed, 1)

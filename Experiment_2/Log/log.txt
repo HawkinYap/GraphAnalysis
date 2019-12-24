@@ -1,10 +1,11 @@
 ---------------------------
-Time: Tue Dec 24 10:26:27 2019
+Time: Tue Dec 24 16:51:29 2019
 User: Hawkin
 
+-------------------------
 filename: email_1
-Sampling Type: RAS
-Sampling Rate : 20.00% 
+Sampling Type: BF
+Sampling Rate : 40.00% 
 Seed Type
 ---------original---------
 nodes number : 1133
@@ -16,39 +17,556 @@ density: 0.00850021363589582
 global: 57
 star: 2
 innerarti: 0
-outerarti: 110
+outerarti: 128
 ---------sampling---------
-nodes number : 226
-edges number : 764
-average degree: 5.0
-average clustering: 0.336090110379132
-density: 0.030049164208456245
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
 ---------------------
-global: 11
-global new: 3
-star: 3
-star new: 3
-innerarti: 0
-innerarti new: 0
-outerarti: 16
-outerarti new: 12
+global: 23
+global new: 12
+star: 43
+star new: 43
+innerarti: 36
+innerarti new: 36
+outerarti: 192
+outerarti new: 191
 ----Evaluation indicators----
-Recall: [0.14035087719298245, 0.0, '-', 0.03636363636363636]
-Mean Recall: 0.05890483785220627
-FAC: [0.2727272727272727, 1.0, '-', 0.75]
-Mean FAC: 0.6742424242424242
+--Minority--
+Recall: [0.19298245614035087, 0.0, '-', 0.0078125]
+Mean Recall: 0.06693165204678363
+FAC: [0.5217391304347826, 1.0, 1.0, 0.9947916666666666]
+Mean FAC: 0.8791326992753623
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7718027701953633 7.308859599458679e-168
+SDD: 0.025784092874444064
+ND 0.15274412170792928
+CC 1.0
+JaccardIndex: 0.07158006779309858
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:29 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 11
+star: 52
+star new: 52
+innerarti: 42
+innerarti new: 42
+outerarti: 202
+outerarti new: 200
+----Evaluation indicators----
+--Minority--
+Recall: [0.21052631578947367, 0.0, '-', 0.015625]
+Mean Recall: 0.07538377192982455
+FAC: [0.4782608695652174, 1.0, 1.0, 0.9900990099009901]
+Mean FAC: 0.8670899698665518
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7519352205264891 2.3612919932491383e-159
+SDD: 0.02498423906694038
+ND 0.15090513874058675
+CC 1.0
+JaccardIndex: 0.08234703151069726
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:29 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 14
+star: 49
+star new: 49
+innerarti: 41
+innerarti new: 41
+outerarti: 47
+outerarti new: 46
+----Evaluation indicators----
+--Minority--
+Recall: [0.15789473684210525, 0.0, '-', 0.0078125]
+Mean Recall: 0.05523574561403508
+FAC: [0.6086956521739131, 1.0, 1.0, 0.9787234042553191]
+Mean FAC: 0.896854764107308
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7585577370827805 3.6422682038157806e-162
+SDD: 0.025078528349516915
+ND 0.15149550008578802
+CC 1.0
+JaccardIndex: 0.07370276523455688
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:29 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 9
+star: 55
+star new: 55
+innerarti: 42
+innerarti new: 42
+outerarti: 286
+outerarti new: 285
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 0.0, '-', 0.0078125]
+Mean Recall: 0.08447551169590643
+FAC: [0.391304347826087, 1.0, 1.0, 0.9965034965034965]
+Mean FAC: 0.8469519610823959
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7453127039701977 1.4463449381098038e-156
+SDD: 0.02514080326117357
+ND 0.15149643045660244
+CC 1.0
+JaccardIndex: 0.0788797932867062
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:29 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 13
+star: 65
+star new: 65
+innerarti: 49
+innerarti new: 49
+outerarti: 276
+outerarti new: 273
+----Evaluation indicators----
+--Minority--
+Recall: [0.17543859649122806, 0.0, '-', 0.0234375]
+Mean Recall: 0.06629203216374269
+FAC: [0.5652173913043478, 1.0, 1.0, 0.9891304347826086]
+Mean FAC: 0.888586956521739
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7232376487825597 1.8733159921929347e-147
+SDD: 0.02370746564461874
+ND 0.14754732647877924
+CC 1.0
+JaccardIndex: 0.08576748172485298
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 11
+star: 71
+star new: 71
+innerarti: 55
+innerarti new: 55
+outerarti: 160
+outerarti new: 158
+----Evaluation indicators----
+--Minority--
+Recall: [0.21052631578947367, 0.0, '-', 0.015625]
+Mean Recall: 0.07538377192982455
+FAC: [0.4782608695652174, 1.0, 1.0, 0.9875]
+Mean FAC: 0.8664402173913044
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.709992615669977 4.059925609036715e-142
+SDD: 0.022933091795146795
+ND 0.14493071563906795
+CC 1.0
+JaccardIndex: 0.09122225499409627
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 11
+star: 57
+star new: 57
+innerarti: 44
+innerarti new: 44
+outerarti: 162
+outerarti new: 160
+----Evaluation indicators----
+--Minority--
+Recall: [0.21052631578947367, 0.0, '-', 0.015625]
+Mean Recall: 0.07538377192982455
+FAC: [0.4782608695652174, 1.0, 1.0, 0.9876543209876543]
+Mean FAC: 0.8664787976382179
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7408976929326702 1.0107780191135472e-154
+SDD: 0.02443218524390923
+ND 0.14951300944707788
+CC 1.0
+JaccardIndex: 0.07729326079476656
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 10
+star: 37
+star new: 37
+innerarti: 32
+innerarti new: 32
+outerarti: 118
+outerarti new: 117
+----Evaluation indicators----
+--Minority--
+Recall: [0.22807017543859648, 0.0, '-', 0.0078125]
+Mean Recall: 0.07862755847953216
+FAC: [0.43478260869565216, 1.0, 1.0, 0.9915254237288136]
+Mean FAC: 0.8565770081061165
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.785047803307946 1.1687051836515946e-173
+SDD: 0.026552337031222336
+ND 0.1549479261670763
+CC 1.0
+JaccardIndex: 0.0722475632676977
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 11
+star: 49
+star new: 49
+innerarti: 44
+innerarti new: 44
+outerarti: 267
+outerarti new: 266
+----Evaluation indicators----
+--Minority--
+Recall: [0.21052631578947367, 0.0, '-', 0.0078125]
+Mean Recall: 0.0727796052631579
+FAC: [0.4782608695652174, 1.0, 1.0, 0.9962546816479401]
+Mean FAC: 0.8686288878032893
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7585577370827805 3.6422682038157806e-162
+SDD: 0.024815149981934858
+ND 0.1504863383995419
+CC 1.0
+JaccardIndex: 0.077569176017697
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: BF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 452
+average degree: 1.0
+average clustering: 0.0
+density: 0.004415011037527594
+---------------------
+global: 23
+global new: 14
+star: 52
+star new: 52
+innerarti: 43
+innerarti new: 43
+outerarti: 171
+outerarti new: 169
+----Evaluation indicators----
+--Minority--
+Recall: [0.15789473684210525, 0.0, '-', 0.015625]
+Mean Recall: 0.057839912280701754
+FAC: [0.6086956521739131, 1.0, 1.0, 0.9883040935672515]
+Mean FAC: 0.8992499364352912
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.7519352205264891 2.3612919932491383e-159
+SDD: 0.024665076953294247
+ND 0.15058617514481137
+CC 1.0
+JaccardIndex: 0.0776535181421372
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:30 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 733
+average degree: 2.0
+average clustering: 0.07462250515579202
+density: 0.007159741350680811
+---------------------
+global: 23
+global new: 9
+star: 115
+star new: 115
+innerarti: 4
+innerarti new: 4
+outerarti: 61
+outerarti new: 54
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 0.0, '-', 0.0546875]
+Mean Recall: 0.10010051169590643
+FAC: [0.391304347826087, 1.0, 1.0, 0.8852459016393442]
+Mean FAC: 0.8191375623663578
 MAP: [0.2, 0.0, '-', 0.0]
 NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.11209887320300625
+--Topology--
+KSD:0.4297738524575791 2.4147896491623073e-52
+SDD: 0.011432370022225965
+ND 0.10730614771435061
+CC 1.0
+JaccardIndex: 0.1232887066516527
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 10:26:27 2019
+Time: Tue Dec 24 16:51:31 2019
 User: Hawkin
 
+-------------------------
 filename: email_2
-Sampling Type: RAS
-Sampling Rate : 20.00% 
+Sampling Type: RWF
+Sampling Rate : 40.00% 
 Seed Type
 ---------original---------
 nodes number : 1133
@@ -60,161 +578,1463 @@ density: 0.00850021363589582
 global: 57
 star: 2
 innerarti: 0
-outerarti: 110
+outerarti: 128
 ---------sampling---------
-nodes number : 226
-edges number : 879
-average degree: 7.0
-average clustering: 0.34792402693347274
-density: 0.03457227138643068
+nodes number : 453
+edges number : 685
+average degree: 2.0
+average clustering: 0.04872001312398665
+density: 0.006690890621031862
 ---------------------
-global: 11
-global new: 2
-star: 0
-star new: 0
+global: 23
+global new: 11
+star: 146
+star new: 146
 innerarti: 0
 innerarti new: 0
-outerarti: 8
-outerarti new: 5
+outerarti: 64
+outerarti new: 60
 ----Evaluation indicators----
-Recall: [0.15789473684210525, 0.0, '-', 0.02727272727272727]
-Mean Recall: 0.06172248803827751
-FAC: [0.18181818181818182, '-', '-', 0.625]
-Mean FAC: 0.40340909090909094
-MAP: [0.0, '-', '-', 0.0]
-NDCG: ['-', '-', '-', 1.0]
-JaccardIndex: 0.10702406336686929
----------------------------
-
----------------------------
-Time: Tue Dec 24 10:26:27 2019
-User: Hawkin
-
-filename: email_3
-Sampling Type: RAS
-Sampling Rate : 20.00% 
-Seed Type
----------original---------
-nodes number : 1133
-edges number : 5451
-average degree: 9.62224183583407
-average clustering: 0.2201760865041161
-density: 0.00850021363589582
----------------------
-global: 57
-star: 2
-innerarti: 0
-outerarti: 110
----------sampling---------
-nodes number : 226
-edges number : 842
-average degree: 6.0
-average clustering: 0.3501483638214382
-density: 0.033117010816125864
----------------------
-global: 11
-global new: 2
-star: 0
-star new: 0
-innerarti: 1
-innerarti new: 1
-outerarti: 10
-outerarti new: 3
-----Evaluation indicators----
-Recall: [0.15789473684210525, 0.0, '-', 0.06363636363636363]
-Mean Recall: 0.07384370015948963
-FAC: [0.18181818181818182, '-', 1.0, 0.3]
-Mean FAC: 0.49393939393939396
-MAP: [0.2, '-', '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.10754774939277327
----------------------------
-
----------------------------
-Time: Tue Dec 24 10:26:27 2019
-User: Hawkin
-
-filename: email_4
-Sampling Type: RAS
-Sampling Rate : 20.00% 
-Seed Type
----------original---------
-nodes number : 1133
-edges number : 5451
-average degree: 9.62224183583407
-average clustering: 0.2201760865041161
-density: 0.00850021363589582
----------------------
-global: 57
-star: 2
-innerarti: 0
-outerarti: 110
----------sampling---------
-nodes number : 226
-edges number : 931
-average degree: 7.0
-average clustering: 0.3378750841896544
-density: 0.036617502458210424
----------------------
-global: 11
-global new: 2
-star: 0
-star new: 0
-innerarti: 0
-innerarti new: 0
-outerarti: 6
-outerarti new: 3
-----Evaluation indicators----
-Recall: [0.15789473684210525, 0.0, '-', 0.02727272727272727]
-Mean Recall: 0.06172248803827751
-FAC: [0.18181818181818182, '-', '-', 0.5]
-Mean FAC: 0.34090909090909094
-MAP: [0.0, '-', '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
-JaccardIndex: 0.10313386909425877
----------------------------
-
----------------------------
-Time: Tue Dec 24 10:26:28 2019
-User: Hawkin
-
-filename: email_5
-Sampling Type: RAS
-Sampling Rate : 20.00% 
-Seed Type
----------original---------
-nodes number : 1133
-edges number : 5451
-average degree: 9.62224183583407
-average clustering: 0.2201760865041161
-density: 0.00850021363589582
----------------------
-global: 57
-star: 2
-innerarti: 0
-outerarti: 110
----------sampling---------
-nodes number : 226
-edges number : 918
-average degree: 7.0
-average clustering: 0.33315078835030004
-density: 0.036106194690265485
----------------------
-global: 11
-global new: 3
-star: 0
-star new: 0
-innerarti: 1
-innerarti new: 1
-outerarti: 8
-outerarti new: 5
-----Evaluation indicators----
-Recall: [0.14035087719298245, 0.0, '-', 0.02727272727272727]
-Mean Recall: 0.05587453482190324
-FAC: [0.2727272727272727, '-', 1.0, 0.625]
-Mean FAC: 0.6325757575757576
-MAP: [0.0, '-', '-', 0.0]
+--Minority--
+Recall: [0.21052631578947367, 0.0, '-', 0.03125]
+Mean Recall: 0.0805921052631579
+FAC: [0.4782608695652174, 1.0, 0, 0.9375]
+Mean FAC: 0.6039402173913043
+MAP: [0.0, 0.0, '-', 0.0]
 NDCG: ['-', '-', '-', '-']
-JaccardIndex: 0.10947364644921981
+--Topology--
+KSD:0.4650939407577998 3.1524429639904404e-61
+SDD: 0.012892868433662049
+ND 0.10669472369061726
+CC 1.0
+JaccardIndex: 0.11981697015609308
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:31 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 696
+average degree: 2.0
+average clustering: 0.06926964377295501
+density: 0.006798335579909746
+---------------------
+global: 23
+global new: 8
+star: 109
+star new: 108
+innerarti: 2
+innerarti new: 2
+outerarti: 55
+outerarti new: 52
+----Evaluation indicators----
+--Minority--
+Recall: [0.2631578947368421, 0.5, '-', 0.0234375]
+Mean Recall: 0.26219846491228066
+FAC: [0.34782608695652173, 0.9908256880733946, 1.0, 0.9454545454545454]
+Mean FAC: 0.8210265801211154
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4350441988196762 1.2639211697762908e-53
+SDD: 0.012409422113148914
+ND 0.10793885009854585
+CC 1.0
+JaccardIndex: 0.11034051348998382
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:31 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 708
+average degree: 2.0
+average clustering: 0.056057543143635834
+density: 0.006915548262321983
+---------------------
+global: 23
+global new: 7
+star: 124
+star new: 124
+innerarti: 5
+innerarti new: 5
+outerarti: 60
+outerarti new: 58
+----Evaluation indicators----
+--Minority--
+Recall: [0.2807017543859649, 0.0, '-', 0.015625]
+Mean Recall: 0.09877558479532163
+FAC: [0.30434782608695654, 1.0, 1.0, 0.9666666666666667]
+Mean FAC: 0.8177536231884058
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4540564131639808 2.240300486162407e-58
+SDD: 0.0122092587814096
+ND 0.10716982022084309
+CC 1.0
+JaccardIndex: 0.11663357497626682
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:31 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 729
+average degree: 2.0
+average clustering: 0.04825171149674458
+density: 0.007120670456543398
+---------------------
+global: 23
+global new: 8
+star: 126
+star new: 125
+innerarti: 0
+innerarti new: 0
+outerarti: 50
+outerarti new: 48
+----Evaluation indicators----
+--Minority--
+Recall: [0.2631578947368421, 0.5, '-', 0.015625]
+Mean Recall: 0.25959429824561403
+FAC: [0.34782608695652173, 0.9920634920634921, 0, 0.96]
+Mean FAC: 0.5749723947550034
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.4275663469388153 8.219738063625644e-52
+SDD: 0.011689808650832665
+ND 0.10679566596974184
+CC 1.0
+JaccardIndex: 0.11745678874304576
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:31 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 770
+average degree: 2.0
+average clustering: 0.06082171446409853
+density: 0.007521147121451874
+---------------------
+global: 23
+global new: 9
+star: 133
+star new: 131
+innerarti: 1
+innerarti new: 1
+outerarti: 55
+outerarti new: 50
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 1.0, '-', 0.0390625]
+Mean Recall: 0.4282255116959064
+FAC: [0.391304347826087, 0.9849624060150376, 1.0, 0.9090909090909091]
+Mean FAC: 0.8213394157330085
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.39273140327599276 8.849079413419332e-44
+SDD: 0.010400641830334772
+ND 0.10750554667958051
+CC 1.0
+JaccardIndex: 0.12125994242624198
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:31 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 691
+average degree: 2.0
+average clustering: 0.03705503473715394
+density: 0.006749496962237981
+---------------------
+global: 23
+global new: 8
+star: 152
+star new: 151
+innerarti: 1
+innerarti new: 1
+outerarti: 59
+outerarti new: 56
+----Evaluation indicators----
+--Minority--
+Recall: [0.2631578947368421, 0.5, '-', 0.0234375]
+Mean Recall: 0.26219846491228066
+FAC: [0.34782608695652173, 0.993421052631579, 1.0, 0.9491525423728814]
+Mean FAC: 0.8225999204902456
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.451848907645217 8.173716141643768e-58
+SDD: 0.01266736035916868
+ND 0.10968650542968388
+CC 1.0
+JaccardIndex: 0.11171359695608746
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:32 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 711
+average degree: 2.0
+average clustering: 0.06781574627308945
+density: 0.006944851432925042
+---------------------
+global: 23
+global new: 9
+star: 136
+star new: 135
+innerarti: 2
+innerarti new: 2
+outerarti: 66
+outerarti new: 59
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 0.5, '-', 0.0546875]
+Mean Recall: 0.2667671783625731
+FAC: [0.391304347826087, 0.9926470588235294, 1.0, 0.8939393939393939]
+Mean FAC: 0.8194727001472526
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.43639636901387047 5.895304341466646e-54
+SDD: 0.01187999019945864
+ND 0.10711632257845828
+CC 1.0
+JaccardIndex: 0.11361714231759476
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:32 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 738
+average degree: 2.0
+average clustering: 0.06675846841409755
+density: 0.007208579968352576
+---------------------
+global: 23
+global new: 6
+star: 142
+star new: 142
+innerarti: 1
+innerarti new: 1
+outerarti: 64
+outerarti new: 56
+----Evaluation indicators----
+--Minority--
+Recall: [0.2982456140350877, 0.0, '-', 0.0625]
+Mean Recall: 0.1202485380116959
+FAC: [0.2608695652173913, 1.0, 1.0, 0.875]
+Mean FAC: 0.7839673913043479
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4240066712258572 5.846833107836694e-51
+SDD: 0.011099145065946978
+ND 0.10724475405072811
+CC 1.0
+JaccardIndex: 0.12190128545612026
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:32 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: RWF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 723
+average degree: 2.0
+average clustering: 0.055656627491454135
+density: 0.0070620641153372795
+---------------------
+global: 23
+global new: 12
+star: 130
+star new: 130
+innerarti: 0
+innerarti new: 0
+outerarti: 66
+outerarti new: 60
+----Evaluation indicators----
+--Minority--
+Recall: [0.19298245614035087, 0.0, '-', 0.046875]
+Mean Recall: 0.07995248538011696
+FAC: [0.5217391304347826, 1.0, 0, 0.9090909090909091]
+Mean FAC: 0.607707509881423
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4217991657070934 1.9576827342089093e-50
+SDD: 0.011337536555793813
+ND 0.106911293124388
+CC 1.0
+JaccardIndex: 0.11964261263599206
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:32 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1164
+average degree: 2.0
+average clustering: 0.200804165473482
+density: 0.01136963019398699
+---------------------
+global: 23
+global new: 8
+star: 17
+star new: 17
+innerarti: 0
+innerarti new: 0
+outerarti: 98
+outerarti new: 97
+----Evaluation indicators----
+--Minority--
+Recall: [0.2631578947368421, 0.0, '-', 0.0078125]
+Mean Recall: 0.0903234649122807
+FAC: [0.34782608695652173, 1.0, 0, 0.9897959183673469]
+Mean FAC: 0.5844055013309671
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.33791395599406915 1.603197363763528e-32
+SDD: 0.007937133710058022
+ND 0.11732689677856624
+CC 1.0
+JaccardIndex: 0.12494095715488018
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:32 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1061
+average degree: 2.0
+average clustering: 0.1675083362890811
+density: 0.010363554669948621
+---------------------
+global: 23
+global new: 8
+star: 13
+star new: 13
+innerarti: 0
+innerarti new: 0
+outerarti: 91
+outerarti new: 90
+----Evaluation indicators----
+--Minority--
+Recall: [0.2631578947368421, 0.0, '-', 0.0078125]
+Mean Recall: 0.0903234649122807
+FAC: [0.34782608695652173, 1.0, 0, 0.989010989010989]
+Mean FAC: 0.5842092689918776
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.3886612540891458 6.9320190180553074e-43
+SDD: 0.010265697414458336
+ND 0.12053263473883313
+CC 1.0
+JaccardIndex: 0.12375124541537581
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1040
+average degree: 2.0
+average clustering: 0.14486425226598593
+density: 0.010158432475727208
+---------------------
+global: 23
+global new: 9
+star: 14
+star new: 14
+innerarti: 1
+innerarti new: 1
+outerarti: 71
+outerarti new: 68
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 0.0, '-', 0.0234375]
+Mean Recall: 0.08968384502923976
+FAC: [0.391304347826087, 1.0, 1.0, 0.9577464788732394]
+Mean FAC: 0.8372627066748316
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4243866037732173 4.745889468984076e-51
+SDD: 0.011966062704876598
+ND 0.12521660168433696
+CC 1.0
+JaccardIndex: 0.1337072096476085
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1101
+average degree: 2.0
+average clustering: 0.15444680739348715
+density: 0.010754263611322746
+---------------------
+global: 23
+global new: 5
+star: 27
+star new: 27
+innerarti: 0
+innerarti new: 0
+outerarti: 77
+outerarti new: 76
+----Evaluation indicators----
+--Minority--
+Recall: [0.3157894736842105, 0.0, '-', 0.0078125]
+Mean Recall: 0.10786732456140351
+FAC: [0.21739130434782608, 1.0, 0, 0.987012987012987]
+Mean FAC: 0.5511010728402033
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.36658619890150784 3.366371775506676e-38
+SDD: 0.009040140690835141
+ND 0.1194963629519537
+CC 1.0
+JaccardIndex: 0.13793585547208764
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 985
+average degree: 2.0
+average clustering: 0.1790976774558511
+density: 0.009621207681337788
+---------------------
+global: 23
+global new: 6
+star: 18
+star new: 18
+innerarti: 0
+innerarti new: 0
+outerarti: 67
+outerarti new: 66
+----Evaluation indicators----
+--Minority--
+Recall: [0.2982456140350877, 0.0, '-', 0.0078125]
+Mean Recall: 0.10201937134502924
+FAC: [0.2608695652173913, 1.0, 0, 0.9850746268656716]
+Mean FAC: 0.5614860480207657
+MAP: [0.4, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.44826390309576836 6.598700284030563e-57
+SDD: 0.013050551538146517
+ND 0.12574956391386774
+CC 1.0
+JaccardIndex: 0.11902434880212581
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1082
+average degree: 2.0
+average clustering: 0.15909667269954905
+density: 0.010568676864170037
+---------------------
+global: 23
+global new: 6
+star: 11
+star new: 11
+innerarti: 0
+innerarti new: 0
+outerarti: 80
+outerarti new: 77
+----Evaluation indicators----
+--Minority--
+Recall: [0.2982456140350877, 0.0, '-', 0.0234375]
+Mean Recall: 0.10722770467836257
+FAC: [0.2608695652173913, 1.0, 0, 0.9625]
+Mean FAC: 0.5558423913043479
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.38906651547299653 5.652833626785494e-43
+SDD: 0.00996243136778004
+ND 0.11992601468938724
+CC 1.0
+JaccardIndex: 0.13120279774262902
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 994
+average degree: 2.0
+average clustering: 0.16907746249217132
+density: 0.009709117193146965
+---------------------
+global: 23
+global new: 4
+star: 19
+star new: 19
+innerarti: 0
+innerarti new: 0
+outerarti: 92
+outerarti new: 92
+----Evaluation indicators----
+--Minority--
+Recall: [0.3333333333333333, 0.0, '-', 0.0]
+Mean Recall: 0.1111111111111111
+FAC: [0.17391304347826086, 1.0, 0, 1.0]
+Mean FAC: 0.5434782608695652
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.4133490761793983 1.8853329860145353e-48
+SDD: 0.011582957719541095
+ND 0.11959701430274837
+CC 1.0
+JaccardIndex: 0.12089673054766469
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:33 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1185
+average degree: 2.0
+average clustering: 0.16135095703969127
+density: 0.011574752388208404
+---------------------
+global: 23
+global new: 6
+star: 17
+star new: 17
+innerarti: 0
+innerarti new: 0
+outerarti: 112
+outerarti new: 110
+----Evaluation indicators----
+--Minority--
+Recall: [0.2982456140350877, 0.0, '-', 0.015625]
+Mean Recall: 0.1046235380116959
+FAC: [0.2608695652173913, 1.0, 0, 0.9821428571428571]
+Mean FAC: 0.5607531055900621
+MAP: [0.4, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.2963512836849171 4.12010740820039e-25
+SDD: 0.006523639907008598
+ND 0.11578017608280063
+CC 1.0
+JaccardIndex: 0.13427012558418802
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:34 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1046
+average degree: 2.0
+average clustering: 0.18465643133035248
+density: 0.010217038816933326
+---------------------
+global: 23
+global new: 5
+star: 20
+star new: 20
+innerarti: 1
+innerarti new: 1
+outerarti: 107
+outerarti new: 104
+----Evaluation indicators----
+--Minority--
+Recall: [0.3157894736842105, 0.0, '-', 0.0234375]
+Mean Recall: 0.11307565789473684
+FAC: [0.21739130434782608, 1.0, 1.0, 0.9719626168224299]
+Mean FAC: 0.797338480292564
+MAP: [0.2, 0.0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.386453748570382 2.0980593621880654e-42
+SDD: 0.009846037279448522
+ND 0.11887143839811082
+CC 1.0
+JaccardIndex: 0.125809028163868
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:34 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: FF
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 1046
+average degree: 2.0
+average clustering: 0.1347522240557364
+density: 0.010217038816933326
+---------------------
+global: 23
+global new: 9
+star: 38
+star new: 38
+innerarti: 0
+innerarti new: 0
+outerarti: 141
+outerarti new: 139
+----Evaluation indicators----
+--Minority--
+Recall: [0.24561403508771928, 0.0, '-', 0.015625]
+Mean Recall: 0.08707967836257309
+FAC: [0.391304347826087, 1.0, 0, 0.9858156028368794]
+Mean FAC: 0.5942799876657416
+MAP: [0.0, 0.0, '-', 0.0]
+NDCG: ['-', '-', '-', '-']
+--Topology--
+KSD:0.35115898910665194 4.3608671603385224e-35
+SDD: 0.00808919913001278
+ND 0.11375132490072341
+CC 1.0
+JaccardIndex: 0.1316006334482432
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:34 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2200
+average degree: 8.0
+average clustering: 0.23525979651323875
+density: 0.021488991775576786
+---------------------
+global: 23
+global new: 1
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 29
+outerarti new: 20
+----Evaluation indicators----
+--Minority--
+Recall: [0.38596491228070173, 0.0, '-', 0.0703125]
+Mean Recall: 0.1520924707602339
+FAC: [0.043478260869565216, 0, 0, 0.6896551724137931]
+Mean FAC: 0.18328335832083958
+MAP: [0.4, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.13010254282034647 2.9997469619180706e-05
+SDD: 0.002997994120116093
+ND 0.18647764013760312
+CC 0.5
+JaccardIndex: 0.26301706487934734
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:34 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2126
+average degree: 7.0
+average clustering: 0.26817730137570106
+density: 0.020766180234034655
+---------------------
+global: 23
+global new: 0
+star: 1
+star new: 0
+innerarti: 1
+innerarti new: 1
+outerarti: 22
+outerarti new: 17
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.5, '-', 0.0390625]
+Mean Recall: 0.3141904239766082
+FAC: [0.0, 0.0, 1.0, 0.7727272727272727]
+Mean FAC: 0.4431818181818182
+MAP: [0.2, 1.0, '-', 0.0]
+NDCG: [1.0, 1.0, '-', '-']
+--Topology--
+KSD:0.11906501522652747 0.00018138817158075415
+SDD: 0.002929172734430581
+ND 0.18271425811291495
+CC 1.0
+JaccardIndex: 0.2605575563737986
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:34 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2208
+average degree: 7.0
+average clustering: 0.2754455380417546
+density: 0.02156713356385161
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 23
+outerarti new: 16
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.0546875]
+Mean Recall: 0.15273209064327484
+FAC: [0.0, 0, 0, 0.6956521739130435]
+Mean FAC: 0.17391304347826086
+MAP: [0.4, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.11203723728638536 0.0005270462772456463
+SDD: 0.002125873931328482
+ND 0.18731341281815717
+CC 1.0
+JaccardIndex: 0.2626340691869167
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2332
+average degree: 8.0
+average clustering: 0.24024000649894442
+density: 0.022778331282111392
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 13
+outerarti new: 12
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.0078125]
+Mean Recall: 0.13710709064327484
+FAC: [0.0, 0, 0, 0.9230769230769231]
+Mean FAC: 0.23076923076923078
+MAP: [0.2, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.14114007041416543 4.226339690216463e-06
+SDD: 0.0035422538498306147
+ND 0.19846779348693583
+CC 1.0
+JaccardIndex: 0.2689800345520862
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2279
+average degree: 8.0
+average clustering: 0.2672979624764947
+density: 0.022260641934790677
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 17
+outerarti new: 11
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.046875]
+Mean Recall: 0.15012792397660818
+FAC: [0.0, 0, 0, 0.6470588235294118]
+Mean FAC: 0.16176470588235295
+MAP: [0.4, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.12789503730158266 4.354612014845216e-05
+SDD: 0.002772129045875271
+ND 0.1906369972953153
+CC 1.0
+JaccardIndex: 0.2677520681891289
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_1
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2336
+average degree: 9.0
+average clustering: 0.24242774374150314
+density: 0.022817402176248804
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 1
+innerarti new: 1
+outerarti: 29
+outerarti new: 21
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.0625]
+Mean Recall: 0.15533625730994152
+FAC: [0.0, 0, 1.0, 0.7241379310344828]
+Mean FAC: 0.43103448275862066
+MAP: [0.2, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.11768751619584257 0.00022511797267488198
+SDD: 0.0024807698115280716
+ND 0.1877517941044283
+CC 0.5
+JaccardIndex: 0.26609567826196595
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_2
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 454
+edges number : 2259
+average degree: 8.0
+average clustering: 0.2457264222816656
+density: 0.02196808355457012
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 1
+innerarti new: 1
+outerarti: 24
+outerarti new: 18
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.046875]
+Mean Recall: 0.15012792397660818
+FAC: [0.0, 0, 1.0, 0.75]
+Mean FAC: 0.4375
+MAP: [0.8, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.11950262645271413 0.0001699529252237042
+SDD: 0.0023995835856046458
+ND 0.18243664109942903
+CC 0.5
+JaccardIndex: 0.2693695548703902
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_3
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2292
+average degree: 8.0
+average clustering: 0.24764502968147104
+density: 0.022387622340737268
+---------------------
+global: 23
+global new: 0
+star: 1
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 23
+outerarti new: 13
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.5, '-', 0.078125]
+Mean Recall: 0.3272112573099415
+FAC: [0.0, 0.0, 0, 0.5652173913043478]
+Mean FAC: 0.14130434782608695
+MAP: [0.2, 1.0, '-', 0.0]
+NDCG: [1.0, 1.0, '-', '-']
+--Topology--
+KSD:0.12127252074529127 0.0001281918516087277
+SDD: 0.0029706170534797697
+ND 0.19203708616506326
+CC 0.5
+JaccardIndex: 0.2674654771045773
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:35 2019
+User: Hawkin
+
+-------------------------
+filename: email_4
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 454
+edges number : 2234
+average degree: 8.0
+average clustering: 0.2457128732141719
+density: 0.021724966206688644
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 22
+outerarti new: 16
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.046875]
+Mean Recall: 0.15012792397660818
+FAC: [0.0, 0, 0, 0.7272727272727273]
+Mean FAC: 0.18181818181818182
+MAP: [0.2, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.11069205376548946 0.0006409418126975819
+SDD: 0.002550346532164051
+ND 0.18469987547252598
+CC 0.3333333333333333
+JaccardIndex: 0.2648397364862673
+---------------------------
+
+---------------------------
+Time: Tue Dec 24 16:51:36 2019
+User: Hawkin
+
+-------------------------
+filename: email_5
+Sampling Type: TIES
+Sampling Rate : 40.00% 
+Seed Type
+---------original---------
+nodes number : 1133
+edges number : 5451
+average degree: 9.62224183583407
+average clustering: 0.2201760865041161
+density: 0.00850021363589582
+---------------------
+global: 57
+star: 2
+innerarti: 0
+outerarti: 128
+---------sampling---------
+nodes number : 453
+edges number : 2219
+average degree: 8.0
+average clustering: 0.246664208615213
+density: 0.02167457852272949
+---------------------
+global: 23
+global new: 0
+star: 0
+star new: 0
+innerarti: 0
+innerarti new: 0
+outerarti: 25
+outerarti new: 20
+----Evaluation indicators----
+--Minority--
+Recall: [0.40350877192982454, 0.0, '-', 0.0390625]
+Mean Recall: 0.14752375730994152
+FAC: [0.0, 0, 0, 0.8]
+Mean FAC: 0.2
+MAP: [1.0, 0, '-', 0.0]
+NDCG: [1.0, '-', '-', '-']
+--Topology--
+KSD:0.11906501522652747 0.00018138817158075415
+SDD: 0.0022202354098256835
+ND 0.1856262890526803
+CC 1.0
+JaccardIndex: 0.26762446066725454
 ---------------------------
 

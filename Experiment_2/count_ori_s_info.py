@@ -39,8 +39,8 @@ def getVector(G, Gs, s=1):
 
 def KSD(G, Gs, d1, d2):
     # KSD
-    a = ks_2samp(d1, d2)
-    return(a)
+    a,b = ks_2samp(d1, d2)
+    return(a,b)
 
 def SDD(G, Gs, d1, d2):
     max1 = max(d1)
@@ -246,7 +246,6 @@ def bridgeMerge(inner, s=0):
         # rule-2: sort by repeat
         two_tuple = list(filter(lambda d: len(d) <= 2, inner))
         parachute = set()
-        balloon = []
         for i in two_tuple:
             if count_node[i[0]]>2:
                 parachute.add(i[0])
@@ -284,6 +283,7 @@ def Articulation_Points_and_Bridge(G, anomaly_total, ss=1):
     sort_inner = bridgeMerge(inner)
     sort_outer = bridgeMerge(outer, s=1)
 
+    print(sort_inner, sort_outer)
     # save
     if ss == 1:
         anomaly_total['innerarti'] = sort_inner
@@ -385,7 +385,7 @@ def FalseAcceptanceRate(X1, X2):
         xgo = set(X1[key])
         xgs = set(X2[key])
         if len(xgs) == 0:
-            rc = '-'
+            rc = 0
             fac.append(rc)
         else:
             intersection = xgs - xgo
@@ -393,6 +393,7 @@ def FalseAcceptanceRate(X1, X2):
             fac.append(rc)
 
     return(fac)
+
 
 def MAP(X1, X2):
     tau = 5
@@ -403,8 +404,10 @@ def MAP(X1, X2):
             series_total = []
             xgo = X1[key]
             xgs = X2[key]
-            if len(xgo) == 0 or len(xgs) == 0:
+            if len(xgo) == 0:
                 map.append('-')
+            elif len(xgs) == 0:
+                map.append(0)
             else:
                 k = min(len(xgo), len(xgs))
                 for i in range(k):
@@ -412,57 +415,48 @@ def MAP(X1, X2):
                         series_total.append(1)
                     else:
                         series_total.append(0)
-                if len(series_total) >= tau:
+                if k >= tau:
                     series_k = series_total[:tau]
-                    sum = 0
-                    for i in series_k:
-                        s = 0
-                        for j in series_k[:i]:
-                            s += j
-                        sum += s
+                    sum = len(list(filter(lambda d: d == 1, series_k)))
                     m = sum / tau
                     map.append(m)
                 else:
                     series_k = series_total
-                    sum = 0
-                    for i in series_k:
-                        s = 0
-                        for j in series_k[:i]:
-                            s += j
-                        sum += s
+                    sum = len(list(filter(lambda d: d == 1, series_k)))
                     m = sum / len(series_k)
                     map.append(m)
         else:
             series_total = []
             xgo = X1[key]
             xgs = X2[key]
-            if len(xgo) == 0 or len(xgs) == 0:
+            if len(xgo) == 0:
                 map.append('-')
+            elif len(xgs) == 0:
+                map.append(0)
             else:
                 k = min(len(xgo), len(xgs))
                 for i in range(k):
-                    if set(xgo[i]) == set(xgs[i]):
-                        series_total.append(1)
-                    else:
+                    if type(xgo[i]) != type(xgs[i]):
                         series_total.append(0)
-                if len(series_total) >= tau:
+                    else:
+                        if type(xgo[i]) == int:
+                            if xgo[i] == xgs[i]:
+                                series_total.append(1)
+                            else:
+                                series_total.append(0)
+                        else:
+                            if set(xgo[i]) == set(xgs[i]):
+                                series_total.append(1)
+                            else:
+                                series_total.append(0)
+                if k >= tau:
                     series_k = series_total[:tau]
-                    sum = 0
-                    for i in series_k:
-                        s = 0
-                        for j in series_k[:i]:
-                            s += j
-                        sum += s
+                    sum = len(list(filter(lambda d: d == 1, series_k)))
                     m = sum / tau
                     map.append(m)
                 else:
                     series_k = series_total
-                    sum = 0
-                    for i in series_k:
-                        s = 0
-                        for j in series_k[:i]:
-                            s += j
-                        sum += s
+                    sum = len(list(filter(lambda d: d == 1, series_k)))
                     m = sum / len(series_k)
                     map.append(m)
     return(map)
@@ -485,18 +479,23 @@ def NDCG(X1, X2):
                         series_total.append(1)
                     else:
                         series_total.append(0)
-                if len(series_total) >= tau:
+                if k >= tau:
                     series_k = series_total[:tau]
                     dcg = 0
                     for i, rel in enumerate(series_k):
-                        t = series_k[i] / math.log(i+1+1, 2)
+                        t = series_k[i] / math.log(i + 1 + 1, 2)
+                        print(t)
                         dcg += t
                     series_k_sort = sorted(series_k, reverse=True)
-
+                    print('xxxxxx')
+                    print(dcg)
                     idcg = 0
                     for i, rel in enumerate(series_k_sort):
                         t = series_k[i] / math.log(i + 1 + 1, 2)
+                        print(t)
                         idcg += t
+                    print(idcg)
+                    print('xxxxxx')
                     if idcg != 0:
                         ndc = dcg / idcg
                         ndcg.append(ndc)
@@ -529,10 +528,19 @@ def NDCG(X1, X2):
             else:
                 k = min(len(xgo), len(xgs))
                 for i in range(k):
-                    if set(xgo[i]) == set(xgs[i]):
-                        series_total.append(1)
-                    else:
+                    if type(xgo[i]) != type(xgs[i]):
                         series_total.append(0)
+                    else:
+                        if type(xgo[i]) == int:
+                            if xgo[i] == xgs[i]:
+                                series_total.append(1)
+                            else:
+                                series_total.append(0)
+                        else:
+                            if set(xgo[i]) == set(xgs[i]):
+                                series_total.append(1)
+                            else:
+                                series_total.append(0)
                 if len(series_total) >= tau:
                     series_k = series_total[:tau]
                     dcg = 0
@@ -611,7 +619,7 @@ def sampleTest(G, rate, f):
 
 
     d1, d2 = getVector(G, Gs)
-    ks = KSD(G, Gs, d1, d2)
+    statistic, pvalue = KSD(G, Gs, d1, d2)
     sd = SDD(G, Gs, d1, d2)
     nd = ND(G, Gs, d1, d2)
 
@@ -646,7 +654,7 @@ def sampleTest(G, rate, f):
     # graph similarity
     j = JaccardIndex(G, Gs)
     cc = CC(G, Gs)
-    print('KSD:', ks, file=f)
+    print('KSD:{} {}'.format(statistic, pvalue), file=f)
     print('SDD:', sd, file=f)
     print('ND', nd, file=f)
     print('CC', cc, file=f)
@@ -722,6 +730,7 @@ def Data_Test(sample_type, filename, iter, rate, seed_type):
     print('Time:', localtime, file=f)
     print('User:', user, file=f)
     print('', file=f)
+    print('-------------------------', file=f)
     print('filename: {}_{}'.format(filename, iter), file=f)
     print('Sampling Type:', sample_type, file=f)
     print('Sampling Rate : {:.2%} '.format(rate), file=f)
@@ -742,18 +751,19 @@ def Data_Test(sample_type, filename, iter, rate, seed_type):
 if __name__ == '__main__':
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
     # sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
-    # sample_types = ['ISMHRW', 'RMSC']
-    # sample_type = 'RAS'
-    # filename = 'facebook3437simi'
-    # iter = 5
-    # rate = 0.05
-    # for sample_type in sample_types:
-    #     for i in range(iter):
-    #         Data_Test(sample_type, filename, i+1, rate)
-    sample_type = 'RAS'
+    sample_types = ['BF', 'RWF', 'FF', 'TIES']
+    seed_types = ['Hdc', 'Rnd']
     filename = 'email'
-    seed_type = 'Hdc'
     iter = 5
-    rate = 0.2
-    for i in range(iter):
-        Data_Test(sample_type, filename, i+1, rate, seed_type)
+    rate = 0.4
+    for sample_type in sample_types:
+        for seed_type in seed_types:
+            for i in range(iter):
+                Data_Test(sample_type, filename, i+1, rate, seed_type)
+    # sample_type = 'RAS'
+    # filename = 'email'
+    # seed_type = 'Hdc'
+    # iter = 5
+    # rate = 0.2
+    # for i in range(iter):
+    #     Data_Test(sample_type, filename, i+1, rate, seed_type)
