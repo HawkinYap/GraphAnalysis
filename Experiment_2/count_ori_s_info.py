@@ -283,7 +283,6 @@ def Articulation_Points_and_Bridge(G, anomaly_total, ss=1):
     sort_inner = bridgeMerge(inner)
     sort_outer = bridgeMerge(outer, s=1)
 
-    print(sort_inner, sort_outer)
     # save
     if ss == 1:
         anomaly_total['innerarti'] = sort_inner
@@ -481,23 +480,28 @@ def NDCG(X1, X2):
                         series_total.append(0)
                 if k >= tau:
                     series_k = series_total[:tau]
+                    print('**********')
+                    print(series_k)
                     dcg = 0
                     for i, rel in enumerate(series_k):
                         t = series_k[i] / math.log(i + 1 + 1, 2)
-                        print(t)
                         dcg += t
                     series_k_sort = sorted(series_k, reverse=True)
+                    print('---!!--')
+                    print(series_k_sort)
                     print('xxxxxx')
                     print(dcg)
                     idcg = 0
                     for i, rel in enumerate(series_k_sort):
-                        t = series_k[i] / math.log(i + 1 + 1, 2)
-                        print(t)
+                        t = series_k_sort[i] / math.log(i + 1 + 1, 2)
                         idcg += t
-                    print(idcg)
                     print('xxxxxx')
+                    print(idcg)
+                    print('+++++++')
                     if idcg != 0:
                         ndc = dcg / idcg
+                        print(ndc)
+                        print('+++++')
                         ndcg.append(ndc)
                     else:
                         ndcg.append('-')
@@ -512,7 +516,7 @@ def NDCG(X1, X2):
 
                     idcg = 0
                     for i, rel in enumerate(series_k_sort):
-                        t = series_k[i] / math.log(i + 1 + 1, 2)
+                        t = series_k_sort[i] / math.log(i + 1 + 1, 2)
                         idcg += t
                     if idcg != 0:
                         ndc = dcg / idcg
@@ -551,7 +555,7 @@ def NDCG(X1, X2):
 
                     idcg = 0
                     for i, rel in enumerate(series_k_sort):
-                        t = series_k[i] / math.log(i + 1 + 1, 2)
+                        t = series_k_sort[i] / math.log(i + 1 + 1, 2)
                         idcg += t
                     if idcg != 0:
                         ndc = dcg / idcg
@@ -568,7 +572,7 @@ def NDCG(X1, X2):
 
                     idcg = 0
                     for i, rel in enumerate(series_k_sort):
-                        t = series_k[i] / math.log(i + 1 + 1, 2)
+                        t = series_k_sort[i] / math.log(i + 1 + 1, 2)
                         idcg += t
                     if idcg != 0:
                         ndc = dcg / idcg
@@ -734,7 +738,7 @@ def Data_Test(sample_type, filename, iter, rate, seed_type):
     print('filename: {}_{}'.format(filename, iter), file=f)
     print('Sampling Type:', sample_type, file=f)
     print('Sampling Rate : {:.2%} '.format(rate), file=f)
-    print('Seed Type'.format(seed_type), file=f)
+    print('Seed Type: {}'.format(seed_type), file=f)
 
     print('---------original---------', file=f)
     print('nodes number : %d' % G.number_of_nodes(),  file=f)

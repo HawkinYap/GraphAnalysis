@@ -1,12 +1,12 @@
 ---------------------------
-Time: Tue Dec 24 16:51:29 2019
+Time: Tue Dec 24 20:20:56 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -50,14 +50,14 @@ JaccardIndex: 0.07158006779309858
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:29 2019
+Time: Tue Dec 24 20:20:56 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -101,14 +101,14 @@ JaccardIndex: 0.08234703151069726
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:29 2019
+Time: Tue Dec 24 20:20:56 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -152,14 +152,14 @@ JaccardIndex: 0.07370276523455688
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:29 2019
+Time: Tue Dec 24 20:20:57 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -203,14 +203,14 @@ JaccardIndex: 0.0788797932867062
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:29 2019
+Time: Tue Dec 24 20:20:57 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -254,14 +254,14 @@ JaccardIndex: 0.08576748172485298
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:57 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -305,14 +305,14 @@ JaccardIndex: 0.09122225499409627
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:57 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -356,14 +356,14 @@ JaccardIndex: 0.07729326079476656
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:57 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -407,14 +407,14 @@ JaccardIndex: 0.0722475632676977
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -458,14 +458,14 @@ JaccardIndex: 0.077569176017697
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: BF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -509,14 +509,14 @@ JaccardIndex: 0.0776535181421372
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:30 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -560,14 +560,14 @@ JaccardIndex: 0.1232887066516527
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -611,14 +611,14 @@ JaccardIndex: 0.11981697015609308
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -662,14 +662,14 @@ JaccardIndex: 0.11034051348998382
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:58 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -713,14 +713,14 @@ JaccardIndex: 0.11663357497626682
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:59 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -764,14 +764,14 @@ JaccardIndex: 0.11745678874304576
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:59 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -815,14 +815,14 @@ JaccardIndex: 0.12125994242624198
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:31 2019
+Time: Tue Dec 24 20:20:59 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -866,14 +866,14 @@ JaccardIndex: 0.11171359695608746
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:32 2019
+Time: Tue Dec 24 20:20:59 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -917,14 +917,14 @@ JaccardIndex: 0.11361714231759476
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:32 2019
+Time: Tue Dec 24 20:20:59 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -968,14 +968,14 @@ JaccardIndex: 0.12190128545612026
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:32 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: RWF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1019,14 +1019,14 @@ JaccardIndex: 0.11964261263599206
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:32 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1070,14 +1070,14 @@ JaccardIndex: 0.12494095715488018
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:32 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1121,14 +1121,14 @@ JaccardIndex: 0.12375124541537581
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1172,14 +1172,14 @@ JaccardIndex: 0.1337072096476085
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1213,7 +1213,7 @@ Mean Recall: 0.10786732456140351
 FAC: [0.21739130434782608, 1.0, 0, 0.987012987012987]
 Mean FAC: 0.5511010728402033
 MAP: [0.2, 0.0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.43067655807339306, '-', '-', '-']
 --Topology--
 KSD:0.36658619890150784 3.366371775506676e-38
 SDD: 0.009040140690835141
@@ -1223,14 +1223,14 @@ JaccardIndex: 0.13793585547208764
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:00 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1264,7 +1264,7 @@ Mean Recall: 0.10201937134502924
 FAC: [0.2608695652173913, 1.0, 0, 0.9850746268656716]
 Mean FAC: 0.5614860480207657
 MAP: [0.4, 0.0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.8772153153380494, '-', '-', '-']
 --Topology--
 KSD:0.44826390309576836 6.598700284030563e-57
 SDD: 0.013050551538146517
@@ -1274,14 +1274,14 @@ JaccardIndex: 0.11902434880212581
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1325,14 +1325,14 @@ JaccardIndex: 0.13120279774262902
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1376,14 +1376,14 @@ JaccardIndex: 0.12089673054766469
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:33 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1427,14 +1427,14 @@ JaccardIndex: 0.13427012558418802
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:34 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1478,14 +1478,14 @@ JaccardIndex: 0.125809028163868
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:34 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: FF
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1529,14 +1529,14 @@ JaccardIndex: 0.1316006334482432
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:34 2019
+Time: Tue Dec 24 20:21:01 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1570,7 +1570,7 @@ Mean Recall: 0.1520924707602339
 FAC: [0.043478260869565216, 0, 0, 0.6896551724137931]
 Mean FAC: 0.18328335832083958
 MAP: [0.4, 0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.8503449055347547, '-', '-', '-']
 --Topology--
 KSD:0.13010254282034647 2.9997469619180706e-05
 SDD: 0.002997994120116093
@@ -1580,14 +1580,14 @@ JaccardIndex: 0.26301706487934734
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:34 2019
+Time: Tue Dec 24 20:21:02 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1631,14 +1631,14 @@ JaccardIndex: 0.2605575563737986
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:34 2019
+Time: Tue Dec 24 20:21:02 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1672,7 +1672,7 @@ Mean Recall: 0.15273209064327484
 FAC: [0.0, 0, 0, 0.6956521739130435]
 Mean FAC: 0.17391304347826086
 MAP: [0.4, 0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.8772153153380494, '-', '-', '-']
 --Topology--
 KSD:0.11203723728638536 0.0005270462772456463
 SDD: 0.002125873931328482
@@ -1682,14 +1682,14 @@ JaccardIndex: 0.2626340691869167
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:02 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1733,14 +1733,14 @@ JaccardIndex: 0.2689800345520862
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:02 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Hdc
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1774,7 +1774,7 @@ Mean Recall: 0.15012792397660818
 FAC: [0.0, 0, 0, 0.6470588235294118]
 Mean FAC: 0.16176470588235295
 MAP: [0.4, 0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.8772153153380494, '-', '-', '-']
 --Topology--
 KSD:0.12789503730158266 4.354612014845216e-05
 SDD: 0.002772129045875271
@@ -1784,14 +1784,14 @@ JaccardIndex: 0.2677520681891289
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:02 2019
 User: Hawkin
 
 -------------------------
 filename: email_1
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1835,14 +1835,14 @@ JaccardIndex: 0.26609567826196595
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:03 2019
 User: Hawkin
 
 -------------------------
 filename: email_2
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1876,7 +1876,7 @@ Mean Recall: 0.15012792397660818
 FAC: [0.0, 0, 1.0, 0.75]
 Mean FAC: 0.4375
 MAP: [0.8, 0, '-', 0.0]
-NDCG: [1.0, '-', '-', '-']
+NDCG: [0.9828920819566879, '-', '-', '-']
 --Topology--
 KSD:0.11950262645271413 0.0001699529252237042
 SDD: 0.0023995835856046458
@@ -1886,14 +1886,14 @@ JaccardIndex: 0.2693695548703902
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:03 2019
 User: Hawkin
 
 -------------------------
 filename: email_3
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1937,14 +1937,14 @@ JaccardIndex: 0.2674654771045773
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:35 2019
+Time: Tue Dec 24 20:21:03 2019
 User: Hawkin
 
 -------------------------
 filename: email_4
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
@@ -1988,14 +1988,14 @@ JaccardIndex: 0.2648397364862673
 ---------------------------
 
 ---------------------------
-Time: Tue Dec 24 16:51:36 2019
+Time: Tue Dec 24 20:21:03 2019
 User: Hawkin
 
 -------------------------
 filename: email_5
 Sampling Type: TIES
 Sampling Rate : 40.00% 
-Seed Type
+Seed Type: Rnd
 ---------original---------
 nodes number : 1133
 edges number : 5451
