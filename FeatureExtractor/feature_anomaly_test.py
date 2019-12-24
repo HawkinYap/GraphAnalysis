@@ -102,8 +102,8 @@ def Get_Info(G):
 
 
 if __name__ == '__main__':
-    path1 = "Data/power_node.csv"
-    path2 = "Data/power_edge.csv"
+    path1 = "InputData/power_node.csv"
+    path2 = "InputData/power_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

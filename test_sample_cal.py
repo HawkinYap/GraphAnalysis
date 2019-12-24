@@ -250,10 +250,10 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    # path1 = "GraphSampling/formalData/oregon_node.csv"
-    # path2 = "GraphSampling/formalData/oregon_edge.csv"
-    path1 = "OtherAlgorithm/Data/toy2_node.csv"
-    path2 = "OtherAlgorithm/Data/toy2_edge.csv"
+    path1 = "GraphSampling/formalData/oregon_node.csv"
+    path2 = "GraphSampling/formalData/oregon_edge.csv"
+    # path1 = "OtherAlgorithm/InputData/toy2_node.csv"
+    # path2 = "OtherAlgorithm/InputData/toy2_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

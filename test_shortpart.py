@@ -7,8 +7,8 @@ path1 = "Datasets/test_shortpath_node.csv"
 path2 = "Datasets/test_shortpath_edge.csv"
 # path1 = "../GraphSampling/TestData/Facebook/facebook414_node.csv"
 # path2 = "../GraphSampling/TestData/Facebook/facebook414_edge.csv"
-# path1 = "../GraphSampling/Data/class_node.csv"
-# path2 = "../GraphSampling/Data/class_edge.csv"
+# path1 = "../GraphSampling/InputData/class_node.csv"
+# path2 = "../GraphSampling/InputData/class_edge.csv"
 
 
 file = os.path.splitext(path1)

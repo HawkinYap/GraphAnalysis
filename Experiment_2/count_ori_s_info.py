@@ -187,69 +187,110 @@ def Extract_Star(G, threshold, anomaly_total, s=1):
                 anomaly_total['star'].append(node)
 
 
-def bridgeMerge(inner):
-    inner_tuple = []
-    merge = []
-    copyinner = inner.copy()
-    for i in range(len(inner) - 1):
-        for j in range(i + 1, len(inner)):
-            if inner[i][0] in copyinner[j] or inner[i][1] in copyinner[j]:
-                tmp = tuple(set(inner[i]+copyinner[j]))
-                copyinner[j] = tmp
-                merge.append(inner[i])
-                merge.append(inner[j])
-                inner_tuple.append(tmp)
-    inner = set(copyinner) - set(merge)
-    sort_inner = sorted(inner, key=lambda d: len(d), reverse=True)
-    return(sort_inner)
+def bridgeMerge(inner, s=0):
+    if s == 0:
+        inner_tuple = []
+        merge = []
+        copyinner = inner.copy()
+        for i in range(len(inner) - 1):
+            for j in range(i + 1, len(inner)):
+                if inner[i][0] in copyinner[j] or inner[i][1] in copyinner[j]:
+                    tmp = tuple(set(inner[i]+copyinner[j]))
+                    copyinner[j] = tmp
+                    merge.append(inner[i])
+                    merge.append(inner[j])
+                    inner_tuple.append(tmp)
+        inner = set(copyinner) - set(merge)
+        sort_inner = sorted(inner, key=lambda d: len(d), reverse=True)
+        return(sort_inner)
+
+    if s == 1:
+        inner_tuple = []
+        merge = []
+        copyinner = inner.copy()
+        count_node={}
+        for i in inner:
+            if i[0] in count_node:
+                count_node[i[0]] += 1
+            else:
+                count_node[i[0]] = 1
+            if i[1] in count_node:
+                count_node[i[1]] += 1
+            else:
+                count_node[i[1]] = 1
+        for i in range(len(inner) - 1):
+            for j in range(i + 1, len(inner)):
+                if (inner[i][0] in copyinner[j] and count_node[inner[i][0]] <3) or (inner[i][1] in copyinner[j] and count_node[inner[i][0]] <3):
+                    tmp = tuple(set(inner[i] + copyinner[j]))
+                    copyinner[j] = tmp
+                    merge.append(inner[i])
+                    merge.append(inner[j])
+                    inner_tuple.append(tmp)
+        inner = set(copyinner) - set(merge)
+
+        # keep all structures
+        # # rule-1: sort by length
+        # sort_inner = sorted(inner, key=lambda d: len(d), reverse=True)
+        # # rule-2: sort by repeat
+        # two_tuple = list(filter(lambda d: len(d) <= 2, inner))
+        # two_tuple_rank = sorted(two_tuple, key=lambda d: count_node[d[0]], reverse=True)
+        # print(two_tuple_rank)
+        # # Join
+        # rm = list(filter(lambda d: d not in two_tuple, sort_inner))
+        # print(rm)
+        # final_outer = rm + two_tuple_rank
+
+        # keep some structures
+        # rule-1: sort by length
+        sort_inner = sorted(inner, key=lambda d: len(d), reverse=True)
+        # rule-2: sort by repeat
+        two_tuple = list(filter(lambda d: len(d) <= 2, inner))
+        parachute = set()
+        balloon = []
+        for i in two_tuple:
+            if count_node[i[0]]>2:
+                parachute.add(i[0])
+            if count_node[i[1]]>2:
+                parachute.add(i[1])
+        balloon = list(filter(lambda d: d[0] not in parachute and d[1] not in parachute, two_tuple))
+        # merge
+        rm = list(filter(lambda d: d not in two_tuple, sort_inner))
+        final_outer = rm + list(parachute) + balloon
+        return(final_outer)
 
 
 def Articulation_Points_and_Bridge(G, anomaly_total, ss=1):
+    # get bridges and articulation points
     l = list(nx.articulation_points(G))
     b = list(nx.bridges(G))
+
+    # get both and remainder
     both = list(filter(lambda d: d[0] in l and d[1] in l, b))
-    check_both = set()
-    for i in both:
-        check_both.add(i[0])
-        check_both.add(i[1])
-    # remainder = [i not in both for i in b]
-    remainder = []
-    for i in b:
-        if i not in both:
-            remainder.append(i)
+    remainder = [i for i in b if i not in both]
+
+    # filter-find chain
     s = set()
-    # find chain
     for r in remainder:
         if G.degree(r[0]) == 1 and G.degree(r[1]) == 2:
             s.add(r[1])
         if G.degree(r[1]) == 1 and G.degree(r[0]) == 2:
             s.add(r[0])
+
+    # get inner and outer edge-pair
     inner = list(filter(lambda d: d[0] not in s and d[1] not in s, both))
-    outer = []
-    for i in b:
-        if i not in inner:
-            outer.append(i)
+    outer = [i for i in b if i not in inner]
 
+    # marge
     sort_inner = bridgeMerge(inner)
-    sort_outer = bridgeMerge(outer)
+    sort_outer = bridgeMerge(outer, s=1)
 
-    check_outer = []
-    for i in sort_outer:
-        count = 0
-        for j in i:
-            if G.degree(j) == 1:
-                count += 1
-            if count > 1:
-                continue
-        if count == 1:
-            check_outer.append(i)
-
+    # save
     if ss == 1:
         anomaly_total['innerarti'] = sort_inner
-        anomaly_total['outerarti'] = check_outer
+        anomaly_total['outerarti'] = sort_outer
     if ss == 2:
         anomaly_total['innerarti'] = sort_inner
-        anomaly_total['outerarti'] = check_outer
+        anomaly_total['outerarti'] = sort_outer
 
 
     arti_num = {}
@@ -282,7 +323,7 @@ def Articulation_Points_and_Bridge(G, anomaly_total, ss=1):
 
 def featureExtraction(G, Gs, f):
     # origin graph
-    threshold = starThreshold_2(G, s=1)
+    threshold = starThreshold_2(G, s=1)  # mean
     heigh_neighbour = 0.05
     anomaly_total1 = {}
     Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total1)
@@ -290,7 +331,7 @@ def featureExtraction(G, Gs, f):
     Articulation_Points_and_Bridge(G, anomaly_total1)
 
     # sampling graph
-    threshold = starThreshold_2(Gs, s=1)
+    threshold = starThreshold_2(Gs, s=1)  # mean
     heigh_neighbour = 0.05
     anomaly_total2 = {}
     Extract_Global_High_Neighbor(Gs, heigh_neighbour, anomaly_total2, s=2)
@@ -547,6 +588,13 @@ def JaccardIndex(G, Gs):
     jaccard = sum / len(G)
     return(jaccard)
 
+
+def CC(G, Gs):
+    G_cc = len(list(nx.connected_components(G)))
+    Gs_cc = len(list(nx.connected_components(Gs)))
+    cc = G_cc / Gs_cc
+    return(cc)
+
 def sampleTest(G, rate, f):
     Gs = nx.Graph()
     for n, data in G.nodes(data=True):
@@ -560,28 +608,7 @@ def sampleTest(G, rate, f):
             Gs.add_edge(u, v)
             for i, j in d.items():
                 Gs[u][v][i] = j
-    degree_total = 0
-    for x in Gs.nodes():
-        degree_total = degree_total + Gs.degree(x)
 
-    threshold = degree_total / len(Gs)
-
-    # print('nodes number : %d' % Gs.number_of_nodes())
-    # print('edges number : %d' % Gs.number_of_edges())
-    # print("average degree: %s" % threshold)
-    # print("average clustering: %s" % nx.average_clustering(Gs))
-    # print("density: %s" % nx.density(Gs))
-    # print('---------------------')
-
-    # f = open('log/test_log.txt', mode='a+')
-    # user = 'Hawkin'
-    # print('---------------------------', file=f)
-    # localtime = time.asctime(time.localtime(time.time()))
-    # print('Time:', localtime, file=f)
-    # print('User:', user, file=f)
-    # print('', file=f)
-    # print('Logfile: countOriginSampleTest', file=f)
-    # print('Sampling Rate:', rate, file=f)
 
     d1, d2 = getVector(G, Gs)
     ks = KSD(G, Gs, d1, d2)
@@ -595,6 +622,7 @@ def sampleTest(G, rate, f):
     map = MAP(X1, X2)
     ndcg = NDCG(X1, X2)
     print('----Evaluation indicators----', file=f)
+    print('--Minority--', file=f)
     print('Recall:', recall, file=f)
     sumr = 0
     count1 = 0
@@ -614,8 +642,14 @@ def sampleTest(G, rate, f):
     print('MAP:', map, file=f)
     print('NDCG:', ndcg, file=f)
 
+    print('--Topology--', file=f)
     # graph similarity
     j = JaccardIndex(G, Gs)
+    cc = CC(G, Gs)
+    print('KSD:', ks, file=f)
+    print('SDD:', sd, file=f)
+    print('ND', nd, file=f)
+    print('CC', cc, file=f)
     print('JaccardIndex:', j, file=f)
     print('---------------------------', file=f)
     print('', file=f)
@@ -666,11 +700,11 @@ def loadData(path1, path2, isDirect):
     return(G)
 
 
-def Data_Test(sample_type, filename, iter, rate):
+def Data_Test(sample_type, filename, iter, rate, seed_type):
 
     # Test file type
-    path1 = "SamplingDataCount/two-step/facebook3437simi_0.05/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    path2 = "SamplingDataCount/two-step/facebook3437simi_0.05/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    path1 = "OutputData/{}_{}_{}_{}_{}node.csv".format(sample_type, filename, rate, seed_type, iter)
+    path2 = "OutputData/{}_{}_{}_{}_{}edge.csv".format(sample_type, filename, rate, seed_type, iter)
     isDirect = False
 
     G = loadData(path1, path2, isDirect)
@@ -690,11 +724,10 @@ def Data_Test(sample_type, filename, iter, rate):
     print('', file=f)
     print('filename: {}_{}'.format(filename, iter), file=f)
     print('Sampling Type:', sample_type, file=f)
-    print('Sampling Rate:', rate, file=f)
+    print('Sampling Rate : {:.2%} '.format(rate), file=f)
+    print('Seed Type'.format(seed_type), file=f)
 
     print('---------original---------', file=f)
-    print('sampling rate : {:.2%} '.format(rate), file=f)
-    print('--------------------------', file=f)
     print('nodes number : %d' % G.number_of_nodes(),  file=f)
     print('edges number : %d' % G.number_of_edges(), file=f)
     print("average degree: %s" % threshold, file=f)
@@ -708,18 +741,19 @@ def Data_Test(sample_type, filename, iter, rate):
 
 if __name__ == '__main__':
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
-    sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
+    # sample_types = ['DLA', 'DPL', 'SGP', 'SSP', 'SST']
     # sample_types = ['ISMHRW', 'RMSC']
-    # sample_type = 'RDN'
-    filename = 'facebook3437simi'
-    iter = 5
-    rate = 0.05
-    for sample_type in sample_types:
-        for i in range(iter):
-            Data_Test(sample_type, filename, i+1, rate)
-    # sample_type = 'NEW'
-    # filename = 'oregin'
+    # sample_type = 'RAS'
+    # filename = 'facebook3437simi'
     # iter = 5
     # rate = 0.05
-    # for i in range(iter):
-    #     Data_Test(sample_type, filename, i+1, rate)
+    # for sample_type in sample_types:
+    #     for i in range(iter):
+    #         Data_Test(sample_type, filename, i+1, rate)
+    sample_type = 'RAS'
+    filename = 'email'
+    seed_type = 'Hdc'
+    iter = 5
+    rate = 0.2
+    for i in range(iter):
+        Data_Test(sample_type, filename, i+1, rate, seed_type)

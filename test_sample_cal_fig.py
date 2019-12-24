@@ -258,8 +258,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "OtherAlgorithm/Data/lesmi5_node.csv"
-    path2 = "OtherAlgorithm/Data/lesmi5_edge.csv"
+    path1 = "OtherAlgorithm/InputData/lesmi5_node.csv"
+    path2 = "OtherAlgorithm/InputData/lesmi5_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

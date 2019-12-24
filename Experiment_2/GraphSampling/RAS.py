@@ -11,7 +11,7 @@ class RAS:
             if len(Gs) < size:
                 Gs.add_node(i)
                 if len(Gs) < size:
-                    i_neighbor = list(G.neighbor(i))
+                    i_neighbor = list(G.neighbors(i))
                     Gs.add_nodes_from(i_neighbor)
                 else:
                     break

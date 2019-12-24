@@ -398,14 +398,14 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    # path1 = "../GraphSampling/Data/toy3_node.csv"
-    # path2 = "../GraphSampling/Data/toy3_edge.csv"
+    # path1 = "../GraphSampling/InputData/toy3_node.csv"
+    # path2 = "../GraphSampling/InputData/toy3_edge.csv"
 
     # path1 = "../GraphSampling/TestData/Facebook/facebook1912_node.csv"
     # path2 = "../GraphSampling/TestData/Facebook/facebook1912_edge.csv"
 
-    path1 = "../OtherAlgorithm/Data/lesmi_node.csv"
-    path2 = "../OtherAlgorithm/Data/lesmi_edge.csv"
+    path1 = "../OtherAlgorithm/InputData/lesmi_node.csv"
+    path2 = "../OtherAlgorithm/InputData/lesmi_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file

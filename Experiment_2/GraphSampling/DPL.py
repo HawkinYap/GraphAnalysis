@@ -2,7 +2,7 @@ import os
 import csv
 import networkx as nx
 import random
-from GraphSampling.Louvain import Louvain
+from Experiment_2.GraphSampling.Louvain import Louvain
 import matplotlib.pyplot as plt
 import math
 from itertools import *

@@ -1,3 +1,7 @@
+import sys
+sys.path.append('..')
+import Experiment_2.GraphSampling
+from Experiment_2.GraphSampling.DPL import DPL
 import networkx as nx
 import matplotlib.pyplot as plt
 import csv
@@ -106,9 +110,9 @@ def graphSampling(G, isDirect, seed, rate):
     # GMD_sample = GMD_object.gmd(G, sample_rate, isDirect, seed)
     # return(GMD_sample, 'GMD')
 
-    RCMH_object = GraphSampling.RCMH()
-    RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
-    return(RCMH_sample, 'RCMH')
+    # RCMH_object = Experiment_2.GraphSampling.RCMH()
+    # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
+    # return(RCMH_sample, 'RCMH')
 
     # m = 5
     # node = list(G.nodes())
@@ -117,9 +121,9 @@ def graphSampling(G, isDirect, seed, rate):
     # IDRW_sample = IDRW_object.IDRW(G, sample_rate, seeds)
     # return(IDRW_sample, 'IDRW')
 
-    # RAS_object = GraphSampling.RAS()
-    # RAS_sample = RAS_object.RAS(G, sample_rate)
-    # return(RAS_sample, 'RAS')
+    RAS_object = Experiment_2.GraphSampling.RAS()
+    RAS_sample = RAS_object.RAS(G, sample_rate)
+    return(RAS_sample, 'RAS')
 
 
     # -----two-step sampler------
@@ -132,7 +136,7 @@ def graphSampling(G, isDirect, seed, rate):
     # SSP_sample = SSP_object.SSP(G, sample_rate, seed)
     # return(SSP_sample, 'SSP')
 
-    # DPL_object = GraphSampling.DPL()
+    # DPL_object = Experiment_2.GraphSampling.DPL()
     # DPL_sample = DPL_object.DPL(G, rate)
     # return(DPL_sample, 'DPL')
 
@@ -183,7 +187,7 @@ def drawGraph(G, sample):
 
 
 
-def saveGraph(G, sample, filename, iter, sample_type, rate):
+def saveGraph(G, sample, filename, iter, sample_type, rate, seed_type):
 
     # convert to node list
     class_nodes = []
@@ -202,8 +206,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "OutputData/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "OutputData/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "OutputData/{}_{}_{}_{}_{}node.csv".format(sample_type, filename, rate, seed_type, iter)
+    orig_edgefile_path = "OutputData/{}_{}_{}_{}_{}edge.csv".format(sample_type, filename, rate, seed_type, iter)
 
     title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -259,22 +263,24 @@ def dataTest():
 
 
     # test 1
-    rate = 0.2
-    iter = 1
-    seed = random.sample(random_seed, 1)
-    Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
-    print(sample_type, len(G), len(Gs))
-    # drawGraph(G, Gs)
-    saveGraph(G, Gs, fn, iter, sample_type, rate)
+    # rate = 0.2
+    # iter = 1
+    # seed = random.sample(random_seed, 1)
+    # Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)
+    # print(sample_type, len(G), len(Gs))
+    # # drawGraph(G, Gs)
+    # saveGraph(G, Gs, fn, iter, sample_type, rate)
 
     # formal
-    # rate = 0.2
-    # iter = 5
-    # for i in range(iter):
-    #     seed = random.sample(random_seed, 1)
-    #     sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
-    #     print(len(G), len(sample))
-    #     saveGraph(G, sample, fn, i + 1, sample_type, rate)
+    # rate range [0.1, 0.2, 0.3, 0.4]
+    seed_type = 'Hdc'
+    rate = 0.2
+    iter = 5
+    for i in range(iter):
+        seed = random.sample(random_seed, 1)
+        sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+        print(len(G), len(sample))
+        saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
 
 if __name__ == '__main__':
     dataTest()
