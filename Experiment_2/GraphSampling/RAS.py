@@ -3,10 +3,11 @@ import random
 from itertools import *
 
 class RAS:
-    def RAS(self, G, size, T=500):
+    def RAS(self, G, size, seed, T=500):
         Gs = nx.Graph()
         nodes = list(G.nodes())
-        select_nodes = random.sample(nodes, T)
+        select_nodes = [seed]
+        select_nodes = select_nodes + random.sample(nodes, T)
         for i in select_nodes:
             if len(Gs) < size:
                 Gs.add_node(i)

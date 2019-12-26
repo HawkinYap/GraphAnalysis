@@ -10,6 +10,7 @@ class RMSC:
         while len(Gs) < size:
             for i in range(len(L)):
                 nei = []
+                print(L[i])
                 i_neibor = G.neighbors(L[i])
                 for j in i_neibor:
                     pt = random.random()

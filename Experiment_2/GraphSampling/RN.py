@@ -5,7 +5,8 @@ from random import choice
 class RN():
     def randomnode(self, G, size, seed):
         list_nodes = list(G.nodes())
-        select_nodes = random.sample(list_nodes, size)
+        select_nodes = random.sample(list_nodes, size - 1)
+        select_nodes = select_nodes + [seed]
         if seed in select_nodes:
             induced_graph = G.subgraph(select_nodes)
         else:

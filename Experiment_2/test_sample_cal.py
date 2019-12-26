@@ -94,13 +94,22 @@ def graphSampling(G, isDirect, seed, rate):
     # FF_sample = FF_object.forestfire(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(FF_sample, 'FF')
 
-    RWF_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
-    RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15, seed)  # graph, number of nodes to sample
-    return(RWF_sample, 'RWF')
+    # RW_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
+    # RW_sample = RW_object.random_walk_sampling_simple(G, sample_rate, seed)  # graph, number of nodes to sample
+    # return(RW_sample, 'RW')
 
-    # RJ_object = Experiment_2.GraphSampling.RJ()
-    # RJ_sample = RJ_object.rj(G, sample_rate, isDirect, seed)  # graph, number of n
-    # return(RJ_sample, 'RJ')
+
+    # RWF_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
+    # RWF_sample = RWF_object.random_walk_sampling_with_fly_back(G, sample_rate, 0.15, seed)  # graph, number of nodes to sample
+    # return(RWF_sample, 'RJ')
+
+    # IRW_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
+    # IRW_sample = IRW_object.random_walk_induced_graph_sampling(G, sample_rate, seed)  # graph, number of nodes to sample
+    # return(IRW_sample, 'IRW')
+
+    # # RJ_object = Experiment_2.GraphSampling.RJ()
+    # # RJ_sample = RJ_object.rj(G, sample_rate, isDirect, seed)  # graph, number of n
+    # # return(RJ_sample, 'RJ')
 
     # MHRW_object = Experiment_2.GraphSampling.MHRW()
     # MHRW_sample = MHRW_object.mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
@@ -123,7 +132,7 @@ def graphSampling(G, isDirect, seed, rate):
     # return(IDRW_sample, 'IDRW')
 
     # RAS_object = Experiment_2.GraphSampling.RAS()
-    # RAS_sample = RAS_object.RAS(G, sample_rate)
+    # RAS_sample = RAS_object.RAS(G, sample_rate, seed)
     # return(RAS_sample, 'RAS')
 
 
@@ -151,16 +160,18 @@ def graphSampling(G, isDirect, seed, rate):
 
     # -----variant sampler------
 
-    # ISMHRW_object = GraphSampling.MHRW()
+    # ISMHRW_object = Experiment_2.GraphSampling.MHRW()
     # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(ISMHRW_sample, 'ISMHRW')
 
-    # m = 5
-    # node = list(G.nodes())
-    # seeds = random.sample(node, m)
-    # RMSC_object = GraphSampling.RMSC()
-    # RMSC_sample = RMSC_object.RMSC(G, sample_rate, seeds)  # graph, number of nodes to sample
-    # return(RMSC_sample, 'RMSC')
+    m = 4
+    node = list(G.nodes())
+    seeds = random.sample(node, m)
+    seeds.append(seed)
+    print(seeds)
+    RMSC_object = Experiment_2.GraphSampling.RMSC()
+    RMSC_sample = RMSC_object.RMSC(G, sample_rate, seeds)  # graph, number of nodes to sample
+    return(RMSC_sample, 'RMSC')
 
 
 
@@ -218,10 +229,38 @@ def saveGraph(G, sample, filename, iter, sample_type, rate, seed_type):
     test = pd.DataFrame(data=orig_edges)
     test.to_csv(orig_edgefile_path, index=None, header=False)
 
+def Rnd(G):
+    random_seed = []
+    seed_choice = list(G.nodes())
+    random_seed.append(random.sample(seed_choice, 3))
+    random_seed = random_seed[0] # three
+    return(random_seed)
+
+
+def Hbc(G):
+    score = nx.betweenness_centrality(G)
+    score = sorted(score.items(), key=lambda item:item[1], reverse=True)[:3]
+    random_seed = [i[0] for i in score]
+    return(random_seed)
+
+
+def Hdc(G):
+    score = nx.degree(G)
+    score = sorted(score, key=lambda item:item[1], reverse=True)[:3]
+    random_seed = [i[0] for i in score]
+    return(random_seed)
+
+
+def Per(G):
+    score = nx.degree(G)
+    score = sorted(score, key=lambda item:item[1])[:3]
+    random_seed = [i[0] for i in score]
+    return(random_seed)
+
 
 def dataTest():
-    path1 = "InputData/email_node.csv"
-    path2 = "InputData/email_edge.csv"
+    path1 = "InputData/eurosis_node.csv"
+    path2 = "InputData/eurosis_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -238,11 +277,11 @@ def dataTest():
     # Four Seed Choice
 
     # Rnd - Random Choice
-    random_seed = []
-    seed_choice = list(G.nodes())
-    random_seed.append(random.sample(seed_choice, 3))
-    random_seed = random_seed[0] # three
-    print(random_seed)
+    # random_seed = []
+    # seed_choice = list(G.nodes())
+    # random_seed.append(random.sample(seed_choice, 3))
+    # random_seed = random_seed[0] # three
+    # print(random_seed)
 
     # Hbc - High Betweenness Choice
     # score = nx.betweenness_centrality(G)
@@ -274,14 +313,60 @@ def dataTest():
 
     # formal
     # rate range [0.1, 0.2, 0.3, 0.4]
-    seed_type = 'Rnd'
-    rate = 0.4
+    # seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
+    # rate = 0.1
+    # iter = 5
+    # for seed_type in seed_types:
+    #     for i in range(iter):
+    #         if seed_type == 'Rnd':
+    #             random_seed = Rnd(G)
+    #         elif seed_type == 'Hbc':
+    #             random_seed = Hbc(G)
+    #         elif seed_type == 'Hdc':
+    #             random_seed = Hdc(G)
+    #         else:
+    #             random_seed = Per(G)
+    #         seed = random.sample(random_seed, 1)
+    #         sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+    #         print(len(G), len(sample))
+    #         saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
+
+    # seed_types = ['Hbc', 'Hdc', 'Per']
+    # rate = 0.1
+    # iter = 5
+    # for seed_type in seed_types:
+    #     for i in range(iter):
+    #         if seed_type == 'Rnd':
+    #             random_seed = Rnd(G)
+    #         elif seed_type == 'Hbc':
+    #             random_seed = Hbc(G)
+    #         elif seed_type == 'Hdc':
+    #             random_seed = Hdc(G)
+    #         else:
+    #             random_seed = Per(G)
+    #         seed = random.sample(random_seed, 1)
+    #         print(seed)
+    #         sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+    #         print(len(G), len(sample))
+    #         saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
+
+    seed_types = ['Per']
+    rate = 0.1
     iter = 5
-    for i in range(iter):
+    for seed_type in seed_types:
+        if seed_type == 'Rnd':
+            random_seed = Rnd(G)
+        elif seed_type == 'Hbc':
+            random_seed = Hbc(G)
+        elif seed_type == 'Hdc':
+            random_seed = Hdc(G)
+        else:
+            random_seed = Per(G)
         seed = random.sample(random_seed, 1)
+        print(seed)
         sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
         print(len(G), len(sample))
-        saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
+        saveGraph(G, sample, fn, iter, sample_type, rate, seed_type)
 
 if __name__ == '__main__':
     dataTest()

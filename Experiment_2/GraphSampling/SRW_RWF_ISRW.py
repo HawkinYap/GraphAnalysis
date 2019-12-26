@@ -9,7 +9,8 @@ class SRW_RWF_ISRW():
         self.T = 100 # number of iterations
         self.fly_back_prob = 0.15
 
-    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample, isDirect, seed):
+    def random_walk_sampling_simple(self, complete_graph, nodes_to_sample, seed):
+        isDirect = False
         # giving unique id to every node same as built-in function id
         for n, data in complete_graph.nodes(data=True):
             complete_graph.node[n]['id'] = n
