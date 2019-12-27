@@ -119,9 +119,9 @@ def graphSampling(G, isDirect, seed, rate):
     # GMD_sample = GMD_object.gmd(G, sample_rate, isDirect, seed)
     # return(GMD_sample, 'GMD')
 
-    # RCMH_object = Experiment_2.GraphSampling.RCMH()
-    # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
-    # return(RCMH_sample, 'RCMH')
+    RCMH_object = Experiment_2.GraphSampling.RCMH()
+    RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
+    return(RCMH_sample, 'RCMH')
 
     # m = 4
     # node = list(G.nodes())
@@ -164,14 +164,14 @@ def graphSampling(G, isDirect, seed, rate):
     # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
     # return(ISMHRW_sample, 'ISMHRW')
 
-    m = 4
-    node = list(G.nodes())
-    seeds = random.sample(node, m)
-    seeds.append(seed)
-    print(seeds)
-    RMSC_object = Experiment_2.GraphSampling.RMSC()
-    RMSC_sample = RMSC_object.RMSC(G, sample_rate, seeds)  # graph, number of nodes to sample
-    return(RMSC_sample, 'RMSC')
+    # m = 4
+    # node = list(G.nodes())
+    # seeds = random.sample(node, m)
+    # seeds.append(seed)
+    # print(seeds)
+    # RMSC_object = Experiment_2.GraphSampling.RMSC()
+    # RMSC_sample = RMSC_object.RMSC(G, sample_rate, seeds)  # graph, number of nodes to sample
+    # return(RMSC_sample, 'RMSC')
 
 
 
@@ -259,8 +259,8 @@ def Per(G):
 
 
 def dataTest():
-    path1 = "InputData/eurosis_node.csv"
-    path2 = "InputData/eurosis_edge.csv"
+    path1 = "InputData/as_node.csv"
+    path2 = "InputData/as_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -313,23 +313,23 @@ def dataTest():
 
     # formal
     # rate range [0.1, 0.2, 0.3, 0.4]
-    # seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
-    # rate = 0.1
-    # iter = 5
-    # for seed_type in seed_types:
-    #     for i in range(iter):
-    #         if seed_type == 'Rnd':
-    #             random_seed = Rnd(G)
-    #         elif seed_type == 'Hbc':
-    #             random_seed = Hbc(G)
-    #         elif seed_type == 'Hdc':
-    #             random_seed = Hdc(G)
-    #         else:
-    #             random_seed = Per(G)
-    #         seed = random.sample(random_seed, 1)
-    #         sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
-    #         print(len(G), len(sample))
-    #         saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
+    seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
+    rate = 0.1
+    iter = 5
+    for seed_type in seed_types:
+        for i in range(iter):
+            if seed_type == 'Rnd':
+                random_seed = Rnd(G)
+            elif seed_type == 'Hbc':
+                random_seed = Hbc(G)
+            elif seed_type == 'Hdc':
+                random_seed = Hdc(G)
+            else:
+                random_seed = Per(G)
+            seed = random.sample(random_seed, 1)
+            sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+            print(len(G), len(sample))
+            saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
 
     # seed_types = ['Hbc', 'Hdc', 'Per']
     # rate = 0.1
@@ -350,23 +350,24 @@ def dataTest():
     #         print(len(G), len(sample))
     #         saveGraph(G, sample, fn, i + 1, sample_type, rate, seed_type)
 
-    seed_types = ['Per']
-    rate = 0.1
-    iter = 5
-    for seed_type in seed_types:
-        if seed_type == 'Rnd':
-            random_seed = Rnd(G)
-        elif seed_type == 'Hbc':
-            random_seed = Hbc(G)
-        elif seed_type == 'Hdc':
-            random_seed = Hdc(G)
-        else:
-            random_seed = Per(G)
-        seed = random.sample(random_seed, 1)
-        print(seed)
-        sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
-        print(len(G), len(sample))
-        saveGraph(G, sample, fn, iter, sample_type, rate, seed_type)
+    # seed_types = ['Per']
+    # rate = 0.1
+    # iters = [1,2,3,4,5]
+    # for seed_type in seed_types:
+    #     for iter in iters:
+    #         if seed_type == 'Rnd':
+    #             random_seed = Rnd(G)
+    #         elif seed_type == 'Hbc':
+    #             random_seed = Hbc(G)
+    #         elif seed_type == 'Hdc':
+    #             random_seed = Hdc(G)
+    #         else:
+    #             random_seed = Per(G)
+    #         seed = random.sample(random_seed, 1)
+    #         print(seed)
+    #         sample, sample_type = graphSampling(G, isDirect, seed[0], rate)
+    #         print(len(G), len(sample))
+    #         saveGraph(G, sample, fn, iter, sample_type, rate, seed_type)
 
 if __name__ == '__main__':
     dataTest()

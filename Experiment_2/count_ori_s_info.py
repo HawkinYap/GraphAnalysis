@@ -756,7 +756,7 @@ if __name__ == '__main__':
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW']
     sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RW', 'RJ', 'IRW', 'MHRW', 'GMD', 'RCMH', 'IDRW', 'RAS', 'ISMHRW', 'RMSC']
     seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
-    filename = 'eurosis'
+    filename = 'as'
     iter = 5
     rate = 0.1
     for sample_type in sample_types:

@@ -210,7 +210,7 @@ def addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly):
 
 
 def neighborSampler(G, rate, node, s=0):
-    rate = rate / 6
+    rate = rate / 3
     if s == 0:
         nodelist = list(G.neighbors(node))
         samplesize = math.floor(len(nodelist) * rate)
@@ -263,8 +263,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "../GraphSampling/newDetectionData/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
+    orig_edgefile_path = "../GraphSampling/newDetectionData/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
 
     # title = ['ID', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -317,7 +317,7 @@ def isPartition(G, fn, rate, isBalance):
             anomaly, anomaly_total = addMinorityStructure(Gp, Gs, rate, anomaly_total, total_anomaly)
             total_anomaly = list(set(total_anomaly + anomaly))
 
-    iter = 1
+    iter = 5
     sample_type = 'minocentric'
     for i in range(iter):
         size = math.floor(len(G) * rate)
@@ -366,8 +366,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/formalData/pgp2_node.csv"
-    path2 = "../GraphSampling/formalData/pgp2_edge.csv"
+    path1 = "../GraphSampling/formalData/facebook107_node.csv"
+    path2 = "../GraphSampling/formalData/facebook107_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -379,7 +379,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     rate = 0.3
-    isBalance = True
+    isBalance = False
     isPartition(G, fn, rate, isBalance)
 
 

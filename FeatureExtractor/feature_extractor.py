@@ -183,7 +183,7 @@ def Data_Test():
 
     # Test file type
     # path = "../SimulationDataset/simulation2.gml"
-    # path = "../Datasets/eurosis.gml"
+    # path = "../Datasets/eurosis_0.1.gml"
     # is_Direct = False
     # # Test data preprocessing
     # # path = "../Datasets/test1.csv"
