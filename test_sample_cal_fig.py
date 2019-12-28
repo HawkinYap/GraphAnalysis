@@ -22,22 +22,15 @@ def loadData(path1, path2, isDirect):
     f = open(path1, "r")
     reader1 = csv.reader(f)
     nodes = []
-    labels = []
     for item in reader1:
         nodes.append(int(item[0]))
-        labels.append(str(item[1]))
     f.close()
-    print(labels)
     if isDirect:
         G = nx.DiGraph()
     else:
         G = nx.Graph()
     G.add_nodes_from(nodes)
 
-    i = 0
-    for n in G.nodes():
-        G.nodes[n]['labels'] = labels[i]
-        i += 1
 
     # add edges
     f = open(path2, "r")
@@ -150,9 +143,9 @@ def graphSampling(G, isDirect, seed, rate):
 
     # -----variant sampler------
 
-    # ISMHRW_object = GraphSampling.MHRW()
-    # ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
-    # return(ISMHRW_sample, 'ISMHRW')
+    ISMHRW_object = GraphSampling.MHRW()
+    ISMHRW_sample = ISMHRW_object.induced_mhrw(G, sample_rate, isDirect, seed)  # graph, number of n
+    return(ISMHRW_sample, 'ISMHRW')
 
     # m = 5
     # node = list(G.nodes())
@@ -245,8 +238,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    classfile_path = "OtherAlgorithm/fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "OtherAlgorithm/fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "OtherAlgorithm/EX3_data/cspan/{}_{}_{}_node.csv".format(filename, sample_type, rate)
+    orig_edgefile_path = "OtherAlgorithm/EX3_data/cspan/{}_{}_{}_edge.csv".format(filename, sample_type, rate)
 
     title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -258,8 +251,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
 
 
 def dataTest():
-    path1 = "OtherAlgorithm/InputData/lesmi5_node.csv"
-    path2 = "OtherAlgorithm/InputData/lesmi5_edge.csv"
+    path1 = "GraphSampling/formalData/cspan_node.csv"
+    path2 = "GraphSampling/formalData/cspan_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -281,7 +274,7 @@ def dataTest():
     random_seed = random_seed[0]
 
     # test 1
-    rate = 0.4
+    rate = 0.3
     iter = 1
     seed = random.sample(random_seed, 1)
     Gs, sample_type = graphSampling(G, isDirect, seed[0], rate)

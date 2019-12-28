@@ -94,9 +94,9 @@ def graphSampling(G, isDirect, seed, rate):
     # FF_sample = FF_object.forestfire(G, sample_rate, seed)  # graph, number of nodes to sample
     # return(FF_sample, 'FF')
 
-    # RW_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
-    # RW_sample = RW_object.random_walk_sampling_simple(G, sample_rate, seed)  # graph, number of nodes to sample
-    # return(RW_sample, 'RW')
+    RW_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
+    RW_sample = RW_object.random_walk_sampling_simple(G, sample_rate, seed)  # graph, number of nodes to sample
+    return(RW_sample, 'RW')
 
 
     # RWF_object = Experiment_2.GraphSampling.SRW_RWF_ISRW()
@@ -119,9 +119,9 @@ def graphSampling(G, isDirect, seed, rate):
     # GMD_sample = GMD_object.gmd(G, sample_rate, isDirect, seed)
     # return(GMD_sample, 'GMD')
 
-    RCMH_object = Experiment_2.GraphSampling.RCMH()
-    RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
-    return(RCMH_sample, 'RCMH')
+    # RCMH_object = Experiment_2.GraphSampling.RCMH()
+    # RCMH_sample = RCMH_object.rcmh(G, sample_rate, isDirect, seed)
+    # return(RCMH_sample, 'RCMH')
 
     # m = 4
     # node = list(G.nodes())
@@ -314,7 +314,7 @@ def dataTest():
     # formal
     # rate range [0.1, 0.2, 0.3, 0.4]
     seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
-    rate = 0.1
+    rate = 0.2
     iter = 5
     for seed_type in seed_types:
         for i in range(iter):
@@ -352,7 +352,7 @@ def dataTest():
 
     # seed_types = ['Per']
     # rate = 0.1
-    # iters = [1,2,3,4,5]
+    # iters = [3,4,5]
     # for seed_type in seed_types:
     #     for iter in iters:
     #         if seed_type == 'Rnd':

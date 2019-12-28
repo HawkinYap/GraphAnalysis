@@ -210,7 +210,7 @@ def addMinorityStructure(G, Gs, rate, anomaly_total, total_anomaly):
 
 
 def neighborSampler(G, rate, node, s=0):
-    rate = rate / 3
+    rate = rate / 14
     if s == 0:
         nodelist = list(G.neighbors(node))
         samplesize = math.floor(len(nodelist) * rate)
@@ -366,8 +366,8 @@ def loadData(path1, path2, isDirect):
 
 # data processing
 def dataTest():
-    path1 = "../GraphSampling/formalData/facebook107_node.csv"
-    path2 = "../GraphSampling/formalData/facebook107_edge.csv"
+    path1 = "../GraphSampling/formalData/cspan_node.csv"
+    path2 = "../GraphSampling/formalData/cspan_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -379,7 +379,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     rate = 0.3
-    isBalance = False
+    isBalance = True
     isPartition(G, fn, rate, isBalance)
 
 

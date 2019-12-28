@@ -17,22 +17,15 @@ def loadData(path1, path2, isDirect):
     f = open(path1, "r")
     reader1 = csv.reader(f)
     nodes = []
-    labels = []
     for item in reader1:
         nodes.append(int(item[0]))
-        labels.append(str(item[1]))
     f.close()
-    print(labels)
     if isDirect:
         G = nx.DiGraph()
     else:
         G = nx.Graph()
     G.add_nodes_from(nodes)
 
-    i = 0
-    for n in G.nodes():
-        G.nodes[n]['Label'] = labels[i]
-        i += 1
 
     # add edges
     f = open(path2, "r")
@@ -46,8 +39,8 @@ def loadData(path1, path2, isDirect):
     return (G)
 
 def addGLabels(G, sample_type, filename, iter, rate):
-    path1 = "fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    path2 = "fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    path1 = "EX3_data/pgp/{}_{}_{}_node.csv".format(filename, sample_type, rate)
+    path2 = "EX3_data/pgp/{}_{}_{}_edge.csv".format(filename, sample_type, rate)
 
     # add nodes
     f = open(path1, "r")
@@ -56,11 +49,13 @@ def addGLabels(G, sample_type, filename, iter, rate):
     for item in reader1:
         type1.append(int(item[1]))
     f.close()
-
+    print(sample_type)
     i = 0
     for n in G.nodes():
+        print(n)
         G.nodes[n][sample_type] = type1[i]
         i += 1
+
 
     # add edges
     f = open(path2, "r")
@@ -78,10 +73,10 @@ def addGLabels(G, sample_type, filename, iter, rate):
 
 def addSampleLabels(G):
     # sample_types = ['RN', 'RPN', 'RDN', 'RNE', 'TIES', 'BF', 'FF', 'RWF', 'RJ', 'MHRW', 'GMD', 'RCMH', 'IDRW', 'DLA', 'DPL', 'GPS', 'SSP', 'SST', 'ISMHRW', 'RMSC']
-    sample_types = ['RDN', 'BF', 'TIES', 'FF', 'MHRW', 'NEW', 'SST', 'RWF']
-    filename = 'lesmi5'
+    sample_types = ['RDN', 'TIES', 'new', 'SST', 'ISMHRW', 'DPL']
+    filename = 'pgp2'
     iter = 1
-    rate = 0.4
+    rate = 0.3
     for sample_type in sample_types:
         addGLabels(G, sample_type, filename, iter, rate)
 
@@ -91,8 +86,8 @@ def Save_Graph_test(G, filename):
 
 
 def dataTest():
-    path1 = "InputData/lesmi5_node.csv"
-    path2 = "InputData/lesmi5_edge.csv"
+    path1 = "../GraphSampling/formalData/pgp2_node.csv"
+    path2 = "../GraphSampling/formalData/pgp2_edge.csv"
 
     file = os.path.splitext(path1)
     filename, type = file
@@ -102,6 +97,10 @@ def dataTest():
 
     isDirect = False
     G = loadData(path1, path2, isDirect)
+    for n,d in G.nodes(data=True):
+        print(n, d)
+    isolate = list(nx.isolates(G))
+    G.remove_nodes_from(isolate)
     addSampleLabels(G)
     Save_Graph_test(G, fn)
 

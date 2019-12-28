@@ -127,7 +127,7 @@ def DPL_sampler(G, rate):
         print('***')
         print(len(s), len(edge))
         print('***')
-        if len(s) == 0 or len(edge) == 0:
+        if len(s) == 0 or len(edge) == 0 or len(s) == 1 or len(s) == 2:
             continue
         alpha = DPL(len(s), len(edge))
         if alpha == None:
@@ -220,10 +220,8 @@ def saveGraph(G, sample, filename, iter, sample_type, rate):
             orig_edges.append([edge[0], edge[1], 1])
 
     # test csv
-    # classfile_path = "SamplingDataCount/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    # orig_edgefile_path = "SamplingDataCount/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
-    classfile_path = "fig_data/{}_{}_{}_{}_node.csv".format(sample_type, filename, rate, iter)
-    orig_edgefile_path = "fig_data/{}_{}_{}_{}_edge.csv".format(sample_type, filename, rate, iter)
+    classfile_path = "EX3_data/eurosis/{}_{}_{}_node.csv".format(filename, sample_type, rate)
+    orig_edgefile_path = "EX3_data/eurosis/{}_{}_{}_edge.csv".format(filename, sample_type, rate)
 
     title = ['ID', 'labels', 'Class']
     test = pd.DataFrame(data=class_nodes)
@@ -245,10 +243,13 @@ def dataTest():
     # path2 = "../GraphSampling/InputData/email2_edge.csv"
     # path1 = "../GraphSampling/InputData/class_node.csv"
     # path2 = "../GraphSampling/InputData/class_edge.csv"
+    path1 = "../GraphSampling/formalData/cspan_node.csv"
+    path2 = "../GraphSampling/formalData/cspan_edge.csv"
+    # path1 = "../Experiment_2/InputData/cagrqc_node.csv"
+    # path2 = "../Experiment_2/InputData/cagrqc_edge.csv"
     # path1 = "../GraphSampling/formalData/pgp2_node.csv"
     # path2 = "../GraphSampling/formalData/pgp2_edge.csv"
-    path1 = "../Experiment_2/InputData/cagrqc_node.csv"
-    path2 = "../Experiment_2/InputData/cagrqc_edge.csv"
+
 
 
     file = os.path.splitext(path1)
@@ -261,7 +262,7 @@ def dataTest():
     isDirect = False
     G = loadData(path1, path2, isDirect)
 
-    rate = 0.05
+    rate = 0.3
     iter = 1
     Gs = DPL_sampler(G, rate)
     print(len(Gs))
