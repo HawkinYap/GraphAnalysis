@@ -16,7 +16,7 @@ def starThreshold_1(G):
 
 # star threshold
 # The threshold is represented by the percentile of degrees
-def starThreshold_2(G, s=1):
+def starThreshold_2(G, s=2):
     G_degree = nx.degree(G)
     lst = []
     for i in G_degree:
@@ -98,9 +98,11 @@ def loadData(path1, path2, isDirect):
     f = open(path1, "r")
     reader1 = csv.reader(f)
     nodes = []
+    # for item in reader1:
+    #     if int(item[1]) == 2:
+    #         nodes.append(int(item[0]))
     for item in reader1:
-        if int(item[1]) == 2:
-            nodes.append(int(item[0]))
+        nodes.append(int(item[0]))
     f.close()
     if isDirect:
         G = nx.DiGraph()
@@ -112,9 +114,11 @@ def loadData(path1, path2, isDirect):
     f = open(path2, "r")
     reader1 = csv.reader(f)
     edges = []
+    # for item in reader1:
+    #     if int(item[2]) == 2:
+    #         edges.append([int(item[0]), int(item[1])])
     for item in reader1:
-        if int(item[2]) == 2:
-            edges.append([int(item[0]), int(item[1])])
+        edges.append([int(item[0]), int(item[1])])
     f.close()
     G.add_edges_from(edges)
     return (G)
@@ -125,8 +129,8 @@ def dataTest():
     # path1 = "starmatrix/toycase10_node.csv"
     # path2 = "starmatrix/toycase10_edge.csv"
 
-    path1 = "fig_data/RDN_lesmi5_0.4_1_node.csv"
-    path2 = "fig_data/RDN_lesmi5_0.4_1_edge.csv"
+    path1 = "../GraphSampling/formalData/as_node.csv"
+    path2 = "../GraphSampling/formalData/as_edge.csv"
 
 
     file = os.path.splitext(path1)
@@ -139,7 +143,7 @@ def dataTest():
     G = loadData(path1, path2, isDirect)
 
     # origin graph
-    threshold = starThreshold_1(G)
+    threshold = starThreshold_2(G)
     heigh_neighbour = 0.05
     anomaly_total1 = {}
     Extract_Global_High_Neighbor(G, heigh_neighbour, anomaly_total1)

@@ -758,7 +758,7 @@ if __name__ == '__main__':
     seed_types = ['Rnd', 'Hbc', 'Hdc', 'Per']
     filename = 'as'
     iter = 5
-    rate = 0.1
+    rate = 0.2
     for sample_type in sample_types:
         for seed_type in seed_types:
             for i in range(iter):
